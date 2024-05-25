@@ -18,6 +18,7 @@ import com.google.gson.JsonObject;
 public class DbFileInsert {
 
 	private final List<String> content = new ArrayList<>();
+	private String url;
 
 	public DbFileInsert() {
 	}
@@ -41,6 +42,8 @@ public class DbFileInsert {
 		final JsonObject insertion = new JsonObject();
 		final Instant instant = Instant.ofEpochMilli(System.currentTimeMillis());
 		insertion.addProperty("when", DateTimeFormatter.ISO_INSTANT.format(instant));
+		if (url != null)
+			insertion.addProperty("url", url);
 		// insertion.addProperty("os", System.getProperty("os.name"));
 		insertion.addProperty("user", user);
 		// final String hostName = InetAddress.getLocalHost().getHostName();
@@ -56,6 +59,10 @@ public class DbFileInsert {
 
 		Files.write(path, combinedStream.collect(Collectors.toList()));
 
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
 	}
 
 }

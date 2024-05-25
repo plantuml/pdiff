@@ -5,10 +5,15 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Iterator;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.fusesource.jansi.Ansi;
 
 public class RawFile {
+
+	private static final String urlRegex = "(https?://[^\\s]+)";
+	private static final Pattern pattern = Pattern.compile(urlRegex, Pattern.CASE_INSENSITIVE);
 
 	private final Path path;
 	private final List<String> content;
@@ -21,6 +26,15 @@ public class RawFile {
 		uncommentLines();
 	}
 
+	private static String detectUrl(String s) {
+		final Matcher matcher = pattern.matcher(s);
+
+		if (matcher.find())
+			return matcher.group();
+
+		return null;
+	}
+	
 	public void process(String user, DbCollection dbCollection) throws IOException {
 		System.out.print(Ansi.ansi().cursorUpLine());
 		System.out.print(Ansi.ansi().eraseLine());
@@ -29,10 +43,17 @@ public class RawFile {
 		System.out.println("Reading " + path);
 		System.out.println();
 
+		String url = null;
+
 		for (final Iterator<String> it = content.iterator(); it.hasNext();) {
 			String s = it.next();
+			final String tmp = detectUrl(s);
+			if (tmp != null) {
+				url = tmp;
+			}
 			if (s.startsWith("@start")) {
 				final DbFileInsert dbFile = new DbFileInsert();
+				dbFile.setUrl(url);
 				dbFile.append(s);
 				do {
 					s = it.next();
