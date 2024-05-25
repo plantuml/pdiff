@@ -1,0 +1,10 @@
+{
+  "sha1": "1d1931njvxqz1d7ahohwp60mo046ali",
+  "insertion": {
+    "when": "2024-05-25T18:41:45.029Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+(\{([^{}]*))
+@endregex

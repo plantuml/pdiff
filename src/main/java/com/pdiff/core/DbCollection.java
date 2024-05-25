@@ -28,7 +28,10 @@ public class DbCollection {
 
 	public void insertSingleFile(String user, DbFileInsert dbFile) throws IOException {
 		final String sha1 = dbFile.getSha1();
-		dbFile.exportTo(user, getActualPath(sha1));
+		final Path actualPath = getActualPath(sha1);
+
+		if (Files.exists(actualPath) == false)
+			dbFile.exportTo(user, actualPath);
 
 	}
 

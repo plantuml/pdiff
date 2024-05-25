@@ -1,0 +1,16 @@
+{
+  "sha1": "1dkdc2pq9bbt9jnw8bxe79c5so23aj3",
+  "insertion": {
+    "when": "2024-05-25T18:41:45.031Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultFontName consolas
+skinparam classAttributeFontSize 14
+package org.junit.jupiter.engine {
+class AbstractJupisterTestEngineTests {
++ executeTests(LauncherDiscoveryRequest) : ExecutionEventRecorder
+}
+}
+@enduml
