@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -82,7 +81,7 @@ public class HtmlRun {
 							    </style>
 							</head>
 							<body onload="brython()">
-							    <input type="text" id="input-field" class="input-field" placeholder="Type a name here...">
+							    <input type="text" id="input-field" class="input-field" placeholder="Type an id here...">
 							    <ul id="dropdown" class="dropdown"></ul>
 							    <div id="result"></div>
 
@@ -164,6 +163,7 @@ public class HtmlRun {
 			pw.println("<th>Width</th>");
 			pw.println("<th>Height</th>");
 			pw.println("<th>Description</th>");
+			pw.println("<th>URL</th>");
 			pw.println("</tr>");
 
 			all.stream().forEach(file -> {
@@ -184,6 +184,12 @@ public class HtmlRun {
 					pw.println("</td>");
 					pw.println("<td>");
 					pw.print(file.getDescription());
+					pw.println("</td>");
+					pw.println("<td>");
+					final String url = file.getUrl();
+					if (url != null) {
+						pw.print("<a href='" + url + "'>" + url + "</a>");
+					}
 					pw.println("</td>");
 					pw.println("</tr>");
 				} catch (Exception e) {

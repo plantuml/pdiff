@@ -31,15 +31,6 @@ public class DbFileBeforeRun {
 		return pumlPath.getFileName().toString();
 	}
 
-	private static int getStartingLine(List<String> lines) {
-		for (int i = 0; i < lines.size(); i++)
-			if (lines.get(i).startsWith("@start"))
-				return i;
-
-		throw new IllegalStateException();
-
-	}
-
 	private Path transformPath(Path path, String extension) {
 		final String directory1 = path.getName(1).toString();
 		final String newFileName = path.getFileName().toString().replace(".puml", extension);
@@ -50,7 +41,7 @@ public class DbFileBeforeRun {
 
 	public void convertMe() throws Exception {
 		List<String> all = Files.readAllLines(pumlPath);
-		all = all.subList(getStartingLine(all), all.size());
+		all = all.subList(DbCollection.getStartingLine(all), all.size());
 
 		final String text = String.join("\n", all);
 		final Path outputPathPng = transformPath(pumlPath, ".png");

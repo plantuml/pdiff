@@ -20,7 +20,7 @@ import com.pdiff.html.HtmlRun;
 public class RunCommand {
 
 	@Parameter(names = { "-r", "--run" }, description = "Specifies the name of the run", required = false)
-	private String version = "";
+	private String version;
 
 	@Parameter(names = { "-s", "--slot" }, description = "Specifies the number of parallel slots", required = false)
 	private int slot = Runtime.getRuntime().availableProcessors();
@@ -39,7 +39,7 @@ public class RunCommand {
 		this.count = dbCollection.count();
 		this.minimalPrefix = dbCollection.getMinimalPrefix();
 
-		if (version.length() == 0)
+		if (version == null)
 			version = Introspection.versionString();
 
 		final ExecutorService executorService = Executors.newFixedThreadPool(slot, new NumberedThreadFactory());

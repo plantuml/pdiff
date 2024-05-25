@@ -5,10 +5,7 @@ import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Collection;
-import java.util.List;
-import java.util.stream.Collectors;
 
-import com.google.gson.JsonObject;
 import com.pdiff.core.Cmp;
 import com.pdiff.core.DbFileAfterRun;
 

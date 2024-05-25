@@ -89,4 +89,14 @@ public class DbCollection {
 	public static void main(String[] args) {
 		System.err.println(getMinimalPrefixLengthForThose("ABCD", "ABC1"));
 	}
+
+	public static int getStartingLine(List<String> lines) {
+		for (int i = 0; i < lines.size(); i++)
+			if (lines.get(i).startsWith("@start"))
+				return i;
+
+		throw new IllegalStateException();
+
+	}
+
 }
