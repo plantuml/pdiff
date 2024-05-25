@@ -82,7 +82,7 @@ public class RunCommand {
 				"Total " + done + "/" + count + " [" + duration + "s ETA=" + (eta / 60) + " minutes ]");
 		done.incrementAndGet();
 
-		dbFile.convertMe();
+		dbFile.convertMe(this.minimalPrefix);
 
 	}
 

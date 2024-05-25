@@ -1,6 +1,7 @@
 package com.pdiff.core;
 
 import java.awt.image.BufferedImage;
+import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -39,13 +40,14 @@ public class DbFileBeforeRun {
 
 	}
 
-	public void convertMe() throws Exception {
+	public void convertMe(int minimalPrefix) throws Exception {
 		List<String> all = Files.readAllLines(pumlPath);
 		all = all.subList(DbCollection.getStartingLine(all), all.size());
 
 		final String text = String.join("\n", all);
 		final Path outputPathPng = transformPath(pumlPath, ".png");
 		final Path outputPathJson = transformPath(pumlPath, ".json");
+		final Path outputPathHtml = transformPath(pumlPath, ".html");
 		Files.createDirectories(outputPathPng.getParent());
 
 		final long start = System.currentTimeMillis();
@@ -69,6 +71,46 @@ public class DbFileBeforeRun {
 
 		final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		Files.write(outputPathJson, List.of(gson.toJson(jsonObject)));
+
+		try (PrintWriter pw = new PrintWriter(Files.newBufferedWriter(outputPathHtml))) {
+			pw.println("<html><head><title>" + getFileName(minimalPrefix) + " - " + this.runcode + "</title>");
+			pw.println("""
+					<style>
+					    h2 {
+					        text-align: center;
+					        color: #333;
+					    }
+					    hr {
+					        border: 0;
+					        height: 1px;
+					        background: #ddd;
+					        margin: 20px 0;
+					    }
+					    .code-container {
+					        background-color: #f9f9f9;
+					        border: 1px solid #ddd;
+					        border-radius: 8px;
+					        padding: 0px 10px;
+					    }
+					</style>
+						""");
+			pw.println("</head>");
+			pw.println("<body>");
+			pw.println("<h2>" + getFileName(minimalPrefix) + "</h2>");
+			pw.println("<hr>");
+			final String src_image = getFileName().replace(".puml", ".png");
+			pw.println("<img src='" + src_image + "'>");
+			pw.println("<hr>");
+			pw.println("<div class='code-container'>");
+			pw.print("<pre><code>");
+			for (String s : all)
+				pw.println(s);
+			pw.println("</code></pre>");
+			pw.println("</div>");
+			pw.println("</body>");
+			pw.println("</html>");
+
+		}
 
 	}
 
