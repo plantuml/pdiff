@@ -171,7 +171,9 @@ public class HtmlRun {
 					final String name = file.getFileName(minimalPrefix).replace(".puml", "");
 					pw.println("<tr>");
 					pw.println("<td>");
-					pw.print(name);
+					final String link = runcode + "/" + file.getFileName().substring(0, 2) + "/"
+							+ file.getFileName().replace(".puml", ".html");
+					pw.print("<a href='" + link + "'>" + name + "</a>");
 					pw.println("</td>");
 					pw.println("<td>");
 					pw.print(file.getDuration());
