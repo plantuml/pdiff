@@ -1,6 +1,7 @@
 package com.pdiff.core;
 
 import java.awt.image.BufferedImage;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -47,7 +48,6 @@ public class DbFileBeforeRun {
 		final String text = String.join("\n", all);
 		final Path outputPathPng = transformPath(pumlPath, ".png");
 		final Path outputPathJson = transformPath(pumlPath, ".json");
-		final Path outputPathHtml = transformPath(pumlPath, ".html");
 		Files.createDirectories(outputPathPng.getParent());
 
 		final long start = System.currentTimeMillis();
@@ -71,6 +71,19 @@ public class DbFileBeforeRun {
 
 		final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		Files.write(outputPathJson, List.of(gson.toJson(jsonObject)));
+
+	}
+
+	private static String getOtherLink(DbFileBeforeRun other) {
+		final String name = other.getFileName().replace(".puml", ".html");
+		return "../" + name.substring(0, 2) + "/" + name;
+	}
+
+	public void createStandaloneHtml(int minimalPrefix, DbFileBeforeRun prev, DbFileBeforeRun next) throws IOException {
+		final Path outputPathHtml = transformPath(pumlPath, ".html");
+
+		List<String> all = Files.readAllLines(pumlPath);
+		all = all.subList(DbCollection.getStartingLine(all), all.size());
 
 		try (PrintWriter pw = new PrintWriter(Files.newBufferedWriter(outputPathHtml))) {
 			pw.println("<html><head><title>" + getFileName(minimalPrefix) + " - " + this.runcode + "</title>");
@@ -96,6 +109,15 @@ public class DbFileBeforeRun {
 						""");
 			pw.println("</head>");
 			pw.println("<body>");
+
+			final String home = "../../" + runcode + ".html";
+			pw.println("<a href='" + home + "'>Home</a>");
+
+			if (prev != null)
+				pw.println("<a href='" + getOtherLink(prev) + "'>Previous</a>");
+			if (next != null)
+				pw.println("<a href='" + getOtherLink(next) + "'>Next</a>");
+			pw.println("<br>");
 			pw.println("<h2>" + getFileName(minimalPrefix) + "</h2>");
 			pw.println("<hr>");
 			final String src_image = getFileName().replace(".puml", ".png");
@@ -111,7 +133,6 @@ public class DbFileBeforeRun {
 			pw.println("</html>");
 
 		}
-
 	}
 
 }

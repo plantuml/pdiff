@@ -3,6 +3,8 @@ package com.pdiff;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -47,18 +49,26 @@ public class RunCommand {
 
 		this.magicOutput = new MagicOutput(slot + 1);
 
-		dbCollection.streamsBeforeRun(this.version).forEach(p -> executorService.submit(() -> {
+		final List<DbFileBeforeRun> ok = new ArrayList<>();
+
+		dbCollection.streamsBeforeRun(version).forEach(p -> executorService.submit(() -> {
 			try {
 				processFile(p);
+				ok.add(p);
 			} catch (Exception e) {
-				// e.printStackTrace();
+				e.printStackTrace();
 			}
 		}));
+		this.magicOutput.restoreOutput();
 
 		executorService.shutdown();
 		executorService.awaitTermination(1, TimeUnit.HOURS);
 
-		this.magicOutput.restoreOutput();
+		for (int i = 0; i < ok.size(); i++) {
+			final DbFileBeforeRun prev = i > 0 ? ok.get(i - 1) : null;
+			final DbFileBeforeRun next = i < ok.size() - 1 ? ok.get(i + 1) : null;
+			ok.get(i).createStandaloneHtml(minimalPrefix, prev, next);
+		}
 
 		final Path outHtml = Paths.get("runs", version + ".html");
 
