@@ -1,15 +1,7 @@
 package com.pdiff.core;
 
 import java.awt.image.BufferedImage;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Serializable;
-import java.util.StringTokenizer;
 import java.util.zip.CRC32;
-
-import javax.imageio.ImageIO;
 
 public class ImageSignature {
 

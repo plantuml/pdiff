@@ -1,0 +1,19 @@
+{
+  "sha1": "1bbvzjbsnx80sz7ub0ooaik5xn6b1tu",
+  "insertion": {
+    "when": "2024-05-25T14:26:51.409Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+state comp1 {
+    comp1: entry / do_entry()
+    state entrystate1 <<entrypoint>>
+    state entrystate2 <<entrypoint>>
+    state entrystate3 <<entrypoint>>
+    state entrystate4 <<entrypoint>>
+    state entrystate5 <<entrypoint>>
+    state entrystate6 <<entrypoint>>
+}
+@enduml

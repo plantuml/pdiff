@@ -1,0 +1,19 @@
+{
+  "sha1": "1ar1pym8z75ecyap7zdvhh901uff1gu",
+  "insertion": {
+    "when": "2024-05-25T14:26:51.403Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class dummy
+toto1 ()-- dummy
+toto2 ()-- dummy
+toto3 ()-- dummy
+
+tutu1 ()- dummy
+tutu2 ()- dummy
+tutu3 ()- dummy
+tutu4 ()- dummy
+
+@enduml

@@ -12,7 +12,7 @@ import org.fusesource.jansi.Ansi;
 
 public class RawFile {
 
-	private static final String urlRegex = "(https?://[^\\s]+)";
+	private static final String urlRegex = "(https?://[^\\s'\"]+)";
 	private static final Pattern pattern = Pattern.compile(urlRegex, Pattern.CASE_INSENSITIVE);
 
 	private final Path path;
@@ -34,7 +34,7 @@ public class RawFile {
 
 		return null;
 	}
-	
+
 	public void process(String user, DbCollection dbCollection) throws IOException {
 		System.out.print(Ansi.ansi().cursorUpLine());
 		System.out.print(Ansi.ansi().eraseLine());
@@ -48,12 +48,13 @@ public class RawFile {
 		for (final Iterator<String> it = content.iterator(); it.hasNext();) {
 			String s = it.next();
 			final String tmp = detectUrl(s);
-			if (tmp != null) {
+			if (tmp != null)
 				url = tmp;
-			}
+
 			if (s.startsWith("@start")) {
 				final DbFileInsert dbFile = new DbFileInsert();
 				dbFile.setUrl(url);
+				url = null;
 				dbFile.append(s);
 				do {
 					s = it.next();

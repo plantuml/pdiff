@@ -6,8 +6,6 @@ build
 /bin/
 /runs/
 /raw/
-/db/
-/db*/
 *.jar
 1*.html
 .classpath
@@ -16,3 +14,4 @@ build
 *.txt
 *.log
 svek.*
+/tmp/

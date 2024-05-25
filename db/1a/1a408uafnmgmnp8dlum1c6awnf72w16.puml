@@ -1,0 +1,11 @@
+{
+  "sha1": "1a408uafnmgmnp8dlum1c6awnf72w16",
+  "insertion": {
+    "when": "2024-05-25T14:26:51.365Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam minClassWidth 400
+Alice -> Bob : hello
+@enduml

@@ -51,7 +51,7 @@ public class DbFileInsert {
 
 		jsonObject.add("insertion", insertion);
 
-		final Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		final Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
 
 		final List<String> list2 = List.of(gson.toJson(jsonObject));
 

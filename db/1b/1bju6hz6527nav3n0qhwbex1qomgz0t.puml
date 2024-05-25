@@ -1,0 +1,15 @@
+{
+  "sha1": "1bju6hz6527nav3n0qhwbex1qomgz0t",
+  "insertion": {
+    "when": "2024-05-25T14:26:51.411Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!pragma layout smetana
+state Alice
+Alice -> Bob
+Bob --> Alice
+
+@enduml
