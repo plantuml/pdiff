@@ -1,0 +1,13 @@
+{
+  "sha1": "1n0j2ypcx27kty5sqay6m1pyi607wf",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.738Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component dummy
+note as tott
+toto
+end note
+@enduml

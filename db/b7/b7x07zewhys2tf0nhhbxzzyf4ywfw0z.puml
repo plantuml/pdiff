@@ -1,0 +1,28 @@
+{
+  "sha1": "b7x07zewhys2tf0nhhbxzzyf4ywfw0z",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.038Z",
+    "url": "https://forum.plantuml.net/17932/nwdiag-possible-misbehavior?show=17943#c17943",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+
+c1 [ shape = cloud];
+c2 [ shape = cloud];
+
+c1 -- a;
+
+network nw {
+  a;
+  b;
+}
+b -- c2
+network nwx {
+  b;
+  x
+}
+
+}
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "94bqsq9dsmmmtojss2br6445v574742",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.598Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam topurl http://www.google.com
+Dog --|> Mammal
+'url of Mamal is [[/search]]
+'url of Dog is [[http://www.yahoo.com{This is Dog}]]
+class Mamal [[/search]]
+class Dog [[http://www.yahoo.com{This is Dog}]]
+Dog o-- Cat
+Cat --|> Mammal
+@enduml

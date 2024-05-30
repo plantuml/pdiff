@@ -1,0 +1,19 @@
+{
+  "sha1": "73s3rhzdp00ou2rw5qhubz73p4wzm03",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.114Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+note over Alice : initial state of Alice
+/ note over Bob : initial sdkfljsdfl sdf sdmf
+/ note over Alice3
+ b
+ c
+ d
+end note
+/ note over Alice4 : initial sdf sdf sdf sdfsdfds sdf
+Bob -> Alice : hello
+Bob -> Alice3 : hello
+@enduml

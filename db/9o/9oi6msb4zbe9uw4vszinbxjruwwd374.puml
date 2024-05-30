@@ -1,0 +1,16 @@
+{
+  "sha1": "9oi6msb4zbe9uw4vszinbxjruwwd374",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.734Z",
+    "url": "https://forum.plantuml.net/14131/allow-scale-or-dpi-for-json-or-yaml-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startyaml
+scale 2
+fruit: Apple
+size: Large
+color: 
+ - Red
+ - Green
+@endyaml

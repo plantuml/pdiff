@@ -1,0 +1,57 @@
+{
+  "sha1": "309tn8xu84kvt14hgu39qrs8vrc8f0v",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.146Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+concise "Report Line" as rl
+concise "Server Time" as st
+concise "Real Time" as rt
+concise "Device Reported Time" as drt
+
+note bottom of rl: real \n
+
+@0
+rl is 0
+st is 0
+rt is 0
+drt is 0
+
+@1
+rl is 0
+st is 0
+rt is 0
+drt is 0
+
+@2
+rl is 0
+st is 0
+rt is 0
+drt is 0
+
+@100
+st->rl : server\nevent
+
+@200
+st->rl : server\nevent
+
+
+@300
+rt -> st@+100 : report delivered \n later than \n its origin time
+drt -> rt : device time \n is accurate
+st@+100 -> rl : recorded \n at device \n time
+
+@600
+st -> rl : server\nevent
+
+@700
+rt -> st@+100 : report delivered \n later than \n its origin time
+drt@500 -> rt : device time \n is inaccurate
+st@+100 -> rl@500
+
+@2000
+
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "66v2g8txvqmzhzzl6p7j47jm8rdyenh",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.894Z",
+    "url": "https://forum.plantuml.net/13434/gantt-milestone-bug?show=13448#c13448",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+Project starts 2021-03-17
+
+saturday are closed
+sunday are closed
+
+' Milestones
+[Review 01] happens at 2021-03-29
+[Review 02] happens on 21 days after [Review 01]'s end
+@endgantt

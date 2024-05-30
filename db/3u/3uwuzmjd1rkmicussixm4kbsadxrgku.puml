@@ -1,0 +1,13 @@
+{
+  "sha1": "3uwuzmjd1rkmicussixm4kbsadxrgku",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.366Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[Component1] << Stereotype >> [[http://Component1]]
+() Interface << Other Stereotype >> [[http://Interface]]
+'url of Component1 [[http://Component1]]
+'url of Interface [[http://Interface]]
+@enduml

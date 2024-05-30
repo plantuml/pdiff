@@ -1,0 +1,13 @@
+{
+  "sha1": "9g44i9kwc4omxwf6xaa4ko6tvf17i0o",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.682Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+
+alice -> bob : expected 3 for %strlen("foo")
+@enduml

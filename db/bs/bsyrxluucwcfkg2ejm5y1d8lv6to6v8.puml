@@ -1,0 +1,17 @@
+{
+  "sha1": "bsyrxluucwcfkg2ejm5y1d8lv6to6v8",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.154Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+activate Bob
+Bob -> Alice : hello
+...
+Alice -> Bob : ok
+...dummy...
+Alice -> Bob : ok2
+...dummy\non\nseveral\nlines...
+Alice -> Bob : ok3
+@enduml

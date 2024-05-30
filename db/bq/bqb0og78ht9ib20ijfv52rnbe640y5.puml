@@ -1,0 +1,14 @@
+{
+  "sha1": "bqb0og78ht9ib20ijfv52rnbe640y5",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.142Z",
+    "url": "https://forum.plantuml.net/14925/why-cant-i-compare-character-json-u0022-with-u-0022",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$quote= "<U+0022>"
+!$json = { "quote1" : "\"", "quote2" : "\u0022" } 
+
+:The four different quotes: $quote $json.quote1 $json.quote2 %chr(34);
+@enduml

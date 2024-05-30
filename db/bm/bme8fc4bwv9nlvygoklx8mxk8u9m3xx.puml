@@ -1,0 +1,14 @@
+{
+  "sha1": "bme8fc4bwv9nlvygoklx8mxk8u9m3xx",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.122Z",
+    "url": "https://forum.plantuml.net/7637/change-gantt-scale-for-long-projects?show=10818#c10818",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+printscale weekly
+Project starts the 2020/2/3
+[Milestone] happens 2020/2/14
+[Task] lasts 5 weeks
+@endgantt

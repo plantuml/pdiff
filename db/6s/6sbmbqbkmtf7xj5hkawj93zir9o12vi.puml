@@ -1,0 +1,15 @@
+{
+  "sha1": "6sbmbqbkmtf7xj5hkawj93zir9o12vi",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.038Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+title title
+Bob -> Alice : hello
+footer footer
+header header
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "bi2cxuvp53xdf9fpg25ehfxkz40ehk9",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.098Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+sprite Netw jar:archimate/network
+
+!include <tupadr3/font-awesome/star>
+class Foo {
+ <color:#FF0000><&x></color> someBadField
+ <color:red><$star*0.25></color> something else
+ <color:#AAAA00><$Netw></color> archimate from zip file
+ <color:red><$Netw></color> archimatefrom from zip file
+}
+@enduml

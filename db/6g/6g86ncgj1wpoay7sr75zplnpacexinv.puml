@@ -1,0 +1,20 @@
+{
+  "sha1": "6g86ncgj1wpoay7sr75zplnpacexinv",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.950Z",
+    "url": "https://forum.plantuml.net/10597/preprocessorv2-multiline-function-invocation",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!unquoted procedure $f($x)
+title $x
+!endprocedure
+
+$f(xxxx\
+ddada\
+ok\
+)
+a->b
+
+@enduml

@@ -1,0 +1,32 @@
+{
+  "sha1": "aleytzipfafy9j5koh2z10zi1qw4syk",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.898Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequence {
+    ArrowColor Black
+    ActorBorderColor Black
+    ActorBackgroundColor #BBBBBB
+    LifeLineBorderColor Black
+    LifeLineBackgroundColor #BBBBBB
+    
+    ParticipantBorderColor Black
+    ParticipantBackgroundColor #AAAAAA
+ 
+    BoxBorderColor Black
+ 
+    'ParticipantFontName Impact
+    'ParticipantFontSize 17
+    'ParticipantFontColor #BBBBBB
+    
+    'ActorBackgroundColor aqua
+    'ActorFontColor DeepSkyBlue
+    'ActorFontSize 17
+    'ActorFontName Aapex
+}
+
+Alice -> Bob : hello
+@enduml

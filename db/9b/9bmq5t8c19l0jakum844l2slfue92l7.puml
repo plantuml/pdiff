@@ -1,0 +1,18 @@
+{
+  "sha1": "9bmq5t8c19l0jakum844l2slfue92l7",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.646Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1241",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+element {
+  hyperlinkUnderlineThickness 2
+  hyperlinkUnderlineStyle 5-1
+  hyperlinkColor Red
+}
+</style>
+state "[[S1]]" as S1
+@enduml

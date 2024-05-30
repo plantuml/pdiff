@@ -1,0 +1,27 @@
+{
+  "sha1": "6v3v6jhkpzjybxtoajrlkhtxwa1mfci",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.062Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+'skin BlueModern
+
+Bob -> Alice : hello
+Bob <- Alice : hello
+
+Bob ->> Alice : hello
+Bob <<- Alice : hello
+
+Bob --> Alice : hello
+Alice --> Bob : hello
+
+Bob -->> Alice : hello
+Alice -->> Bob : hello
+
+Bob -> Bob : Hello
+Bob --> Bob : Hello
+
+@enduml

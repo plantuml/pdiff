@@ -1,0 +1,18 @@
+{
+  "sha1": "1xouxgwiysbq8aykk7h585qmrv3i1jz",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.830Z",
+    "url": "https://forum.plantuml.net/15232/declare-participants-similar-to-components",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant MyParticipant [
+    =MyTitle
+    ----
+    ""MySubTitle""
+]
+participant Bob
+
+MyParticipant -> Bob
+@enduml

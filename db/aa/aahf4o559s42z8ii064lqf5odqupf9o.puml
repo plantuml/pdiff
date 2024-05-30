@@ -1,0 +1,13 @@
+{
+  "sha1": "aahf4o559s42z8ii064lqf5odqupf9o",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.846Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set namespaceseparator none
+cloud {
+[...]
+}
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "66m63xa8hp2b69twppgipbddzf4t1bx",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.890Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> "init"
+ --> "look for data"
+ -->[data found] "examine data"
+ -down->[data allow to wait] "wait for next data"
+ -left-> "examine data"
+ -->[data require activation] "trigger activation"
+ --> "activate"
+ "look for data" -->[no data] "trigger activation"
+ "activate" --> (*)
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "8wmcrywt3rjzmebjnpgcdr0m5kyxq5a",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.538Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Dwelling <<(X,#FF7700)>> {
+  +<size:24><color:red><&ban></color></size> IntWindows <&thumb-up>
+}
+@enduml

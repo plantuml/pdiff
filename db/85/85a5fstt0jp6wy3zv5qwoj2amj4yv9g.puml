@@ -1,0 +1,16 @@
+{
+  "sha1": "85a5fstt0jp6wy3zv5qwoj2amj4yv9g",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.342Z",
+    "url": "https://forum.plantuml.net/12731/add-null-character-to-%25filename-on-server-and-picoweb?show=12762",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Title "x1"
+actor actor
+caption "x2"
+footer "x3"
+header "x4"
+legend "x5"
+@enduml

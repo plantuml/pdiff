@@ -1,0 +1,15 @@
+{
+  "sha1": "43ghuk6qko5c74wzxjbwtltfjufwljd",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.414Z",
+    "url": "https://forum.plantuml.net/10676/repeat-plus-colour",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:A;
+#red:repeat :foo;
+#blue:D;
+repeat while (C)
+:D;
+@enduml

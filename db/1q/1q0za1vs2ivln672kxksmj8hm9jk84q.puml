@@ -1,0 +1,27 @@
+{
+  "sha1": "1q0za1vs2ivln672kxksmj8hm9jk84q",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.758Z",
+    "url": "https://forum.plantuml.net/15481/possible-link-elements-from-two-jsons-with-both-jsons-embeded?show=15550#c15550",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+map CapitalCity {
+ UK => London
+ USA => Washington
+ Germany => Berlin
+}
+
+json A {
+"name": "component c1",
+"color": ["normal", "green", "red"],
+"visible": true,
+"user" : { "age": 23, "name": "John"}
+}
+
+
+
+
+@enduml

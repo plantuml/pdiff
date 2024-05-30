@@ -1,0 +1,11 @@
+{
+  "sha1": "9ebyzowkodls2u5aeu3fohuuvo6txls",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.670Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam objectBorderThickness .5
+object Foo
+@enduml

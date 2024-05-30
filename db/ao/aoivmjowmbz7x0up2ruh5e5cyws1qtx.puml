@@ -1,0 +1,20 @@
+{
+  "sha1": "aoivmjowmbz7x0up2ruh5e5cyws1qtx",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.918Z",
+    "url": "https://forum.plantuml.net/12278/o-sets-wrong-arrow-direction",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty methods
+hide empty attributes
+hide circle
+skinparam classAttributeIconSize 0
+x -up-o up_o
+x -down-o down_o
+x -left-o left_o
+x -right-o right_o
+x --o long_o
+x -o short_o
+@enduml

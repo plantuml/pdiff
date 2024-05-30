@@ -1,0 +1,13 @@
+{
+  "sha1": "9spqhu2zscxqa5ft9b02g3537k88wtv",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.762Z",
+    "url": "https://forum.plantuml.net/13376/cannot-use-symbols-at-the-beginning-of-keys-in-yaml",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startyaml
+&ruit: Apple
+size: Large
+color: Red
+@endyaml

@@ -1,0 +1,35 @@
+{
+  "sha1": "90ltivz7imy2d1nelsgz1zjyacx87j9",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.578Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1050",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+group [GENERAL DESIGN]
+
+group [Architectural design]
+[Create draft of architecture] lasts 10 days
+then [Prepare construction documents] lasts 10 days
+then [Agreement on architectural plan] lasts 1 day
+end group
+
+
+group [Interior design phase]
+then [Pre design] lasts 3 days
+then [Furniture selection] lasts 3 days
+[Equipement planning] lasts 3 days and starts after [Pre design]'s end
+end group
+
+end group
+
+group [Construction phase]
+[Building foundation] lasts 15 days and starts after [Agreement on architectural plan]'s end
+then [Ground Floor building] lasts 10 days
+then [First Floor building] lasts 10 days
+then [Roof] lasts 10 days
+end group
+
+@endgantt

@@ -1,0 +1,15 @@
+{
+  "sha1": "4ben320ywi8entcakkrgk24s67ut3mg",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.466Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skin BlueModern
+Bob->Alice : coucou\nit\nme
+activate Alice
+Alice->Alice: well
+Alice-->Bob: ok
+deactivate Alice
+@enduml

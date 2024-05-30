@@ -1,0 +1,12 @@
+{
+  "sha1": "7x3gvrqfafdf002pofapmgv11zd7tus",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.298Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam wrapMessageWidth 100
+A->B:very long long long message name
+
+@enduml

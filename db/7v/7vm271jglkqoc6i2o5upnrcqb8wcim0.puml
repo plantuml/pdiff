@@ -1,0 +1,16 @@
+{
+  "sha1": "7vm271jglkqoc6i2o5upnrcqb8wcim0",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.286Z",
+    "url": "https://forum.plantuml.net/16397/add-qualified-associations-to-class-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class top
+class class2
+class class3
+
+top [Qualifier2] -- [Qualifier2] class2
+top [Qualifier3] -- [Qualifier3] class3
+@enduml

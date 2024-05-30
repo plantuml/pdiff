@@ -1,0 +1,16 @@
+{
+  "sha1": "85ms2rwqrtgocmrdltkalyql2kmo5yz",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.346Z",
+    "url": "https://github.com/plantuml/plantuml-epl/pull/1",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+rectangle "rv" {
+port "hitchReceiver"
+rectangle "cabin"
+}
+
+@enduml

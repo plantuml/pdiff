@@ -1,0 +1,24 @@
+{
+  "sha1": "apxt8uazcgownhxniknotv03jhd7aon",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.930Z",
+    "url": "https://the-lum.github.io/puml-themes-gallery/#aws-orange",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!theme aws-orange
+
+object London
+object Washington
+object Berlin
+object NewYork
+
+map CapitalCity {
+ UK *-> London
+ USA *--> Washington
+ Germany *---> Berlin
+}
+
+NewYork --> CapitalCity::USA
+@enduml

@@ -1,0 +1,49 @@
+{
+  "sha1": "6s8ym5oh8jjga4gjd5927jgm385omiq",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.034Z",
+    "url": "https://forum.plantuml.net/10877/roundcorner-diagonalcorner-participant-stereotypes-sequence?show=10917#c10917",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+' style enclosure declaration
+<style>
+    ' scope to sequenceDiagram elements
+    sequenceDiagram {   
+
+     ' scope to actor element types
+      actor { 
+        FontColor Blue 
+      }
+     
+     ' define a new style, using CSS class syntax
+     .myStyle {
+        FontColor Red
+     }
+
+    ' define a new style, using CSS class syntax
+     .number1 {
+        BackgroundColor #GoldenRod
+        RoundCorner 20
+        ShowStereotype true
+     }
+
+        ' define a new style, using CSS class syntax
+     .number2 {
+        BackgroundColor  #Green
+        DiagonalCorner 9
+     }
+    }
+} 
+</style> 
+
+' printed in blue
+actor Bob 
+' this will now be printed in Red 
+actor Sally <<myStyle>>
+participant Test <<Too>>
+participant Test1 <<number1>>
+participant Test2 <<number2>>
+@enduml

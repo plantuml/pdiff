@@ -1,0 +1,19 @@
+{
+  "sha1": "72s8u66810oqjxsz2mkbjqcvghzy57d",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.106Z",
+    "url": "https://forum.plantuml.net/11085/illegalargumentexception-height-0-0",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+a <- b ++
+alt a
+a -> b --
+else b
+a -> b --
+else c
+a <- b ++
+end
+
+@enduml

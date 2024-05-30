@@ -1,0 +1,13 @@
+{
+  "sha1": "ahn78u9u4hhwad06a1nk906n6o8vwvm",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.878Z",
+    "url": "http://forum.plantuml.net/7533/how-to-have-monospace-font-in-a-rectange",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "**h-entry**\n\nPost Entry\n""<div class="h-entry">..</div>""" as he #white {
+  rectangle "**p-name**\n\nTitle of the post\n""<h1 class="p-name">..</h1>""" as pn #orchid
+}
+@enduml

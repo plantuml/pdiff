@@ -1,0 +1,13 @@
+{
+  "sha1": "5s4mjwg7j0df7chwmu371zhifjwyx9o",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.794Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 500 width
+start
+:foo1 [[http://www.google.com]] end;
+stop
+@enduml

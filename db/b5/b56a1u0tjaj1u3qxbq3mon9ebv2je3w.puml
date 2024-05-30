@@ -1,0 +1,45 @@
+{
+  "sha1": "b56a1u0tjaj1u3qxbq3mon9ebv2je3w",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.018Z",
+    "url": "https://forum.plantuml.net/11479/preprocessing-jason",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!unquoted function DRAW($x) return %set_variable_value($x, 1)
+
+!procedure addComponent($part, $component, $as)
+    !if %variable_exists($part)
+        participant "$component" as $as
+    !endif
+!endfunction
+
+!procedure addBox2($part, $box, $colour, $data)
+    !if %variable_exists($part)
+        box "$box" #$colour
+            !foreach $item in $data.participants
+                $addComponent($part, "$item.name" as $item.as)
+            !endfor
+        end box
+    !endif
+!endfunction
+
+DRAW(PART25)
+!ifdef PART25
+title  TESTING  (Boxes & Participants)  Part25
+!endif
+
+!$data={"participants" :[
+{"name": "XYZ" ,"as": "xyz"},
+{"name": "RST" ,"as": "rst"},
+{"name": "UVW" ,"as": "uvw"}
+]
+}
+
+$addBox2("PART25", "New Box", "white" ,"$data")
+zyz->rst : Message()
+xyz<--rst : Ack()
+xyz->rst : Message2()
+xyz->uvw : Message3()
+@enduml

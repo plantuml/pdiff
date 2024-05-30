@@ -1,0 +1,25 @@
+{
+  "sha1": "4852jo0j38zf6btrzys9lz6945jq5fw",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.446Z",
+    "url": "https://forum.plantuml.net/16185/diagram-connection-similar-contains-underscores-version",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+package "SAMPLE_1" as pkgsmp1 {
+    package "SAMPLE_2" as pkgsmp2 {
+        class "BigLibrary" as lib {
+        }
+    }
+
+    package "DIFFERENT_SAMPLE" {
+        class "SomeHandler" as handler
+    }
+}
+
+handler -- lib::function_a
+
+
+@enduml

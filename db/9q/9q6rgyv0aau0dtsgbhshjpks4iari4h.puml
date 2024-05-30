@@ -1,0 +1,52 @@
+{
+  "sha1": "9q6rgyv0aau0dtsgbhshjpks4iari4h",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.746Z",
+    "url": "http://forum.plantuml.net/9288/issue-activity-diagram-swim-lane-whitespace-issue",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam monochrome true
+skinparam defaultTextAlignment center
+skinparam shadowing false
+Title test diagram
+|test a|
+start
+:test test;
+:test test;
+:test test3;
+fork
+:test etst;
+If (if tdsest) then (yes)
+:Inform test;
+endif
+note right
+note
+end note
+fork again
+|test b|
+repeat
+:testd testre;
+If (if testre) then (yes)
+:test;
+endif
+repeat while (further test) is (ja)
+fork again
+|test b|
+repeat
+:test test;
+If (if test) then (yes)
+:iform test;
+endif
+repeat while (test) is (ja)
+fork again
+|test c|
+repeat
+:Etest;
+If (test ) then (yes)
+:test;
+endif
+repeat while (further test)
+end fork
+@enduml

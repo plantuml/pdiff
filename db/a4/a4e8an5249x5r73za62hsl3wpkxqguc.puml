@@ -1,0 +1,14 @@
+{
+  "sha1": "a4e8an5249x5r73za62hsl3wpkxqguc",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.818Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Title this is my title
+class Alice
+note left of Alice [[http://www.google.fr]]
+  Note
+end note
+@enduml

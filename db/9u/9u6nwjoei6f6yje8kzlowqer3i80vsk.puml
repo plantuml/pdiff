@@ -1,0 +1,16 @@
+{
+  "sha1": "9u6nwjoei6f6yje8kzlowqer3i80vsk",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.770Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[XX]
+skinparam actor {
+    backgroundColor Yellow
+    backgroundColor<<st>> LightBlue
+}
+actor AA <<st>>
+actor BB
+@enduml

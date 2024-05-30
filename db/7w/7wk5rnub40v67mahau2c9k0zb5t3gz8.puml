@@ -1,0 +1,20 @@
+{
+  "sha1": "7wk5rnub40v67mahau2c9k0zb5t3gz8",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.294Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor azer
+Bob -> Alice
+create toto
+Bob -> toto
+toto -> v1 : meesage
+'note left : titi
+note right
+  rzerr
+  zerzer
+  qsd
+end note
+@enduml

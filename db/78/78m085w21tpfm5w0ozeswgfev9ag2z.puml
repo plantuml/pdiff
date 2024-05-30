@@ -1,0 +1,15 @@
+{
+  "sha1": "78m085w21tpfm5w0ozeswgfev9ag2z",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.146Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant foo as f
+queue bar as q
+participant baz as b
+f -> q: Enqueue
+q <- b: Dequeue
+q --> b: data
+@enduml

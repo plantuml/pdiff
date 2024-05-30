@@ -1,0 +1,30 @@
+{
+  "sha1": "arj7m2eney45575tapz9h4w1pz956dc",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.938Z",
+    "url": "https://forum.plantuml.net/11729/new-css-styling-is-not-recognized-in-class-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+    classDiagram {
+       BackGroundColor Green
+       document {
+         BackGroundColor Yellow
+       }
+    }
+</style>
+
+' printed in blue
+class Bob {
+hello
+}
+
+' also printed in blue
+class Sally
+
+
+Sally --> Bob
+@enduml

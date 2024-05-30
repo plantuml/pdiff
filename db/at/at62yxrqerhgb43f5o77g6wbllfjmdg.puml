@@ -1,0 +1,15 @@
+{
+  "sha1": "at62yxrqerhgb43f5o77g6wbllfjmdg",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.950Z",
+    "url": "https://forum.plantuml.net/18151/using-cypher-does-not-always-recognize-restricted-words",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "First" <<$Net>>
+note left
+ You can use images
+<img:https://chart.googleapis.com/chart?cht=p3&chd=t:60,40&chs=250x100&chl=Hello%7CWorld>
+end note
+@enduml

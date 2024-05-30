@@ -1,0 +1,20 @@
+{
+  "sha1": "89yi173wfdv22fqetbq1mf5bwtte633",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.374Z",
+    "url": "http://forum.plantuml.net/7119/create-links-after-creating-a-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autonumber 10
+Alice -> Bob: [[/messages.html#%autonumber% write(a)]]
+note left
+  the autonumber works everywhere.
+  Here, its value is %autonumber%
+end note
+Bob --> Alice: Response %autonumber%
+
+
+
+@enduml

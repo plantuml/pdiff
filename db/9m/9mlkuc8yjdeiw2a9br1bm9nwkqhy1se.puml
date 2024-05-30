@@ -1,0 +1,23 @@
+{
+  "sha1": "9mlkuc8yjdeiw2a9br1bm9nwkqhy1se",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.722Z",
+    "url": "https://forum.plantuml.net/13758/usecase-problem-to-apply-syle-class-on-use-case?show=13763#c13763",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.tech {
+  BackgroundColor #00FF00
+}
+</style>
+
+:actor 1: as act1
+:actor 2 -tech: << tech >> as act2
+actor "actor 3 -tech" << tech >> as act3
+
+(use case 1) as uc1
+(use case 2 -tech) << tech >> as uc2
+usecase "use case 3 -tech" << tech >> as uc3
+@enduml

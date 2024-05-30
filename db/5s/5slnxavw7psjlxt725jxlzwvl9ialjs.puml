@@ -1,0 +1,24 @@
+{
+  "sha1": "5slnxavw7psjlxt725jxlzwvl9ialjs",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.798Z",
+    "url": "http://wiki.plantuml.net/site/plantumlshell",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!$myVar = "FOO"
+!procedure $v1()
+Alice -> Bob : from v1 $myVar
+!endprocedure
+
+!procedure $v2()
+!$myVar = "CHANGED!"
+Alice -> Bob : from v2 $myVar
+!endprocedure
+
+$v1()
+$v2()
+$v1()
+@enduml

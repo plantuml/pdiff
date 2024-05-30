@@ -1,0 +1,18 @@
+{
+  "sha1": "19mjtd04bh9ncbc3vxaa114dkipo430",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.606Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant A
+
+activate B
+B -> A ++: message 1
+return success 2
+return success 3
+deactivate B
+destroy B
+		
+@enduml

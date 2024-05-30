@@ -1,0 +1,25 @@
+{
+  "sha1": "8552uw70ho7bepvdpdy46ineonerndm",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.338Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skin BlueModern
+[-> A: DoWork
+activate A
+A -> A: Internal call
+deactivate A
+
+A ->] : << createRequest >>
+activate A
+
+A<--] : RequestCreated
+[<- A: Done
+
+A->] : a1
+[-> A : a2
+
+deactivate A
+@enduml

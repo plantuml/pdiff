@@ -1,0 +1,29 @@
+{
+  "sha1": "bt23o28m042kok8ltcj58hvw9kca4ny",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.154Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+clock clk with period 200
+
+concise "RX" as RX
+concise "TX" as TX
+robust "e_RadioState" as RS
+robust "e_SynchroState" as SY
+robust "e_Event" as EV
+
+ 
+scale 100 as 450 pixels
+
+
+@-20
+RS is NO_INIT
+
+
+@-10
+RS is IDLE
+WB@-20 <-> @-10 : {2 ms lag}
+
+@enduml

@@ -1,0 +1,24 @@
+{
+  "sha1": "5xkj9n4tlei732q0ul6ux49dnm03z6t",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.826Z",
+    "url": "https://forum.plantuml.net/12480/new-line-in-table-built-with-variables-broken-from-1-2020-20",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!global $table = "|= Field1 |= Field 2 |"
+!procedure $row($value1, $value2)
+%set_variable_value("$table", %get_variable_value("$table") + %newline() + "| " + $value1 + " | " + $value2 + " |")
+!endfunction
+
+$row("1", "2")
+$row("3", "4")
+
+rectangle r [
+<i>on rectangle:
+$table
+]
+
+
+@enduml

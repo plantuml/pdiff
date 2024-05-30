@@ -1,0 +1,14 @@
+{
+  "sha1": "8tukd20845l4zr2go2fh1kyzme9wrls",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.518Z",
+    "url": "https://forum.plantuml.net/12447/strange-actor-spacing-when-notes-same-level-sequence-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+create Alice
+create Bob
+note over Alice: zzzzzz
+/note right Bob: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+@enduml

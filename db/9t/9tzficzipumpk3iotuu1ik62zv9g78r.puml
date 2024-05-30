@@ -1,0 +1,18 @@
+{
+  "sha1": "9tzficzipumpk3iotuu1ik62zv9g78r",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.766Z",
+    "url": "https://forum.plantuml.net/16912/backward-in-repeat-loop-not-possible-to-set-color",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+repeat  
+#LightGreen :Review Activity]
+
+backward  :Rework]
+
+repeat while (active Remarks) is (Yes) not (No)
+
+@enduml

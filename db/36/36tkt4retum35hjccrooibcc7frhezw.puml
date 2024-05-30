@@ -1,0 +1,28 @@
+{
+  "sha1": "36tkt4retum35hjccrooibcc7frhezw",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.202Z",
+    "url": "http://forum.plantuml.net/9031/do-you-plan-for-conditional-code-in-macros?show=9167#a9167",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!function bold($text)
+!return "<b>"+$text+"</b>"
+!endfunction
+
+!function italic($text)
+!return "<i>"+$text+"</i>"
+!endfunction
+
+!function format($format, $text)
+!if $format=="italic"
+!return italic($text)
+!endif
+!return "UNKNOW"
+!endfunction
+
+
+Alice -> Bob : format("italic","en42")pour nous
+@enduml

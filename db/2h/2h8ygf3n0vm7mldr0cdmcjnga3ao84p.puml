@@ -1,0 +1,17 @@
+{
+  "sha1": "2h8ygf3n0vm7mldr0cdmcjnga3ao84p",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.994Z",
+    "url": "https://forum.plantuml.net/9861/teoz-group-header-overlaps-note",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+participant A
+alt case 1
+    note over A: Foo
+else case 2
+    note over A: Bar
+end opt
+@enduml

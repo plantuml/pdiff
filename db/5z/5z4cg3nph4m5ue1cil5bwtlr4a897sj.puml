@@ -1,0 +1,18 @@
+{
+  "sha1": "5z4cg3nph4m5ue1cil5bwtlr4a897sj",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.834Z",
+    "url": "https://forum.plantuml.net/16579/plantuml-inner-group-exceeded-the-outer-group",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+participant app
+
+alt
+  ref over app, app : v1
+end
+
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "bthf6qfmrl8vcu52fgz4fp43fh6wvwd",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.154Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set namespaceSeparator \\
+class X1\\X2\\foo {
+  some info
+}
+@enduml

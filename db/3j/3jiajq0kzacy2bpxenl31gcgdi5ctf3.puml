@@ -1,0 +1,25 @@
+{
+  "sha1": "3jiajq0kzacy2bpxenl31gcgdi5ctf3",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.286Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+    group {
+        peter
+
+        group {
+        }
+    }
+
+    network first {
+        peter
+    }
+
+    network second {
+        mary
+    }
+}
+@enduml

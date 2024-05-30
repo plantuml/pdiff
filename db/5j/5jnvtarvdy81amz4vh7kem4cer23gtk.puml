@@ -1,0 +1,12 @@
+{
+  "sha1": "5jnvtarvdy81amz4vh7kem4cer23gtk",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.754Z",
+    "url": "https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+!pragma compact
+expression = [ { "A", "B" | "C" } , foo2 ], ( { "A", "B" | "C" } , foo2 );
+@endebnf

@@ -1,0 +1,11 @@
+{
+  "sha1": "5nz8xt2xjmkj1ajd0t6l2lknx7a8tpk",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.774Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Header Header
+User --> (Start the application)
+@enduml

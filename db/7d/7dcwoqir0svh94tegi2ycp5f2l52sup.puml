@@ -1,0 +1,26 @@
+{
+  "sha1": "7dcwoqir0svh94tegi2ycp5f2l52sup",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.174Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout elk
+class foo1
+
+package color {
+	class blue
+}
+
+class foo3
+class foo4
+
+
+package color {
+	class yellow
+}
+
+
+
+@enduml

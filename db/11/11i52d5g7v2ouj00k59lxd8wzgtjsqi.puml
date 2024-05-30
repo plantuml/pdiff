@@ -1,0 +1,15 @@
+{
+  "sha1": "11i52d5g7v2ouj00k59lxd8wzgtjsqi",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.534Z",
+    "url": "https://stackoverflow.com/questions/66087145/calendar-locale-german-for-plantuml-gantt-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Language ru
+Project starts the 20th of september 2017
+[Prototype design] as [TASK1] lasts 75 days
+[TASK1] is colored in Lavender/LightBlue
+[Prototype completed] happens at [TASK1]'s end
+@endgantt

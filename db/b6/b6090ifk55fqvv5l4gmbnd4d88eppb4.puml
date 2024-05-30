@@ -1,0 +1,22 @@
+{
+  "sha1": "b6090ifk55fqvv5l4gmbnd4d88eppb4",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.022Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (test1) then (ok1)
+  :ins1 which is very very long;
+elseif (test2) then (ok2)
+  :ins2 which is very very long;
+elseif (test3  which is very very long) then (ok3)
+  :ins3 a;
+  :ins3 b;
+  :ins3 c;
+else (ok4)
+  :ins4 which is very very long;
+endif
+:end of tests;
+@enduml

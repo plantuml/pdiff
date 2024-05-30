@@ -1,0 +1,25 @@
+{
+  "sha1": "80g2tglcror212bqqvrl678ms15aio8",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.318Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class X {
+  + End() : int
+  - Count : int
+  __ Messages __
+  AnnounceEnd() : int
+ Message : String
+}
+class Y {
+  + End() : int
+  - Count : int
+  '__ Messages __
+  AnnounceEnd() : int
+ Message : String
+}
+hide X members
+hide Y members
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "6fw7kupbo8v6yjohe048otir2fh68td",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.946Z",
+    "url": "http://forum.plantuml.net/2806/duration-constraint-in-sequence-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!pragma teoz true
+
+{start} Alice -> Bob : start doing things during duration
+Bob -> Max : something
+Max -> Bob : something else
+{end} Bob -> Alice : finish
+
+{start} <-> {end} : some time
+
+@enduml

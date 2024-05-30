@@ -1,0 +1,16 @@
+{
+  "sha1": "bnls3cl4hz7ddz6j2f8m7trvz7o17cu",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.134Z",
+    "url": "https://github.com/plantuml/plantuml/issues/365",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+
+rectangle X
+rectangle Y
+X 0)-right- Y
+
+@enduml

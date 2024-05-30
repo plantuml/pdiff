@@ -1,0 +1,29 @@
+{
+  "sha1": "bhleb01x809vv06cjqhaxwosthnejxt",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.094Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+:act1;
+-[#blue]->
+if (cond1) then (yes)
+    :act2;
+    -[#red]->ending if;
+else (no)
+    if (cond2)
+         -[#lightblue]->
+    else
+         -[#darkblue]->
+    :act3;
+    -[#lightgreen]->ending inner else;
+    endif
+    -[#darkgreen]->ending outer else;
+endif
+-[#gray]-> going to end;
+
+stop
+@enduml

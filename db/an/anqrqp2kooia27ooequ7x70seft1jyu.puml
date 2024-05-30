@@ -1,0 +1,30 @@
+{
+  "sha1": "anqrqp2kooia27ooequ7x70seft1jyu",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.914Z",
+    "url": "https://github.com/plantuml/plantuml/issues/750",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+
+package "P1" as p1 {
+}
+
+package p1 {
+  package "P2" as p2 {
+  }
+}
+
+package p2 {
+  [Comp1]
+}
+
+package "P3" as p3 {
+}
+
+package "P3" as p3 {
+  [Comp2]
+}
+@enduml

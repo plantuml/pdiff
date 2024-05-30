@@ -1,0 +1,17 @@
+{
+  "sha1": "7owe4nvtmf2theylksvmg33y13jgv3v",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.246Z",
+    "url": "https://forum.plantuml.net/10940/issues-with-diagrams-within-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+frame FooBar  [
+{{
+    !include <cloudinsight/tomcat>
+    queue "<$tomcat>" as cmds
+
+}}
+]
+@enduml

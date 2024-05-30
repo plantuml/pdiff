@@ -1,0 +1,12 @@
+{
+  "sha1": "4m3ku59xya94ebv2t60hin2nvgeqoqj",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.510Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+database database2
+cloud cloud3
+collections collections
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "6ge6ii46aq1f6wta77mo681aq2n623v",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.954Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class1 "1" *- "this is a very very long string for the tests" class2
+class1 "1" *-- "this is a very very long string for the tests" class3
+@enduml

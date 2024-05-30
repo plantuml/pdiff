@@ -1,0 +1,16 @@
+{
+  "sha1": "atgue8l0qt80pi5vhdpzvfgoqx79xlh",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.954Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+[*] --> Active
+Active --> Other
+state Big begin
+b1 --> b2
+endstate
+
+@enduml

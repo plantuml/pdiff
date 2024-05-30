@@ -1,0 +1,58 @@
+{
+  "sha1": "5afd93arglynrcz1fxmyr4m2b4j06mg",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.702Z",
+    "url": "https://forum.plantuml.net/13010/using-teoz-for-multicast-and-par2-crashes-the-rendering?show=13053#c13053",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+skinparam roundcorner 10
+
+title
+example of par2 usage
+end title
+
+!procedure $getAddr($Answer,$interval)
+  HB -> MAC :  Get(*macAddr)
+  MAC --> HB : $Answer
+!endprocedure
+
+!procedure $putAddr($Addr,$interval)
+  R -> MAC :  Put($Addr)
+!endprocedure
+
+!procedure $lldp($Source,$Value,$interval)
+  $Source -> R :  LLDP($Value)
+!endprocedure
+
+hide footbox
+
+box "Device 1" #LightBlue
+participant HB
+database Storage as MAC
+participant R
+end box
+
+box "Device 2" #LightGreen
+participant C
+participant CN
+end box
+
+== System Starts ==
+
+par2
+
+$getAddr(0,30)
+
+else
+
+$putAddr("MAC1",135)
+
+else
+$lldp("C","MAC1",10)
+
+
+end
+@enduml

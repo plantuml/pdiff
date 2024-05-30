@@ -1,0 +1,22 @@
+{
+  "sha1": "3v31ywkxkv4428vlg8y2j5ks96pv0w8",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.366Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Foo1
+class Foo2
+hide Foo1
+class Foo3
+Foo2 *-- Foo3
+hide Foo3
+
+package util {
+class util1
+}
+
+hide util
+
+@enduml

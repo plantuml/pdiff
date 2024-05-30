@@ -1,0 +1,24 @@
+{
+  "sha1": "90pia5mrjopzjqxfs1lqax9e3hvtmen",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.578Z",
+    "url": "https://forum.plantuml.net/15013/gantt-chart-with-style-renders-with-wrong-colors",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+<style>
+ganttDiagram {
+  task {
+    BackGroundColor lightgreen
+    LineColor black
+    unstarted {
+      BackGroundColor red
+    }
+  }
+}
+</style>
+
+[Task1] lasts 10 days and is 50% complete
+[Task2] lasts 20 days
+@endgantt

@@ -1,0 +1,16 @@
+{
+  "sha1": "78qak1e0q6w80o9t8z0ns0dhiwbjirk",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.150Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide footbox
+header titi
+footer tutu
+title toto
+Bob -> Alice : hello
+create Dog
+Alice -> Dog : create
+@enduml

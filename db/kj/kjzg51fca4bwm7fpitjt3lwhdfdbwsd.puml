@@ -1,0 +1,22 @@
+{
+  "sha1": "kjzg51fca4bwm7fpitjt3lwhdfdbwsd",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.126Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Dummy1 {
+  thisIsALongmethod1()
+  anotherMetheod()
+  
+  String a1
+  Date d;
+}
+
+class Dummy2 {
+}
+
+Dummy1 - Dummy2
+
+@enduml

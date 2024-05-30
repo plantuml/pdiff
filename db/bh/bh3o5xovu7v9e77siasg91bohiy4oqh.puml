@@ -1,0 +1,44 @@
+{
+  "sha1": "bh3o5xovu7v9e77siasg91bohiy4oqh",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.086Z",
+    "url": "https://forum.plantuml.net/10099/teoz-%26-note-over-a-b-does-not-work-vs-%26-note-over-a-does-work",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+
+actor "Sales\nCo-worker" as user
+participant "Sales System" as som
+boundary "Endpoint" as endpointA
+participant "Controller" as controller
+
+participant "SignedUrlGenerator" as urlGen
+participant "ProjectDataTransformer" as projectDataTransformer
+control "apiClient\napi-client" as apiClient
+
+' ---- FLOW  -----------
+user -[#navy]-> som: Selects a \nkitchen drawing\nfor import
+note right: e g //ProjectID//
+
+' & note over controller works. & over two participants does not.
+& note over controller, urlGen
+controller also gets: apiClient, translations, 
+protocol, host, app.locals.secrets.
+  IMAGE_PROXY_SECRET, 
+plannerUrl
+end note
+
+
+som -> endpointA: ProjectId, RetailUnit, \nLanguage, APIKey, \nSecret, MessageSignature
+& endpointA -> controller: exportProject( projectId, \nretU, language, ... )
+& controller -> apiClient: getProject(projectId),\ngetMetadata(projectId)
+apiClient --> controller: project data,\nproject metadata
+note left #LightCoral: **metadata**=bom, wallpanel, \nworktop, wallEdgeStrip
+note over projectDataTransformer, apiClient
+both calls (getProject & getMetadata) are 
+asynchronous & parallel
+end note
+@enduml

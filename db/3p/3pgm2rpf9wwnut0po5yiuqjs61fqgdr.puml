@@ -1,0 +1,32 @@
+{
+  "sha1": "3pgm2rpf9wwnut0po5yiuqjs61fqgdr",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.322Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=5105/notes-in-activity-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+note
+    note on start
+    **works fine**
+end note
+    if () then (end)
+    note
+        note on if
+        **(Possible to point to to diamond?)**
+    end note
+    end
+    note
+        note on end
+        **MISSING in Diagram!**
+    end note
+else (stop)
+    stop
+    note
+        note on stop
+        **works fine**
+    end note
+endif
+@enduml

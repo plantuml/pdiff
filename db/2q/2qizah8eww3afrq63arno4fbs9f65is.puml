@@ -1,0 +1,21 @@
+{
+  "sha1": "2qizah8eww3afrq63arno4fbs9f65is",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.070Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+
+package Order {
+    Shipment .. ShipmentStatus
+}
+
+class ShipmentStatus <<enum>> {
+    {field} Waiting Allocation
+    {field} Waiting Backorder
+    {field} Fulfilled (?)
+}
+
+@enduml

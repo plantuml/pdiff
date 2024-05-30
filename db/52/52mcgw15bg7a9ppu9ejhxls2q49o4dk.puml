@@ -1,0 +1,15 @@
+{
+  "sha1": "52mcgw15bg7a9ppu9ejhxls2q49o4dk",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.638Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+set separator none
+state comp1 {
+    state en2 <<entrypoint>>
+}
+action2 --> en2: info2
+@enduml

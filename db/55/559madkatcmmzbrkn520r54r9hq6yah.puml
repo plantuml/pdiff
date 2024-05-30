@@ -1,0 +1,15 @@
+{
+  "sha1": "559madkatcmmzbrkn520r54r9hq6yah",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.654Z",
+    "url": "https://forum.plantuml.net/13945/extend-wbs-syntax-to-allow-multiline-nodes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* <&flag>Debian
+** <&globe>Ubuntu
+***:Linux Mint
+Open Source;
+*** Kubuntu
+@endwbs

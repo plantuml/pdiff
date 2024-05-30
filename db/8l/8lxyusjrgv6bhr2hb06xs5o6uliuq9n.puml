@@ -1,0 +1,27 @@
+{
+  "sha1": "8lxyusjrgv6bhr2hb06xs5o6uliuq9n",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.454Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@starthcl
+module "organization-iam-bindings" {
+  source        = "terraform-google-modules/iam/google/modules/organizations_iam"
+  organizations = ["my-organization_one", "my-organization_two"]
+  mode          = "authoritative"
+
+  bindings = {
+    "roles/resourcemanager.organizationViewer" = [
+      "serviceAccount:my-sa@my-project.iam.gserviceaccount.com",
+      "group:my-group@my-org.com",
+      "user:my-user@my-org.com",
+    ]
+    "roles/resourcemanager.projectDeleter" = [
+      "serviceAccount:my-sa@my-project.iam.gserviceaccount.com",
+      "group:my-group@my-org.com",
+      "user:my-user@my-org.com",
+    ]
+  }
+}
+@endhcl

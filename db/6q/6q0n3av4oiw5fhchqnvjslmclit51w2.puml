@@ -1,0 +1,15 @@
+{
+  "sha1": "6q0n3av4oiw5fhchqnvjslmclit51w2",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.018Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Z1
+activate Z2
+Z1 -> Z2 : A
+activate Z2
+...  
+Z2 -> Z1 : C
+@enduml

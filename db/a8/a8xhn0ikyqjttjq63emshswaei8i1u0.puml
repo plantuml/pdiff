@@ -1,0 +1,29 @@
+{
+  "sha1": "a8xhn0ikyqjttjq63emshswaei8i1u0",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.834Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!definelong loop()
+A
+----
+B
+loop
+C
+loop
+!enddefinelong
+
+
+class foo
+note left
+A0
+loop()
+loop()
+A1
+end note
+
+
+@enduml

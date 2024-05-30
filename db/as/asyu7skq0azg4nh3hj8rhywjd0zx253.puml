@@ -1,0 +1,56 @@
+{
+  "sha1": "asyu7skq0azg4nh3hj8rhywjd0zx253",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.946Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam monochrome true
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 3
+skinparam sequenceParticipantFontStyle bold
+hide footbox
+!pragma teoz true
+
+participant "party 1" as P1
+participant "party 2" as P2
+
+
+' in this first block the divider is broken with the new rendering engine
+
+group outer group
+group inner group: broken divider
+P1->P2: **selct** (DF<sub>XXX</sub>)
+note right of P2
+ - do something
+end note
+== diver 1 ==
+P2->P1: **OK** (data)
+note left of P1
+ - do something
+end note
+P1->P2: **auth** (MAC<sub>SK1</sub>)
+note right of P2
+ - do something
+end note
+P2->P1: **OK** (MAC<sub>SK2</sub>)
+end
+
+
+' in this second block the note over both parties is broken with the new rendering engine
+
+group inner group: broken note over both parties
+P1->P2: **selct and make the diagram bigger in width so the note over both breaks** (DF<sub>XXX</sub>)
+P2->P1: **OK** (data)
+note left of P1
+ - do something very long here
+end note
+P1->P2: **auth** (MAC<sub>SK1</sub>)
+P2->P1: **OK** (MAC<sub>SK2</sub>)
+note over P1,P2
+ if here is some note over both parties
+end note
+end
+
+@enduml

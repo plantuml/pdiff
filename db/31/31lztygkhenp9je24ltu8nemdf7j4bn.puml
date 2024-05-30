@@ -1,0 +1,19 @@
+{
+  "sha1": "31lztygkhenp9je24ltu8nemdf7j4bn",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.158Z",
+    "url": "https://forum.plantuml.net/3596/how-to-generate-a-legend-with-colors-in-plantuml",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class foo
+
+legend
+|= |= Type |
+|<back:#FF0000>   </back>| Type A class |
+|<back:#00FF00>   </back>| Type B class |
+|<back:blue>   </back>| Type C class |
+endlegend
+
+@enduml

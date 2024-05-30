@@ -1,0 +1,24 @@
+{
+  "sha1": "5twfwebsiwgokkzonnuc0mf4zu5rmwh",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.806Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package decoder_core {
+    package input_source {}
+    package output_generator {
+        package spooler {}
+    }
+    package format_decoder {
+        package reader {}
+        package source_fildset {}
+        package output_fields_producer {}
+    }
+} 
+'note right of "decoder_core": Монолитная архитектура
+note "Монолитная архитектура" as monolit
+decoder_core .. monolit
+skinparam packageStyle rect
+@enduml

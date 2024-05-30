@@ -1,0 +1,25 @@
+{
+  "sha1": "3qr9lsfz7yp7uwf6r2oop7ugan13dw4",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.330Z",
+    "url": "https://forum.plantuml.net/12124/order-mismatch-embedded-diagram-creole-deployment-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle r [
+text_1
+== <b><color:red> Only one line on source, for several lines on output ==
+{{
+file f1
+}}
+text_2
+{{
+file f2
+}}
+text_3
+{{
+file f3
+}}
+]
+@enduml

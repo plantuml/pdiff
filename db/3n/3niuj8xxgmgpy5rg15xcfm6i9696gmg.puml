@@ -1,0 +1,18 @@
+{
+  "sha1": "3niuj8xxgmgpy5rg15xcfm6i9696gmg",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.302Z",
+    "url": "https://github.com/plantuml/plantuml/issues/104",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam wrapWidth 150
+skinparam swimlaneWrapTitleWidth auto
+ 
+| this is an exceptionally long title  which now wrap at 100 pixels|
+:You fixed it so this will wrap at 150 pixels thank you!;
+note: This is a very very long very very long note
+|Ignore Me|
+:ignore me;
+@enduml

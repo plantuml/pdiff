@@ -1,0 +1,11 @@
+{
+  "sha1": "57hshv6tvc5v2pknh4klyji2sn7sxin",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.674Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -[#blue]> Alice : blue arrow color is OK
+Bob -[#blue]> Bob   : blue arrow color is NOK
+@enduml

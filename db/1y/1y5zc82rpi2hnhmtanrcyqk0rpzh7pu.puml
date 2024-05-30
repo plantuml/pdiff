@@ -1,0 +1,35 @@
+{
+  "sha1": "1y5zc82rpi2hnhmtanrcyqk0rpzh7pu",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.842Z",
+    "url": "https://github.com/plantuml/plantuml/issues/368",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class "Packstaftion" as PackSt
+class "Aktueller Kunde" as Kd
+class "User Interface" as UI {
+funktionsAuswahl()
+fehlermeldungAusgeben()
+informationAusgeben()
+}
+'Darstellen VerEinh nutzt Fehlermeldungsmethode von UI'
+class "Touch Display" as TouchDisp
+class "Sprachsteuerung" as SprStrg
+class "Eingabefeld" as EingFld
+class "Barcode-Scanner" as BCScan
+class "Verarbeitungseinheit" as VerEinh
+
+PackSt "1" -- "1" Kd : besetzt <
+PackSt o-- UI
+PackSt "1" o-- "1" VerEinh
+
+UI "1" o-- "1..2" TouchDisp
+UI "1" o-- "1" SprStrg
+UI "1" o-- "1..2" EingFld
+UI "1" o-- "1" BCScan
+
+Kd - UI: interagiert
+UI "FrontEnd" -- "BackEnd" VerEinh
+@enduml

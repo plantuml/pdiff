@@ -1,0 +1,11 @@
+{
+  "sha1": "3yoj2e60ko6n217qowxkj6toqks12fm",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.386Z",
+    "url": "https://www.safaribooksonline.com/library/view/python-cookbook-2nd/0596007973/ch16s09.html",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob [[http://www.yahoo.com{{"Jason": {"firstName":"Bob", "lastName":"Smith"},\n "Carl": {"firstName":"Alice", "lastName":"Brown"}}}]] : Hello
+@enduml

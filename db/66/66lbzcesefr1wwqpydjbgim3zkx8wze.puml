@@ -1,0 +1,31 @@
+{
+  "sha1": "66lbzcesefr1wwqpydjbgim3zkx8wze",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.886Z",
+    "url": "https://github.com/plantuml/plantuml/issues/337",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    namespace issues {
+        interface issues.MySupplier<T>
+
+        class issues.MySet<T> {
+            +iterator(): Iterator<T>
+            +size(): int
+        }
+
+        java.util.function.Supplier <|-- issues.MySupplier
+        java.util.AbstractSet <|-- issues.MySet
+    }
+
+    namespace java.util.function {
+        interface Supplier<T> {
+            {abstract} +get(): T
+        }
+    }
+
+    namespace java.util {
+        abstract class AbstractSet<E>
+    }
+@enduml

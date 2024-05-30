@@ -1,0 +1,25 @@
+{
+  "sha1": "bzswo1phiu4cqvf8ffguhnnltv2jjye",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.190Z",
+    "url": "https://forum.plantuml.net/16882/is-it-possible-to-color-split-in-an-activity-diagram-new",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+  -[#DeepSkyBlue]->
+  split
+    -[#DeepSkyBlue]->
+    :1;
+    -[#DeepSkyBlue]->
+  split again
+    -[#DeepSkyBlue]->
+    :3;
+    -[#Orange]->
+    :4;
+    -[#DeepSkyBlue]->
+  endsplit
+  -[#DeepSkyBlue]->
+end
+@enduml

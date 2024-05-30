@@ -1,0 +1,26 @@
+{
+  "sha1": "50zjcxm6u1pkpwpe3nan5i2a9c46w3r",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.626Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+
+[*] --> Active
+
+state Active {
+  [*] -> NumLockOff
+  NumLockOff --> NumLockOn : EvNumLockPressed
+  NumLockOn --> NumLockOff : EvNumLockPressed
+  --
+  [*] -> CapsLockOff
+  CapsLockOff --> CapsLockOn : EvCapsLockPressed
+  CapsLockOn --> CapsLockOff : EvCapsLockPressed
+  --
+  [*] -> ScrollLockOff
+  ScrollLockOff --> ScrollLockOn : EvCapsLockPressed
+  ScrollLockOn --> ScrollLockOff : EvCapsLockPressed
+} 
+@enduml

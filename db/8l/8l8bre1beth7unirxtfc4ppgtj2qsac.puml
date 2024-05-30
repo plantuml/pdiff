@@ -1,0 +1,16 @@
+{
+  "sha1": "8l8bre1beth7unirxtfc4ppgtj2qsac",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.446Z",
+    "url": "https://github.com/plantuml/plantuml/issues/366",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class "side1"
+class "side2"
+
+( "side1", "side2" ) .. "base"
+
+@enduml

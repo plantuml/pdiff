@@ -1,0 +1,50 @@
+{
+  "sha1": "2w0yg5c2ta9dkxww0hholjihbzfg2cq",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.118Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide footbox
+autonumber
+scale 0.8
+!pragma teoz true
+skinparam shadowing false
+participant "Function Group\nS_ABAP_TRACE_DATA" as 1
+participant "PROG\nZZZ_RECURSIVE" as 2
+participant "ObjectId:7 of Class LCL_CLASS\nZZZ_RECURSIVE" as 3
+1 -> 1: 
+activate 1
+1 -> 2:  ZZZ_RECURSIVE
+activate 2
+2 -> 2: Perform
+activate 2
+deactivate 2
+2 -> 3: Call method ADD
+activate 3
+3 -> 3: Call method ADD
+activate 3
+3 -> 3: Call method ADD
+activate 3
+3 -> 3: Call method ADD
+activate 3
+3 -> 3: Call method ADD
+activate 3
+3 -> 3: Call method ADD
+activate 3
+deactivate 3
+deactivate 3
+deactivate 3
+deactivate 3
+deactivate 3
+3 --> 2
+deactivate 3
+loop 2 times
+2 -> 2:  SYSTEM-EXIT
+activate 2
+deactivate 2
+2 --> 1
+deactivate 2
+end
+@enduml

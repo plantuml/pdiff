@@ -1,0 +1,26 @@
+{
+  "sha1": "b27upyxyi8wy53ad448bmypss6zgamg",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.994Z",
+    "url": "https://forum.plantuml.net/11130/is-there-a-compact-timing-diagram?show=11130#q11130",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+mode compact
+
+robust "Web Browser" as WB
+concise "Web User" as WU
+
+@0
+WU is Idle
+WB is Idle
+
+@100
+WU -> WB : URL
+WU is Waiting
+WB is Processing
+
+@300
+WB is Waiting
+@enduml

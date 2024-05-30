@@ -1,0 +1,15 @@
+{
+  "sha1": "brbbc8v4gx0r0vk1ni6o4thksijxqlx",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.142Z",
+    "url": "https://forum.plantuml.net/16398/structs-do-not-function-properly-within-a-namespace?show=17286#c17286",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace Namespace {
+    entity Foo {}
+    class Bar {}
+}
+Namespace.Foo *-- Namespace.Bar
+@enduml

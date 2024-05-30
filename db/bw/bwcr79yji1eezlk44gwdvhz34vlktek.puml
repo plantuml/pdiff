@@ -1,0 +1,22 @@
+{
+  "sha1": "bwcr79yji1eezlk44gwdvhz34vlktek",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.174Z",
+    "url": "http://forum.plantuml.net/9160/two-or-more-break-statement-doew-not-work-correctly",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+while ( a==b ) is (yes)
+if ( c==0 ) then (yes)
+      :do something;
+      break
+    elseif (c==1) then
+      :do something;
+      break
+    elseif (c==2) then
+      break
+    endif
+end while
+end
+@enduml

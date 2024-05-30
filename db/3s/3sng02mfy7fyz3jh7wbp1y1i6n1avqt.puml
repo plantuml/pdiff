@@ -1,0 +1,11 @@
+{
+  "sha1": "3sng02mfy7fyz3jh7wbp1y1i6n1avqt",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.346Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[COMP1]
+() INT
+@enduml

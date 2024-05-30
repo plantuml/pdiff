@@ -1,0 +1,15 @@
+{
+  "sha1": "5jalfvofyu7wykbu0mpvei1rssz9fhn",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.754Z",
+    "url": "https://forum.plantuml.net/17255/support-for-jsonc-json-with-comments",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true
+}
+@endjson

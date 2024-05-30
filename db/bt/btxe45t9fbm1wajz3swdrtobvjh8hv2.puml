@@ -1,0 +1,19 @@
+{
+  "sha1": "btxe45t9fbm1wajz3swdrtobvjh8hv2",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.158Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam dpi 200
+class Foo<List <? extends GENERIC>> <<Dummy>>
+Dummy --* Foo
+
+class OtherAlone<this>
+
+class Other<this> {
+  int size
+}
+
+@enduml

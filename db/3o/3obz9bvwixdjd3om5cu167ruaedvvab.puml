@@ -1,0 +1,25 @@
+{
+  "sha1": "3obz9bvwixdjd3om5cu167ruaedvvab",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.318Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+
+package Mall {
+  class Inventory
+}
+
+class Item {
+}
+
+note bottom: 1
+
+class Inventory {
+}
+
+note right: 2 
+
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "b72bt95ajkfe0qak0i6k3x7mapwysob",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.030Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+package wfp2_real_helpers {
+     class emconf_wfp2_real_helpers {
+        StoryPoints : 10
+    }
+
+}
+
+wfp2_real_lottery --|> "V 1.1.0-0.0.0" wfp2_real_helpers
+
+
+@enduml

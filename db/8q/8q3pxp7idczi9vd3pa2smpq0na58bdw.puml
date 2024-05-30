@@ -1,0 +1,18 @@
+{
+  "sha1": "8q3pxp7idczi9vd3pa2smpq0na58bdw",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.490Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package P1 #lightblue {
+(a use case)
+(another use case) as (uc1)
+}  
+usecase UC2
+usecase (YAanother use case) as uc3
+"another use case" as (uc4)  
+usecase "UC5"
+usecase "YAanother use case" as uc6
+@enduml

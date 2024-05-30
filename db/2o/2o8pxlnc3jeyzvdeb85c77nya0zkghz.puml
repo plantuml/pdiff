@@ -1,0 +1,16 @@
+{
+  "sha1": "2o8pxlnc3jeyzvdeb85c77nya0zkghz",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.058Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam CircledCharacterFontSize 30
+skinparam CircledCharacterFontName Helvetica
+skinparam CircledCharacterRadius 18
+
+class Demo
+
+
+@enduml

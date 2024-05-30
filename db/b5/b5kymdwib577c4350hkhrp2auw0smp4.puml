@@ -1,0 +1,32 @@
+{
+  "sha1": "b5kymdwib577c4350hkhrp2auw0smp4",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.018Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+digraph unix {
+{rank=min;minPoint4; minPoint8; }
+{rank=max;maxPoint4 ;maxPoint8 ;}
+subgraph cluster4 {style=solid;color="#000004";
+{rank = source; sourceIn4 ;}
+minPoint4->sourceIn4  [weight=999];
+{rank = sink; sinkIn4 ;}
+sinkIn4->maxPoint4  [weight=999];
+
+sh0006;
+sh0007 ;
+sh0006->sh0007[arrowtail=none,arrowhead=open,color="#00000B",minlen=0];
+}
+subgraph cluster8 {style=solid;color="#000008";
+{rank = source; sourceIn8 ;}
+minPoint8->sourceIn8  [weight=999];
+{rank = sink; sinkIn8 ;}
+sinkIn8->maxPoint8  [weight=999];
+sh0010 ;
+sh0007->sh0010[arrowtail=none,arrowhead=open,color="#00000F",minlen=1];
+}
+
+}
+@enduml

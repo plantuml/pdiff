@@ -1,0 +1,29 @@
+{
+  "sha1": "69i0sbfww52kr8e70dbql1yo9d5ewkq",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.910Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set namespaceSeparator none
+
+class BaseClass
+
+namespace net.dummy #DDDDDD {
+    .BaseClass <|-- Person
+    Meeting o-- Person
+    
+    .BaseClass <|- Meeting
+
+}
+
+namespace net.foo {
+  net.dummy.Person  <|- Person
+  .BaseClass <|-- Person
+
+  net.dummy.Meeting o-- Person
+}
+
+BaseClass <|-- net.unused.Person
+@enduml

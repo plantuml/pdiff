@@ -1,0 +1,47 @@
+{
+  "sha1": "9qi5qhzqpdhem6v5okfatwzso8xw2rd",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.750Z",
+    "url": "https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+{
+"problems": [{
+    "Diabetes":[{
+        "medications":[{
+            "medicationsClasses":[{
+                "className":[{
+                    "associatedDrug":[{
+                        "name":"asprin",
+                        "dose":"",
+                        "strength":"500 mg"
+                    }],
+                    "associatedDrug#2":[{
+                        "name":"somethingElse",
+                        "dose":"",
+                        "strength":"500 mg"
+                    }]
+                }],
+                "className2":[{
+                    "associatedDrug":[{
+                        "name":"asprin",
+                        "dose":"",
+                        "strength":"500 mg"
+                    }],
+                    "associatedDrug#2":[{
+                        "name":"somethingElse",
+                        "dose":"",
+                        "strength":"500 mg"
+                    }]
+                }]
+            }]
+        }],
+        "labs":[{
+            "missing_field": "missing_value"
+        }]
+    }],
+    "Asthma":[{}]
+}]}
+@endjson

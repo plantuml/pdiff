@@ -1,0 +1,12 @@
+{
+  "sha1": "3qw2665nr57bspdpitknvltyye9o6dw",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.334Z",
+    "url": "https://forum.plantuml.net/9772/dash-link-not-ok-with-eps",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Node aaa
+aaa . bbb : ccc
+@enduml

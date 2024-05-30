@@ -1,0 +1,25 @@
+{
+  "sha1": "bl285tgutzx0e9og1jusqonxd3gxslh",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.110Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|LANE_A|
+|LANE_B|
+start
+:Step 1;
+if (test1) then
+    |LANE_A|
+    : Error1;
+    stop
+elseif (test2) then
+        |LANE_B|
+        : Step 2;
+        |LANE_B|
+endif
+|LANE_B|
+:next step;
+end
+@enduml

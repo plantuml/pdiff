@@ -1,0 +1,20 @@
+{
+  "sha1": "6v0xb1nae0q22jk8o5zks3man5qh9gg",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.058Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+while( while 1 ) is( true1 )
+-[#LightGreen]->
+	while( while 2 ) is (true2)
+	-[#Yellow]->
+		:action3;
+	endwhile (false2)
+	-[#Blue]->
+endwhile (false1)
+-[#Grey]->
+stop
+@enduml

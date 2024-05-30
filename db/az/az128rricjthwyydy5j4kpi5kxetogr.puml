@@ -1,0 +1,23 @@
+{
+  "sha1": "az128rricjthwyydy5j4kpi5kxetogr",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.982Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skinparam dpi 800
+Bob <- Alice
+Bob <<- Alice
+Bob /- Alice
+Bob //- Alice
+Bob \- Alice
+Bob \\- Alice
+Bob <-- Alice
+Bob <<-- Alice
+Bob /-- Alice
+Bob //-- Alice
+Bob \-- Alice
+Bob \\-- Alice
+
+@enduml

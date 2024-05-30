@@ -1,0 +1,20 @@
+{
+  "sha1": "4ybjnmujnbkpmtio5b2oji35t562kxn",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.610Z",
+    "url": "http://forum.plantuml.net/8701/skinparam-defaulttextalignment-center-does-elseif-boxes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <C4/C4_Container>
+
+Person(admin, "Administrator")
+System_Boundary(c1, "Sample System") {
+    Container(web_app, "Web Application", "C#, ASP.NET Core 2.1 MVC", "Allows users to compare multiple Twitter timelines")
+}
+System(twitter, "Twitter")
+
+Rel(admin, web_app, "Uses", "HTTPS")
+Rel(web_app, twitter, "Gets tweets from", "HTTPS")
+@enduml

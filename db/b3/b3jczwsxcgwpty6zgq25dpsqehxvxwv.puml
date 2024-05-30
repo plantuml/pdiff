@@ -1,0 +1,14 @@
+{
+  "sha1": "b3jczwsxcgwpty6zgq25dpsqehxvxwv",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.002Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ skinparam activityShape<< stereo >>  octagon
+ skinparam activityShape roundBox
+ skinparam activityBackgroundColor<< stereo >> Red
+ (*)-->A<< stereo >>
+ A-->B
+@enduml

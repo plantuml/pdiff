@@ -1,0 +1,22 @@
+{
+  "sha1": "awlv2c1voxz6cgdbgl69718iz7hco3g",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.974Z",
+    "url": "http://forum.plantuml.net/8491/skinparam-from-command-line-breaks-salt-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam fixCircleLabelOverlapping true
+salt
+{
+Just plain text
+[This is my button]
+() Unchecked radio
+(X) Checked radio
+[] Unchecked box
+[X] Checked box
+"Enter text here "
+^This is a droplist^
+}
+@enduml

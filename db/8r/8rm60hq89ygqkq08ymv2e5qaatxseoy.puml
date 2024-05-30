@@ -1,0 +1,16 @@
+{
+  "sha1": "8rm60hq89ygqkq08ymv2e5qaatxseoy",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.506Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+activate bob
+bob -> bob : a
+activate bob
+bob -> other : b
+bob -> bob : c
+deactivate bob
+
+@enduml

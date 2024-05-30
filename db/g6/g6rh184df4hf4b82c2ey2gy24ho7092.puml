@@ -1,0 +1,16 @@
+{
+  "sha1": "g6rh184df4hf4b82c2ey2gy24ho7092",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.082Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> VerifyReservation
+--> ===Y1===
+
+--> ===Y2===
+
+--> GiveTravelDocumentation
+--> (*)
+@enduml

@@ -1,0 +1,27 @@
+{
+  "sha1": "1fog51jc42mzwwflmv0eulz1bo4ubdi",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.666Z",
+    "url": "https://forum.plantuml.net/11556/diagrams-backgroundcolor-transparent-nullpointerexception",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+mindMapDiagram {
+  shadowing 0
+  BackGroundColor transparent
+}
+</style>
+
+* Debian
+** Ubuntu
+*** Linux Mint
+*** Kubuntu
+*** Lubuntu
+*** KDE Neon
+** LMDE
+** SolydXK
+** SteamOS
+** Raspbian with a very long name
+@endmindmap

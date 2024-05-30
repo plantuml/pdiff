@@ -1,0 +1,17 @@
+{
+  "sha1": "7d45up9kbfx89s4zqdrd0yjikv36kpt",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.174Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundcolor transparent
+
+alt successful
+Server -> Client: OK
+else failure
+Server -> Client : ERROR
+end
+
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "2hki1a5kw6jb4g2pzd0ix1zvudh19yw",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.998Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package a {
+note "my note" as M
+}
+
+package b {
+note "my other note" as M
+}
+@enduml

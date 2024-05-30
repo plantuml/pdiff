@@ -1,0 +1,29 @@
+{
+  "sha1": "9b310sou4n6dfgxds5u9t99gzqwu0sm",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.642Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 1.4
+
+[*] --> Active
+Active --> Other
+Active -le-> Big1
+
+state Big1 {
+  b1 --> b2
+}
+
+state Big2 {
+  c1 --> c2
+  state AbstractState {
+   InnerState2 --> InnerState1
+  }
+  AbstractState --> InnerState1 : all
+}
+
+Other -> Big2
+
+@enduml

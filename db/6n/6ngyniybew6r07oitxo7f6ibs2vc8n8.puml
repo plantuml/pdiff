@@ -1,0 +1,19 @@
+{
+  "sha1": "6ngyniybew6r07oitxo7f6ibs2vc8n8",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.986Z",
+    "url": "https://forum.plantuml.net/10903/state-labels-overlap-with-participants-names",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "CDAS_FETCH_EVENT" as CDAS_FETCH_EVENT
+concise "jb_2" as jb_2
+scale 30 as 100 pixels
+title connector.log
+0 is {hidden}
+
+@CDAS_FETCH_EVENT
+0 is 80 : db
++80 is {-}
+@enduml

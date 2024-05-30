@@ -1,0 +1,16 @@
+{
+  "sha1": "8z8nv8xx23zhr529q2nvzm51cpvoeen",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.562Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Group External Communication Thread
+	repeat
+	:<b>Handle External Rx Event</b>;
+	:<b>Handle External Tx Event </b>;
+	Repeat while (repeat loop)
+End group
+
+@enduml

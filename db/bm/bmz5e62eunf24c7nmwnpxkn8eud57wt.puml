@@ -1,0 +1,31 @@
+{
+  "sha1": "bmz5e62eunf24c7nmwnpxkn8eud57wt",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.126Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:Ready;
+:next(o); <<procedure>>
+:Receiving;
+split
+ :nak(i); <<input>>
+ :ack(o); <<output>>
+split again
+ :ack(i); <<input>>
+ :next(o)
+ on several line; <<procedure>>
+ :i := i + 1; <<task>>
+ :ack(o); <<output>>
+split again
+ :err(i); <<input>>
+ :nak(o); <<output>>
+split again
+ :foo; <<load>>
+split again
+ :i > 5; <<continuous>>
+stop
+end split
+:-;
+@enduml

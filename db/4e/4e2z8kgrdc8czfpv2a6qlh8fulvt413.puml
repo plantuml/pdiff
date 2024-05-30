@@ -1,0 +1,25 @@
+{
+  "sha1": "4e2z8kgrdc8czfpv2a6qlh8fulvt413",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.478Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+caller -> server : conReq
+hnote over caller : idle
+caller <- server : conConf
+hnote over caller : connected
+rnote over server : connected
+rnote over server
+ this is
+ on several
+ lines
+endrnote
+hnote over caller
+ this is
+ on several
+ lines
+endhnote
+
+@enduml

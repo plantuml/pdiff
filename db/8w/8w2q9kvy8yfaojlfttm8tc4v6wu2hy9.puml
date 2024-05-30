@@ -1,0 +1,23 @@
+{
+  "sha1": "8w2q9kvy8yfaojlfttm8tc4v6wu2hy9",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.534Z",
+    "url": "http://forum.plantuml.net/5366/please-provide-skinparam-shadowing-elements-individually?show=9154#c9154",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam participant {
+Bordercolor none
+Backgroundcolor none
+Shadowing false
+}
+actor Bob #red
+' The only difference between actor
+'and participant is the drawing
+participant "<size:30><&key>" as L
+
+Alice->Bob: Authentication Request
+Bob->Alice: Authentication Response
+Bob->L: Log transaction
+@enduml

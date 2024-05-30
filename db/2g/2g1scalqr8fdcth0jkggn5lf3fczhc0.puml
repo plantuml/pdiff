@@ -1,0 +1,14 @@
+{
+  "sha1": "2g1scalqr8fdcth0jkggn5lf3fczhc0",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.986Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcreole
+this is an example <i>which is italic</i>
+* first element
+* second element
+* third element
+And now the end
+@endcreole

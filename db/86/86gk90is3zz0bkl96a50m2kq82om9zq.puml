@@ -1,0 +1,12 @@
+{
+  "sha1": "86gk90is3zz0bkl96a50m2kq82om9zq",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.354Z",
+    "url": "https://forum.plantuml.net/15983/element-line-style-not-applied-in-usecase-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase c #palegreen;line:red;line.dashed;text:yellow
+usecase d #aliceblue;line:blue;line.dotted;text:red
+@enduml

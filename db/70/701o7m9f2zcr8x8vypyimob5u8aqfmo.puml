@@ -1,0 +1,20 @@
+{
+  "sha1": "701o7m9f2zcr8x8vypyimob5u8aqfmo",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.090Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{+
+{/ <b>General | Fullscreen | Behavior | Saving }
+{
+	{ Open image in: | ^Smart Mode^m2^ }
+	[X] Smooth images when zoomed
+	[X] Confirm image deletion
+	[ ] Show hidden images
+	^Other test^
+}
+[Close]
+}
+@endsalt

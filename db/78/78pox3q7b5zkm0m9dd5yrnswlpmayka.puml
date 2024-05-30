@@ -1,0 +1,18 @@
+{
+  "sha1": "78pox3q7b5zkm0m9dd5yrnswlpmayka",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.146Z",
+    "url": "http://forum.plantuml.net/9031/do-you-plan-for-conditional-code-in-macros?show=9167#a9167",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!function double($a) return $a+$a
+!$ijk = "foo"
+Alice -> Bob : A
+!if ($ijk == "foo") && %strlen(double($ijk))==6
+Alice -> Bob : yes
+!endif
+Alice -> Bob : B
+@enduml

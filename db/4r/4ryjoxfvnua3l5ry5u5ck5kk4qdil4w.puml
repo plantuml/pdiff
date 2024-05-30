@@ -1,0 +1,10 @@
+{
+  "sha1": "4ryjoxfvnua3l5ry5u5ck5kk4qdil4w",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.558Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+openiconic lightbulb
+@enduml

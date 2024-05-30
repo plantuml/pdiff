@@ -1,0 +1,14 @@
+{
+  "sha1": "b1g5jid3jvhyff2qbind9g21oex8vn9",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.990Z",
+    "url": "http://forum.plantuml.net/8612/teoz-wrong-note-position-after-array",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Bob -> Alice : first
+& Alice -> Ken : second
+note right: (1) second above first
+@enduml

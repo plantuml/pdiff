@@ -1,0 +1,18 @@
+{
+  "sha1": "53qcimc64ooeakeiyzikyjewee2nzxe",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.646Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A ->B: ok
+note right: note is misplaced and overwrites the message text
+A ->B: ok
+note left: note is misplaced and overwrites the message text
+A ->]: error
+note right: note is misplaced and overwrites the message text
+[-> A: error
+note right: note is misplaced and overwrites the message text
+...5 seconds...
+@enduml

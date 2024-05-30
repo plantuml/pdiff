@@ -1,0 +1,21 @@
+{
+  "sha1": "6ihhnne3sxqe0zmljvl9rq84ev9i4sb",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.966Z",
+    "url": "http://forum.plantuml.net/6850/how-to-best-use-the-new-icon-features/",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+
+!definelong AWSCLOUD(foo)
+rectangle foo
+!enddefinelong
+
+AWSCLOUD(v1) {
+rectangle rect1
+}
+
+
+@enduml

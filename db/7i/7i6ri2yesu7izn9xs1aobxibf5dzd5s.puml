@@ -1,0 +1,29 @@
+{
+  "sha1": "7i6ri2yesu7izn9xs1aobxibf5dzd5s",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.214Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+digraph unix {
+nodesep=0.486111;
+ranksep=0.833333;
+remincross=true;
+searchsize=500;
+compound=true;
+sh0004->sh0005[arrowtail=none,arrowhead=none,color="#000013",label=c];
+sh0004->sh0004[arrowtail=none,arrowhead=none,color="#000007"];
+sh0005->sh0004[arrowtail=none,arrowhead=none,color="#00000B"];
+sh0006->sh0004[arrowtail=none,arrowhead=none,color="#00000F"];
+sh0004;
+sh0005;
+sh0006;
+{rank=same; sh0004; sh0005}
+{rank=same; sh0005; sh0004}
+{rank=same; sh0006; sh0004}
+{rank=same; sh0004; sh0004}
+
+}
+
+@enduml

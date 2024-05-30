@@ -1,0 +1,16 @@
+{
+  "sha1": "59p324r23rmiswjo95j2e6lq0qtray0",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.694Z",
+    "url": "https://forum.plantuml.net/10676/repeat-plus-colour?show=10746#c10746",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam activity {
+  BackgroundColor<<MyGreen>> LightGreen
+}
+:A;
+<<MyGreen>>repeat:B;
+repeat while (C) 
+@enduml

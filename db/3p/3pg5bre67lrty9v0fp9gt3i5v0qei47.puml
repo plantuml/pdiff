@@ -1,0 +1,11 @@
+{
+  "sha1": "3pg5bre67lrty9v0fp9gt3i5v0qei47",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.318Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:foo[1024];<<task>>
+@enduml

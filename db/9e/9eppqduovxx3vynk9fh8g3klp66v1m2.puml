@@ -1,0 +1,31 @@
+{
+  "sha1": "9eppqduovxx3vynk9fh8g3klp66v1m2",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.678Z",
+    "url": "http://alphadoc.plantuml.com/doc/dokuwiki/en/nwdiag",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+
+    group {
+      color = "pink";
+      app;
+      db;
+    }
+    
+    network aa {
+        router;
+        app;
+    }
+
+
+    network bb {
+    	app;
+        db;
+    }
+    
+
+}
+@enduml

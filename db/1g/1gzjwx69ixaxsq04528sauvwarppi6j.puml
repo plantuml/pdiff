@@ -1,0 +1,28 @@
+{
+  "sha1": "1gzjwx69ixaxsq04528sauvwarppi6j",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.682Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+	title page 0
+	note over A
+	note 1a
+	note 1b
+	note 1c
+	note 1d
+	end note
+	A  ->  B : AAAAAAAAAAA
+	newpage page 1
+	...
+	...Dot vertical lines should be here!...
+	...
+	group A group
+	B ->  C : BBBBBBBBBBBB
+	    B ->  C : BBBBBBBBBBBB
+	C ->  D : CCCCCCCCCCCC
+	    D ->  E : DDDDDDDDDDDD
+	E ->  A : EEEEEEEEEEEE
+	end
+@enduml

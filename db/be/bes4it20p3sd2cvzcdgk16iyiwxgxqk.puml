@@ -1,0 +1,28 @@
+{
+  "sha1": "bes4it20p3sd2cvzcdgk16iyiwxgxqk",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.082Z",
+    "url": "https://forum.plantuml.net/10572/exception-when-using-includesub",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!startsub DO_NOT_WANT_TO_INCLUDE_THIS
+    !log B.BRIEF
+!endsub
+!startsub DETAILS
+    !log B.DETAILS
+    !$HAVE_MODULE_A = 1
+    !$HAVE_MODULE_B = 1
+    component [b] as B
+    !if (%not(%variable_exists("$HAVE_MODULE_A")))
+    	!log I should include A
+    !endif
+    component [b1] as B1
+    component [b2] as B2
+
+    B <-- B1
+    B <-- B2
+    B <-- A
+!endsub
+@enduml

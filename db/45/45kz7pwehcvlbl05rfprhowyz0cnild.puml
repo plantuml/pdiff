@@ -1,0 +1,12 @@
+{
+  "sha1": "45kz7pwehcvlbl05rfprhowyz0cnild",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.426Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+digraph toto {
+azerty;
+}
+@enduml

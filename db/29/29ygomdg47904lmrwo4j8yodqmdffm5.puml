@@ -1,0 +1,27 @@
+{
+  "sha1": "29ygomdg47904lmrwo4j8yodqmdffm5",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.942Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (test1) then
+	 :ins1;
+'	 -> label which is very very long;
+'	 -> labelwhichii xwlk sfdmlkjsfdkj sdfkjsqdflkjs sdfsqdf;
+	 -> labelwhichii;
+	 :ins2;
+else
+	 :ins3
+	 sqfd
+	 sqdf
+	 sqfd
+	 sqfd
+	 sqfd
+	 ;
+'	 -> l;
+	 :ins4;
+endif
+@enduml

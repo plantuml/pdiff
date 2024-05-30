@@ -1,0 +1,21 @@
+{
+  "sha1": "4bxx99e3zoa476nh8z5m33lm8yexz3y",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.470Z",
+    "url": "https://github.com/plantuml/plantuml/issues/404",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+title Long Long Long note KO
+
+Project starts 2020-05-29
+projectscale weekly
+
+[TASK1] as [T1] starts on 2020-05-29 and ends on 2020-06-30
+note bottom
+Long very very very Long Long note KO
+end note
+[Milestone 1] as [M1] happens 2020-06-30
+[M1] displays on same row as [T1]
+@endgantt

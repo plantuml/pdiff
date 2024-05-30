@@ -1,0 +1,48 @@
+{
+  "sha1": "4pknxeh5qik3zlud711noj9xra6y0hc",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.538Z",
+    "url": "https://forum.plantuml.net/15386/allow-new-styling-for-nested-package",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+file {
+  BackGroundColor #b
+  LineThickness 1
+  LineColor black
+}
+folder {
+  BackGroundColor #pink
+  LineThickness 1
+  LineColor black
+}
+frame {
+  BackGroundColor #palegreen
+  LineThickness 1
+  LineColor black
+}
+package {
+  BackGroundColor #LightSkyBlue
+  LineThickness 1
+  LineColor black
+}
+</style>
+rectangle OK {
+folder folder
+frame frame
+package package
+}
+rectangle package_KO {
+folder e7 as "folder" {
+file f7
+}
+frame e8 as "frame" {
+file f8
+}
+package e11 as "package" {
+file f11
+}
+}
+@enduml

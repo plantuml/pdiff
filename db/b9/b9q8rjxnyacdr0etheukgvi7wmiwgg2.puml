@@ -1,0 +1,17 @@
+{
+  "sha1": "b9q8rjxnyacdr0etheukgvi7wmiwgg2",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.050Z",
+    "url": "https://forum.plantuml.net/13731/activity-layout-issue-java-error-end-merge-with-more-than-fork",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+fork
+  :action 1;
+fork again
+  :action 2;
+fork again
+  :action 3;
+end merge
+@enduml

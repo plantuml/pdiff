@@ -1,0 +1,40 @@
+{
+  "sha1": "b7eevo8u1r3h9pm237vqjr0ocxoy61j",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.034Z",
+    "url": "https://github.com/plantuml/plantuml/issues/446#issuecomment-1369057034",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+
+skinparam backgroundcolor transparent
+
+#highlight "lastName"
+#highlight "address" / "city"
+#highlight "phoneNumbers" / "0" / "number"
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 28,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }
+  ],
+  "children": [],
+  "spouse": null
+}
+@endjson

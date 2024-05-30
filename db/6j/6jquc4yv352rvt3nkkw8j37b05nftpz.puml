@@ -1,0 +1,16 @@
+{
+  "sha1": "6jquc4yv352rvt3nkkw8j37b05nftpz",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.974Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam arrowColor<<read>> #green
+skinparam arrowColor<<write>> #line.dashed:blue;text:coral
+usecase usecase1
+component component2
+actor actor3
+usecase1 --> component2 <<read>> : link1
+usecase1 --> actor3 <<write>> : link2
+@enduml

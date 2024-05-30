@@ -1,0 +1,40 @@
+{
+  "sha1": "5p6lw22hgfmyayzikey8va8gyq9buh3",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.782Z",
+    "url": "https://forum.plantuml.net/15544/stereotype-priorities-changed-compared-implementations",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    skinparam rectangle<<RedContainer>> {
+        StereotypeFontColor red
+        FontColor red
+        BackgroundColor lightred
+        BorderColor darkred
+        RoundCorner 0
+        DiagonalCorner 18
+    }
+
+    skinparam rectangle {
+        StereotypeFontColor blue
+        FontColor blue
+    }
+    
+    skinparam rectangle<<ItalicContainer>> {
+        FontStyle italic
+        FontSize 8
+    }
+    
+    skinparam rectangle<<GreenContainer>> {
+        StereotypeFontColor green
+        FontColor green
+        BackgroundColor lightgreen
+        BorderColor darkgreen
+        RoundCorner 15
+        DiagonalCorner 0
+    }
+
+	title produces a red+smallItalic rectangle
+    rectangle  "C1"  <<RedContainer>><<ItalicContainer>>  as C1
+@enduml

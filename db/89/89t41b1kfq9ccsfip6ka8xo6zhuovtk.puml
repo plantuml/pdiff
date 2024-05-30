@@ -1,0 +1,20 @@
+{
+  "sha1": "89t41b1kfq9ccsfip6ka8xo6zhuovtk",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.370Z",
+    "url": "http://forum.plantuml.net/9031/do-you-plan-for-conditional-code-in-macros?show=9167#a9167",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!function bold($text)
+!return "<b>$text</b>"
+!endfunction
+
+!procedure msg(a, b, text)
+a -> b : text
+!endprocedure
+
+msg("alice", "bob", "foo")
+@enduml

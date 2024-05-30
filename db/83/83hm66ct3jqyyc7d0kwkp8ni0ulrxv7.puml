@@ -1,0 +1,12 @@
+{
+  "sha1": "83hm66ct3jqyyc7d0kwkp8ni0ulrxv7",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.330Z",
+    "url": "https://forum.plantuml.net/12230/allow-significant-indentation-beginning-mindmap-diagram?show=12477#c12477",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+  * first node
+footer Observed on v1.2020.20
+@endmindmap

@@ -1,0 +1,24 @@
+{
+  "sha1": "bhko5rcfktw1pfeee9bcri20348f09v",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.094Z",
+    "url": "https://forum.plantuml.net/16797/change-state-diagram-arrowhead-color",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+stateDiagram {
+  arrow {
+    LineColor blue
+    HeadColor red
+  }
+}
+</style>
+
+state a
+state b
+
+a-->b
+
+@enduml

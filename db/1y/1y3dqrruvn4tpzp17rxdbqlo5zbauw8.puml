@@ -1,0 +1,37 @@
+{
+  "sha1": "1y3dqrruvn4tpzp17rxdbqlo5zbauw8",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.838Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+allow_mixing
+abstract abstract
+actor actor
+agent agent
+artifact artifact
+boundary boundary
+card card
+class class
+cloud cloud
+component component
+control control
+database database
+entity entity
+enum enum
+file file
+folder folder
+frame frame
+interface  interface
+node node
+object object
+package package
+'sequence diagram participant participant
+queue queue
+stack stack
+rectangle rectangle
+'State diagram state state
+storage storage
+usecase usecase
+@enduml

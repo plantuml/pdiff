@@ -1,0 +1,53 @@
+{
+  "sha1": "azhwi97ga7gchso32zc57ktiw8pkla0",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.986Z",
+    "url": "https://forum.plantuml.net/11354/applying-style-to-multiline-node-in-mindmap-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+  mindmapDiagram {
+  Scale 10
+  LineColor Black
+   node {
+    FontName Roboto
+    Padding 5
+    Margin 15
+   ' RoundCorner 11
+    LineColor black
+    BackgroundColor #cc33cc-#0c33ac
+    FontColor white
+    LineStyle 0
+    LineThickness 1
+    DiagonalCorner 50
+  }
+  rootNode {
+   Padding 10
+   FontStyle  Italic
+}
+  leafNode {
+    Padding 7
+ }
+  .n1 {
+    BackgroundColor white
+    FontStyle  Bold
+    FontColor black
+    Shadowing 0
+  }
+}
+</style>
+* Class Templates
+** foo <<n1>>
+**:template typename T1
+class cname{
+void f1()
+...
+}; <<n1>>
+**:template typename T2
+class cname{
+void f2()
+...
+};
+@endmindmap

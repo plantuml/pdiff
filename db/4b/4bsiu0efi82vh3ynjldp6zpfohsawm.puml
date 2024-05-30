@@ -1,0 +1,19 @@
+{
+  "sha1": "4bsiu0efi82vh3ynjldp6zpfohsawm",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.470Z",
+    "url": "https://forum.plantuml.net/11670/sequence-diagrams-anchros-durations-incoming-outgoing-messages",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+{start} [-> Bob : start doing things during duration
+Bob -> Max : something
+Max -> Bob : something else
+{end} [-> Alice : finish
+
+{start} <-> {end} : some time
+
+@enduml

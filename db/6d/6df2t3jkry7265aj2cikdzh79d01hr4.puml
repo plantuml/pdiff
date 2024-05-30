@@ -1,0 +1,31 @@
+{
+  "sha1": "6df2t3jkry7265aj2cikdzh79d01hr4",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.930Z",
+    "url": "https://forum.plantuml.net/16408/is-it-possible-to-include-json-as-an-external-source?show=16427#c16427",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$remote_json={"participants" :[ 
+{"id": "cm" ,"label": "customer master","desc": "manages customers"},
+{"id": "tm" ,"label": "transaction manager","desc": "manages transactions"},
+{"id": "am" ,"label": "account master","desc": "manages accounts"}
+]
+}
+
+json foo {
+   "fruit":"Apple",
+   "size":"Large",
+   "color": ["Red", "Green"]
+}
+
+
+label label [
+=Title:
+{{json
+$remote_json
+}}
+]
+
+@enduml

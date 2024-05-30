@@ -1,0 +1,20 @@
+{
+  "sha1": "bg0js6pd43g75tm0cg9r4f2z4qjsnd7",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.086Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1397#issuecomment-1519847197",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class c0
+class c1 {
+    attr1 = "attr2"
+    attr2 = "value2"
+}
+
+note right of c1::attr2
+ note about attr2
+end note
+
+@enduml

@@ -1,0 +1,31 @@
+{
+  "sha1": "1uel9mcvngenhm0xtd9s1oz7pxuj5gq",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.794Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1045",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout elk
+ 
+cloud F
+actor G
+node H {
+    package A <<program>> {
+        component B <<lib>>
+    }
+
+    package C <<program>>
+
+    package D <<program>> {
+        component E <<lib>>
+    }
+}
+
+A -[bold,#green]- "2 (bla)" F
+F -[bold,#green]- "3 (bla ok)" A 
+G -[bold,#green]- C
+A "4 (argh)" -[bold,#red]- C
+E  -[bold,#blue]- "1 (url)" A
+@enduml

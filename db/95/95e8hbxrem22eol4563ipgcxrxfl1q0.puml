@@ -1,0 +1,15 @@
+{
+  "sha1": "95e8hbxrem22eol4563ipgcxrxfl1q0",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.610Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autonumber
+hide footbox
+participant "Client" as C
+participant "Service" as S
+C->S: input
+C<--S: output
+@enduml

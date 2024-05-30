@@ -1,0 +1,36 @@
+{
+  "sha1": "2sz8zi6bx16jisi1lku83ekwln72wrz",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.090Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+box
+       participant A
+end box
+
+box
+       participant B
+end box
+
+box
+       participant C
+       participant D
+end box
+
+box
+       participant E
+       participant F
+end box
+
+box
+       participant G
+end box
+
+'participant H
+
+A->B
+
+@enduml

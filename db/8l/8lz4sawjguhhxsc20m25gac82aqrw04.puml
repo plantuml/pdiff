@@ -1,0 +1,176 @@
+{
+  "sha1": "8lz4sawjguhhxsc20m25gac82aqrw04",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.454Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Some_Title_Here
+start
+
+if ( #####)
+	:**EVENT1**; <<continuous>>
+	#lightblue: #####; <<procedure>>
+	-[#blue]-> callback received;
+	if ( #####) then ( #####)
+		: #####;
+	else ( #####)
+		: #####;
+		if ( #####) then ( #####)
+			: #####;
+			if ( #####) then ( #####)
+				#lightblue: #####; <<procedure>>
+				-[#blue]-> callback received;
+				if ( #####) then ( #####)
+					stop
+				else ( #####)
+					: #####;
+				endif
+			else ( #####)
+			endif
+			: #####;
+			if ( #####) then ( #####)
+				if ( #####) then ( #####)
+
+					repeat
+						if ( #####) then ( #####)
+							: ##### = +1;
+							: #####; <<procedure>>
+							: #####;
+						else ( #####)
+							#lightpink: #####; <<task>>
+							stop
+						endif
+					repeat while ( #####?) 
+					->_#####;
+
+					if ( #####) then ( #####)
+						: #####;
+					else ( #####)
+					endif
+					: #####;
+					if ( #####) then ( #####)
+						: #####;
+						#lightblue: #####; <<procedure>>
+						-[#blue]-> callback received;
+						if ( #####) then ( #####)
+							: #####;
+							if ( #####) then ( #####)
+								: #####;
+							else ( #####)
+							endif
+						else ( #####)
+						endif
+					else ( #####)
+						if ( #####) then ( #####)
+						else ( #####)
+							if ( #####) then ( #####)
+								#lightblue: #####; <<procedure>>
+								-[#blue]-> callback received;
+								if ( #####) then ( #####)
+								else ( #####)
+									if ( #####) then ( #####)
+										#lightblue: #####; <<procedure>>
+										-[#blue]-> callback received;
+										#lightblue: #####; <<procedure>>
+										-[#blue]-> callback received;
+										if ( #####) then ( #####)
+											#lightpink: #####; <<task>>
+											stop
+										else ( #####)
+										endif
+									else ( #####)
+										#lightpink: #####; <<task>>
+										stop
+									endif
+								endif
+								: #####;
+							else ( #####)
+								if ( #####) then ( #####)
+								else ( #####)
+									#lightblue: #####; <<procedure>>
+									-[#blue]-> callback received;
+									if ( #####) then ( #####)
+										#lightpink: #####; <<task>>
+										stop
+									else ( #####)
+										: #####;
+										: #####;
+										: #####;
+										#lightgreen: #####; <<task>>
+										stop
+									endif
+								endif
+							endif
+						endif
+					endif
+				else ( #####)
+				endif
+			else ( #####)
+				end
+			endif
+		else ( #####)
+			stop
+		endif
+	endif
+	#lightgreen: #####; <<task>>
+	stop
+else
+	:**EVENT2**; <<continuous>>
+	#lightblue: #####; <<procedure>>
+	-[#blue]-> callback received;
+	: #####;
+	#lightblue: #####; <<procedure>>
+	-[#blue]-> callback received;
+	if ( #####) then ( #####)
+		#lightpink: #####; <<task>>
+		stop
+	endif
+
+	if ( #####) then ( #####)
+		if ( #####) then ( #####)
+			#lightblue: #####; <<task>>
+			-[#blue]-> callback received;
+			if ( #####) then ( #####)
+				#lightpink: #####; <<task>>
+				stop
+			else ( #####)
+				: #####;
+			endif
+		else ( #####)
+			#lightpink: #####; <<task>>
+			stop
+		endif
+	else ( #####)
+		if ( #####) then ( #####)
+			: #####;
+			if ( #####) then ( #####)
+				#lightpink: #####; <<task>>
+				stop
+			else ( #####)
+			endif
+		else ( #####)
+			: #####;
+			if ( #####) then ( #####)
+				#lightpink: #####; <<task>>
+				stop
+			else ( #####)
+				: #####;
+			endif
+		endif
+	endif
+	: #####;
+	#lightblue: #####; <<procedure>>
+	-[#blue]-> callback received;
+	if ( #####) then ( #####)
+		#lightpink: #####; <<task>>
+		stop
+	else ( #####)
+	endif
+	: #####;
+	#lightgreen: #####; <<task>>
+	stop
+endif
+
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "3q0c9vy2pfllbgt49ir2x7gaeejg5ft",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.330Z",
+    "url": "http://forum.plantuml.net/9227/customize-stereotype-display",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam guillemet $$ $$
+class foo <<stereotype>>
+@enduml

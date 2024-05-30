@@ -1,0 +1,24 @@
+{
+  "sha1": "b260ea7sbcgexlguwry0jmlb0tk0z8a",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.990Z",
+    "url": "https://github.com/plantuml/plantuml/issues/104#issuecomment-1223801774",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam wrapWidth 50
+
+class test{
+member: string
+}
+
+
+note left
+   this long note text is controlled through the wrapWidth paramater
+end note
+
+note left of test::member 
+   unfortunately, that is not the case for this kind of note
+end note
+@enduml

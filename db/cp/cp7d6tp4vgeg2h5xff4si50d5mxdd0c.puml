@@ -1,0 +1,10 @@
+{
+  "sha1": "cp7d6tp4vgeg2h5xff4si50d5mxdd0c",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.034Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant "Famous Bob" as Bob << Generated >>
+@enduml

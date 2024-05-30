@@ -1,0 +1,13 @@
+{
+  "sha1": "bmtgzcd4gees85ui5xuhg4xwd5c5im7",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.126Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=1831/border-thickness&show=5082#c5082",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam titleBorderThickness 1
+title My Title
+Bob -> Alice : hello
+@enduml

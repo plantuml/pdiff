@@ -1,0 +1,20 @@
+{
+  "sha1": "40yqje23m0cw8548h372kblxrv7auip",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.398Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component toto
+toto --> titi : foo
+note on link #red: note red
+toto --> titi1 : foo
+note left on link #blue
+	this is my note on left link
+	blue
+end note
+component foo
+note left: this is left
+
+@enduml

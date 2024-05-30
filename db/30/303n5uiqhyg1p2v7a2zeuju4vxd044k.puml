@@ -1,0 +1,20 @@
+{
+  "sha1": "303n5uiqhyg1p2v7a2zeuju4vxd044k",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.142Z",
+    "url": "https://forum.plantuml.net/13983/encoding-error-with-nested-diagrams?show=14127#c14127",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class C {
+-- foo1 --
+- field1
+-- foo1 --
+- field2
+-- foo1 --
+- field3
+-- foo1 --
+- field4
+}
+@enduml

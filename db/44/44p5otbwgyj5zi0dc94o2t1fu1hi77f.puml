@@ -1,0 +1,17 @@
+{
+  "sha1": "44p5otbwgyj5zi0dc94o2t1fu1hi77f",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.422Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam component {
+    BackgroundColor #FF0000-#FFFFFF
+}
+skinparam interface {
+    BackgroundColor #FF0000-#FFFFFF
+}
+() dbmanager
+[db] - dbmanager
+@enduml

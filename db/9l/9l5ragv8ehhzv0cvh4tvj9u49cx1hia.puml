@@ -1,0 +1,17 @@
+{
+  "sha1": "9l5ragv8ehhzv0cvh4tvj9u49cx1hia",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.706Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> activity1
+--> switch "count"
+  -> "go right"
+break:
+  --> "go left"
+break:
+  -> "go right"
+  
+@enduml

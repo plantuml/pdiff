@@ -1,0 +1,20 @@
+{
+  "sha1": "8od7j1p9yayzocxb13tzwvtq57p2k4w",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.474Z",
+    "url": "https://forum.plantuml.net/11788/is-it-possible-to-add-a-note-to-backward-activity",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+repeat :Enter data;
+:Submit1;
+note left: Note1
+:Submit2;
+note right: Note2
+backward :Warning;
+note left: Note3
+repeat while (Valid?)
+stop
+@enduml

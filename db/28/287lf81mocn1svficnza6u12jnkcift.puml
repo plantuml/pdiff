@@ -1,0 +1,28 @@
+{
+  "sha1": "287lf81mocn1svficnza6u12jnkcift",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.930Z",
+    "url": "https://forum.plantuml.net/12211/arrow-description-for-while-loop?show=12261#c12261",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+if (A) then (yes)
+    :AA;
+(-[#blue]->inc) elseif (B) then (-[#green,dashed]->out)
+    :BB;
+-[#green]->
+elseif (C) then (yes)
+    :CC;
+-[#green]->
+end
+elseif (D) then (yes)
+    :DD;
+else (-[#red,dashed]->no)
+	:EE;
+endif
+-[#green]->
+stop
+@enduml

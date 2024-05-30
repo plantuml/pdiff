@@ -1,0 +1,23 @@
+{
+  "sha1": "9kdh3ijmk9nb4i2g441p5i16qzjhrxk",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.706Z",
+    "url": "https://forum.plantuml.net/15458/default-line-colors-are-not-supported-anymore",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam arrow<<orangeText>> {
+    Color ;text:orange;line.dotted
+}
+
+
+rectangle "==A" <<person>> as a
+rectangle "==S" <<system>> as s
+rectangle "==E" <<external_system>> as e
+
+a -->> s <<orangeText>> : **orange text**
+s -->> e <<orangeLine>> : **orange line**
+a -->> e <<origGreen>> : **origGreen**
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "3ifw219200cphmtn359yxxbbt2772cl",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.274Z",
+    "url": "http://forum.plantuml.net/8532/unsupportedoperationexception-in-gantt",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts the 20th of september 2018
+@endgantt

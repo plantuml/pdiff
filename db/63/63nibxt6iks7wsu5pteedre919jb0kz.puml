@@ -1,0 +1,12 @@
+{
+  "sha1": "63nibxt6iks7wsu5pteedre919jb0kz",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.866Z",
+    "url": "http://forum.plantuml.net/6915/can-i-do-round-corners-of-elements-in-component-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam roundCorner 10
+component foo1
+@enduml

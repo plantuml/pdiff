@@ -1,0 +1,17 @@
+{
+  "sha1": "2dfykzuwh5l5yib828l7mxtu464wuhq",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.962Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+digraph toto {
+compound=true;
+toto;
+subgraph cluster001 { 
+titi;
+}
+titi->toto; {titi;toto;rank=same}
+}
+@enduml

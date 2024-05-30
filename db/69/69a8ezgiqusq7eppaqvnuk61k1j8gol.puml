@@ -1,0 +1,23 @@
+{
+  "sha1": "69a8ezgiqusq7eppaqvnuk61k1j8gol",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.910Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam activityDiamond {
+    BackgroundColor red
+    BorderColor blue
+    FontSize 24
+}
+start
+:tekst1;
+if (teks2) then (yes)
+ :tekst1;
+else (no)
+ :tekst1;
+endif
+:tekst1;
+stop
+@enduml

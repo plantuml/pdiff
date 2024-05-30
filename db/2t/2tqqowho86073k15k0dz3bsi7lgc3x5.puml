@@ -1,0 +1,23 @@
+{
+  "sha1": "2tqqowho86073k15k0dz3bsi7lgc3x5",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.102Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+Bob -> Alice
+Bob ->> Alice
+Bob -\ Alice
+Bob -\\ Alice
+Bob -/ Alice
+Bob -// Alice
+Bob --> Alice
+Bob -->> Alice
+Bob --\ Alice
+Bob --\\ Alice
+Bob --/ Alice
+Bob --// Alice
+
+@enduml

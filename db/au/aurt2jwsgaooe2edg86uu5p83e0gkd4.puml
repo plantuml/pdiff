@@ -1,0 +1,32 @@
+{
+  "sha1": "aurt2jwsgaooe2edg86uu5p83e0gkd4",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.962Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (test1) then
+	 :ins1;
+'	 -> label which is very very long;
+	 -> I labelwhichii;
+	 :ins2;
+else if (test2)
+	 :ins1;
+	 -> label;
+'	 -> labelwhichii;
+	 :ins2;
+else
+	 :ins3
+	 sqfd
+	 sqdf
+	 sqfd
+	 sqfd
+	 sqfd
+	 ;
+	 ->I am on
+	 I several lines;
+	 :ins4;
+endif
+@enduml

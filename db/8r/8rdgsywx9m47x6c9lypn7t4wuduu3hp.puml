@@ -1,0 +1,23 @@
+{
+  "sha1": "8rdgsywx9m47x6c9lypn7t4wuduu3hp",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.502Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+actor "User" as client
+usecase "12. Authentication" as authen
+package "DataONE" {
+actor "Coordinating Node" as CN
+actor "Member Node" as MN
+usecase "13. Authorization" as author
+usecase "01. Get Object" as GET
+client -- GET
+CN -- GET
+MN -- GET
+GET ..> author: <<includes>>
+GET ..> authen: <<includes>>
+ 
+@enduml

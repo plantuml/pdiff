@@ -1,0 +1,13 @@
+{
+  "sha1": "a1gqv094fjceqc1hjf8kr99cpj25in7",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.802Z",
+    "url": "https://forum.plantuml.net/15195/preprocessor-function-%25lighten",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+: test: %lighten("#fff", 20) ;
+: test: %lighten("white", 20);
+: test: %lighten("#999", 99) ;
+@enduml

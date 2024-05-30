@@ -1,0 +1,15 @@
+{
+  "sha1": "1x3bywynmd653ve4tewo66arso2f6fq",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.818Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant "Bob on\nseveral lines" as Bob
+actor Alice
+
+Bob -> Alice : hello
+
+Alice -> Bob : Is it ok\nwith a message that is\non several lines?
+@enduml

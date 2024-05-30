@@ -1,0 +1,16 @@
+{
+  "sha1": "5e8hqv93zxe07bq5wocy8xmc0ogm89n",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.726Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Moveable <|-- Car
+Car <|-- ElectricCar
+FleetVehicle *- Car : "1" contains "0..*"
+Car o- Wheel : "1" has "4"
+Car --> Driver  : "1" is drived by "0..1"
+
+A "1" -- "1" B : contains
+@enduml

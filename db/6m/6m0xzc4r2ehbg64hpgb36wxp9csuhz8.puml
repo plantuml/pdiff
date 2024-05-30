@@ -1,0 +1,21 @@
+{
+  "sha1": "6m0xzc4r2ehbg64hpgb36wxp9csuhz8",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.982Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:onCreate()
+Au demarrage;
+
+:onStart;
+if (in foreground?) then (YES)
+  :onResume();
+  :onPause();
+endif
+:onStop;
+:onDestroy;
+stop
+@enduml

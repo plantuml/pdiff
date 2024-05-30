@@ -40,12 +40,6 @@ public class DbFileAfterRun implements Comparable<DbFileAfterRun> {
 		}
 	}
 
-	public static void main(String[] args) {
-		Path p = Paths.get("db", "1i", "1ihwmyyohxz86m9ttam1frigvrjw6e0.puml");
-		System.out.println("p=" + p);
-		load(p, "toto");
-	}
-
 	public boolean sameResultAs(DbFileAfterRun other) {
 		return this.getCrc() == other.getCrc();
 	}

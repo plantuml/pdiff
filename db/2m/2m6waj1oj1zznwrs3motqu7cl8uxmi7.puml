@@ -1,0 +1,16 @@
+{
+  "sha1": "2m6waj1oj1zznwrs3motqu7cl8uxmi7",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.042Z",
+    "url": "https://forum.plantuml.net/9659/database-border-colour-incorrectly-uses-actorbordercolor",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequence {
+ActorBorderColor blue
+}
+actor foo
+database db
+foo -> db
+@enduml

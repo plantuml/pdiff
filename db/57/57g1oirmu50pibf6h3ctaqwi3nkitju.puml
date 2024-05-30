@@ -1,0 +1,20 @@
+{
+  "sha1": "57g1oirmu50pibf6h3ctaqwi3nkitju",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.674Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> "Activity 0"
+
+if "" then
+  if "" then
+    -> "Activity 1A"
+  else
+    --> "Activity 1B"
+  endif
+else
+  --> "Activity 2"
+endif
+@enduml

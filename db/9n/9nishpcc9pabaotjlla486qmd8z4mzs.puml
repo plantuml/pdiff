@@ -1,0 +1,13 @@
+{
+  "sha1": "9nishpcc9pabaotjlla486qmd8z4mzs",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.730Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty attributes
+hide empty methods
+
+Menu -- "*" MenuItem
+@enduml

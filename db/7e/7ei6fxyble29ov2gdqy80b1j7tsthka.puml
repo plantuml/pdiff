@@ -1,0 +1,23 @@
+{
+  "sha1": "7ei6fxyble29ov2gdqy80b1j7tsthka",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.182Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "LR" as LR
+concise "ST" as ST
+
+LR is AtPlace
+ST is AtLoad
+
+@LR
+0 is Lowering
+1 is Lowered
+3.5 is Releasing
+ 
+@ST
+0 is AtLoad
+2 is Moving
+@enduml

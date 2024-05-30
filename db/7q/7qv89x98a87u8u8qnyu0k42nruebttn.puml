@@ -1,0 +1,16 @@
+{
+  "sha1": "7qv89x98a87u8u8qnyu0k42nruebttn",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.262Z",
+    "url": "https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+!theme aws-orange
+{
+    "fruit": "Apple",
+    "size": "Large",
+    "color": "Red"
+}
+@endjson

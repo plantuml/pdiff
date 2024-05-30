@@ -1,0 +1,26 @@
+{
+  "sha1": "9k7pklb948f9ghes62jtsifd2xt9ij9",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.702Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+
+actor Bob #00EEEE
+participant Alice #Red
+
+activate Bob
+Bob -> Alice: hello
+Alice --> Bob : ok
+
+activate Bob #Green #Blue
+Bob -> Tom: hello
+Tom --> Bob : ok
+
+deactivate Bob
+
+Bob ->Alice : yes
+
+@enduml

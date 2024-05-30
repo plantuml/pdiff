@@ -1,0 +1,24 @@
+{
+  "sha1": "68qn3nuyvl7r3sd79wpnr6wfsp6yo6n",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.906Z",
+    "url": "https://forum.plantuml.net/16080/is-the-skinparam-arrowheadcolor-no-longer-available",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+activityDiagram {
+  arrow {
+    LineColor red
+    HeadColor none
+    FontColor gold
+    FontName arial
+    FontSize 15
+  }
+}
+</style>
+:Qwerty;
+->text;
+:Ytrewq;
+@enduml

@@ -1,0 +1,24 @@
+{
+  "sha1": "bbt7ypgkikvupug9zn1iked4hpaky5d",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.058Z",
+    "url": "https://forum.plantuml.net/12807/color-inheritance-in-wbs?show=13527#c13527",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* groclist
+**[#limegreen] Research
+***> Connect to database
+***> Execute SQL script
+***> Insert item to list
+****[#red]> Barcode
+*****> Scan
+*****> Manual input
+***> C++ Test library
+***> Search item
+** Design
+***> Database
+****> Create database
+** Implementation
+@endwbs

@@ -1,0 +1,18 @@
+{
+  "sha1": "4jlrb7pb91pmg3jj9nneczndozv1cwf",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.506Z",
+    "url": "https://forum.plantuml.net/16663/small-rendering-difference-between-default-and-teoz",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+First -> Second : message
+activate First
+activate Second
+
+Second ->  First: response
+deactivate First
+deactivate Second
+@enduml

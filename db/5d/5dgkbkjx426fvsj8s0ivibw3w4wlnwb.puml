@@ -1,0 +1,18 @@
+{
+  "sha1": "5dgkbkjx426fvsj8s0ivibw3w4wlnwb",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.718Z",
+    "url": "https://forum.plantuml.net/12211/arrow-description-for-while-loop",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+while (data avaiable?)
+  :read data;
+  :generate diagrams;
+(-[#blue]->inc) backward:This is backward; (-[#green,dashed]->out)
+endwhile
+:end;
+stop
+@enduml

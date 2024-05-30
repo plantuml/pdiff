@@ -1,0 +1,11 @@
+{
+  "sha1": "b4h3b7lja560q5wcy09atfg9ryq0r8i",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.014Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 0.8
+class "LCL_ITERATOR\n(YAJ_UML_CLASS_DECOR_PLANT)" as LCL_ITERATOR
+@enduml

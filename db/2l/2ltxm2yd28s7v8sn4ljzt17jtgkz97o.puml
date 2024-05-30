@@ -1,0 +1,11 @@
+{
+  "sha1": "2ltxm2yd28s7v8sn4ljzt17jtgkz97o",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.042Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide footbox
+[*] --> State1
+@enduml

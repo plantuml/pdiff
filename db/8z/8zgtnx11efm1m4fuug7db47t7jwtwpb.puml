@@ -1,0 +1,16 @@
+{
+  "sha1": "8zgtnx11efm1m4fuug7db47t7jwtwpb",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.562Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant "BillingController" as bc
+participant "JourneySelector" as js
+
+break RechargeList[].size == 0
+end
+
+
+@enduml

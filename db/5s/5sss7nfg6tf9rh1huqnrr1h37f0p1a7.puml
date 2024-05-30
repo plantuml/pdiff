@@ -1,0 +1,25 @@
+{
+  "sha1": "5sss7nfg6tf9rh1huqnrr1h37f0p1a7",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.802Z",
+    "url": "https://forum.plantuml.net/13623/style-regression-on-document-background-color-style",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+document {
+  BackGroundColor pink
+}
+wbsDiagram {
+  element {
+    BackGroundColor palegreen
+  }
+}
+</style>
++ r
+++ aa
++++ aaa
+++ bb
++++ bbb
+@endwbs

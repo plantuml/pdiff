@@ -1,0 +1,12 @@
+{
+  "sha1": "8jc52ptyp5v9rxczw5km4hlx6h6p6tb",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.430Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Transaction 
+class ActorRole
+Transaction "1 initiating" --> "~* initiators" ActorRole
+@enduml

@@ -1,0 +1,24 @@
+{
+  "sha1": "8pmb1i5xsi71ghguohsaoxhlcsl5b2s",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.486Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+fork
+:lib1::send_Hook();
+detach
+
+fork again
+:lib2::hook3;
+detach
+
+fork again
+endfork
+
+stop
+
+@enduml

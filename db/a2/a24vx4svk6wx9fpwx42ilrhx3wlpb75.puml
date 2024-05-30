@@ -1,0 +1,15 @@
+{
+  "sha1": "a24vx4svk6wx9fpwx42ilrhx3wlpb75",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.806Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rotate
+scale 100 width
+footer this is a note
+Title toto
+Bob -> Alice : ok
+footer test
+@enduml

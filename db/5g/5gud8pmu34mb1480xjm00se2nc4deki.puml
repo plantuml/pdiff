@@ -1,0 +1,24 @@
+{
+  "sha1": "5gud8pmu34mb1480xjm00se2nc4deki",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.738Z",
+    "url": "https://forum.plantuml.net/12398/strange-stereotypes-grouping",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component 3 <<1>> <<2>> <<3>>
+component 4 <<1>> <<2>> <<3>> <<4>>
+component 5 <<1>> <<2>> <<3>> <<4>> <<5>>
+component 6 <<1>> <<2>> <<3>> <<4>> <<5>> <<6>>
+component 7 <<1>> <<2>> <<3>> <<4>> <<5>> <<6>> <<7>>
+component 8 <<1>> <<2>> <<3>> <<4>> <<5>> <<6>> <<7>> <<8>>
+component 9 <<1>> <<2>> <<3>> <<4>> <<5>> <<6>> <<7>> <<8>> <<9>>
+
+3 .. 4
+4 .. 5
+5 .. 6
+6 .. 7
+7 .. 8
+8 .. 9
+@enduml

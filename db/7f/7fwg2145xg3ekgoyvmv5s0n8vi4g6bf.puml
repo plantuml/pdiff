@@ -1,0 +1,14 @@
+{
+  "sha1": "7fwg2145xg3ekgoyvmv5s0n8vi4g6bf",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.194Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwire
+*DDR3L
+*SLC_NAND [150x200]
+*TestPoints
+*PF3000 [150x300]
+*EEPROM
+@endwire

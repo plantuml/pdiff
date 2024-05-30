@@ -1,0 +1,10 @@
+{
+  "sha1": "9uecbaaurjjsvofzqufepgnndzoer7m",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.774Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+A(BCD)?Z
+@endregex

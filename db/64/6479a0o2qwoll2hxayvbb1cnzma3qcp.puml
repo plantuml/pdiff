@@ -1,0 +1,26 @@
+{
+  "sha1": "6479a0o2qwoll2hxayvbb1cnzma3qcp",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.874Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+left to right direction
+skinparam packageStyle rect
+usecase (Usecase 1) as usecase1
+usecase (Usecase 2) as usecase2
+actor :Alice: as user
+rectangle Test1 {
+ user -> usecase1
+}
+
+newpage
+
+left to right direction
+skinparam packageStyle rect
+rectangle Test2 {
+ user -> usecase2
+}
+
+@enduml 

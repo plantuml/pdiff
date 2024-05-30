@@ -1,0 +1,21 @@
+{
+  "sha1": "80cyfrav5voizru12tlj6qqk5bf9erj",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.318Z",
+    "url": "https://github.com/plantuml/plantuml/issues/863",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+
+state state_1
+state state_6
+state state_7 {
+[*] --> state_2
+}
+
+[*] --> state_1
+state_1 --> state_7 : next
+state_7 --> state_6 : next
+@enduml

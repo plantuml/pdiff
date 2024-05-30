@@ -1,0 +1,25 @@
+{
+  "sha1": "1ybykcobywl3bum4tzb6by2my4ssjrk",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.846Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "A" as A
+concise "B" as B
+
+A is ""
+B is ""
+
+@A
+0 is ""
+
+@B
+25 is "" : drawStatesLabels
+
+@0
+A -> B@+5 : msg
+
+@40
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "4da9xez5wgdlav6q3bx8lp1tg1tfh2l",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.474Z",
+    "url": "https://forum.plantuml.net/12177/change-color-of-salt-button-to-represent-disabled-status",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam Handwritten  true
+salt
+{^
+My Label | ^Dropdown item    ^ 
+[My Button] | *
+[<color:#9a9a9a>My Button] | *
+. | . 
+. | . 
+}
+@enduml

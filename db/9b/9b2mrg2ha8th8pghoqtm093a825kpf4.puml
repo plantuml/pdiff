@@ -1,0 +1,13 @@
+{
+  "sha1": "9b2mrg2ha8th8pghoqtm093a825kpf4",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.642Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:foo1;
+link #red
+:foo2;
+:foo3;
+@enduml

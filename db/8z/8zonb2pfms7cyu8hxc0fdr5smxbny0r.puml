@@ -1,0 +1,13 @@
+{
+  "sha1": "8zonb2pfms7cyu8hxc0fdr5smxbny0r",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.566Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class com.Toto
+class com.Toto.Internal
+
+com.Toto --> com.Toto.Internal
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "7bhs70wzsot0qqhhbg49io0kgl524n4",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.162Z",
+    "url": "http://forum.plantuml.net/9330/diagrams-lifeline-starts-above-created-object-should-visible",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+hide footbox
+
+participant c
+participant d
+
+group
+create d
+c->d: 1
+
+end group
+@enduml

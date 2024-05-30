@@ -1,0 +1,19 @@
+{
+  "sha1": "3caommmyihg0f0mg6oijzgk7zkykz9t",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.234Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package P1 {
+  class "ArrayList0" as A0
+  Object <|-- A0
+}
+
+package P2 {
+  class "ArrayList1" as B1
+  A0 <|-- B1 
+}
+
+@enduml

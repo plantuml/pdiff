@@ -1,0 +1,20 @@
+{
+  "sha1": "31epqmmtn06l1k9ydhzcwuurohjvgf8",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.154Z",
+    "url": "https://forum.plantuml.net/16657/hide-%40unlinked-fails-in-case-of-component-notation",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component C1 {
+}
+component C2 {
+}
+component C3 {
+}
+
+C1 -- C2
+
+hide @unlinked
+@enduml

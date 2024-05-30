@@ -1,0 +1,13 @@
+{
+  "sha1": "8fxskpv2kb2r1bkjukzxjd5iek40vrs",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.410Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+graph graphname {
+    a -- b -- c; 
+    b -- d;
+}
+@enduml

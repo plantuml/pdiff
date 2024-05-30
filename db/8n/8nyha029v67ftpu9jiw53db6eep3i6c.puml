@@ -1,0 +1,22 @@
+{
+  "sha1": "8nyha029v67ftpu9jiw53db6eep3i6c",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.474Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1175",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace common {
+
+    namespace profiles {
+        class X
+    }
+    namespace classes {
+        class Z
+    }
+
+    classes ..> profiles
+
+}
+@enduml

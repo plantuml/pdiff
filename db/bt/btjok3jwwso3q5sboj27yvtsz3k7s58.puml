@@ -1,0 +1,100 @@
+{
+  "sha1": "btjok3jwwso3q5sboj27yvtsz3k7s58",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.158Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Message {
+    class Subfield {
+        +dataType: String
+        +name: String
+        +id: String
+        +simpleNode: SimpleNode
+        +properties: String
+    }
+}
+class MessageJson2Xml {
+    +json2xml(String): String
+}
+class BasicUnit {
+    +value:int
+    +name:String
+}
+class BasicValueType {
+    +value:int
+    +name:String
+}
+class SimpleJson2Xml {
+    +json2xml(String): String
+}
+class SimpleNode {
+    +dataPrecision:String
+    +properties:String
+    +typeName:String
+    +unit:String
+    +uuid:String
+    +valueType:String
+}
+class Connection {
+    +srcSubsystems:ArrayList<SrcSubsystem>
+    +dstSubsystem:DstSubsystem
+    +messageFlows:ArrayList<MessageFlow>
+}
+class DstSubsystem {
+    +typeName:String
+    +instanceName:String
+    +ssInterface:SsInterface
+}
+class MessageFlow {
+    +srcMessages:ArrayList<String>
+    +dstMessage:String
+}
+class SoS {
+    +subsystems:ArrayList<Subsystem>
+    +connections:ArrayList<Connection>
+}
+class SoSJson2Xml {
+    +json2xml(String): String
+}
+class SrcSubsystem {
+    +typeName:String
+    +instanceName:String
+    +ssInterface:SsInterface
+}
+class SsInterface {
+    +id:String
+    +port:Integer
+    +protocol:String
+    +serialization:String
+}
+class Subsystem {
+    +ssName:String
+    +instanceName:String
+}
+class ComputingResources {
+    +os:String
+    +Kernel:String
+}
+class SubSystem {
+    +uuid:String
+    +ssName:String
+    +computingResources:ComputingResources
+    +inputIfaces:ArrayList<InputIface>
+    +outputIfaces:ArrayList<OutputIface>
+}
+class SubSystemJson2Xml {
+    +json2xml(String): String
+}
+Message -- "1" Subfield
+Subfield --> "1" SimpleNode
+SubSystem --> "1" ComputingResources
+Connection -- "*" SrcSubsystem
+Connection -- "1" DstSubsystem
+Connection -- "*" MessageFlow
+SoS -- "*" Subsystem
+SoS -- "*" Connection
+SrcSubsystem --> "1" SsInterface
+DstSubsystem --> "1" SsInterface
+@enduml

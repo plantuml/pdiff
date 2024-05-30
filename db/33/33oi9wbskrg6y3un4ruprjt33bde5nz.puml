@@ -1,0 +1,14 @@
+{
+  "sha1": "33oi9wbskrg6y3un4ruprjt33bde5nz",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.174Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package Toto {
+  class Titi
+}
+class Toto
+class Toto.internal
+@enduml

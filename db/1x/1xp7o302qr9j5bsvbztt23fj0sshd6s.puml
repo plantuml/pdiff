@@ -1,0 +1,25 @@
+{
+  "sha1": "1xp7o302qr9j5bsvbztt23fj0sshd6s",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.830Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
++ New Job
+++ Decide on Job Requirements
++++ Identity gaps
++++ Review JDs
+++++ Sign-Up for courses
+++++ Volunteer
+++++ Reading
+++- Checklist
++++- Responsibilities
++++- Location
+++ CV Upload Done
++++ CV Updated
+++++ Spelling & Grammar
+++++ Check dates
+---- Skills
++++ Recruitment sites chosen
+@endwbs

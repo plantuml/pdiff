@@ -1,0 +1,25 @@
+{
+  "sha1": "4hf342ihuj3cdrzf84grrdgst3yx81a",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.494Z",
+    "url": "https://forum.plantuml.net/16588/style-allow-all-style-for-mainframe",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+mainframe This is a **mainframe**
+header some header
+
+footer some footer
+
+title My title
+
+caption This is caption
+
+legend
+The legend
+end legend
+
+a -- b 
+
+@enduml

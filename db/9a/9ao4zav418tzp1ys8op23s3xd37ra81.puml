@@ -1,0 +1,11 @@
+{
+  "sha1": "9ao4zav418tzp1ys8op23s3xd37ra81",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.638Z",
+    "url": "https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+test = "a" , ( "b"  | "c" );
+@endebnf

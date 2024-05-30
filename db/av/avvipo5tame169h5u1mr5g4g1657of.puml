@@ -1,0 +1,17 @@
+{
+  "sha1": "avvipo5tame169h5u1mr5g4g1657of",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.970Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state choice1 <<choice>>
+state foo1 <<fork>>
+state foo2 <<join>>
+state foo3 <<end>>
+[*] --> choice1
+choice1 --> foo1
+choice1 --> foo2
+choice1 --> foo3
+@enduml

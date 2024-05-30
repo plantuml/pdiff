@@ -1,0 +1,23 @@
+{
+  "sha1": "8j6sinep684gkzsp09by65766334e1h",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.430Z",
+    "url": "https://github.com/plantuml/plantuml/issues/503",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startyaml
+<style>
+yamlDiagram {
+    element {
+      backgroundColor yellow
+    }
+    document {
+      backgroundColor Silver
+    }
+}
+</style>
+fruit: Apple
+size: Small
+color: Red
+@endyaml

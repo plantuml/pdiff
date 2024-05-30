@@ -1,0 +1,38 @@
+{
+  "sha1": "8b0d1hphtnsoedy6elf2qgqg0nl8n30",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.378Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Connecting nodes
+
+participant Application
+participant GraphBuilder
+participant Graph
+participant "Pin A"
+participant "Pin B"
+participant "Node C"
+participant "Type of B"
+
+Application -> GraphBuilder : connect("Pin A", "Pin B")
+alt not "Pin A".busy() and not "Pin B".busy()
+GraphBuilder -> "Pin A" : type()
+"Pin A" --> GraphBuilder : type of A
+GraphBuilder -> "Pin B" : type()
+"Pin B" --> GraphBuilder : type of "Pin B"
+GraphBuilder -> "Type of B" : equals(type of A)
+
+alt types are equal 
+"Pin A" -> "Pin B" : connect("Pin A")
+"Pin B" -> "Pin A" : connect("Pin B")
+else types are compatible
+note left: create conversion node
+create "Node C"
+GraphBuilder -> GraphBuilder : connect("Pin A", "Node C".ipin(0))
+GraphBuilder -> GraphBuilder : connect("Node C".opin(1), "Pin B")
+end
+end
+
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "8kcdmpvorg97n71iuqnam5rixcxf9bd",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.442Z",
+    "url": "https://forum.plantuml.net/11184/ifelse-and-swimlanes-seems-to-break-logic",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|low|
+start
+:something Received;
+if (t1) then 
+    :log1;
+elseif (t2) then 
+    :log2;
+else
+|High|
+    :Hello World;
+endif
+end
+@enduml

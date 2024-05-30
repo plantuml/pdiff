@@ -1,0 +1,36 @@
+{
+  "sha1": "3jhehdasutv4v76kqprtt0sqsvn5n2x",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.282Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam useBetaStyle true
+
+<style>
+.dummy1 {
+  FontColor purple
+  FontStyle bold
+  BackgroundColor white
+}
+
+.foo3 {
+  FontColor blue
+  FontStyle bold
+}
+
+stereotype {
+  FontColor green
+  FontSize 8
+}
+</style>
+
+participant Bob <<dummy1>> 
+actor Alice <<foo2>>
+actor Charlie <<foo3>>
+actor David <<foo4>>
+
+@enduml

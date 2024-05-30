@@ -1,0 +1,20 @@
+{
+  "sha1": "a105eh6z8omfvs70k6tf6h6ksb83vmg",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.802Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=5354/sequence-participant-color-missing",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Foo0 #Pink
+actor Foo1 #Pink
+boundary Foo2 #Pink
+control Foo3 #Pink
+entity Foo4 #Pink
+database Foo5 #Pink
+Foo1 -> Foo2 : To boundary
+Foo1 -> Foo3 : To control
+Foo1 -> Foo4 : To entity
+Foo1 -> Foo5 : To database
+@enduml

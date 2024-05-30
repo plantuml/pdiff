@@ -1,0 +1,19 @@
+{
+  "sha1": "1kferq11dgpz8xqm9vzzwi4xervmhq7",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.714Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam ComponentArrowColor #FF0000
+skinparam ComponentArrowFontColor #FF0000
+skinparam ComponentArrowFontName Courier
+skinparam ComponentArrowFontStyle Italic
+skinparam ComponentArrowFontSize 58
+
+DataAccess - [First Component]
+[First Component] ..> HTTP : use
+
+@enduml

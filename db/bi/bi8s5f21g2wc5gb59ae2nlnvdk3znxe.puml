@@ -1,0 +1,25 @@
+{
+  "sha1": "bi8s5f21g2wc5gb59ae2nlnvdk3znxe",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.102Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+#lightblue:Action|
+-[#blue]-> callback;
+if () then (OK)
+-[#black]->
+else if () then (ERROR)
+  -[#red]->
+   #lightpink:ERROR]
+   stop
+else (timeout)
+  -[#green]->
+   #lightpink:TIMEOUT]
+   stop
+endif
+-[#yellow]->
+end
+@enduml

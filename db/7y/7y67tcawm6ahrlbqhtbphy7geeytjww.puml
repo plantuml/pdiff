@@ -1,0 +1,17 @@
+{
+  "sha1": "7y67tcawm6ahrlbqhtbphy7geeytjww",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.306Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class cl1 extends cl2
+interface i1
+interface i1 extends i2
+
+class cl3 implements i3
+
+interface i5 implements i2
+
+@enduml

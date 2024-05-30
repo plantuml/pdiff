@@ -1,0 +1,11 @@
+{
+  "sha1": "1jtu324w54uvlp0a1nxukf5y35blxp1",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.710Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultFontName Pristina
+Alice -> Bob : hello
+@enduml

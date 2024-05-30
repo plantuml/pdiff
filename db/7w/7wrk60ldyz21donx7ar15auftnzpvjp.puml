@@ -1,0 +1,18 @@
+{
+  "sha1": "7wrk60ldyz21donx7ar15auftnzpvjp",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.298Z",
+    "url": "https://github.com/plantuml/plantuml/discussions/1066#discussioncomment-3563972",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+sprite callout1 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <circle cx="9" cy="9" r="9" fill="black" />
+  <text x="6" y="11" fill="yellow" font-size="10">1</text>
+</svg>
+
+Alice->Bob: <$callout1> message
+
+@enduml

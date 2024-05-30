@@ -1,0 +1,21 @@
+{
+  "sha1": "8qofq7lohg7nbanxaazd1ew2htqqkyn",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.494Z",
+    "url": "https://github.com/plantuml/plantuml/discussions/1325",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator .
+
+node srv1 {
+ portin br0
+}
+
+node srv2 {
+ portin br0
+}
+
+srv1.br0 --> srv2.br0
+@enduml

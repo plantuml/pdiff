@@ -1,0 +1,26 @@
+{
+  "sha1": "7bvkwpnzxuxhzswd0usty356fmyece2",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.162Z",
+    "url": "https://forum.plantuml.net/14179/style-manage-style-dashed-dotted-nested-element-deployment",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.dashed {
+    LineStyle 5
+    FontColor Green
+}
+</style>
+
+rectangle r
+rectangle r_dashed <<dashed>>
+rectangle r_nested_dashed <<dashed>> {
+}
+
+rectangle r_nested_dashed1 <<dashed>> #pink {
+  rectangle r1
+  rectangle r_dashed1 <<dashed>>
+}
+@enduml

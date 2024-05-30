@@ -1,0 +1,20 @@
+{
+  "sha1": "575rdd6s298vmkv6601rrcr2qryolqt",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.670Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+[*] --> Active
+
+state Active begin
+  [*] --> Stopped
+  Stopped --> Running : EvStartStop
+  Running --> Stopped : EvStartStop
+end state
+
+Active --> Active : EvReset
+
+@enduml

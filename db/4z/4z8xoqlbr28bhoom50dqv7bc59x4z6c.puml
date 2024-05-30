@@ -1,0 +1,17 @@
+{
+  "sha1": "4z8xoqlbr28bhoom50dqv7bc59x4z6c",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.618Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequenceParticipant {
+     borderColor Black
+     borderColor<<foo>> red
+     backgroundColor<<foo>> yellow
+     backgroundColor LightBlue
+}
+participant Bob <<foo>>
+Bob -> Alice : hello
+@enduml

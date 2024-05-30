@@ -1,0 +1,27 @@
+{
+  "sha1": "9bxcsj9ypjbe8syc7lklfbqtiq3guln",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.650Z",
+    "url": "https://github.com/plantuml/plantuml/issues/399",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+   repeat 
+   if(condition A) then (yes)
+    split
+   :a1;
+    split again
+   :a2;
+   end split
+   elseif(condition B) then (yes)    
+    :b1;  
+    :b2; 
+   elseif(condition C) then (yes)
+   -[#blue]->
+   break   
+   endif
+   repeat while(test) is (No) not (Yes)
+ end
+@enduml

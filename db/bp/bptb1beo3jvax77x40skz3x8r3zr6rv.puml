@@ -1,0 +1,41 @@
+{
+  "sha1": "bptb1beo3jvax77x40skz3x8r3zr6rv",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.138Z",
+    "url": "http://www.plantuml.com/plantuml/umla/xPDHQzim4CUVfqyXhgyRbRUoj3WAJIkbCOJOk2eT6tjGOb6RAhQHPTOH-jqdHtMyTNrgNXDYINVS_K_ynU-oiTBOTgDHLZmOMUUuBOidl4MeQLS-iTPjOvKvaxhE9TvgkLAQmZ8M_2w1S1VgQat1GeW-_D_sJmUBxvSGuiR-reesbIwoS5tfob0ucSq88MT_2wwS8DeQMJwwqjQiLTZahcRaj_Fm6I6Vm3-QNDQArbeMfLLFzgCVEHwBwTM2uwiuPJobG01VyyNYLNYRJA-ZvSq-JgQClSIJiKZTn_1znCISmlbNm7CUtSm5XS1Lnrtpai8NLtagMBUaVO_FTCspw1jdjz5tJa6aTnnm4gTE806ylvaNYztfX7I_4VGZWy_3I7VUgmu3ttV9qvqraydF47ax3pVnQEBeqwGtKnfJ_SgLp6XPbSeLl47KWzni1g9495B-2gWU3a8wFA1JoQIL0nT5-UXnkDXj0N5K-FZWzpo-Pq0ED_48nOM78Y1lGF6CNlxTSgdAhDteFm00",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+digraph unix {
+
+subgraph cluster4alpha {label="NOTEUP";labelloc="t";
+	
+subgraph cluster4 {label="NOTEDOWN"; style=solid;color="#FF0004";labelloc="b";
+
+{rank=source;sh0007;sh0008;}
+
+sh0007 [shape=plaintext,label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD WIDTH="86" HEIGHT="1" COLSPAN="3"></TD></TR><TR><TD></TD><TD FIXEDSIZE="TRUE" PORT="P"  BORDER="1" COLOR="#000007" WIDTH="12" HEIGHT="12"></TD><TD></TD></TR><TR><TD WIDTH="86" HEIGHT="1" COLSPAN="3"></TD></TR></TABLE>>];
+sh0008 [shape=plaintext,label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD WIDTH="86" HEIGHT="1" COLSPAN="3"></TD></TR><TR><TD></TD><TD FIXEDSIZE="TRUE" PORT="P"  BORDER="1" COLOR="#000007" WIDTH="12" HEIGHT="12"></TD><TD></TD></TR><TR><TD WIDTH="86" HEIGHT="1" COLSPAN="3"></TD></TR></TABLE>>];
+sh0007->sh0008 [arrowhead=none];
+
+
+subgraph cluster4gamma {label="TITRE";labelloc="t";color="#00FF00";
+
+
+data;
+
+{rank=sink;sh0009;sh0010;}
+sh0009 [shape=plaintext,label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD WIDTH="86" HEIGHT="1" COLSPAN="3"></TD></TR><TR><TD></TD><TD FIXEDSIZE="TRUE" PORT="P"  BORDER="1" COLOR="#000007" WIDTH="12" HEIGHT="12"></TD><TD></TD></TR><TR><TD WIDTH="86" HEIGHT="1" COLSPAN="3"></TD></TR></TABLE>>];
+sh0010 [shape=plaintext,label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD WIDTH="86" HEIGHT="1" COLSPAN="3"></TD></TR><TR><TD></TD><TD FIXEDSIZE="TRUE" PORT="P"  BORDER="1" COLOR="#000007" WIDTH="12" HEIGHT="12"></TD><TD></TD></TR><TR><TD WIDTH="86" HEIGHT="1" COLSPAN="3"></TD></TR></TABLE>>];
+sh0009->sh0010 [arrowhead=none];
+}
+
+}
+
+}
+
+
+
+}
+@enduml

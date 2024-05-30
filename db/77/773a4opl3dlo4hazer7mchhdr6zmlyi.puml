@@ -1,0 +1,24 @@
+{
+  "sha1": "773a4opl3dlo4hazer7mchhdr6zmlyi",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.130Z",
+    "url": "http://forum.plantuml.net/9232/activity-beta-if-%26-else-if-diamonds",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if () then ([test = 1])
+:test is 1;
+else ([test = 2])
+:test is 2;
+endif
+if () then ([test = 3])
+:test is 3;
+else if () then ([test = 4])
+:test is 4;
+else
+:test is not 3-4;
+endif
+stop
+@enduml

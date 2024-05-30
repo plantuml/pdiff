@@ -1,0 +1,13 @@
+{
+  "sha1": "3pyqovv2jzvpbu6ac69dfyw0bldmff8",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.326Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define ICON1 <img:http://www.eclipse.org/tptp/images/ico_home.gif>
+!define ICON2 <img src="http://www.eclipse.org/tptp/images/ico_play.gif">
+component [Application1 ICON1] as A1
+component [Application2 ICON2] as A2
+@enduml

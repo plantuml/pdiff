@@ -1,0 +1,27 @@
+{
+  "sha1": "8vovu6niotug4qhkoe0uqq7y0gzza6l",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.534Z",
+    "url": "https://forum.plantuml.net/16928/unicode-inside-sub-diagram-is-not-show-ok",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle A [
+{{
+skinparam BackgroundColor #Transparent
+rectangle FailCase [
+**Fail Case**
+----
+åäöÅÄÖ
+test 1 %newline()This is a newline :-)
+test 2
+]
+}}
+]
+rectangle OkCase [
+**OK Case**
+----
+åäöÅÄÖ
+]
+@enduml

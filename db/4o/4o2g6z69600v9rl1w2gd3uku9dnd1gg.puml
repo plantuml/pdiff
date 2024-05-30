@@ -1,0 +1,21 @@
+{
+  "sha1": "4o2g6z69600v9rl1w2gd3uku9dnd1gg",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.526Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+while (data available?)
+  :if (x==1) then (yes)
+  :y=1;
+else (no)
+  :y=2;
+endif;
+  :generate diagrams;
+endwhile
+
+stop
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "2wyp8j0at4mkc1wq8dyzhle2s0wmvmm",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.122Z",
+    "url": "http://forum.plantuml.net/8356/white-backgrounds-are-rendered-transparent-in-svg",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundColor white
+rectangle "White Background"
+@enduml

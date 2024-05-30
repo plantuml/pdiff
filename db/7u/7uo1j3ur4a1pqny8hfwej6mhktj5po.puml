@@ -1,0 +1,22 @@
+{
+  "sha1": "7uo1j3ur4a1pqny8hfwej6mhktj5po",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.282Z",
+    "url": "https://forum.plantuml.net/13709/eclipse-layout-kernel?show=18389#a18389",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!include <osa2/Common>
+!include <osa2/Hardware/all>
+!include <osa2/Misc/all>
+!include <osa2/Server/all>
+
+osa_cloud(cloud, "cloud", "cloud") {
+    osa_server(server, "Server VM", "Debian", "HestiaCP")
+    osa_vpn(vpn, "Gateway VM", "Debian", "HestiaCP")
+    osa_vpn(vpn2, "Gateway VM", "Debian", "HestiaCP")
+}
+
+@enduml

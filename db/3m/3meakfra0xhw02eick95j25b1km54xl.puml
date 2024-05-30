@@ -1,0 +1,21 @@
+{
+  "sha1": "3meakfra0xhw02eick95j25b1km54xl",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.302Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (Graphviz is
+installed?) then (yes on
+several line)
+  :process all\ndiagrams;
+else (no on
+several different
+lines)
+  :process only
+  __sequence__ and __activity__ diagrams;
+endif
+stop
+@enduml

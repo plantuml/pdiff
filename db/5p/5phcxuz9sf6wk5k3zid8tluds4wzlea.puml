@@ -1,0 +1,20 @@
+{
+  "sha1": "5phcxuz9sf6wk5k3zid8tluds4wzlea",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.782Z",
+    "url": "http://forum.plantuml.net/8264/formatting-state-actions-sometimes-doesnt-work",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state Active {
+Active: entry / HAL_CAN_Init(...) \n\t HAL_CAN_Start(...) \n\t HAL_CAN_ActivateNotification(...)
+Active: exit / HAL_CAN_DeactivateNotification(...) \n\t HAL_CAN_Stop(...) \n\t HAL_CAN_DeInit(...)
+Active: SEND_MSG (msg, mailbox) / \
+\n\t HAL_CAN_AbortTxRequest(...) \
+\n\t HAL_CAN_AddTxMessage(...)
+Active: RX_MSG (msg) / \
+
+[*] --> Processing
+}
+@enduml

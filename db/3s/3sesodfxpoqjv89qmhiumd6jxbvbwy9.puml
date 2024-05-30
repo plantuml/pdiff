@@ -1,0 +1,47 @@
+{
+  "sha1": "3sesodfxpoqjv89qmhiumd6jxbvbwy9",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.346Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "L1 cache reference" as L1
+concise "Branch mispredict" as BM
+concise "L2 cache reference" as L2
+concise "Mutex lock/unlock" as MUX
+concise "Main memory reference" as MEMREF
+concise "Compress 1K bytes with Zippy" as ZIP1K
+concise "Send 2K bytes over 1 Gbps network" as SEND2K
+
+
+@0
+L1 is done
+BM is "5 ns"
+L2 is "7 ns"
+MUX is "25 ns"
+MEMREF is "100 ns"
+ZIP1K is "3,000 ns"
+SEND2K is "20,000 ns"
+
+
+@5
+BM is {hidden}
+
+
+@7
+L2 is {hidden}
+
+@25
+MUX is {hidden}
+
+@100
+MEMREF is {hidden}
+
+@3000
+ZIP1K is {hidden}
+
+@20000
+SEND2K is {hidden}
+
+@enduml

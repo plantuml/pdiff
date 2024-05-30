@@ -1,0 +1,30 @@
+{
+  "sha1": "6co99c4qs9bbc5navwc6vxmysoxu7u2",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.926Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwire
+*DDR3L [70x70]
+*SLC_NAND [70x70]
+*TestPoints [70x30]
+*PF3000 [70x130]
+*EEPROM [70x30]
+
+--
+
+*i_MX7_SoC
+	*2x_ARM [70x70]
+	*ARM [70x70]
+	*PXP [70x70]
+	*Crypto [70x30]
+	*DDR3 [70x70]
+	*JTAG [70x30]
+	--
+	*signals
+		*24_bit_display [85x30]
+		*24_bit_camera [85x30]
+		*2x_DS_DSIO [85x30]
+
+@endwire

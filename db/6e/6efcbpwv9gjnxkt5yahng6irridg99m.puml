@@ -1,0 +1,35 @@
+{
+  "sha1": "6efcbpwv9gjnxkt5yahng6irridg99m",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.934Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam participantBackgroundColor gold
+skinparam SequenceLifeLineBorderColor orange
+skinparam sequenceArrowColor #FF6655
+skinparam sequenceArrowFontNameColor #777777
+skinparam noteBackgroundColor BlanchedAlmond
+
+actor IT
+activate IT
+IT->IT : coucou1 
+activate IT
+IT->IT : coucou2 
+activate IT
+IT->IT : coucou3
+activate IT
+note left of IT : note
+note right of IT : this is a long note
+IT->IT : coucou4
+
+IT1->B : hello
+
+deactivate IT
+deactivate IT
+deactivate IT
+deactivate IT
+
+@enduml

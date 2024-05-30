@@ -1,0 +1,14 @@
+{
+  "sha1": "1eb0mn8w5r7r4w5m69e7pbiw48i0639",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.666Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@starthcl
+locals {
+  dummy_org_id         = "640841790890"
+  "creation_date" : formatdate("YYYY-MM-DD", timestamp)
+}
+
+@endhcl

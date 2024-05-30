@@ -1,0 +1,14 @@
+{
+  "sha1": "86c4utpnxp12uqba6fb7rwdkifv9vzi",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.350Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Simple <b>Usecase</b>\nwith one actor
+
+"Use the application" as (Use)
+User -> (Use)
+
+@enduml

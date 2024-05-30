@@ -1,0 +1,20 @@
+{
+  "sha1": "4601a9cqs8dwlqpk4teef6383maihit",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.430Z",
+    "url": "https://forum.plantuml.net/12422/beta-style-improve-descendant-pseudo-selector-on-mindmap?show=16276#c16276",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+:depth(2) * {
+  FontColor red
+  BackGroundColor blue
+}
+</style>
+* r0
+** a
+*** a1
+**** a11
+@endmindmap

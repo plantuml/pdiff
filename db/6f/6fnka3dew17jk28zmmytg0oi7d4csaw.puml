@@ -1,0 +1,18 @@
+{
+  "sha1": "6fnka3dew17jk28zmmytg0oi7d4csaw",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.946Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!function bold($text)
+!$result = "<b>"+ $text +"</b>"
+!log Calling bold function with $text. The result is $result 
+!return $result
+!endfunction
+
+Alice -> Bob : This is bold("bold")
+Alice -> Bob : This is bold("a second call")
+@enduml

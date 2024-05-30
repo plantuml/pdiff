@@ -1,0 +1,15 @@
+{
+  "sha1": "6orfwd0acz5ab9j0hkads67y797yu7o",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.998Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+  node "Docker Container - Database Server" as 41 <<Docker>> {
+    node "Database Server" <<HSQLDB>> as 42 {
+      artifact "DatabaseA" as 43 <<Container>>
+      artifact "DatabaseB" <<Container>> as 44 
+    }
+  }
+@enduml

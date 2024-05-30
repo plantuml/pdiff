@@ -1,0 +1,26 @@
+{
+  "sha1": "bkgi6ew5vbqa76sf3ekbc7cc87f3c19",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.106Z",
+    "url": "https://forum.plantuml.net/11531/is-it-possible-to-name-time-values-in-a-timing-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+clock clk with period 1
+hide time-axis
+label @0 "start"
+label @5 "Foo1"
+binary "enable" as en
+concise "dataBus" as db
+
+@0
+en is low
+db is "0x0"
+
+@5 as :foo1
+ en is high
+@:foo1+1 as :foo2
+ db is "0xDEADBEEF"
+
+@enduml

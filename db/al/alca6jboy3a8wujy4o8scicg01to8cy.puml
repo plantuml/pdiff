@@ -1,0 +1,20 @@
+{
+  "sha1": "alca6jboy3a8wujy4o8scicg01to8cy",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.898Z",
+    "url": "https://forum.plantuml.net/11010/activity-diagram-swimlanes-generates-diagram-whitespace",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:Some random action;
+
+split
+        :Some random action0;
+split again
+        :Some random action111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111;
+        
+        :Some random action8;
+end split
+
+@enduml

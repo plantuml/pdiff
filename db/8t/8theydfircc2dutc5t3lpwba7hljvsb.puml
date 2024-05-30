@@ -1,0 +1,15 @@
+{
+  "sha1": "8theydfircc2dutc5t3lpwba7hljvsb",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.518Z",
+    "url": "https://forum.plantuml.net/12170/improve-processing-exception-instead-simple-description",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!procedure $msg($source, $destination)
+  $source --> $destination
+endprocedure
+
+$msg("a", "b")
+@enduml

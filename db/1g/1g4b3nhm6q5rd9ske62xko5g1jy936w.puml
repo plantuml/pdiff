@@ -1,0 +1,14 @@
+{
+  "sha1": "1g4b3nhm6q5rd9ske62xko5g1jy936w",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.670Z",
+    "url": "https://forum.plantuml.net/16516/usecase-business-usecase-with-multiline-description",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase/ test15 #cccccc as "
+    test 15
+    multiline with alias
+"
+@enduml

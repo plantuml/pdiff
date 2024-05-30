@@ -1,0 +1,22 @@
+{
+  "sha1": "a1aaaf62s0aikaugfbk48rbjq0sfwrz",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.802Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+if (x==2) then (yes)
+  if(y==2) then (yes)
+    :z=3;
+  else (no)
+    :z=4;
+  endif
+else (no)
+  :y=3;
+endif
+
+stop
+@enduml

@@ -1,0 +1,21 @@
+{
+  "sha1": "6esw6o1txqu7awu8igbputhzn4k8odj",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.938Z",
+    "url": "https://forum.plantuml.net/15373/elseif-arrow-disappears-when-if-does-not-continues",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ConditionEndStyle hline
+!pragma useVerticalIf on
+
+start
+repeat 
+	if (option1) then (yes)
+		stop
+	elseif (option2) then (yes)
+		:do something;
+	endif
+repeat while
+@enduml

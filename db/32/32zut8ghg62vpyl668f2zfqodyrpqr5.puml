@@ -1,0 +1,19 @@
+{
+  "sha1": "32zut8ghg62vpyl668f2zfqodyrpqr5",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.166Z",
+    "url": "http://forum.plantuml.net/6848/be-able-to-assign-a-background-color-for-grouping-message",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+group #FF0000 My own label
+    	Alice -> Log : Log attack start
+        loop 1000 times
+            Alice -> Bob: DNS Attack
+        end
+    	Alice -> Log : Log attack end
+    end
+
+@enduml

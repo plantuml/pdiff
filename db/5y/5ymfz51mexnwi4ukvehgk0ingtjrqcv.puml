@@ -1,0 +1,38 @@
+{
+  "sha1": "5ymfz51mexnwi4ukvehgk0ingtjrqcv",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.830Z",
+    "url": "https://forum.plantuml.net/12089/creole-horizontal-object-strong-horizontal-activity-mindmap",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title **KO** on V1.2020.16
+
+object Foo1 #pink  {
+  You can use
+  several lines
+  ..
+  as you want
+  and group
+  ==
+  things together.
+  __
+  You can have as many groups
+  as you want
+  --
+  End of class
+}
+
+object User #pink {
+  .. Simple Getter ..
+  + getName()
+  + getAddress()
+  .. Some setter ..
+  + setName()
+  __ private data __
+  int age
+  -- encrypted --
+  String password
+}
+@enduml

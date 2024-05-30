@@ -1,0 +1,29 @@
+{
+  "sha1": "5yu4n1z5823cvqpag98u7exp8qy9d0l",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.834Z",
+    "url": "https://github.com/plantuml/plantuml-stdlib/issues/88#issuecomment-1930744100",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    !include <eip/EIP-PlantUML>
+    !theme mars
+    skinparam linetype ortho
+    left to right direction
+    folder "RabbitMQ" #line.dashed {
+        Message(msg0, Message)
+        Message(msg1, Message)
+        Message(msg2, Message)
+        MsgChannel(ch0, inQueue)
+        MsgChannel(ch1, outQueue)
+        MsgChannel(ch2, outQueue)
+        MessageRouter(rt0, Router)
+    }
+    Send(msg0, ch0)
+    Send(ch0, rt0)
+    Send(rt0, msg1)
+    Send(rt0, msg2)
+    Send(msg1, ch1)
+    Send(msg2, ch2)
+@enduml

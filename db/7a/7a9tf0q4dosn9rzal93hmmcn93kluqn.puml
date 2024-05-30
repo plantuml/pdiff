@@ -1,0 +1,13 @@
+{
+  "sha1": "7a9tf0q4dosn9rzal93hmmcn93kluqn",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.094Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+state single1
+state "This is long" as single2
+
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "96scsj4y7tut9wab9ef8z17eg707m4h",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.626Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+!procedure $dummy()
+!local $ijk = "local"
+Alice -> Bob : $ijk
+!endprocedure
+
+!global $ijk = "foo"
+
+Alice -> Bob : $ijk
+$dummy()
+Alice -> Bob : $ijk
+
+@enduml

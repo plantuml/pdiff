@@ -1,0 +1,28 @@
+{
+  "sha1": "9ng0ubpl3hsd4fxdn2szvqmhga4v7uk",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.726Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!pragma svek_trace on
+
+class A
+
+together {
+	class tog1000
+	class tog1001
+	class tog1002
+}
+
+class B
+
+together {
+	class tog2000
+	class tog2001
+	class tog2002
+}
+
+
+@enduml

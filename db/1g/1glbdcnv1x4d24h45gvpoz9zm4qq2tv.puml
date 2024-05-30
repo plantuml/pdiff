@@ -1,0 +1,20 @@
+{
+  "sha1": "1glbdcnv1x4d24h45gvpoz9zm4qq2tv",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.678Z",
+    "url": "https://forum.plantuml.net/12820/yaml-diagrams-accept-yaml-diagram-diagram-embedded-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+file n [
+Example of YAML file:
+{{yaml
+fruit: Apple
+size: Large
+color:
+ - Red
+ - Green
+}}
+]
+@enduml

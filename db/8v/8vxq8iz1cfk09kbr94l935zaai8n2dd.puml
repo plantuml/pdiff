@@ -1,0 +1,21 @@
+{
+  "sha1": "8vxq8iz1cfk09kbr94l935zaai8n2dd",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.534Z",
+    "url": "https://forum.plantuml.net/12047/observations-common-commands-header-footer-caption-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+header some header
+footer <back:red>some footer
+caption caption
+title My title
+caption This is caption
+legend
+<back:red>The legend
+end legend
+* r
+** d1
+** d2
+@endwbs

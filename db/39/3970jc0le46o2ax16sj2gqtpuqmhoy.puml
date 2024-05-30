@@ -1,0 +1,19 @@
+{
+  "sha1": "3970jc0le46o2ax16sj2gqtpuqmhoy",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.214Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skin plantuml
+title foo
+header header
+footer footer
+
+:start;
+if (some test) then
+  :do this;
+endif
+:end of process;
+@enduml

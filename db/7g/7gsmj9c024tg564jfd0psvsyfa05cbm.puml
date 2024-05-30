@@ -1,0 +1,20 @@
+{
+  "sha1": "7gsmj9c024tg564jfd0psvsyfa05cbm",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.202Z",
+    "url": "https://forum.plantuml.net/12609/json-diagrams-accept-json-diagram-diagram-embedded-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+file n [
+Example of file:
+{{json
+{
+   "fruit":"Apple",
+   "size":"Large",
+   "color": ["Red", "Green"]
+}
+}}
+]
+@enduml

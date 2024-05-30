@@ -1,0 +1,18 @@
+{
+  "sha1": "31sj9iapbq9q597m5r1as27u2qctise",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.162Z",
+    "url": "http://127.0.0.1:8080/plantuml/uml/BOuxIWSn6CJxxnGVM0TxNMJHayGaoc8saJmAMGBkrblO2Djw0n74ztg5oOqCycUAAOQP-VKnoP3oQ4bP6IFZ4K_OyC0J2HvSugl1MCr7Z4_i-6vwnKzTy5plyOuFhZDZ8o4uvijeL1gyOo5ecgYBwSwQCz9UvT6ur1QPpwMwkGu-EttXhG-SWdJnLeQMKw7k-D3vXw8JR7N6BtPyrHLlpL_QxrBNKog52lN6wKR-1m00",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class ЕСИА {
+- int field # комментарий с И
+-- subsection --
+  {{
+  start
+  :Использовать;
+  }}
+}
+@enduml

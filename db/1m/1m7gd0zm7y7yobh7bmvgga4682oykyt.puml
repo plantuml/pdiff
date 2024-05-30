@@ -1,0 +1,12 @@
+{
+  "sha1": "1m7gd0zm7y7yobh7bmvgga4682oykyt",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.734Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:foo1;
+:[[http://testLink1.com{dd} sss]]ddd;
+:foo3;
+@enduml

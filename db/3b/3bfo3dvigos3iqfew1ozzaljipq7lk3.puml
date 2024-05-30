@@ -1,0 +1,34 @@
+{
+  "sha1": "3bfo3dvigos3iqfew1ozzaljipq7lk3",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.230Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam usecase {
+BackgroundColor DarkSeaGreen
+BorderColor DarkSlateGray
+
+BackgroundColor<< Main >> YellowGreen
+BorderColor<< Main >> YellowGreen
+
+ArrowColor Olive
+ActorBorderColor black
+ActorFontName Courier
+
+ActorBackgroundColor<< Human >> Gold
+}
+
+User << Human >>
+:Main Database: as MySql << Application >>
+(Start) << One Shot >>
+(Use the application) as (Use) << Main >>
+
+User -> (Start)
+User --> (Use)
+
+MySql --> (Use)
+
+@enduml 

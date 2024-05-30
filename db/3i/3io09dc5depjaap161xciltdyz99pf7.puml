@@ -1,0 +1,23 @@
+{
+  "sha1": "3io09dc5depjaap161xciltdyz99pf7",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.274Z",
+    "url": "https://github.com/plantuml/plantuml/issues/577#issuecomment-1116117741",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Home Page;
+
+switch (action)
+note left: Note on Switch
+case ( case1 )
+  :Case1;
+case ( case2 )
+  :Case2;
+case ( case3 )
+  :Case3;
+endswitch
+stop
+@enduml

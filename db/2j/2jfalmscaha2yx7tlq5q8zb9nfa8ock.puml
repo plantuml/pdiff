@@ -1,0 +1,15 @@
+{
+  "sha1": "2jfalmscaha2yx7tlq5q8zb9nfa8ock",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.022Z",
+    "url": "https://forum.plantuml.net/12527/insidediamond-condition-showing-branch-activity-diagram?show=12527#q12527",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ConditionStyle InsideDiamond
+if (test) then (yes)
+    :a;
+else (no)
+endif
+@enduml

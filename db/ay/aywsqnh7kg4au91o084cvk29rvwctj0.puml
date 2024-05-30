@@ -1,0 +1,35 @@
+{
+  "sha1": "aywsqnh7kg4au91o084cvk29rvwctj0",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.982Z",
+    "url": "http://forum.plantuml.net/8025/elseif-skinparam-doesnt-seem-to-use-the-activitydiamond",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam activity {
+   BackgroundColor #00538D
+   BorderColor #00538D
+   BorderThickness 1
+   BorderRoundCorner 1
+   ArrowColor #8CC63E
+   FontName Helvetica
+   FontColor White
+   DiamondBackgroundColor #00538D
+   DiamondBorderColor #00538D
+   DiamondFontName Helvetica
+   DiamondFontColor White
+}
+title If else elseif example
+if (If Text) then (yes)
+:Do Something;
+else (No)
+endif
+if (Option A) then 
+:A Thing;<<output>>
+elseif (Option B)
+:B Thing;<<output>>
+elseif (Option C)
+:C thing;<<output>>
+endif
+@enduml

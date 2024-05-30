@@ -1,0 +1,28 @@
+{
+  "sha1": "76wgdh6w6tomz2h7y6bjiyhaw6i36nt",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.130Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[AA] <<static lib>>
+[BB] <<shared lib>>
+[CC] <<static lib>>
+[Leave me alone] << other lib >>
+
+skinparam component {
+    backgroundColor<<static lib>> Red
+    backgroundColor<<shared lib>> Green
+}
+
+skinparam node {
+	borderColor Green
+	backgroundColor Yellow
+	backgroundColor<<shared node>> Magenta
+}
+
+node node1
+node node2 <<shared node>>
+
+@enduml

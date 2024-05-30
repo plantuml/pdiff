@@ -1,0 +1,21 @@
+{
+  "sha1": "as39y9bf8d3wcedito75z124jc655ql",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.942Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+artifact foo1
+artifact foo2 as "
+this isa
+----
+a line
+-- title --
+"
+database foo3 as "
+this isd
+----
+a line
+"
+@enduml

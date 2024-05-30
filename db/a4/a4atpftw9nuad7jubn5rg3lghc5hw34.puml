@@ -1,0 +1,13 @@
+{
+  "sha1": "a4atpftw9nuad7jubn5rg3lghc5hw34",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.818Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[-> Bob : message1 which is very long
+opt toto
+[-> Bob : message2
+end
+@enduml

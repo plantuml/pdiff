@@ -1,0 +1,16 @@
+{
+  "sha1": "309eg1mz05ygipwtjttrgizi9xcu0va",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.146Z",
+    "url": "https://forum.plantuml.net/13994/activity-style-allow-style-with-on-switch-case",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+</style>
+switch (test?)
+case (condition A)
+  :Text 1;
+endswitch
+@enduml

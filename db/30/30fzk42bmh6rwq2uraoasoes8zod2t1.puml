@@ -1,0 +1,16 @@
+{
+  "sha1": "30fzk42bmh6rwq2uraoasoes8zod2t1",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.146Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+actor Mamal [[http://www.google.com]]
+usecase Dog [[http://www.yahoo.com{This is Dog}]]
+
+'url of Mamal is [[http://www.google.com]]
+'url of Dog is [[http://www.yahoo.com{This is Dog}]]
+
+@enduml

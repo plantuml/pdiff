@@ -1,0 +1,20 @@
+{
+  "sha1": "7j1ts1mhez8wyyhwnfglj2lie8y1iop",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.218Z",
+    "url": "https://forum.plantuml.net/14383/style-allow-roundcorner-on-sequence-reference",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+sequenceDiagram {
+  reference {
+    RoundCorner 17
+  }
+}
+</style>
+!pragma teoz true
+ref over Alice, Bob : this is a reference over Alice and Bob
+ref#7700FF over Alice, Bob : this is a reference over Alice and Bob
+@enduml

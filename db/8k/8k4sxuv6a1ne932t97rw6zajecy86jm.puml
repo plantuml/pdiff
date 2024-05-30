@@ -1,0 +1,20 @@
+{
+  "sha1": "8k4sxuv6a1ne932t97rw6zajecy86jm",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.438Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+:start1 on
+several line;
+#AAAAAA:start2 on
+several line;
+if (some test) then (yes)
+  :do this;
+else (no)
+  :do other thing;
+endif
+#red:end of process;
+@enduml

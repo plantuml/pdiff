@@ -1,0 +1,22 @@
+{
+  "sha1": "6x2qcf3sztrrwvuyvmzed0yktoeok5z",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.066Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+object CC {
+ UK
+ USA
+ Germany
+}
+
+object users {
+ 1
+ 2
+ 3
+}
+
+CC::USA --> users::3
+@enduml

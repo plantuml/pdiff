@@ -1,0 +1,15 @@
+{
+  "sha1": "7f0tglhiwmokuvp2d90swevz7p2inqj",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.186Z",
+    "url": "https://forum.plantuml.net/11052/remove-unlinked-components",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component foo1 $tag1 $corecomponent
+component foo2
+component foo3 $tag1
+remove $tag1
+restore $corecomponent
+@enduml

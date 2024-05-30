@@ -1,0 +1,15 @@
+{
+  "sha1": "15a9ckvn3dcx1swyxzrrpqgovn34869",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.566Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequenceParticipantFontName Impact
+'skinparam sequenceParticipantFontNameSvg Tw Cen MT Condensed
+'skinparam sequenceParticipantFontNameEps TwCenMTCondensed
+'skinparam sequenceParticipantFontName Wide Latin
+
+Alice -> Bob: ok
+@enduml

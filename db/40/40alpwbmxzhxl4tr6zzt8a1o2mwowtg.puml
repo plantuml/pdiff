@@ -1,0 +1,21 @@
+{
+  "sha1": "40alpwbmxzhxl4tr6zzt8a1o2mwowtg",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.394Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+document {
+  BackGroundColor white
+}
+root {
+  FontColor #?black:white
+}
+</style>
+title
+my title
+endtitle
+alice->bob : hello
+@enduml

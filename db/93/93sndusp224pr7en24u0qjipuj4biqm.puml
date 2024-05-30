@@ -1,0 +1,20 @@
+{
+  "sha1": "93sndusp224pr7en24u0qjipuj4biqm",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.594Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1353",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+entity DEPT {
+D1
+}
+
+entity EMP {
+D2
+}
+
+EMP::D2 ||--o{ DEPT::D1
+@enduml

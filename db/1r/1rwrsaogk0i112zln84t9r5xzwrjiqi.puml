@@ -1,0 +1,18 @@
+{
+  "sha1": "1rwrsaogk0i112zln84t9r5xzwrjiqi",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.774Z",
+    "url": "https://forum.plantuml.net/10082/new-preprocessor-returning-elements-from-functions",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!procedure $BIN2($sn)
+node $sn
+!endprocedure
+
+$BIN2("b2") {
+  rectangle c2
+}
+
+@enduml

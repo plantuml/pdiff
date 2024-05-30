@@ -1,0 +1,25 @@
+{
+  "sha1": "4rk299jt039azx2nmn9bugbytff52t9",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.558Z",
+    "url": "https://forum.plantuml.net/15172/is-it-possible-to-hide-the-name-of-an-element?show=15178#c15178",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+legend
+{{
+
+!procedure $arrow($text)
+\n<font:monospaced.bold>$text</font> => \n{{\nleft to right direction\nlabel " " as A\nlabel " " as B\nA $text B\n}}\n
+!endprocedure
+
+map "Arrows legend " as arrows {
+$arrow("-->")
+$arrow("-[dashed]->")
+$arrow("-[dotted]->")
+}
+
+}}
+endlegend
+@enduml

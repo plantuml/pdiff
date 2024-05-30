@@ -1,0 +1,16 @@
+{
+  "sha1": "480qod7z9swqujs3ni3fv9vab3whokz",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.446Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!startsub FOO1
+A->A : stuffA2
+!endsub
+B->B : stuffB2
+C->C : stuffC2
+D->D : stuffD2
+!includesub FOO1
+@enduml

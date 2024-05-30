@@ -1,0 +1,40 @@
+{
+  "sha1": "3nonwr2p6ju9chfs9s8kiocanc08xfy",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.306Z",
+    "url": "https://forum.plantuml.net/16505/style-partition-group-package-rectangle-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:a;
+card card_name {
+:b;
+}
+group Group
+  :Activity;
+end group
+floating note: Note on Group
+
+partition Partition {
+  :Activity;
+}
+floating note: Note on Partition
+
+package Package {
+  :Activity;
+}
+floating note: Note on Package 
+
+rectangle Rectangle {
+  :Activity;
+}
+floating note: Note on Rectangle 
+
+card Card {
+  :Activity;
+}
+floating note: Note on Card
+end
+
+@enduml

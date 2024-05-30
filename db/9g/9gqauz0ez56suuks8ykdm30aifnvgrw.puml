@@ -1,0 +1,21 @@
+{
+  "sha1": "9gqauz0ez56suuks8ykdm30aifnvgrw",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.686Z",
+    "url": "http://forum.plantuml.net/6389/alias-of-interfaces-in-component-diagrams?show=6390#a6390",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    database "DB" as DB {
+
+         !define DB_at_NSM_CQL DB_at_CQL
+         circle "CQL" as DB_at_NSM_CQL
+
+         !define DB_at_MID_CQL DB_at_CQL
+         circle "CQL" as DB_at_MID_CQL
+
+         !define DB_at_REPL_CQL DB_at_CQL
+         circle "CQL" as DB_at_REPL_CQL
+    }
+@enduml

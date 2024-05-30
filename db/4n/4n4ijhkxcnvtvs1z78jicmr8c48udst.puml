@@ -1,0 +1,16 @@
+{
+  "sha1": "4n4ijhkxcnvtvs1z78jicmr8c48udst",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.514Z",
+    "url": "https://github.com/plantuml/plantuml/issues/879",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <C4/C4_Container>
+
+Rel(WebAppContainer, someContainer, "relation")
+System_Boundary(azureCloud, "xxx") {
+  Container(someContainer, "some container")
+}
+@enduml

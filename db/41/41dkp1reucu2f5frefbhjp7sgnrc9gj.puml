@@ -1,0 +1,17 @@
+{
+  "sha1": "41dkp1reucu2f5frefbhjp7sgnrc9gj",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.398Z",
+    "url": "http://forum.plantuml.net/6840/end-block-comment-delimiter-causes-image-to-not-be-generated",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+/'
+!definelong CLASS()
+!enddefinelong'/
+
+class Foo {
+    Bar
+}
+@enduml

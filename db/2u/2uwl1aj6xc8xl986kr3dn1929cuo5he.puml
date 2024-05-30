@@ -1,0 +1,23 @@
+{
+  "sha1": "2uwl1aj6xc8xl986kr3dn1929cuo5he",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.110Z",
+    "url": "https://forum.plantuml.net/14283/extend-mindmap-arithmetic-syntax-to-allow-multiline-nodes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
++ root
+++ """
+right_1.1
+right_1.2
+"""
+
+-- left_1
+++ right_2
+-- left_2
+-- """
+left_3.1
+left_3.2
+"""
+@endmindmap

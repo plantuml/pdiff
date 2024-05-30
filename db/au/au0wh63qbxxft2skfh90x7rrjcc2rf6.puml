@@ -1,0 +1,37 @@
+{
+  "sha1": "au0wh63qbxxft2skfh90x7rrjcc2rf6",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.958Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+  !define SEQTYPE
+ 
+  '****************************************************************************
+  '*                          Sequence Definitions                          *
+  '****************************************************************************
+ 
+  title    New Feature : Inline comment blocks
+
+  actor    "Primary Actor" as GAMMA
+  database "Supporting Actor" as DELTA
+ 
+  '  Activate all participants
+  activate GAMMA
+  activate DELTA
+ 
+  alt Main Success Scenario
+ 
+  /' 1 '/  GAMMA -> Delta : Send the first message
+  /' 2 '/  Delta -> Gamma : Send the second message
+  Delta -> Gamma : Send the third message /' 3 '/
+  /' 4a '/ Delta -> Gamma : Send the forth message /' 4b '/
+
+  end  /' alt / else '/
+ 
+  '  Deactivate all participants
+  deactivate GAMMA
+  deactivate DELTA
+ 
+@enduml

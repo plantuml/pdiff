@@ -1,0 +1,24 @@
+{
+  "sha1": "bu3o20brvy8lm864bil504habl84sg2",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.162Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+loop creating ssl connection
+
+activate ssl_server.exe
+group SSL Application data
+browser -> ssl_server.exe
+end /' SSL Application data '/
+
+deactivate ssl_server.exe
+
+end /' endloop '/
+
+destroy browser
+
+@enduml

@@ -1,0 +1,36 @@
+{
+  "sha1": "6xbvkj7o10bc2gwjwqdh6yb3fvr651y",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.070Z",
+    "url": "http://wiki.plantuml.net/site/preprocessing-json",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$partlen=2
+!$data={"participants" :[
+{"name": "XYZ" ,"as": "xyz"},
+{"name": "RST" ,"as": "rst"},
+{"name": "UVW" ,"as": "uvw"}
+]
+}
+!$i=0
+:A;
+!while $i<=$partlen
+:Z $data.participants[$i].name as $data.participants[$i].as;
+!$i = $i + 1
+!endwhile
+:B;
+!$j=0
+:a;
+:$j;
+:W $data.participants[$j].name as $data.participants[$j].as;
+:W $data.participants[0].name as $data.participants[0].as;
+:W $data.participants[1].name as $data.participants[1].as;
+:W $data.participants[2].name as $data.participants[2].as;
+:b;
+!foreach $tmp in $data.participants
+:X $tmp.name as $tmp.as;
+!endfor
+:B;
+@enduml

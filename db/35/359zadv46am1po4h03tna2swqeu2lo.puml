@@ -1,0 +1,30 @@
+{
+  "sha1": "359zadv46am1po4h03tna2swqeu2lo",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.186Z",
+    "url": "https://forum.plantuml.net/18682/timing-set-background-color-of-concise",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+timingDiagram {
+  .bluecolor {
+    BackGroundColor blue
+  }
+}
+</style>
+concise "LR" as LR <<bluecolor>> #red
+concise "ST" as ST
+
+LR is AtPlace
+ST is AtLoad
+
+@LR
+0 is Lowering
+100 is Lowered
+350 is Releasing
+ 
+@ST
+200 is Moving
+@enduml

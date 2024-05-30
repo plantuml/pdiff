@@ -1,0 +1,16 @@
+{
+  "sha1": "1xg1o02hrebey47uxokz7q1uuzg85cl",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.826Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam tabSize 20
+object foo {
+\tfield1
+\tfield2
+\tfield3
+\tfield5\tfield6
+}
+@enduml

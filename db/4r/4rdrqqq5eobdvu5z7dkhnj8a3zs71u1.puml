@@ -1,0 +1,23 @@
+{
+  "sha1": "4rdrqqq5eobdvu5z7dkhnj8a3zs71u1",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.558Z",
+    "url": "https://forum.plantuml.net/16383/for-gantt-possible-override-closed-days-for-selected-tasks",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+saturday are closed
+sunday are closed
+
+saturday are open for [Foo] 
+
+Project starts the 2020-07-01
+[Prototype design] lasts 10 days
+Then [Test prototype] lasts 10 days
+
+[Foo] lasts 10 days
+
+
+@endgantt

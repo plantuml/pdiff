@@ -1,0 +1,18 @@
+{
+  "sha1": "a0lgl4ywbw24teoyqp3qr04ciyguvn0",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.794Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component "CMP1" as C1 <<stereotype>> {
+database "DB"
+}
+
+component "CMP2" as C2 <<stereotype>> {
+'database "DB"
+}
+
+
+@enduml

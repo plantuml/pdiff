@@ -1,0 +1,15 @@
+{
+  "sha1": "7smclgble3lots8zfccrgbol6rax0o3",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.270Z",
+    "url": "https://forum.plantuml.net/10800/font-style-not-working-on-title",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <logos/centos>
+
+title: running on <$centos>
+Alice->Bob : hello
+
+@enduml

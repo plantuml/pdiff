@@ -1,0 +1,13 @@
+{
+  "sha1": "1giiesg3x2m76rc9d634q4h8s7lnzxd",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.678Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define THIS_IS(x) "this is x"
+!define DECLARE(x) participant x as THIS_IS(x)
+DECLARE(Bob)
+DECLARE(Alice)
+@enduml

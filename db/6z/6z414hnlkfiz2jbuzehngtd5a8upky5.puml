@@ -1,0 +1,13 @@
+{
+  "sha1": "6z414hnlkfiz2jbuzehngtd5a8upky5",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.086Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+if(c?)then
+else(no:\n1. ONLY BLUE ARROW below\n**Should be 2 arrows**)
+    :do something;                                    
+endif
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "ap240d907jaumd15g3jeh2r9el718y",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.922Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state A begin
+  state B begin
+    state C begin
+      [*] --> D
+      D --> G
+    end state
+  end state
+end state
+
+@enduml

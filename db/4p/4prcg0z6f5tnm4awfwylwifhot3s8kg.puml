@@ -1,0 +1,30 @@
+{
+  "sha1": "4prcg0z6f5tnm4awfwylwifhot3s8kg",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.542Z",
+    "url": "http://forum.plantuml.net/8105/teoz-autonumbering-not-applied-for-messages-left-right-flow",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+hide footbox
+
+participant a
+participant b
+participant c
+participant d
+participant e
+
+autonumber
+
+a->b: Msg
+& b->c: Msg
+& c->d: Msg
+
+[<- d: Msg
+
+
+a->b: Msg
+@enduml

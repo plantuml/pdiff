@@ -1,0 +1,16 @@
+{
+  "sha1": "7lj99sj3umf4fq7xaqu0ntad9rzs8eh",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.234Z",
+    "url": "https://github.com/plantuml/plantuml/issues/773",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* Root 1
+** Foo
+** Bar
+* Root 2
+** Lorem
+** Ipsum
+@endmindmap

@@ -1,0 +1,24 @@
+{
+  "sha1": "6ihz6bob3yugyc3rlau154pfkj45zwu",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.030Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package test1 {
+A <|-- B
+}
+package "Voici mon package" #DDDDDD {
+C <|-- D
+}
+
+package test3 {
+E <|-- F
+}
+
+package "Voici mon package" #DDDDDD {
+G <|-- H
+}
+
+@enduml

@@ -1,0 +1,27 @@
+{
+  "sha1": "al9gkrpiymgjjtvgxecbroubsfl2ahv",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.898Z",
+    "url": "http://forum.plantuml.net/7821/crash-with-teoz",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+box "group 1" #lightblue
+    Participant P1
+    Participant P2
+end box
+' I would like to insert an horizontal minimu space constraint here
+box "group 2" #lightgreen
+    Participant P3
+    Participant P4
+end box
+par
+ P1->P2
+'With the 2 next lines it crash
+else
+ P3->P4
+end
+@enduml

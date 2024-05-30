@@ -1,0 +1,14 @@
+{
+  "sha1": "79y507xmx1nfdidqkqudl7y95qr41ry",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.154Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+analog "VDD" as VDD
+@0
+VDD is 5
+@5
+VDD is 10
+@enduml

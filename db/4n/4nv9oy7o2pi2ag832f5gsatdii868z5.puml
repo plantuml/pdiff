@@ -1,0 +1,19 @@
+{
+  "sha1": "4nv9oy7o2pi2ag832f5gsatdii868z5",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.526Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+group g1
+P1->P2
+
+== diver 1 ==
+
+end
+
+
+@enduml

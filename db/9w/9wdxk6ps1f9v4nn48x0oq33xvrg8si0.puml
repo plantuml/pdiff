@@ -1,0 +1,32 @@
+{
+  "sha1": "9wdxk6ps1f9v4nn48x0oq33xvrg8si0",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.778Z",
+    "url": "http://forum.plantuml.net/8024/lifelines-sequence-diagram-participant-repeatedly-destroyed",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant a
+participant b
+
+create b
+a --> b : hello()
+a --> b : how_are_you()
+a --> b : goodbye()
+destroy b
+
+create b
+a --> b : hello()
+a --> b : how_are_you()
+a --> b : goodbye()
+destroy b
+
+create b
+a --> b : hello()
+a --> b : how_are_you()
+a --> b : goodbye()
+destroy b
+
+
+@enduml

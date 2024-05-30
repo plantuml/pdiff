@@ -1,0 +1,31 @@
+{
+  "sha1": "4y8m67rhqnjpytcz0xcv8bc0721fdii",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.610Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startbpm
+:login;
+20:<+>
+:show new message1;
+30:<+>
+resume 20
+:show new task2;
+goto 30
+tri:<+>
+:Accept Task;
+last:<+>
+resume tri
+:nothing;
+goto last
+resume tri
+100:<+>
+:read message;
+goto last
+resume 100
+:dummy;
+110:<+>
+goto last
+:logout;
+@endbpm

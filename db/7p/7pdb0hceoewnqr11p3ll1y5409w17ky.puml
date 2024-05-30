@@ -1,0 +1,23 @@
+{
+  "sha1": "7pdb0hceoewnqr11p3ll1y5409w17ky",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.250Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+<style>
+timeline {
+    BackGroundColor Grey
+    FontName Helvetica
+    FontSize 20
+    FontColor Blue
+}
+</style>
+
+[Prototype design] as [TASK1] lasts 38 days
+[TASK1] is colored in Lavender/LightBlue
+[Prototype completed] happens at [TASK1]'s end
+
+@endgantt

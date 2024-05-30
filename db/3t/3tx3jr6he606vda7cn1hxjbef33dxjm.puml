@@ -1,0 +1,31 @@
+{
+  "sha1": "3tx3jr6he606vda7cn1hxjbef33dxjm",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.354Z",
+    "url": "https://github.com/DrMarkusVoss/pumla/tree/main/test/examples/simple/ports",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+!pragma kermor on
+
+
+component "Temperature Sensor" as tempSensor <<block>> {
+    note as tempSensor_TVs
+        1some tagged value table
+        would be here
+        usually.
+    end note
+
+    portout "temp_dK_raw" as tempSensor_temp_dK_raw
+
+}
+
+note bottom of tempSensor
+    2Measure the temperature and outputs it as
+    raw, unfiltered value in Kelvin.
+end note
+
+
+@enduml

@@ -1,0 +1,31 @@
+{
+  "sha1": "3zb7z1rot14p4m0e9ir4ovb5ama6gkq",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.390Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+visibilityIcon {
+  protected {
+    LineColor DarkGoldenRod
+    BackgroundColor DarkGoldenRod
+  }
+}
+</style>
+
+
+class  Doer    {
+--
+{method} + execute
+{method} # execute_for_all_children
+}
+class  MetaDataScanner {
+--
+{method} # execute_Class
+{method} # execute_Footer
+}
+Doer <|-- MetaDataScanner
+@enduml

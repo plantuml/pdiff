@@ -1,0 +1,16 @@
+{
+  "sha1": "1694ikne4oxfp1gv8x3rqh8ontb9ebq",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.570Z",
+    "url": "https://github.com/plantuml/plantuml/issues/800",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide footbox
+nwdiag {
+  network Test {
+    Server
+  }
+}
+@enduml

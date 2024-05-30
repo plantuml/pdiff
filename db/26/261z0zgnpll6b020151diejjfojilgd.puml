@@ -1,0 +1,15 @@
+{
+  "sha1": "261z0zgnpll6b020151diejjfojilgd",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.906Z",
+    "url": "http://forum.plantuml.net/8932/defaulttextalignment-too-mighty",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultTextAlignment center
+start
+:Test;
+floating note left: Hello World!\nHow are you today and what are you doing?
+stop
+@enduml

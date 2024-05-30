@@ -1,0 +1,18 @@
+{
+  "sha1": "176848xzi7c9ccip3jry35hnwoc74b6",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.590Z",
+    "url": "https://github.com/plantuml/plantuml/issues/951#issuecomment-1339828969",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Foo {
+method()
+}
+class Bar
+class Qux
+
+Foo::method --> Bar: don't drawing
+(Foo, Bar) --> Qux
+@enduml

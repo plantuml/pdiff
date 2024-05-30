@@ -1,0 +1,14 @@
+{
+  "sha1": "ama2cqbnwbtheznn5377cg9o1naje",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.906Z",
+    "url": "http://forum.plantuml.net/9376/newpage-is-not-workingwith-teoz",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Bob -> Alice : hello
+newpage
+Bob -> Alice : hello page2
+@enduml

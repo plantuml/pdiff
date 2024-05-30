@@ -1,0 +1,16 @@
+{
+  "sha1": "7igerh0ihbealvtg4rf8i2k0qr068ua",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.214Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam packageBorderColor red
+skinparam packageBackgroundColor yellow
+partition Conductor {
+  (*) --> "Climbs on Platform"
+  --> === S1 ===
+  --> Bows
+}
+@enduml

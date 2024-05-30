@@ -1,0 +1,12 @@
+{
+  "sha1": "3r5vax4avw19o5gw9z7alxt7hlug8qc",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.338Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam SequenceMessageAlign center
+Bob -> Alice : center\non two different lines
+Bob -> Alice : very very long message
+@enduml

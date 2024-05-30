@@ -1,0 +1,23 @@
+{
+  "sha1": "315gyurvyejp31ctj8938ivxe9rqspd",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.150Z",
+    "url": "http://forum.plantuml.net/7698/timing-diagram-allow-negative-time-values",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+concise "R-Algo-0" as RA0
+
+@-100
+RA0 is A
+
+@300
+RA0 is B
+
+@500
+RA0 is C
+
+
+@enduml

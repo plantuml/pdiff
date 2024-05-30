@@ -1,0 +1,25 @@
+{
+  "sha1": "5leect3git9a34o5awcl3z3ha55z5rt",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.766Z",
+    "url": "https://forum.plantuml.net/14515/activity-beta-broken-switch-case-arrows-when-using-kill-detach",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+switch (test?)
+case ( A )
+  :Text 1;
+kill
+case ( B ) 
+  :Text 2;
+kill
+case ( C )
+  :Text 3;
+kill
+case ( D )
+  :Text 4;
+'kill
+endswitch
+:out;
+@enduml

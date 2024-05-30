@@ -1,0 +1,39 @@
+{
+  "sha1": "b9pxb1yp74h97c1cxormqgaumixefsv",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.046Z",
+    "url": "https://forum.plantuml.net/17031/boolean-builtin-functions?show=17045#c17045",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+alice -> bob: hello
+!if %not(0)
+alice -> bob: not(0)
+!endif
+!if %and(1,1)
+alice -> bob: and(1,1)
+!endif
+!if %and(0,1)
+alice -> bob: not seen, otherwise bug
+!endif
+!if %and(1,0)
+alice -> bob: not seen, otherwise bug
+!endif
+
+
+!if %or(1,2)
+alice -> bob: or(1,1)
+!endif
+!if %or(0,2)
+alice -> bob: or(0,2)
+!endif
+!if %or(2,0)
+alice -> bob: or(2,0)
+!endif
+!if %or(0,0)
+alice -> bob: not seen, otherwise bug
+!endif
+
+
+@enduml

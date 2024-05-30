@@ -1,0 +1,13 @@
+{
+  "sha1": "8b6kl0o517mdd3iygktcybtutazffel",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.378Z",
+    "url": "https://forum.plantuml.net/17566/global-%24variable-default-variable-produces-error-a001",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!global $variable = "changed value"
+!$variable ?= "default value"
+[A] -> [B]: $variable
+@enduml

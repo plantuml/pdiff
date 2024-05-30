@@ -1,0 +1,17 @@
+{
+  "sha1": "2ivj3m8wentk161sdrqmz2vcdmoycrg",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.014Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=4696/notes-on-conditionnal-elements&show=4702#c4702",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+fork
+    :Activity 1;
+fork again
+    :Activity 2;
+end fork
+note:my note
+@enduml

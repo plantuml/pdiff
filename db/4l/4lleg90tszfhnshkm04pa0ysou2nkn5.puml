@@ -1,0 +1,30 @@
+{
+  "sha1": "4lleg90tszfhnshkm04pa0ysou2nkn5",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.510Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    namespace pragma {
+        class PragmaStringMultiTest {
+            {field} + p1 
+            __
+            {method} + myMethod
+        }
+        note left of PragmaStringMultiTest
+            This note corrupts the link
+            between PragmaStringMultiTest
+            and MyItem. Remove the note
+            and the link will be OK.
+        end note
+    }
+    namespace MyPack {
+        class MyItem {
+            {field} + MyProp 
+            __
+            {method} + MyItem 
+        }
+    }
+    MyPack.MyItem "1" -left- pragma.PragmaStringMultiTest
+@enduml

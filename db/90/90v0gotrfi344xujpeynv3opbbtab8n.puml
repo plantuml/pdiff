@@ -1,0 +1,13 @@
+{
+  "sha1": "90v0gotrfi344xujpeynv3opbbtab8n",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.578Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@starthcl
+locals {
+    "stack_name" : local.network_project_name
+    "code_efs" : "13"
+}
+@endhcl

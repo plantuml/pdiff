@@ -1,0 +1,1348 @@
+{
+  "sha1": "651pgt86s1p28l4y4wntr2n595ruwv9",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.882Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=4563/stackoverflowerror",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+abstract sddwdwd
+interface Listdr
+interface Cxsaasd
+
+List <|-- AbstractListssda
+Collection <|-- Abstras`````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````tion
+
+Collection <|- List
+AbstractCollection <|- AbstractListg
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+newpage
+
+abstract class qxxxxxdasdsfasafasfsssssq
+abstract xxxxsdxxxxxxsxsxxsq
+interface Listffx
+interface Collectiond
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctionsg
+interface Listxwdxx
+interface Collectionxxxxxxxxxxxxxx
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class qxxxxxdasdsfasafasfsssssq
+abstract xxxxsdxxxxxxsxsxxsq
+interface Listffx
+interface Collectiond
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctionsg
+interface Listxwdxx
+interface Collectionxxxxxxxxxxxxxx
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class qxxxxxdasdsfasafasfsssssq
+abstract xxxxsdxxxxxxsxsxxsq
+interface Listffx
+interface Collectiond
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctionsg
+interface Listxwdxx
+interface Collectionxxxxxxxxxxxxxx
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+newpage
+
+abstract class gsswegrergergsac
+abstract AbstractColledasdctions
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+Absist <|-- ArrayListwwwwwwww
+
+class ArrayList {
+Object[] elementDatawwww
+size()
+}
+
+enum TimeUnit {
+DAYSs
+HOURS
+MINUTES
+}
+
+@enduml

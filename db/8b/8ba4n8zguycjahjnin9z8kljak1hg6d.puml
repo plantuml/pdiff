@@ -1,0 +1,15 @@
+{
+  "sha1": "8ba4n8zguycjahjnin9z8kljak1hg6d",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.378Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+scale 1.5
+{^"My group box<$gears*.3>"
+  Login    | "<$gears*.3>MyName   "
+  Password | "****     "
+  [Cancel] | [  OK<$gears*.3>   ]
+}
+@endsalt

@@ -1,0 +1,23 @@
+{
+  "sha1": "46w8wlbcz5lqgpvpcwbmcrtrv2egslq",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.438Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state A {
+        state Aentry1 <<entrypoint>>
+        state Aexit1 <<exitpoint>>
+        state foo
+        Aentry1 --> Aexit1
+}
+state B {
+        state Bentry1 <<entrypoint>>
+        state Bexit1 <<exitpoint>>
+        Bentry1 --> Bexit1
+}
+[*] --> A.Aentry1
+A.Aexit1 --> B.Bentry1
+B.Bexit1 --> [*]
+@enduml

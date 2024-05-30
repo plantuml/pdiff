@@ -1,0 +1,19 @@
+{
+  "sha1": "8h6yonrnb7g0g8f0cgs88cbwjpovm28",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.422Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+State S1
+State S2
+S1 -[#DD00AA]-> S2
+S1 -left[#yellow]-> S3
+S1 -up[#red,dashed]-> S4
+S1 -right[dotted,#blue]-> S5
+
+X1 -[dashed]-> X2
+Z1 -[dotted]-> Z2
+Y1 -[#blue,bold]-> Y2
+@enduml

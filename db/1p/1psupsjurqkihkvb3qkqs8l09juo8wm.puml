@@ -1,0 +1,11 @@
+{
+  "sha1": "1psupsjurqkihkvb3qkqs8l09juo8wm",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.754Z",
+    "url": "https://gist.github.com/rxaviers/7360908",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob : 2601<:1f53a:>
+@enduml

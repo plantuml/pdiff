@@ -1,0 +1,23 @@
+{
+  "sha1": "bwj7ti1admr0z4s7ada96qr1ap1qcy5",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.174Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+state Foo1 ##[dotted]blue {
+}
+state Foo2 ##[dotted]green {
+state inner1 ##[dotted]yellow
+}
+
+state out ##[dotted]gold
+
+state Foo3 ##[bold]green {
+state inner2 ##[dotted]yellow
+}
+
+out --> Foo3.inner2
+@enduml

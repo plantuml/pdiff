@@ -1,0 +1,20 @@
+{
+  "sha1": "47azj2965fo97sxlub3ciggbvtda5sq",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.442Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* Business Process Modelling WBS
+** Launch the project
+*** Complete Stakeholder Research
+*** Initial Implementation Plan
+** Design phase
+*** Model of AsIs Processes Completed
+**** Model of AsIs Processes Completed1
+**** Model of AsIs Processes Completed2
+*** Measure AsIs performance metrics
+*** Identify Quick Wins
+** Complete innovate phase
+@endwbs

@@ -1,0 +1,23 @@
+{
+  "sha1": "bwpxpen8mdyfngap2u44d347l489mwc",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.178Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+A0 -- A1
+A0 -- A2
+A0 -- A3
+
+A1 -- A5
+A2 -- A4
+A4 -- A5
+
+A3 -- A5
+
+note left of A4 : left
+note right of A1 : right
+
+@enduml

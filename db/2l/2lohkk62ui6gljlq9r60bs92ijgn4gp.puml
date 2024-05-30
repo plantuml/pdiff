@@ -1,0 +1,36 @@
+{
+  "sha1": "2lohkk62ui6gljlq9r60bs92ijgn4gp",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.038Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+par
+  Bxxx->Cxxx : message3
+  par2
+    par2
+      Axxx ->Axxx2 : message1 which is long
+      Axxx ->Axxx2 : message1 which is long
+      Axxx ->Axxx2 : message1 which is long
+    else
+	    Bxxx ->Cxxx : message2
+    end
+  also
+    Dxxx -> Dxxx
+  also
+    par2
+      ZAxxx ->ZAxxx2 : message1 which is long
+      ZAxxx ->ZAxxx2 : message1 which is long
+      ZAxxx ->ZAxxx2 : message1 which is long
+    else
+	    ZBxxx ->ZCxxx : message2
+    end
+  end
+
+  Bxxx->Cxxx : message3
+end
+
+Cxxx -> Dxxx : message4
+note left of Dxxx : this is to note
+@enduml

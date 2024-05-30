@@ -1,0 +1,27 @@
+{
+  "sha1": "bso3pjeg8j1a368awbtm68of2uh3xb3",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.150Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam activity {
+  BackgroundColor lightBlue
+  BorderColor darkBlue
+  DiamondFontColor red
+  DiamondFontSize 40
+  ArrowFontSize 20
+}
+
+start
+
+:step1;
+
+if (Why this text is black?) then (YES)
+stop
+else (no)
+:step2;
+endif
+stop
+@enduml

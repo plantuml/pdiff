@@ -1,0 +1,17 @@
+{
+  "sha1": "2g7w1z06r0mt6ua4mrebhp08sgrt6po",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.986Z",
+    "url": "https://forum.plantuml.net/13021/accept-hexagon-with-smetana-deployment-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+hexagon h [
+more
+and
+more
+combinatorial
+]
+@enduml

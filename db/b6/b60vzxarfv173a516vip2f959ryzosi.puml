@@ -1,0 +1,19 @@
+{
+  "sha1": "b60vzxarfv173a516vip2f959ryzosi",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.022Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor a
+actor b
+actor c
+
+m-->(do)
+
+newpage
+
+actor z
+z-->(zz)
+@enduml

@@ -1,0 +1,29 @@
+{
+  "sha1": "9u3a4daa0qpbi2bzs544k0jejd76bew",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.862Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : hello
+note right #OliveDrab
+  this is a note
+end note
+
+== Demo ==
+Bob <- Alice : Finished
+
+note left of Bob #red : ok
+
+note over Alice, Bob #Green : this is green
+
+note over Alice, Bob #blue
+	this is blue
+endnote
+ 
+note left of Bob #EEEEEE
+	Color EEEEEE
+end note
+
+@enduml

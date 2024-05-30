@@ -1,0 +1,22 @@
+{
+  "sha1": "4egt0izdavzq4gjbbbzxp5b6j751nk5",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.478Z",
+    "url": "https://forum.plantuml.net/11109/preprocessor-vlookup-macro?show=11132#c11132",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!unquoted function $vlookup($id, $range, $offset)
+!log vlookup on %get_variable_value("$id")
+%set_variable_value("$row1","cm|customer master|manages customers")
+!if ($id == "cm")
+    !return %get_variable_value("$row1")
+!endif
+!return "foo"
+!endfunction
+!$note = $vlookup("cm","system.iuml", 1)
+component comp1 [
+$note
+]
+@enduml

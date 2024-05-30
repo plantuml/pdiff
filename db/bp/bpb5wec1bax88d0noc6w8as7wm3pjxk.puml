@@ -1,0 +1,12 @@
+{
+  "sha1": "bpb5wec1bax88d0noc6w8as7wm3pjxk",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.138Z",
+    "url": "http://forum.plantuml.net/1831/border-thickness?show=6901#a6901",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam componentBorderThickness 0.5
+component foo1
+@enduml

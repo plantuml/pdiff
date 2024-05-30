@@ -1,0 +1,11 @@
+{
+  "sha1": "3f1kbyyx6ll2sh13dbya68c3cmd7clo",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.250Z",
+    "url": "http://forum.plantuml.net/6852/dashed-border-on-single-rectangle",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "<b>Test\n<size:12>Test 2\n<size:10>/'''CN1391-TAXCLASS-START'''/U.S. Partnership/'''CN1391-TAXCLASS-END'''/" as CN1391 [[https://www.google.com/1391 {Text}]]  #White /'ICONFORCN1391'/
+@enduml

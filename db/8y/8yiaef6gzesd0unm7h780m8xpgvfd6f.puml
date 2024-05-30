@@ -1,0 +1,16 @@
+{
+  "sha1": "8yiaef6gzesd0unm7h780m8xpgvfd6f",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.558Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "A" as A {
+	 !define DEF_1 DEFINITION
+	 circle "1" as DEF_1
+
+	 !define DEF_2 DEFINITION
+	 circle "2" as DEF_2
+}
+@enduml

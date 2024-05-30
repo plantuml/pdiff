@@ -1,0 +1,12 @@
+{
+  "sha1": "85854z26pfzfhq14wn3nejd8bguovur",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.342Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+/' 1 '/      ABC -> DEF   :  This is message 1
+             GHI -> JKL   :  This is message 2
+/' 2 '/      MNO -> PQR   :  This is message 3
+@enduml

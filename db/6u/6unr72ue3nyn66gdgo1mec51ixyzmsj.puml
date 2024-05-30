@@ -1,0 +1,13 @@
+{
+  "sha1": "6unr72ue3nyn66gdgo1mec51ixyzmsj",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.054Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1352",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma useIntermediatePackages false
+class A.B.Z {
+}
+@enduml

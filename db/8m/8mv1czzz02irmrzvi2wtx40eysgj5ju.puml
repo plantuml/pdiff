@@ -1,0 +1,17 @@
+{
+  "sha1": "8mv1czzz02irmrzvi2wtx40eysgj5ju",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.466Z",
+    "url": "https://forum.plantuml.net/13843/missing-arrowheads-in-sequence-diagram?show=13846#c13846",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice <-> Alice : text
+Alice <->o Alice : text
+Alice o<->o Alice : text
+
+Bob <-> Alice
+Bob <->o Alice
+Bob o<->o Alice
+@enduml

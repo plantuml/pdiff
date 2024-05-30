@@ -1,0 +1,13 @@
+{
+  "sha1": "b2tt066btqh0rgahovg87vjlxagmxs9",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.998Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skinparam usecaseArrowColor black
+skinparam componentArrowColor black
+skinparam componentBorderColor black
+[A] -> [B]
+@enduml

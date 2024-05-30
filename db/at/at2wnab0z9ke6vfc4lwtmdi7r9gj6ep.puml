@@ -1,0 +1,15 @@
+{
+  "sha1": "at2wnab0z9ke6vfc4lwtmdi7r9gj6ep",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.950Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgit
+* a0f65180 (origin/cds/issue700) Layered: Clarified code. #700
+* 23a9f435 Layered: Fix wrong hierarchy handling. #700
+| * 9037d534 (HEAD -> master, origin/master) Build: Properly sign Maven artifacts. #722
+|/  
+* 91fc1c7b Build: Mount Jenkins home. #722
+* 4fe6df1e Build: Add HOME env var to maven container. #722
+@endgit

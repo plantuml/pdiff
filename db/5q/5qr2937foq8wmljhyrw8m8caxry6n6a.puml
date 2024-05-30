@@ -1,0 +1,24 @@
+{
+  "sha1": "5qr2937foq8wmljhyrw8m8caxry6n6a",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.786Z",
+    "url": "https://forum.plantuml.net/8830/caption-disapear-with-salt",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+header some header
+footer <back:red>some footer
+caption caption
+title My title
+caption This is caption
+legend
+<back:red>The legend
+end legend
+{
+test1
+test2
+[button3]
+test4
+} 
+@endsalt

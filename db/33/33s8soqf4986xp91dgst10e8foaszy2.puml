@@ -1,0 +1,18 @@
+{
+  "sha1": "33s8soqf4986xp91dgst10e8foaszy2",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.178Z",
+    "url": "http://forum.plantuml.net/8954/links-not-workling",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package " XY " as XXY [[/text/web/test/abc/92:2]] {
+rectangle " YY " as YYY [[/text/web/test/ced/222:0]] {
+}
+rectangle " YX " as XYY [[/text/web/test/ced/221:2]] {
+class " AB " as AAB [[/text/web/test/ced/222:1]]
+class " CD " as CCD [[/text/web/test/ced/221:1]]
+}
+}
+@enduml

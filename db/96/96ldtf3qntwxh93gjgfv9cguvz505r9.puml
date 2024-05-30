@@ -1,0 +1,49 @@
+{
+  "sha1": "96ldtf3qntwxh93gjgfv9cguvz505r9",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.622Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+wbsDiagram {
+  node {
+    Padding 5
+    Margin 15
+    BackGroundColor white
+  }
+  rootNode {
+    Padding 15
+    FontStyle Italic
+    BackGroundColor green
+  }
+  leafNode {
+    Padding 1
+    BackGroundColor yellow
+    FontColor blue
+    FontSize 15
+  }
+}
+</style>
+* World
+** America
+*** Canada
+*** Mexico
+*** USA
+<style>
+wbsDiagram {
+  node {
+    Margin 10
+  }
+  leafNode {
+    FontColor red
+    FontSize 20
+  }
+}
+</style>
+** Europe
+*** England
+*** Germany
+*** Spain
+@endwbs

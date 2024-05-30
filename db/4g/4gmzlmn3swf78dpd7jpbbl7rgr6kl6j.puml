@@ -1,0 +1,24 @@
+{
+  "sha1": "4gmzlmn3swf78dpd7jpbbl7rgr6kl6j",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.490Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam conditionStyle foo1
+|main|
+start
+while (this is long foo)
+|line1|
+  :act1;
+  :act2;
+  :act3;
+end while
+while (this)
+|main|
+  :act1;
+  :act2;
+  :act3;
+end while
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "1h20wtcaav24mp7oawhnyhe7vf24wau",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.682Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+object demo {
+  * ABullet list
+  * ASecond item
+  ** ASub item
+}
+note left
+  * BBullet list
+  * BSecond item
+  ** BSub item
+end note
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "59vfucpendj8c1c77q3rz8yh9l6ie0i",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.698Z",
+    "url": "https://github.com/plantuml/plantuml/issues/333#issuecomment-637542077",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:Planck;
+:<latex>{\small \mathsf{\epsilon_0=\frac{c_1}{\lambda^5 (e^{c_2 / \lambda T}-1)}}}</latex>;
+@enduml

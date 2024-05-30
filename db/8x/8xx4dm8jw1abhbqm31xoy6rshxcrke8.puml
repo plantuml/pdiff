@@ -1,0 +1,20 @@
+{
+  "sha1": "8xx4dm8jw1abhbqm31xoy6rshxcrke8",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.550Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+component "My Component" as MyComponent {
+!$MyComponent_at_ITEM = "MyComponent" 
+!$MyComponent_at_ITEM_MR = $MyComponent_at_ITEM
+}
+
+
+component "UI" as UI{
+}
+
+$MyComponent_at_ITEM_MR -- UI: Item
+@enduml

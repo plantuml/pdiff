@@ -1,0 +1,45 @@
+{
+  "sha1": "91k41q8cwi8ezyxtjw0r5rrp6qakjv5",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.582Z",
+    "url": "https://forum.plantuml.net/13288/the-ability-to-customise-the-highlight-for-json-yaml?show=13348#c13348",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startyaml
+<style>
+yamlDiagram {
+  node {
+    BackGroundColor black
+    LineColor lightblue
+    FontName Helvetica
+    FontColor #CCFF02
+    FontSize 18
+    FontStyle bold
+    RoundCorner 0
+    LineThickness 2
+    LineStyle 10-5
+    separator {
+      LineThickness 0.5
+      LineColor black
+      LineStyle 1-5
+    }
+    highlight {
+	  BackGroundColor red
+	  FontColor white
+      FontStyle italic
+    }
+  }
+  arrow {
+    BackGroundColor lightblue
+    LineColor green
+    LineThickness 2
+    LineStyle 2-5
+  }
+}
+</style>
+#highlight "fruit"
+fruit: Apple
+size: Large
+color: Red
+@endyaml

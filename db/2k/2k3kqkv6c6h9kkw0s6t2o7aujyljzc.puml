@@ -1,0 +1,18 @@
+{
+  "sha1": "2k3kqkv6c6h9kkw0s6t2o7aujyljzc",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.030Z",
+    "url": "https://forum.plantuml.net/14996/style-tag-breaks-rendering-in-deployment-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+</style>
+
+rectangle r3 as RThree #line.dotted {
+rectangle r1
+rectangle r2
+}
+r1 --r2
+@enduml

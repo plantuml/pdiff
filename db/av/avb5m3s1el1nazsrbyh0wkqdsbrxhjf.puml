@@ -1,0 +1,15 @@
+{
+  "sha1": "avb5m3s1el1nazsrbyh0wkqdsbrxhjf",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.966Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component bar #text:yellow;line:green;back:lightblue
+actor bar2 #77F;text:red;line:777
+
+bar --> bar2 #red;text:blue : example
+
+
+@enduml

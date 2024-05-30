@@ -1,0 +1,12 @@
+{
+  "sha1": "2zd5uhsud4n6zookodhe6di0d31nfj7",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.138Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+node "Office" {
+  [Dummy with a very long text] as Dummy
+}
+@enduml

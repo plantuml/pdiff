@@ -1,0 +1,13 @@
+{
+  "sha1": "4a2uhq4zts2zchzlwhnutmdq98jj4vv",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.458Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob : Aok
+'this is a comment
+Bob -> Alice : Aok2
+'Bob -> Alice : ok2
+@enduml

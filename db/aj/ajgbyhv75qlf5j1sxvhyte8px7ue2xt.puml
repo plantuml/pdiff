@@ -1,0 +1,13 @@
+{
+  "sha1": "ajgbyhv75qlf5j1sxvhyte8px7ue2xt",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.886Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A -- B : "a" is "b"
+Class01 *-- Class02 : "sourcerolename" contains
+Class03 *-- Class04 : contains "foo"
+Class05 *-- Class06 : "some label"
+@enduml

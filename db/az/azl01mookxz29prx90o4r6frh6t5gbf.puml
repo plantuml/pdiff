@@ -1,0 +1,12 @@
+{
+  "sha1": "azl01mookxz29prx90o4r6frh6t5gbf",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.986Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> State1
+note on link : this is a note
+
+@enduml 

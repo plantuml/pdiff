@@ -1,0 +1,20 @@
+{
+  "sha1": "9by2ty741g114mt17cn1wvbuscxtte6",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.650Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam componentStyle uml2
+!pragma horizontalLineBetweenDifferentPackageAllowed
+package "Source Systems" as P_SourceSystems {
+  component "**SS-000-C01**\nProduct\nSystems" as SSProductSystems 
+  component "**SS-000-C02**\nNon-Product\nSystems" as SSNonProductSystems 
+}
+package "QRM (GA-005)\n<$qrm>" as P_QRM {
+  component "**GA-005-C01**\nCustomoer Accounts\nBalances with\n{Mapped Oracle COA}" as QRMCustAccts 
+  folder "**GA-005-C02**\nTP and\nPremiums Rates\n{Products Level}" as QRMTPRates
+}
+P_SourceSystems -[#Blue]r-> P_QRM 
+@enduml

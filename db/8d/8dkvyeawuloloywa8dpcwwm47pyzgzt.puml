@@ -1,0 +1,26 @@
+{
+  "sha1": "8dkvyeawuloloywa8dpcwwm47pyzgzt",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.398Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autonumber 1-1:1
+Alice -> Bob: Authentication request
+Bob --> Alice: Response
+
+autonumber inc B
+Dave -> Foobar: Test
+Foobar --> Dave: Another test
+
+autonumber inc A
+Dave -> Foobar: Test
+Foobar --> Dave: Another test
+
+autonumber inc B
+Dave -> Foobar: Test
+Foobar --> Dave: Another test
+
+
+@enduml

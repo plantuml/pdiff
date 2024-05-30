@@ -1,0 +1,39 @@
+{
+  "sha1": "bp3ijxw0i9qy2tueu5lako4l7iyomd4",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.134Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Title Bug Adding constraint with version 1.2021.3
+
+scale 5 as 80 pixels
+
+robust "To Demonstrate Bug" as ToDemonstrateBug
+concise "Bad" as Bad
+concise "Correct" as Correct
+
+Bad is Off
+ToDemonstrateBug is Off
+Correct is Off
+
+@0 as :Start
+@5 as :Dummy
+@9 as :Off_Start
+@10 as :Off
+
+@:Off_Start
+
+@:Off
+ToDemonstrateBug is On
+'No problem if we remove next line
+ToDemonstrateBug@:Dummy <-> @:Off : {dummy }
+
+'Workaround add @:Off again to solve
+'@:Off
+Bad is On
+
+@:Off
+Correct is On
+@enduml

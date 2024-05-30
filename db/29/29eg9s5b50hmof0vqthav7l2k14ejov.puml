@@ -1,0 +1,21 @@
+{
+  "sha1": "29eg9s5b50hmof0vqthav7l2k14ejov",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.938Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|ebee-safe|
+:Foo0;
+if (formulaire a signer ?) then (oui)
+|ebee-vdq-form|
+:Signature du fichier ;
+|ebee-vdq-form|
+|ebee-ws|
+:Foo1;
+|ebee-safe|
+:Foo2;
+Else (non)
+Endif
+@enduml

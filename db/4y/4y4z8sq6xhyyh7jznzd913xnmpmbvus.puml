@@ -1,0 +1,44 @@
+{
+  "sha1": "4y4z8sq6xhyyh7jznzd913xnmpmbvus",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.610Z",
+    "url": "https://forum.plantuml.net/16588/style-allow-all-style-for-mainframe",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+mainframe {
+  BackGroundColor aliceblue
+  LineColor blue
+  LineThickness 2.0
+  LineStyle 2
+  FontColor blue
+  FontSize 15
+  FontStyle italic
+  Margin 50
+  Padding 100
+}
+legend {
+  BackGroundColor #b
+  LineColor red
+  Padding 30
+}
+</style>
+mainframe This is a **mainframe**
+
+participant alpha
+participant beta
+
+alpha -> beta: a1
+beta <- alpha: a2
+group group
+beta -> alpha: b1
+alpha <- beta: b2
+end
+
+legend
+this is
+the legend
+end legend
+@enduml

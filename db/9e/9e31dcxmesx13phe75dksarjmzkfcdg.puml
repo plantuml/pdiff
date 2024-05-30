@@ -1,0 +1,27 @@
+{
+  "sha1": "9e31dcxmesx13phe75dksarjmzkfcdg",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.666Z",
+    "url": "https://forum.plantuml.net/13000/style-style-management-global-deployment-diagram-mindmap",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+node "a"
+node "b\na b c"
+<style>
+node {
+  FontColor green
+  HorizontalAlignment right
+  LineColor blue
+}
+</style>
+node "c\na b c"
+<style>
+node {
+  FontColor red
+  LineColor red
+}
+</style>
+node "d\na b c"
+@enduml

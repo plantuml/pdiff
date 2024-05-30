@@ -1,0 +1,47 @@
+{
+  "sha1": "9sxqtvf71cmbsh2c93tl2ekxehdr96o",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.766Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1442",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Engine Test
+card G [{{
+title With GraphViz
+component c1 {
+    component comp12 {
+        component comp123 {
+            component comp1234 {
+	        }
+        }
+    }
+}
+}}]
+card S [{{
+!pragma layout smetana
+title With Smetana
+component c1 {
+    component comp12 {
+        component comp123 {
+            component comp1234 {
+	        }
+        }
+    }
+}
+}}]
+card E [{{
+!pragma layout elk
+title With ELK
+component c1 {
+    component comp12 {
+        component comp123 {
+            component comp1234 {
+	        }
+        }
+    }
+}
+}}]
+
+@enduml

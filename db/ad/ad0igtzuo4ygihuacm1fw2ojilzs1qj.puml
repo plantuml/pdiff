@@ -1,0 +1,31 @@
+{
+  "sha1": "ad0igtzuo4ygihuacm1fw2ojilzs1qj",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.858Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout elk
+class foo1
+class foo2 as "This class\nhas a \nvery long name for test" {
+dummy1
+dummy2
+dummy3
+}
+
+class foo3
+
+class foo4 {
+dummy4
+}
+
+foo1 --> foo2
+foo1 --> foo3
+foo1 --> foo4
+
+foo2 --> red
+foo4 --> red
+foo4 --> blue
+
+@enduml

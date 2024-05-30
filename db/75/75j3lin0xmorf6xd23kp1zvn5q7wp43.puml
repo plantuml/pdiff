@@ -1,0 +1,16 @@
+{
+  "sha1": "75j3lin0xmorf6xd23kp1zvn5q7wp43",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.122Z",
+    "url": "https://forum.plantuml.net/14339/pragma-teoz-true-ignores-border-color-participant-activation",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!pragma teoz true
+
+activate Bob #White #Black
+Bob -> Bob
+
+@enduml

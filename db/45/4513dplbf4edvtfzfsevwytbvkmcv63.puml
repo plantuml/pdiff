@@ -1,0 +1,18 @@
+{
+  "sha1": "4513dplbf4edvtfzfsevwytbvkmcv63",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.426Z",
+    "url": "https://forum.plantuml.net/13042/yaml-sequence-of-mappings-doesnt-work-at-top-level?show=13042#q13042",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startyaml
+  -
+    name: Mark McGwire
+    hr:   65
+    avg:  0.278
+  -
+    name: Sammy Sosa
+    hr:   63
+    avg:  0.288
+@endyaml

@@ -1,0 +1,12 @@
+{
+  "sha1": "94iqurfuvqhabr4xx04bjs6yglrmxv2",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.602Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+toto1 *-- toto2
+interface toto1 {
+}
+@enduml

@@ -1,0 +1,26 @@
+{
+  "sha1": "asfjbgt40k690hnzhgtf57c48ug9z9l",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.946Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+
+<style>
+arrow {
+    FontColor red
+    LineColor blue
+}
+</style>
+
+participant Alice
+
+participant Bob
+Alice -> Bob : hello1
+
+Alice -> Bob : hello2
+
+@enduml

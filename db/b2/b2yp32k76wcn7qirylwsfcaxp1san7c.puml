@@ -1,0 +1,12 @@
+{
+  "sha1": "b2yp32k76wcn7qirylwsfcaxp1san7c",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.998Z",
+    "url": "https://forum.plantuml.net/16781/allow-special-sequence-management-special-sequence-symbol",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+h-tab = ?Unicode U+0009? , "Foo";
+empty-special = ??, "";
+@endebnf

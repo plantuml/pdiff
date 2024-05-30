@@ -1,0 +1,14 @@
+{
+  "sha1": "4nuje85e1qaole7ycv2wvtfl5izcmc8",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.522Z",
+    "url": "http://forum.plantuml.net/7286/empty-title-results-in-java-lang-illegalargumentexception",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title
+
+end title
+rectangle "File" as file
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "a3xlto1vltnetaxv78dbnq2lqhriljf",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.818Z",
+    "url": "https://forum.plantuml.net/16529/could-we-add-syntax-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+letter = "A" | "B" | "C";
+character = letter | digit | symbol | "_" ;
+@endebnf

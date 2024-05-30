@@ -1,0 +1,19 @@
+{
+  "sha1": "9pbdctit6v8ac530dtibowd4x8jy0qu",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.738Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package "test" {
+    package "toto" {
+        [Component-1.0]
+    }
+}
+package "test2" {
+    package "toto2" {
+        [Component-2-0]
+    }
+}
+@enduml

@@ -1,0 +1,23 @@
+{
+  "sha1": "4nrkxoo4c96q675nigqu7t4pbpuusil",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.522Z",
+    "url": "http://forum.plantuml.net/6651/order-of-states-in-timing-diagram?show=7625",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Flow rate" as rate
+rate has high
+rate has low
+rate has none
+
+@0
+rate is high
+
+@5
+rate is none
+
+@6
+rate is low
+@enduml

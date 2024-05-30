@@ -1,0 +1,19 @@
+{
+  "sha1": "2n8eyk7tugb2cvxiu06ysv16qcn76u9",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.054Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ 
+skinparam class {
+    AttributeFontSize 16
+    AttributeFontName Courier
+}
+ 
+class FontSizeIssue {
+    int     attribute1
+    float   <color:blue>attribute2</color>
+}
+@enduml

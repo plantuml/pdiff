@@ -1,0 +1,18 @@
+{
+  "sha1": "ap9pgllxcea1ex5c4qs2mfm9kyzeyla",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.922Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Test fur Anwendungsfalle
+usecase (irgendwas) as uc1
+usecase (Noch etwas) as uc2
+actor Tester
+Tester --> uc1
+newpage
+actor Tester
+usecase (Noch etwas) as uc2
+Tester --> uc2
+@enduml

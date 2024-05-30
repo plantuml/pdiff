@@ -1,0 +1,22 @@
+{
+  "sha1": "7jyr0nlrgpe7r21360nmg3hrsml6gle",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.226Z",
+    "url": "https://forum.plantuml.net/9178/empty-packages-do-not-respect-skinparams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam package {
+  FontColor green
+  FontSize 60
+  BorderStyle dashed
+}
+
+package pack1
+package pack2 {
+   rectangle myBox
+}
+
+pack1 --> pack2
+@enduml

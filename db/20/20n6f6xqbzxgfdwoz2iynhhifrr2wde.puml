@@ -1,0 +1,176 @@
+{
+  "sha1": "20n6f6xqbzxgfdwoz2iynhhifrr2wde",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.870Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Some_Title_Here
+start
+
+if ( #####)
+	:**EVENT1**}
+	#lightblue: #####|
+	-[#blue]-> callback received;
+	if ( #####) then ( #####)
+		: #####;
+	else ( #####)
+		: #####;
+		if ( #####) then ( #####)
+			: #####;
+			if ( #####) then ( #####)
+				#lightblue: #####|
+				-[#blue]-> callback received;
+				if ( #####) then ( #####)
+					stop
+				else ( #####)
+					: #####;
+				endif
+			else ( #####)
+			endif
+			: #####;
+			if ( #####) then ( #####)
+				if ( #####) then ( #####)
+
+					repeat
+						if ( #####) then ( #####)
+							: ##### = +1;
+							: #####|
+							: #####;
+						else ( #####)
+							#lightpink: #####]
+							stop
+						endif
+					repeat while ( #####?) 
+					->_#####;
+
+					if ( #####) then ( #####)
+						: #####;
+					else ( #####)
+					endif
+					: #####;
+					if ( #####) then ( #####)
+						: #####;
+						#lightblue: #####|
+						-[#blue]-> callback received;
+						if ( #####) then ( #####)
+							: #####;
+							if ( #####) then ( #####)
+								: #####;
+							else ( #####)
+							endif
+						else ( #####)
+						endif
+					else ( #####)
+						if ( #####) then ( #####)
+						else ( #####)
+							if ( #####) then ( #####)
+								#lightblue: #####|
+								-[#blue]-> callback received;
+								if ( #####) then ( #####)
+								else ( #####)
+									if ( #####) then ( #####)
+										#lightblue: #####|
+										-[#blue]-> callback received;
+										#lightblue: #####|
+										-[#blue]-> callback received;
+										if ( #####) then ( #####)
+											#lightpink: #####]
+											stop
+										else ( #####)
+										endif
+									else ( #####)
+										#lightpink: #####]
+										stop
+									endif
+								endif
+								: #####;
+							else ( #####)
+								if ( #####) then ( #####)
+								else ( #####)
+									#lightblue: #####|
+									-[#blue]-> callback received;
+									if ( #####) then ( #####)
+										#lightpink: #####]
+										stop
+									else ( #####)
+										: #####;
+										: #####;
+										: #####;
+										#lightgreen: #####]
+										stop
+									endif
+								endif
+							endif
+						endif
+					endif
+				else ( #####)
+				endif
+			else ( #####)
+				end
+			endif
+		else ( #####)
+			stop
+		endif
+	endif
+	#lightgreen: #####]
+	stop
+else
+	:**EVENT2**}
+	#lightblue: #####|
+	-[#blue]-> callback received;
+	: #####;
+	#lightblue: #####|
+	-[#blue]-> callback received;
+	if ( #####) then ( #####)
+		#lightpink: #####]
+		stop
+	endif
+
+	if ( #####) then ( #####)
+		if ( #####) then ( #####)
+			#lightblue: #####|
+			-[#blue]-> callback received;
+			if ( #####) then ( #####)
+				#lightpink: #####]
+				stop
+			else ( #####)
+				: #####;
+			endif
+		else ( #####)
+			#lightpink: #####]
+			stop
+		endif
+	else ( #####)
+		if ( #####) then ( #####)
+			: #####;
+			if ( #####) then ( #####)
+				#lightpink: #####]
+				stop
+			else ( #####)
+			endif
+		else ( #####)
+			: #####;
+			if ( #####) then ( #####)
+				#lightpink: #####]
+				stop
+			else ( #####)
+				: #####;
+			endif
+		endif
+	endif
+	: #####;
+	#lightblue: #####|
+	-[#blue]-> callback received;
+	if ( #####) then ( #####)
+		#lightpink: #####]
+		stop
+	else ( #####)
+	endif
+	: #####;
+	#lightgreen: #####]
+	stop
+endif
+
+@enduml

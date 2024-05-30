@@ -1,0 +1,13 @@
+{
+  "sha1": "2baho9husqhk2sbrp3cggzxglnmv3rp",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.950Z",
+    "url": "https://forum.plantuml.net/16694/ebnf-add-notes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+digit1 = ["this is a 0" (*b*), "1"];
+
+
+@endebnf

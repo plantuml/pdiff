@@ -1,0 +1,25 @@
+{
+  "sha1": "4ooclu36bwkxpxuzh1tgai7ybbyuigv",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.534Z",
+    "url": "https://forum.plantuml.net/14529/activity-style-allow-style-diamond-internal-label-external",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+activityDiagram {
+  MaximumWidth 100
+  diamond {
+    FontColor red
+    MaximumWidth 100
+  }
+}
+</style>
+if (Long long long long long long long long long condition?) then (Long long long long long long long long long yes)
+  :Action yes;
+else (Long long long long long long long long long no)
+  :Action no;
+endif
+
+@enduml

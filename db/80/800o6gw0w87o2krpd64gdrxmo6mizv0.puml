@@ -1,0 +1,27 @@
+{
+  "sha1": "800o6gw0w87o2krpd64gdrxmo6mizv0",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.314Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1335",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Class title should be size 14 and bold, attributes and methods should be size 18 and italic.
+<style>
+class {
+  FontStyle italic
+  FontSize 18
+  header {
+    FontStyle bold
+    FontSize 14
+  }
+}
+</style>
+
+class Class {
+    -attr1
+    --
+    +method1()
+}
+@enduml

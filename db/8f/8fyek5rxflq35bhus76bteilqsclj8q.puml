@@ -1,0 +1,22 @@
+{
+  "sha1": "8fyek5rxflq35bhus76bteilqsclj8q",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.414Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Signal1" as S1
+robust "Signal2" as S2
+S1 has 0,1,2,hello
+S2 has 0,1
+@0
+S1 is 0
+S2 is 0
+@100
+S1 is {0,1} #SlateGrey
+S2 is {0,1}
+@200
+S1 is 1
+S2 is 0
+@enduml

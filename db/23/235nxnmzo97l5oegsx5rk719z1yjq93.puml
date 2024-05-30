@@ -1,0 +1,15 @@
+{
+  "sha1": "235nxnmzo97l5oegsx5rk719z1yjq93",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.890Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam PackageBorderColor red
+skinparam FrameBorderColor blue
+frame "First frame" {
+    [test]
+}
+frame "Second frame"
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "70ii770qyxjurcfx86vsvja2yk0uypp",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.094Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+title foo
+skinparam backgroundColor transparent
+Bob -> Alice : hello
+@enduml

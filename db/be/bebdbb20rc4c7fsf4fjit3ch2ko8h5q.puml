@@ -1,0 +1,41 @@
+{
+  "sha1": "bebdbb20rc4c7fsf4fjit3ch2ko8h5q",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.074Z",
+    "url": "https://github.com/plantuml/plantuml/issues/202",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+|A|
+
+
+split
+    :something;
+split again
+    :Removing this line will stop the crash!!!;
+    
+    |B|
+    
+    :a;
+    repeat
+        
+        if(?) then (yes)
+            split
+                while (4 successful scans are not done?)
+                    :a;
+                    if(scanned successfully?) then (yes)
+                        :a;
+                    else
+                        :a;
+                    endif
+                endwhile
+            split again
+                :a;
+            end split
+        endif
+    repeat while(there is not enough fingers enrolled?)
+end split
+
+@enduml

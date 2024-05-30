@@ -1,0 +1,19 @@
+{
+  "sha1": "3dvqqv45qh7eilzph1iuseg5ds9siz4",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.238Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+partition CondCompile {
+if () then (SC_MSG_HOOK == 1\n&&SC_MSGRX_HOOK == 1)
+  if () then (msgRxHook set )
+    :call rxHook;
+  endif
+endif
+}
+:return (sc_msg_t )&mh->id;
+stop
+@enduml

@@ -1,0 +1,21 @@
+{
+  "sha1": "7pad7gzjbdxlhtj9r5kuy28wniqoutr",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.250Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor Lead as "Vedouci"
+actor Analyst as "Uzivatel DWH"
+actor AP as "Aplikacn podpora"
+component DWH
+component UCM as "UMC NG"
+package out as "mimo hru" {
+  actor ET as "ET specialista"
+  component mIDM as "Mal IDM"
+  component IDM as "HIG IDM"
+  component OmniTracker
+}
+component PRVA as "Rozbit prva"
+@enduml */

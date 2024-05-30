@@ -1,0 +1,29 @@
+{
+  "sha1": "9nah905arjkuqexzvxheevvwxzn7rtx",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.726Z",
+    "url": "https://forum.plantuml.net/13387/unsupportedoperationexception-sourceforge-plantuml-ugraphic",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+ [X] checkbox|[] checkbox
+ () radio | (X) radio
+ This is a text|[This is my button]|This is another text
+ "A field"|"Another long Field"|[A button]
+ <<folder
+ ............
+ .XXXXX......
+ .X...X......
+ .XXXXXXXXXX.
+ .X........X.
+ .X........X.
+ .X........X.
+ .X........X.
+ .XXXXXXXXXX.
+ ............
+ >>|<color:blue>other folder|<<folder>>
+^Droplist^
+}
+@endsalt

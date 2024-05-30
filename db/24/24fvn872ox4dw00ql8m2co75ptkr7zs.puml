@@ -1,0 +1,11 @@
+{
+  "sha1": "24fvn872ox4dw00ql8m2co75ptkr7zs",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.898Z",
+    "url": "https://forum.plantuml.net/12953/how-to-convert-curly-brackets-to-tikz",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A -> B: {curly}
+@enduml

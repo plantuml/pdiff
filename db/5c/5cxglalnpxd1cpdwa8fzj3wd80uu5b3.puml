@@ -1,0 +1,19 @@
+{
+  "sha1": "5cxglalnpxd1cpdwa8fzj3wd80uu5b3",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.710Z",
+    "url": "https://forum.plantuml.net/14145/plantuml-draw-odd-line?show=15972#c15972",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant A
+participant B
+
+A ->(1) B: text 1
+A ->(5) B: text 5
+A ->(10) B: text 10
+A ->(40) B: text 40
+
+A -> B
+@enduml

@@ -1,0 +1,21 @@
+{
+  "sha1": "5g0kc1hf8kel3ncxzjfdsabbafetywr",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.734Z",
+    "url": "https://forum.plantuml.net/14019/deployment-diagram-add-note-to-nested-element",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+artifact artifact {
+  card card {
+    label label [
+      {{
+        cloud cloud 
+        note right: cloud's note
+      }}
+    ]
+  }
+}
+note right: card's note
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "5htrfs0endmaszpk7jrkwo6dvs4tbvq",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.742Z",
+    "url": "https://forum.plantuml.net/15879",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+rectangle {
+    shadowing 4
+}
+</style>
+
+rectangle "Web Application" as web_app
+@enduml

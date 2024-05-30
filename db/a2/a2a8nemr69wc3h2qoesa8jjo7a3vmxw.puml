@@ -1,0 +1,23 @@
+{
+  "sha1": "a2a8nemr69wc3h2qoesa8jjo7a3vmxw",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.810Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> State1 : hello
+note on link
+  this is a note
+  on several
+  lines
+end note
+
+State1 --> State2 : hello2
+note top on link
+  this is a note
+  on several
+  lines
+end note
+
+@enduml

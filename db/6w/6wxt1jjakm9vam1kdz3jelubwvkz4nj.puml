@@ -1,0 +1,11 @@
+{
+  "sha1": "6wxt1jjakm9vam1kdz3jelubwvkz4nj",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.066Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcute
+rectangle dimension=100,100 position=111,0
+triangle points=(100,0)~10~(100,50):(0,50) color=lightblue
+@endcute

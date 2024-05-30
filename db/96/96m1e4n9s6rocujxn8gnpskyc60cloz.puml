@@ -1,0 +1,15 @@
+{
+  "sha1": "96m1e4n9s6rocujxn8gnpskyc60cloz",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.622Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1309#issuecomment-1459021728",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "hello" as a.hello
+
+rectangle "world" as a.world
+
+a.hello -> a.world
+@enduml

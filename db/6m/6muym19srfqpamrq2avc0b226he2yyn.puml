@@ -1,0 +1,30 @@
+{
+  "sha1": "6muym19srfqpamrq2avc0b226he2yyn",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.982Z",
+    "url": "http://forum.plantuml.net/8706/improved-legend-support?show=9196#c9196",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class foo1
+package pack1 <<st>> {
+legend
+  This is the legend for the package1
+  on several lines
+end legend
+class foo2
+}
+
+rectangle pack2 <<ddd>> {
+legend
+   This is the legend for the package2
+end legend
+class foo3
+}
+
+legend
+  This is the legend for the diagram
+  on several lines
+end legend
+@enduml

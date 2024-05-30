@@ -1,0 +1,32 @@
+{
+  "sha1": "6pgf1lhm8qqiv2waota0x4o4jrivgrq",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.002Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+clock clk with period 50
+binary "Signal3" as S3
+concise "Signal1" as S1
+robust "Signal2" as S2
+
+@clk*0
+S1 is 0
+S2 is 0
+
+@clk*1
+S1 is 1
+S3 is high
+
+@clk*2
+S3 is down
+
+@clk*3
+S1 is 1
+S2 is 1
+S3 is 1
+
+@clk*4
+S3 is down
+@enduml

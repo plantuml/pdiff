@@ -1,0 +1,15 @@
+{
+  "sha1": "3e8mhqv3cph1ff7hfsvfbcwhs57ro1j",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.242Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout elk
+class foo1
+class foo2
+
+foo1 -> foo2
+
+@enduml

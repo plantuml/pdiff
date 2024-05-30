@@ -1,0 +1,23 @@
+{
+  "sha1": "9gln1ai5v3797bz94ufrsu98edzre8l",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.686Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+split
+:CONTINUE;<<input>>
+
+split again
+:ABORT;<<input>>
+if (x) then (doit)
+:doA;<<output>>
+else
+:doB;<<output>>
+endif
+detach
+
+end split
+stop
+@enduml

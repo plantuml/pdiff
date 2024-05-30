@@ -1,0 +1,15 @@
+{
+  "sha1": "77m7vunempnkg8fllk5jr6z46ishi21",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.138Z",
+    "url": "https://forum.plantuml.net/12884/destroy-not-displayed-with-teoz",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Bob -> Alice : hello tested with v 1.2021.01beta 3
+destroy Alice
+Alice -> Alice: Hello actual
+destroy Alice
+@enduml

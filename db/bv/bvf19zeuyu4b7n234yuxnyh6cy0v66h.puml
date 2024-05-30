@@ -1,0 +1,17 @@
+{
+  "sha1": "bvf19zeuyu4b7n234yuxnyh6cy0v66h",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.166Z",
+    "url": "https://forum.plantuml.net/16397/add-qualified-associations-to-class-diagrams?show=16642#c16642",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+class class1
+class class2
+
+class0 --- class1
+
+class1 [Qualifier] *-- class2
+@enduml

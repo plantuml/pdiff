@@ -1,0 +1,14 @@
+{
+  "sha1": "81hc14brfqxqak2qa0cnqafbkjswtv2",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.326Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!TRICKPLAY_ON_AD = "<color:red>TRICKPLAY_ON_AD</color>"
+
+frame "Flow Details\nTRICKPLAY_ON_AD" as FlowDetails_TP_ON_AD #white {
+
+}
+@enduml

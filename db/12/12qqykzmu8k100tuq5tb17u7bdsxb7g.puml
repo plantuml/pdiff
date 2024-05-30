@@ -1,0 +1,17 @@
+{
+  "sha1": "12qqykzmu8k100tuq5tb17u7bdsxb7g",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.550Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|S1|
+:A1;
+|S2|
+:A2;
+partition P1 {
+}
+
+stop
+@enduml

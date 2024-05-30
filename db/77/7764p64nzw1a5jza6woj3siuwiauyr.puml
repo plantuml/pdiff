@@ -1,0 +1,21 @@
+{
+  "sha1": "7764p64nzw1a5jza6woj3siuwiauyr",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.134Z",
+    "url": "https://forum.plantuml.net/13888/preprocessing-expose-builtin-functions-reverse-function",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+!$title_color = "#cyan"
+title {
+  BackGroundColor $title_color
+  FontColor %reverse_color($title_color)
+}
+</style>
+title
+this is a title
+endtitle
+alice->bob
+@enduml

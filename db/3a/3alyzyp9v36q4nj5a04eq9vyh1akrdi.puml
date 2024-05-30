@@ -1,0 +1,30 @@
+{
+  "sha1": "3alyzyp9v36q4nj5a04eq9vyh1akrdi",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.218Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Title this is my title
+Dummy -> Alice : foo1
+ref over Alice, Dummy
+  [[http://www.google.com]]
+  Foo2
+  Another line
+end
+
+alt
+  Alice -> Bob : hello
+  Bob -> Other : hello
+
+  ref over Alice, Bob : [[http://www.google.com]] this is a reference over Alice and Bob
+
+  Other --> Alice : ok
+end
+
+ref over Alice, Other, Bob : this is a reference over Alice and Other
+
+Other --> Alice : ok again
+
+@enduml

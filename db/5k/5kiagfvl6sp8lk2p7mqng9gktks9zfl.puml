@@ -1,0 +1,19 @@
+{
+  "sha1": "5kiagfvl6sp8lk2p7mqng9gktks9zfl",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.762Z",
+    "url": "http://forum.plantuml.net/8242/set-background-color-of-latex-math-entries",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam monochrome true
+:<math>int_0^1f(x)dx</math>;
+:<math>x^2+y_1+z_12^34</math>;
+note right
+Essayer aussi:
+<math>d/dxf(x)=lim_(h->0)(f(x+h)-f(x))/h</math>
+<latex>P(y|\mathbf{x}) \mbox{ ou } f(\mathbf{x})+\epsilon</latex>
+end note
+
+@enduml

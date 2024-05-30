@@ -1,0 +1,12 @@
+{
+  "sha1": "bl7bf41zvqthdmwnqeb8togqptbvucv",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.114Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define module(x) component x <<module>>
+module(ABC)
+module(XYZ)
+@enduml

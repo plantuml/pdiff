@@ -1,0 +1,29 @@
+{
+  "sha1": "4t40yn887vtgoru3sefpjr8lm8ta3c8",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.566Z",
+    "url": "https://forum.plantuml.net/15839/stereotype-skinparam-with-spaces-the-name-working-anymore",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+rectangle {
+	.backend container {
+    	BackgroundColor #335DA5
+    }
+}
+
+rectangle {
+	.backend_container {
+    	BackgroundColor #335DA5
+    }
+}
+
+</style>
+
+rectangle "Backend with space in stereotype name" <<backend container>> as c1
+
+rectangle "Backend_with_underscore_in_stereotype_name" <<backend_container>> as c2
+
+@enduml

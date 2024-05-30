@@ -1,0 +1,14 @@
+{
+  "sha1": "5usfk8pwrvgiiwkteup7ni03mqz1avk",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.810Z",
+    "url": "https://forum.plantuml.net/15621/wrong-colors-in-generated-eps-file",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A-->B:foo()
+loop
+A-->B: boo()
+end
+@enduml

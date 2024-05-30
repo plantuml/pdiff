@@ -1,0 +1,13 @@
+{
+  "sha1": "3gh0kezhsk17xyrn2r1sf41u609nyow",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.262Z",
+    "url": "https://forum.plantuml.net/17150/namespace-with-slashes-in-the-name",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace  a.b.c {
+   class "Object" as js.Object
+}
+@enduml

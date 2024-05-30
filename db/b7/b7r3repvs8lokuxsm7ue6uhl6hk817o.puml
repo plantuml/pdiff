@@ -1,0 +1,16 @@
+{
+  "sha1": "b7r3repvs8lokuxsm7ue6uhl6hk817o",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.034Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Car [[http://plantuml.com]]
+class Wheel
+note left [[http://plantuml.com]]
+foo
+end note
+
+Car *-- Wheel [[http://plantuml.com]] : has some
+@enduml

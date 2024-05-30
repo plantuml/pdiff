@@ -1,0 +1,11 @@
+{
+  "sha1": "8p20of22nmoj5gf0nreetuhktciww51",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.482Z",
+    "url": "https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+overlapping = [[ '+'|'-' ], {int}-];
+@endebnf

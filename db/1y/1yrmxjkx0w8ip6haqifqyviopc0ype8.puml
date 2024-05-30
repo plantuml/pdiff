@@ -1,0 +1,15 @@
+{
+  "sha1": "1yrmxjkx0w8ip6haqifqyviopc0ype8",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.850Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[tyty]
+package p1 {
+}
+package p2 {
+}
+p1 --> p2
+@enduml

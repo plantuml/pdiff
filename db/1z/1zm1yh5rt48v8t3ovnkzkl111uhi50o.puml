@@ -1,0 +1,16 @@
+{
+  "sha1": "1zm1yh5rt48v8t3ovnkzkl111uhi50o",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.866Z",
+    "url": "https://github.com/plantuml/plantuml/issues/156",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ResponseMessageBelowArrow true
+
+A -> B : Request
+activate B
+A <- B : Response
+deactivate B
+@enduml

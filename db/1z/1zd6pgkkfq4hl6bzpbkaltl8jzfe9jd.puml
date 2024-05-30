@@ -1,0 +1,17 @@
+{
+  "sha1": "1zd6pgkkfq4hl6bzpbkaltl8jzfe9jd",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.858Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!define SHOW_TYPE(x) my-x
+class ArrayList
+!ifdef SHOW_TYPE
+ArrayList : SHOW_TYPE(my_type) size()
+!else
+ArrayList : SHOW_TYPE not set size()
+!endif
+@enduml

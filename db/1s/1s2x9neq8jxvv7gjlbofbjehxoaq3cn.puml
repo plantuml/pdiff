@@ -1,0 +1,17 @@
+{
+  "sha1": "1s2x9neq8jxvv7gjlbofbjehxoaq3cn",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.774Z",
+    "url": "https://forum.plantuml.net/11803/improve-shape-of-node-element-deployement-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 10
+<style>
+root {
+LineThickness .5
+}
+</style>
+node n
+@enduml

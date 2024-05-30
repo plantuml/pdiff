@@ -1,0 +1,15 @@
+{
+  "sha1": "b6aw4k2shjwozhwvh3y8o4mguhnvxom",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.026Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam activityBackgroundColor #FFFF00
+skinparam activityFontColor red
+skinparam activityFontSize 8
+(*) --> "Activity 1"
+--> "this is long
+on 2 lines"
+@enduml

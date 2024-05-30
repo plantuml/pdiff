@@ -1,0 +1,12 @@
+{
+  "sha1": "48ryc04zyer81grthlb24gjuytlkldp",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.450Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <foo/examplenotexists.puml>
+
+Alice -> Bob
+@enduml

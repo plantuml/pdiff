@@ -1,0 +1,17 @@
+{
+  "sha1": "ac2agzloh3p84ziqpfc8qesqrfen85b",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.850Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+block Hello
+block World1
+block World2
+block World3
+Hello []--[] World1
+Hello []--[] World2
+Hello *)-- World3
+Hello --(* World4
+@enduml

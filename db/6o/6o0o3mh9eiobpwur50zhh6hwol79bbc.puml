@@ -1,0 +1,35 @@
+{
+  "sha1": "6o0o3mh9eiobpwur50zhh6hwol79bbc",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.994Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam usecaseBackgroundColor DarkSeaGreen
+skinparam usecaseArrowColor Olive
+skinparam actorBorderColor black
+skinparam usecaseBorderColor DarkSlateGray
+skinparam actorFontName Courier
+
+User << Human >>
+(Database)
+(Solr)
+(Celery)
+(Redis)
+(Python Eventlet) as (Eventlet)
+(Application) as (App)
+(Haystack) as (Hay)
+
+
+User .. (App) : HTTP
+(App) - Database : Presumably Cached
+(Database) -> (Solr) : Message Dump
+(Hay) - (Solr)
+(App) .. (Hay) : Search
+User ..> (Eventlet) : jQuery Long Polling
+(Eventlet) - (Redis) : PubSubHubHub
+(App) ..> (Redis) : Add Celery Task
+(Celery) -> (Redis) : Update stats/PubSHH info
+(Redis) -> (Celery)
+@enduml

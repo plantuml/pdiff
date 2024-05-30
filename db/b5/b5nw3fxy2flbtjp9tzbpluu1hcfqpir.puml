@@ -1,0 +1,14 @@
+{
+  "sha1": "b5nw3fxy2flbtjp9tzbpluu1hcfqpir",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.018Z",
+    "url": "https://github.com/plantuml/plantuml/issues/491",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ConditionStyle InsideDiamond
+while (test)
+    break
+endwhile
+@enduml

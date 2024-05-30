@@ -1,0 +1,25 @@
+{
+  "sha1": "8m45hnjj95hhij5f1wkyzgkx0nt3f00",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.458Z",
+    "url": "http://forum.plantuml.net/6438/teoz-doesnt-work-in-a-group-or-alt",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+a -> b: 1
+& b -> c: 2
+group test
+note over a: a
+/ note over b: b
+a o-> b: 3
+& b o-> c: 4
+end
+a -> b
+& b -> c
+
+a -> b
+& b -> c: last
+@enduml

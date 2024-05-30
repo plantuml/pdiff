@@ -1,0 +1,18 @@
+{
+  "sha1": "1sxih0531zkhho7yj4j50vmm4r3ew95",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.782Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam mode dark
+start
+repeat 
+	if (option1) then (yes)
+		stop
+	elseif (option2) then (yes)
+		:do something;
+	endif
+repeat while
+@enduml

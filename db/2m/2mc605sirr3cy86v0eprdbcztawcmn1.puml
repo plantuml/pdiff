@@ -1,0 +1,14 @@
+{
+  "sha1": "2mc605sirr3cy86v0eprdbcztawcmn1",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.046Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A $a
+class Z $z
+
+hide *
+show $z
+@enduml

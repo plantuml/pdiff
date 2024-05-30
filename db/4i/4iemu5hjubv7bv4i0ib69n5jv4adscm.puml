@@ -1,0 +1,14 @@
+{
+  "sha1": "4iemu5hjubv7bv4i0ib69n5jv4adscm",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.498Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam hyperlinkUnderline false
+skinparam svgLinkTarget foo
+start
+:foo1 [[http://www.google.com]] end;
+stop
+@enduml

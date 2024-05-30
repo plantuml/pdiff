@@ -1,0 +1,19 @@
+{
+  "sha1": "8vhj1byb9075pkimrc8d6rki5tfuf82",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.530Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwire
+*DDR3L [70x70]
+
+--
+
+*i_MX7_SoC [270x570]
+	*2x_ARM [70x70]
+	--
+	*signals
+		*24_bit_display [85x20]
+
+@endwire

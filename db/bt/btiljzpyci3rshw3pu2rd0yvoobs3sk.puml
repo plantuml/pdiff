@@ -1,0 +1,23 @@
+{
+  "sha1": "btiljzpyci3rshw3pu2rd0yvoobs3sk",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.154Z",
+    "url": "https://forum.plantuml.net/14092/broken-diagram-with-nested-rectangles-and-remove-%40unlinked?show=14094#c14094",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "==Outer 1" as o1 {
+[void]
+remove void
+rectangle "==Outer 2" as o2 {
+rectangle "==Inner" as inner
+}
+}
+
+rectangle "a" as a
+rectangle "b" as b
+a -> b
+
+remove @unlinked
+@enduml

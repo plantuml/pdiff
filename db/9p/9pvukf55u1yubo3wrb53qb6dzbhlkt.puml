@@ -1,0 +1,24 @@
+{
+  "sha1": "9pvukf55u1yubo3wrb53qb6dzbhlkt",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.742Z",
+    "url": "http://forum.plantuml.net/8890/gannt-highlight-today",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+<style>
+arrow {
+  LineColor blue
+}
+</style>
+Project starts the 20th of september 2018
+sunday are close
+2018/09/21 to 2018/09/23 are colored in red
+2018/09/21 to 2018/09/30 are named [Vacation in the Bahamas]
+
+today is 30 days after start and is colored in #AAF
+[Foo] happens 40 days after start
+[Dummy] lasts 10 days and starts 10 days after start
+then [Dummy2] lasts 3 days
+@endgantt

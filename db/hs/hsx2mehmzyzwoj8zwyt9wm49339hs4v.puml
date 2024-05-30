@@ -1,0 +1,17 @@
+{
+  "sha1": "hsx2mehmzyzwoj8zwyt9wm49339hs4v",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.422Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+
+class class1
+
+package pack1 {
+class A1
+}
+
+@enduml

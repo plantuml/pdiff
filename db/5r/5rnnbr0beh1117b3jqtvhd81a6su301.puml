@@ -1,0 +1,19 @@
+{
+  "sha1": "5rnnbr0beh1117b3jqtvhd81a6su301",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.790Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+if (condition?) then (yes)
+  :yes;
+else (no)
+  :no;
+  note right
+    any very very very very very very very very very very very very very very very very very very very very long text
+  end note
+endif
+
+stop
+@enduml

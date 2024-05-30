@@ -1,0 +1,15 @@
+{
+  "sha1": "2rcjpwe37ts347ucr4qdy04ceu40jus",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.078Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+	start
+	if (toto) is (10) then
+	 :BAD;
+	else (20)
+	endif
+	stop
+@enduml

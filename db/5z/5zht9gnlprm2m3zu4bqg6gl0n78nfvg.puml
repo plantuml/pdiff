@@ -1,0 +1,13 @@
+{
+  "sha1": "5zht9gnlprm2m3zu4bqg6gl0n78nfvg",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.834Z",
+    "url": "https://forum.plantuml.net/9684/split-while-bug-with-a-couple-of-workarounds",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!Response = "FOO"
+Alice -> Bob : AMS_to_CHE_Response_success
+Alice -> Bob : Response
+@enduml

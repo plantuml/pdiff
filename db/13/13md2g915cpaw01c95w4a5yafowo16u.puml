@@ -1,0 +1,28 @@
+{
+  "sha1": "13md2g915cpaw01c95w4a5yafowo16u",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.554Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide footbox
+autonumber
+scale 0.50
+!pragma teoz true
+skinparam { 
+handwritten true 
+shadowing true
+}
+participant "\n" as 1
+participant "PROG\nZZ_HELLO_WORLD" as 2
+1 -> 1: 
+activate 1
+1 -> 2:  ZZ_HELLO_WORLD
+activate 2
+2 -> 2:  SYSTEM-EXIT
+activate 2
+deactivate 2
+2 --> 1
+deactivate 2
+@enduml

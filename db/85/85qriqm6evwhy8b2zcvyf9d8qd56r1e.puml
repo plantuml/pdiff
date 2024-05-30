@@ -1,0 +1,21 @@
+{
+  "sha1": "85qriqm6evwhy8b2zcvyf9d8qd56r1e",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.350Z",
+    "url": "http://forum.plantuml.net/9434/questions-regarding-preprocessorv2?show=9439#c9439",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!function $inc($value, $step=1)
+    !if ($step == 0)
+        !return $value
+    !endif
+    !return $value + $step
+!endfunction
+
+
+Alice -> Bob : expected 4: $inc(3)
+Alice -> Bob : expected 5 : $inc(3, 2)
+@enduml

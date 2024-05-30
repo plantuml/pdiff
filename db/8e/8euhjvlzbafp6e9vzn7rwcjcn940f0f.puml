@@ -1,0 +1,28 @@
+{
+  "sha1": "8euhjvlzbafp6e9vzn7rwcjcn940f0f",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.402Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam database {
+  border {
+    color grey
+	thickness 1
+  }
+  BackgroundColor yellow
+  Font {
+    Color LightGrey
+	Size 14
+  }
+}
+
+package "<size:18>styled</size>\nshould be styled" <<Database>> {
+}
+
+package "<size:18>styled2</size>\nshould be styled" <<Database>> {
+class foo
+}
+
+@enduml

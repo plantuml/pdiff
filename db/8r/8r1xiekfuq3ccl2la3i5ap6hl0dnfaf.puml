@@ -1,0 +1,19 @@
+{
+  "sha1": "8r1xiekfuq3ccl2la3i5ap6hl0dnfaf",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.498Z",
+    "url": "https://forum.plantuml.net/12022/nwdiag-diagram-networks-broken-observe-cloud-plantuml-version",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+  inet -- router;
+
+  network {
+    router;
+    web01;
+    web02;
+  }
+}
+@enduml

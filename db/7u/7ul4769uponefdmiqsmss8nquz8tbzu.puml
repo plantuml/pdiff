@@ -1,0 +1,16 @@
+{
+  "sha1": "7ul4769uponefdmiqsmss8nquz8tbzu",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.282Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+Alice -> Bob : ok1
+Alice -> Bob : /'''out'''/ ok2
+/'
+Alice -> Bob : ok3
+this is a comment
+'/
+@enduml

@@ -1,0 +1,25 @@
+{
+  "sha1": "6ko7fuifyr1npwxax3uo1ra00wim34a",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.978Z",
+    "url": "http://forum.plantuml.net/8738/arrow-working-component-diagram-working-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component "a" as a {
+}
+component "b" as b {
+}
+
+' this does not work:
+
+a -[#blue,dashed;#red]-> b: test
+' a -[#blue,dashed]-> b: test
+
+legend
+|= Code |= Description |
+| a -[#blue,dashed]-> b: test | This style works fine |
+| a -[#blue,dashed;#red,dashed]-> b: test | Multiple arrow style works only in Activity diagram\n Can this be supported for Component Diagrams too? |
+end legend
+@enduml

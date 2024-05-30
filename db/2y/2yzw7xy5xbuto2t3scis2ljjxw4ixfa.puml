@@ -1,0 +1,11 @@
+{
+  "sha1": "2yzw7xy5xbuto2t3scis2ljjxw4ixfa",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.130Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class foo
+note top of foo : some\n\nnotes
+@enduml

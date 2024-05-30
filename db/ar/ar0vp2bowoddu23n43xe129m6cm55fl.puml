@@ -1,0 +1,30 @@
+{
+  "sha1": "ar0vp2bowoddu23n43xe129m6cm55fl",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.938Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+-> Before fork;
+fork
+-> Before A;
+:Fonction_A();
+
+-> END;
+fork again
+:fct_C();
+
+->END third part;
+fork again
+:fct_F();
+-> END last part;
+
+endfork
+
+
+stop
+
+@enduml

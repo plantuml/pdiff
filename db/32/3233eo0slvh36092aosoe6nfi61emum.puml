@@ -1,0 +1,11 @@
+{
+  "sha1": "3233eo0slvh36092aosoe6nfi61emum",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.162Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state foo
+note "This is a floating note" as N1
+@enduml

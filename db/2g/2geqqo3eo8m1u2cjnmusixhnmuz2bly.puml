@@ -1,0 +1,26 @@
+{
+  "sha1": "2geqqo3eo8m1u2cjnmusixhnmuz2bly",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.990Z",
+    "url": "http://forum.plantuml.net/9031/do-you-plan-for-conditional-code-in-macros?show=9167#a9167",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!function $foo($text)
+!return "ceci est la fonction"
+!endfunction
+
+!$foo = "je suis la variable"
+
+!function id($text)
+!return $text
+!endfunction
+
+
+alice -> bob : $foo( "pasvu")
+alice -> bob : $foo coucou
+alice -> bob : $foo
+alice -> bob : id($foo("pasvu"))
+@enduml

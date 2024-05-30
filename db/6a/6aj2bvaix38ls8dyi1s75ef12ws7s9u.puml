@@ -1,0 +1,12 @@
+{
+  "sha1": "6aj2bvaix38ls8dyi1s75ef12ws7s9u",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.914Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1243",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultTextAlignment center
+rectangle "Line 1 Has Left-Align Line Break\lBUG? This Is Centered?"as 1670973383559#FFFFFF;line:black
+@enduml

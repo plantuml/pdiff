@@ -1,0 +1,38 @@
+{
+  "sha1": "2ebqdzrqsw55mx6n4mqyq4qr9jxw03n",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.966Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+
+<style>
+element {
+  BackGroundColor: #AAA;
+}
+
+sequenceDiagram {
+  participant {
+    FontColor: green;
+    FontSize 26
+    FontStyle italic
+    LineColor #E00
+  }
+  arrow {
+    FontColor red
+    LineColor blue
+  }
+}
+</style>
+
+participant Alice
+
+participant Bob
+Alice -> Bob : hello1
+
+Alice -> Bob : hello2
+
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "9xl4ycnta3h8ks5g2z4mb1lq1l11b1i",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.786Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1254",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A <<stereo1>> {
+}
+class C <<stereo1>> <<stereo2>> {
+}
+
+hide <<stereo1>> stereotype
+hide <<stereo2>> stereotype
+@enduml

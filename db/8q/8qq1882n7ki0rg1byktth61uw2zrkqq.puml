@@ -1,0 +1,14 @@
+{
+  "sha1": "8qq1882n7ki0rg1byktth61uw2zrkqq",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.494Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+opt some condition
+Other --> Alice : ok again
+ref over Alice, Other : this is a reference over Alice and Other
+end opt
+Other --> Alice : ok again
+@enduml

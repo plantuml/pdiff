@@ -1,0 +1,14 @@
+{
+  "sha1": "7hduo9jhxewfkf1wz58mbebsocnx47m",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.206Z",
+    "url": "https://github.com/plantuml/plantuml/commit/f2b9f03e154fd8f075e4e91988a8ee4118d61595#commitcomment-60201184",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+</style>
+skinparam BackgroundColor transparent
+class foo
+@enduml

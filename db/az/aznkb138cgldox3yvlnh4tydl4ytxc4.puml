@@ -1,0 +1,12 @@
+{
+  "sha1": "aznkb138cgldox3yvlnh4tydl4ytxc4",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.986Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A -- B : Home
+A -- B : School
+Edu . (A,B) 
+@enduml

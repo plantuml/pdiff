@@ -1,0 +1,29 @@
+{
+  "sha1": "128icn7d8y5lfkmbyzp9j3itf4oewjg",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.534Z",
+    "url": "https://forum.plantuml.net/11937/add-ability-to-contol-placement-constraint-timing-diagram?show=14671#c14671",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Web Browser" as WB
+
+WB has ReceiveDat,LowPower,Idle
+
+WB is Idle
+
+@WB
+0 is ReceiveDat
++100 is LowPower
++100 is Idle
++100 is LowPower
++100 is Idle
++100 is LowPower
++100 is ReceiveDat
++100 is LowPower
++100 is Idle
+WB@0 <-> @100 : {51 ms}
+WB@300 <-> @400 : {52 ms}
+WB@500 <-> @+300 : {53 ms}
+@enduml

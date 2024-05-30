@@ -1,0 +1,15 @@
+{
+  "sha1": "38snnvv61t8rloqllrwaweukyv6cvp8",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.214Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Temp {
+    int toto
+   <back:#FFF000>string nouvelAttributi</back>
+   <s>strike</s>
+   <w>This is wave</w>
+}
+@enduml

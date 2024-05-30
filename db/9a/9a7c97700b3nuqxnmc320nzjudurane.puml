@@ -1,0 +1,19 @@
+{
+  "sha1": "9a7c97700b3nuqxnmc320nzjudurane",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.634Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam dpi 384
+Bob -> Alice : hello1
+Bob -> Alice : hello2
+newpage
+Bob -> Alice : hello3
+Bob -> Alice : hello4
+newpage
+Bob -> Alice : hello5
+Bob -> Alice : hello6
+
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "55smk7g1k6lkxan95jvjxovqu16jkne",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.658Z",
+    "url": "https://forum.plantuml.net/9741/define-%40append-broken",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define fileServer <color:green><&folder>ho-itd-pbrcs05</color>
+@pause
+@append start
+@append :===initialization
+@append #create fileServer; <<task>>
+@append end
+@enduml

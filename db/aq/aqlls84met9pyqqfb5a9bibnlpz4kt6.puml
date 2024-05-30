@@ -1,0 +1,33 @@
+{
+  "sha1": "aqlls84met9pyqqfb5a9bibnlpz4kt6",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.934Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+Source folder:    | "plantu/test                      " | [Browse...]
+Package:          | "net.sourceforge.plantuml.z1      " | [Browse...]
+[] Enclosing type | "net.sourceforge.plantuml.z1.WJava" | [Browse...]
+-- | * | *
+Name         | "                 "
+Modifiers:   | { (X) public | () default | () private | () protected
+                [] abstract | [] final   | [] static }
+Superclass:  | "java.lang.Object " | [Browse...]
+Interfaces:  | {+ .| java.io.Serializable | .
+                  .
+                  .
+                  .   }            |  { [Add...]
+                                        [Remove] }
+-- | * | *
+Which method stubs would you like to create ? | * | *
+. | [] public static void main(String [] args)
+. | [] Constructors from superclass
+. | [X] Inherited abstract methods
+
+Do you want to add comments ? (Configure templates and default value <u>here</u>) | * | *
+. | [] Generate comments
+
+}
+@endsalt

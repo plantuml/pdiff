@@ -1,0 +1,15 @@
+{
+  "sha1": "a68lbtjasker6k2iwmp5opnkc7az8n6",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.826Z",
+    "url": "http://forum.plantuml.net/6683/skinparam-for-database-font-size",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundColor #FFFFFF-#EEEBDC
+skinparam databaseBackgroundColor #FFFFFF-#DDEBDC
+'skinparam DatabaseFontSize 24
+skinparam ActorFontSize 24
+database MyDB
+@enduml

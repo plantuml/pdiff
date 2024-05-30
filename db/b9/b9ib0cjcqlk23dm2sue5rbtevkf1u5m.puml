@@ -1,0 +1,16 @@
+{
+  "sha1": "b9ib0cjcqlk23dm2sue5rbtevkf1u5m",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.046Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <aws/common>
+!include <aws/Storage/AmazonS3/AmazonS3>
+!include <aws/Storage/AmazonS3/bucket/bucket>
+
+AMAZONS3(s3_internal)
+AMAZONS3(s3_partner,"Vendor's S3")
+s3_internal <-- s3_partner
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "4t0hze8t2zo8lnh0j1oduf17ucw67n7",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.562Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define AUTHENT Alice -> Bob: Authentication Request on a single line
+
+!define ENDING Alice -> Bob: This is the end my friend bye!
+
+AUTHENT
+Alice -> Bob : this is on a single line
+ENDING
+@enduml

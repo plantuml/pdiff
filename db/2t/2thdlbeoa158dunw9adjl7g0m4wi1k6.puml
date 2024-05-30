@@ -1,0 +1,15 @@
+{
+  "sha1": "2thdlbeoa158dunw9adjl7g0m4wi1k6",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.094Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define SHOW_METHODS
+class ArrayList
+!ifdef SHOW_METHODS
+ArrayList : int size()
+ArrayList : void clear()
+!endif
+@enduml

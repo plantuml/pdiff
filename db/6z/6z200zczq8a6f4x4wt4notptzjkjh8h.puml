@@ -1,0 +1,11 @@
+{
+  "sha1": "6z200zczq8a6f4x4wt4notptzjkjh8h",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.082Z",
+    "url": "https://twitter.com/riduidel/status/1601129293383610370",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+abc*
+@endregex

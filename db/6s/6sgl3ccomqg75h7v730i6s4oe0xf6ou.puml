@@ -1,0 +1,21 @@
+{
+  "sha1": "6sgl3ccomqg75h7v730i6s4oe0xf6ou",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.038Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1047#issuecomment-1160565309",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+map commit1 #white {
+  sha256 => 1
+}
+class x #white ##pink {
+}
+map commit2 #white ##pink {
+  sha256 => 1
+}
+map commit3 #line:red {
+  sha256 => 1
+}
+@enduml

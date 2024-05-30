@@ -1,0 +1,18 @@
+{
+  "sha1": "1wg1x4tpg9w2j7yu4fcrzujxqfg53sx",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.814Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    skinparam colorArrowSeparationSpace 2
+    start
+   repeat
+        -[#red;#blue,dashed]->
+       :something;
+       -[#red;#blue,dashed]->
+   repeat while(a)is(b) -[#red;#blue,dashed]->
+      -[#red;#blue,dashed]->
+      :out;
+@enduml

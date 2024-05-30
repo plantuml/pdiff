@@ -1,0 +1,13 @@
+{
+  "sha1": "3ufu74d3oyibdcs9qttfb8ydnw0g4f0",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.362Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam style strictuml
+skinparam genericDisplay old
+hide empty members
+class "coursGroupe:\nArrayList<CoursGroupe>" as g 
+@enduml

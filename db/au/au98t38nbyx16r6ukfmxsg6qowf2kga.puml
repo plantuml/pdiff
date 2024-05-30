@@ -1,0 +1,13 @@
+{
+  "sha1": "au98t38nbyx16r6ukfmxsg6qowf2kga",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.962Z",
+    "url": "http://forum.plantuml.net/6782/openiconic-icons-inside-labeled-hyperlinks-sequence-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Actor --> Participant: Message1 [[http://www.google.com this <&link-intact> is]]
+Actor --> Participant: Message2 [[http://www.google.com <&link-intact>]]
+Actor --> Participant: Message3 <&link-intact>
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "brzhh5jyaivyouusjiqs0a5o4j31kns",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.146Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : hello
+create Dog
+Alice -> Dog : create
+note left : X
+Alice -> Toto : hello
+@enduml

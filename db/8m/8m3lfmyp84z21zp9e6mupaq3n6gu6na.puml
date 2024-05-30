@@ -1,0 +1,18 @@
+{
+  "sha1": "8m3lfmyp84z21zp9e6mupaq3n6gu6na",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.454Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(ac1) <|-left- (ac1 left) 
+(ac1) <|-right- (ac1 right) 
+(ac1) <|-up- (ac1 up) 
+(ac1) <|-down- (ac1 down)
+ 
+(ac2 left) -left-|> (ac2) 
+(ac2 right) -right-|> (ac2) 
+(ac2 up) -up-|> (ac2) 
+(ac2 down) -down-|> (ac2) 
+@enduml

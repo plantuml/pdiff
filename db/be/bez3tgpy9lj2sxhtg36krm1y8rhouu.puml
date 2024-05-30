@@ -1,0 +1,24 @@
+{
+  "sha1": "bez3tgpy9lj2sxhtg36krm1y8rhouu",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.082Z",
+    "url": "https://forum.plantuml.net/5261/please-allow-adding-edges-class-members-methods-complex-names?show=15161",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+entity G {
+    ID
+    --
+    C0
+    I
+}
+
+
+C0 --> G::C0
+
+G::I --> I
+
+
+@enduml

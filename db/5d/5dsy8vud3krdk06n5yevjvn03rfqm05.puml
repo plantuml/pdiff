@@ -1,0 +1,19 @@
+{
+  "sha1": "5dsy8vud3krdk06n5yevjvn03rfqm05",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.722Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startflow
+10 "START"
+s 20 "FINDHW()"
+s 30 "GetTable()"
+s 40 "i=0"
+s 50 "is i==TopologySize?"
+s 60 "return result"
+e 70 "is dynamic data for this C?"
+e 80 "Find Data on the heap for C"
+n 90 "Can the buffer accommodate?"
+w 50
+@endflow

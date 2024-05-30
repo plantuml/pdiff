@@ -1,0 +1,21 @@
+{
+  "sha1": "48rqs6qkqins0jo09ome70m0wxjc1kw",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.450Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rotate
+minwidth 600
+
+Bob -> Alice : hello1
+Bob -> Alice : hello2
+newpage
+Bob -> Alice : hello3
+Bob -> Alice : hello4
+newpage
+Bob -> Alice : hello5
+Bob -> Alice : hello6
+
+@enduml

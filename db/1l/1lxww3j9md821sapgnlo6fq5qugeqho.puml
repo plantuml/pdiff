@@ -1,0 +1,16 @@
+{
+  "sha1": "1lxww3j9md821sapgnlo6fq5qugeqho",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.730Z",
+    "url": "https://forum.plantuml.net/11930/incorrect-string-of-ortho-line?show=15203#a15203",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+interface Map<K,V>
+    class HashMap<Long,Customer>
+
+    Map <|.. HashMap
+    Shop [customerId: long] ---> "customer\n1" Customer
+    HashMap [id: Long] -r-> "value" Customer
+@enduml

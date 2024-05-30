@@ -1,0 +1,11 @@
+{
+  "sha1": "8njeja7f9m3jxajs99p0pfpvi1z2c0h",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.466Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state foo #red
+state name as "longer name definition" #blue 
+@enduml

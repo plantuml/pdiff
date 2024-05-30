@@ -1,0 +1,20 @@
+{
+  "sha1": "46wf6c13gjpkfr7wh6axxa1zb9172p2",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.438Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1282",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+together {
+node "A" as a {
+}
+node "b" as b {
+}
+node "c" as c {
+}
+node "d" as d {
+}
+}
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "7k7vtrxzqrpf9tvbs2h1w44ceuqluoc",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.226Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+left to right direction
+skinparam dpi 192
+'scale 1000 width
+skinparam componentStyle uml2
+[<back:gray><latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex></back>] as fx
+@enduml

@@ -1,0 +1,23 @@
+{
+  "sha1": "b89hysixnetq2e36bq674yh0d25wbkk",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.042Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+partition "partition" {
+  while (ForEach 1)
+    -[#LightGreen]->
+    :plop;
+  endwhile
+  -[#Blue]->
+  while (ForEach 2)
+    -[#LightGreen]->
+    :plop;
+  endwhile
+  -[#Blue]->
+  }
+stop
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "4nw4kt2g9jn1994wegp5r4r2xtkxmd1",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.526Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1053",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle SCRUMPILLARS <<$archimate/motivation-principle>> <<motivation-principle>> #Motivation [
+"Scrum Pillars"
+{{
+  skinparam backgroundColor #Motivation
+  archimate #MOTIVATION "[[https://scrumguides.org/scrum-guide.html#transparency {Transparency} Transparency]]" <<motivation-principle>> as TRANSPARENCY
+  archimate #MOTIVATION "[[https://scrumguides.org/scrum-guide.html#inspection {Inspection} Inspection]]" <<motivation-principle>> as INSPECTION
+  archimate #MOTIVATION "[[https://scrumguides.org/scrum-guide.html#adaptation {Adaptation} Adaptation]]" <<motivation-principle>> as ADAPTATION
+
+  TRANSPARENCY -[hidden]right- INSPECTION
+  INSPECTION -[hidden]right- ADAPTATION
+ }}
+]
+@enduml

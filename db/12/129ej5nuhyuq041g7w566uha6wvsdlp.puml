@@ -1,0 +1,30 @@
+{
+  "sha1": "129ej5nuhyuq041g7w566uha6wvsdlp",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.538Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+
+
+<style>
+node {
+    Padding 0
+    HorizontalAlignment center
+    LineColor blue
+    LineThickness 3.0
+    BackgroundColor gold
+    RoundCorner 40
+}
+
+</style>
+
+* New style
+** New features
+** Template Files
+*** They are \ngreat and \n should have them!
+
+caption caption
+
+@endmindmap

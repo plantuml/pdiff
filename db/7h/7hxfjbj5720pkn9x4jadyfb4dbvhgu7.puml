@@ -1,0 +1,38 @@
+{
+  "sha1": "7hxfjbj5720pkn9x4jadyfb4dbvhgu7",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.210Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase UC1 as "This usecase
+..
+is on several lines
+--foo--
+and have a long description
+__foo2__
+foo2
+x
+==
+other text
+"
+
+usecase UC2
+
+usecase UC3 as "This usecase
+is on several lines
+and have a long description"
+
+database DB1
+
+database DB2 as "this is long
+--
+another
+line
+..with text..
+to finish
+and on several lines"
+
+
+@enduml

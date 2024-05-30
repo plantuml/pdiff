@@ -1,0 +1,16 @@
+{
+  "sha1": "1tttyqnkwqbaxiteeynaey47lpcciv2",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.786Z",
+    "url": "https://forum.plantuml.net/9774/conditional-drawing-of-box-participants-sequence-diagram?show=9802#c9802",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$foo = { "company": "Skynet", "employees" : [
+  {"name" : "alice", "salary": 100 },
+  {"name" : "bob", "salary": 50} ]
+}
+start
+:The salary of $foo.employees[0].name is $foo.employees[0].salary;
+@enduml

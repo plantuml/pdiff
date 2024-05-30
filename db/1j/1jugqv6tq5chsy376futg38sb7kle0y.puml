@@ -1,0 +1,12 @@
+{
+  "sha1": "1jugqv6tq5chsy376futg38sb7kle0y",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.714Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam minClassWidth 70
+class a
+class thisisverylong
+@enduml

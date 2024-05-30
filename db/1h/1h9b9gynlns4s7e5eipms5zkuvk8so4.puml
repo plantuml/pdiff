@@ -1,0 +1,16 @@
+{
+  "sha1": "1h9b9gynlns4s7e5eipms5zkuvk8so4",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.690Z",
+    "url": "https://forum.plantuml.net/15340/add-capability-to-nest-state-diagrams-in-package-or-frame",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state state_machine {
+    state foo
+    state bar
+    [*] --> foo
+    foo --> bar
+}
+@enduml

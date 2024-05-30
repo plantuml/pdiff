@@ -1,0 +1,17 @@
+{
+  "sha1": "1xsgqwqnooxw7gk8q0c6bo9sfnx6mqh",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.834Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor Bob [[http://plantuml.com/sequence]]
+actor "This is [[http://plantuml.com/sequence Alice]] actor" as Alice
+Bob -> Alice [[http://plantuml.com/start]] : hello
+note left [[http://plantuml.com/start]]
+  a note with a link
+end note
+Alice -> Bob : hello with [[http://plantuml.com/start{Tooltip for message\\nOn several lines} some link]]
+note right [[http://plantuml.com/start]] : another note
+@enduml

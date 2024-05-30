@@ -1,0 +1,18 @@
+{
+  "sha1": "8r1s2g2h0qrfrc3uesdvy81lgld76jq",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.498Z",
+    "url": "http://forum.plantuml.net/7876/possible-wrap-swimlane-headings-automatically-rather-using",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam swimlaneWidth same
+skinparam wrapWidth 150
+skinparam swimlaneWrapTitleWidth auto
+ 
+| this is an exceptionally long title  which now wrap at 100 pixels|
+:You fixed it so this will wrap at 150 pixels thank you!;
+|Ignore Me|
+:ignore me;
+@enduml

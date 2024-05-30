@@ -1,0 +1,22 @@
+{
+  "sha1": "6603ccr99ooplb6crj5ed8lzhjp1ysc",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.882Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+repeat
+  note left : A note
+  :Test something;
+    if (Something went wrong?) then (no)
+      :OK;
+      break
+    endif
+    :Alert "Error";
+repeat while (Something went wrong?) is (yes)
+->no;
+:Alert "Sucess";
+stop
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "9qicu6mlp4q9blf0qlxhtc7dtufr9la",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.754Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=3328/can-i-turn-off-shadowing-just-for-one-type-of-shape",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam actor {
+  bordercolor blue
+  shadowing false
+}
+
+skinparam databaseShadowing true
+
+actor actor1
+component compo1
+database data1
+@enduml

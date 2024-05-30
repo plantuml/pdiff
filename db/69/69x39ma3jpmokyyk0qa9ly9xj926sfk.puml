@@ -1,0 +1,16 @@
+{
+  "sha1": "69x39ma3jpmokyyk0qa9ly9xj926sfk",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.914Z",
+    "url": "https://forum.plantuml.net/10612/sequence-diagram-shortcut-deact-incoming-outgoing-messages",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[<-B ++
+return foo1
+
+B<-] ++
+return foo2
+
+@enduml

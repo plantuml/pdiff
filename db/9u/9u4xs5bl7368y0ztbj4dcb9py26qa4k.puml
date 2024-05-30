@@ -1,0 +1,23 @@
+{
+  "sha1": "9u4xs5bl7368y0ztbj4dcb9py26qa4k",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.770Z",
+    "url": "https://forum.plantuml.net/10188/relations-between-container-rectangles-correct-formatted",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "Parent Node" as ParentNode {
+    rectangle "Inner App" as InnerApp
+}
+
+rectangle "Another Node" as AnotherNode{
+    rectangle "Another App" as AnotherApp
+}
+
+AnotherNode -> ParentNode : "=Format NOT working"
+
+AnotherApp -> InnerApp : "=Format working"
+AnotherApp -> ParentNode : "=Format working"
+AnotherNode -> InnerApp : "=Format working"
+@enduml

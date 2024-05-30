@@ -1,0 +1,17 @@
+{
+  "sha1": "7rmd4crxt35r4fqrv12bj165fm3z4xf",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.266Z",
+    "url": "https://forum.plantuml.net/9873/adding-notes-to-links-in-use-case-diagrams?show=12319#a12319",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase uU1 as " "
+usecase uU2 as " "
+
+uU1 .> uU2
+note bottom of link
+    Link note
+end note
+@enduml

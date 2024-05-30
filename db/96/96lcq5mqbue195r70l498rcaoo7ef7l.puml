@@ -1,0 +1,12 @@
+{
+  "sha1": "96lcq5mqbue195r70l498rcaoo7ef7l",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.618Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam diagramBorderColor black
+page 2x2
+enum MonEnum
+@enduml

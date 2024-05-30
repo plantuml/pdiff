@@ -1,0 +1,36 @@
+{
+  "sha1": "am6mh5dq3bvbfpa8dy01p2p0cayt8kt",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.902Z",
+    "url": "https://forum.plantuml.net/12624/variable-increased-diagram-function-called-preprocessing",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$lastIndex = 0
+
+!function Inc()
+!log increment $lastIndex
+  !$lastIndex = $lastIndex + 1
+  !return $lastIndex
+!endfunction
+
+
+!function NoInc()
+  !return $lastIndex
+!endfunction
+
+!unquoted procedure Rel_($e_index, $alias1, $alias2, $label, $direction="")
+$alias1 $direction $alias2 : **$e_index: $label**
+!endprocedure
+
+!unquoted procedure RelIndex($e_index, $from, $to, $label)
+'!log TOTO20 $lastIndex
+  $from -->>$to : **$e_index: $label**
+'!log TOTO30 $lastIndex
+!endprocedure
+
+'!log TOTO10 $lastIndex
+RelIndex(Inc(), A, B, "Should be 1")
+'!log TOTO90 $lastIndex
+@enduml

@@ -1,0 +1,78 @@
+{
+  "sha1": "2rv3cz1siy1vcg8xs03wy37da15eqx",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.082Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Choose
+{{
+salt
+{+
+<b>an example
+choose one option
+()one
+()two
+[ok]
+}
+}}
+;
+:Wait
+{{
+salt
+{+
+<b>please wait
+operation in progress
+<&clock>
+[cancel]
+}
+}}
+;
+
+note right
+You can **also** use it in notes
+{{
+salt
+{+
+  [X] Uml
+  [X] Salt
+}
+}}
+and put several diagrams...
+{{
+  Alice->Bob
+}}
+... in the same note
+end note
+
+if () then
+
+	:Success
+	{{
+	salt
+	{+
+	<b>success
+	congratulations!
+	[ok]
+	}
+	}}
+	;
+	detach
+
+else
+	:Fail
+	{{
+	salt
+	{+
+	<b>error
+	failed, sorry
+	[ok]
+	}
+	}}
+	;
+	detach
+endif
+
+@enduml

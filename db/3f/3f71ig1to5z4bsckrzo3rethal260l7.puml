@@ -1,0 +1,36 @@
+{
+  "sha1": "3f71ig1to5z4bsckrzo3rethal260l7",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.254Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+legend
+Il y a **trois** images:
+|= ID |= Emplacement |= Commentaire |
+| im | Image sous le textarea | Cette image est toujours visible, et affiche toujours un diagramme correct |
+| secret |Image toujours cachée | Cette image n'est jamais visible\nelle sert juste de boite aux lettre entre l'application et le serveur |
+| err | Image à droite du textarea (parfois cachée) | Cette image n'est rendue visible que lorsqu'un diagramme a une erreur de syntaxe |
+end legend
+
+repeat
+  :On calcule en\nJavascript une url /chk/XXXXX;
+  :On affecte l'url /chk/XXXX à l'image **secret**;
+  if (width de l'image **secret**?) is (=1) then
+    :pas d'erreur de syntax;
+	:On masque l'image **err**;
+	note left : ne sert que si une erreur était affichée
+    :On calcule en Javascript une l'url /png/XXXXX;
+	:On affecte l'url /png/XXXX à l'image **im**;
+  else (autre que 1)
+    :il y a une erreur de syntaxe
+	L'image renvoyée par /chk/XXXX décrit l'erreur de syntaxe
+	avec un fond rouge;
+	:On ne touche pas à l'image **im**;
+	:On affecte l'url /chk/XXXX à l'image **err**;
+  endif
+repeat while
+@enduml

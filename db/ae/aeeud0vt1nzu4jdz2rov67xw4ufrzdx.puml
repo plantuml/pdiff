@@ -1,0 +1,20 @@
+{
+  "sha1": "aeeud0vt1nzu4jdz2rov67xw4ufrzdx",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.866Z",
+    "url": "https://the-lum.github.io/puml-themes-gallery/#aws-orange",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+sequenceDiagram {
+	 // foo
+     participant {
+         FontColor: Blue;
+         /' LineColor: Blue; '/
+     }
+}
+</style>
+Bob -> Alice : hello
+@enduml

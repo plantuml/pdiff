@@ -1,0 +1,19 @@
+{
+  "sha1": "b2oghgxy2ra4imqds0pb4379fbtnxx8",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.994Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:previous
+ action;<<continuous>>
+  while (repeat\nforever)
+    :do it
+    again;
+  endwhile
+  ->exit
+  path;
+  detach
+  end
+@enduml

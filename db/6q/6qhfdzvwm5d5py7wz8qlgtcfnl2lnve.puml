@@ -1,0 +1,25 @@
+{
+  "sha1": "6qhfdzvwm5d5py7wz8qlgtcfnl2lnve",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.026Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|a|
+|b|
+start
+|b|
+:Lets begin;
+|a|
+split
+:A Task;
+|b|
+:back to B;
+split again
+:B task;
+end split
+|b|
+:final task;
+stop
+@enduml

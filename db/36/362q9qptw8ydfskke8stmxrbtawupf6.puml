@@ -1,0 +1,19 @@
+{
+  "sha1": "362q9qptw8ydfskke8stmxrbtawupf6",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.194Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|swim1|
+fork
+  :something;
+fork again
+  |swim2|
+:something else;
+fork again
+  |swim3|
+:really swimming now;
+end fork
+@enduml

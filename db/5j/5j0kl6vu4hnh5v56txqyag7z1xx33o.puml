@@ -1,0 +1,15 @@
+{
+  "sha1": "5j0kl6vu4hnh5v56txqyag7z1xx33o",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.750Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+:N&R Administrator:
+:Back Office:
+:Technical Manager:
+:MRG Administrateur:
+
+@enduml

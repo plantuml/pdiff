@@ -1,0 +1,48 @@
+{
+  "sha1": "bk92fnlz8wqoohuifdxgl8ykxdjkgxf",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.106Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title A
+concise "P" as p
+concise "PO" as po
+concise "S" as s
+concise "SO" as so
+concise "AO" as ao
+concise "RM" as rm
+ 
+p is P
+s is P
+po is D
+so is D
+ao is D
+ 
+@0
+p is P2R
+p -> s@+1 : M(P2R)
+ 
+@+1
+s is P2R
+ 
+@+0.5
+rm -> s : SW
+rm -> p : SW
+p is DQ
+ 
+@+0.5
+s@2.5 <-> @+1.5 : R
+ 
+@+1.5
+s -> so@+1 : EO
+ 
+@+1
+so is E
+so -> ao
+ao is E
+s is R
+ 
+@+1
+@enduml

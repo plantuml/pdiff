@@ -1,0 +1,21 @@
+{
+  "sha1": "4cp71dsr4kr3y0k0l70adsnokp4ivvs",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.474Z",
+    "url": "http://forum.plantuml.net/9509/how-style-archimate-elements-individually-using-skinparams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam archimate {
+    shadowing false
+}
+skinparam archimate<<strategy-capability>> {
+    roundcorner 25
+}
+
+
+archimate #STRATEGY "Resource" as SResource <<strategy-resource>>
+archimate #STRATEGY "Capability" as SCapability <<strategy-capability>>
+archimate #STRATEGY "Course Of Action" as SCourseAction <<strategy-course-of-action>>
+@enduml

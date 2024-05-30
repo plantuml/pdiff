@@ -1,0 +1,28 @@
+{
+  "sha1": "5ktsve9tj5qa8hc9pimw4p0klj9kndm",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.766Z",
+    "url": "https://forum.plantuml.net/12159/gantt-diagram-no-style-entry-for-legend",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+	legend {
+		FontColor blue
+		FontSize 15
+        FontStyle italic
+		LineColor Orange
+	}
+</style>
+
+legend
+hypothesis
+ * Hyp 1
+ * Hyp 2
+end legend
+
+class foo
+
+@enduml

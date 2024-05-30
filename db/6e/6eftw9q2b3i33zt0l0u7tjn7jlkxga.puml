@@ -1,0 +1,39 @@
+{
+  "sha1": "6eftw9q2b3i33zt0l0u7tjn7jlkxga",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.938Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    ' skinparam conditionStyle diamond
+    skinparam colorArrowSeparationSpace 2
+   
+    start
+    -[#red;#green;#blue;#orange;#maroon]->
+    if(inbound arrows are ok!)then(yes)
+    else(no)
+        -[#red;#green;#blue;#orange;#maroon]->
+        :inbound arrows are not centered\nand terminated inside the activity\n====\noutbound arrow terminations\nare not vertically aligned\nand terminate inside the diamond;       
+        -[#red;#green;#blue;#orange;#maroon]->
+    endif
+
+    repeat
+   
+       
+    repeatwhile (end:\noutbound arrows start\nnot vertically aligned) -[#red;#green;#blue;#orange;#maroon]->
+
+       
+        if(a)then(yes)
+            partition "NOTE: arrow after\nnot empty partition" {           
+                :arrow tip directed ok\nbut not vertically aligned and are inside the diamond;
+                        -[#red;#green;#blue;#orange;#maroon]->
+            }
+        else(no)
+                -[#red;#green;#blue;#orange;#maroon]->
+            partition "NOTE: arrow tips after\nempty partition wrongly directed\n and not vertially aligned" {
+               
+            }
+        endif
+
+@enduml

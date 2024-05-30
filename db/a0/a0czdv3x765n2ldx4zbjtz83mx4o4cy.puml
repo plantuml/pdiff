@@ -1,0 +1,18 @@
+{
+  "sha1": "a0czdv3x765n2ldx4zbjtz83mx4o4cy",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.794Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autoactivate on
+alice -> bob : hello
+bob -> bob : self call
+bill -> bob #005500 : hello from thread 2
+bob -> geoge ** : create
+return done in thread 2
+return rc
+bob -> geoge !! : delete
+return success
+@enduml

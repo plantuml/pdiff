@@ -1,0 +1,50 @@
+{
+  "sha1": "8z674h0r5lnurpfyj5emeakutwyavz3",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.558Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1166",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide time-axis
+scale 100 as 100 pixels
+analog  "out"  as out
+
+
+@+0.0
+out is 0.0
+@+4.0
+out is -18.0
+@+6.0
+out is -21.0
+@+1.0
+out is -40.0
+@+3.0
+out is -59.0
+@+6.0
+out is -69.0
+@+10.0
+out is -71.0
+@+5.0
+out is -68.0
+@+5.0
+out is -62.0
+@+12.0
+out is -54.0
+@+11.0
+out is -52.0
+@+7.0
+out is -61.0
+@+9.0
+out is -100.0
+@+4.0
+out is -84.0
+@+3.0
+out is -83.0
+@+5.0
+out is -49.0
+@+9.0
+out is -1.0
+
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "9drl5u6857fss52ouiuy1hnorzpo3c9",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.662Z",
+    "url": "https://forum.plantuml.net/17275/composite-state-functionality-with-allow_mixing",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+state "A" as stateA {
+    state B
+}
+@enduml

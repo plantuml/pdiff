@@ -1,0 +1,29 @@
+{
+  "sha1": "91l7ufd7bnrajckya7qck6sdrfi620m",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.582Z",
+    "url": "https://forum.plantuml.net/12422/beta-style-improve-descendant-pseudo-selector-on-mindmap?show=16276#c16276",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+.mexicoStyle * {
+     BackgroundColor lightblue
+     FontColor Blue
+     RoundCorner 10
+}
+</style>
+* World
+** America
+*** Canada
+*** Mexico <<mexicoStyle>>
+**** Chihuahua
+*** USA
+**** Texas
+*** New York
+** Europe
+*** England
+*** Germany
+*** Spain
+@endmindmap

@@ -1,0 +1,19 @@
+{
+  "sha1": "5381wjxbobtk4nnl3y9fb7vdhjebepq",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.642Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A -> B : Async Request
+
+B -> C : Async Request
+activate C
+deactivate C
+
+create D
+C -> D : Create module
+activate C
+deactivate C
+@enduml

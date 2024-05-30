@@ -1,0 +1,17 @@
+{
+  "sha1": "6ydn58r45yajwxygktx5ya4k5kodc32",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.078Z",
+    "url": "https://forum.plantuml.net/9653/backgroundcolor-of-swimlane-title",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skin debug
+skinparam useBetaStyle true
+
+Alice -> Bob : ok
+note left : foo
+
+@enduml

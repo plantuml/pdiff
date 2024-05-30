@@ -1,0 +1,19 @@
+{
+  "sha1": "4nks7objnyd434a0rlf78nafn291lz8",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.518Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+skinparam linetype ortho
+class A
+class B
+class C
+class D
+
+A -- B
+A *--> C : toC
+A -- D
+@enduml

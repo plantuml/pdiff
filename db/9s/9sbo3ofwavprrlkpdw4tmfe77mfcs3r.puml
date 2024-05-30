@@ -1,0 +1,49 @@
+{
+  "sha1": "9sbo3ofwavprrlkpdw4tmfe77mfcs3r",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.758Z",
+    "url": "https://forum.plantuml.net/15360/ideas-for-2-new-json-builtins",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$myjson = {
+"root" : [{
+    "fruits": [
+        {
+            "name": "apple",
+            "colorId": "1"
+        },
+        {
+            "name": "pear",
+            "colorId": "2"
+        },
+        {
+            "name": "pineapple",
+            "colorId": "3"
+        }
+    ]
+},
+{
+    "colors": [
+        {
+            "id": "1",
+            "name": "red"
+        },
+        {
+            "id": "2",
+            "name": "green"
+        },
+        {
+            "id": "3",
+            "name": "yellow"
+        }
+    ]
+}]
+}
+
+!foreach $key in %get_json_keys($myjson)
+     rectangle $key
+!endfor
+
+@enduml

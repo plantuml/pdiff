@@ -1,0 +1,25 @@
+{
+  "sha1": "5719r5xotr6c662ptmyaxuzb75awgbb",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.670Z",
+    "url": "https://forum.plantuml.net/15583/borderstyle-dashed-not-working-anymore",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+rectangle {
+  Stereotype {
+    FontColor red
+  }
+
+}
+</style>
+
+rectangle "R1" as r1 <<foo1>>  {
+  rectangle "R2" as r2 <<foo1>> {
+  }
+}
+
+@enduml

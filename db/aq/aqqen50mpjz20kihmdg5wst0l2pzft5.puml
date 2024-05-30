@@ -1,0 +1,20 @@
+{
+  "sha1": "aqqen50mpjz20kihmdg5wst0l2pzft5",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.934Z",
+    "url": "http://forum.plantuml.net/9321/teoz-create-%26-note-issue",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+participant Alice
+participant Ken
+
+Alice -> Alice : ok
+
+Alice -> Ken ** : Birth
+& note right of Ken: txt
+
+@enduml

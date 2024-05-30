@@ -1,0 +1,22 @@
+{
+  "sha1": "85fdsuoeqe5sf5zcmkle0buf3l5h2gp",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.346Z",
+    "url": "https://forum.plantuml.net/17885/decimal-time-values-not-accepted-in-parameters-procedures?show=17888#c17888",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$U_ov1 = 3.8
+!$U_ov2 = 3.9
+!$rate = 0.1
+!function $time($a, $b, $c)
+!return ($a - $b)/$c
+!endfunction
+
+@0
+line is low
+@+$time($U_ov1, $U_ov2, $rate)
+line is high
+
+@enduml

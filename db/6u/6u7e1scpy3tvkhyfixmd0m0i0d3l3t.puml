@@ -1,0 +1,21 @@
+{
+  "sha1": "6u7e1scpy3tvkhyfixmd0m0i0d3l3t",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.050Z",
+    "url": "http://forum.plantuml.net/7618/component-diagram-labels-overlapping-with-nodes-sides",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+
+
+    interface "MIDI IN" as MidiIn
+    interface "MIDI OUT" as MidiOut
+
+    [PIC 16F628A (MIDI)] as PICMid
+
+    PICMid -right- MidiIn
+    PICMid -down- MidiOut
+
+@enduml

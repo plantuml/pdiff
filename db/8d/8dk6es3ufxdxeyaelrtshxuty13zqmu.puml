@@ -1,0 +1,12 @@
+{
+  "sha1": "8dk6es3ufxdxeyaelrtshxuty13zqmu",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.394Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define link(a,b) a-->b
+link(Bob,Alice)
+link(Alice,Charles)
+@enduml

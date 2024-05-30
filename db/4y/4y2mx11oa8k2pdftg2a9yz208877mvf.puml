@@ -1,0 +1,10 @@
+{
+  "sha1": "4y2mx11oa8k2pdftg2a9yz208877mvf",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.606Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[component] --> :actor:
+@enduml

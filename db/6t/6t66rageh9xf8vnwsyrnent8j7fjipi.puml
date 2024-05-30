@@ -1,0 +1,17 @@
+{
+  "sha1": "6t66rageh9xf8vnwsyrnent8j7fjipi",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.042Z",
+    "url": "https://forum.plantuml.net/10863/space-inside-quoted-string-influences-package-representation",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component guess as guess
+package "good-enough?" as goodenough {
+}
+guess -right-> goodenough
+package "improve " as improve {
+}
+improve -right-> guess
+@enduml

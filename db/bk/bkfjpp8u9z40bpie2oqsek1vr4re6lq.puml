@@ -1,0 +1,15 @@
+{
+  "sha1": "bkfjpp8u9z40bpie2oqsek1vr4re6lq",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.106Z",
+    "url": "https://forum.plantuml.net/11503/print-between-remove-resources-on-gantt-chart",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2020/05/14
+Print between 2020/05/14 and 2020/05/16
+[Task1] on {Alice} lasts 10 days
+[Task2] on {Bob:50%} lasts 2 days
+then [Task3] on {Alice:25%} lasts 1 days
+@endgantt

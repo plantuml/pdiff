@@ -1,0 +1,19 @@
+{
+  "sha1": "57oe3pc6m6upg27ad9qefhlvxyzhj4x",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.678Z",
+    "url": "https://github.com/plantuml/plantuml/issues/400",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ConditionStyle InsideDiamond
+start
+-> test;
+if (test?) then (yes)
+    :ok;
+else (no)
+    :bad;
+endif
+stop
+@enduml

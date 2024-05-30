@@ -1,0 +1,11 @@
+{
+  "sha1": "6ristqzy43s76bus6xq6eh2qd6imq2s",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.034Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1123",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Entity01 }|..|| Entity02
+@enduml

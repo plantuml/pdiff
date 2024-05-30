@@ -1,0 +1,13 @@
+{
+  "sha1": "90h92y3zlvnqw22s3cb66e11c6d30j7",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.574Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!definelong test_me()
+a->b:test
+!enddefinelong
+test_me()
+@enduml

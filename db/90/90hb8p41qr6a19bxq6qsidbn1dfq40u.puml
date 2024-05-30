@@ -1,0 +1,12 @@
+{
+  "sha1": "90hb8p41qr6a19bxq6qsidbn1dfq40u",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.574Z",
+    "url": "https://forum.plantuml.net/10831/gantt-year-incorrect-for-december",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+project starts on 2020-11-01
+[task1] starts on 2020-11-01 and ends on 2020-12-31
+@endgantt

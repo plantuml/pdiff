@@ -1,0 +1,17 @@
+{
+  "sha1": "9ls1bckytki7p47hry652ub6xbmdus8",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.714Z",
+    "url": "http://forum.plantuml.net/7968/just-a-note-over-an-activated-lifeline-does-not-work",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+title really long title
+box
+participant A
+end box
+activate A
+note over A: Hello
+@enduml

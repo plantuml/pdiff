@@ -1,0 +1,34 @@
+{
+  "sha1": "8pqdklahmpo3ihqtvr4vb703e12gdze",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.486Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "L1 cache reference" as L1
+concise "Branch mispredict" as BM
+concise "L2 cache reference" as L2
+concise "Mutex lock/unlock" as MUX
+concise "Main memory reference" as MEMREF
+concise "Compress 1K bytes with Zippy" as ZIP1K
+concise "Send 2K bytes over 1 Gbps network" as SEND2K
+concise "SSD random read" as SEEKSSD
+concise "Read 1 MB sequentially from memory" as RAM
+concise "Round trip within same datacenter" as DC
+concise "Read 1 MB sequentially from SSD" as SSD
+concise "Disk seek" as SEEKDISK
+concise "Read 1 MB sequentially from disk" as DISK
+concise "Send packet CA->Netherlands->CA" as NET
+
+
+
+@0
+L1 is done
+BM is "5 ns"
+
+@5
+BM is {hidden}
+
+
+@enduml

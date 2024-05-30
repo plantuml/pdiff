@@ -1,0 +1,13 @@
+{
+  "sha1": "6f3qr4g3awr3ofj07kb2x74sdfkcz55",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.942Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component foo1
+interface foo2
+database foo3
+foo1 --> foo2 : dummy
+@enduml

@@ -1,0 +1,24 @@
+{
+  "sha1": "3bi6uokkxolxa7d58cwwq1wsjtovtuq",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.230Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1253",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+classDiagram {
+    RoundCorner 15
+    .mystyle {
+    	RoundCorner 5
+        BackgroundColor cyan
+        FontStyle Bold
+        FontColor red
+    }
+}
+</style>
+class Alice1 <<<mystyle>>> {}
+class Alice2 <<<mystyle>>> {
+}
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "b3vlee6corywcpezgi41bif736r1fww",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.010Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=3936/overlapping-into-activity-diagram-between-big-note-and-arrow",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+while (toujours)
+:Prise en compte des commandes reçus;
+note right: - Ecriture d'un bloc flash\n- Vérification d'un block flash\n- Effacement d'un block flash\n- Récupération de la version firmware\n- Reset du micro;
+end while
+ 
+stop
+ 
+@enduml

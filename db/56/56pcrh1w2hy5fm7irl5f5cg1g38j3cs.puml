@@ -1,0 +1,21 @@
+{
+  "sha1": "56pcrh1w2hy5fm7irl5f5cg1g38j3cs",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.662Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+namespace net {
+a1 <|-- b1
+}
+
+namespace net.sourceforge {
+c1 <|-- d1
+c1 --> net.a1
+}
+
+net.b1 --> net.sourceforge.d123
+
+@enduml

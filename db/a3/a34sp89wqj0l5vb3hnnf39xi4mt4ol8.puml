@@ -1,0 +1,34 @@
+{
+  "sha1": "a34sp89wqj0l5vb3hnnf39xi4mt4ol8",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.814Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+{T!
++Region        | Population    | Age
++ World        | 7.13 billion  | 30
+++ America     | 964 million   | 30
+}
+--
+{T-
++Region        | Population    | Age
++ World        | 7.13 billion  | 30
+++ America     | 964 million   | 30
+}
+--
+{T+
++Region        | Population    | Age
++ World        | 7.13 billion  | 30
+++ America     | 964 million   | 30
+}
+--
+{T#
++Region        | Population    | Age
++ World        | 7.13 billion  | 30
+++ America     | 964 million   | 30
+}
+}
+@endsalt

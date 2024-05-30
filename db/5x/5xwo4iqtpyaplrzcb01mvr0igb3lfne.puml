@@ -1,0 +1,24 @@
+{
+  "sha1": "5xwo4iqtpyaplrzcb01mvr0igb3lfne",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.830Z",
+    "url": "https://github.com/plantuml/plantuml/pull/448",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam ArrowLollipopColor yellow
+skinparam BackgroundColor grey
+skinparam ComponentBackgroundColor grey
+skinparam Shadowing false
+
+[foo] -- [bar]
+foo 0--0 bar
+foo 0)--(0 bar
+foo #--# bar
+foo -(0)- bar
+foo -0)- bar
+foo -(0- bar
+
+@enduml

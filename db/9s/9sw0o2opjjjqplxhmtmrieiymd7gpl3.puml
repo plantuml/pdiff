@@ -1,0 +1,26 @@
+{
+  "sha1": "9sw0o2opjjjqplxhmtmrieiymd7gpl3",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.762Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Web Browser" as WB
+concise "Web User" as WU
+
+WB is Before1
+WU is Before2
+
+@0
+WU is Idle
+WB is Idle
+
+@100
+WU -> WB : URL
+WU is Waiting : some note
+WB is Processing : some other note
+
+@300
+WB is Waiting
+@enduml

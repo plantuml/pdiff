@@ -1,0 +1,12 @@
+{
+  "sha1": "bedjyhy7usn2g729ixpvdnb3nriubl0",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.078Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1241",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam HyperlinkUnderline false
+state "[[S1]]" as S1
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "8ckemxhl2ipvrzg4g1hds100bxu3rjy",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.390Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam flashcode 1
+Bob -> Alice : helloFlashcode
+@enduml

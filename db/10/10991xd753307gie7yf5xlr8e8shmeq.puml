@@ -1,0 +1,22 @@
+{
+  "sha1": "10991xd753307gie7yf5xlr8e8shmeq",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.518Z",
+    "url": "https://github.com/plantuml/plantuml/issues/423",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startboard
+Activity 1
++User Task 1a
++++red
+
+Activity 2
++User Task 2
+++blue1
+++blue2
+
+
+Activity 3
++User Task 3
+@endboard

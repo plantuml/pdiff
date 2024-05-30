@@ -1,0 +1,15 @@
+{
+  "sha1": "7gynqf36bo6iemh2r3j3z7tnv9ksuef",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.202Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A {
++attribute
+}
+note right of A::attribute
+  This member is annotated
+end note
+@enduml

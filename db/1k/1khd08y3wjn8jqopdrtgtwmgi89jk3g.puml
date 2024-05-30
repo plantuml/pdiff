@@ -1,0 +1,21 @@
+{
+  "sha1": "1khd08y3wjn8jqopdrtgtwmgi89jk3g",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.718Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:foo1;
+note left
+my list is:
+* first item
+* second **item**
+** foo1
+# number 1
+# number **two**
+Foo1
+**Just** some bold information
+end note
+@enduml

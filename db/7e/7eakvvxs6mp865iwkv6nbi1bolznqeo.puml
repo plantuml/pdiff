@@ -1,0 +1,15 @@
+{
+  "sha1": "7eakvvxs6mp865iwkv6nbi1bolznqeo",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.178Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1300",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Alice as a
+participant Bob   as b
+
+a <->(50)    b : ""<->  ""
+
+@enduml

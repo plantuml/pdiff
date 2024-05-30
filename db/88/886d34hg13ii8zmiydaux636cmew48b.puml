@@ -1,0 +1,31 @@
+{
+  "sha1": "886d34hg13ii8zmiydaux636cmew48b",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.366Z",
+    "url": "https://forum.plantuml.net/11761/stereotype-overrides-database-stereotype-customisation",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide footbox
+hide << new >> stereotype
+
+skinparam database {
+    BorderColor<< new >> red
+    BorderColor black
+    BackgroundColor white
+}
+
+skinparam participant {
+    BorderColor black
+    BackgroundColor white
+    BorderColor<< new >> red
+}
+
+participant SystemName<<new>>
+participant SystemNameChanged<<new>>
+database DBName
+database DBNameChanged<<new>>
+
+SystemName -> DBName
+@enduml

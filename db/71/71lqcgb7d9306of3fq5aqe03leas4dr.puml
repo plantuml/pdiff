@@ -1,0 +1,27 @@
+{
+  "sha1": "71lqcgb7d9306of3fq5aqe03leas4dr",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.106Z",
+    "url": "https://forum.plantuml.net/11936/for-timing-diagram-binary-data-allow-data-to-be-indetermine",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+clock clk with period 1
+binary "Enable" as EN
+
+@0
+EN is low
+
+@1
+EN is high
+
+@3
+EN is low
+
+@5
+EN is {low,high}
+
+@10
+EN is low
+@enduml

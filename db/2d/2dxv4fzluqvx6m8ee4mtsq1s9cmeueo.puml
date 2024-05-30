@@ -1,0 +1,25 @@
+{
+  "sha1": "2dxv4fzluqvx6m8ee4mtsq1s9cmeueo",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.962Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "MCU0" as MCU0
+robust "MCU1" as MCU1
+concise "Timing" as TIMING
+@0
+MCU0 is Setup_Data_to_Send
+MCU1 is Setup_Data_to_Send
+TIMING is 128us
+
+@250
+TIMING -> A : A
+MCU0 is Waiting
+MCU1 is Processing
+
+@500
+TIMING is Waiting
+
+@enduml

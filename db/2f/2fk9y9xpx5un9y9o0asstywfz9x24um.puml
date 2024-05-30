@@ -1,0 +1,42 @@
+{
+  "sha1": "2fk9y9xpx5un9y9o0asstywfz9x24um",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.982Z",
+    "url": "https://forum.plantuml.net/12087/allow-creole-component-deployment-case-creole-class-object",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title **KO** on V1.2020.16
+node n #pink [
+**test list 1**
+* Bullet list
+* Second item
+** Sub item
+*** Sub sub item
+* Third item
+----
+**test list 2**
+# Numbered list
+# Second item
+## Sub item
+## Another sub item
+# Third item
+]
+
+file f #pink as "
+**test list 1**
+* Bullet list
+* Second item
+** Sub item
+*** Sub sub item
+* Third item
+----
+**test list 2**
+# Numbered list
+# Second item
+## Sub item
+## Another sub item
+# Third item
+"
+@enduml

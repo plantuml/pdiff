@@ -1,0 +1,24 @@
+{
+  "sha1": "2zuvekgap7u1i14zngv4504zyx8qm15",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.138Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+Reporter -- Queue
+Reporter -- WorkerPool
+Reporter -- Report
+
+Queue -- QueueEntry
+WorkerPool -- Worker
+Worker -- QueueEntry
+
+Report -- QueueEntry
+
+note left of Queue : left
+note right of Worker : right
+
+
+@enduml

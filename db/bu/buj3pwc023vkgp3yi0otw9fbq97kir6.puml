@@ -1,0 +1,26 @@
+{
+  "sha1": "buj3pwc023vkgp3yi0otw9fbq97kir6",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.166Z",
+    "url": "http://forum.plantuml.net/6877/timing-diagram-feature-request-for-adding-notes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Web Browser" as WB
+concise "Web User" as WU
+
+@0
+WU is Idle
+WB is Idle
+
+@100
+'WU is Waiting : THIS TEXT SHOULD SHOW IN A NOTE ABOVE THE MIDDLE of the < Waiting > - bar
+WU is Waiting
+WB is Processing
+note top of WU : first note\non\nlines
+/'WU note THIS TEXT SHOULD SHOW ABOVE THE STATE CHANGE AT T=100 AND COULD EXPLAIN WHY THE STATE CHANGED'/
+
+@300
+WB is Waiting
+@enduml

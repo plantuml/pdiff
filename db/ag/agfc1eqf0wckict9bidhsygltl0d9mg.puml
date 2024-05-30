@@ -1,0 +1,16 @@
+{
+  "sha1": "agfc1eqf0wckict9bidhsygltl0d9mg",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.874Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+left side
+
+* count with a very long name
+** 100
+*** 101
+*** 102
+** 200
+@endmindmap

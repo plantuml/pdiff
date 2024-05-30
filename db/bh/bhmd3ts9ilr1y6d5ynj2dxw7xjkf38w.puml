@@ -1,0 +1,11 @@
+{
+  "sha1": "bhmd3ts9ilr1y6d5ynj2dxw7xjkf38w",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.094Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale max 600*200
+Alice->Bob:hello
+@enduml

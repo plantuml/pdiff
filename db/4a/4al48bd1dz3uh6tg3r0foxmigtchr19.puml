@@ -1,0 +1,12 @@
+{
+  "sha1": "4al48bd1dz3uh6tg3r0foxmigtchr19",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.462Z",
+    "url": "http://alphadoc.plantuml.com/doc/dokuwiki/en/regex-old",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+title specialLitteralText
+\\\^\$\.\|\?\*\+\(\)\[\]\{\}
+@endregex

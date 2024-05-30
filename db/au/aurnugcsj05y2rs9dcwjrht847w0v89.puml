@@ -1,0 +1,35 @@
+{
+  "sha1": "aurnugcsj05y2rs9dcwjrht847w0v89",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.962Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title With package
+
+package {
+() item10
+() item11
+() item12
+() lev1
+}
+
+lev0 ---> item10
+
+lev1 --> item12
+
+item10 -> item11
+item10 <- item11
+item11 -> item12
+item11 <- item12
+
+package o {
+() oo1
+}
+
+package {
+() oo2
+}
+
+@enduml

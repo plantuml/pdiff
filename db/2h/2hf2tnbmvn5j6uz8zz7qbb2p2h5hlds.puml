@@ -1,0 +1,22 @@
+{
+  "sha1": "2hf2tnbmvn5j6uz8zz7qbb2p2h5hlds",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.998Z",
+    "url": "https://forum.plantuml.net/14473/backward-in-activity-beta-break-in-swim-lanes?show=14648#a14648",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|#AntiqueWhite|System|
+|Admin|
+repeat :Generate Again;
+:Generate Foo;
+|System|
+:Bar;
+backward: Do bar;
+repeat while (Is foo?)  is (yes)
+->no;
+:finish foo;
+stop
+
+@enduml

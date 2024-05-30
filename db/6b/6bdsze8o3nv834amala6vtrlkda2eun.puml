@@ -1,0 +1,12 @@
+{
+  "sha1": "6bdsze8o3nv834amala6vtrlkda2eun",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.918Z",
+    "url": "https://github.com/plantuml/plantuml/issues/333#issuecomment-637542077",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startlatex
+dpi 300
+\sum_{i=0}^{n-1} (a_i + b_i^2)
+@endlatex

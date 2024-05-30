@@ -1,0 +1,17 @@
+{
+  "sha1": "6g55cxbv4rwsug2xhl02fam9986pvv1",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.950Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice: Authentication Failure
+group My own label [My own label 2]
+	Alice -> Log : Log attack start
+    loop 1000 times
+        Alice -> Bob: DNS Attack
+    end
+	Alice -> Log : Log attack end
+end
+@enduml

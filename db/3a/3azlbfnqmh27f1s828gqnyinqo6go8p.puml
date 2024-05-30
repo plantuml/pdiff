@@ -1,0 +1,36 @@
+{
+  "sha1": "3azlbfnqmh27f1s828gqnyinqo6go8p",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.222Z",
+    "url": "http://forum.plantuml.net/8612/teoz-wrong-note-position-after-array",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+participant Bob
+participant Alice
+
+note right of Alice: NOTE1
+& Bob -> Alice : Hello1
+
+Bob -> Alice : Hello2
+/ note right of Alice: NOTE2
+
+
+Bob -> Alice ++ #red: hello3
+return Hello33
+note right: Right3
+note left: Left3
+
+
+'This doesn't work:
+Bob -> Alice ++ #red: hello4
+note right of Alice: Right4
+& return Hello44
+
+Bob -> Alice ++ #red: hello5
+note right of Alice: Right5
+return Hello55
+
+@enduml

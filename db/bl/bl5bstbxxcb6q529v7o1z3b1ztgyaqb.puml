@@ -1,0 +1,29 @@
+{
+  "sha1": "bl5bstbxxcb6q529v7o1z3b1ztgyaqb",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.114Z",
+    "url": "https://forum.plantuml.net/11075/add-anchor-points-or-events-to-timing-diagrams?show=11128#c11128",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+clock clk with period 1
+binary "enable" as en
+concise "dataBus" as db
+
+@0
+en is low
+db is "0x0"
+
+@10 as :foo1
+ en is high
+@:foo1+1
+ db is "0xDEADBEEF"
+
+@30
+en is low
+@31 
+db is "0x0"
+
+
+@enduml

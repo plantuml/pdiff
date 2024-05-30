@@ -1,0 +1,15 @@
+{
+  "sha1": "7d10qywye7mytnaqx7jkmixzpea6n7l",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.170Z",
+    "url": "https://github.com/plantuml/plantuml/issues/337",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    namespace issues {
+        f1.function.Fox <|-- Rabbit
+        f1.AbstractSet <|-- Dog
+    }
+
+@enduml

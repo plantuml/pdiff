@@ -1,0 +1,15 @@
+{
+  "sha1": "b443ldgs1kn157jkl3erggysekh8jjg",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.010Z",
+    "url": "https://forum.plantuml.net/13983/encoding-error-with-nested-diagrams?show=14127#c14127",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class C {
+  {{
+  file f
+  }}
+}
+@enduml

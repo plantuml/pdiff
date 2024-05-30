@@ -1,0 +1,13 @@
+{
+  "sha1": "4gn156bzuzn2991pkeu10vh9ka2nklx",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.490Z",
+    "url": "http://forum.plantuml.net/8667/variable-substitution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define LOCATION New York
+!define TITLE This has been done in LOCATION
+title TITLE
+@enduml

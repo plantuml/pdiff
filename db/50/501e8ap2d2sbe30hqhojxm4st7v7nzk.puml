@@ -1,0 +1,15 @@
+{
+  "sha1": "501e8ap2d2sbe30hqhojxm4st7v7nzk",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.626Z",
+    "url": "http://forum.plantuml.net/4267/scaling-of-the-sprites-or-images",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <tupadr3/font-awesome-5/amazon>
+
+rectangle "It works." as r1 <<$amazon>> #LightGray
+rectangle "It works. <$amazon*2>" as r2 #LightGray
+rectangle "It doesn't work." as r3 <<$amazon*2>> #LightGray
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "apk0mmd33ffrfmc2ybebdxd490t07uf",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.922Z",
+    "url": "https://forum.plantuml.net/12946/bug-in-new-yaml-parser?show=12951#c12951",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startyaml
+app.kubernetes.io/component: grafana
+@endyaml 

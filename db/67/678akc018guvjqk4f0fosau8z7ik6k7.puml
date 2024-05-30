@@ -1,0 +1,19 @@
+{
+  "sha1": "678akc018guvjqk4f0fosau8z7ik6k7",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.894Z",
+    "url": "https://github.com/plantuml/plantuml/issues/863",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+state A as "A on several lines\nwith\na lot of text" {
+  X : aaa
+}
+state B {
+  Z : ccc
+}
+X -> Z
+X <- Z
+@enduml

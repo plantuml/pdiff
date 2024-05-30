@@ -1,0 +1,25 @@
+{
+  "sha1": "61uyxybqkg7ar1jgrga85f5bxw79jqj",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.850Z",
+    "url": "https://forum.plantuml.net/4696/notes-on-conditionnal-elements?show=18077#c18077",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (test?) then
+if (test2?) then
+:b0;
+:b1;
+:b2;
+else
+:c2;
+endif
+note: This note is on the inner if
+else
+:c;
+endif
+note right: This note is on the if
+stop
+@enduml

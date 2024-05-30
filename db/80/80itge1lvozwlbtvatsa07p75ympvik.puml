@@ -1,0 +1,29 @@
+{
+  "sha1": "80itge1lvozwlbtvatsa07p75ympvik",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.318Z",
+    "url": "https://forum.plantuml.net/10884/data-structures-json?show=11125#c11125",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$partlen=2
+!$data={"partlen": "2", "game": "GamePlantuml", "participants" :[
+{"name": "XYZ" ,"as": "xyz"},
+{"name": "RST" ,"as": "rst"},
+{"name": "UVW" ,"as": "uvw"}
+]
+}
+!$partlen=$data.partlen
+!$i=0
+   
+:a ;
+:$i;
+:$partlen;
+!foreach $part in $data.participants
+  :$part.name as $part.as;
+  :with direct concat1: %string("a" + "b" + "c");
+  :with direct concat2: %string($data.game + "_" + $part.name);
+!endfor
+:b;
+@enduml

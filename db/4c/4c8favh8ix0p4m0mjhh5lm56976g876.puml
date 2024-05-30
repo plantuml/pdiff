@@ -1,0 +1,37 @@
+{
+  "sha1": "4c8favh8ix0p4m0mjhh5lm56976g876",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.474Z",
+    "url": "http://forum.plantuml.net/8025/elseif-skinparam-doesnt-seem-to-use-the-activitydiamond?show=8868#c8868",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam linetype polyline
+skinparam linetype ortho
+skinparam backgroundColor #00000000
+
+skinparam activity {
+BackgroundColor<<iftrue>> #f4d03f
+BorderColor<<iftrue>> #FF6655
+BackgroundColor<<cond>> #58d68d
+BorderColor<<cond>> #58d68d
+BackgroundColor<<step1>> #58d68d
+BorderColor<<step1>> #58d68d
+ArrowColor #Black
+BackgroundColor blue
+BorderColor red
+FontName Impact
+}
+
+(*) -down[#black]-> "Evaluate loss index"  as step1 <<step1>>
+step1 -down-> if "" as conif then
+-left[#black]-> [Stopping criteria = true] "Improve neural network parameters
+    ====
+    * Calculate quasi-Newton training direction
+    * Calculate training rate" as iftrue <<iftrue>>
+iftrue -up[#black]-> step1
+else
+    -down[#black]-> [Stopping criteria = false] (*)
+endif
+@enduml

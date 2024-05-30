@@ -1,0 +1,29 @@
+{
+  "sha1": "58qqfhsx0l838b72wykdfnaw3iizeh5",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.682Z",
+    "url": "https://forum.plantuml.net/11835/you-can-no-longer-nest-partitions-from-version-2-13-11",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+/'
+Plantuml 2.13.10 >OK
+Plantuml 2.13.12 > Error
+'/
+
+
+partition "X"{
+  (*) --> "Initialization"
+  partition "Y"{
+    if "Some Test" then
+    -->[true] "Some Activity"
+    --> "Another activity"
+    -right-> (*)
+  else
+    ->[false] "Something else"
+    -->[Ending process] (*)
+  endif
+  }
+}
+@enduml

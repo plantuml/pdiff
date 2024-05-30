@@ -1,0 +1,18 @@
+{
+  "sha1": "brjwv0ts5ookmnpf59gt8s3tdfadduq",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.146Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define DOCUMENTATION_SERVER //my.server.com/path/
+!define DOC_EXTENSION pdf
+
+!definelong SEND(from,to,protocol,message)
+from -\ to[[ http:DOCUMENTATION_SERVER/public_protocols/protocol.DOC_EXTENSION ]] : protocol<b>:</b>message
+!enddefinelong
+
+SEND( AliceA , Bob,  "LDAP" , 'lookup(a,b)'  )
+
+@enduml

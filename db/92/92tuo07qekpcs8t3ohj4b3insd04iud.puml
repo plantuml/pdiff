@@ -1,0 +1,41 @@
+{
+  "sha1": "92tuo07qekpcs8t3ohj4b3insd04iud",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.586Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+if (Rule List has been loaded?) then (yes)
+  if (Is Request Method Internal?) then (yes)
+      stop
+  else (no)
+      if (Is Rule List empty?) then (yes)
+          stop
+      else (no)
+          if ( Is cache status != Hit?) then (yes)
+              stop
+          else (no)
+              :Get request's path;
+              :Get object's cached time;
+              while (has more rules?)
+                  if (Object's cached time > rule's timestamp?) then (yes)
+                      stop
+                  else (no)
+                      if (Rule's regex matches object's path?) then (yes)
+                          :Set object's cache status to Stale;
+                          :Set object's cached time to now;
+                          stop
+                      endif
+                  endif
+              endwhile
+              stop
+          endif
+      endif
+  endif
+else (no)
+    stop
+endif
+@enduml

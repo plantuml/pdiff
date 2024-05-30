@@ -1,0 +1,25 @@
+{
+  "sha1": "6kwojtbx7ghiz5eeuqc8hj7q5amzwtn",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.978Z",
+    "url": "https://forum.plantuml.net/16071/deployment-could-you-improve-port-management",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+left to right direction
+card c
+
+node node {
+  port p1
+  port p2
+  port p3
+  file f1
+}
+
+c --> p1
+c --> p2
+c --> p3
+p1 --> f1
+p2 --> f1
+@enduml

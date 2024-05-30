@@ -1,0 +1,36 @@
+{
+  "sha1": "2m933901d4fdijdba4jr6t5w4on4gk7",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.042Z",
+    "url": "https://forum.plantuml.net/10297/how-to-report-this-possible-bug-in-the-beta-nwdiag",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+  network NETWORK_BASE {
+   address = "aaa.bbb.ccc.x/24"
+
+   dev_A   [address = "aaa.bbb.ccc.20" ]
+   dev_B [address = "aaa.bbb.ccc.153" ]
+  }
+  network IntNET1 {
+   address = "192.168.1.x/24"
+
+   dev_B [address = "192.168.1.201, [192.168.1.200]" ]
+   dev_M1 [address = "192.168.1.101, [192.168.1.200]" ]
+
+   dev_G1 [address = "192.168.1.1" ]
+   dev_G2 [address = "192.168.1.2" ]
+  }
+  network IntNET2 {
+   address = "192.168.2.x/24"
+
+   dev_B [address = "192.168.2.201, [192.168.2.200]" ]
+   dev_M1 [address = "192.168.2.101, [192.168.2.200]" ]
+
+   dev_G1 [address = "192.168.2.1" ]
+   dev_G2 [address = "192.168.2.2" ]
+  }
+}
+@enduml

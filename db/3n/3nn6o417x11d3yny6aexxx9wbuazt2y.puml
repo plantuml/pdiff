@@ -1,0 +1,11 @@
+{
+  "sha1": "3nn6o417x11d3yny6aexxx9wbuazt2y",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.306Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!includedef macro
+Alice -> Bob : hello2
+@enduml

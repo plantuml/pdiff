@@ -1,0 +1,11 @@
+{
+  "sha1": "2jdkkojjwxp6a91l8lk8vqfjk9tjsr2",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.018Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant "[[http://www.address.com Line 1 Line 2]]" as MyComponent1
+participant "[[http://www.address.com Line 3\nLine 4]]" as MyComponent2
+@enduml

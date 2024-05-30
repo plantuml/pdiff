@@ -1,0 +1,14 @@
+{
+  "sha1": "4u0d1hz4unhy35142qi12dw4mit6eeq",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.574Z",
+    "url": "https://github.com/plantuml/plantuml/issues/35#issuecomment-311310661",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam maxMessageSize 100
+component component1 [
+   this is a very long component description
+]
+@enduml

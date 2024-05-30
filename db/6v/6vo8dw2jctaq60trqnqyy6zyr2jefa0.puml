@@ -1,0 +1,42 @@
+{
+  "sha1": "6vo8dw2jctaq60trqnqyy6zyr2jefa0",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.062Z",
+    "url": "https://forum.plantuml.net/10545/vertical-if-composition-bug",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma useVerticalIf on
+start
+floating note right: Procedure DOC_XML
+partition "block" {
+:do1;
+WHILE (cond2) is (**loop**)
+IF (cond3) THEN (**yes**)
+:do4;
+WHILE (cond5) is (**loop**)
+IF (cond6) THEN (**yes**)
+:do7;
+ELSEIF (cond8) THEN (**yes**)
+:do9;
+ENDIF
+ENDWHILE (**end**)
+:do10;
+ENDIF
+IF (cond11) THEN (**yes**)
+:do12;
+break
+ENDIF
+ENDWHILE (**end**)
+:do13;
+(E)
+detach
+partition "Exception handler for others" #Salmon {
+:do15;
+}
+(E)
+}
+
+stop
+@enduml

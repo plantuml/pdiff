@@ -1,0 +1,13 @@
+{
+  "sha1": "6t75j6ely9nn7ole4mo3bkvkitk2tz4",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.042Z",
+    "url": "https://forum.plantuml.net/10266/error-if-not-at-least-a-newline-in-class-namespace-package",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package foo {}
+namespace bar {}
+class qux {}
+@enduml

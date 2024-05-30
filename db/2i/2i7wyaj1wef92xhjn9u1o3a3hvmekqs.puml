@@ -1,0 +1,20 @@
+{
+  "sha1": "2i7wyaj1wef92xhjn9u1o3a3hvmekqs",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.010Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+map Foo {
+  '<b>abc</b> => 123
+  abc => 123
+}
+
+map Bar {
+  def => 456
+}
+
+Foo::abc => Bar::def
+
+@enduml

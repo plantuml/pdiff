@@ -1,0 +1,26 @@
+{
+  "sha1": "aee8sm496w07f96ifbu2jxxwcdf9q7u",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.862Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+set separator none
+state comp1 {
+
+    state ex <<exitpoint>>
+
+    [*] --> chk
+    chk --> ex
+    chk --> [*]
+}
+
+state comp2
+
+comp2 --> comp1
+comp1 --> comp2
+ex --> comp2
+
+@enduml

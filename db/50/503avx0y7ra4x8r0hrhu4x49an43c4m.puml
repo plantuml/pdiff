@@ -1,0 +1,10 @@
+{
+  "sha1": "503avx0y7ra4x8r0hrhu4x49an43c4m",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.626Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+enum MonEnum
+@enduml

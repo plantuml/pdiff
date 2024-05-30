@@ -1,0 +1,15 @@
+{
+  "sha1": "9m6dzyjckcjq26ua38vkk3e1cs5p4fa",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.718Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class Test {
+}
+
+note "PayIn (Coins), GiftCard(?)" as TestNote
+Test .. TestNote
+@enduml

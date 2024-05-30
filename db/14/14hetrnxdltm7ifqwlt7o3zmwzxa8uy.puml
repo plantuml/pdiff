@@ -1,0 +1,43 @@
+{
+  "sha1": "14hetrnxdltm7ifqwlt7o3zmwzxa8uy",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.562Z",
+    "url": "https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+<style>
+jsonDiagram {
+  node {
+    BackGroundColor lightblue
+    LineColor lightblue
+	FontName Helvetica
+	FontColor Coral
+	FontSize 12
+	FontStyle bold
+	BackGroundColor Khaki
+  }
+  arrow {
+    BackGroundColor lightblue
+    LineColor green
+  }
+}
+</style>
+{
+    "quiz": {
+        "sport": {
+            "q1": {
+                "question": "Which one is correct team name in NBA?",
+                "options": [
+                    "New York Bulls",
+                    "Los Angeles Kings",
+                    "Golden State Warriros",
+                    "Huston Rocket"
+                ],
+                "answer": "Huston Rocket"
+            }
+        }
+    }
+}
+@endjson

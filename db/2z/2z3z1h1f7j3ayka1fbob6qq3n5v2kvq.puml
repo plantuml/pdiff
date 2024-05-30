@@ -1,0 +1,11 @@
+{
+  "sha1": "2z3z1h1f7j3ayka1fbob6qq3n5v2kvq",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.134Z",
+    "url": "https://forum.plantuml.net/17798/grammar-occurs-specifying-digits-keyword-timing-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "WB" as １２３
+@enduml

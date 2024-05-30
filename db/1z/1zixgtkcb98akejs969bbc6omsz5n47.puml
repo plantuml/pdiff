@@ -1,0 +1,13 @@
+{
+  "sha1": "1zixgtkcb98akejs969bbc6omsz5n47",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.862Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1467",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    MoreComplex [x: String] ..> X
+    MoreComplex [y: int] --> Y
+    MoreComplex [z: boolean] ..> Z
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "a3750a9r73tquwxzc1agmc09sbb68sx",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.814Z",
+    "url": "https://forum.plantuml.net/10048/unsupportedoperationexception-atomwithmargin",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam wrapWidth 200
+
+rectangle PlanProduct {
+    rectangle planProduct_qpt
+    note left of planProduct_qpt
+    |_ abc
+    end note
+}
+
+@enduml

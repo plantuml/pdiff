@@ -1,0 +1,54 @@
+{
+  "sha1": "2is58i26qm12xyv6ziiivlwqaj0ezpm",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.014Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> "
+{{
+salt
+{+
+<b>an example
+choose one option
+()one
+()two
+[ok]
+}
+}}
+" as choose
+
+choose -right-> "
+{{
+salt
+{+
+<b>please wait
+operation in progress
+<&clock>
+[cancel]
+}
+}}
+" as wait
+wait -right-> "
+{{
+salt
+{+
+<b>success
+congratulations!
+[ok]
+}
+}}
+" as success
+
+wait -down-> "
+{{
+salt
+{+
+<b>error
+failed, sorry
+[ok]
+}
+}}
+"
+@enduml

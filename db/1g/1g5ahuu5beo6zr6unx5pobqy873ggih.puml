@@ -1,0 +1,26 @@
+{
+  "sha1": "1g5ahuu5beo6zr6unx5pobqy873ggih",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.670Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant "Class A" as a
+participant "Class B" as b
+participant "Class C" as c
+
+a -> b ++: message 1
+    b -> b ++: message 2
+        b ->> c **: message 3
+            activate c
+            c -> b ++: message 4
+                    b -> a ++: message 5
+                        return success
+                return success
+            deactivate c
+            destroy c
+        return success
+    return success
+		
+@enduml

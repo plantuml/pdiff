@@ -1,0 +1,12 @@
+{
+  "sha1": "beaz28x4g18mis18bmvanspwux0c06h",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.074Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) -[bold,#FFFF00]-> "this is
+on several line"
+-[#red]-> ok
+@enduml

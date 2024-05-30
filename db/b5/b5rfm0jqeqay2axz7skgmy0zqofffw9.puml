@@ -1,0 +1,18 @@
+{
+  "sha1": "b5rfm0jqeqay2axz7skgmy0zqofffw9",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.022Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam CircledCharacterFontSize 10
+participant Bob << (C,#FFFF00) toto >>
+participant Alice << Personnage >>
+participant Chat << (C,#00FFFF) >>
+
+Bob->Alice: test
+Alice -> Chat: test
+
+@enduml

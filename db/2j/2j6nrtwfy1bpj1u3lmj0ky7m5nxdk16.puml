@@ -1,0 +1,31 @@
+{
+  "sha1": "2j6nrtwfy1bpj1u3lmj0ky7m5nxdk16",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.014Z",
+    "url": "http://forum.plantuml.net/8861/multiple-color-lines-missing-vertical-spacing",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam colorArrowSeparationSpace 5
+Start
+-[#green;#orange]->
+if (CondA) then (A?)
+  -[#green;#orange]->
+  :Do A;
+else (B?)
+  -[#green;#orange]->
+  :Do B;
+endif
+
+-[#green;#orange]->
+if (CondB) then (A?)
+  :Do A;
+elseif () then (B?)
+  :Do B;
+else (C?)
+  -[#green;#orange]->
+  :Do C;
+endif
+Stop
+@enduml

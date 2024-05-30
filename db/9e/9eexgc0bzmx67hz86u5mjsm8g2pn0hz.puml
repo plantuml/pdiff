@@ -1,0 +1,16 @@
+{
+  "sha1": "9eexgc0bzmx67hz86u5mjsm8g2pn0hz",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.674Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam svek true
+package A {
+class B {
+}
+} 
+C -right-* D
+E *-- F
+@enduml

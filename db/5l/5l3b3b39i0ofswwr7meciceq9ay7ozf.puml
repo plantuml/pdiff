@@ -1,0 +1,15 @@
+{
+  "sha1": "5l3b3b39i0ofswwr7meciceq9ay7ozf",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.766Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[Component #1] as comp1
+[Component #2] as comp2
+
+comp1 -- comp2
+
+hide comp2
+@enduml

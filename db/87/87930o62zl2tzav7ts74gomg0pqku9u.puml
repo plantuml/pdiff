@@ -1,0 +1,12 @@
+{
+  "sha1": "87930o62zl2tzav7ts74gomg0pqku9u",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.358Z",
+    "url": "https://forum.plantuml.net/16779/ebnf-allow-empty-definition",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+title See example of §8.2 of ISO-EBNF
+empty = ;
+@endebnf

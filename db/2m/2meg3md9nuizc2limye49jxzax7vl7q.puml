@@ -1,0 +1,16 @@
+{
+  "sha1": "2meg3md9nuizc2limye49jxzax7vl7q",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.046Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam style strictuml
+class dummy
+note top of dummy
+  In java, <size:18>every</size> <u>class</u>
+  <b>extends</b>
+  <i>this</i> one.
+end note
+@enduml 

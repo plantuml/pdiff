@@ -1,0 +1,23 @@
+{
+  "sha1": "3u7ii8j2pktarsuwdnqsibzdg9g4ueo",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.358Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package FrameA <<Frame>> {   
+}
+
+package FrameB <<Frame>> {
+    class Foo{
+    }
+}
+
+package DatabaseX <<Database>> {   
+}
+
+package DatabaseY <<Database>> {
+    note "Hello World" as hello
+}
+@enduml

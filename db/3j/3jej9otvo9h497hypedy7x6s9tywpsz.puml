@@ -1,0 +1,23 @@
+{
+  "sha1": "3jej9otvo9h497hypedy7x6s9tywpsz",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.282Z",
+    "url": "https://forum.plantuml.net/11645/style-for-note-on-component-and-deployement-diagram-class",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+<style>
+note {
+  FontSize 10
+  BackGroundColor #fff
+  .green {
+        BackgroundColor green
+   }
+}
+</style>
+
+class Foo
+note left <<green>>: On last defined class
+@enduml

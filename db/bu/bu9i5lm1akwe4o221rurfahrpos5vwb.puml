@@ -1,0 +1,22 @@
+{
+  "sha1": "bu9i5lm1akwe4o221rurfahrpos5vwb",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.162Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package A {
+  [router]
+  node physical1 {
+      [L]
+  }
+}
+
+package B {
+  node physical1 {
+    [L]
+    [L] -- A.physical1.L
+  }
+}
+@enduml

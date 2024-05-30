@@ -1,0 +1,28 @@
+{
+  "sha1": "2gbosf84ukltmw6g2tyn1vqwjnpdl34",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.986Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+actor "FKM-Expert" as E
+participant FKM
+
+FKM -> E : 40
+
+note right
+The card contains 4 groups: header, card id, informative information
+and specific content according to the card type.
+This profile can see an icon that allow user to create a new card
+starting from the current card as template
+and a second icon that allows him to enter the edit mode.
+Add to favorite and Languages actions are displayed.
+Rubric edit, Copy and Watch this page actions are displayed for this profile
+end note
+
+FKM --> E : 60 The system displays card creation screen with correct parameters
+
+
+@enduml

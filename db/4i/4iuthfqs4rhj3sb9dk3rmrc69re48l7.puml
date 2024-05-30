@@ -1,0 +1,36 @@
+{
+  "sha1": "4iuthfqs4rhj3sb9dk3rmrc69re48l7",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.502Z",
+    "url": "https://github.com/plantuml/plantuml/issues/577#issuecomment-1116117741",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Home Page;
+note left: This is a note 1/4
+floating note right: This is a note 2/4
+
+switch (action)
+note left: WHAT 1/4
+case ( click - linka )
+   note left: WHAT 2/4
+  :Page 1.1;
+   note left: WHAT 3/4
+case ( click - linkb )
+  :Page 1.2;
+  switch (action)
+  case ( click - linkdsfsdf )
+    :first;
+    stop
+  case ( click - linkb )
+    :second;
+    floating note right: WHAT 4/4
+  endswitch
+endswitch
+floating note left: This is a note 3/4
+:someending;
+floating note left: This is a note 4/4
+stop
+@enduml

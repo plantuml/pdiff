@@ -1,0 +1,16 @@
+{
+  "sha1": "4fm8a42ko1kvm5l1t4plb1p28kvbdeo",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.482Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+alt foo
+Bob->Alice : hello
+Bob<-Alice : hello
+end
+note right: Some explication on the large unused space beside the alt block.
+Alice->John_smith : hello
+Alice->An_other_actor : hello
+@enduml

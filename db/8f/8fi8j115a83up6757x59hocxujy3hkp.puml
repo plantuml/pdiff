@@ -1,0 +1,29 @@
+{
+  "sha1": "8fi8j115a83up6757x59hocxujy3hkp",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.410Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+<style>
+SequenceDiagram {
+    participant {
+        BackgroundColor Blue
+    }
+    actor {
+    .foo2 {
+        BackgroundColor Red
+        FontColor Blue
+    }
+    }
+}
+</style>
+
+participant Bob 
+actor Alice <<foo2>>
+actor Charlie <<foo3>>
+actor David <<foo4>>
+
+@enduml

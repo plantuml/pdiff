@@ -1,0 +1,12 @@
+{
+  "sha1": "aiylno45q4ws53rx6mu6otes7nlsk7u",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.882Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class javax.sound.sampled.AudioFormat.Encoding
+net.sourceforge.mazix.components.sound.AudioManager ..> javax.sound.sampled.AudioFormat.Encoding
+net.sourceforge.mazix.components.sound.AudioTest ..> javax.sound.sampled.AudioFormat
+@enduml

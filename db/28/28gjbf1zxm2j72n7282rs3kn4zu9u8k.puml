@@ -1,0 +1,26 @@
+{
+  "sha1": "28gjbf1zxm2j72n7282rs3kn4zu9u8k",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.930Z",
+    "url": "http://forum.plantuml.net/8598/skinparam-rectangle-not-working-in-activity-beta",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam  rectangle {
+    RoundCorner<<action>> 25
+    BackgroundColor<<action>> blue
+    BorderColor<<action>> red
+}
+skinparam  rectangle {
+    RoundCorner 10
+    BackgroundColor yellow
+    BorderColor green
+}
+rectangle outerAction1 <<action>> {
+:innerAction1;
+}
+rectangle outerAction2 {
+:innerAction2;
+}
+@enduml

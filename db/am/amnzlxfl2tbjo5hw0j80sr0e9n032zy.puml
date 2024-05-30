@@ -1,0 +1,20 @@
+{
+  "sha1": "amnzlxfl2tbjo5hw0j80sr0e9n032zy",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.906Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+
+!function $sum($a, $b)
+!return $a+$b*2
+!endfunction
+
+Alice -> Bob : 8 $sum(2, 3)
+Alice -> Bob : 8 $sum($a=2, $b=3)
+Alice -> Bob : 8 $sum($b=3, $a=2)
+
+
+@enduml

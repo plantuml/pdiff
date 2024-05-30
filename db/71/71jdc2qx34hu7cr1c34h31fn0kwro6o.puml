@@ -1,0 +1,16 @@
+{
+  "sha1": "71jdc2qx34hu7cr1c34h31fn0kwro6o",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.106Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1332",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!pragma layout smetana
+
+class a
+
+a --> b : visible
+@enduml

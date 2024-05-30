@@ -1,0 +1,39 @@
+{
+  "sha1": "2prlxtzuku1xcvoyl1c55m9t6oo918u",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.066Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*)  --> Init
+
+--> Sleep
+--> "tick++"
+
+--> if "time to read source?" then
+
+-->[true] "read source"
+--> "traitement data"
+--> "Save in RAM"
+
+else --> "next source"
+if "Other test" then
+-left-> "activity 5"
+else
+--> "activity 6"
+endif
+endif
+
+else
+
+->[false] "activity 2"
+
+endif
+
+a3 --> if "last test" then
+--> "activity 7"
+else
+-> "activity 8"
+endif
+@enduml

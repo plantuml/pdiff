@@ -1,0 +1,16 @@
+{
+  "sha1": "ax2p8zkc5yeidccl0y1wjdbxjpfmh13",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.978Z",
+    "url": "https://forum.plantuml.net/9972/component-diagrams-please-direction-token-corresponding",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    component a as a {
+    }
+    component b as b {
+    }
+
+    a 0-[dashed]--0 b: test1
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "5a4b1s9w1jcx6zqrhvzs0o5b1urx9om",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.698Z",
+    "url": "https://forum.plantuml.net/10119/unable-to-refer-to-groups-with-spaces-using-square-brackets",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+node GroupA
+node "Group B" {
+}
+node GroupC {
+}
+node GroupD as "Group D"
+node GroupE
+
+[Group B] --> GroupA
+GroupC --> GroupA
+GroupD --> GroupA
+[GroupE] --> GroupA
+@enduml

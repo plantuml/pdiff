@@ -1,0 +1,15 @@
+{
+  "sha1": "9xjgjx7m3eni5ahts0bz9wy81uisbjq",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.782Z",
+    "url": "http://forum.plantuml.net/9031/do-you-plan-for-conditional-code-in-macros?show=9167#a9167",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!ijk = "foo"
+Alice -> Bob : ijk
+Alice -> Bob : ijkl
+Alice -> Bob : ijk-ensuite
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "3f0d6buigmrwanzpbe1cggvusrf0xl2",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.246Z",
+    "url": "https://forum.plantuml.net/10265/new-line-in-table-built-with-variables-is-ignored",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!global $table = "|= Field1 |= Field 2 |"
+!procedure $row($value1, $value2)
+%set_variable_value("$table", %get_variable_value("$table") + " \n | " + $value1 + " | " + $value2 + " |")
+!endprocedure
+
+$row("row 1", "2")
+
+title
+$table
+end title
+@enduml

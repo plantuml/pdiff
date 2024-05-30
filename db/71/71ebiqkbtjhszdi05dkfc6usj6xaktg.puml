@@ -1,0 +1,15 @@
+{
+  "sha1": "71ebiqkbtjhszdi05dkfc6usj6xaktg",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.102Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class class1 {
+    + public_member
+    --
+    - private_member
+}
+hide private members
+@enduml

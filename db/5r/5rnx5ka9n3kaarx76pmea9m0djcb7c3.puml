@@ -1,0 +1,54 @@
+{
+  "sha1": "5rnx5ka9n3kaarx76pmea9m0djcb7c3",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.794Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|ReleaseEngineer|
+start
+partition Information_Gathering {
+:Copy SW Release CN Work Instructions;
+partition Request_from_REL {
+:Try to talk face to face;
+:Attempt to find REL cell phone;
+:Send email requesting info
+ PCN#, CR#, old SW#;
+}
+|#LightBlue|REL|
+split
+:Respond to email
+ECRD#, GRP#, old SW#, SW Drawing#;
+|ReleaseEngineer|
+split
+:Fill in SW Release CN Work Instructions
+ECRD#, GRP#, old SW#, SW Drawing#;
+split again
+:Send email Request
+PCN#, GPA#, from Control Systems;
+end split
+|REL|
+split again
+:Send email Request\nCR# from Control Systems;
+|#Tan|ControlSystemsEngineer|
+:Respond to email with CR#;
+end split
+|ControlSystemsEngineer|
+:Respond to email with
+GPA#, PDTS#, Referenced GPA#;
+|ReleaseEngineer|
+:Send email Request to Control Systems 
+PCN#;
+|ControlSystemsEngineer|
+:Respond to email with
+PCA#, Model Info, old PCA#;
+}
+|ReleaseEngineer|
+:atask;
+partition Pull_Part_Number {
+
+}
+
+stop
+@enduml

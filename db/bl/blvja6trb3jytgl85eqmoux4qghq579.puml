@@ -1,0 +1,31 @@
+{
+  "sha1": "blvja6trb3jytgl85eqmoux4qghq579",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.114Z",
+    "url": "https://forum.plantuml.net/12055/drawing-issue-multinetwork-diag",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+network dmz {
+      address = "210.x.x.x/24"
+
+      web01 [address = "210.x.x.1"];
+      web02 [address = "210.x.x.2"];
+  }
+  network internal {
+      address = "172.x.x.x/24";
+
+      web01 [address = "172.x.x.1"];
+    
+  }
+network c {
+      address = "172.x.x.x/25";
+
+      web01 [address = "172.x.x.1"];
+      db01;
+      app01;
+  }
+}
+@enduml

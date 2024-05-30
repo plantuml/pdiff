@@ -1,0 +1,14 @@
+{
+  "sha1": "a751kh2nkhicikth4ndmyyslo2if3fh",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.830Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Class foo1 <<ABC>><<Foo>>
+Class foo2 <<(D,orange)ABC>>
+Class foo3 <<(D,orange)ABC>><<Foo>>
+Class foo4 <<ABC>><<(D,orange)Foo>>
+Class foo5 <<(D,orange)ABC>><<Foo>><<Bar>>
+@enduml

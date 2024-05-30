@@ -1,0 +1,19 @@
+{
+  "sha1": "3i6pklr8q1yz07zdjh2ajmc1g55ud9i",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.274Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam Legend {
+  BorderColor blue
+  BorderThickness 5.0
+  FontStyle italic
+}
+skinparam NoteBorderThickness 2.0
+alice -> bob
+legend right
+  This is the Legend!
+end legend
+@enduml

@@ -1,0 +1,28 @@
+{
+  "sha1": "8aitp3wg1tdudegud115609zvk3ij13",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.374Z",
+    "url": "https://forum.plantuml.net/11250/backward-for-while-confusing-arrow-layout-on-continuation",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+while(a)is(b)
+   :do something;
+   backward:test;
+endwhile
+
+#FF8080:Confusing layout
+The arrows look
+to cross each other; <<output>>
+
+while(a)is(b)
+   :do something;
+   :test;
+endwhile
+
+#80FF80:Correct
+arrow layout; <<output>>
+@enduml

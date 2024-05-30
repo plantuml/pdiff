@@ -1,0 +1,38 @@
+{
+  "sha1": "6jn3youlzy3sxa3736goeyn2w1gickf",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.970Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=5437/start-and-node-are-not-center",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Bob|
+start
+:A;
+ 
+|Alice|
+:B;
+  fork
+  |Alice|  
+  :B_1;
+  |Bob|
+  :C_1;
+  end
+  
+  fork again
+  |Alice|  
+  :B_2;
+  :B_2_1;
+  |Bob|
+  :C_2;
+  end
+ 
+  fork again
+  |Alice|  
+  :B_3;
+  :B_3_1;
+  end
+  
+  end fork
+@enduml

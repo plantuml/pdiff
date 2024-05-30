@@ -1,0 +1,26 @@
+{
+  "sha1": "1pmruh34vfqf7tbrirt9d46i07wt9gx",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.754Z",
+    "url": "https://forum.plantuml.net/14340/color-of-arrow-in-timing-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Web Browser" as WB
+concise "Web User" as WU
+
+WB is Initializing
+WU is Absent
+
+@WB
+0 is idle
++200 is Processing
++100 is Waiting
+WB@0 <-> @50 : {50 ms lag}
+
+@WU
+0 is Waiting
++500 is ok
+@200 <-> @+150 : {150 ms}
+@enduml

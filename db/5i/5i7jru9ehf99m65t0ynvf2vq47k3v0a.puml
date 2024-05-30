@@ -1,0 +1,35 @@
+{
+  "sha1": "5i7jru9ehf99m65t0ynvf2vq47k3v0a",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.746Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Fournisseur|
+start
+|Web Service|
+while (while1)
+if (test1) then
+:foo1;
+|Fournisseur|
+if (test2) then
+Stop
+else
+endif
+else
+|Web Service|
+:foo2;
+|Fournisseur|
+while (while2)
+:foo3;
+|Web Service|
+:foo4;
+endwhile
+endif
+|Fournisseur|
+:foo5;
+endwhile
+:Statut 050;
+stop
+@enduml

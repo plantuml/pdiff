@@ -1,0 +1,18 @@
+{
+  "sha1": "1h43ybmnbm5eijesh364m56frap4o3v",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.686Z",
+    "url": "https://forum.plantuml.net/12844/please-allow-%23transparent-synonym-%2300000000-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam BackGroundColor pink
+scale 1.5
+:a;
+-[#00000000]-> OK, opacity min: that is transparent;
+:b;
+-[#transparent]-> KO, it's white not transparent!;
+:c;
+
+@enduml

@@ -1,0 +1,15 @@
+{
+  "sha1": "26ykdn2lfy3nhjq9kjb11qt0rb17q77",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.918Z",
+    "url": "https://forum.plantuml.net/16824/can-history-deep-history-substates-specified-alias-manner",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state a {
+   state start1 as "Start 1" <<start>>
+   state history2 as "History 2" <<history>>
+   state history3 as "History 3" <<history*>>
+}
+@enduml

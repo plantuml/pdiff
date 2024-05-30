@@ -1,0 +1,16 @@
+{
+  "sha1": "2d52iul5wy8uyv5w097pfwu0rt3hlg1",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.958Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 200 height
+actor "Employee" as EMP
+[Tomcat] as APP
+[Oracle] as DB
+EMP -- APP
+APP -- DB
+url of APP is [[http://tomcat.apache.org/]]
+@enduml

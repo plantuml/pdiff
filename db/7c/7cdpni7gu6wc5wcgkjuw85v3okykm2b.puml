@@ -1,0 +1,28 @@
+{
+  "sha1": "7cdpni7gu6wc5wcgkjuw85v3okykm2b",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.166Z",
+    "url": "https://github.com/plantuml/plantuml/issues/180",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+switch (color)
+case (red)
+  :Text 1;
+case (blue)
+  :Text 2;
+case (green)
+  :Text 3;
+case (green 4)
+  :Text 4;
+case (green 5)
+  :Text 5;
+case (green 6)
+  :Text 6;
+case (green 7)
+  :Text 7;
+endswitch
+stop
+@enduml

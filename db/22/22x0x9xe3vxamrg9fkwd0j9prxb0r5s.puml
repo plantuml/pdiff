@@ -1,0 +1,14 @@
+{
+  "sha1": "22x0x9xe3vxamrg9fkwd0j9prxb0r5s",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.890Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+namespace net.sourceforge {
+  c1 <|-- d1
+  c1 --> d2
+}
+@enduml

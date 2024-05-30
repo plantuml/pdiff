@@ -1,0 +1,15 @@
+{
+  "sha1": "7tpv7zylcvwwwblmttwxg51wg3hj0xr",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.278Z",
+    "url": "https://github.com/plantuml/plantuml/issues/40",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!definelong TEST(name)
+  JOIN(A,name,C)
+!enddefinelong
+!define JOIN(a,b,c) ##a##b##c
+Alice-> Bob : TEST(B)
+@enduml

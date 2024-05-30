@@ -1,0 +1,19 @@
+{
+  "sha1": "1q1ro5vw966vukd8he22u3e9plboz7n",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.758Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> "Long Alice"
+note left "Long Alice" : hello
+activate "Long Alice"
+"Long Alice" -> Bob : ok
+note over Bob, "Long Alice" : ok
+note right of "Long Alice"
+  this
+  is
+   long
+end note
+@enduml

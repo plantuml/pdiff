@@ -1,0 +1,17 @@
+{
+  "sha1": "4pyhi5bm9t38qt3v4msg30m49kd062f",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.542Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+together {
+rectangle 1670869349606
+rectangle 1670869796774
+}
+together {
+rectangle 1670869341141
+rectangle 1670869555171
+}
+@enduml

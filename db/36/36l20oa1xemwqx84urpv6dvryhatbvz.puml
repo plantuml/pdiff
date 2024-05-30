@@ -1,0 +1,12 @@
+{
+  "sha1": "36l20oa1xemwqx84urpv6dvryhatbvz",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.198Z",
+    "url": "https://forum.plantuml.net/10509/senderless-create-message-object-lifeline-rather-create-object",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+create a
+-> a : create
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "bxkcuetv6eb0f9ub5yq87e6v4jno3sa",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.182Z",
+    "url": "https://github.com/plantuml/plantuml/issues/342#issuecomment-646623523",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class "EventEmitter"
+hide "EventEmitter" circle
+@enduml

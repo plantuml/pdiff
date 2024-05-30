@@ -1,0 +1,16 @@
+{
+  "sha1": "7azktkpwm76biem0ic9y1xudx2iov9u",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.158Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+cloud "Network" as Netw {
+node "PC1"
+note left: i7
+}
+ 
+note right of Netw: RJ45
+
+@enduml

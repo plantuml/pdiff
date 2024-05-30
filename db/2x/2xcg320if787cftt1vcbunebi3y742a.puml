@@ -1,0 +1,18 @@
+{
+  "sha1": "2xcg320if787cftt1vcbunebi3y742a",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.126Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+!function id($text1, $text2 = "default")
+!return $text1 + $text2
+!endfunction
+
+
+alice -> bob : id("aa")
+alice -> bob : id("ab", "cd")
+@enduml

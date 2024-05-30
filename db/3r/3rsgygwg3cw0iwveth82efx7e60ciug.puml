@@ -1,0 +1,20 @@
+{
+  "sha1": "3rsgygwg3cw0iwveth82efx7e60ciug",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.342Z",
+    "url": "https://forum.plantuml.net/16985/center-aligned-text-not-in-the-middle-of-a-node",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+skinparam DefaultTextAlignment center
+<style>
+node {
+  HorizontalAlignment center
+  MaximumWidth 250
+  MinimumWidth 250
+}
+</style>
+* Root\nThis text is centered\nbut not in the middle
+** Node\nThis text is centered\nbut not in the middle either
+@endwbs

@@ -1,0 +1,26 @@
+{
+  "sha1": "7hz94138rl1sstyfdkt9l3okfgg7y12",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.210Z",
+    "url": "https://forum.plantuml.net/16825/color-double-arrow-in-timing-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Web Browser" as WB
+concise "Web User" as WU
+
+WB is Initializing
+WU is Absent
+
+@WB
+0 is idle
++200 is Processing
++100 is Waiting
+WB@0 <-[#blue]> @50 : <font:5><color:blue>blablabla
+
+@WU
+0 is Waiting
++500 is ok
+@200 <-> @+150 : {150 ms}
+@enduml

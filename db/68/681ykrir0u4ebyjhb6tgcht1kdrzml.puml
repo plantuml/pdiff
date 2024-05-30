@@ -1,0 +1,17 @@
+{
+  "sha1": "681ykrir0u4ebyjhb6tgcht1kdrzml",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.898Z",
+    "url": "http://forum.plantuml.net/8649/use-of-%23%23-in-define-macro-stops-macro-replacement",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant ashly
+participant blake
+
+!define interact( task, src, msg, trg )  src [color_##task##_arw]-> trg: msg
+!define color_blob_arw        #202020
+
+interact( blob, ashly, HELLO, blake )
+@enduml

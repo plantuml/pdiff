@@ -1,0 +1,19 @@
+{
+  "sha1": "8hz71jvyv1uknok4jjq1j0do6f05vr5",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.426Z",
+    "url": "https://github.com/plantuml/plantuml/issues/134",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+skinparam noteTextAlignment center
+Alice->Bob:m1
+Bob->Charlie:m2
+note across
+this center
+on several lines
+end note
+Bob->Alice
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "7fl827jajidwyrfh55ps0b1rcqoeoh8",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.190Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|swinlane1|
+:first;
+:second;
+|swinlane2|
+:swinlane2;
+|swinlane3|
+:swinlane3;
+|swinlane1|
+:back to swinline1;
+|swinlane2|
+:back to swinline2;
+@enduml

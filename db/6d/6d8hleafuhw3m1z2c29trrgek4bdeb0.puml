@@ -1,0 +1,21 @@
+{
+  "sha1": "6d8hleafuhw3m1z2c29trrgek4bdeb0",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.930Z",
+    "url": "https://forum.plantuml.net/16809/colors-concise-timeline-timing-diagram-dont-respect-color",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+concise "Bas" as bas
+
+bas is werken #LightCyan;line:Blue
+
+
+@bas
+
+16:00:00 is thuis #lightpink;line:red
+
+
+@enduml

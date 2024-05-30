@@ -1,0 +1,15 @@
+{
+  "sha1": "6u9uieg4kz3avotzvkx4ze0oz9cdhbn",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.054Z",
+    "url": "https://forum.plantuml.net/15879",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam rectangle {
+    shadowing true
+}
+
+rectangle "Web Application" as web_app
+@enduml

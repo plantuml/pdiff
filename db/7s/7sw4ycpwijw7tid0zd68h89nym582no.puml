@@ -1,0 +1,13 @@
+{
+  "sha1": "7sw4ycpwijw7tid0zd68h89nym582no",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.270Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:ac1: -left-> (uc1 left) 
+:ac1: -> (uc2 right) 
+:ac1: -up-> (uc3 up) 
+:ac1: --> (uc4 down) 
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "7nqji01jyfvo71h2s6z14f3mrkm0jlq",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.246Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts the 2017/09/20
+[Prototype design] as [TASK1] lasts 13 days
+[TASK1] is colored in Lavender/LightBlue
+@endgantt

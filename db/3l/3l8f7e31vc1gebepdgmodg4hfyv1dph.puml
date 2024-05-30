@@ -1,0 +1,22 @@
+{
+  "sha1": "3l8f7e31vc1gebepdgmodg4hfyv1dph",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.294Z",
+    "url": "https://forum.plantuml.net/14529/activity-style-allow-style-diamond-internal-label-external?show=15726#c15726",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+activityDiagram {
+  MaximumWidth 100
+}
+</style>
+switch (Long long long Long long long condition?)
+case (Long long long long long long long long long case 1)
+   :Action  1;
+case (<b><color:red>Arrow Error\nLong long long long long long long long long case 2)
+   :Action  2;
+endswitch
+
+@enduml

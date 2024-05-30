@@ -1,0 +1,14 @@
+{
+  "sha1": "bnsb5snxmc5ih6mnaxnqatdw2qfxvq1",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.134Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundcolor transparent
+State s1 #red|yellow
+note right #black-yellow
+  this is a note
+end note
+@enduml

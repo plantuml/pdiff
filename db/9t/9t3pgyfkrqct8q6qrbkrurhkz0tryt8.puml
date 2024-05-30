@@ -1,0 +1,13 @@
+{
+  "sha1": "9t3pgyfkrqct8q6qrbkrurhkz0tryt8",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.766Z",
+    "url": "https://forum.plantuml.net/16285/gantt-diagram-how-to-start-project-number-days-before-today",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+!$today = %date("YYYY-MM-dd", 200 * 20000)
+Project starts $today
+[foo] lasts 10 days
+@endgantt

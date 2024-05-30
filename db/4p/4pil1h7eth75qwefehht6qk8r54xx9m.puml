@@ -1,0 +1,15 @@
+{
+  "sha1": "4pil1h7eth75qwefehht6qk8r54xx9m",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.538Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ClassStereotypeFontSize 30
+skinparam ClassStereotypeFontName Times
+
+class Demo << Stereo >>
+
+
+@enduml

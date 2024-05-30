@@ -1,0 +1,14 @@
+{
+  "sha1": "advs7kl7v6144lim455sjxhxyytin2g",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.862Z",
+    "url": "https://forum.plantuml.net/10088/no-else-case",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (One) then (Yes)
+elseif (Two) then (Yes)
+endif
+@enduml

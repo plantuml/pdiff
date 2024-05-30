@@ -1,0 +1,23 @@
+{
+  "sha1": "6x4h32gcwel6omg1fx42m3199t21lic",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.070Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+sequenceDiagram {
+  lifeLine {
+	lineColor green
+	lineThickness 5
+	lineStyle 0
+  }
+}
+</style>
+
+entity Alice
+entity Bob
+
+Alice -> Bob
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "9dy31r9ogammenl1wr1ealgigcc1c6q",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.662Z",
+    "url": "https://forum.plantuml.net/9893/more-compact-specification-of-nested-namespaces",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace a {
+}
+namespace a.b {
+}
+namespace a.c {
+}
+namespace d {
+    namespace e {
+    }
+    namespace f {
+    }
+}
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "1trftmc9knwbhtotan65a1flcvtktw9",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.786Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skin BlueModern
+
+Alice -> Bob: ok
+alt
+Alice -> Bob: ok
+end
+
+ref over Alice,Bob
+  some text
+end
+@enduml

@@ -1,0 +1,28 @@
+{
+  "sha1": "76kdxlo24exgeqzah2av9vscxy7v64h",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.126Z",
+    "url": "https://forum.plantuml.net/11606/full-opacity-alpha-compositing-support-for-svg-and-png",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam BackgroundColor transparent
+skinparam shadowing false
+skinparam SequenceGroupBodyBackgroundColor 66000099
+
+participant client
+box
+  participant server
+end box
+
+opt
+client -> server : first hello //opt//
+  opt
+    client -> server : second hello //opt//\nwith more green
+  end opt
+end opt
+opt
+  client <- server : hello //opt//
+end opt
+@enduml

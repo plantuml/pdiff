@@ -1,0 +1,16 @@
+{
+  "sha1": "60o26pj2m3jlggb4ana1oathu5s52eq",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.842Z",
+    "url": "https://forum.plantuml.net/16980/%25substr-%24variable-does-not-work-strings-are-added-same-line",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+legend
+!$labelWithDetails = "12345"
+!$brPos = 3
+!$line = "A" + %substr($labelWithDetails, 4) + "B"
+$line
+endlegend
+@enduml

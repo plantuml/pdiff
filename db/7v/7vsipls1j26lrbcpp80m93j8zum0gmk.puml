@@ -1,0 +1,11 @@
+{
+  "sha1": "7vsipls1j26lrbcpp80m93j8zum0gmk",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.290Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide footbox
+class Car
+@enduml

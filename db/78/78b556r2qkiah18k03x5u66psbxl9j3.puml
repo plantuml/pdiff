@@ -1,0 +1,39 @@
+{
+  "sha1": "78b556r2qkiah18k03x5u66psbxl9j3",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.142Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+'=====================================================================================
+    ' Params section
+    <style>
+
+    node {
+        Padding 12
+        Margin 40
+        HorizontalAlignment center
+        LineColor Black
+        LineThickness 1.0
+        BackgroundColor LightSkyBlue
+        FontSize 18
+        FontName Arial
+        RoundCorner 5
+        MaximumWidth 300
+    }
+
+    arrow {
+        LineColor Black
+    }
+
+    </style>
+'=====================================================================================
+    * 'Head'
+     'Branch One'
+     'Branch Two'
+     'Branch Three'
+     'Branch Five'
+    *** 'Subbranch Five-One'
+'=====================================================================================
+@endwbs

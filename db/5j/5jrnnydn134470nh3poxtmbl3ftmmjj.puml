@@ -1,0 +1,19 @@
+{
+  "sha1": "5jrnnydn134470nh3poxtmbl3ftmmjj",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.758Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title test title
+ 
+robust "test" as test
+ 
+@0
+test is idle
+ 
+legend
+test
+end legend
+@enduml

@@ -1,0 +1,23 @@
+{
+  "sha1": "52e7dwdl8ijzx3xhuuxtvcihnk3bkn6",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.638Z",
+    "url": "https://forum.plantuml.net/15360/ideas-for-2-new-json-builtins",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$json_object = {
+"name": "Mark McGwire", "hr": 65, "avg":  0.278
+}
+
+
+rectangle %get_json_type($json_object)
+
+!if %get_json_type($myjson)=="ok"
+rectangle working
+!endif
+
+rectangle %get_json_type($json_object.name)
+
+@enduml

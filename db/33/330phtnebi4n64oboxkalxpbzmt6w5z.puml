@@ -1,0 +1,35 @@
+{
+  "sha1": "330phtnebi4n64oboxkalxpbzmt6w5z",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.166Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+{
+A|B
+C1|D
+}
+"hop0"
+{+
+A|B
+C2|D
+}
+"hop1"
+{#
+A|B
+C3|D
+}
+"hop2"
+{!
+A|B
+C4|D
+}
+"hop3"
+{-
+A|B
+C5|D
+}
+}
+@endsalt

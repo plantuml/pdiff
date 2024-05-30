@@ -1,0 +1,12 @@
+{
+  "sha1": "8g9m1amy7320k12xp7txz4nj0kqe45c",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.414Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+Alice -> Bob : 2 expected %strpos("abcdef", "cd")
+!assert %strpos("abcdef", "cd")==3 : "This always fail"
+@enduml

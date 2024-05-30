@@ -1,0 +1,27 @@
+{
+  "sha1": "6rpv7714c5ua00gq6devt4nwnnqg4gj",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.034Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcute
+'Feet
+stick color=black position=40,45 dimension=5,15
+stick color=black position=50,45 dimension=5,15
+stick color=black position=35,55 dimension=25,5
+'Noze
+stick color=crimson position=8,20 dimension=20,10
+'Queue
+group queue {
+ stick color=green position=0,0 dimension=20,5
+ stick color=green position=0,4 dimension=15,5
+ stick color=green position=0,8 dimension=10,5
+}
+queue position=65,10 rotation=-10
+'Body
+circle color=#FF0000 position=45,25 radius=25
+circle color=white position=37,17 radius=7
+'Wing
+stick color=green position=35,30 dimension=20,10
+@endcute

@@ -1,0 +1,23 @@
+{
+  "sha1": "9di6c9kpxee19jugfz4ci5684nfixig",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.658Z",
+    "url": "https://forum.plantuml.net/14128/preprocessing-builtin-functions-completion_color-hsluv_color",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+document {
+  BackGroundColor %hsl_color(0,50,16, 50)
+}
+</style>
+
+alice -> bob : %hex2dec("ff")
+alice -> bob : %dec2hex(15)
+alice -> bob : %hsl_color(1,2,3)
+alice -> bob : b1=%hsl_color(0,100,0, 10)
+alice -> bob : b2=%hsl_color(0,100,0, 50)
+alice -> bob : b3=%hsl_color(0,100,0, 90)
+alice -> bob : red = %hsl_color(0,100,16) : <color:%hsl_color(0,100,16)>red</color>
+@enduml

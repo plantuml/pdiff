@@ -1,0 +1,15 @@
+{
+  "sha1": "22f2a1i36a6vg7bz26mjotf0rug9cxx",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.882Z",
+    "url": "https://forum.plantuml.net/16251/link-between-objet-in-wbs",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* Test
+** A topic
+*** "common" as c1
+** "Another topic" as t2
+t2 ..> c1 #blue
+@endwbs

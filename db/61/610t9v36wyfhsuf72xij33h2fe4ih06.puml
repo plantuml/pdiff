@@ -1,0 +1,33 @@
+{
+  "sha1": "610t9v36wyfhsuf72xij33h2fe4ih06",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.846Z",
+    "url": "https://forum.plantuml.net/11176/class-headerbackgroundcolor-doesnt-roundcorner-defined",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam class {
+    HeaderBackgroundColor red
+    BackgroundColor yellow
+    BorderColor Black
+    ArrowColor Black
+}
+
+hide circle
+
+class "User\n(User in our system)" as user {
+    <size:12><&key></size> id INTEGER
+    username VARCHAR[32]
+    password VARCHAR[64]
+}
+
+class "Session\n(session for user)" as session {
+    <size:12><&key></size> id INTEGER
+    user_id INTEGER
+}
+
+user ||--|{ session : "A user may have\n many sessions"
+
+@enduml

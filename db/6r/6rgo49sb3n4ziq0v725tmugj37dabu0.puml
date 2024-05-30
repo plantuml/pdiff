@@ -1,0 +1,23 @@
+{
+  "sha1": "6rgo49sb3n4ziq0v725tmugj37dabu0",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.030Z",
+    "url": "http://forum.plantuml.net/7821/crash-with-teoz",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+box "group 1" #lightblue
+    Participant P1
+    Participant P2
+end box
+' I would like to insert an horizontal minimu space constraint here
+box "group 2 with a very long title" #lightgreen
+    Participant P3
+    Participant P4
+end box
+P1->P2
+& P3->P4
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "90zhphdn9a7q4gzov136d2q3x8ikqqg",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.582Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1093#issuecomment-1224243097",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Bob -> Alice : hello1
+[o-> Alice: OK2
+?o-> Alice: OK3
+Bob <-o] : WTF4
+Bob <-o? : WTF5
+@enduml

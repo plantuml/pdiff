@@ -1,0 +1,36 @@
+{
+  "sha1": "12q9gnvvuo8zj3c6gfumwdzde4tcdgz",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.546Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+wbsDiagram {
+  :depth(1) {
+    // Will target America, Europe
+    BackGroundColor white
+  }
+  
+  .americaStyle * {
+	  FontColor red
+	  :depth(2) {
+	    BackGroundColor blue
+	  }
+  }
+
+}
+</style>
+
+* World
+** America <<americaStyle>>
+*** Canada
+*** Mexico
+*** USA
+**** Texas
+** Europe <<europeStyle>>
+*** England
+*** Germany
+*** Spain
+@endwbs

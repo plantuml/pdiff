@@ -1,0 +1,12 @@
+{
+  "sha1": "9eu1gxaci6vmxal8hy6w2dxh95y4kdd",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.678Z",
+    "url": "http://alphadoc.plantuml.com/doc/dokuwiki/en/regex-old",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+title unicodeCategories
+letter \p{L}\p{Letter} lower \p{Ll}\p{Lowercase_letter}
+@endregex

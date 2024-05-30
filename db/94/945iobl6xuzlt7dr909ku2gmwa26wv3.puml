@@ -1,0 +1,22 @@
+{
+  "sha1": "945iobl6xuzlt7dr909ku2gmwa26wv3",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.598Z",
+    "url": "https://github.com/plantuml/plantuml-stdlib/pull/18",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    !include <elastic/common>
+    !include <elastic/elasticsearch/elasticsearch>
+    !include <elastic/logstash/logstash>
+    !include <elastic/kibana/kibana>
+
+    ELASTICSEARCH(ElasticSearch, "Search and Analyze",database)
+    LOGSTASH(Logstash, "Parse and Transform",node)
+    KIBANA(Kibana, "Visualize",agent) 
+    
+    Logstash -right-> ElasticSearch: Transformed Data
+    ElasticSearch -right-> Kibana: Data to View
+
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "2k4en01r2ct2x0k02ymytwz6an20l6q",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.030Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:actor1:
+:actor2:
+:actor3:
+:actor4:
+(UC1)
+(UC2)
+(UC3)
+(UC4)
+@enduml

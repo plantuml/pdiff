@@ -1,0 +1,20 @@
+{
+  "sha1": "6x1s57geg0e2u4oksxhawlzj7vj0938",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.066Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam handwritten true
+User << Human >>
+"Main Database" as Base << Application >>
+(Start) << One Shot >>
+"Use the application" as (Use)
+
+User -> (Start)
+User --> (Use)
+
+Base --> (Use)
+
+@enduml

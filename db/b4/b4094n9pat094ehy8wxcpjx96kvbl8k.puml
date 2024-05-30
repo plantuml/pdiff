@@ -1,0 +1,26 @@
+{
+  "sha1": "b4094n9pat094ehy8wxcpjx96kvbl8k",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.010Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:ClickServlet.handleRequest();
+:new Page;
+if (Page.onSecutiryCheck()) then (true1)
+    :Page.onInit();
+    if (isForwarded?) then (no2)
+        :Process control;
+        if (continue processing?) then (yes3)
+           :goto bareB1;
+        else (no4)
+           :goto bareB2;
+        endif
+    endif
+    :bareB1;
+endif
+:bareB2;
+stop
+@enduml

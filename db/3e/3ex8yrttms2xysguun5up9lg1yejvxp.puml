@@ -1,0 +1,14 @@
+{
+  "sha1": "3ex8yrttms2xysguun5up9lg1yejvxp",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.246Z",
+    "url": "https://github.com/plantuml/plantuml/issues/635#issuecomment-907144157",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Participant A
+ref over A : [[link does not work]]
+ref over A : [[link neither does this]] here
+ref over A : see [[link this works]]
+@enduml

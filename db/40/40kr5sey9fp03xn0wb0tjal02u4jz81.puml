@@ -1,0 +1,19 @@
+{
+  "sha1": "40kr5sey9fp03xn0wb0tjal02u4jz81",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.394Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1349",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+
+component f0
+
+package p1 {
+    component a1
+}
+package p2
+p1 --> p2
+@enduml

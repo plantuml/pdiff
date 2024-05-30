@@ -1,0 +1,18 @@
+{
+  "sha1": "am72j57ty1wxc7nnahjy3tl0onbpjy1",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.902Z",
+    "url": "http://www.eclipse.org/legal/epl-v10.html",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package "entities" {
+
+A1 -> A2
+A3 -> A2
+A3 -> A2 : b
+}
+
+
+@enduml

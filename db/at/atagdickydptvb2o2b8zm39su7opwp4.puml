@@ -1,0 +1,19 @@
+{
+  "sha1": "atagdickydptvb2o2b8zm39su7opwp4",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.950Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!procedure $go()
+ Bob -> Alice : hello1a
+ Bob -> Alice : hello2a
+ Bob -> Alice : hello3a
+!endprocedure
+
+!$wrapper="$go"
+
+%invoke_procedure($wrapper)
+@enduml

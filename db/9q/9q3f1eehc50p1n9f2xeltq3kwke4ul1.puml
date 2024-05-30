@@ -1,0 +1,13 @@
+{
+  "sha1": "9q3f1eehc50p1n9f2xeltq3kwke4ul1",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.746Z",
+    "url": "https://twitter.com/_StephanRoth/status/1272805829142622208",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam style strictuml
+object firstObject
+object "instance name : type" as o2
+@enduml

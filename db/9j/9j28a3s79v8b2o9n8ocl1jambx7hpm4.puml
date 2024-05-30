@@ -1,0 +1,16 @@
+{
+  "sha1": "9j28a3s79v8b2o9n8ocl1jambx7hpm4",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.698Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+start
+repeat
+:a;
+note right: this is a note
+repeat while (condition)
+stop
+@enduml

@@ -1,0 +1,26 @@
+{
+  "sha1": "budxqj41c8fd4xsm616rkrgbkwpak56",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.162Z",
+    "url": "https://forum.plantuml.net/11344/no-text-spacing-with-fork-activity-diagram?show=11364#c11364",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+fork
+-> first arrow that is too long to show\na hortizontal spacing issue;
+:state again;
+-> this is more text;
+fork again
+-> starting arrow;
+:state with overlapping text from \nthe first fork;
+->something else;
+:another state;
+-> ending arrow text which is also very long;
+fork again
+:a;
+:b;
+:c;
+:d;
+end fork
+@enduml

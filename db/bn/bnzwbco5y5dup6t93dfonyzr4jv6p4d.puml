@@ -1,0 +1,27 @@
+{
+  "sha1": "bnzwbco5y5dup6t93dfonyzr4jv6p4d",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.134Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1265",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+root {
+  BackgroundColor gray
+  Linecolor blue
+  
+  FontColor red
+}
+</style>
+
+node A {
+portout "It is a port" as a
+}
+node B {
+portin b
+}
+
+a --> b : that a2b
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "776nvr0hvxu1gz92g4mqpjwbtbricbk",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.134Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1708",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title WU is {-} 
+
+concise "Web User" as WU
+WU is {-}
+@1
+WU is a
+@enduml

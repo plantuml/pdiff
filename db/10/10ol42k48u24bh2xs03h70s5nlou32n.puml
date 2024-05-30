@@ -1,0 +1,13 @@
+{
+  "sha1": "10ol42k48u24bh2xs03h70s5nlou32n",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.526Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+(*) --> "this <u>is underline</u> end"
+--> "this is underline end"
+
+@enduml

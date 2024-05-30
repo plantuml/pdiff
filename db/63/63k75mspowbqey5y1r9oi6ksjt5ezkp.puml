@@ -1,0 +1,16 @@
+{
+  "sha1": "63k75mspowbqey5y1r9oi6ksjt5ezkp",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.858Z",
+    "url": "https://forum.plantuml.net/1762/namespace-label-formating",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+namespace "MyNamespaceName <img:HelloWorld.png{scale=1.5}>" as net.f-oo {
+class class1
+class class2
+}
+
+@enduml

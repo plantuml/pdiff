@@ -1,0 +1,11 @@
+{
+  "sha1": "8lws30zr996mpj58nfc6bi3fipxlqff",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.450Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam roundCorner 10
+object foo1
+@enduml

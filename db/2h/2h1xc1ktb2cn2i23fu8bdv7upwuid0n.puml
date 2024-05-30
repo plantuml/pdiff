@@ -1,0 +1,30 @@
+{
+  "sha1": "2h1xc1ktb2cn2i23fu8bdv7upwuid0n",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.994Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+package A {
+class AA
+}
+
+package B {
+  class BB
+}
+
+package C {
+  class CC
+}
+
+
+package D {
+  class DD
+}
+
+A o-- B
+A +-- C
+A +-- D
+@enduml 

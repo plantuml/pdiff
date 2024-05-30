@@ -1,0 +1,13 @@
+{
+  "sha1": "4zpu4nrqdbcbqojsuxxxw4px1n9e5lh",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.622Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor "Accentué 1" as A1
+participant "Bobé" as Bob
+A1 -> Bob : j'ai des aç&à§
+note left: àéè
+@enduml

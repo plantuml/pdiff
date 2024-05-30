@@ -1,0 +1,37 @@
+{
+  "sha1": "43khnvw6xwahyusixzumryie7n052ra",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.414Z",
+    "url": "https://forum.plantuml.net/15936/timing-style-allow-all-style-for-timeline-on-timing-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+timingDiagram {
+  timeline {
+    FontColor red
+    FontSize 10
+    FontStyle italic
+    LineColor red
+    LineThickness 2
+    LineStyle 4-4
+    BackgroundColor pink
+  }
+}
+</style>
+
+clock   "Clock_0"   as C0 with period 50
+binary  "Binary"  as B
+concise "Concise" as C
+robust  "Robust"  as R
+@0
+C is Idle
+R is Idle
+@100
+B is high
+C is Waiting
+R is Processing
+@300
+R is Waiting
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "ajncpuubt0nyvnehxswtg6el7ollefy",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.890Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A -> B : Action ~[Single] ~[[Double]] ~[~[[Triple]]]
+A -> B: Action1 ~[[http://www.plantuml.com/plantuml/form]]
+A -> B: Action1 [[http://www.plantuml.com/plantuml/form]]
+A -> B: Action [[http://www.plantuml.com/plantuml/form foo]]
+@enduml

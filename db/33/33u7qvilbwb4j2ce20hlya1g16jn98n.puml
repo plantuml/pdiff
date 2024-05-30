@@ -1,0 +1,18 @@
+{
+  "sha1": "33u7qvilbwb4j2ce20hlya1g16jn98n",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.178Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam hyperlinkColor black
+skinparam hyperlinkUnderline false
+
+|[[www.plantuml.com First actor]] |
+start
+:[[www.plantuml.com Action1]];
+| Other actors |
+:Action2;
+stop
+@enduml

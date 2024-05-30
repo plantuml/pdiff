@@ -1,0 +1,11 @@
+{
+  "sha1": "9pcfz0c3obbp8vptw9h7ikbmbqi9e4o",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.738Z",
+    "url": "http://forum.plantuml.net/7533/how-to-have-monospace-font-in-a-rectange",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "p-name\n\n**Post Entry**\n""<div class="h-entry">..</div>"""
+@enduml

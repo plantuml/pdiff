@@ -1,0 +1,22 @@
+{
+  "sha1": "bnaxoyv6o35d5vqi8r1p02ljmioib9r",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.130Z",
+    "url": "https://forum.plantuml.net/10800/font-style-not-working-on-title",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam title{
+  BorderRoundCorner 15
+  BorderThickness 2
+  BackgroundColor red
+  Fontsize 50
+  FontColor Blue
+}
+
+title TestTitle
+
+a ->b
+@enduml

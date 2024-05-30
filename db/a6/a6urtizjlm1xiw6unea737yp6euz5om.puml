@@ -1,0 +1,13 @@
+{
+  "sha1": "a6urtizjlm1xiw6unea737yp6euz5om",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.830Z",
+    "url": "https://forum.plantuml.net/18397/gantt-how-handle-resource-starts-terminates-specific-date",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+project starts on 2023-12-01
+[Task1] on {Alice} lasts 20 days
+{Alice} is off on 2023-12-03 to 2023-12-05
+@endgantt

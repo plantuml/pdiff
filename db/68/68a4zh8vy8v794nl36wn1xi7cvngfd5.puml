@@ -1,0 +1,16 @@
+{
+  "sha1": "68a4zh8vy8v794nl36wn1xi7cvngfd5",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.902Z",
+    "url": "http://wiki.plantuml.net/site/preprocessing-json",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$foo = { }
+start
+!foreach $emp in $foo.employees
+:The salary of $emp.name is $emp.salary;
+!endfor
+:end;
+@enduml

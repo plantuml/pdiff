@@ -1,0 +1,19 @@
+{
+  "sha1": "8d0lksxgtlepadz6onxibswy98co3xa",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.394Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam rectangle {
+    roundCorner<<Concept>> 25
+    roundCorner<<Foo>> 45
+    backgroundColor<<Concept>> White
+}
+
+rectangle "Concept Model" <<Foo>> {
+	rectangle "e" <<Concept>> as e
+	rectangle "F"
+}
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "5imahm5kllkc83pnzad1p66phm6xcrt",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.746Z",
+    "url": "https://forum.plantuml.net/13071/newline-in-state-diagrams-is-inconsistent?show=13073#c13073",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state s1 {
+
+s1 : line1\n  line2\n    line3
+@enduml

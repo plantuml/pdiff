@@ -1,0 +1,24 @@
+{
+  "sha1": "5eyw4q0r6mhopttjvi4b03rvnou5pc0",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.730Z",
+    "url": "https://forum.plantuml.net/12320/observations-preprocessing-test-boolean-expression-2020",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$a=1 || 0
+!$b=1||0
+!$c=13 | 5
+!$d=1|0    
+
+title
+<code>
+print $a
+print $b
+print $c
+print $d   
+</code>
+end title
+footer Observed on V1.2020.19\n(current version: %version())
+@enduml

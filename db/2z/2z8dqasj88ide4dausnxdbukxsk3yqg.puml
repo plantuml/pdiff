@@ -1,0 +1,17 @@
+{
+  "sha1": "2z8dqasj88ide4dausnxdbukxsk3yqg",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.134Z",
+    "url": "https://forum.plantuml.net/11219/multiple-function-calls-in-text-only-one-processed",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!function txthighlight($text)
+!return "<font color=blue>" + $text + "</font>"
+!endfunction
+
+class "SomeClass" as x {
+  + Member2: Does txthighlight("blue") and txthighlight("blue") Stuff
+}
+@enduml

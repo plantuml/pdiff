@@ -1,0 +1,21 @@
+{
+  "sha1": "8f53okdqapmfffmranq3s0cwx6alcn3",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.402Z",
+    "url": "https://forum.plantuml.net/11109/preprocessor-vlookup-macro?show=11132#c11132",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$data={"partlen": "2", "game": "GamePlantuml", "participants": [
+{"name": "XYZ" ,"as": "xyz", "team": "A"},
+{"name": "RST" ,"as": "rst", "team": "B"},
+{"name": "UVW" ,"as": "uvw", "team": "B"}],
+"color": {"A": "red", "B": "blue"}
+}
+
+:a;
+:$data.color;
+:$data.color[A];
+:b;
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "az94wndg14zb99ngfhbzynaufzvacrh",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.982Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:do a;
+-[#red;#blue;#green;#orange]-> label;
+:do b;
+@enduml

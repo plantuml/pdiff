@@ -1,0 +1,14 @@
+{
+  "sha1": "bhq9s2rb6nqq1v8xrc1p6ygg9sgna0o",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.098Z",
+    "url": "https://forum.plantuml.net/18282/bug-only-one-transition-permitted-to-state-in-state-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> Foo
+Foo --> Bar : Ev1
+Foo --> a[H] : Ev2
+Bar --> a[H] : Ev3
+@enduml

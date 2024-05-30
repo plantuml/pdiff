@@ -1,0 +1,20 @@
+{
+  "sha1": "7eldkpq3ylthqu1wgwz2bu4rq6wnopi",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.182Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+a -> b : <&cog>
+a -> b : test
+a -> b : test
+a -> b : test
+newpage
+a -> b : test
+a -> b : test
+a -> b : test
+a -> b : test
+a -> b : <&wifi>
+a -> b : test
+@enduml

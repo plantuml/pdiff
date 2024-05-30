@@ -1,0 +1,26 @@
+{
+  "sha1": "atqiz9repyd5lrowry4a1p471gfqxsm",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.958Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundColor #AAFFFF
+skinparam activity {
+ StartColor red
+ BarColor SaddleBrown
+ EndColor Silver
+ BackgroundColor Peru
+ BackgroundColor<< Begin >> Olive
+ BorderColor Peru
+ FontName Impact
+}
+
+(*) --> "Climbs on Platform" << Begin >>
+--> === S1 ===
+--> Bows
+--> === S2 ===
+--> WavesArmes
+--> (*)
+@enduml

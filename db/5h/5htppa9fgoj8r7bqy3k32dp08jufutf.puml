@@ -1,0 +1,38 @@
+{
+  "sha1": "5htppa9fgoj8r7bqy3k32dp08jufutf",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.742Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package "Client UI" as client {
+  [Browser / Tablet]
+  [Mobile]
+  [Microsites]
+}
+
+package "Secured API" as API {
+  [HTML Pages]
+  [RESTful Endpoints]
+  [SOAP Endpoints]
+}
+
+package "Business Logic" as BL {
+  [Data Shaping]
+  [Data Cacheing]
+  [Data Validation]
+}
+
+package "Enterprise Data Stores" as ES {
+  [EDP - Personalization]
+  [ATLAS]
+  [Magic - Compensation / Performance]
+  [SSR - Sales system]
+  [CRM]
+}
+
+client --> API
+API --> BL
+BL --> ES
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "27ow0ty24mlcc0u1fkyxnh82d1lx34h",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.922Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml(id=diagram1)
+state X {
+}
+X: |= header 1 |= header 2 |= header 3 |
+X: | //A// | abc | def |
+X: | //B// | qwe | |
+@enduml

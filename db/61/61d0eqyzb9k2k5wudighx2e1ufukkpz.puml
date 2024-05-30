@@ -1,0 +1,22 @@
+{
+  "sha1": "61d0eqyzb9k2k5wudighx2e1ufukkpz",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.850Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+left to right direction
+skinparam packageStyle rect
+actor customer
+actor clerk
+rectangle checkout <<foo>> {
+  customer -- (checkout)
+  (checkout) .> (payment) : include
+  (help) .> (checkout) : extends
+  (checkout) -- clerk
+}
+artifact dummy <<foo>> {
+  (checkout2) -- clerk
+}
+@enduml

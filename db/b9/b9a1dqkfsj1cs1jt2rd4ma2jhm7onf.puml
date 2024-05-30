@@ -1,0 +1,15 @@
+{
+  "sha1": "b9a1dqkfsj1cs1jt2rd4ma2jhm7onf",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.046Z",
+    "url": "http://forum.plantuml.net/4259/please-allow-hide-clases-stereotype-using-the-hide-keyword?show=9318#c9318",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide <<tag>> 
+class bob <<tag>>{
+}
+class joe{
+}
+@enduml

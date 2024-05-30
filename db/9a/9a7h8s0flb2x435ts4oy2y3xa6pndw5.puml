@@ -1,0 +1,12 @@
+{
+  "sha1": "9a7h8s0flb2x435ts4oy2y3xa6pndw5",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.638Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale max 50 height
+class Foo1
+class Foo2
+@enduml

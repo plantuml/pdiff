@@ -1,0 +1,25 @@
+{
+  "sha1": "bn5me39usnvxxsey2i49kqfcs144vdq",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.126Z",
+    "url": "https://forum.plantuml.net/10912/active-lifeline-not-shown-with-parallel-loop",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+autoactivate on
+
+
+loop 1 to n
+a-> b: hi
+end
+
+loop 1 to n
+b->c : broken1
+end
+
+& loop 1 to n
+e->f : broken2
+end
+@enduml

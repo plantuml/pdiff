@@ -1,0 +1,12 @@
+{
+  "sha1": "8159wp205rl3mbw9n0su82cq1ac61nw",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.322Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ClasS toto1
+ClasS toto2{
+}
+@enduml

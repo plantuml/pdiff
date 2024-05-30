@@ -1,0 +1,20 @@
+{
+  "sha1": "8xoro22svart1veff636hzh95ujkz6k",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.546Z",
+    "url": "https://forum.plantuml.net/4696/notes-on-conditionnal-elements?show=18077#c18077",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+while (true)
+if (test?) then
+:a;
+else
+:c;
+endif
+note right: This note is on the if
+:foo;
+end while
+@enduml

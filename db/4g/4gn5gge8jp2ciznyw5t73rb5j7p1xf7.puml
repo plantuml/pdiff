@@ -1,0 +1,17 @@
+{
+  "sha1": "4gn5gge8jp2ciznyw5t73rb5j7p1xf7",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.494Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!startsub XFOO1
+A->A : FOO1
+!endsub
+!startsub XFOO2
+B->B : FOO2
+!endsub
+!includesub XFOO1
+!includesub XFOO2
+@enduml

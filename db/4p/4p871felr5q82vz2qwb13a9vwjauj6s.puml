@@ -1,0 +1,45 @@
+{
+  "sha1": "4p871felr5q82vz2qwb13a9vwjauj6s",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.154Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Dummy1 {
+  +thisIsALongmethod1()
+  +anotherMetheod()
+  
+  +String a1
+  +Date d;
+}
+
+class Dummy2 {
+  +thisIsALongmethod1()
+  +anotherMetheod()
+  
+  +String a1
+  +Date d;
+}
+
+class Dummy3 {
+  +thisIsALongmethod1()
+  +anotherMetheod()
+  +String a1
+  +Date d;
+}
+
+class Dummy4 {
+  +thisIsALongmethod1()
+  +anotherMetheod()
+  +String a1
+  +Date d;
+}
+
+hide Dummy2 methods
+hide Dummy3 attributes
+hide Dummy4 methods
+hide Dummy4 attributes
+
+
+@enduml

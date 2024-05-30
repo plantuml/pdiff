@@ -1,0 +1,17 @@
+{
+  "sha1": "a9vahonagbfp0jban3yqu4qh3jq5z5n",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.842Z",
+    "url": "https://github.com/plantuml/plantuml/issues/309",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+repeat :foo as starting label;
+  :read data;
+  :generate diagrams;<<output>>
+  backward :This is backward;<<output>>
+repeat while (more data?)
+end
+@enduml

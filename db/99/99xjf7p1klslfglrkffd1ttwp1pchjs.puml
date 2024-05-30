@@ -1,0 +1,21 @@
+{
+  "sha1": "99xjf7p1klslfglrkffd1ttwp1pchjs",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.634Z",
+    "url": "https://forum.plantuml.net/15159/wbs-missing-link-and-missing-box",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs 
++ root
+ + level 1A
+  + level 2A
+   + level 3A
+   - level 3B
+  - level 2B
+   + level 3C
+   - level 3D
+    + level 4A
+    - level 4B
+ - level 1XXX
+@endwbs

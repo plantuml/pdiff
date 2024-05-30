@@ -1,0 +1,16 @@
+{
+  "sha1": "6aridp0mqjokavw7ba8zwfm6km735u3",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.918Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Last : ok
+... not working ...
+Bob -> Last : ok2
+Bob -> Last : ok3
+'... not working\nbetween 3\nand 4 ...
+Bob -> Last : ok4
+Bob -> Last : ok5
+@enduml

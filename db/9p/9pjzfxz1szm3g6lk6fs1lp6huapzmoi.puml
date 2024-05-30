@@ -1,0 +1,97 @@
+{
+  "sha1": "9pjzfxz1szm3g6lk6fs1lp6huapzmoi",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.742Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+if (user charges to personal account) then
+  :Charge to personal account;
+  :continue;
+  detach
+elseif (user charges to single shared account)
+  :Charge to shared account;
+  :continue;
+  detach
+elseif (user selects with CODE only) then
+  repeat
+    if (User can charge to personal account) then
+      :prompt user with CODE entry AND Personal Account;
+    else
+      :prompt user with CODE entry;
+    endif
+    if (timeout or logout) then
+      stop
+    endif
+    if (Personal Account Selected) then
+      :Charge to personal account;
+      :continue;
+      detach
+    endif
+  repeat while (Valid account selected) is (No)
+  :Charge to shared account;
+  :continue;
+  detach
+else
+  :Build initial account list;
+  note right
+    cache for re-use
+    NB Format for long account names
+    handle smoth scrolling of account list
+    May require fetching more accounts during
+    scroll
+    disable invalid accounts (but still present list)
+  endnote
+  if (User has default shared account) then
+    :Add Default to top of account list;
+  endif
+  if (User can charge to personal account) then
+    :Add Personal account to top of account list;
+  endif
+  repeat
+    if (Prompt user with account list) then (timeout\nor logout)
+      stop
+    elseif (User selects specific account) then
+      :Note charging to specific account;
+      :continue;
+      detach
+    elseif (user selects account CODE entry) then
+      repeat
+        :prompt user with CODE entry;
+        if (timeout or logout) then
+          stop
+        endif
+      repeat while (user enters valid account CODE) is (Invalid)
+      :Note charging to specific shared account;
+      :continue;
+      detach
+    elseif (user selects account Search entry) then
+      repeat
+        if (prompt user with Search entry) then (timeout or logout)
+          stop
+        endif
+      repeat while (Match search string against account list) is (empty)
+      if (Count Search resuslt) then  (Only one matching\naccound found)
+        :Note charging to specific shared account;
+        :continue;
+        detach
+      endif
+      :Build list from search results;
+      :Prompt user with account list;
+      if (timeout or logout) then
+        stop
+      endif
+      :Note charging to specific account;
+      :continue;
+      detach
+    else
+      stop
+    endif
+  repeat while (Account selectionc) is (No)
+  :Continue;
+  detach
+endif
+
+@enduml

@@ -1,0 +1,29 @@
+{
+  "sha1": "2gxhxh46ar9ocezrcx21af6rl5cfflg",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.990Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+
+<style>
+mindmapDiagram {
+  node {
+    BackgroundColor white
+  }
+}
+</style>
+* Hi
+<style>
+mindmapDiagram {
+  node {
+    BackgroundColor yellow
+  }
+}
+</style>
+** some
+** short
+** ideas
+
+@endmindmap

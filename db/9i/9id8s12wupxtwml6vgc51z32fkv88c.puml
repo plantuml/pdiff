@@ -1,0 +1,14 @@
+{
+  "sha1": "9id8s12wupxtwml6vgc51z32fkv88c",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.694Z",
+    "url": "https://forum.plantuml.net/11283/lines-without-arrows?show=11302#c11302",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ArrowColor orange
+skinparam ArrowHeadColor black
+:Qwerty;
+:Asdfgh;
+@enduml

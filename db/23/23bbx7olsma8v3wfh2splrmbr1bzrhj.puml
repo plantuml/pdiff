@@ -1,0 +1,33 @@
+{
+  "sha1": "23bbx7olsma8v3wfh2splrmbr1bzrhj",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.894Z",
+    "url": "https://forum.plantuml.net/11189/deployment-diagram-creole-does-not-work-on-card",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+card card2 [
+This is a <b>card
+]
+
+card card [
+This is a <b>card
+----
+You can use separator
+====
+of different kind
+....
+and style
+]
+
+rectangle rectangle [
+This is a <b>rectangle 
+----
+You can use separator
+====
+of different kind
+....
+and style
+]
+@enduml

@@ -1,0 +1,24 @@
+{
+  "sha1": "bhikwv8helh0f8ko99e36w7s4nvtmfo",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.090Z",
+    "url": "https://forum.plantuml.net/17885/decimal-time-values-not-accepted-in-parameters-procedures?show=17888#c17888",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+binary "line" as line
+
+!$a = 3.9
+!$b = 4
+
+!function $test($a, $b)
+!return $a + $b
+!endfunction
+
+@0
+line is low
+
+@3
+line is high: $test($a, $b)
+@enduml

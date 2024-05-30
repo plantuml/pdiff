@@ -1,0 +1,29 @@
+{
+  "sha1": "929flrkrfozx02wiqmxp5ns4gwg3ch9",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.586Z",
+    "url": "https://github.com/rabelenda/cicon-plantuml-sprites/",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!include <cloudinsight/kafka.puml>
+!include <cloudinsight/java.puml>
+!include <cloudinsight/cassandra.puml>
+!include <cloudnonworking/tomcat.puml>
+
+title Cloudinsight sprites example
+
+skinparam monochrome true
+
+rectangle "<$tomcat>\nwebapp" as webapp
+queue "<$kafka>" as kafka
+rectangle "<$java>\ndaemon" as daemon
+database "<$cassandra>" as cassandra
+
+webapp -> kafka
+kafka -> daemon
+daemon --> cassandra 
+
+@enduml

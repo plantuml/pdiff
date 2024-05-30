@@ -1,0 +1,16 @@
+{
+  "sha1": "42cmuvyoildqnzfft5yfen2dud72x2q",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.406Z",
+    "url": "http://forum.plantuml.net/8942/maxasciimessagelength-dosnt-work",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam maxMessageSize 50
+participant a
+participant b
+a -> b :this is a very long message on several words
+a -> b :0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+a -> b :return 0123456789012345678901234567890123456789012345678\n901234567890123456789012345678901234567890123456789
+@enduml

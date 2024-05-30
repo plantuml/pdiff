@@ -1,0 +1,13 @@
+{
+  "sha1": "8enfc0i44h8xhts4kb9vshwjfa19h1d",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.402Z",
+    "url": "http://forum.plantuml.net/8688/bug-on-class-diagram-relations-with-an-header-class",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Header
+class bbb
+Header <|- bbb
+@enduml

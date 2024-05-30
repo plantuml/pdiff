@@ -1,0 +1,26 @@
+{
+  "sha1": "35jgvqi93koa1959azzywow06bmiqyx",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.190Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!definelong Z($extraCode)
+a->b: some extra message
+%invoke_procedure($extraCode)
+b->a: some extra reply
+!enddefinelong
+ 
+!procedure myXtraCode()
+a->b:hello
+activate b
+b->a:hello too
+deactivate b
+note right
+test
+end note
+!endprocedure
+ 
+Z(myXtraCode)
+@enduml

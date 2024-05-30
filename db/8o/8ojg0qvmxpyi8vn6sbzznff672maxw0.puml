@@ -1,0 +1,20 @@
+{
+  "sha1": "8ojg0qvmxpyi8vn6sbzznff672maxw0",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.478Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (?) then (1)
+    :Something;
+else (2)
+    if (?) then (x)
+        stop
+    else (y)
+        stop
+    endif
+endif
+stop
+@enduml

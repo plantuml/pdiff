@@ -1,0 +1,16 @@
+{
+  "sha1": "2r3z3ke1yktv3xxzg8ra18vhwctlqah",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.074Z",
+    "url": "https://forum.plantuml.net/17009/why-cant-is-set-open-and-colored-on-the-same-line",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts the 5th of december 2018
+saturday are closed
+sunday are closed
+2018/12/29 is opened and is colored in orange
+[Prototype design] lasts 3 weeks
+[Test prototype] starts at [Prototype design]'s end and lasts 2 weeks
+@endgantt

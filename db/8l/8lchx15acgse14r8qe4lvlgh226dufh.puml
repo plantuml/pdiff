@@ -1,0 +1,15 @@
+{
+  "sha1": "8lchx15acgse14r8qe4lvlgh226dufh",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.446Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+
+state A
+A -> B : xxx
+B -> A : xxx
+
+@enduml
