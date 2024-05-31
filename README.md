@@ -3,8 +3,6 @@
 The `pdiff` utility is designed to manage and compare PlantUML diagrams across different versions.
 It facilitates the collection, execution, and comparison of diagrams to ensure non-regression in PlantUML outputs.
 
-Certainly, here's an improved version:
-
 ## Objectives
 
 The primary objectives of the `pdiff` utility are:
@@ -62,9 +60,12 @@ Usage: <main class> [command] [command options]
 
 The `pdiff` tool operates in three primary modes:
 
-- **insert**:
+- **insert** (optional):
+
+  Note that you don't have to run this mode since the project already contains some diagrams. Use it only if you want to add your diagrams to the collection. If you do, you are welcome to submit a pull request so that your examples can be included in the official collection.
 
   During the insertion phase, the tool scans all files in the `/raw` directory. If it finds diagrams, it extracts the corresponding diagram text, computes the SHA-1 signature in base 36 of the diagram, and creates a file in `/db` with this signature containing the diagram text. This ensures that the `/db` collection contains a set of diagrams for non-regression testing.
+
 
 - **run**:
 
@@ -88,7 +89,10 @@ java -jar build/libs/pdiff-all.jar insert -u foo@dummy.com
 
 ### Run
 
-This mode executes a specified version of PlantUML on the entire collection of diagrams. Note that the PlantUML library is not bundled with the `pdiff` tool; you must download or compile the desired version separately. The results of the run are stored in a specific directory and remain local, as they depend on various factors, including the PlantUML version, GraphViz version, and the machine's configuration.
+This mode executes a specified version of PlantUML on the entire collection of diagrams. Note that the PlantUML library is not bundled with the `pdiff` tool; you must
+[download](https://github.com/plantuml/plantuml/releases) or compile the desired version separately.
+
+The results of the run are stored in a specific directory and remain local, as they depend on various factors, including the PlantUML version, GraphViz version, and the machine's configuration.
 
 The command line usage differs slightly because you need to specify the JAR file (or directory) containing the PlantUML version you intend to use.
 
