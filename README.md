@@ -3,12 +3,23 @@
 The `pdiff` utility is designed to manage and compare PlantUML diagrams across different versions.
 It facilitates the collection, execution, and comparison of diagrams to ensure non-regression in PlantUML outputs.
 
+Certainly, here's an improved version:
+
 ## Objectives
 
-The main goals of the `pdiff` utility are to:
+The primary objectives of the `pdiff` utility are:
 
-- Maintain an official collection of diagrams for PlantUML non-regression testing.
-- Compare output changes between different PlantUML versions.
+- **Maintain an official collection of diagrams**: Serve as a repository for diagrams used in PlantUML non-regression testing.
+- **Compare output changes**: Analyze and highlight differences in diagram outputs across various PlantUML versions.
+
+## Requirements
+
+To use this utility, you need:
+
+- **Java 17 or later**: Ensure that Java 17 or a newer version is installed and properly configured on your system.
+- **PlantUML Library**: At least one version of the compiled `plantuml.jar` library, which can be downloaded from [PlantUML releases](https://github.com/plantuml/plantuml/releases).
+- **GraphViz**: A working installation of GraphViz.
+
 
 ## Compilation
 
@@ -57,7 +68,7 @@ The `pdiff` tool operates in three primary modes:
 
 - **run**:
 
-  During the run phase, the tool generates PNG images for all diagrams in the `/db` collection and produces an HTML result file in the `/run` directory containing all images. For each image, a CRC is calculated.
+  During the run phase, the tool generates PNG images for all diagrams in the `/db` collection and produces an HTML result file containing all images. For each image, a CRC is calculated.
 
 - **diff**:
 
@@ -81,9 +92,17 @@ This mode executes a specified version of PlantUML on the entire collection of d
 
 The command line usage differs slightly because you need to specify the JAR file (or directory) containing the PlantUML version you intend to use.
 
+On Linux:
+
 ```sh
 java -cp plantuml-1.2023.13.jar:build/libs/pdiff-all.jar com.pdiff.Main run
 ```
+
+On Windows:
+```sh
+java -cp "plantuml-1.2023.13.jar;build/libs/pdiff-all.jar" com.pdiff.Main run
+```
+
 
 ### Compare
 
