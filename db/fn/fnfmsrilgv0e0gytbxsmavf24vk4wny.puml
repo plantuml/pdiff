@@ -1,0 +1,20 @@
+{
+  "sha1": "fnfmsrilgv0e0gytbxsmavf24vk4wny",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.392Z",
+    "url": "https://forum.plantuml.net/14122/allow-margin-on-style-for-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+activityDiagram {
+  activity {
+    Padding 5
+  }
+}
+</style>
+:a a a a a a;
+:b b b b b b;
+:a a a a a a;
+@enduml

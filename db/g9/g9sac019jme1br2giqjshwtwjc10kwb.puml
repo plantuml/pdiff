@@ -1,0 +1,20 @@
+{
+  "sha1": "g9sac019jme1br2giqjshwtwjc10kwb",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.468Z",
+    "url": "https://forum.plantuml.net/16147/the-horizontal-alignment-style-does-not-work-correctly",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+.s1 {
+    horizontalalignment center
+}
+</style>
+
++ Qwerty
+++ Ytrewq\npoiuytrewq<<s1>>
++++ Mnbvcx
+
+@endmindmap

@@ -1,0 +1,14 @@
+{
+  "sha1": "ekjcocgm00dluw9h9tce6ovtkkg85sr",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.592Z",
+    "url": "http://forum.plantuml.net/7607",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Bob -> Alice : __underlined__
+note over Bob: **bold**
+/ note over Alice: //italics//
+@enduml

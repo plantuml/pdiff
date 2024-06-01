@@ -1,0 +1,17 @@
+{
+  "sha1": "dvj7ahoi91o14j01gyx2wsd3awqt21k",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.489Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    namespace p1 {
+        class A
+        note left of A: note
+    }
+    namespace p2 {
+        class B
+    }
+    p2.B "1" -left- p1.A
+@enduml

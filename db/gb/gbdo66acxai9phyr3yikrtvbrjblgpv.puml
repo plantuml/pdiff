@@ -1,0 +1,55 @@
+{
+  "sha1": "gbdo66acxai9phyr3yikrtvbrjblgpv",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.547Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Fournisseur|
+start
+#01DF01:initiate switch() ;
+#01DF01:VerifierRecevabiliteCHF();
+|Web Service|
+if (PCE connu) then (non)
+|Fournisseur|
+:statut 022;
+stop
+else (oui)
+|Web Service|
+endif
+if (Validee) then (non)
+|Fournisseur|
+:statut 023;
+stop
+endif 
+|Web Service|
+while (Besoin RdV)
+|Fournisseur|
+:statut 045;
+|Web Service|
+if (Date disponible) then (oui)
+:envoi heures du creneau;
+|Fournisseur|
+if (Confirmation) then (oui)
+#01DF01:AccepterRdV();
+:Statut 063;
+Stop
+else (non)
+endif
+else (non)
+|Web Service|
+:envoi de liste de disponibilites;
+|Fournisseur|
+while (changement de liste)
+#01DF01:demanderPrecSuiv();
+|Web Service|
+:recuper nouvelle liste;
+endwhile (liste OK)
+endif
+|Fournisseur|
+#01DF01:ProposerDatePlage();
+endwhile (Pas de RdV)
+:Statut 050;
+stop
+@enduml

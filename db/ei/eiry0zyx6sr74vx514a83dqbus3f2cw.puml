@@ -1,0 +1,17 @@
+{
+  "sha1": "eiry0zyx6sr74vx514a83dqbus3f2cw",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.517Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Object << general >>
+Object <|--- ArrayList
+note top of Object : In java , every class\nextends this one.
+note "This is a floating note" as N1
+note "This note is connected\nto several objects." as N2
+N2..Object
+N2 .. ArrayList
+
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "cuigrl8qqdn3acs3u9lilzne0luv3v8",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.095Z",
+    "url": "https://forum.plantuml.net/4957/why-not-to-support-nested-boxes-in-sequence-diagrams?show=4957#q4957",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+box "component"
+  box "sub1 with long name"
+    participant a
+  endbox
+  box "sub2"
+    participant b
+  endbox
+end box
+@enduml

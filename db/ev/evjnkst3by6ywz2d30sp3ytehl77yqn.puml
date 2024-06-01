@@ -1,0 +1,18 @@
+{
+  "sha1": "evjnkst3by6ywz2d30sp3ytehl77yqn",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.169Z",
+    "url": "https://forum.plantuml.net/12289/gantt-printscale-weekly-coloring-current-week?show=12291#c12291",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+'printscale weekly
+2020/10/26 to 2020/11/01 are colored in salmon
+
+Project starts the 2020-10-15
+[Prototype design] as [TASK1] lasts 25 days
+[TASK1] is colored in Lavender/LightBlue
+[Testing] lasts 15 days
+[TASK1]->[Testing]
+@endgantt

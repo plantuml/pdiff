@@ -1,0 +1,18 @@
+{
+  "sha1": "cjy8vlvtkkx3dynz558ir91lezjkgg1",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.557Z",
+    "url": "https://forum.plantuml.net/10846/startsub-includesub-example-documentation-behaves-differently",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A -> A : stuff1
+!startsub BASIC
+B -> B : stuff2
+!endsub
+C -> C : stuff3
+!startsub BASIC
+D -> D : stuff4
+!endsub
+@enduml

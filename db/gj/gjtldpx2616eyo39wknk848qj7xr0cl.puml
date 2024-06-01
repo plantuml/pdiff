@@ -1,0 +1,23 @@
+{
+  "sha1": "gjtldpx2616eyo39wknk848qj7xr0cl",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.888Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam useBetaStyle true
+
+<style>
+.dummy1 {
+  FontColor red
+  ShowStereotype false
+}
+</style>
+
+participant Bob <<dummy1>> 
+actor Alice
+
+@enduml

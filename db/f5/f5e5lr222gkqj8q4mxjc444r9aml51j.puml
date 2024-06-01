@@ -1,0 +1,26 @@
+{
+  "sha1": "f5e5lr222gkqj8q4mxjc444r9aml51j",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.530Z",
+    "url": "https://forum.plantuml.net/13245/skinparam-arrowcolor-cannot-combined-multiple-stereotypes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam Arrow {
+  Color #Green
+  FontColor #Green
+
+  Color<<v1.0>> #Red
+  Color<<v1.1>> text:Red
+}
+
+[Component]
+
+Component -RIGHT-> Participant11<<v1.1>> : text color red
+Component -DOWN-> Participant1011<<v1.0>><<v1.1>> : text and line red
+Component -DOWN-> Participant1110<<v1.1>><<v1.0>> : text and line red
+Component -DOWN-> Participant1011_WithoutSimulation: green
+
+@enduml

@@ -1,0 +1,30 @@
+{
+  "sha1": "enzvqb9oiwfm7kjru0wxwymww16t789",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.792Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwire
+
+move(0, 360)
+*DDR3L [70x50]
+*SLC_NAND [70x50]
+*TestPoints [70x50]
+*PF3000 [70x50]
+*EEPROM [70x50]
+
+--
+
+*i_MX7_SoC [200x800]
+	*2x_ARM [60x60]
+	*Cortex_M4 [60x60]
+	*PXP [60x60]
+	*Crypto [60x60]
+	*DDR3 [60x60]
+
+spot SLC_NAND(-5, -5)
+spot i_MX7_SoC.Crypto(100%-5, 50%+20) #green
+spot i_MX7_SoC #00FFFF
+	
+@endwire

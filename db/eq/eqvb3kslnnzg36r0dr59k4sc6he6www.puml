@@ -1,0 +1,12 @@
+{
+  "sha1": "eqvb3kslnnzg36r0dr59k4sc6he6www",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.975Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) -> "
+[[http://www.google.com]]
+Example state" as example
+@enduml

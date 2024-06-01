@@ -1,0 +1,32 @@
+{
+  "sha1": "grktw1pz6kwp6qtjlkfnmdyelicrn2z",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.249Z",
+    "url": "http://forum.plantuml.net/4976/skinparam-minclasswidth-not-part-java-jar-plantuml-language",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam monochrome true
+skinparam minClassWidth 400
+
+object Verbund
+object Wert
+object Attribut
+object Produkt
+object Werteliste
+object Einheiten
+object Werte
+
+Verbund "1" -- "*" Wert
+Produkt "1" -- "*" Wert
+Attribut "1" -- "*" Wert
+Verbund "*" -- "*" Attribut
+Attribut "*" -- "*" Werteliste
+Einheiten --|> Werteliste
+Werte --|> Werteliste
+Produkt "*" -- "*" Attribut
+Produkt "*" -- "*" Verbund
+
+@enduml

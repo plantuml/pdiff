@@ -1,0 +1,20 @@
+{
+  "sha1": "ew2i55e5lemxeo86g0ecxyyoaw7ioio",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.185Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam colorArrowSeparationSpace 3
+start
+:do a;
+if (test) then
+-[dashed]->
+:do b;
+else
+-[#red;#blue;#green;#orange]->
+:do c;
+-[#red;#blue;#green;#orange]->
+endif
+@enduml

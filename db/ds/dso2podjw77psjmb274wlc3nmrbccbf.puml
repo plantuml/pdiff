@@ -1,0 +1,14 @@
+{
+  "sha1": "dso2podjw77psjmb274wlc3nmrbccbf",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.423Z",
+    "url": "https://forum.plantuml.net/9874/detach-after-endwhile-does-not-detach",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+while(cond)is(true)
+endwhile(false)
+detach
+@enduml

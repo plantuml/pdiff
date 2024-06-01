@@ -1,0 +1,17 @@
+{
+  "sha1": "e3j1ybkgfyfkl70nye4w4eg47tic4ff",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.830Z",
+    "url": "http://forum.plantuml.net/3756",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+participant Bob
+participant Alice
+Bob -> Alice : Hello
+activate Alice
+note over Alice : Decides not\nto answer
+deactivate Alice
+@enduml

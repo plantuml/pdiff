@@ -1,0 +1,19 @@
+{
+  "sha1": "e2u5lln4qpwzqjjrhxd0ziml2hezorp",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.801Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam ComponentArrowColor #FF0000
+skinparam ClassArrowFontColor #FF0000
+skinparam ClassArrowFontName Courier
+skinparam ClassArrowFontStyle Italic
+skinparam ClassArrowFontSize 58
+
+class Foo1
+Foo2 -- Foo1 : toto
+
+@enduml

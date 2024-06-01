@@ -1,0 +1,16 @@
+{
+  "sha1": "diptmwmdxr8ev51snkm5oh9sopdk6l8",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.035Z",
+    "url": "https://github.com/plantuml/plantuml/issues/125",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class B
+note right of B
+  | A         | B   |
+  | --------- | --- |
+  | P(C\|D)   | E   |
+end note
+@enduml

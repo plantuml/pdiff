@@ -1,0 +1,14 @@
+{
+  "sha1": "exrtgs29pekmli96750wfwf7aujlk5x",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.232Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skin BlueModern
+Alive -[#red]-> Bob : ok1
+Alive -[#yellow]> Bob : ok2
+Alive <[#green]- Bob : ok3
+Alive <-- Bob : ok4
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "g1e8w5irit3khywrdnzri3coc2s5d7e",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.991Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[A1] --> [A2]
+[A3] -right- B
+@enduml

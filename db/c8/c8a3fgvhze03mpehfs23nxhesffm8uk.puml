@@ -1,0 +1,13 @@
+{
+  "sha1": "c8a3fgvhze03mpehfs23nxhesffm8uk",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.053Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) [[http://www.yahoo.com]]--> "activity1"
+ [[http://www.google.com]]--> "
+activity2"
+
+@enduml

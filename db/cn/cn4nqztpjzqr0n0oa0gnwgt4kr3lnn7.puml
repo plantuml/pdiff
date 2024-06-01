@@ -1,0 +1,26 @@
+{
+  "sha1": "cn4nqztpjzqr0n0oa0gnwgt4kr3lnn7",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.743Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+Alice -> Bob
+note left
+  1	test	3
+  4	5	6
+end note
+note left of Bob
+  1	test	3
+  4	5	6
+end note
+note left of Bob
+123
+456
+end note
+
+note right of Bob : 1\t2\t3\n\t4
+
+@enduml  

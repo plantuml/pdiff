@@ -1,0 +1,22 @@
+{
+  "sha1": "ckbrk49bebw0jncbafvf0c6j59jroef",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.590Z",
+    "url": "https://forum.plantuml.net/10848/sequence-diagram-incoming-outgoing-headed-arrows-inverted",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Bob
+participant Alice
+
+Alice \\-: "\\\\-" Should be down1
+Alice //-: "//-" Should be up2
+\\- Alice: "\\\\-" Should be down3
+//- Alice: "//-" Should be up4
+
+Bob -// Alice: "-//" Is correct down5
+Bob -\\ Alice: "-\\\\" Is correct up6
+Bob \\- Alice: "\\\\-" Is correct down7
+Bob //- Alice: "//-" Is correct up8
+@enduml

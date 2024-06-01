@@ -1,0 +1,16 @@
+{
+  "sha1": "czy0eskyhd7nu60kj13vfj4wj4nqez6",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.317Z",
+    "url": "https://forum.plantuml.net/17129/newpage-support-for-activity-beta-diagrams?show=17133#c17133",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+page 2x2
+start
+:foo1;
+:foo2;
+:foo3;
+end
+@enduml

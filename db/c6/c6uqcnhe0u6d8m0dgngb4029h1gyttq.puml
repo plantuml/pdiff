@@ -1,0 +1,21 @@
+{
+  "sha1": "c6uqcnhe0u6d8m0dgngb4029h1gyttq",
+  "insertion": {
+    "when": "2024-06-01T09:03:00.962Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+[*] --> Active
+Active --> Other
+
+state Big1 {
+b1 --> b2
+}
+
+state Big2 {
+c1 --> c2
+}
+
+@enduml

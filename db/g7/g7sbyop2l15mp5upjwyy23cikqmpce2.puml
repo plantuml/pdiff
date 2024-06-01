@@ -1,0 +1,28 @@
+{
+  "sha1": "g7sbyop2l15mp5upjwyy23cikqmpce2",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.329Z",
+    "url": "https://github.com/plantuml/plantuml/issues/983",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class User {
+  email: String
+  username: String
+  password: String
+}
+
+note right of User::username {
+  This breaks connections
+}
+
+class Role {
+  email: String
+  name: String
+}
+
+User -- Role
+Role -- Role
+
+@enduml

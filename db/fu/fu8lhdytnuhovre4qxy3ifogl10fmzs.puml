@@ -1,0 +1,34 @@
+{
+  "sha1": "fu8lhdytnuhovre4qxy3ifogl10fmzs",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.689Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+<style>
+root {
+ shadowing 0
+}
+</style>
+  // define group at outside network definitions
+  group {
+    color = "#FF7777";
+
+    web01;
+    web02;
+    db01;
+  }
+
+  network dmz {
+    web01;
+    web02;
+  }
+  network internal {
+    web01;
+    web02;
+    db01;
+  }
+}
+@enduml

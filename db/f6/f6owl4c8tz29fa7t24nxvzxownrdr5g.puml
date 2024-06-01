@@ -1,0 +1,19 @@
+{
+  "sha1": "f6owl4c8tz29fa7t24nxvzxownrdr5g",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.612Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+component [Component 1]
+component [Component 2]
+
+interface "I1" as I1
+
+[Component 1] -- I1
+[Component 2] -l-( I1
+
+
+@enduml

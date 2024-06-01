@@ -1,0 +1,19 @@
+{
+  "sha1": "clsq1lzdrud9yknjuyo3twk8vxnl9d8",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.673Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+!function $inc($string)
+!$val = %intval($string)
+!log value is $val
+!return $val+1
+!endfunction
+
+Alice -> Bob : 4 $inc("3")
+
+@enduml

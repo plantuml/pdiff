@@ -1,0 +1,20 @@
+{
+  "sha1": "cxaak4j22vbc90wx9uw2i8hwcfctu72",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.207Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1348",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+
+class a {
+    int i
+}
+
+note left of a::i
+    This note on i
+end note
+
+@enduml

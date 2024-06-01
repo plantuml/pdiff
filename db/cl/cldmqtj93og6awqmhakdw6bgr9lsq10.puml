@@ -1,0 +1,15 @@
+{
+  "sha1": "cldmqtj93og6awqmhakdw6bgr9lsq10",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.644Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+"Main Admin" as Admin
+"Use the application" as (Use)
+
+User <|-- Admin
+(Start) <|-- (Use)
+
+@enduml

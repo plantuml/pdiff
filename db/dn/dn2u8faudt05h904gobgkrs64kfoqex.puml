@@ -1,0 +1,27 @@
+{
+  "sha1": "dn2u8faudt05h904gobgkrs64kfoqex",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.206Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+participant "Bob on\nseveral lines" as Bob
+actor Alice
+
+Bob -> Alice : hello
+activate Alice
+Alice -> Alice : working
+activate Alice
+Alice -> Alice : working2
+
+Alice --> Bob : ok
+deactivate Alice
+
+Bob -> Toto : yop
+deactivate Alice
+
+
+
+@enduml

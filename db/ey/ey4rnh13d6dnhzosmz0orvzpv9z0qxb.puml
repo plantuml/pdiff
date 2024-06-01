@@ -1,0 +1,23 @@
+{
+  "sha1": "ey4rnh13d6dnhzosmz0orvzpv9z0qxb",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.256Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1334",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+{
+    "a": true,
+    "desc": "a",
+    "addP": false,
+    "addP1": false,
+    "addP2": false,
+    "addP3": false,
+    "allOf": [
+        "{ ... }",
+        "{ ... }",
+        "{ ... }"
+    ]
+}
+@endjson

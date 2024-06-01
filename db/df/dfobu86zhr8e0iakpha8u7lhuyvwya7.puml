@@ -1,0 +1,25 @@
+{
+  "sha1": "dfobu86zhr8e0iakpha8u7lhuyvwya7",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.936Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+ 
+state Somp {
+   state entry1 <<entrypoint>>
+   state entry2 <<entrypoint>>
+   state sin
+   entry1 --> sin
+   entry2 -> sin
+   sin -> sin2
+   sin2 --> exitA <<exitpoint>>
+}
+ 
+[*] --> entry1
+exitA --> Foo
+Foo1 -> entry2
+ 
+@enduml

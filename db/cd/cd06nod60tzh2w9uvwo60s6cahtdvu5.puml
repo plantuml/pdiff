@@ -1,0 +1,28 @@
+{
+  "sha1": "cd06nod60tzh2w9uvwo60s6cahtdvu5",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.266Z",
+    "url": "https://forum.plantuml.net/14901/number-of-elements-in-list-during-json-preprocessing",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+!$foo = { "company": "Skynet", "employees" : [
+  {"name" : "alice", "salary": 100 },
+  {"name" : "bob", "salary": 50} ]
+}
+
+!$index=1
+
+* The salary of  
+!foreach $emp in $foo.employees
+  ** **$index** 
+  *** **$emp.name** 
+  **** is 
+  ***** **$emp.salary**
+  !$index = $index+1
+!endfor
+** %size("company")
+** %size($foo.employees)
+** %size($foo)
+@endmindmap

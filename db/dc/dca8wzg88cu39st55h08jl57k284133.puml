@@ -1,0 +1,12 @@
+{
+  "sha1": "dca8wzg88cu39st55h08jl57k284133",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.805Z",
+    "url": "https://github.com/plantuml/plantuml/issues/278",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> LexTop
+LexTop --> LexTop: {{
+@enduml

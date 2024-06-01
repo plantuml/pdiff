@@ -1,0 +1,12 @@
+{
+  "sha1": "gwo2bcvx0wjhrew79l5e8ba1ggdm5k0",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.462Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam monochrome true
+class1 <|-- class2
+
+@enduml

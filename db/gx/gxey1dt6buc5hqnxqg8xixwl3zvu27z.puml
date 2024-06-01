@@ -1,0 +1,23 @@
+{
+  "sha1": "gxey1dt6buc5hqnxqg8xixwl3zvu27z",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.491Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+scale 2
+actor Bob
+participant Alice
+
+activate Bob
+Bob -> Alice: hello
+
+opt#blue #AAAAAA this is a test
+  Alice --> Bob : ok
+end
+
+Alice -->> Bob : finish
+
+@enduml

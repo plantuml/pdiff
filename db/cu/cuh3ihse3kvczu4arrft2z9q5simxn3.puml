@@ -1,0 +1,29 @@
+{
+  "sha1": "cuh3ihse3kvczu4arrft2z9q5simxn3",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.087Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1348",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class a {
+    int i
+}
+
+class z
+
+note left of a::i
+    This note will be purged
+end note
+
+note right of a
+    This note will survive
+end note
+
+a <-- b
+
+remove @unlinked
+
+@enduml

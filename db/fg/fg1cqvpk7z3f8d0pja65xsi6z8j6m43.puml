@@ -1,0 +1,13 @@
+{
+  "sha1": "fg1cqvpk7z3f8d0pja65xsi6z8j6m43",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.111Z",
+    "url": "https://forum.plantuml.net/15194/class-diagram-cant-extends-inner-class?show=15194#q15194",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class ReferenceInstructionVisitor extends Instruction$Visitor {
+
+}
+@enduml

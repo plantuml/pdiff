@@ -1,0 +1,16 @@
+{
+  "sha1": "dogq537h7yavzwk68wb17qj792bcqft",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.267Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!$five = 2+3
+!$for = 5-1
+!$two = 5/2
+Alice -> Bob : expected 5 $five
+Alice -> Bob : expected 4 $for
+Alice -> Bob : expected 2 $two
+@enduml

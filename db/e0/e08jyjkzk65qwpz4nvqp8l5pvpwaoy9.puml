@@ -1,0 +1,17 @@
+{
+  "sha1": "e08jyjkzk65qwpz4nvqp8l5pvpwaoy9",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.683Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+repeat
+:test something;
+if (something get wrong) then (no) 
+break
+endif
+:error;
+repeat while
+:some more;
+@enduml

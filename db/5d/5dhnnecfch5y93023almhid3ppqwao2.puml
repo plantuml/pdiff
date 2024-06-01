@@ -1,0 +1,19 @@
+{
+  "sha1": "5dhnnecfch5y93023almhid3ppqwao2",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.491Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+	(*) --> "Datensendung stornieren"
+	if "aktive Datensendung" then
+	-->[Ja] "AD05 prüfen"
+	if "AD05 empfangen" then
+	-->[Ja] "Stornierung akzeptieren"
+	--> (*)
+	-->[Nein] "Stornierung nicht akzeptieren"
+	endif
+	-->[Nein] "Stornierung nicht akzeptieren"
+	endif
+@enduml

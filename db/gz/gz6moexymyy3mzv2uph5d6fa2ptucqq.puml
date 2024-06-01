@@ -1,0 +1,16 @@
+{
+  "sha1": "gz6moexymyy3mzv2uph5d6fa2ptucqq",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.576Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=1831/border-thickness&show=5082#c5082",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor red
+skinparam titleBackgroundColor AliceBlue-Bisque
+title My Title
+Bob -> Alice : hello
+@enduml

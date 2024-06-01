@@ -1,0 +1,10 @@
+{
+  "sha1": "cpn6t7yxjpg4e93hiq05ji8j5r7yc7b",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.836Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob->Alice : coucou
+@enduml

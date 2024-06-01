@@ -1,0 +1,33 @@
+{
+  "sha1": "gs4pm1u7o7g726sze7dqbg75iu7k9g3",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.274Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Title Test Flow
+|ERROR|
+|PROCESS 1|
+start
+: Step 1;
+if (Step 1 right?) then (no)
+    |ERROR|
+    : Error1;
+    stop
+elseif (Skip?) then (no)
+        |PROCESS 1|
+        : Step 2;
+        if (Still Valid?) then (no)
+            |ERROR|
+            : Error2;
+            stop
+        else (yes)
+        endif
+        |PROCESS 1|
+else (yes)
+endif
+|PROCESS 1|
+: next step;
+end
+@enduml

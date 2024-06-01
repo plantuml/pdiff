@@ -1,0 +1,15 @@
+{
+  "sha1": "fiyd9kbf3yx8op2r4o9mljy1tmawlwb",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.224Z",
+    "url": "https://github.com/plantuml/plantuml/pull/976",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ref over A : [[link]]
+ref over A : [[link]] text on ref
+ref over A : text on ref and [[link]]
+ref over A [[link]]
+ref over A [[link]] : text on ref
+@enduml

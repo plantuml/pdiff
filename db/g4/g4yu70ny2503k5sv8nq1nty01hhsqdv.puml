@@ -1,0 +1,10 @@
+{
+  "sha1": "g4yu70ny2503k5sv8nq1nty01hhsqdv",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.194Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+note over Locus,Cassandra [[{3 things Bill Gates thinks could revolutionize life in the next 20 years\n First is an energy innovation to lower the cost and get rid of greenhouse gases\n 3 things Bill Gates thinks could revolutionize life in the next 20 years\n First is an energy innovation to lower the cost and get rid of greenhouse gases\n3 things Bill Gates thinks could revolutionize life in the next 20 years\n First is an energy innovation to lower the cost and get rid of greenhouse gases\n3 things Bill Gates thinks could revolutionize life in the next 20 years\n First is an energy innovation to lower the cost and get rid of greenhouse gases\n3 things Bill Gates thinks could revolutionize life in the next 20 years\n First is an energy innovation to lower the cost and get rid of greenhouse gases\n3 things Bill Gates thinks could revolutionize life in the next 20 years\n First is an energy innovation to lower the cost and get rid of greenhouse gases\n3 things Bill Gates thinks could revolutionize life in the next 20 years\n First is an energy innovation to lower the cost and get rid of greenhouse gases\n3 things Bill Gates thinks could revolutionize life in the next 20 years\n First is an energy innovation to lower the cost and get rid of greenhouse gases\n3 things Bill Gates thinks could revolutionize life in the next 20 years\n First is an energy innovation to lower the cost and get rid of greenhouse gases\n3 things Bill Gates thinks could revolutionize life in the next 20 years\n First is an energy innovation to lower the cost and get rid of greenhouse gases\n3 things Bill Gates thinks could revolutionize life in the next 20 years\n First is an energy innovation to lower the cost and get rid of greenhouse gases\n}]] : test it
+@enduml

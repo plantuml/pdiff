@@ -1,0 +1,19 @@
+{
+  "sha1": "dzax5b6w60xrywb0b5p231en5ey08zc",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.659Z",
+    "url": "https://forum.plantuml.net/10679/feature-gantt-progress?show=14108#c14108",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+scale 1.5
+printscale daily
+saturday are closed
+sunday are closed
+
+Project starts the 1st of january 2021
+[foo] lasts 21 days
+[foo] is 40% completed
+[bar] lasts 30 days and is 10% complete
+@endgantt

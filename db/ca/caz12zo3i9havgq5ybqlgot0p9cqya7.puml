@@ -1,0 +1,21 @@
+{
+  "sha1": "caz12zo3i9havgq5ybqlgot0p9cqya7",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.168Z",
+    "url": "https://forum.plantuml.net/13367/possible-display-milestones-same-row-tasks-that-have-notes?show=13380#c13380",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+title Long Long Long note KO
+
+Project starts 2020-05-29
+projectscale weekly
+
+[TASK1] as [T1] starts on 2020-05-29 and ends on 2020-06-30
+note bottom
+Long Long Long note KO
+end note
+[Milestone 1] as [M1] happens 2020-06-30
+[M1] displays on same row as [T1]
+@endgantt

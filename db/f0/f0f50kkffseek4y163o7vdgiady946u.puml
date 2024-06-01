@@ -1,0 +1,28 @@
+{
+  "sha1": "f0f50kkffseek4y163o7vdgiady946u",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.346Z",
+    "url": "https://forum.plantuml.net/12396/user-defined-style-targets-in-activity-diagram-beta",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+activityDiagram
+{
+ arrow {
+     LineColor green
+ }
+ .x {
+     BackgroundColor #00ff00  
+ }
+ .y {
+     BackgroundColor #00ffff  
+ }
+}
+</style>
+start
+<< x >>:hello;
+<< y >>:world;
+stop
+@enduml

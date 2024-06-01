@@ -1,0 +1,26 @@
+{
+  "sha1": "efvwnu9aprp6v9lza0jb5ij8zz3m4mk",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.363Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Bind;
+fork
+  repeat
+    :Listen admin<
+    :Execute;
+    :Reply admin>
+  repeat while (shutdown>) is (no)
+fork again
+  repeat
+    :Listen user<;
+    :Reply user>
+  repeat while (forever)
+  detach
+endfork
+:Release;
+
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "clpzjyrsxkyj992v6369ahia9vwozcj",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.663Z",
+    "url": "https://github.com/plantuml/plantuml/pull/440",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+printscale daily
+
+Project starts the 1st of january 2021
+sunday are colored in #AAAAFF
+
+[Automatic branch tag on release] as [s1] starts 2021-01-15 and lasts 1 week
+then [Setup Automatic Alerts] as [s2] lasts 1 week
+
+[End] happens 150 days after start
+@endgantt

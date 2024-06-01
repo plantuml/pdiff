@@ -1,0 +1,15 @@
+{
+  "sha1": "g2m88y8cccguneup9m9k2f76ghfbnu0",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.065Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob
+legend
+|= Param |= Value |
+| Path | /foo |
+| disk |<r> c |
+endlegend
+@enduml

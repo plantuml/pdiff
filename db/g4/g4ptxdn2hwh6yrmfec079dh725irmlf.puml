@@ -1,0 +1,14 @@
+{
+  "sha1": "g4ptxdn2hwh6yrmfec079dh725irmlf",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.186Z",
+    "url": "http://forum.plantuml.net/8572/svglinktarget-not-working",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam hyperlinkUnderline false
+start
+:foo1 [[http://www.google.com]] end;
+stop
+@enduml

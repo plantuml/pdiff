@@ -1,0 +1,27 @@
+{
+  "sha1": "gaa50f4r0ynhvd1pzvgim998eaiclks",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.485Z",
+    "url": "https://forum.plantuml.net/17196/activity-diagram-using-if-is-syntax-in-elseif",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (a > x) then (op1)
+:Action 1;
+elseif (a < y) then (op2)
+:Action 2;
+else (op3)
+:Action 3;
+endif
+:New Action;
+if (a) equals (1) then
+:Action 4;
+elseif (a) equals (2) then
+:Action 5;
+else (no)
+:Action 6;
+endif
+stop
+@enduml

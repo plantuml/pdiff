@@ -1,0 +1,18 @@
+{
+  "sha1": "f5hlwfzh2rp1zwvh54d5z57o6zxk3q1",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.537Z",
+    "url": "https://forum.plantuml.net/16529/could-we-add-syntax-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component A [
+{{
+state a
+}}
+{{ebnf
+rep = {c};
+}}
+]
+@enduml

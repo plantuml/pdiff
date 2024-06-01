@@ -1,0 +1,17 @@
+{
+  "sha1": "gzfnjyueylviopztk22qzgo1qk0xso4",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.590Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+(*) --> ACT1
+
+ACT1 -> ACT2
+ACT2 --> ACT3
+ACT3 -left-> ACT4
+ACT3 -> ACT5
+
+@enduml

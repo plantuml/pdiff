@@ -1,0 +1,13 @@
+{
+  "sha1": "cm0jnq1n99j6md9xu4mor9qokywii2l",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.702Z",
+    "url": "https://forum.plantuml.net/16694/ebnf-add-notes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+digit1 = ["0" (*this is a comment below*), "1"];
+
+
+@endebnf

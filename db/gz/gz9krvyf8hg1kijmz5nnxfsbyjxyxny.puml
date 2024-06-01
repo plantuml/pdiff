@@ -1,0 +1,15 @@
+{
+  "sha1": "gz9krvyf8hg1kijmz5nnxfsbyjxyxny",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.583Z",
+    "url": "https://forum.plantuml.net/17031/boolean-builtin-functions?show=17045#c17045",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+alice -> bob: hello
+!if %and(0,0-1)
+alice -> bob: not seen, otherwise bug
+!endif
+
+@enduml

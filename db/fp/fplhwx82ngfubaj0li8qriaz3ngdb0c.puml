@@ -1,0 +1,22 @@
+{
+  "sha1": "fplhwx82ngfubaj0li8qriaz3ngdb0c",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.461Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if(this\ntest\nis\nlong) then
+    :Activity1;
+elseif() then(I would like to write\na long text here\non several lines\nwithout getting over\nthe Activity box)
+    :Activity2;
+    :Activity3;
+elseif() then(I would like to write\na long text here\non several lines\nwithout getting over\nthe Activity box)
+    :Activity4;
+    :Activity5;
+else
+:Activity6;
+endif
+stop
+@enduml

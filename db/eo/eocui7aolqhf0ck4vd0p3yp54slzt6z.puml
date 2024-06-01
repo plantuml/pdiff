@@ -1,0 +1,14 @@
+{
+  "sha1": "eocui7aolqhf0ck4vd0p3yp54slzt6z",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.832Z",
+    "url": "https://forum.plantuml.net/15817/bug-with-archimate-shapes?show=15830#c15830",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam archimate {
+  DiagonalCorner<<motivation-driver>> 12
+}
+archimate #MOTIVATION "ArchiMate" as A <<motivation-driver>>
+@enduml

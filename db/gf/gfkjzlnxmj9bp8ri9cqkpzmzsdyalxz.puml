@@ -1,0 +1,22 @@
+{
+  "sha1": "gfkjzlnxmj9bp8ri9cqkpzmzsdyalxz",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.703Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+scale 2.0
+ 
+skinparam class {
+  AttributeFontName  consolas
+  AttributeFontSize  12
+  AttributeFontStyle italic
+}
+ 
+enum MyEnum {
+    MyEnumValue1 = 0x00000001
+}
+ 
+@enduml

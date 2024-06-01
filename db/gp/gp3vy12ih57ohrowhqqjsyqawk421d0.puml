@@ -1,0 +1,11 @@
+{
+  "sha1": "gp3vy12ih57ohrowhqqjsyqawk421d0",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.125Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Alice [[http://www.google.fr{My Link}]]
+'url of Alice is [[http://www.google.fr{My Link}]]
+@enduml

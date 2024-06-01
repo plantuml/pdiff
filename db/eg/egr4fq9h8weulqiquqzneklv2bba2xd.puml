@@ -1,0 +1,15 @@
+{
+  "sha1": "egr4fq9h8weulqiquqzneklv2bba2xd",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.405Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam componentstyle rectangle
+component [component1] #GreenYellow 
+()interface
+
+[component1] -> ()interface
+()interface <.. [component2]
+@enduml

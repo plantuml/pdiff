@@ -1,0 +1,21 @@
+{
+  "sha1": "cwbrv22xfqwyfr2roshj7iul0rlha7h",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.148Z",
+    "url": "https://forum.plantuml.net/14104/sequence-diagram-incoming-outgoing-some-arrows-are-inverted",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Long title to see cropped arrow
+participant Alice 
+participant Bob   
+
+[o<-x Alice : hop
+[o<-x Bob : hop
+
+
+[x<-o Alice : hop2
+[x<-o Bob : hop2
+
+@enduml

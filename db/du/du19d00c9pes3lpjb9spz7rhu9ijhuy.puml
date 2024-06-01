@@ -1,0 +1,34 @@
+{
+  "sha1": "du19d00c9pes3lpjb9spz7rhu9ijhuy",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.447Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+element {
+  BackGroundColor: #AAA;
+}
+participant {
+  FontColor: green;
+  FontSize 26
+  FontStyle italic
+  LineColor #E00
+  BackGroundColor #000
+}
+arrow {
+  FontColor red
+}
+</style>
+
+participant Alice
+
+participant Bob
+Alice -> Bob : hello1
+
+Alice -> Bob : hello2
+
+@enduml

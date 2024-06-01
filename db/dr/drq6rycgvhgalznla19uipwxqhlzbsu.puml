@@ -1,0 +1,20 @@
+{
+  "sha1": "drq6rycgvhgalznla19uipwxqhlzbsu",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.391Z",
+    "url": "http://forum.plantuml.net/8798/change-color-of-sprite",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <tupadr3/common>
+!include <tupadr3/font-awesome/star>
+class Foo {
+ <&x{scale=2.25,color=#FF0000}> someBadField
+ <$star{scale=0.50,color=#FF0000}> other
+ <&x{scale=2.25,color=#FF0000}> someBadField
+ <$star{scale=0.50,color=#FF0000}> other
+ <&x*2.25,color=green> someBadField
+ <$star*0.50,color=blue> other
+}
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "dxaijyojied1n4lnkk6p2bgnc9h9amu",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.536Z",
+    "url": "http://forum.plantuml.net/6830/syntax-breaking-in-component-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+[Component 1] <-> bar_interface
+@enduml

@@ -1,0 +1,43 @@
+{
+  "sha1": "feey77ui8escbto8znz3uwwe4r2n31t",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.008Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1629",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+activityDiagram {
+  diamond {
+    LineColor blue
+    BackgroundColor lightCyan
+    FontColor blue
+    FontSize 20
+  }
+}
+</style>
+
+while (data available?)
+  :read data;
+  :generate diagrams;
+endwhile
+
+<style>
+activityDiagram {
+  diamond {
+    LineColor red
+    BackgroundColor pink
+    FontColor red
+    FontSize 10
+  }
+}
+</style>
+while (data available?)
+  :read data;
+  :generate diagrams;
+endwhile
+end
+
+@enduml

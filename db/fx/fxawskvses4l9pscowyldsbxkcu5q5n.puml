@@ -1,0 +1,29 @@
+{
+  "sha1": "fxawskvses4l9pscowyldsbxkcu5q5n",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.835Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace User {
+    class Person <Eloquent> {
+        string #username
+        string #email
+        string #firstname
+        string #lastname
+        int #age
+        Carbon #dateOfBirth
+        Address #address
+        Account #account
+        Profile #profile
+        Boolean #fraudulent
+
+        update()
+        create()
+        delete()
+    }
+    
+    class PersonRich extends Person
+}
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "gb1olysej52vzlwbsqfj9vm7hk7j2vx",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.535Z",
+    "url": "https://forum.plantuml.net/16188/gantt-closed-days-arent-ignored-when-delaying-tasks",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+saturday are closed
+sunday are closed
+2022-07-04 to 2022-07-15 is closed
+
+Project starts 2022-06-27
+[task1] starts at 2022-06-27 and lasts 1 week
+[task2] starts 2 days after [task1]'s end and lasts 3 days
+
+@endgantt

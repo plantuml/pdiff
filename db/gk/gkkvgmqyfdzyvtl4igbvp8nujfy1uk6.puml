@@ -1,0 +1,26 @@
+{
+  "sha1": "gkkvgmqyfdzyvtl4igbvp8nujfy1uk6",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.929Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|laneOne|
+:action1;
+|laneTwo|
+:action2;
+|laneOne|
+:action3;
+|laneTwo|
+floating note right
+I would like this
+note to appear
+in laneTwo
+even though
+there is no action
+there
+endnote
+|laneOne|
+:action3;
+@enduml

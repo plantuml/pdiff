@@ -1,0 +1,55 @@
+{
+  "sha1": "emaerm15u6dck87snu28rqw1m8ah5vt",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.709Z",
+    "url": "http://forum.plantuml.net/9483/bug-in-preprocessor-v2-nesting",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml 
+'!preprocessorV2
+
+!unquoted procedure $msg($type,$sub)
+!if ($type == "A")
+!if ($sub == "X")
+A -> B: AX
+!endif
+!if ($sub == "Y")
+A -> B: AY
+!endif
+!endif
+!if ($type == "B")
+!if ($sub == "X")
+A -> B: BX
+!endif
+!if ($sub == "Y")
+A -> B: BY
+!endif
+!endif
+
+!end procedure
+
+
+!unquoted procedure $msg2($type,$sub)
+!if ($type == "A")  && ($sub == "X")
+A -> B: AX
+!endif
+!if ($type == "A")  && ($sub == "Y")
+A -> B: AY
+!endif
+
+!if ($type == "B")  && ($sub == "X")
+A -> B: BX
+!endif
+!if ($type == "B")  && ($sub == "Y")
+A -> B: BY
+!endif
+!end procedure
+
+$msg(A,X)
+$msg(B,Y)
+A -> B: type 2
+$msg2(A,X)
+$msg2(B,Y)
+
+@enduml

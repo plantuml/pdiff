@@ -1,0 +1,22 @@
+{
+  "sha1": "cybh9d18d6wzl8v4va4o224w0c20qvn",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.244Z",
+    "url": "https://forum.plantuml.net/15473/rectangles-corners-package-rectangles-supported-anymore",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam rectangle<<GreenContainer>> {
+    RoundCorner 25
+}
+
+
+rectangle "25" <<GreenContainer>> as gC
+
+@enduml

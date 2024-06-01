@@ -1,0 +1,13 @@
+{
+  "sha1": "dxoel5mjcvk1c6xxsvrtygo1wgpb19m",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.563Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package foo [[http://www.google.com]] {
+'class dummy1 [[http://fr]]
+class dummy2
+}
+@enduml

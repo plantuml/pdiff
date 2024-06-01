@@ -1,0 +1,25 @@
+{
+  "sha1": "cc7agql1adhxdvtphera8lp4sl22jiq",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.209Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class cl1 #blue;text:red;line:yellow {
+  toto1
+  toto2
+  toto3()
+}
+
+cl1 --> cl2
+
+class cl2 #text:blue {
+  toto1
+  toto2
+  toto3()
+}
+
+
+@enduml

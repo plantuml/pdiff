@@ -1,0 +1,21 @@
+{
+  "sha1": "f50v85srjcfayxnff7z115yvb1719ft",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.511Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml 
+namespace Root1 {
+  namespace Element1 {
+     interface Foo
+  }
+}
+
+namespace Root2 {
+  namespace Element1 {
+     class ImplFoo
+  }
+}
+
+@enduml 

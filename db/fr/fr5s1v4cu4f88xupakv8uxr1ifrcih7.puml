@@ -1,0 +1,20 @@
+{
+  "sha1": "fr5s1v4cu4f88xupakv8uxr1ifrcih7",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.546Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Ceci est un titre
+start
+repeat
+  :a;
+note right: note
+  repeat
+    :b;
+    note right: note that is wider than normal - this is a very wide note
+  repeat while (condition1)
+repeat while (condition2)
+stop
+@enduml

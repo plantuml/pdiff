@@ -1,0 +1,10 @@
+{
+  "sha1": "gf0mnjs0aysqhfq7wm4prahva4sdc6u",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.696Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant SomeName as SN
+@enduml

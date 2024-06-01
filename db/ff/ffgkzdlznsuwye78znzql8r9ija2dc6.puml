@@ -1,0 +1,28 @@
+{
+  "sha1": "ffgkzdlznsuwye78znzql8r9ija2dc6",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.096Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam usebetastyle true
+
+Bob -> Alice : ok1
+== Resource V1 ==
+Bob -> Alice : ok2
+
+<style>
+separator {
+  LineColor black
+  BackGroundColor yellow
+  LineThickness 3
+  FontSize 22
+}
+</style>
+
+
+== Resource V2 ==
+Bob -> Alice : ok3
+@enduml

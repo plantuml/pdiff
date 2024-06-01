@@ -1,0 +1,13 @@
+{
+  "sha1": "glls7isy7u1ys2cz8mf57zo1qonqtnt",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.999Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide footbox
+participant Alice as alice
+participant Bob as bob
+alice ->> bob : <b> SIGNAL_1\n  next line
+@enduml

@@ -1,0 +1,15 @@
+{
+  "sha1": "cows0pbmjouhnfh66cs7fsb8slvjejf",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.811Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+participant IT
+participant FKM
+
+FKM-->IT:The system <b>displays</b> all action this user has done in list with fields
+
+@enduml

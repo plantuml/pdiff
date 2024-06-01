@@ -1,0 +1,19 @@
+{
+  "sha1": "fj0v7bnf08wriuvne1vfd6cp4oz3bjr",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.233Z",
+    "url": "http://forum.plantuml.net/7770/stereotyped-multi-line-notes-on-messages",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob: message()
+
+skinparam noteBackgroundColor blue
+skinparam noteBackgroundColor<<myStyle>> red
+
+note <<myStyle>> left
+... note text
+end note
+
+@enduml

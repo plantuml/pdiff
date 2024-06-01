@@ -1,0 +1,16 @@
+{
+  "sha1": "fzwpktmxtbahuofbol7n8471x3rdamj",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.948Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam conditionStyle diamond
+start
+repeat
+  :act1;
+  :act2;
+repeatwhile (end)
+:act3;
+@enduml

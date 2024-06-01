@@ -1,0 +1,21 @@
+{
+  "sha1": "enj4mgrxowa3y1tz1yg6qf5a1lsgu41",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.770Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+group {
+    BackGroundColor transparent
+}
+</style>
+
+alt successful
+Server -> Client: OK
+else failure
+Server -> Client : ERROR
+end
+
+@enduml

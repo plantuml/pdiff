@@ -1,0 +1,10 @@
+{
+  "sha1": "fa9yk6ppwttm6ytskqrkc3xx1fdqpud",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.834Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+AB[[:digit:]]C
+@endregex

@@ -1,0 +1,15 @@
+{
+  "sha1": "g9fp4l7uy1bvpwjcrk8do0v53fgl4ij",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.440Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+  opt
+    Axxx ->Bxxx : message1
+    note left : this is a note
+  end
+
+@enduml

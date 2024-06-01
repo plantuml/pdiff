@@ -1,0 +1,21 @@
+{
+  "sha1": "dyhfgoj5h0n1ktevrmw9kgmfw6jumjr",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.611Z",
+    "url": "https://forum.plantuml.net/16840/in-condition-activity-diagram-can-specify-left-right-arrows",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+|lane0b|
+|lane1b|
+start
+if (condition) then (no)
+else (yes)
+|lane0b|
+:do something;
+endif
+|lane1b|
+end
+@enduml

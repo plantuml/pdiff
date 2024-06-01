@@ -1,0 +1,25 @@
+{
+  "sha1": "gr6dstpsdn5bbxe5c6i23lnl6t2vz34",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.209Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+note: note #1
+:Activity #1;
+note: note #2
+
+if (foo?) then (yes)
+note: note #3
+  :Activity #2;
+  :Activity #3;
+  note: note #4
+
+else (no)
+  :Activity #4;
+endif
+note: note #5
+stop
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "fuir3ji9yvso6f3twq0g9namv16xe2d",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.704Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob : Hello1
+alt that is very very long
+Alice -> Bob : Hello2
+end
+@enduml

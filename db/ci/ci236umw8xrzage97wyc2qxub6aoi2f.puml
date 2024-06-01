@@ -1,0 +1,15 @@
+{
+  "sha1": "ci236umw8xrzage97wyc2qxub6aoi2f",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.450Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=6423/can-i-set-arrow-thickness-on-a-component-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component a
+component b
+
+a-[thickness=8]>b
+b-[dashed,thickness=8]>a
+@enduml

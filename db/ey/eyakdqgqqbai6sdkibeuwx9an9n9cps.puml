@@ -1,0 +1,10 @@
+{
+  "sha1": "eyakdqgqqbai6sdkibeuwx9an9n9cps",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.262Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?
+@endregex

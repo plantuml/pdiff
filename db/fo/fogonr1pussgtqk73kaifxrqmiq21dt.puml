@@ -1,0 +1,84 @@
+{
+  "sha1": "fogonr1pussgtqk73kaifxrqmiq21dt",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.443Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam Box {
+    Padding 5
+}
+
+skinparam Sequence {
+    MessageAlign center
+    MessageBackgroundColor WHITE
+}
+
+title <size:24>New HTTP API endpoints</size>
+
+
+skinparam Default {
+    FontName Fira Code
+}
+
+skinparam Actor {
+  BackgroundColor BLACK
+  BorderColor BLACK
+}
+
+box Actor
+    actor Client_Http
+    actor Client_Email
+    actor Document_WS
+end box
+
+box "gwpy-core" #LightBlue
+    entity CoreProxyEndpoint
+    boundary EmailWorker
+end box
+
+box "mspy-commentator" #LightGreen
+    entity CommentatorEndpoint
+    database mspy_commentator_db
+end box
+
+box "mspy-notifier" #LightGrey
+    entity NotifierEndpoint
+end box
+
+box "mspy-pusher" #LightPink
+    entity document_channel
+end box
+
+box "mspy-content-service" #LightYellow
+    entity AddExternalMarkEndpoint
+end box
+
+== Comment for document & text block and Reply to Comment ==
+
+Client_Http -> CoreProxyEndpoint: CRUD operation
+CoreProxyEndpoint -> CommentatorEndpoint: related nats endpoint
+CommentatorEndpoint -> mspy_commentator_db: save data
+CommentatorEndpoint -> CoreProxyEndpoint: response
+CoreProxyEndpoint -> EmailWorker: schedule email task
+CoreProxyEndpoint -> Client_Http: response
+EmailWorker -> Client_Email: email notification
+CommentatorEndpoint -> NotifierEndpoint: send notification
+NotifierEndpoint -> document_channel: send notification
+document_channel -> Document_WS: trigger document event
+
+== Inline Comment ==
+
+Client_Http -> CoreProxyEndpoint: CRUD operation
+CoreProxyEndpoint -> CommentatorEndpoint: related nats endpoint
+CommentatorEndpoint -> AddExternalMarkEndpoint: add external mark to block content
+CommentatorEndpoint -> mspy_commentator_db: save data
+CommentatorEndpoint -> CoreProxyEndpoint: response
+CoreProxyEndpoint -> EmailWorker: schedule email task
+CoreProxyEndpoint -> Client_Http: response
+EmailWorker -> Client_Email: email notification
+CommentatorEndpoint -> NotifierEndpoint: send notification
+NotifierEndpoint -> document_channel: send notification
+document_channel -> Document_WS: trigger document event
+@enduml

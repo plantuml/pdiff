@@ -1,0 +1,15 @@
+{
+  "sha1": "ebyzb3ko8pkryqgxfw82ofg6lby1fon",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.214Z",
+    "url": "https://forum.plantuml.net/10825/interface-or-does-not-work-when-allow_mixing",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+allow_mixing
+() "Does work now"
+class foo
+interface dummy
+foo -- "Does work now"
+@enduml

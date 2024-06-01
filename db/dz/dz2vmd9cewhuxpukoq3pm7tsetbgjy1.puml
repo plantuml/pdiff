@@ -1,0 +1,37 @@
+{
+  "sha1": "dz2vmd9cewhuxpukoq3pm7tsetbgjy1",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.637Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    skinparam colorArrowSeparationSpace 2
+    start
+    -[#red;#blue;#green;#orange]-> Red:1\nBlue:\nGreen:3\nYellow:4;
+    :do a;
+   -[#red;#blue;#green;#orange]-> label;    
+    if (test) then
+       -[#green;#orange]->
+        :do b;
+       -[#green;#orange]->        
+    else
+        -[#red;#blue]->
+        :do c;
+         -[#red;#blue,dotted]->
+    endif
+    -[#red;#blue,dashed]->
+    while(a)
+       -[#red;#blue,dashed]->
+       :something;<<continuous>>
+       -[#red;#blue,dashed]->   
+    endwhile
+  
+   -[#red;#blue,dashed]->
+
+   repeat
+        -[#red;#blue,dashed]->
+       :something;<<continuous>>
+       -[#red;#blue,dashed]->
+   repeat while(a)is(b)
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "cxdnr3wf6puxtm1e2ux7wvpb4g6dysw",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.215Z",
+    "url": "https://twitter.com/27escape/status/1111623269147389952",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob : hello
+@enduml

@@ -5,10 +5,19 @@ It facilitates the collection, execution, and comparison of diagrams to ensure n
 
 ## Objectives
 
-The main goals of the `pdiff` utility are to:
+The primary objectives of the `pdiff` utility are:
 
-- Maintain an official collection of diagrams for PlantUML non-regression testing.
-- Compare output changes between different PlantUML versions.
+- **Maintain an official collection of diagrams**: Serve as a repository for diagrams used in PlantUML non-regression testing.
+- **Compare output changes**: Analyze and highlight differences in diagram outputs across various PlantUML versions.
+
+## Requirements
+
+To use this utility, you need:
+
+- **Java 17 or later**: Ensure that Java 17 or a newer version is installed and properly configured on your system.
+- **PlantUML Library**: At least one version of the compiled `plantuml.jar` library, which can be downloaded from [PlantUML releases](https://github.com/plantuml/plantuml/releases).
+- **GraphViz**: A working installation of GraphViz.
+
 
 ## Compilation
 
@@ -51,13 +60,16 @@ Usage: <main class> [command] [command options]
 
 The `pdiff` tool operates in three primary modes:
 
-- **insert**:
+- **insert** (optional):
+
+  Note that you don't have to run this mode since the project already contains some diagrams. Use it only if you want to add your diagrams to the collection. If you do, you are welcome to submit a pull request so that your examples can be included in the official collection.
 
   During the insertion phase, the tool scans all files in the `/raw` directory. If it finds diagrams, it extracts the corresponding diagram text, computes the SHA-1 signature in base 36 of the diagram, and creates a file in `/db` with this signature containing the diagram text. This ensures that the `/db` collection contains a set of diagrams for non-regression testing.
 
+
 - **run**:
 
-  During the run phase, the tool generates PNG images for all diagrams in the `/db` collection and produces an HTML result file in the `/run` directory containing all images. For each image, a CRC is calculated.
+  During the run phase, the tool generates PNG images for all diagrams in the `/db` collection and produces an HTML result file containing all images. For each image, a CRC is calculated.
 
 - **diff**:
 
@@ -77,13 +89,24 @@ java -jar build/libs/pdiff-all.jar insert -u foo@dummy.com
 
 ### Run
 
-This mode executes a specified version of PlantUML on the entire collection of diagrams. Note that the PlantUML library is not bundled with the `pdiff` tool; you must download or compile the desired version separately. The results of the run are stored in a specific directory and remain local, as they depend on various factors, including the PlantUML version, GraphViz version, and the machine's configuration.
+This mode executes a specified version of PlantUML on the entire collection of diagrams. Note that the PlantUML library is not bundled with the `pdiff` tool; you must
+[download](https://github.com/plantuml/plantuml/releases) or compile the desired version separately.
+
+The results of the run are stored in a specific directory and remain local, as they depend on various factors, including the PlantUML version, GraphViz version, and the machine's configuration.
 
 The command line usage differs slightly because you need to specify the JAR file (or directory) containing the PlantUML version you intend to use.
+
+On Linux:
 
 ```sh
 java -cp plantuml-1.2023.13.jar:build/libs/pdiff-all.jar com.pdiff.Main run
 ```
+
+On Windows:
+```sh
+java -cp "plantuml-1.2023.13.jar;build/libs/pdiff-all.jar" com.pdiff.Main run
+```
+
 
 ### Compare
 

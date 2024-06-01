@@ -1,0 +1,12 @@
+{
+  "sha1": "ers104c4b9pxz0zofq8qxnic5p57ea0",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.005Z",
+    "url": "https://forum.plantuml.net/10948/gantt-printscale-weekly",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+project starts on 2020-11-01
+[task1] starts on 2020-11-01 and ends on 2021-01-10
+@endgantt

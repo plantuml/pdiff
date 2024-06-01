@@ -1,0 +1,35 @@
+{
+  "sha1": "g99kehwnvvl53dhx3gtquxubqrf98qt",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.418Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!unquoted procedure SALT($x)
+{{
+salt
+%invoke_procedure("_"+$x)
+}}
+!endprocedure
+
+!procedure _choose()
+{+
+<b>an example
+choose one option
+()one
+()two
+[ok]
+}
+!endprocedure
+
+
+
+class foo
+
+legend
+SALT(choose)
+endlegend
+
+@enduml

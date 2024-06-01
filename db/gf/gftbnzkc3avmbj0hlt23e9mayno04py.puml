@@ -1,0 +1,24 @@
+{
+  "sha1": "gftbnzkc3avmbj0hlt23e9mayno04py",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.711Z",
+    "url": "https://forum.plantuml.net/11677/shadowing-issues-rounded-empty-transparent-backgroundcolor",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam BackgroundColor transparent
+title Test **KO** BackgroundColor **transparent**\n and Shadowing for some empty group
+database database1
+database database_ko {
+}
+queue queue1
+queue queue_ko {
+}
+storage storage1
+storage storage_ko {
+}
+database1--database_ko 
+queue1--queue_ko
+storage1--storage_ko
+@enduml

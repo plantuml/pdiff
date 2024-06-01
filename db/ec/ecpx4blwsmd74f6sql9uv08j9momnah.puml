@@ -1,0 +1,21 @@
+{
+  "sha1": "ecpx4blwsmd74f6sql9uv08j9momnah",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.256Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ 
+!definelong a(unlinked_handling)
+participant a
+participant b
+participant c
+ 
+unlinked_handling
+a->b:hi
+!enddefinelong
+ 
+ 
+a(hide unlinked)
+@enduml

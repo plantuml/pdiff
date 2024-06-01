@@ -1,0 +1,15 @@
+{
+  "sha1": "fwxg3nlqiwu76bcbkxfj1bxo86tbq1w",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.827Z",
+    "url": "https://github.com/plantuml/plantuml/issues/104",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty description
+skinparam wrapWidth 150
+state "a" as a
+state "In my humble opinion this is definitively too long for a state name one liner and would benefit from wrapping" as b
+a -right-> b
+@enduml

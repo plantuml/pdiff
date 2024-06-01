@@ -1,0 +1,59 @@
+{
+  "sha1": "gcplgkaziht1vm93c44rlvfunqtqekl",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.621Z",
+    "url": "https://forum.plantuml.net/14479/style-allow-style-on-nwdiag-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+nwdiagDiagram {
+  network {
+    BackGroundColor green
+    LineColor red
+    LineThickness 1.0
+    FontSize 18
+    FontColor cyan
+  }
+  server {
+    BackGroundColor red
+    LineColor yellow
+    LineThickness 1.0
+    ' FontXXX for both description or address 
+    FontSize 18
+    FontColor #blue
+  }
+  group {
+    BackGroundColor palegreen
+    LineColor black
+    LineThickness 2.0
+    FontSize 11
+    FontStyle bold
+    Margin 5
+    Padding 5
+  }
+}
+</style>
+nwdiag {
+  network DMZ {
+      address = "y.x.x.x/24"
+      web01 [address = "y.x.x.1"];
+      web02 [address = "y.x.x.2"];
+  }
+
+   network Internal {
+    web01;
+    web02;
+    db01 [address = "w.w.w.z", shape = database];
+  } 
+
+    group {
+    'color = "#77FF77";
+    description = "long group label";
+    web01;
+    web02;
+    db01;
+  }
+}
+@enduml

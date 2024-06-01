@@ -1,0 +1,21 @@
+{
+  "sha1": "dcr5buyqtjd6793r187fw96sb9uc1ld",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.813Z",
+    "url": "https://forum.plantuml.net/10201/creole-tree-example-broken",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam titleFontSize 14
+title
+  Example of Tree
+  |_ First line
+  |_ **Bom(Model)**
+  	|_ prop1
+  	|_ prop2
+  	|_ prop3
+  |_ Last line
+end title
+[*] --> State1
+@enduml

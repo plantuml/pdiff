@@ -1,0 +1,17 @@
+{
+  "sha1": "gidgfh39q2s2w66htt68sog4n4rfz8v",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.808Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=5127/activity-diagrams-bug-on-arrow-position-with-note",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (test) then (yes)
+  stop
+  note:foo
+else (no)
+endif
+stop
+@enduml

@@ -1,0 +1,10 @@
+{
+  "sha1": "fzc17bo79fncok8f8liz6sfc6aphexk",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.930Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class block2
+@enduml

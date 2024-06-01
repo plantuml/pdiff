@@ -1,0 +1,20 @@
+{
+  "sha1": "epeirgavwpa47f6tki0ad5ttbhfwz0r",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.873Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+footer toto
+header toto
+participant Alice
+participant Bob
+box "Titre 1"
+participant Pluton
+participant Sun
+endbox
+Alice -> Bob
+Bob -> Pluton
+Pluton -> Sun
+@enduml

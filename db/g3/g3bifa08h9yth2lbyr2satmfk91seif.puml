@@ -1,0 +1,16 @@
+{
+  "sha1": "g3bifa08h9yth2lbyr2satmfk91seif",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.100Z",
+    "url": "https://forum.plantuml.net/11535/png-export-to-300-dpi-no-longer-works-correctly",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam {
+   dpi 300
+}
+
+:eMail PDF to customer<sup>2</sup>;
+:Print PDF in BW<sup>3</sup>;
+@enduml

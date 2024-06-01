@@ -1,0 +1,40 @@
+{
+  "sha1": "ek03av81o7p630foa9ap5nu73vdw9tq",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.549Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+/'
+----
+---- @ succeed comment
+---
+'/
+package PetitBeurre <<cloud>> {
+    /'
+    ----
+    ---- @ success comment
+    ---
+    '/
+  class aClass {
+    /'
+    ----
+    ---- @ failure1
+    ---
+    '/
+
+    }
+}
+
+Class someClass {
++ okPublic
+- okPrivate
+# okProtected
+    /'
+         @ failure2
+    '/
+
+}
+
+@enduml

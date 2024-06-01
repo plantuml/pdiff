@@ -1,0 +1,89 @@
+{
+  "sha1": "go1mdlrbj2mqtlkxap8klzba7067mf0",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.082Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+/' ****************************** '/
+
+box "injection" #Red
+participant injector.exe
+participant sslkeyhook.dll
+end box
+
+box "sniffer" #FFFFFF
+participant tshark
+end box
+
+box "User" #Aqua
+participant browser
+end box
+
+box "ssl_server" #Gray
+participant ssl_server.exe
+participant polarssl.dll
+end box
+
+
+/' ****************************** '/
+
+
+== Argument ==
+[-> ssl_server.exe : browser list arg = {b1, b2, ...}
+activate ssl_server.exe
+
+== Initializaton ==
+ssl_server.exe --> polarssl.dll : init
+
+
+== Getting browser cipher list ==
+
+ssl_server.exe --> browser : exec(browser, "https://localhost:443")
+activate browser
+browser -> ssl_server.exe : << client_hello >>
+destroy browser
+
+
+== Create a SSL connection for each cipher ==
+
+loop creating ssl connection
+ssl_server.exe --> browser : exec(browser, "https://localhost:443")
+activate browser
+
+group SSL Handshake
+group SSL key leakage
+browser -> ssl_server.exe : ssl key leaks
+end /' SSL key leakage '/
+end  /' SSM Handshake '/
+
+activate ssl_server.exe
+group SSL Application data
+browser -> ssl_server.exe
+end /' SSL Application data '/
+
+deactivate ssl_server.exe
+
+end /' endloop '/
+/' CRASH '/
+destroy browser
+
+/' Okay '/
+/' deactivate browser '/
+
+
+note left : testing all renegociation ?\
+     	    \ntesting all clean connexion ?
+
+== Cleanup ==
+
+ssl_server.exe --> browser : kill()
+ssl_server.exe --> polarssl.dll : clean()
+destroy ssl_server.exe
+
+/' ****************************** '/
+
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "d9vn3g6zn99krthe12cgqiwssdj14g5",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.713Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+rectangle Rect {
+A -> B
+}
+@enduml

@@ -1,0 +1,21 @@
+{
+  "sha1": "eh5mk6fs5kcnt9l1jlrvw5y71dzy63g",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.431Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam ActivityDiamondFontSize 8
+skinparam ActivityDiamondFontColor #ff0000
+
+start
+repeat
+  :Eat Hot Wings;
+repeat while (Still  Hungry?) -> yes
+-> no;
+stop
+
+
+@enduml

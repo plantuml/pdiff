@@ -1,0 +1,25 @@
+{
+  "sha1": "duy8dtdkd8ztv07mu3fb67gcd61krs1",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.474Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+document {
+  BackgroundColor transparent
+}
+</style>
+
+Alice -> Bob : hello
+Alice ->o Bob : hello
+Alice ->>o Bob : hello
+Alice -\o Bob : hello
+Alice -/o Bob : hello
+Alice -\\o Bob : hello
+Alice -//o Bob : hello
+
+Alice o<-- Bob : ok
+@enduml

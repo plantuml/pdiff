@@ -1,0 +1,35 @@
+{
+  "sha1": "exsy95ogdfecp10305hgtcrlo5wib5o",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.240Z",
+    "url": "https://forum.plantuml.net/12288/lifelinebordercolor-stereotype-not-working",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+skinparam Shadowing false
+skinparam sequence {
+ActorBorderColor white
+ActorBackgroundColor transparent
+ActorFontColor white
+LifeLineBorderColor<<time>> white
+}
+
+skinparam note {
+BackgroundColor<<timer>> transparent
+BorderColor<<timer>> transparent
+FontColor<<timer>> gray
+}
+
+actor time_actor << time >>
+rnote<<timer>> over time_actor: 01:27:00
+User -> A: Create Request
+rnote<<timer>> over time_actor: 01:27:15
+A -> B: DoWork
+rnote<<timer>> over time_actor: 01:27:45
+B --> A: Done
+rnote<<timer>> over time_actor: 01:28:07
+rnote over A: Just a Note
+A --> User: Request fulfilled
+@enduml

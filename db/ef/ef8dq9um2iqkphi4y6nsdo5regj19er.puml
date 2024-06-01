@@ -1,0 +1,12 @@
+{
+  "sha1": "ef8dq9um2iqkphi4y6nsdo5regj19er",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.327Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam maxMessageSize 100
+actor foo
+foo --> (Use case) : this is a very long sentence on one single line
+@enduml

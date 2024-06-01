@@ -1,0 +1,17 @@
+{
+  "sha1": "c34g1xwhka3xgv7dih0behkv2qmssan",
+  "insertion": {
+    "when": "2024-06-01T09:03:00.820Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class foo
+note right  
+tar -xzf ${path} -C /tmp
+dd if=/tmp/zImage <U+005C>
+  of=/dev/mmc1p1 bs=512 count=2097152 # 1GB
+end note
+
+@enduml

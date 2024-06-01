@@ -1,0 +1,17 @@
+{
+  "sha1": "d5gj7wa4mw3fs4v6na0qoym7iye4x1o",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.524Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam componentShadowing false
+skinparam rectangleShadowing false
+skinparam actorShadowing false
+skinparam databaseShadowing false
+actor actor
+component component
+rectangle rectangle
+database database
+@enduml

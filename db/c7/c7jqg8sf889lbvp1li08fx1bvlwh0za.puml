@@ -1,0 +1,11 @@
+{
+  "sha1": "c7jqg8sf889lbvp1li08fx1bvlwh0za",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.011Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty members
+class Fred
+@enduml

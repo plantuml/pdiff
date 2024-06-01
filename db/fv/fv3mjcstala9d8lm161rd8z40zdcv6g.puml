@@ -1,0 +1,17 @@
+{
+  "sha1": "fv3mjcstala9d8lm161rd8z40zdcv6g",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.757Z",
+    "url": "https://forum.plantuml.net/10203/extend-mindmap-syntax-to-allow-multiline-nodes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* <&flag>Debian
+** <&globe>Ubuntu
+***:Linux Mint
+Open Source;
+*** Kubuntu
+*** Lubuntu
+*** KDE Neon
+@endmindmap

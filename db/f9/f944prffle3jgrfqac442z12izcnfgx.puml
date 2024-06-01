@@ -1,0 +1,15 @@
+{
+  "sha1": "f944prffle3jgrfqac442z12izcnfgx",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.780Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty members
+'hide empty fields
+'hide empty methods
+class A {
+b
+}
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "fwgaluq3djjz0r5w1u45zts2vtl1lm3",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.809Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:foo1;
+note left: This is a note
+:foo2;
+note right
+  This note is on several
+  <u>lines</u> and can
+  contain <b>HTML</b>
+end note
+:foo3;
+@enduml

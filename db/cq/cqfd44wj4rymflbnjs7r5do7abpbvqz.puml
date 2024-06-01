@@ -1,0 +1,16 @@
+{
+  "sha1": "cqfd44wj4rymflbnjs7r5do7abpbvqz",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.894Z",
+    "url": "http://forum.plantuml.net/7464/eps-output-does-not-support-%23%23-dashed-states",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state a
+state b ##[dashed] {
+}
+state c
+
+a --> b
+@enduml

@@ -1,0 +1,40 @@
+{
+  "sha1": "fyqpkys3px21z885uvye9r89upjaokl",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.883Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1020",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 31536000 as 50 pixels
+
+concise "OpenGL Desktop" as OD
+manual time-axis
+use date format "yyyy"
+
+@1992/01/01
+OD is {hidden}
+
+@1992/06/30
+OD is 1.0
+
+@1997/03/04
+OD is 1.1
+
+@1998/03/16
+OD is 1.2
+
+@2001/08/14
+OD is 1.3
+
+@2004/09/07
+OD is 3.0
+
+@2008/08/01
+OD is 3.0
+
+@2017/07/31
+OD is 4.6
+
+@enduml

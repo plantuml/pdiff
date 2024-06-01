@@ -1,0 +1,18 @@
+{
+  "sha1": "ch98cctnl51w4nfz2obs2wpx2a0nub8",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.434Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+alt
+  vodpull->vodpull: A
+end
+alt
+  vodpull->vodpull: B
+  alt
+    vodpull->vodpull: C
+  end
+end
+@enduml

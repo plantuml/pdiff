@@ -1,0 +1,36 @@
+{
+  "sha1": "dymvx7lg71e8zs6z5zyuy6nuzetop2f",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.618Z",
+    "url": "https://forum.plantuml.net/15919/overlapped-groups-in-nwdiag-throws-exception",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+nwdiag {
+	group {
+		color = "pink";
+		app;
+		db;
+	}
+	
+	group {
+		color = "blue"
+		router;
+		db;
+	}
+	
+	network line1 {
+		router;
+		app;	
+	}
+	
+	network line2 {
+		app;
+		db;
+	}
+
+}
+
+@enduml

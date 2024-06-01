@@ -1,0 +1,14 @@
+{
+  "sha1": "d8r70zkncn2ye681lue07vhau88jwsd",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.689Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+Alice -> Bob : abcd expected %substr("abcd", 0)
+Alice -> Bob : bcd expected %substr("abcd", 1)
+Alice -> Bob : <> expected <%substr("abcd", 5)>
+Alice -> Bob : bc expected %substr("abcd", 1, 2)
+@enduml

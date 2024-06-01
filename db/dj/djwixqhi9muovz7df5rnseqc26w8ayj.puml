@@ -1,0 +1,31 @@
+{
+  "sha1": "djwixqhi9muovz7df5rnseqc26w8ayj",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.101Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package "Employees" {
+}
+
+package "Programmers" {
+}
+
+package "Programmers1" {
+}
+
+package "Programmers2" {
+}
+
+package "Programmers3" {
+}
+
+package "Programmers4"{ 
+}
+
+"Employees" +-- "Programmers"
+"Employees" +- "Programmers1"
+"Employees" +-right- "Programmers2"
+"Employees" +-up- "Programmers3"
+@enduml

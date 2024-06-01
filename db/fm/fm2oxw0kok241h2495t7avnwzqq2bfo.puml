@@ -1,0 +1,37 @@
+{
+  "sha1": "fm2oxw0kok241h2495t7avnwzqq2bfo",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.350Z",
+    "url": "https://github.com/plantuml/plantuml/discussions/1311",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|L1|
+start
+:a1;
+    if (c1) then (Yes)
+        :a2;
+        end
+    else (No)
+        repeat
+        |L2|
+        :a3;
+            if (c2) then (Yes)
+                :a4;
+                end
+            else (No)
+                |L3|
+                if (c3) then (Yes)
+                    :a5;
+                else (No)
+                    :a6;
+                end if
+                |L2|
+                :a7;
+            end if
+            |L1|
+        repeatwhile (r1)
+        kill
+    end if
+@enduml

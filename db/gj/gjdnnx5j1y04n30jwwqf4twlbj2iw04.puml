@@ -1,0 +1,11 @@
+{
+  "sha1": "gjdnnx5j1y04n30jwwqf4twlbj2iw04",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.874Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+Alice -> Bob : hello %getenv("OS")
+@enduml

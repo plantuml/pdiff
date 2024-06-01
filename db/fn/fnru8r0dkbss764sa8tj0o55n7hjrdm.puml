@@ -1,0 +1,13 @@
+{
+  "sha1": "fnru8r0dkbss764sa8tj0o55n7hjrdm",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.417Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> state1
+
+note left of state1 : coucou
+
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "fq54dap6lpghsfa58qaw8im77v8pcpv",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.490Z",
+    "url": "http://forum.plantuml.net/7781/gantt-chart-colorize-time-sections",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts the 5th of november 2018
+saturday are closed
+sunday are closed
+2018/11/05 and 9 days are colored in lightblue and are named [Sprint 49]
+then 10 days are colored in lightgreen and are named [Sprint 50]
+then 10 days are colored in lightblue and are named [Sprint 51]
+then 10 days are colored in lightgreen and are named [Sprint 52]
+[foo] lasts 4 days
+
+@endgantt

@@ -1,0 +1,24 @@
+{
+  "sha1": "cnvbf2z1fpu75p76m25ld5zjv5i30kl",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.776Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequenceNewpageSeparatorColor red
+title essai
+actor Alice
+actor Bob
+Alice -> Bob : coucou1
+Alice -> Bob : coucou2
+@newpage
+Alice -> Bob : coucou3
+Alice -> Bob : coucou4
+@newpage
+Alice -> Bob : coucou5
+Alice -> Bob : coucou6
+@newpage
+Alice -> Bob : coucou7
+Alice -> Bob : coucou8
+@enduml

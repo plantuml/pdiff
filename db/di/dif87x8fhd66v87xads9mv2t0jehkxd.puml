@@ -1,0 +1,15 @@
+{
+  "sha1": "dif87x8fhd66v87xads9mv2t0jehkxd",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.028Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob : Bok3
+/'
+this is a comment
+'/
+Bob -> Alice : Bok2
+'/' antoher comment '/ 
+@enduml

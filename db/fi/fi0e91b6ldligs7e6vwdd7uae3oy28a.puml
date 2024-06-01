@@ -1,0 +1,27 @@
+{
+  "sha1": "fi0e91b6ldligs7e6vwdd7uae3oy28a",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.158Z",
+    "url": "https://forum.plantuml.net/9718/bad-arrow-routing-in-sequence-diagram-with-swimlanes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|swimline1|
+start
+start
+repeat
+  :foo;
+|#AntiqueWhite|swimline2|
+  :bar;
+repeat while (OK?) is (no)
+-> yes;
+|swimline3|
+repeat
+  :baz;
+|swimline2|
+  :bar;
+repeat while (OK?) is (no)
+-> yes;
+stop
+@enduml

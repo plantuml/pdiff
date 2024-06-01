@@ -1,0 +1,58 @@
+{
+  "sha1": "gmv38euh7el9p4ngojyvyswwontmig1",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.043Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+[*] --> Drive
+state Drive {
+[*] --> Ping
+state Ping {
+pUndetected --> pDetected
+pDetected --> pUndetected
+}
+--
+[*] --> Infrared
+state Infrared {
+iUndetected --> iDetected
+iDetected --> iUndetected
+}
+--
+state MoveForward
+state MoveLeft
+state MoveRight
+state MoveBackward
+state standStill
+--
+[*] --> Light
+state Light {
+llUndetected --> llDetected
+llDetected --> llUndetected
+
+lUndetected --> lDetected
+lDetected --> lUndetected
+
+rUndetected --> rDetected
+rDetected --> rUndetected
+
+rrUndetected --> rrDetected
+rrDetected --> rrUndetected
+}
+--
+[*]-->Bluetooth
+state Bluetooth{
+bUndetected --> bDetected
+bDetected --> bUndetected
+}
+state conditionsForward <<join>>
+pUndetected --> conditionsForward
+iUndetected --> conditionsForward
+lUndetected --> conditionsForward
+rUndetected --> conditionsForward
+bUndetected --> conditionsForward
+conditionsForward --> MoveForward
+}
+@enduml

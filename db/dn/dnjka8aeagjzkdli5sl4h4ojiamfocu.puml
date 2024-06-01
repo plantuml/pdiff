@@ -1,0 +1,26 @@
+{
+  "sha1": "dnjka8aeagjzkdli5sl4h4ojiamfocu",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.223Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam groupInheritance 3
+
+A1 <|-- B1
+
+A2 <|-- B2
+A2 <|-- C2
+
+A3 <|-- B3
+A3 <|-- C3
+A3 <|-- D3
+
+A4 <|-- B4
+A4 <|-- C4
+A4 <|-- D4
+A4 <|-- E4
+
+@enduml

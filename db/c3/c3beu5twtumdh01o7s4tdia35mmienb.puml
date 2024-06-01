@@ -1,0 +1,21 @@
+{
+  "sha1": "c3beu5twtumdh01o7s4tdia35mmienb",
+  "insertion": {
+    "when": "2024-06-01T09:03:00.829Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (foo1) then
+:Hello;
+if (dummy) then (when foo with a very long\nlabel on several lines);
+	:goto label20;
+endif
+:Other3;
+:label20;
+:out;
+else
+:foo2;
+endif
+@enduml

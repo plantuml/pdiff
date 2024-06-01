@@ -1,0 +1,17 @@
+{
+  "sha1": "e8qiaxilkbw487jvdcho91x91hxoi6m",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.127Z",
+    "url": "http://forum.plantuml.net/6865/define-without-arguments-interferes-with-define-arguments",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define foo called_foo1
+!define foo(param) called_foo2 param
+
+class house {
+foo
+foo(my_param)
+}
+@enduml

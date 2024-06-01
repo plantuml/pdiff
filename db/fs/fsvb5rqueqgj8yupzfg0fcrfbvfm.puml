@@ -1,0 +1,24 @@
+{
+  "sha1": "fsvb5rqueqgj8yupzfg0fcrfbvfm",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.611Z",
+    "url": "https://forum.plantuml.net/12507/repeat-over-multiple-swimlanes-bugged",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|col1|
+start
+repeat
+:Step1;
+
+|col2|
+:toto0;
+repeat while
+:toto1;
+
+|col1|
+:Step 3;
+stop
+
+@enduml

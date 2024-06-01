@@ -1,0 +1,28 @@
+{
+  "sha1": "fzt0mxzb7zn7xxitgp2g3a16m4iwal7",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.941Z",
+    "url": "https://forum.plantuml.net/11382/wondering-arrows-in-activity-diagram-beta",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|#PeachPuff|A|
+|#Plum|B|
+|#DarkSeaGreen|C|
+|A|
+:start;
+|C|
+
+:some actions that will fork;
+split
+:forked A;
+|A|
+split again
+:forked B;
+
+|B|
+:B continuation;
+end split
+stop
+@enduml

@@ -1,0 +1,24 @@
+{
+  "sha1": "f6bsbq2fdcrktnbx91c1vlp6joseqo1",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.590Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:foo1;
+-> You can put text on arrows;
+if (test) then
+  -[#blue]->
+  :foo2;
+  -[#green]-> The text can
+  also be on several lines
+  and **very** long...;
+  :foo3;
+else
+  -[#black]->
+  :foo4;
+endif
+-[#gray]->
+:foo5;
+@enduml

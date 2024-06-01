@@ -1,0 +1,58 @@
+{
+  "sha1": "ekm4khz7tdyrnc2mpcz74huuntlnboc",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.600Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+participant Client1
+participant Member37
+participant Member42
+participant Member52
+participant Client2
+
+rnote over Member37 : Clock = 1342
+rnote over Member42 : Clock = 1117
+rnote over Member52 : Clock = 1256
+
+Client1 -> Member37 : Message 1
+rnote over Member37 : Clock = 1343\nq = M1:1343
+Client2 -> Member52 : Message 2
+rnote over Member52 : Clock = 1257\nq = M2:1257
+
+Member37 -> Member42 : Message 1 (1343)
+rnote over Member42 : Clock = 1344\nq = M1:1343
+Member42 -> Member37 : Ack (1344)
+rnote over Member37 : Clock = 1345\nq = M1:1343
+Member52 -> Member37 : Message 2 (1257)
+rnote over Member37 : Clock = 1346\nq = M2:1257,M1:1343
+hnote over Member37 : Handle M2
+Member52 -> Member42 : Message 2 (1257)
+rnote over Member42 : Clock = 1345\nq = M2:1257,M1:1343
+hnote over Member42 : Handle M2
+Member37 -> Member52 : Message 1 (1343)
+rnote over Member52 : Clock = 1344\nq = M2:1257,M1:1343
+rnote over Member37 : Clock = 1346\nq = M1:1343
+Member37 -> Member42 : Delivered M2 (1346)
+Member37 -> Member52 : Delivered M2 (1346)
+rnote over Member42 : Clock = 1345\nq = M1:1343
+Member42 -> Member52 : Ack (1345)
+rnote over Member52 : Clock = 1346\nq = M2:1257,M1:1343
+hnote over Member52 : Handle M2
+rnote over Member52 : Clock = 1346\nq = M1:1343
+Member52 -> Member37 : Ack (1346)
+Member52 -> Member42 : Delivered M2 (1346)
+hnote over Member42 : Handle M2
+rnote over Member37 : Clock = 1347\nq = M1:1343
+hnote over Member37 : Handle M1
+rnote over Member37 : Clock = 1347
+hnote over Member52 : Handle M1
+rnote over Member42 : Clock = 1345
+Member37 -> Member42 : Delivered M1 (1347)
+hnote over Member42 : Clock = 1348
+rnote over Member52 : Clock = 1346
+Member37 -> Member52 : Delivered M1 (1347)
+rnote over Member52 : Clock = 1348
+@enduml

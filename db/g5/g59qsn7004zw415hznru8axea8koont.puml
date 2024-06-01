@@ -1,0 +1,10 @@
+{
+  "sha1": "g59qsn7004zw415hznru8axea8koont",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.203Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+A(?=abc)BC(?!not)DE
+@endregex

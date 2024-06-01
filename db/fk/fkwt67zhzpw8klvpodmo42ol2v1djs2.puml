@@ -1,0 +1,18 @@
+{
+  "sha1": "fkwt67zhzpw8klvpodmo42ol2v1djs2",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.310Z",
+    "url": "https://forum.plantuml.net/13424/simple-default-value-for-undefined-variables?show=13426#c13426",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob : 1. $name should be empty
+!$name ?= "Charlie"
+Alice -> Bob : 2. $name should be Charlie
+!$name = "David"
+Alice -> Bob : 3. $name should be David
+!$name ?= "Ethan"
+Alice -> Bob : 4. $name should be David
+
+@enduml

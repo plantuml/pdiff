@@ -1,0 +1,17 @@
+{
+  "sha1": "emqard7r7putnplgpsmbdii4zgvuy7k",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.739Z",
+    "url": "https://discord.com/channels/1083727021328306236/1084966845100072980",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+class pack.ClassA {
+    a
+}
+ClassB::b <-- pack.ClassA::a
+pack.ClassC::c <-- ClassB::b
+pack.ClassC::c <-- pack.ClassA::a
+@enduml

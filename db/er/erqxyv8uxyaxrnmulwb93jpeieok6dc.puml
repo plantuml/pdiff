@@ -1,0 +1,19 @@
+{
+  "sha1": "erqxyv8uxyaxrnmulwb93jpeieok6dc",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.998Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+note over A #77AAFF: Note over A.
+note left of A #FFAA77: Note left of A.
+note right of A #AAFF77: Note right of A.
+A ->> B: request
+note left #77FFAA: Note left of message\ndoes not handle colour.
+A <<-- B: response
+note right #FF77AA
+   Note right of message
+   does not handle colour.
+end note
+@enduml

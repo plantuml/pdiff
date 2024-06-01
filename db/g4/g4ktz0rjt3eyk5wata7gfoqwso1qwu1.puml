@@ -1,0 +1,16 @@
+{
+  "sha1": "g4ktz0rjt3eyk5wata7gfoqwso1qwu1",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.165Z",
+    "url": "https://forum.plantuml.net/12550/differences-between-png-and-outputs-unicode-char-with-size",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svgSize <U+1F610> XX
+
+test: text <U+1F610>
+test_size25: text <size:25><U+1F610>
+test_size75: text <size:75><U+1F610>
+test_size100: text <size:100><U+1F610>
+@enduml

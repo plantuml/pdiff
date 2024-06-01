@@ -1,0 +1,12 @@
+{
+  "sha1": "g2qo63ojujaxq5ij0a6owyvspwh6s9x",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.072Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A [[http://a.com]]
+class B
+A --> B : example
+@enduml

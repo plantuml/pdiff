@@ -1,0 +1,50 @@
+{
+  "sha1": "em5yjg98v11kcn5u61854jdcbrn1a38",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.683Z",
+    "url": "https://forum.plantuml.net/15762/annotate-binary-waveforms",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+binary "Binary Serial Data" as D
+robust "Robust" as R
+concise "Concise" as C
+
+@-5
+D is low: idle1
+R is lo: idle2
+C is 1:idle3
+@-1
+D is high: start1
+R is hi: start2
+C is 0:start3
+
+@0
+D is low: 1 lsb1
+R is lo: 1 lsb2
+C is 1:lsb3
+
+@1
+D is high: 0
+R is hi: 0
+C is 0
+
+@6
+D is low: 1
+R is lo: 1
+C is 1
+
+@7
+D is high: 0 msb
+R is hi: 0 msb
+C is 0: msb
+
+@8
+D is low: stop
+R is lo: stop
+C is 1: stop
+
+@0 <-> @8 : Serial data bits for ASCII "A" (Little Endian)
+
+@enduml

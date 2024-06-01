@@ -1,0 +1,16 @@
+{
+  "sha1": "ehmezm0twtd65jm56yp28sq2naq4kcv",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.481Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Bob
+participant Alice
+participant "I have a really long name" as L
+'Meta commentaire
+Alice->Bob: Authentication Request
+Bob->Alice: Authentication Response
+Bob->L: Log transaction
+@enduml

@@ -1,0 +1,25 @@
+{
+  "sha1": "fdtgo7uvjpkvk56ws11t44wvys3x7zo",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.975Z",
+    "url": "https://github.com/plantuml/plantuml/issues/974",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+start
+
+if (Cookie Policy cookie set?) then (yes)
+else (no)
+    repeat
+        :Show Cookie Policy dialog;
+    repeat while (User clicks on accept?) is (no)
+    ->yes;
+        :Store acceptance of Cookie Policy in a cookie;
+        :Refresh page;
+endif
+    
+stop
+
+@enduml

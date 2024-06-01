@@ -1,0 +1,14 @@
+{
+  "sha1": "gc2x00fwkz6yxrgattqlrmlg4strsjo",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.581Z",
+    "url": "https://forum.plantuml.net/12358/cypher-not-working-properly",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state "<color:red>this should be red</color>" as s1
+state "<color:green>this should be green</color>" as s2
+
+s1 -[dotted]-> s2
+@enduml

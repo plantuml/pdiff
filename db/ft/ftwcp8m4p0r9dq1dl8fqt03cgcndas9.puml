@@ -1,0 +1,28 @@
+{
+  "sha1": "ftwcp8m4p0r9dq1dl8fqt03cgcndas9",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.666Z",
+    "url": "https://github.com/plantuml/plantuml/issues/423",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startboard
+World
++Europe
+++France
++++Paris
++++Brest
+++Espagne
++++Madrid
++++Barcelone
++++Pamplune
++America
++++Montreal
+++USA
+++Mexico
++++Cancun
++++MexicoCity
+
+
+
+@endboard

@@ -1,0 +1,14 @@
+{
+  "sha1": "emj18zmiggac6no5f4opv2hnrcne1co",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.724Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 400 x 800
+[*] -l-> left
+[*] -r-> right
+[*] -u-> up
+[*] -d-> down
+@enduml

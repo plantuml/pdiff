@@ -1,0 +1,11 @@
+{
+  "sha1": "g7v56ndmyl539uelvmolmbm44wv4uq",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.350Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+object toto1
+toto1 *-- toto2
+@enduml

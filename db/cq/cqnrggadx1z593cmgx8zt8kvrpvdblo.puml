@@ -1,0 +1,24 @@
+{
+  "sha1": "cqnrggadx1z593cmgx8zt8kvrpvdblo",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.921Z",
+    "url": "http://forum.plantuml.net/7986/stereotype-sprite-alignment-rectangle-database-containers",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <cloudinsight/java>
+
+database MyApp <<$java>> {
+  class ClassName
+}
+
+rectangle MyApp3 <<$java>> {
+  class ClassName3
+}
+
+database MyApp2 <<foo>> {
+  class ClassName2
+}
+
+@enduml

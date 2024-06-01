@@ -1,0 +1,12 @@
+{
+  "sha1": "e3ll6fqy7x05aziw7vhxrlr3dfdrein",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.845Z",
+    "url": "https://github.com/plantuml/plantuml-server/issues/231",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase "<:nosuch:> Implement the changes" as Implement
+[Company] --> Implement
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "edqimtrb0s8s5g8xc4fj5xqclvda4w2",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.286Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+  start
+      if (A is B) then
+          if (B is C) then when yes
+              - Report that A is C
+          else when no
+              - Report that A is not C
+          endif
+      else when no
+          - Report that A is not B
+      endif
+  end
+@enduml

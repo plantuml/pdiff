@@ -1,0 +1,11 @@
+{
+  "sha1": "dm5rqu0o2c821w42ozf57r0xqxe6ccx",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.191Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+a -> b: some text
+note over a, b: This flows starts from [[www.yahoo.com POST/session/start]] or [[www.google.com POST /session/csrStart]]
+@enduml

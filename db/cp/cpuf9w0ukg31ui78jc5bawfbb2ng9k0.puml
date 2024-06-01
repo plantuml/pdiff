@@ -1,0 +1,26 @@
+{
+  "sha1": "cpuf9w0ukg31ui78jc5bawfbb2ng9k0",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.860Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam svek true
+[*] --> s0_start
+
+state s7_2 {
+[*] --> chat1
+--
+[*] --> toutou9
+ 
+state toutou9 {
+[*] --> leo
+}
+
+--
+[*] --> chat2
+} 
+
+
+@enduml

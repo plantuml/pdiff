@@ -1,0 +1,17 @@
+{
+  "sha1": "epi1z2nhp84ud97o4mw17oo1o8otv4t",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.888Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title this is a title
+footer footer
+header header
+class Bob
+class Alice
+note left of Alice
+  hello <u:#FF0000>toto</u> and <w:green>green</w> and <s:#00FFFF>strike</s> <back:red>ok</back>.
+end note
+@enduml

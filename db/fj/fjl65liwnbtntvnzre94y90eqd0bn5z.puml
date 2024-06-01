@@ -1,0 +1,10 @@
+{
+  "sha1": "fjl65liwnbtntvnzre94y90eqd0bn5z",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.266Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Toto
+@enduml

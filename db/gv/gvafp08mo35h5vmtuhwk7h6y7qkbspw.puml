@@ -1,0 +1,14 @@
+{
+  "sha1": "gvafp08mo35h5vmtuhwk7h6y7qkbspw",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.380Z",
+    "url": "https://forum.plantuml.net/16886/deployment-diagram-shall-support-coloring-orientation-order",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) -up-> "First Activity"
+-right[#0000FF]-> "Second Activity"
+-[#0000FF]down-> "Third Activity"
+-left-> (*)
+@enduml

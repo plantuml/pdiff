@@ -1,0 +1,32 @@
+{
+  "sha1": "fuk694d410bygzp0ln00s00w4iob5fb",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.712Z",
+    "url": "http://forum.plantuml.net/8104/teoz-nesting-group-causes-parent-group-expand-all-the-way-left",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+hide footbox
+
+participant a
+participant b
+participant c
+participant d
+participant e
+
+a->b: 1
+b->c: 2
+group #Transparent Parent Group
+b->c: 2.1
+c->d: 2.2
+group #LightGrey Nested Group
+d->c: 3.1
+c->d: 3.2
+d->e: 4
+end group
+d->c: 5
+end group
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "f08dpq7f64q9a3dwypdz9lw2cg1cxdj",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.332Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+frame "Plant [[www.plantuml.com Uml]]" as test {
+ frame "Plant [[www.plantuml.com Uml]]" as test2
+}
+
+component "Plant [[www.plantuml.com Uml]]" as test3 {
+ component "Plant [[www.plantuml.com Uml]]" as test4
+}
+
+interface "Plant [[www.plantuml.com Uml]]" as test5
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "drjstcgxlame432jy2e0rzv2rmvavox",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.382Z",
+    "url": "https://forum.plantuml.net/9951/splicing-up-notes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!procedure $OBJ()
+class Object {
+name : token
+name : flag
+}
+!endprocedure
+
+$OBJ()
+note left : foo %retrieve_procedure("$OBJ") dummy
+@enduml

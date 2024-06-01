@@ -1,0 +1,35 @@
+{
+  "sha1": "gouak6okhxbw7u34229i21ls91jt2xi",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.110Z",
+    "url": "http://forum.plantuml.net/8612/teoz-wrong-note-position-after-array?show=9115#c9115",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+participant Bob
+participant Alice
+participant Ken
+participant David
+Bob -> Alice : hello1
+& Alice -> Ken : hi1
+note right of David : Should be same level as "1"
+
+Bob -> Alice : hello2
+& Alice -> Ken : hi2
+' next line causes dump
+note right : This is correct level, but wrong location
+
+Bob -> Alice : hello3
+& Alice -> Ken : hi3
+' workaround :
+& Ken --> David :
+note right : This is better but not perfect
+
+Bob -> Alice : hello4
+& Alice -> Ken : hi4
+' next line causes dump
+& David --> David :
+note right : Remove comment from previous line
+@enduml

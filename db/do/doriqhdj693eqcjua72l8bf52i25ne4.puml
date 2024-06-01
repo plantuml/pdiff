@@ -1,0 +1,23 @@
+{
+  "sha1": "doriqhdj693eqcjua72l8bf52i25ne4",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.289Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1405",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package x {
+  note as _n1
+    qwerty
+  end note
+}
+
+package y {
+  note as _n2
+    asdfg
+  end note
+  
+  :myActor:
+}
+@enduml

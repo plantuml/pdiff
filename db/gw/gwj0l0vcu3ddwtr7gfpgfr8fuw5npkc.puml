@@ -1,0 +1,23 @@
+{
+  "sha1": "gwj0l0vcu3ddwtr7gfpgfr8fuw5npkc",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.455Z",
+    "url": "https://forum.plantuml.net/9972/component-diagrams-please-direction-token-corresponding",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+component "Comp A" as a {
+!a_at_AtoB = "a"
+!a_at_BtoA = "a"
+}
+
+component "Comp B" as b {
+!b_at_AtoB = "b"
+!b_at_BtoA = "b"
+}
+
+a_at_AtoB -->> b_at_AtoB: A to B
+a_at_BtoA <<-- b_at_BtoA: B to A
+@enduml

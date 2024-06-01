@@ -1,0 +1,22 @@
+{
+  "sha1": "f2ivoyuinl6heuys7ozcojxd578d2ls",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.455Z",
+    "url": "https://github.com/plantuml/plantuml/discussions/1066#discussioncomment-4237702",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+sprite react <svg viewBox="0 0 230 230">
+<circle cx="115" cy="102" r="20.5" fill="#61dafb"/>
+<ellipse rx="110" ry="42"  cx="115" cy="102" stroke="#61dafb" stroke-width="10" fill="none"/>
+<g transform="rotate(60 115 102)">
+<ellipse rx="110" ry="42"  cx="115" cy="102" stroke="#ff0000" stroke-width="10" fill="none"/>
+</g>
+<g transform="rotate(-60 115 102)">
+<ellipse rx="110" ry="42"  cx="115" cy="102" stroke="#00ff00" stroke-width="10" fill="none"/>
+</g>
+</svg>
+
+rectangle <$react{scale=1}>
+@enduml

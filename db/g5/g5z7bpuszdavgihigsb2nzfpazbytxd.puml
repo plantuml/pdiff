@@ -1,0 +1,16 @@
+{
+  "sha1": "g5z7bpuszdavgihigsb2nzfpazbytxd",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.233Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) -left-> "this activity is
+	defined with an image <img:HelloWorld.png> on several lines
+	and no font" as A1
+
+-up-> "Another activity\n on several lines"
+
+A1 --> "Short activity"
+@enduml

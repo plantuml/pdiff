@@ -1,0 +1,14 @@
+{
+  "sha1": "daf5c8a3wtv3psw95i72v5n0hxvqbf",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.721Z",
+    "url": "https://forum.plantuml.net/1343/how-to-implement-new-graphviz-attribute?show=12613#c12613",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+!pragma aspect 2
+ [component1]
+ [component2]
+@enduml

@@ -1,0 +1,29 @@
+{
+  "sha1": "f8pmf7nqe15je75svp01dcldu24jhx0",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.756Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+  :begin;
+  :A;
+  if (isForward()) then
+    :B;
+    'if (continue processing) then
+    '  <goto barreE>
+    'else
+    '  <goto barreF>
+    'endif
+    :BB;
+  else
+    :C;	
+    :goto barreF;
+  endif
+  :D;
+:barreE;
+:E;
+:barreF;
+:F;
+@enduml

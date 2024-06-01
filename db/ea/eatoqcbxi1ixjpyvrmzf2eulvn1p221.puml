@@ -1,0 +1,22 @@
+{
+  "sha1": "eatoqcbxi1ixjpyvrmzf2eulvn1p221",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.173Z",
+    "url": "http://forum.plantuml.net/8922/autonumber-variable-displayed-incorrectly-participants",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant a
+participant b
+participant c
+autonumber
+a -> b :msg
+note over a : %autonumber% 
+note over a,b : %autonumber% 
+b -> c :msg 
+note over b,c : %autonumber% 
+note over b : %autonumber% 
+return msg_ack
+a <-- b :msg_ack
+@enduml

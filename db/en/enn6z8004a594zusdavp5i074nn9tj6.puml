@@ -1,0 +1,12 @@
+{
+  "sha1": "enn6z8004a594zusdavp5i074nn9tj6",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.777Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise Bob
+concise Alice
+Bob->Alice : hello
+@enduml

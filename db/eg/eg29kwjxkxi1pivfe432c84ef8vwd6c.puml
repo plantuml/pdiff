@@ -1,0 +1,13 @@
+{
+  "sha1": "eg29kwjxkxi1pivfe432c84ef8vwd6c",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.381Z",
+    "url": "https://forum.plantuml.net/17221/smetana-breaks-hover-tooltip",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title smetana
+!pragma layout smetana
+thing1 -- thing2 [[{This is shown on hover}]]: " "
+@enduml

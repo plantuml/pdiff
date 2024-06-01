@@ -1,0 +1,13 @@
+{
+  "sha1": "gyan0qn9q0kz2ogzz9zovonb4swu1xt",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.514Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1631",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+collections collections
+action action
+process process
+@enduml

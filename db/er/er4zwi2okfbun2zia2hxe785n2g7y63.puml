@@ -1,0 +1,38 @@
+{
+  "sha1": "er4zwi2okfbun2zia2hxe785n2g7y63",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.983Z",
+    "url": "https://the-lum.github.io/puml-themes-gallery/#aws-orange",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor actor
+actor/ "actor/"
+agent agent
+artifact artifact
+boundary boundary
+card card
+circle circle
+cloud cloud
+collections collections
+component component
+control control
+database database
+entity entity
+file file
+folder folder
+frame frame
+hexagon hexagon
+interface interface
+label label
+node node
+package package
+person person
+queue queue
+rectangle rectangle
+stack stack
+storage storage
+usecase usecase
+usecase/ "usecase/"
+@enduml

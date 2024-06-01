@@ -1,0 +1,12 @@
+{
+  "sha1": "gx9af0ousiqlcfcwwlnc85tbx48jvo9",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.477Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=6289/access-to-filename",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+     note right: %filename%
+     note left: %filenameNoExtension%
+@enduml

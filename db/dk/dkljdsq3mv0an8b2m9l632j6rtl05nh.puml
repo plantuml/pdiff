@@ -1,0 +1,17 @@
+{
+  "sha1": "dkljdsq3mv0an8b2m9l632j6rtl05nh",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.147Z",
+    "url": "https://github.com/plantuml/plantuml/issues/434",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startyaml
+# hash is a named-tuple structure
+hash:
+  # value is text
+  name1: Text
+  # value is hash
+  name2:
+    key: val
+@endyaml

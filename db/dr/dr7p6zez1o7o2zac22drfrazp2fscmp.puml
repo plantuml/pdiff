@@ -1,0 +1,42 @@
+{
+  "sha1": "dr7p6zez1o7o2zac22drfrazp2fscmp",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.366Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package Customer {
+    Customer --{ Order
+}
+
+package WarehouseItems {
+    Shipment }-- Warehouse
+}
+
+ 
+
+package Order {
+    Order *-- Shipment
+}
+ 
+
+class Order {
+    {field} Buyer
+    {field} Payment
+    {field} TotalPrice
+    {field} Mall
+
+}
+
+class Shipment {
+    {field} Consignee
+    {field} Date
+    {field} DeliveryNo
+    {field} DeliveryMethod
+    {field} TotalPrice
+    {field} Status : ShipmentStatus
+}
+
+
+@enduml

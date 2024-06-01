@@ -1,0 +1,16 @@
+{
+  "sha1": "ck6o71d2vvwt1dkyuxeqax4xab2msrn",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.567Z",
+    "url": "https://forum.plantuml.net/10300/part-time-workers-in-gantt-diagrams-individual-holidays",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts the 2019/10/01
+'sunday are closed
+{Alice} is off on 2019/10/16
+{Alice} is off on monday
+ 
+[T1] on {Alice} lasts 30 days
+@endgantt

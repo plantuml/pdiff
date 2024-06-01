@@ -1,0 +1,15 @@
+{
+  "sha1": "ebd50fngccna3jlsmxcxuxs0lovi52i",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.197Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+skinparam defaultTextAlignment left
+state 8E437FA1B6DC905 {
+  8E437FA1B6DC905 : **Rule:**\n    if ('openStatus') then\n        'switchgearStatus' := $OPEN$
+  state 6D4FA3B201978C 
+}
+@enduml

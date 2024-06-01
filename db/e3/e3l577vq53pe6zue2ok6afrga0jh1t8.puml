@@ -1,0 +1,18 @@
+{
+  "sha1": "e3l577vq53pe6zue2ok6afrga0jh1t8",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.838Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+loop creating ssl connection
+
+
+end /' endloop '/
+
+destroy browser
+
+@enduml

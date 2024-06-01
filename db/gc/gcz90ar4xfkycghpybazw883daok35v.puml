@@ -1,0 +1,19 @@
+{
+  "sha1": "gcz90ar4xfkycghpybazw883daok35v",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.628Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+(*) --> "
+	this activity is <b>very</b> long
+ and defined on several lines
+"
+
+--> "Another activity"
+
+-left-> "This one"
+
+@enduml

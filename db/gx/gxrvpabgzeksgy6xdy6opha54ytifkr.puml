@@ -1,0 +1,25 @@
+{
+  "sha1": "gxrvpabgzeksgy6xdy6opha54ytifkr",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.506Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+|ebee-vdq-form|
+fork
+|ebee-vdq-form|
+:A1;
+|ebee-ws|
+:A2;
+|ebee-vdq-form|
+:A3;
+Fork again
+|ebee-vdq-form|
+:B1;
+|ebee-ws|
+:B2;
+End fork
+
+@enduml

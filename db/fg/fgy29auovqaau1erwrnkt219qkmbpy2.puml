@@ -1,0 +1,18 @@
+{
+  "sha1": "fgy29auovqaau1erwrnkt219qkmbpy2",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.124Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:start;
+partition foo {
+:exe1;
+if (test) then
+  :toto2;
+endif
+:other;
+}
+stop
+@enduml

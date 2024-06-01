@@ -1,0 +1,14 @@
+{
+  "sha1": "f5muv6uzt1jy7chq6w224jbhhf6kmi8",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.560Z",
+    "url": "http://alphadoc.plantuml.com/doc/dokuwiki/en/nwdiag-issues",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+  a
+  b
+}
+@enduml

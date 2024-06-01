@@ -1,0 +1,15 @@
+{
+  "sha1": "efdtx9gy9brkq57i9aq944n84l1gmlh",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.341Z",
+    "url": "http://forum.plantuml.net/6704/plantuml-asked-me-to-report-exception-for-package-foo1-foo2",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package foo1 {
+}
+package foo2 {
+}
+foo1 }--{ foo2
+@enduml

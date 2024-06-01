@@ -1,0 +1,13 @@
+{
+  "sha1": "dhc7zaywq9yw210yhfhr99z5vau6up4",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.995Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+interface B
+class A
+abstract class C
+enum E
+@enduml

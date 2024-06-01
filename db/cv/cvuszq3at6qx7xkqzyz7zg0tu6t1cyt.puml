@@ -1,0 +1,15 @@
+{
+  "sha1": "cvuszq3at6qx7xkqzyz7zg0tu6t1cyt",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.140Z",
+    "url": "http://forum.plantuml.net/8257/math-when-exporting-to-latex",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:a;
+:<latex>set $x = \sqrt{y+z}$ and $i = 1$</latex>;
+:b <latex>set $x = \sqrt{y+z}$ and $i = 2$</latex>;
+end
+@enduml

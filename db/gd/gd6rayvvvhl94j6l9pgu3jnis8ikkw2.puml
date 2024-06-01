@@ -1,0 +1,57 @@
+{
+  "sha1": "gd6rayvvvhl94j6l9pgu3jnis8ikkw2",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.636Z",
+    "url": "https://forum.plantuml.net/2427/salt-with-minimum-flowchat-capabilities",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!definelong SALT(x)
+"{{
+salt
+%invoke_procedure("_"+x)
+}}
+" as x
+!enddefinelong
+
+!definelong _choose
+{+
+<b>an example
+choose one option
+()one
+()two
+[ok]
+}
+!enddefinelong
+
+!definelong _wait
+{+
+<b>please wait
+operation in progress
+<&clock>
+[cancel]
+}
+!enddefinelong
+
+!definelong _success
+{+
+<b>success
+congratulations!
+[ok]
+}
+!enddefinelong
+ 
+!definelong _error
+{+
+<b>error
+failed, sorry
+[ok]
+}
+!enddefinelong
+
+(*) --> SALT(choose)
+-right-> SALT(wait)
+wait -right-> SALT(success)
+wait -down-> SALT(error)
+@enduml

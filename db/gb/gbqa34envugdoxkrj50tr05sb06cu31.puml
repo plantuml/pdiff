@@ -1,0 +1,25 @@
+{
+  "sha1": "gbqa34envugdoxkrj50tr05sb06cu31",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.563Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+browser -> ssl_server.exe : 1
+browser -> ssl_server.exe : 2
+browser -> ssl_server.exe : 3
+browser -> ssl_server.exe : 4
+browser -> ssl_server.exe : 5
+
+
+group SSL Application data
+browser -> ssl_server.exe : in
+end /' SSL Application data '/
+
+
+destroy browser
+
+@enduml

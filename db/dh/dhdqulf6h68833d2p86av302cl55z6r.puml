@@ -1,0 +1,10 @@
+{
+  "sha1": "dhdqulf6h68833d2p86av302cl55z6r",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.002Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+stdlib azure
+@enduml

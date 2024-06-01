@@ -1,0 +1,16 @@
+{
+  "sha1": "d5enms846e995bdo6kymt9yirbwlqul",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.514Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+!theme amiga
+* 'Head'
+** 'Branch One'
+** 'Branch Two'
+** 'Branch Three'
+** 'Branch Five'
+*** 'Subbranch Five-One'
+@endwbs

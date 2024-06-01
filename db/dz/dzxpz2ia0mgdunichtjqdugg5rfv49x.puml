@@ -1,0 +1,12 @@
+{
+  "sha1": "dzxpz2ia0mgdunichtjqdugg5rfv49x",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.676Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ActivityBorderThickness 10
+start
+:foo;
+@enduml

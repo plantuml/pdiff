@@ -1,0 +1,37 @@
+{
+  "sha1": "gelxw6yduxywmir1jbkd650eor184t0",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.671Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam colorArrowSeparationSpace 5
+|a|
+|b|
+ 
+start
+-[#red;#blue]->
+:action 1;
+note right
+    order is red
+    then blue
+end note
+-[#red;#blue]->
+|a|
+:action 2;
+note right
+    order becomes
+    blue then red
+end note
+|b|
+-[#red;#blue]->
+:action 3;
+note right
+    order
+    restores
+end note
+-[#red;#blue]->
+ 
+stop
+@enduml

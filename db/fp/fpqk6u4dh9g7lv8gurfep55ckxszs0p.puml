@@ -1,0 +1,28 @@
+{
+  "sha1": "fpqk6u4dh9g7lv8gurfep55ckxszs0p",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.471Z",
+    "url": "http://forum.plantuml.net/8378/encoding-seems-to-be-lost-after-export-to-png-and-extract-back",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Diagram title
+
+hide footbox
+scale 1.2
+!define GENERATION_DATE %date[dd.MM.yyyy HH:mm]%
+header last-updated GENERATION_DATE 
+
+left footer \n\nauthored by USER_NAME
+
+skinparam sequenceMessageAlign reversedirection
+skinparam defaultTextAlignment center
+skinparam noteTextAlignment center
+autonumber "<b>[00]"
+
+'Diagram steps
+A -> B : Привет
+B -> B : Думаю
+B --> A: Пока
+@enduml

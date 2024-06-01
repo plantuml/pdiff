@@ -1,0 +1,21 @@
+{
+  "sha1": "di0bgdhouwybyx1gur6smc6tkn6scn1",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.019Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+repeat
+ while (ok)
+   :init;
+   fork
+     :do something;
+   fork again
+     :do something else;
+   end fork
+ endwhile
+repeat while (not ready)
+stop
+@enduml

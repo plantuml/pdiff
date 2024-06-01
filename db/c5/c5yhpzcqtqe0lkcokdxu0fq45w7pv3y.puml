@@ -1,0 +1,21 @@
+{
+  "sha1": "c5yhpzcqtqe0lkcokdxu0fq45w7pv3y",
+  "insertion": {
+    "when": "2024-06-01T09:03:00.917Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+rectangle testport1 {
+portout p1out
+port p2
+}
+
+rectangle testport2 {
+portin q1in
+port q3
+}
+p1out--q1in
+p2--q3
+@enduml

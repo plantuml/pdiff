@@ -1,0 +1,21 @@
+{
+  "sha1": "fmm40a93ajziwir2wmx5vqavpepcjvw",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.373Z",
+    "url": "http://forum.plantuml.net/6438/teoz-doesnt-work-in-a-group-or-alt",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Bob -> Alice : Sec\nret10
+& Alice -> Stacy : Rumors10
+
+Bob -> Alice : Sec\nret20
+& Alice -> Stacy : Rumors20
+& Stacy -> Stacy2 : Rumors220
+
+
+
+
+@enduml

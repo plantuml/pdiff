@@ -1,0 +1,14 @@
+{
+  "sha1": "dec7eltmgf6loxkio94qi8n4qraej51",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.886Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{^"My group box"
+  Login    | "MyName   "
+  Password | "****     "
+  [Cancel] | [  OK   ]
+}
+@endsalt

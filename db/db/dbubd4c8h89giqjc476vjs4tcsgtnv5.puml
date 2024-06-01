@@ -1,0 +1,15 @@
+{
+  "sha1": "dbubd4c8h89giqjc476vjs4tcsgtnv5",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.771Z",
+    "url": "https://github.com/plantuml/plantuml/issues/229",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+{start} Alice -> Bob: start
+& note right of Bob: starting
+{end} Bob -> Alice: finish
+{start} <-> {end}: some time
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "fz5kdcnl6cm5nkx7msncbrjox9hzx8z",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.909Z",
+    "url": "http://alphadoc.plantuml.com/doc/dokuwiki/en/regex-old",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+title unicodeEscapes
+\uFFFF\x{FFFF}
+@endregex

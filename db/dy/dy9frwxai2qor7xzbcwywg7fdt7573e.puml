@@ -1,0 +1,25 @@
+{
+  "sha1": "dy9frwxai2qor7xzbcwywg7fdt7573e",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.600Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwire
+
+* DDR3L #red
+	print("This is me00")
+print("This is me10")
+print("This is me20")
+
+* SLC_NAND [150x200]
+* TestPoints
+--
+* Big_Chip #AAA
+	print("This is me500")
+	* PF3000 [150x300]
+		print("This is me510")
+	
+	print("This is me600")
+	* EEPROM #lightBlue
+@endwire

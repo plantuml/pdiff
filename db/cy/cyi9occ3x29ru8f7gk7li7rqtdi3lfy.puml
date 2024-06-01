@@ -1,0 +1,13 @@
+{
+  "sha1": "cyi9occ3x29ru8f7gk7li7rqtdi3lfy",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.251Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[comp1] -l-> [comp left]
+[comp1] -r-> [comp right]
+[comp1] -u-> [comp up]
+[comp1] -d-> [comp down]
+@enduml

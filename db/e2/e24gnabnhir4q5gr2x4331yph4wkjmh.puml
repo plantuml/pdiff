@@ -1,0 +1,15 @@
+{
+  "sha1": "e24gnabnhir4q5gr2x4331yph4wkjmh",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.770Z",
+    "url": "https://forum.plantuml.net/11826/printscale-and-resources",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+printscale weekly with calendar date
+Project starts the 6th of July 2020
+[Task1] on {Alice} lasts 2 weeks
+[Task2] on {Bob:50%} lasts 2 weeks
+then [Task3] on {Alice:25%} lasts 3 days
+@endgantt

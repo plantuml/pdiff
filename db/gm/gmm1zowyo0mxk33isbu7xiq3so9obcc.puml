@@ -1,0 +1,15 @@
+{
+  "sha1": "gmm1zowyo0mxk33isbu7xiq3so9obcc",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.033Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class foo1 $tag1
+package p1 $txn {
+class inside1
+}
+class foo3
+hide $txn
+@enduml

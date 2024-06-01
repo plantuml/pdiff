@@ -1,0 +1,23 @@
+{
+  "sha1": "dr8hk48pxfdmt020ib850e56yx99den",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.375Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+split
+	:foo1;
+split again
+  :this is on
+  several <b>lines
+  and very interesting;
+'	stop
+endsplit
+
+:on two
+lines;
+
+stop
+@enduml

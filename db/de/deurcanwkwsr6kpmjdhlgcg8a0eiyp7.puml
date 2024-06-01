@@ -1,0 +1,34 @@
+{
+  "sha1": "deurcanwkwsr6kpmjdhlgcg8a0eiyp7",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.922Z",
+    "url": "https://github.com/plantuml/plantuml/discussions/1095",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+title Interfaces - Component Diagram
+
+[Business Logic]
+[Data Access] as DA  
+component "Graphic User\nInterface" as GUI {
+  portout "Out" as out
+}
+skinparam component {
+  color green
+  BackgroundColor red
+  BorderColor blue
+}
+skinparam portout {
+  color green
+  BackgroundColor red
+  BorderColor blue
+}
+interface IMath as Math
+interface "IItems" as Items
+
+[Business Logic] -- Math
+DA .. Items
+
+@enduml

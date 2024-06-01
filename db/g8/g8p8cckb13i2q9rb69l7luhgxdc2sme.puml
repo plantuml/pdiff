@@ -1,0 +1,15 @@
+{
+  "sha1": "g8p8cckb13i2q9rb69l7luhgxdc2sme",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.379Z",
+    "url": "https://github.com/plantuml/plantuml/issues/834#issuecomment-997856383",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* 排列组合问题
+** 基础概念
+***_ <latex>C_{n-1}^{m-1}</latex>
+***_ 环形排列
+****_ n个主体环形排列有<latex>A_{n-1}^{n-1}</latex>种可能
+@endmindmap

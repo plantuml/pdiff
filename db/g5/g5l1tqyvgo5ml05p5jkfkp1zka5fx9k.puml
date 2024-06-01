@@ -1,0 +1,12 @@
+{
+  "sha1": "g5l1tqyvgo5ml05p5jkfkp1zka5fx9k",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.218Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1201",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob->Alice : Hello!
+hnote over Alice : Answer
+@enduml

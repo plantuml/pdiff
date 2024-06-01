@@ -1,0 +1,17 @@
+{
+  "sha1": "g8vsh6t1olzcj2qpbvdgovvfdrdygx1",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.402Z",
+    "url": "http://forum.plantuml.net/9333/why-queue-a-as-a-notation-fails",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+queue "a" as a <<toto>> {
+      component "b" as b {
+     }
+}
+component "c" as c {
+}
+b->c: test
+@enduml

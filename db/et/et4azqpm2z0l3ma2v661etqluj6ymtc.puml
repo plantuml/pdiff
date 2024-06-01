@@ -1,0 +1,24 @@
+{
+  "sha1": "et4azqpm2z0l3ma2v661etqluj6ymtc",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.064Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class A1
+
+note left of A1 #green: note green
+
+note bottom of A1 #red
+	this is red
+end note
+
+note as N1 #blue
+	this is blue
+endnote
+
+note "toto toto" as N2 #666666
+
+@enduml

@@ -1,0 +1,34 @@
+{
+  "sha1": "dcxivejbzmzy6jv0119mwgkfzo5kzih",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.821Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+timingDiagram {
+	arrow {
+      LineThickness 1
+	  LineColor blue
+	}
+}
+</style>
+robust "Web Browser" as WB
+concise "Web User" as WU
+
+@0
+WU is Idle
+WB is Idle
+
+@100
+WU -> WB : URL
+WU is Waiting
+WB is Processing
+WU@100 <-> @200 : {some constraint} 
+WB@100 <-> @200 : {some constraint} 
+
+@300
+WB is Waiting
+WB@300 <-> @+50 : {some constraint} 
+@enduml

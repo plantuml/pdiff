@@ -1,0 +1,36 @@
+{
+  "sha1": "f43qtrq6wlnpo6xw1a8kuk6hxe571vj",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.496Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequenceGroupBorderColor magenta
+skinparam sequenceGroupBackgroundColor yellow
+skinparam sequenceReferenceBorderColor red
+skinparam sequenceReferenceBackgroundColor #FFFFFF
+skinparam sequenceReferenceHeaderBackgroundColor blue
+
+Title this is my title
+Dummy -> Alice : foo1
+ref#770000 over Alice, Dummy #006600
+  Foo2
+  Another line
+end
+
+alt#660000 #blue
+  Alice -> Bob : hello
+  Bob -> Other : hello
+
+  ref over Alice, Bob : this is a reference over Alice and Bob
+
+  Other --> Alice : ok
+end
+
+ref over Alice, Other, Bob : this is a reference over Alice and Other
+ref#770000 over Alice, Other, Bob : this is a reference over Alice and Other
+
+Other --> Alice : ok again
+
+@enduml

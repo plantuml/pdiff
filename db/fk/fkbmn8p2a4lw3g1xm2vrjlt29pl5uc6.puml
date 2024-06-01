@@ -1,0 +1,30 @@
+{
+  "sha1": "fkbmn8p2a4lw3g1xm2vrjlt29pl5uc6",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.299Z",
+    "url": "https://forum.plantuml.net/14815/please-implement-continue-for-while-repeat-loops",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+while (data?) is (yes)
+
+  :read data;
+
+fork
+  if(a)then(yes)
+   break
+  endif
+
+fork again
+  if(b)then(yes)
+   break
+  endif
+
+end fork
+
+endwhile (no)
+
+stop
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "fa8uge52cmslnne6ur1mds28u64dz8q",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.820Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1090",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam StateBackgroundColor green
+state parent {
+    parent --> child
+}
+@enduml

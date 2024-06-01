@@ -1,0 +1,21 @@
+{
+  "sha1": "ch90pwv3l7lkwn9f2bnkpitesnx8o1g",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.424Z",
+    "url": "https://forum.plantuml.net/10565/how-to-join-two-if-paths-in-activity-diagram-beta-syntax",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:A;
+if (Cond 1?) then (yes)
+    label labB
+    : B;
+else 
+  if (Cond 2?) then (yes)
+    goto labB
+  endif
+endif
+:C;
+@enduml

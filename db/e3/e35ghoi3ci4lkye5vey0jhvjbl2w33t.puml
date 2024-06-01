@@ -1,0 +1,45 @@
+{
+  "sha1": "e35ghoi3ci4lkye5vey0jhvjbl2w33t",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.811Z",
+    "url": "https://forum.plantuml.net/13123/is-there-way-to-style-json-and-yaml-input-startjson-startyaml?show=13132#c13132",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startyaml
+<style>
+yamlDiagram {
+  node {
+    BackGroundColor lightblue
+    LineColor lightblue
+	FontName Helvetica
+	FontColor red
+	FontSize 18
+	FontStyle bold
+	BackGroundColor Khaki
+  	RoundCorner 0
+    LineThickness 2
+    LineStyle 10-5
+    separator {
+    	LineThickness 0.5
+    	LineColor black
+    	LineStyle 1-5
+    }
+  }
+  arrow {
+    BackGroundColor lightblue
+    LineColor green
+    LineThickness 2
+    LineStyle 2-5
+  }
+}
+</style>
+  -
+    name: Mark McGwire
+    hr:   65
+    avg:  0.278
+  -
+    name: Sammy Sosa
+    hr:   63
+    avg:  0.288
+@endyaml

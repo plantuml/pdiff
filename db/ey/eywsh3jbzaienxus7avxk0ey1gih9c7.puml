@@ -1,0 +1,13 @@
+{
+  "sha1": "eywsh3jbzaienxus7avxk0ey1gih9c7",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.286Z",
+    "url": "https://github.com/plantuml/plantuml/issues/324",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startditaa
++--------\
+|  Text  |
++--------+
+@endditaa

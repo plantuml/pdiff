@@ -1,0 +1,21 @@
+{
+  "sha1": "fuvuf8hcrezyx4fjrx1nhlctgbeexmi",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.737Z",
+    "url": "https://forum.plantuml.net/13434/gantt-milestone-bug?show=16587#c16587",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2022-09-01
+saturdat are closed
+sunday are closed
+
+[Review 01] requires 5 days
+
+[5D] happens on 5 days after [Review 01]'s end
+[5WD] happens on 5 working days after [Review 01]'s end
+
+[1W] happens on 1 week after [Review 01]'s end
+[1WW] happens on 1 working week after [Review 01]'s end
+@endgantt

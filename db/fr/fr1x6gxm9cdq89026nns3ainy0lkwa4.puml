@@ -1,0 +1,21 @@
+{
+  "sha1": "fr1x6gxm9cdq89026nns3ainy0lkwa4",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.538Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+[button]
+{# {# TEXT | DUMMY } FOO}
+{# {# TEXT | DUMMY
+[T1] | "Dg1+" } ZOO
+ZOO1 | ZOO2 }
+{# "Field1" }
+{# [Field2] }
+{# [X] Field3 }
+{# (X) Field4 }
+{# ^Field5^ }
+}
+@endsalt

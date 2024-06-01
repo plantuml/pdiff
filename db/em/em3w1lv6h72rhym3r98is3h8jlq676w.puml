@@ -1,0 +1,35 @@
+{
+  "sha1": "em3w1lv6h72rhym3r98is3h8jlq676w",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.667Z",
+    "url": "https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+<style>
+jsonDiagram {
+  node {
+    HorizontalAlignment center
+    RoundCorner 4
+    MaximumWidth 200
+  }
+}
+</style>
+{
+    "quiz": {
+        "sport": {
+            "q1": {
+                "question": "This is a long question about which one is correct team name in NBA?",
+                "possible options": [
+                    "New York Bulls",
+                    "Los Angeles Kings",
+                    "Golden State Warriros",
+                    "Huston Rocket"
+                ],
+                "answer": "This is a long question about which one is correct team name in NBA This is a long question about which one is correct team name in NBA This is a long question about which one is correct team name in NBA"
+            }
+        }
+    }
+}
+@endjson

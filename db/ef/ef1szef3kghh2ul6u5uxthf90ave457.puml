@@ -1,0 +1,31 @@
+{
+  "sha1": "ef1szef3kghh2ul6u5uxthf90ave457",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.319Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1464#issuecomment-1596916553",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+title skinparam
+
+allowmixing
+
+skinparam packageFontColor green
+skinparam packageBorderColor red
+skinparam packageStereotypeFontColor blue
+
+package EmptyPackage1 <<something1>>
+
+package PackageWithThing2 <<something2>> {
+    class a
+}
+
+rectangle EmptyRectangle3 <<something3>>
+
+rectangle RectangleWithThing4 <<something4>> {
+    class b
+}
+
+@enduml
