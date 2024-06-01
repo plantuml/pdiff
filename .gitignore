@@ -7,7 +7,6 @@ build
 /runs/
 /raw/
 *.jar
-1*.html
 .classpath
 .project
 .settings/
