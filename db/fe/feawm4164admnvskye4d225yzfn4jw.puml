@@ -1,0 +1,15 @@
+{
+  "sha1": "feawm4164admnvskye4d225yzfn4jw",
+  "insertion": {
+    "when": "2024-06-01T09:03:06Z",
+    "url": "http://forum.plantuml.net/4019/interaction-frame",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+mainframe This is a frame
+
+class foo1
+
+@enduml

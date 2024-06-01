@@ -1,0 +1,13 @@
+{
+  "sha1": "ffn6nwl8yhqewkakksao78n5geukkyp",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.103Z",
+    "url": "http://forum.plantuml.net/7870/gantt-tasks-ends-on-a-date",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts the 2018/10/20
+[Release of new album] starts the 2018/10/21
+[Release of new album] ends the 2018/10/30
+@endgantt

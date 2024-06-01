@@ -1,0 +1,15 @@
+{
+  "sha1": "cpx3bomh9im0vmwwpwabkjb95fswtbv",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.868Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A
+class B
+class AssociationClass
+A - B
+note on link: note on link with assication class is ignored
+(A, B) .. AssociationClass
+@enduml

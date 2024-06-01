@@ -1,0 +1,24 @@
+{
+  "sha1": "evfoxpndozvx0htaq9oqmlelwmtofzb",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.160Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:foo1 is an activity very
+long with a 
+very short note;
+note left: foo2
+:foo3;
+:foo4;
+note left: this\nis\non\nseveral\nlines
+:foo5;
+note right
+  this is also
+  long and
+  on several
+  line
+end note
+stop
+@enduml

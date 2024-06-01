@@ -1,0 +1,18 @@
+{
+  "sha1": "fuat7vtcwoc5e4y5xy721b207zqknxi",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.696Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Alice
+box "this is a very long Titre 1"
+participant Bob1
+endbox
+box "this is a very long Titre 2"
+participant Bob2
+endbox
+
+Bob1 -> Bob2
+@enduml

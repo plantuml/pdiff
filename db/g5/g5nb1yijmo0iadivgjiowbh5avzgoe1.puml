@@ -1,0 +1,21 @@
+{
+  "sha1": "g5nb1yijmo0iadivgjiowbh5avzgoe1",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.226Z",
+    "url": "https://forum.plantuml.net/15481/possible-link-elements-from-two-jsons-with-both-jsons-embeded?show=16047#c16047",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+json J {
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }]
+}
+@enduml

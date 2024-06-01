@@ -1,0 +1,18 @@
+{
+  "sha1": "eh6g92nsw4tairx7dh8ma86zhzx489v",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.439Z",
+    "url": "https://forum.plantuml.net/10062/new-activity-diagram-syntax-error-when-using-openicon",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+start
+
+:*Item 1 <&x>
+*Item 2;
+
+stop
+
+@enduml

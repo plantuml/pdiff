@@ -1,0 +1,16 @@
+{
+  "sha1": "cu8rfh5xiyfh8wpneughnp101yf2rml",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.080Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+left header
+this is left
+endheader
+right header
+this is right
+endheader
+Alice -> Bob : hello2
+@enduml

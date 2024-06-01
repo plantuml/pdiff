@@ -1,0 +1,29 @@
+{
+  "sha1": "gi4ss8gohi6ifwimx8kceatkf8c5xqg",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.793Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcute
+group bird1 {
+'Feet
+stick color=black position=40,45 dimension=5,15
+stick color=black position=50,45 dimension=5,15
+stick color=black position=35,55 dimension=25,5
+'Noze
+stick color=crimson position=10,20 dimension=15,10
+'Queue
+group queue {
+ rectangle color=green position=0,4 dimension=5,5
+ rectangle color=green position=0,8 dimension=10,5
+}
+queue position=33,9 rotation=-55
+'Body
+triangle color=#FF0000 points=(20,0,20):(20,45,20):(90,45,15)
+circle color=white position=30,18 radius=5
+}
+bird1 position=0,0
+bird1 position=110,10 rotation=10
+bird1 position=210,10 rotation=50 scale=3
+@endcute

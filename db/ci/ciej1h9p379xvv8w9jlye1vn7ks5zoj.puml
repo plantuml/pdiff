@@ -1,0 +1,22 @@
+{
+  "sha1": "ciej1h9p379xvv8w9jlye1vn7ks5zoj",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.470Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1269",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam {
+  ' Pink background just to have easy detection if transparency works.
+  StateBackgroundColor blue
+}    
+hide empty description
+state S {
+    state E <<entryPoint>>
+    state EC <<exitPoint>>
+    
+    state IP <<inputPin>>
+    state OP <<outputPin>>
+}
+@enduml

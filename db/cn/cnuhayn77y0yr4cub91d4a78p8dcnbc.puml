@@ -1,0 +1,19 @@
+{
+  "sha1": "cnuhayn77y0yr4cub91d4a78p8dcnbc",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.768Z",
+    "url": "https://forum.plantuml.net/10077/assigning-color-to-connectors?show=10079#c10079",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:The connector below 
+wishes he was blue;
+#blue:(B)
+:This next connector
+feels that she would
+be better off green;
+#green:(G)
+stop
+@enduml

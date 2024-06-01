@@ -1,0 +1,16 @@
+{
+  "sha1": "f6so2riuu431skqd2siatnrbozjicsl",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.619Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam activityArrowFontColor red
+start
+if (foo) then (foo1)
+:bar1;
+else (foo2)
+:bar2;
+endif
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "d130cog323lgf727mx88uhpeorfsu42",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.359Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skinparam svek true
+state Foo1
+state Inner1 #red {
+	state Dummy1
+	state Dummy2
+	Dummy1 -[#blue]-> Dummy2
+}
+
+@enduml

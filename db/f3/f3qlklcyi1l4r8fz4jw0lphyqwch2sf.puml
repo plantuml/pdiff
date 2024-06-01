@@ -1,0 +1,11 @@
+{
+  "sha1": "f3qlklcyi1l4r8fz4jw0lphyqwch2sf",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.488Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequenceParticipant underline
+Alice -> Bob : hello
+@enduml

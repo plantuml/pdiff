@@ -1,0 +1,17 @@
+{
+  "sha1": "d0uxirssa3nz19bpgitpbdf3ph3sjsb",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.348Z",
+    "url": "http://forum.plantuml.net/6438/teoz-doesnt-work-in-a-group-or-alt",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+group groupname
+    A -> B : label1
+    & B -> C : label2
+    C -> B : label3
+    & B -> A : label4
+end
+@enduml

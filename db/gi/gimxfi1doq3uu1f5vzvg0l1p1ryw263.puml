@@ -1,0 +1,18 @@
+{
+  "sha1": "gimxfi1doq3uu1f5vzvg0l1p1ryw263",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.825Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Artifact Dummy12 <<Artifact>>
+Folder Dummy1 <<Folder>>
+Rectangle Dummy2 <<Rect>>
+Node Dummy3 <<Node>>
+Frame Dummy5 <<Frame>>
+Cloud Dummy6 <<Cloud>>
+Database Dummy7 <<Database>>
+Storage Dummy8 <<Storage>>
+Agent Dummy9 <<Agent>>
+@enduml

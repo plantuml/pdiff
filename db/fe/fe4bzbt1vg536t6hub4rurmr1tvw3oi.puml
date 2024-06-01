@@ -1,0 +1,18 @@
+{
+  "sha1": "fe4bzbt1vg536t6hub4rurmr1tvw3oi",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.992Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!define MICRO(foo='') <U+00B5>
+!define MICROSERVICE MICRO()Service
+ 
+component MICROSERVICE as MS1 << MICROSERVICE >> {
+component uService as MS2 <<MICRO()Service>>
+
+}
+
+@enduml

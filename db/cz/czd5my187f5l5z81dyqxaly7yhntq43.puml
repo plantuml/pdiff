@@ -1,0 +1,23 @@
+{
+  "sha1": "czd5my187f5l5z81dyqxaly7yhntq43",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.301Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+autonewpage 140
+
+Bob -> Alice : hello01
+Bob -> Alice : hello02
+Bob -> Alice : hello03
+Bob -> Alice : hello04
+Bob -> Alice : hello05
+Bob -> Alice : hello06
+Bob -> Alice : hello07
+Bob -> Alice : hello08
+Bob -> Alice : hello09
+Bob -> Alice : hello10
+
+@enduml

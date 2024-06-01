@@ -1,0 +1,27 @@
+{
+  "sha1": "eqbse4wlm96il1jsgn5ztdkk5vyx4g7",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.935Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startbpm
+:login;
+new branch
+:show new message1;
+else
+:show new task2;
+end branch
+new branch
+:Accept Task;
+else
+:nothing;
+else
+new branch
+:read message;
+else
+:dummy;
+end branch
+end branch
+:logout;
+@endbpm

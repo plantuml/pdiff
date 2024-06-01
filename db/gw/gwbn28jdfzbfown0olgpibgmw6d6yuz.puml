@@ -1,0 +1,32 @@
+{
+  "sha1": "gwbn28jdfzbfown0olgpibgmw6d6yuz",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.439Z",
+    "url": "https://forum.plantuml.net/13776/string-concatenation-function-evaluation-in-includes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+if (Q1) then
+  switch (Q2)
+  case ( 503 )
+    :A;
+    stop
+  case ( 500 ) 
+    :B;
+    stop
+  endswitch
+else
+  switch (Q3)
+  case (Timeout)
+    :C;
+    if (Q4) then
+      :D;
+      stop
+    else
+      :E;
+     stop
+    endif
+  endswitch
+endif
+@enduml

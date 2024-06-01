@@ -1,0 +1,16 @@
+{
+  "sha1": "egxi8lg7cq80r8wglpezydc2zqdb3ww",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.413Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+(*) -> "Proposed" as p1
+->[toto] "Scheduled" as s1
+
+->[toto2] "This
+is on several lines"
+
+@enduml

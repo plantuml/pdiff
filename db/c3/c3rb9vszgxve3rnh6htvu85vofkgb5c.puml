@@ -1,0 +1,13 @@
+{
+  "sha1": "c3rb9vszgxve3rnh6htvu85vofkgb5c",
+  "insertion": {
+    "when": "2024-06-01T09:03:00.849Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+!pragma aspect 2,5
+[component1]
+[component2]
+@enduml

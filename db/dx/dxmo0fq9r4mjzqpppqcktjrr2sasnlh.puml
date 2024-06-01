@@ -1,0 +1,23 @@
+{
+  "sha1": "dxmo0fq9r4mjzqpppqcktjrr2sasnlh",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.555Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* Debian
+** Ubuntu
+*** Linux Mint
+*** Kubuntu
+*** Lubuntu
+*** KDE Neon
+** LMDE
+** SolydXK
+** SteamOS
+*** SteamOS1
+*** SteamOS2
+** Raspbian with a very long name
+*** <s>Raspmbc</s> => OSMC
+*** <s>Raspyfi</s> => Volumio
+@endmindmap

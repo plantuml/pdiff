@@ -1,0 +1,35 @@
+{
+  "sha1": "eo8uqjkfyczu7te8iulbeurezgii5kc",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.825Z",
+    "url": "http://blockdiag.com/en/nwdiag/nwdiag-examples.html",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+  network Sample_front {
+    address = "192.168.10.0/24"
+    color = "red"
+
+    // define group
+    group web {
+      web01 [address = ".1", shape = "node"]
+      web02 [address = ".2"]
+    }
+  }
+  network Sample_back {
+    address = "192.168.20.0/24"
+    web01 [address = ".1"]
+    web02 [address = ".2"]
+    db01 [address = ".101", shape = database ]
+    db02 [address = ".102"]
+
+    // define network using defined nodes
+    group db {
+      db01;
+      db02;
+    }
+  }
+}
+@enduml

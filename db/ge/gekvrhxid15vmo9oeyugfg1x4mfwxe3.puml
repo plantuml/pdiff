@@ -1,0 +1,16 @@
+{
+  "sha1": "gekvrhxid15vmo9oeyugfg1x4mfwxe3",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.663Z",
+    "url": "https://github.com/plantuml/plantuml/issues/134",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+note as N1
+👑 default
+Keep Calm
+and
+Align Default
+end note
+@enduml

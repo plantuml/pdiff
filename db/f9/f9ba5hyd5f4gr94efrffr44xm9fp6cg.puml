@@ -1,0 +1,33 @@
+{
+  "sha1": "f9ba5hyd5f4gr94efrffr44xm9fp6cg",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.795Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequenceGroupBorderColor magenta
+skinparam sequenceGroupBackgroundColor yellow
+skinparam sequenceReferenceBorderColor red
+skinparam sequenceReferenceBackgroundColor #AAAAAA
+skinparam sequenceReferenceHeaderBackgroundColor blue
+
+alt#660000 #blue
+  Alice -> Bob : hello
+else #660000 #blue
+  Alice -> Bob : hello2
+end
+
+alt some test
+  Alice -> Bob : hello
+else #blue
+  Alice -> Bob : hello2
+end
+
+alt #blue
+  Alice -> Bob : hello
+else
+  Alice -> Bob : hello2
+end
+
+@enduml

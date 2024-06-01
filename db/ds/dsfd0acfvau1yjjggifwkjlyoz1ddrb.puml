@@ -1,0 +1,54 @@
+{
+  "sha1": "dsfd0acfvau1yjjggifwkjlyoz1ddrb",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.416Z",
+    "url": "https://forum.plantuml.net/16505/style-partition-group-package-rectangle-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+partition {
+  LineColor blue
+  BackgroundColor lightCyan
+  LineThickness 1.0
+  ArrowThickness 0.5
+  FontName Arial Narrow
+  FontColor red
+  FontSize 11
+  FontStyle regular
+}
+</style>
+
+
+:a;
+card card_name {
+:b;
+}
+group Group
+  :Activity;
+end group
+floating note: Note on Group
+
+partition Partition {
+  :Activity;
+}
+floating note: Note on Partition
+
+package Package {
+  :Activity;
+}
+floating note: Note on Package 
+
+rectangle Rectangle {
+  :Activity;
+}
+floating note: Note on Rectangle 
+
+card Card {
+  :Activity;
+}
+floating note: Note on Card
+end
+
+@enduml

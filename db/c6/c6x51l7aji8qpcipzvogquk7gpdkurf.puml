@@ -1,0 +1,10 @@
+{
+  "sha1": "c6x51l7aji8qpcipzvogquk7gpdkurf",
+  "insertion": {
+    "when": "2024-06-01T09:03:00.971Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Class03 o-- Class04 : <U>agregation</U>
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "fsnduzbteccszggza2sztnh7jsbin47",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.594Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+fork
+   while(condition?) is (true)
+      :task;
+   endwhile (false)
+fork again
+   while(condition?) is (true)
+      :task;
+   endwhile (false)
+end fork
+stop
+@enduml

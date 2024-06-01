@@ -1,0 +1,15 @@
+{
+  "sha1": "gj5c40preoe407l7nf2dk19i5hcrsog",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.846Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Init
+box "This is the Solar system sdfds sfsdf  sfd" #LightBlue
+actor Alice
+end box
+
+Alice -> Alice
+@enduml

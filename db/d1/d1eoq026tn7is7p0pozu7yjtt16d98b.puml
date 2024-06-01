@@ -1,0 +1,16 @@
+{
+  "sha1": "d1eoq026tn7is7p0pozu7yjtt16d98b",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.384Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2017/09/20
+
+[My task1] as [TASK1] lasts 10 days
+[My task2] as [TASK2] lasts 2 days
+[TASK1] starts the 2017/09/25
+
+TASK1 -> TASK2
+@endgantt

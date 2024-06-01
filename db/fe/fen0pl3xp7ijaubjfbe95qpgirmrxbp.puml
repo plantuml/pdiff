@@ -1,0 +1,11 @@
+{
+  "sha1": "fen0pl3xp7ijaubjfbe95qpgirmrxbp",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.019Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam CircledCharacterFontSize 16
+class Toto
+@enduml

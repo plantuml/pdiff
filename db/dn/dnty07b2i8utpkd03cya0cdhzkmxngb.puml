@@ -1,0 +1,24 @@
+{
+  "sha1": "dnty07b2i8utpkd03cya0cdhzkmxngb",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.250Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> SubState
+ 
+state SubState {
+    [*] --> State1
+    State1 --> State2
+    note right on link
+    hi1
+    end note
+    State2 --> State3
+}
+ 
+OtherState --> OtherState2
+note right on link
+hi2
+end note
+@enduml

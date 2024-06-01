@@ -1,0 +1,20 @@
+{
+  "sha1": "cdbugy27rifn4l6ehjqm0bddn8sh72c",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.283Z",
+    "url": "https://github.com/plantuml/plantuml/issues/299",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+group #red A
+ {start} Alice -> Bob : start doing things during duration
+ Bob -> Max : something
+ Max -> Bob : something else
+ {end} Bob -> Alice : finish
+
+ {start} <-> {end} : This is not plotted
+end
+@enduml

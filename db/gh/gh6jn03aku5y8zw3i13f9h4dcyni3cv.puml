@@ -1,0 +1,17 @@
+{
+  "sha1": "gh6jn03aku5y8zw3i13f9h4dcyni3cv",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.751Z",
+    "url": "https://forum.plantuml.net/11089/how-to-get-text-into-the-label?show=11101#c11101",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+allow_mixing
+title General
+
+class A
+class B
+A *-- B: +parameter
+
+@enduml

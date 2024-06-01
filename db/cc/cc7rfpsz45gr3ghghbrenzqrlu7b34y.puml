@@ -1,0 +1,15 @@
+{
+  "sha1": "cc7rfpsz45gr3ghghbrenzqrlu7b34y",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.219Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1259",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:Test 
+{{
+node N
+}}
+;
+@enduml

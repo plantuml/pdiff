@@ -1,0 +1,30 @@
+{
+  "sha1": "fln62b8jjl7j441mrunvi3v91s0m14m",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.340Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+ArrayList : Object[] elementData
+ArrayList : size()
+
+enum TimeUnit
+TimeUnit : DAYS
+TimeUnit : HOURS
+TimeUnit : MINUTES
+
+@enduml

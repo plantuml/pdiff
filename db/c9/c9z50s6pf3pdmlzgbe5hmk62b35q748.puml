@@ -1,0 +1,16 @@
+{
+  "sha1": "c9z50s6pf3pdmlzgbe5hmk62b35q748",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.118Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 1000 width
+Foo -> Bar
+note over Foo, Bar
+Yet another link to [[http://www.google.com]] as demo.
+You can also [[http://www.yahoo.fr specify a text]] for the link.
+And even [[http://www.yahoo.fr{This \n is a \n tooltip} add a tooltip]] to the link.
+end note
+@enduml

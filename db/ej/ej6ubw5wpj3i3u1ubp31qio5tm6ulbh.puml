@@ -1,0 +1,15 @@
+{
+  "sha1": "ej6ubw5wpj3i3u1ubp31qio5tm6ulbh",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.532Z",
+    "url": "https://discord.com/channels/1083727021328306236/1084966845100072980",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class pack.ClassA {
+    a
+}
+ClassB::b <-- pack.ClassA::a
+pack.ClassC::c <-- ClassB::b
+@enduml

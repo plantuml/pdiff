@@ -1,0 +1,13 @@
+{
+  "sha1": "cx6bgon6lp17pjppbsz1bn24whpr4mn",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.192Z",
+    "url": "http://forum.plantuml.net/7264/sequence-show-event-message-below-the-arrow",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam responseMessageBelowArrow true
+Bob -> Alice : hello
+Alice -> Bob : ok
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "csepi540qka20lphgy7psnb16uw47xm",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.979Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+repeat
+    :Hello world!;
+repeatwhile(a==1
+and b ==2)is(The condition
+is True)
+-> The condition is False;
+repeat
+    :Hello world!;
+repeatwhile(a==1and b ==2)is(The condition is True)
+-> The condition is False;
+@enduml

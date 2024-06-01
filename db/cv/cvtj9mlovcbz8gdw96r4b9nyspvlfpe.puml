@@ -1,0 +1,34 @@
+{
+  "sha1": "cvtj9mlovcbz8gdw96r4b9nyspvlfpe",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.131Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1367",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+project starts the 2023/04/01
+
+D+5 to D+7 are colored in lightBlue
+
+
+[task1] lasts 2 days
+[task2] starts at D+1
+then [task2] lasts 30 days
+
+D+10 is colored in gold
+D+11 is colored in orange
+
+T-1 is colored in #FF0
+T+0 is colored in #F00
+T+3 is colored in #0F0
+
+E-2 is colored in #700
+E-1 is colored in #700
+E-0 is colored in #700
+
+
+'T is colored in red
+'L is colored in red
+
+@endgantt

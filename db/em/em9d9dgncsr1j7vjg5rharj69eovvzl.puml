@@ -1,0 +1,10 @@
+{
+  "sha1": "em9d9dgncsr1j7vjg5rharj69eovvzl",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.690Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+A(?<=abc)BC(?<!not)DE
+@endregex

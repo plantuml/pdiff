@@ -1,0 +1,24 @@
+{
+  "sha1": "dd9vipz27dm9u3n8dbexxi06hkyoyzw",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.845Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Dummy {
+  +fooH
+  -dummyH
+  #other
+  ~last
+  +foo2H()
+  -dummy2()
+  #other2H()
+  ~last2()
+}
+
+hide private fields
+hide public member
+hide protected methods
+
+@enduml

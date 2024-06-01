@@ -1,0 +1,23 @@
+{
+  "sha1": "ed6d83afno137v0wy9ayujsw172j3hs",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.271Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Bar1
+class Bar2
+together {
+  class Together1
+  class Together2
+  class Together3
+}
+Together1 - Together2
+Together2 - Together3
+
+together {
+  class Bar1
+  class Bar2
+}
+@enduml

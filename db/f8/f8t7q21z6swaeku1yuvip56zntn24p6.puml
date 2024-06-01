@@ -1,0 +1,13 @@
+{
+  "sha1": "f8t7q21z6swaeku1yuvip56zntn24p6",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.764Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+(*) -> "toto"
+note on link: this is a note
+
+@enduml

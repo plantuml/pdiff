@@ -1,0 +1,20 @@
+{
+  "sha1": "d58ewmcwcykrv51dis9vuhtb5lop30a",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.504Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+digraph unix {
+nodesep=0.486111;
+ranksep=0.833333;
+compound=true;
+sh0004->sh0005[label=<<TABLE BGCOLOR="#000007" FIXEDSIZE="TRUE" WIDTH="94" HEIGHT="18"><TR><TD></TD></TR></TABLE>>];
+sh0004;
+sh0005;
+{rank=same; sh0005; sh0004}
+sh0005->sh0004;
+
+}
+@enduml

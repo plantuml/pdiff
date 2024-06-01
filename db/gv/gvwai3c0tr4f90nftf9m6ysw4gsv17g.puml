@@ -1,0 +1,21 @@
+{
+  "sha1": "gvwai3c0tr4f90nftf9m6ysw4gsv17g",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.423Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor azer
+participant Bob
+create toto
+Bob -> toto
+toto -> v1 : meesage
+'note left : titi
+note right
+rzerr
+  zerzer
+  qsd
+end note
+toto -> azer : rt
+@enduml

@@ -1,0 +1,34 @@
+{
+  "sha1": "e3do7ojvkbr7oggidjv5aobpgy1ep7r",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.819Z",
+    "url": "https://forum.plantuml.net/16996/how-to-hide-the-vertical-grid-lines-in-timming-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+timingDiagram {
+  timeline {
+    LineColor red
+  }
+  timegrid {
+    LineColor blue
+  }
+}
+</style>
+
+clock   "Clock_0"   as C0 with period 50
+binary  "Binary"  as B
+concise "Concise" as C
+robust  "Robust"  as R
+@0
+C is Idle
+R is Idle
+@100
+B is high
+C is Waiting
+R is Processing
+@300
+R is Waiting
+@enduml

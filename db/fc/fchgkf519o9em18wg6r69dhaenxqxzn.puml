@@ -1,0 +1,13 @@
+{
+  "sha1": "fchgkf519o9em18wg6r69dhaenxqxzn",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.949Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+bobé -> çç : éé
+note over bobé
+	noé
+endnote
+@enduml

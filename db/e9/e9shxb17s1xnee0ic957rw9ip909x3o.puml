@@ -1,0 +1,22 @@
+{
+  "sha1": "e9shxb17s1xnee0ic957rw9ip909x3o",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.154Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!ifdef $j
+Alice -> Bob : The variable j is defined and its value is $j
+!else
+Alice -> Bob : I don't know any $j variable. ok
+!endif
+
+!if %variable_exists("$j")
+Alice -> Bob : The variable j is defined and its value is $j
+!else
+Alice -> Bob : I don't know any $j variable. ok
+!endif
+
+@enduml

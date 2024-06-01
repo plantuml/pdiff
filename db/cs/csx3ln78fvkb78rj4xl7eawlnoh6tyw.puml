@@ -1,0 +1,20 @@
+{
+  "sha1": "csx3ln78fvkb78rj4xl7eawlnoh6tyw",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.019Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|#green|f| fisherman
+|c| cook
+|#yellow|e| eater
+|f|
+start
+:go fish;
+|c|
+:fry fish;
+|e|
+:eat fish;
+stop
+@enduml 

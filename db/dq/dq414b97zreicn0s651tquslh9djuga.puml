@@ -1,0 +1,34 @@
+{
+  "sha1": "dq414b97zreicn0s651tquslh9djuga",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.327Z",
+    "url": "https://github.com/plantuml/plantuml/issues/843",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+group group1
+A->B: msg1
+
+note left
+line 1
+line 2
+end note
+
+note right
+line 1
+line 2
+end note
+
+A<-B: msg2
+end
+
+group group2
+A->B: msg3
+note over A, B
+line 1
+line 2
+end note
+A<-B: msg4
+end
+@enduml

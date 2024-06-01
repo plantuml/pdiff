@@ -1,0 +1,17 @@
+{
+  "sha1": "g7izv9ba7mwg6lrvi7p80qh7r8q99lz",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.314Z",
+    "url": "https://forum.plantuml.net/11524/allow-duplicates-for-wbs",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* Root
+'row 1
+** CategoryA
+*** ObjectA
+'row 2
+** CategoryA
+*** ObjectB
+@endwbs

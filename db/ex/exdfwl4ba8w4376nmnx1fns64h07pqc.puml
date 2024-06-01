@@ -1,0 +1,12 @@
+{
+  "sha1": "exdfwl4ba8w4376nmnx1fns64h07pqc",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.209Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultTextAlignment left
+[*] --> One
+One --> Two : Alpha {\n  Foo();\n   Bar();\n}
+@enduml

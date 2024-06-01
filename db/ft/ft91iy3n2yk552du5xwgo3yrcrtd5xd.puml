@@ -1,0 +1,13 @@
+{
+  "sha1": "ft91iy3n2yk552du5xwgo3yrcrtd5xd",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.643Z",
+    "url": "https://forum.plantuml.net/14341/using-parenthesis-in-object-diagram-field-values",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+object x
+x : v2 = Z() 
+' x : v3 = a
+@enduml

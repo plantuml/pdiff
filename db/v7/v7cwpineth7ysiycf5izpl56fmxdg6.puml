@@ -1,0 +1,24 @@
+{
+  "sha1": "v7cwpineth7ysiycf5izpl56fmxdg6",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.601Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1259",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam Backgroundcolor transparent
+legend
+<size:8> Rendered with Plantuml </size>
+end legend
+
+if (Is there a Space?) then (yes)
+:"With space, incorrect parsing";
+#pink:<latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex>;<<procedure>>
+:<color:red>"(on v1.2020.09) this IS added to the item above";
+else (no)
+:"No space, incorrect parsing:";
+#pink:<latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex>;<<procedure>>
+:<color:red>"(on v1.2020.09) this IS added to the item above";
+endif
+@enduml

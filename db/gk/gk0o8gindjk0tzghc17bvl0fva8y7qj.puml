@@ -1,0 +1,16 @@
+{
+  "sha1": "gk0o8gindjk0tzghc17bvl0fva8y7qj",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.896Z",
+    "url": "https://github.com/michiel/plantuml-kubernetes-sprites",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <kubernetes/k8s-sprites-unlabeled-25pct>
+package "Infrastructure" {
+  component "<$master>\nmaster" as master
+  component "<$etcd>\netcd" as etcd
+  component "<$node>\nnode" as node
+}
+@enduml

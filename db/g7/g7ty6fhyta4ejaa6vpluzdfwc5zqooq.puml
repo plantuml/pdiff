@@ -1,0 +1,23 @@
+{
+  "sha1": "g7ty6fhyta4ejaa6vpluzdfwc5zqooq",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.336Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam swimlane true
+partition "GR1" {
+(*) -> "ACT1"
+--> "ACT2"
+}
+partition "GR2" {
+--> "ACT3"
+}
+partition "GR1" {
+--> "ACT4"
+}
+partition "GR3" {
+--> "ACT5"
+}
+@enduml

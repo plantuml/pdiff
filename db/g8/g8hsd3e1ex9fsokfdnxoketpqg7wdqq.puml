@@ -1,0 +1,20 @@
+{
+  "sha1": "g8hsd3e1ex9fsokfdnxoketpqg7wdqq",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.363Z",
+    "url": "http://forum.plantuml.net/6707/",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package  "A" as RootA {
+    package  B {
+        package  C
+    }
+' display bug
+    package  "A1" as AA1 
+    package  "A" as AAA {
+    File z
+    }
+}
+@enduml

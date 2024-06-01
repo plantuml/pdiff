@@ -1,0 +1,17 @@
+{
+  "sha1": "d8qxxs0cs497yhxdlrzddmt2zvhnzsp",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.679Z",
+    "url": "https://forum.plantuml.net/17732/gantt-milestone-with-multiline-text-placement",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+
+Project starts 2023-01-01
+[Task1] starts 2023-01-01 and lasts 1 week
+[Task2] starts after [Task1]'s end and lasts 2 weeks
+[Multiline\nMilestone\none more!] happens after [Task1]'s end
+
+@endgantt

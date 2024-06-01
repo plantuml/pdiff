@@ -1,0 +1,19 @@
+{
+  "sha1": "ecdmjsh3tfo45vhofdpsxw88f2qk5yw",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.228Z",
+    "url": "https://forum.plantuml.net/10044/activity-beta-background-color-ignored-case-more-than-note",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+note left #aabbcc
+aaaa aaaaaa
+endnote
+
+note left #aabbff
+aaaa hhhhhh
+endnote
+@enduml

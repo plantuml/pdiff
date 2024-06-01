@@ -1,0 +1,21 @@
+{
+  "sha1": "g9onc0kc0d7qbi44mffwqddlmyw86w8",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.459Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|System|
+fork
+  repeat
+    :Update location to User;
+  repeat while (Approaching drop-off location?) is (not yet)
+  :Notify to user "Driver is approaching";
+fork again
+  |Driver|
+  while (On the way?)
+    :Send current location;
+  endwhile
+end fork
+@enduml

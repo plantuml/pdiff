@@ -1,0 +1,10 @@
+{
+  "sha1": "e6i6rr3ybnpc2pb296wqzrso5m7y8v0",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.042Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmath
+sum_(i=1)^n i^3=((n(n+1))/2)^2
+@endmath

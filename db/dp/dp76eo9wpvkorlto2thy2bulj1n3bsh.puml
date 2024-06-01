@@ -1,0 +1,24 @@
+{
+  "sha1": "dp76eo9wpvkorlto2thy2bulj1n3bsh",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.309Z",
+    "url": "https://forum.plantuml.net/9981/skinparam-working-partition-with-activity-syntax-embedded",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam  partition {
+  BackgroundColor<<bluepartition>> blue
+}
+
+skinparam  activity {
+  BackgroundColor<<redactivity>> red
+}
+
+partition "My Partition" <<bluepartition>> {
+start
+#green:Activity 1;
+<<redactivity>>:Activity 2;
+stop
+}
+@enduml

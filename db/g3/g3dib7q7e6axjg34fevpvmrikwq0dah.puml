@@ -1,0 +1,36 @@
+{
+  "sha1": "g3dib7q7e6axjg34fevpvmrikwq0dah",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.108Z",
+    "url": "https://forum.plantuml.net/11471/superscripts-position-changes-using-different-resolutions",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+skinparam {
+    dpi 300
+    legendfontsize 12
+    shadowing false
+    titlefontsize 12
+}
+
++ Qwerty
+++ Asdfgh<sup>1</sup>
++++ Poiuytr<sup>2</sup>
++++ Mnbvcx<sup>3</sup>
++++ Kjhgtr<sup>4</sup>
+++ Zxcvbn<sup>1</sup>
++++ Lkjhgf
++++ Cftred<sup>3</sup>
++++ Sderfg<sup>5</sup>
+
+title Title
+
+legend top
+<sup>1</sup> Kietwgd.
+<sup>2</sup> Kagetft.
+<sup>3</sup> Nastedy.
+<sup>4</sup> Paetrg.
+<sup>5</sup> Hwywtw.
+endlegend
+@endwbs

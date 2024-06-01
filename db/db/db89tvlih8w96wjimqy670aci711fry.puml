@@ -1,0 +1,12 @@
+{
+  "sha1": "db89tvlih8w96wjimqy670aci711fry",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.762Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class B extends A
+class C extends A
+B -[norank]- C
+@enduml

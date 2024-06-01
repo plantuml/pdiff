@@ -1,0 +1,11 @@
+{
+  "sha1": "g7ctxawmichdjd57aflk748zvr2u1rh",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.297Z",
+    "url": "https://forum.plantuml.net/12921/accept-bracket-long-description-circle-deployment-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+circle A
+@enduml

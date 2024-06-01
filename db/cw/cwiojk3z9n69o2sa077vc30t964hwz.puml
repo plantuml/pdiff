@@ -1,0 +1,27 @@
+{
+  "sha1": "cwiojk3z9n69o2sa077vc30t964hwz",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.156Z",
+    "url": "http://forum.plantuml.net/9525/archimate-using-a-node-for-technology-device",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam rectangle {
+    Shadowing False
+}
+
+skinparam node {
+    Shadowing False
+    StereotypeAlignment right
+}
+
+skinparam rectangle<<behavioural>> {
+    RoundCorner 10
+
+}
+
+rectangle "Technology Interface" as TInterface <<$archimate/interface>> #TECHNOLOGY
+rectangle "Technology Function" as TFunction <<$archimate/technology-function>> <<behavioural>> #TECHNOLOGY
+node "Technology Device" as TDevice <<$archimate/technology-device>> #TECHNOLOGY
+@enduml

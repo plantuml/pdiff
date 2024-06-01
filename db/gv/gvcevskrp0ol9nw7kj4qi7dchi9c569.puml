@@ -1,0 +1,24 @@
+{
+  "sha1": "gvcevskrp0ol9nw7kj4qi7dchi9c569",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.386Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Activity Diagram PlantUML New Syntax
+start
+->t0;
+split
+->t1;
+:FeatureDetection;
+:FeatureTracking;
+->t2;
+split again
+->t3;
+:EgoMotion;
+->t4;
+end split
+->t5;
+stop
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "fxn2fnfymanztcxl2po73mz6bjez76w",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.842Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+legend
+  This is the legend
+  on several lines
+end legend
+class FooWithAVeryLongNameForTheTestToWork
+@enduml

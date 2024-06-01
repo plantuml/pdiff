@@ -1,0 +1,19 @@
+{
+  "sha1": "domqkewbfufmy0gycndsordqz1d6cj",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.282Z",
+    "url": "https://forum.plantuml.net/10157/sequence-diagrams-with-diagrams-in-note-and-functions",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Alice -> Bob : hello1
+note bottom : my note
+Alice -> Bob : hello2
+note top
+  my note
+  is on several line
+end note
+
+@enduml

@@ -1,0 +1,28 @@
+{
+  "sha1": "g7garjsqv4kxbljpnenssnm4cv4my3q",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.305Z",
+    "url": "https://github.com/plantuml/plantuml/issues/635#issuecomment-907144157",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title test of link on ref
+note right A #palegreen: a link (without tooltip and label) works for all the ref area
+ref over A : [[link]]
+...
+note right A #pink : a link on ref (with tooltip) does not work\n<b>[the tooltip is taken on the link!]
+ref over A : [[link{link with tooltip}]]
+ref over A : [[link{link with tooltip}]] with words on ref
+note right A #palegreen: same link (with tooltip) work on on arrow's label
+A -> A [[link{link with tooltip}]]: here is a OK example
+...
+note right A #pink : a link on ref (with label) does not work\n<b>[the label is taken on the link!]
+ref over A : [[link with label]]
+ref over A : [[link with label]] with words on ref
+note right A #palegreen: same link (with label) work on arrow's label
+A -> A [[link with label]]: here is a OK example
+...
+note right A #palegreen: a link works only for the words "this works"
+ref over A : see [[link{with tooltip} this works]]
+@enduml

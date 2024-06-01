@@ -1,0 +1,24 @@
+{
+  "sha1": "cdnohq6vlj5cef945vn7v2efod6nlmt",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.291Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1216#issuecomment-1355336618",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam component {
+    Style rectangle
+}
+
+skinparam rectangle {
+    BackgroundColor<<external>> #orange
+}
+
+actor User
+component C1 <<external>>
+component "External Service" <<external>> as C2
+
+User .> C1
+C1 --> C2
+@enduml

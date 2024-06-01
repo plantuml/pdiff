@@ -1,0 +1,23 @@
+{
+  "sha1": "evbldndk08eulwb8cvd3inthu772z0a",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.144Z",
+    "url": "https://forum.plantuml.net/14997/swimlane-repeat-loop?show=14997#q14997",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|1st Swimlane|
+|2nd Swimlane|
+start
+:Activity 1;
+|1st Swimlane|
+repeat :Activity 2;
+
+|2nd Swimlane|
+backward :Correction in second;
+
+|1st Swimlane|
+repeat while (Something wrong?) is (yes) not (no);
+stop
+@enduml

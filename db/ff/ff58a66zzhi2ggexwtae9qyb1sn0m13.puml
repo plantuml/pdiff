@@ -1,0 +1,29 @@
+{
+  "sha1": "ff58a66zzhi2ggexwtae9qyb1sn0m13",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.050Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+
+[*] --> State1
+
+state Playing1 {
+[H] --> Moving
+Moving --> Shooting : shoot
+Shooting --> Moving : move
+}
+
+state State2 {
+[H] --> Initializing
+Initializing --> Playing1 : play_first
+Initializing --> Playing2 : play_second
+}
+
+State1 --> State2 : start
+State2 --> State1 : pause
+State2 --> [*] : quit
+
+@enduml 

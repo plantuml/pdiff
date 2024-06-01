@@ -1,0 +1,17 @@
+{
+  "sha1": "dug2gago3izysgmuxphs6csjd23sfbc",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.457Z",
+    "url": "https://forum.plantuml.net/12750/second-keyword-argument-with-comma-not-working?show=12753#c12753",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!unquoted procedure Node($alias, $arg2 = "", $arg3 = "")
+rectangle "arg2:$arg2\narg3:$arg3" <<node>> as $alias
+!endprocedure
+
+Node(Arg2WithCommaOK, $arg2 ="ab", $arg3="tagA1 tagA2"){
+  rectangle r1
+}
+@enduml

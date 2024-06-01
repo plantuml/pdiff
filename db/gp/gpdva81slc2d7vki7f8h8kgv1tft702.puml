@@ -1,0 +1,14 @@
+{
+  "sha1": "gpdva81slc2d7vki7f8h8kgv1tft702",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.149Z",
+    "url": "https://forum.plantuml.net/10948/gantt-printscale-weekly?show=10950#c10950",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+printscale monthly
+Project starts the 2020/2/3
+[Milestone] happens 2020/2/14
+[Task] lasts 90 weeks
+@endgantt

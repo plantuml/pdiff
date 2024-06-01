@@ -1,0 +1,25 @@
+{
+  "sha1": "e11wh3rpu5gj2dq18r4o8gpl4avvob0",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.718Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam usebetastyle true
+participant Alice
+
+<style>
+participant {
+  FontColor green
+  FontSize 26
+  FontStyle italic
+  LineColor #E00
+  BackGroundColor #000
+}
+</style>
+
+participant Bob
+Alice -> Bob : hello
+@enduml

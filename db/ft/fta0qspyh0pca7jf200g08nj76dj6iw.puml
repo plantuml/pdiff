@@ -1,0 +1,30 @@
+{
+  "sha1": "fta0qspyh0pca7jf200g08nj76dj6iw",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.651Z",
+    "url": "https://forum.plantuml.net/11707/linestyle-linethickness-management-component-deployment",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+document {
+    BackgroundColor transparent
+}
+group {
+    BackgroundColor green
+    LineStyle 5
+    LineThickness 3
+}
+package {
+    BackgroundColor palegreen
+    LineStyle 2
+    LineThickness 2
+}
+</style>
+
+package package1 {
+node n
+package p
+}
+@enduml

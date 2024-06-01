@@ -1,0 +1,24 @@
+{
+  "sha1": "cfzqvcen0tknrx2ncsk1b9z0z7nnkt9",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.378Z",
+    "url": "https://github.com/plantuml/plantuml/issues/794",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam state {
+  BackGroundColor<<MyState>> blue
+}
+skinparam ActivityBarColor<<fork>> green
+skinparam ActivityBarColor<<join>> orange
+
+state f <<fork>>
+state a <<MyState>>
+state b <<MyState>>
+state j <<join>>
+f --> a
+f --> b
+a --> j
+b --> j
+@enduml

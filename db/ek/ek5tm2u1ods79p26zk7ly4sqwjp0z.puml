@@ -1,0 +1,22 @@
+{
+  "sha1": "ek5tm2u1ods79p26zk7ly4sqwjp0z",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.566Z",
+    "url": "https://forum.plantuml.net/12415/gantt-issues-coloring-current-during-printscale-weekly-closed?show=13435#c13435",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+printscale weekly
+2021-01-18 to 2021-01-22 are colored in palegreen
+saturday are closed
+sunday are closed
+
+Project starts the 1st of january 2021
+[Prototype design end] as [TASK1] lasts 19 days
+[TASK1] is colored in Lavender/LightBlue
+[Testing] lasts 4 days
+[TASK1]->[Testing]
+
+@endgantt

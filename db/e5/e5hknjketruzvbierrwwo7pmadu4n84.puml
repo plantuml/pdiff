@@ -1,0 +1,22 @@
+{
+  "sha1": "e5hknjketruzvbierrwwo7pmadu4n84",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.025Z",
+    "url": "http://forum.plantuml.net/7463/cards-and-rectangles-have-the-same-formatting",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam rectangle {
+    FontColor #White
+    BackgroundColor #Black
+}
+
+skinparam card {
+    FontColor #red
+    BackgroundColor #blue
+}
+
+rectangle rectangle
+card card
+@enduml

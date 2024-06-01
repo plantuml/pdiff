@@ -1,0 +1,12 @@
+{
+  "sha1": "esuiu5mov57vp6occgs3it3spima7b5",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.049Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+bob -> alice : 12345
+bob -> alice : こんにちわ
+bob <- alice : さようなら
+@enduml

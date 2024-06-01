@@ -1,0 +1,30 @@
+{
+  "sha1": "g4nhr7xutb4ze5gd4xfuopb2247o6hf",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.176Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1301",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+nwdiagDiagram {
+  group {
+    BackGroundColor cadetblue
+    FontStyle bold
+  }
+}
+</style>
+
+nwdiag {
+	network net1 {
+	  a
+	}
+	network net2 {
+	  b
+	}
+	group uniqueNode {
+	  a  [color = "Red", description="desc"]
+	}
+}
+@enduml

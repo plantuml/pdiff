@@ -1,0 +1,14 @@
+{
+  "sha1": "gsfe5vb70ixlm8ctqrud4y46kusx2v6",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.289Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+cl3 <|-left- cl3Left
+cl3 <|-right- cl3Right
+cl3 <|-down- cl3Down
+cl3 <|-up- cl3Up
+
+@enduml

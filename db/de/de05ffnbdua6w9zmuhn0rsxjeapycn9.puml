@@ -1,0 +1,51 @@
+{
+  "sha1": "de05ffnbdua6w9zmuhn0rsxjeapycn9",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.878Z",
+    "url": "https://forum.plantuml.net/15606/activity-arrow-label-overlap-on-some-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title %date()
+
+!t="this is t1\nthis is t2\nthis is t3\n"
+
+if (if?) then (<color blue>yes)
+  :a a a a a;
+->t;
+else (<color blue>no)
+  :b b b b b;
+->t;
+endif
+fork
+->t;
+  :action 1;
+->t;
+fork again
+->t;
+  :action 2;
+->t;
+end merge
+split
+->t;
+  :action 1;
+->t;
+split again
+->t;
+  :action 2;
+->t;
+end split
+while (data available?)
+  :read data;
+  :generate diagrams;
+->t;
+endwhile (t)
+:end;
+repeat
+  :read data;
+  :generate diagrams;
+->t;
+repeat while (while) is (t)
+stop
+@enduml

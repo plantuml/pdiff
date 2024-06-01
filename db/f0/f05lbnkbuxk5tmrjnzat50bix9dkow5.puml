@@ -1,0 +1,33 @@
+{
+  "sha1": "f05lbnkbuxk5tmrjnzat50bix9dkow5",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.324Z",
+    "url": "https://forum.plantuml.net/14713/style-state-allow-roundcorner-or-rectangle-style-on-state",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+stateDiagram {
+    RoundCorner 2
+    Shadowing 0
+}
+</style>
+state A {
+	state B {
+	}
+	state C {
+		state c : state c
+	}
+}
+
+state E {
+  state F
+}
+
+state S1 : state S1
+state S2
+
+F --> S1
+
+@enduml

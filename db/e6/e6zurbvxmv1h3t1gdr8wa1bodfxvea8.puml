@@ -1,0 +1,14 @@
+{
+  "sha1": "e6zurbvxmv1h3t1gdr8wa1bodfxvea8",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.091Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob->Alice : coucou\nit\nme
+activate Alice
+Alice->Alice: well
+Alice-->Bob: ok
+deactivate Alice
+@enduml

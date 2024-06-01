@@ -1,0 +1,29 @@
+{
+  "sha1": "e1a672hxnl7fjeebkdogvf1snznl8n5",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.736Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startproject
+close sunday
+close saturday
+
+LOT1/spec$begin := 13-APR-2011
+LOT1/spec$work := 1
+LOT1/spec$duration := 7
+
+LOT1/real$begin := LOT1/spec$completed
+LOT1/real$work := 1
+LOT1/real$duration := 7
+
+LOT2/spec$begin := LOT1$completed
+LOT2/spec$work := 1
+LOT2/spec$duration := 7
+
+LOT2/real$begin := LOT2/spec$completed
+LOT2/real$work := 1
+LOT2/real$duration := 17
+
+
+@endproject

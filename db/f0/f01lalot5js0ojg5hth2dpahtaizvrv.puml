@@ -1,0 +1,17 @@
+{
+  "sha1": "f01lalot5js0ojg5hth2dpahtaizvrv",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.315Z",
+    "url": "https://forum.plantuml.net/17275/composite-state-functionality-with-allow_mixing",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state "A" as stateA
+state "C" as stateC {
+ state B
+}
+json foo1 {
+  "foo2": "foo3"
+}
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "c9e4forok1soulseglmgt7uvk2lr1g1",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.102Z",
+    "url": "https://forum.plantuml.net/10498/is-there-a-supported-way-to-specify-fall-back-fonts",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ 
+skinparam DefaultFontName Proxima Nova Cn CF, DejaVu Sans, SansSerif, sans-serif
+
+Alice -> Bob : hello
+@enduml

@@ -1,0 +1,25 @@
+{
+  "sha1": "dy57zvxg835x7dontm5jxuf2yw7myvg",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.593Z",
+    "url": "https://forum.plantuml.net/14362/styling-descendents-error-in-wbs-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+wbsDiagram {
+    BackGroundColor white
+  }
+  
+  .americaStyle * {
+	  FontColor red
+	    BackGroundColor blue
+  }
+
+}
+</style>
+
+* America <<americaStyle>>
+** Canada <<americaStyle>>
+@endwbs

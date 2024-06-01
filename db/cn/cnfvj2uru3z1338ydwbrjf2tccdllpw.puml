@@ -1,0 +1,18 @@
+{
+  "sha1": "cnfvj2uru3z1338ydwbrjf2tccdllpw",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.750Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam colorArrowSeparationSpace 1
+start
+if(a?)then
+    :activity1;
+elseif(f?)then
+    :activity2;
+    -[#orange]->
+else
+endif
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "gsfx747kkp8qnrcnazuey29i4yq8ol2",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.296Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1628",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:This is a test with <math>y^2</math>and math <math>a*x^2+b*x+c</math>inside text;
+:Let the formula: <math>int_0^1f(x)dx</math>;
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "eb3r3cqovwzl9spgr29301gf8059mkz",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.189Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ skinparam stateBackgroundColor<<Acacia>> green
+  skinparam stateBackgroundColor<<Midge>> red
+  skinparam stateBackgroundColor<<Weavil>> orange
+
+  [*] --> Foo1 <<Acacia>>
+  Foo1 --> Foo2 #blue
+  
+@enduml

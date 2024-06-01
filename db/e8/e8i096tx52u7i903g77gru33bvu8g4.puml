@@ -1,0 +1,18 @@
+{
+  "sha1": "e8i096tx52u7i903g77gru33bvu8g4",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.117Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A {
+    attr : integer
+    ..
+    attr2 : float
+}
+
+note right of A::attr
+an attribute
+end note
+@enduml

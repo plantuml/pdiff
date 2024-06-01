@@ -1,0 +1,17 @@
+{
+  "sha1": "gjko7q3vdbkfkzrmn59re65toqousya",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.881Z",
+    "url": "https://forum.plantuml.net/14857/how-to-escape-in-activity-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:<code>
+"data": {
+    "item": {
+        "field1": "test response"
+    }
+}
+</code>;
+@enduml

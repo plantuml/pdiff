@@ -1,0 +1,42 @@
+{
+  "sha1": "d1f9qhidqs9i69x5w1j2s5d5lmefscb",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.393Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam usebetastyle true
+actor Bob
+
+alt successful case1
+    Bob->Alice: Authentication Accepted
+else some kind of failure
+    Bob->Alice: Authentication
+end
+
+<style>
+group {
+  LineThickness 0.5
+  LineColor Red
+  BackGroundColor white
+}
+
+groupHeader {
+  FontSize 16
+  FontStyle plain
+  FontColor white
+  
+  LineThickness 3.5
+  LineColor blue
+  BackGroundColor black
+}
+</style>
+
+alt successful case2
+    Bob->Alice: Authentication Accepted
+else some kind of failure
+    Bob->Alice: Authentication
+end
+@enduml

@@ -1,0 +1,117 @@
+{
+  "sha1": "e84uu9v49krrg5g4fhuogpzmvyr7xm",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.109Z",
+    "url": "https://twitter.com/ogomr/status/1468194993504649225",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+sequenceDiagram {
+  shadowing 0
+  roundCorner 15
+  arrow {
+    lineColor #dimgray
+  }
+  lifeLine {
+	lineThickness 1.5
+	lineStyle 0
+  }
+  separator {
+	BorderColor #gray
+	FontStyle normal
+  }
+  note {
+    lineColor #grey
+    backgroundColor #gainsboro
+  }
+  .hotpink {
+	lineColor hotpink
+	backgroundColor hotpink
+	fontColor hotpink
+  }
+  .gold {
+	lineColor gold
+	backgroundColor gold
+	fontColor gold
+  }
+  .limegreen {
+	lineColor limegreen
+	backgroundColor limegreen
+	fontColor limegreen
+  }
+  .lightskyblue {
+	lineColor lightskyblue
+	backgroundColor lightskyblue
+	fontColor lightskyblue
+  }
+  .orangered {
+	lineColor orangered
+	backgroundColor orangered
+	fontColor orangered
+  }
+  .deepskyblue {
+	lineColor deepskyblue
+	backgroundColor deepskyblue
+	fontColor deepskyblue
+  }
+  .skyblue {
+	lineColor skyblue
+	backgroundColor skyblue
+	fontColor skyblue
+  }
+}
+</style>
+
+entity "feature/#5" as feature_5 <<hotpink>>
+entity "epic/#2" as epic_2 <<gold>>
+entity "feature/#4" as feature_4 <<hotpink>>
+entity "feature/#3" as feature_3 <<hotpink>>
+entity "epic/#1" as epic_1 <<gold>>
+entity integration <<limegreen>>
+entity main  <<lightskyblue>>
+entity "hotfix/#6" as hotfix_6 <<orangered>>
+entity "pre production" as pre_production <<deepskyblue>>
+entity production <<skyblue>>
+
+== Development ==
+
+?->o main
+epic_1 <- main : create branch
+note right : next release
+epic_2 <- main : create branch
+note right : future release
+feature_3 <- epic_1 : create branch
+feature_4 <- epic_1 : create branch
+feature_3 ->o feature_3: commit
+feature_3 ->o epic_1 : pull request
+feature_4 ->o feature_4: commit
+feature_4 ->o epic_1 : pull request
+feature_5 <- epic_2 : create branch
+feature_5 ->o feature_5: commit
+feature_5 ->o epic_2 : pull request
+
+== Production Release ==
+
+epic_1 <-o main : rebase
+epic_1 ->o integration : pull request
+integration ->o main : pull request
+main ->o pre_production : pull request
+pre_production ->o production : pull request
+
+== Production Bugfix ==
+
+hotfix_6 <- production : create branch
+hotfix_6 ->o hotfix_6: commit
+hotfix_6 ->o pre_production : pull request
+hotfix_6 ->o production : pull request
+hotfix_6 ->o main : pull request
+
+== Development continues ==
+
+epic_2 <-o main : rebase
+epic_2 ->o integration : pull request
+integration ->o main : pull request
+
+@enduml

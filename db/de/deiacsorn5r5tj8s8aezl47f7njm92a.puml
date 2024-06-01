@@ -1,0 +1,13 @@
+{
+  "sha1": "deiacsorn5r5tj8s8aezl47f7njm92a",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.160Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class class << Avé des accents >> 
+class : interfacé
+
+class -> class : ok ê accenué
+@enduml

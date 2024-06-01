@@ -1,0 +1,16 @@
+{
+  "sha1": "c7tyjy310h6umyaf4i3c23md9euhehd",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.031Z",
+    "url": "https://forum.plantuml.net/6604/is-there-a-way-to-indent-text-inside-a-shape?show=12453#c12453",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam tabSize 20
+rectangle test_indent [
+text
+\ttext
+\t\ttext
+]
+@enduml

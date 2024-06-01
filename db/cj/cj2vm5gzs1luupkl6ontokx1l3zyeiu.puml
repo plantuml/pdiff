@@ -1,0 +1,11 @@
+{
+  "sha1": "cj2vm5gzs1luupkl6ontokx1l3zyeiu",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.506Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set namespaceSeparator \\
+CustomController --|> App\\Http\\Controllers\\Controller
+@enduml

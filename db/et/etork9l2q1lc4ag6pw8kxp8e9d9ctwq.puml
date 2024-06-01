@@ -1,0 +1,15 @@
+{
+  "sha1": "etork9l2q1lc4ag6pw8kxp8e9d9ctwq",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.079Z",
+    "url": "https://forum.plantuml.net/10347/%25plantuml_version%25-longer-working-starting-with-version",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+          legend
+          <size:8> Rendered with Plantuml Version </size>
+          end legend
+
+@enduml

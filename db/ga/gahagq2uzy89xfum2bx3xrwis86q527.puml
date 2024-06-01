@@ -1,0 +1,25 @@
+{
+  "sha1": "gahagq2uzy89xfum2bx3xrwis86q527",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.493Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1230",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+
+<style>
+root {
+  BackgroundColor gray
+  Linecolor white
+  
+  FontColor white
+}
+</style>
+
+class A
+class B
+
+A -> B : that A2B
+@enduml

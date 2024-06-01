@@ -1,0 +1,11 @@
+{
+  "sha1": "der7hkfbw8r2v3o2qw1ki7xbmtkabt1",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.904Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class MyClass<S extends SomeClass,\nA extends AnotherClass,\nY YetAnotherClass> {
+}
+@enduml

@@ -1,0 +1,28 @@
+{
+  "sha1": "dxv30yckphztbefav7we1b7ov74gzys",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.573Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|laneA|
+|laneB|
+
+|laneA|
+start
+|laneB|
+
+-> Before fork;
+fork
+ :foo1;
+fork again
+note left
+abcd efgh 1234
+endnote
+ :foo2;
+end fork
+|laneA|
+:fin;
+
+@enduml

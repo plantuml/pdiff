@@ -1,0 +1,25 @@
+{
+  "sha1": "dkz9psty7znb9p1v8b28hjt7gfx8mxj",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.154Z",
+    "url": "https://forum.plantuml.net/14529/activity-style-allow-style-diamond-internal-label-external",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+activityDiagram {
+  MaximumWidth 100
+  diamond {
+    FontColor green
+  }
+}
+</style>
+switch (A Long long long long Long long long long  condition? )
+case ( B Long )
+   :1  1;
+case ( C  )
+   :2  2;
+endswitch
+
+@enduml

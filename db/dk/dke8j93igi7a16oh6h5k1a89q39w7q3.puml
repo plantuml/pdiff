@@ -1,0 +1,21 @@
+{
+  "sha1": "dke8j93igi7a16oh6h5k1a89q39w7q3",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.132Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1142",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide circle
+hide empty members
+
+class "TestOne" {
+attr1
+attr2
+}
+class "Test Two" extends "TestOne" {
+symmetric
+}
+
+@enduml

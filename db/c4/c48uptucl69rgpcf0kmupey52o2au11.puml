@@ -1,0 +1,13 @@
+{
+  "sha1": "c48uptucl69rgpcf0kmupey52o2au11",
+  "insertion": {
+    "when": "2024-06-01T09:03:00.877Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:ins1;
+-> label;
+:ins2;
+@enduml

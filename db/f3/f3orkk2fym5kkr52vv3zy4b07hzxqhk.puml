@@ -1,0 +1,19 @@
+{
+  "sha1": "f3orkk2fym5kkr52vv3zy4b07hzxqhk",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.479Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+group group1
+actor1 -> actor2
+end
+
+destroy actor2
+
+actor1 -> actor2
+
+@enduml

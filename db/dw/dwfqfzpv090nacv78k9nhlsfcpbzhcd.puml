@@ -1,0 +1,16 @@
+{
+  "sha1": "dwfqfzpv090nacv78k9nhlsfcpbzhcd",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.519Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class foo1 $tag1 {
+}
+class foo2 << My Stereo >> $tag1 $tag2 {
+}
+class foo3 $tag1  $tag2  $tag3  {
+}
+hide $tag3
+@enduml

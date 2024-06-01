@@ -1,0 +1,19 @@
+{
+  "sha1": "g0r8clakpeqx4c3jh372bwibpqdtt26",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.975Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultTextAlignment right
+skinparam minClassWidth 200
+component foo
+component barwhichisverylongandoutbreakthelimitgivenbythedefaultvalue
+node node [
+foo1
+====
+foo2
+]
+artifact artifact
+@enduml

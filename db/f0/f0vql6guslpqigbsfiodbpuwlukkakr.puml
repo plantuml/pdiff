@@ -1,0 +1,35 @@
+{
+  "sha1": "f0vql6guslpqigbsfiodbpuwlukkakr",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.368Z",
+    "url": "https://forum.plantuml.net/15191/activate-deactivate-issues?show=15196#c15196",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!pragma teoz true
+note over Bob, Alice: teoz false
+activate Bob
+Bob -> Alice ++--: not ok
+Alice-> Alice: style 1
+deactivate Alice
+
+activate Bob
+Bob -> Alice ++: not ok
+deactivate Bob
+Alice -> Alice: style 1
+deactivate Alice
+
+activate Bob
+Bob -> Alice: ok
+deactivate Bob
+activate Alice
+Alice -> Alice: style 1
+deactivate Alice
+
+activate Bob
+Bob -> Alice --: ok
+activate Alice
+Alice -> Alice: style 2
+deactivate Alice
+@enduml

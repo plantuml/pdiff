@@ -1,0 +1,26 @@
+{
+  "sha1": "e4tyq40hh7lrfsg8u7f4361557j3mrm",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.985Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Web Browser" as WB
+concise "Web User" as WU
+WB is 20 pixels height
+WU is 20 pixels height
+
+
+@0
+WU is Idle
+WB is Idle
+
+@100
+WU -> WB : URL
+WU is Waiting
+WB is Processing
+
+@300
+WB is Waiting
+@enduml

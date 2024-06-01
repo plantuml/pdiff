@@ -1,0 +1,27 @@
+{
+  "sha1": "e4r65umji4lku9kjaqc8ufanshii3iq",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.973Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skinparam dpi 800
+Alice ->Bob: Hello
+Bob <-] : message1
+Bob <--] : message2
+Bob <<-] : message3
+Bob <<--] : message4
+Bob /-] : message5
+Bob //--] : message6
+Bob \-] : message7
+Bob \\--] : message8
+[-> Bob : message1
+[--> Bob : message2
+[->> Bob : message3
+[-->> Bob : message4
+[-/ Bob : message5
+[--// Bob : message6
+[-\ Bob : message7
+[--\\ Bob : message8
+@enduml

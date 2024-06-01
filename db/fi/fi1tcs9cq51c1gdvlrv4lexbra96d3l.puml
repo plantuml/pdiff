@@ -1,0 +1,17 @@
+{
+  "sha1": "fi1tcs9cq51c1gdvlrv4lexbra96d3l",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.171Z",
+    "url": "https://forum.plantuml.net/11052/remove-unlinked-components?show=11133#c11133",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'together {
+   together {
+     [b]
+   }
+'}
+[c] -> [a]
+remove @unlinked
+@enduml

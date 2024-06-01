@@ -1,0 +1,14 @@
+{
+  "sha1": "ct64hmwu3qgnvyt4rrjeavyijga7eg1",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.047Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) -->"GoogleNode [[http://google.com]]"
+if Some Test [[http://url-for-Some-Test]] then
+--> ok2
+endif
+
+@enduml

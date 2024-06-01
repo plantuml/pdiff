@@ -1,0 +1,24 @@
+{
+  "sha1": "dqnpgcwfvw75291ln6q4o1061kg7jig",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.350Z",
+    "url": "https://forum.plantuml.net/11645/style-for-note-on-component-and-deployement-diagram-class",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+note {
+  FontSize 10
+  BackGroundColor #fff
+  .green {
+        BackgroundColor green
+   }
+}
+</style>
+
+participant A
+participant B
+note over A, B : test 0
+note over A, B <<green>> : test green
+@enduml

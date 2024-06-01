@@ -1,0 +1,13 @@
+{
+  "sha1": "cltdqe3ku3zghpkx8n7qeulonsigu62",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.681Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1436",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam DefaultFontName "NotExistingFont", "jlm_cmmi10"
+Title Test: "NotExistingFont", "jlm_cmmi10"
+footer %version()
+@enduml

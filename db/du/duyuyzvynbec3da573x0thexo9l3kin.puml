@@ -1,0 +1,17 @@
+{
+  "sha1": "duyuyzvynbec3da573x0thexo9l3kin",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.180Z",
+    "url": "https://forum.plantuml.net/13381/teoz-deactivate-not-working",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant b
+participant a
+
+b -> a  : hello
+activate a
+deactivate a
+b -> c : self
+@enduml

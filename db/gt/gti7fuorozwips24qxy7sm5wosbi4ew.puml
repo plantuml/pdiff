@@ -1,0 +1,23 @@
+{
+  "sha1": "gti7fuorozwips24qxy7sm5wosbi4ew",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.326Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Alice
+box "Titre 1"
+participant Bob1
+participant Bob2
+endbox
+box "Titre 2"
+participant Bob3
+endbox
+box "Titre 2" #Green
+participant Pluton
+endbox
+participant Sun
+
+Bob2 -> Bob3 : hello with a long message
+@enduml

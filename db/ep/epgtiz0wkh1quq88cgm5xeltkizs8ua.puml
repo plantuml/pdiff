@@ -1,0 +1,10 @@
+{
+  "sha1": "epgtiz0wkh1quq88cgm5xeltkizs8ua",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.880Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+listsprite
+@enduml

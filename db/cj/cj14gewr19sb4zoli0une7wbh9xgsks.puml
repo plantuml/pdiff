@@ -1,0 +1,16 @@
+{
+  "sha1": "cj14gewr19sb4zoli0une7wbh9xgsks",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.497Z",
+    "url": "https://forum.plantuml.net/17283/nwdiag-problem-with-address-label-position-on-peer-network",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title only x2
+nwdiag {
+	dev1
+	dev2[address = "x2"]
+	dev1 -- dev2
+}
+@enduml

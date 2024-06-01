@@ -1,0 +1,25 @@
+{
+  "sha1": "ckp5u9fcl0cr6h9fvfbjupr3n656lsw",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.614Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+
+<style>
+node {
+  Padding 2
+  Margin 30
+}
+</style>
+
+
+* New style
+** New features
+** Template Files
+*** They are \ngreat and \n should have them!
+
+caption caption
+
+@endmindmap

@@ -1,0 +1,21 @@
+{
+  "sha1": "ehjydtlpetud9z2dhdkkj85kzsvldsq",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.472Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor Alice
+participant Bob
+
+box "This is the Solar system" #LightBlue
+participant P
+participant Sun
+end box
+
+Alice -> Bob
+Bob -> P
+P -> Sun
+Sun -> Dummy
+@enduml

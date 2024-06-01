@@ -1,0 +1,14 @@
+{
+  "sha1": "ecm9ixtmvxs2sqaukhm1j7qbcj0p91g",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.249Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component A
+interface B
+A - B
+cloud {
+}
+@enduml

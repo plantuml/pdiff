@@ -1,0 +1,32 @@
+{
+  "sha1": "c7mtmmaoqrf4noji9o244clmgyfqkao",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.022Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+[X] checkbox|[] checkbox
+() radio
+(X) radio
+This is a text|[This is my button]|This is another text
+"A field"|"Another long Field"|[A button]
+<<folder
+............
+.XXXXX......
+.X...X......
+.XXXXXXXXXX.
+.X........X.
+.X........X.
+.X........X.
+.X........X.
+.XXXXXXXXXX.
+............
+>>|other|<<folder>>|"Field"
+{
+[tu]|[tu]|<<folder>>|<<folder>>|
+}
+^Droplist^
+}
+@endsalt

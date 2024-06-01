@@ -1,0 +1,24 @@
+{
+  "sha1": "dr34tu2eukkveqvjtlsu2o4j3kw5h7t",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.359Z",
+    "url": "https://forum.plantuml.net/12219/differences-between-outputs-backgroundcolor-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> "
+{{
+skinparam BackgroundColor blue
+salt
+{+
+<b>an example
+choose one option
+()one
+()two
+[ok]
+}
+}}
+"
+--> (*)
+@enduml

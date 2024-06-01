@@ -1,0 +1,30 @@
+{
+  "sha1": "g1c55m49q21e7cas260bxb05agv9p8c",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.983Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide footbox
+a->f:hello
+create b
+e->b:ola
+create d
+c->d:guten tag
+d->c: auf wiedersehen
+destroy d
+b->e:adios
+destroy b
+f->a:goodbye
+a->f:hello
+create b
+e->b:ola
+create d
+c->d:guten tag
+d->c: auf wiedersehen
+destroy d
+b->e:adios
+destroy b
+f->a:goodbye
+@enduml

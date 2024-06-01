@@ -1,0 +1,18 @@
+{
+  "sha1": "fwl68jo7kqya6zle06h545t5wfxscfl",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.818Z",
+    "url": "https://jsonformatter.curiousconcept.com/",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+{
+{
+[
+      "SOMETHING",
+      "SOMETHINGelse"
+]
+}
+}
+@endjson

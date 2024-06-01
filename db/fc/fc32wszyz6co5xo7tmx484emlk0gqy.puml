@@ -1,0 +1,13 @@
+{
+  "sha1": "fc32wszyz6co5xo7tmx484emlk0gqy",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.943Z",
+    "url": "https://forum.plantuml.net/11505/could-you-add-unicode-and-entities-management-links-tooltip",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+file f [
+test 1: with unicode   : 100<U+02103> = 212<U+02109> [[{BULLE test 1:\n100<U+02103> = 212<U+02109>}(view tooltip unicode)]] eol1
+]
+@enduml

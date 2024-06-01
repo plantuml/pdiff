@@ -1,0 +1,12 @@
+{
+  "sha1": "fsybt3bfcyr28h50dds9hef1cwgq5f9",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.619Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+participant Bob as "Long Bob" [[http://www.google.com]]
+Bob -> Alice : hello  [[http://www.yahoo.com]]
+@enduml

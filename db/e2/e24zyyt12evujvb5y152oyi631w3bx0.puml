@@ -1,0 +1,13 @@
+{
+  "sha1": "e24zyyt12evujvb5y152oyi631w3bx0",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.777Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[comp1] ^- [comp2]
+[comp1] ^.. [comp3]
+
+() ab1 --^ () ab2
+@enduml 

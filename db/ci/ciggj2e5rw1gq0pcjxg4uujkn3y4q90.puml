@@ -1,0 +1,25 @@
+{
+  "sha1": "ciggj2e5rw1gq0pcjxg4uujkn3y4q90",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.479Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+note left: TS=0000000643
+note left: TS=0000000643
+group GroupA
+ClientA ->> ClientB : REQ
+note left: TS=0000000665
+ClientB -->> ClientA : RESP  (Expect: TS=0000000667)
+note left: TS=0000000667
+end
+...Some Delay...
+note left: TS=0000003409
+note left: TS=0000003410
+note left: TS=0000003411
+group GroupB
+ClientA ->> ClientB : REQ
+note left: TS=0000003426
+end
+@enduml

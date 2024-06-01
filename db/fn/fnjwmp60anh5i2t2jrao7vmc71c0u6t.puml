@@ -1,0 +1,16 @@
+{
+  "sha1": "fnjwmp60anh5i2t2jrao7vmc71c0u6t",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.403Z",
+    "url": "https://forum.plantuml.net/10967/order-mismatch-between-note-and-rectangle-with-embedded-salt?show=12060#c12060",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle r as "
+Text as top1
+{{
+alice->bob
+}}
+"
+@enduml

@@ -1,0 +1,31 @@
+{
+  "sha1": "fb9omg0ll222ghye7themn0rri0jcoo",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.888Z",
+    "url": "https://jsonformatter.curiousconcept.com/",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+{
+   "fruit":"Apple",
+   "size":"Large",
+   "color":"Red",
+   "options":[
+      {
+         "name":"New York Bulls",
+         "foo":"roro"
+      },
+      "SOMETHING",
+      {
+         "name":"Los Angeles Kings"
+      },
+      {
+         "name":"Golden State Warriros"
+      },
+      {
+         "name":"Huston Rocket"
+      }
+   ]
+}
+@endjson

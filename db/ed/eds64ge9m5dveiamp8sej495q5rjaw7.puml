@@ -1,0 +1,18 @@
+{
+  "sha1": "eds64ge9m5dveiamp8sej495q5rjaw7",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.293Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+  par2
+    Axxx ->Axxx2 : message1 which is long
+    Axxx ->Axxx2 : message1 which is long
+    Axxx ->Axxx2 : message1 which is long
+  else
+	  Bxxx ->Cxxx : message2
+  end
+
+Cxxx -> Dxxx : message4
+@enduml

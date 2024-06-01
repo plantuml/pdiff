@@ -1,0 +1,21 @@
+{
+  "sha1": "eodm7sn7cxsfocovvcz9p6keinyi1q7",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.840Z",
+    "url": "http://forum.plantuml.net/6838/some-skinparam-properties-wont-apply-globally",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam classAttributeFontSize  8
+skinparam classAttributeFontSize<<Foo>>  18
+
+class dummy {
+example1
+}
+
+class foo<<Foo>> {
+example2
+}
+
+@enduml

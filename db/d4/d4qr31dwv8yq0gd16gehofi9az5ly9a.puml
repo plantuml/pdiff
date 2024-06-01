@@ -1,0 +1,12 @@
+{
+  "sha1": "d4qr31dwv8yq0gd16gehofi9az5ly9a",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.496Z",
+    "url": "https://forum.plantuml.net/11380/backgroundcolor-transparent-doesnt-element-alone-element",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam BackgroundColor transparent
+"Only one actor --><u:red>Transparent: KO"
+@enduml

@@ -1,0 +1,15 @@
+{
+  "sha1": "d1ll1kpo8r9kkibgzbjowybwcefomog",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.401Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1448",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startfiles
+/.github
+/src/example.py
+/tests/example_test.py
+/README.md
+/LICENSE
+@endfiles

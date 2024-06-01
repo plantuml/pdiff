@@ -1,0 +1,14 @@
+{
+  "sha1": "g299asuyewkjon40abh1uih8mpkz6as",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.047Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+note over IT, FKM
+20 The system displays one screen in user language with table of parameters.
+The table has got 4 columns: Action button Update, name of parameter and value. 
+end note
+IT ->FKM :  modify price list for D2 data with correct value.
+@enduml

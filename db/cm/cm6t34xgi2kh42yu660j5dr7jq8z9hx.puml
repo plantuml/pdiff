@@ -1,0 +1,13 @@
+{
+  "sha1": "cm6t34xgi2kh42yu660j5dr7jq8z9hx",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.710Z",
+    "url": "https://forum.plantuml.net/16796/how-to-set-individual-state-diagram-end-state-colors",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state end1 <<end>> #Red
+state end2 <<end>> #Green
+
+@enduml

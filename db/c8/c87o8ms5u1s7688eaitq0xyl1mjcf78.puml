@@ -1,0 +1,30 @@
+{
+  "sha1": "c87o8ms5u1s7688eaitq0xyl1mjcf78",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.043Z",
+    "url": "https://forum.plantuml.net/16056/the-mindmaps-root-node-could-never-be-centered-now?show=16070#c16070",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+rootNode {
+    FontName 黑体
+    FontStyle bold
+    FontSize 18
+    LineStyle 8.0-3.0
+    LineColor red
+    BackgroundColor orange
+    LineThickness 1.0
+    RoundCorner 0
+    Shadowing 0.5
+    HorizontalAlignment Center
+}
+</style>
+* root node
+** some first level node
+*** second level node
+*** another second level node
+** another first level node
+* another root node
+@endmindmap

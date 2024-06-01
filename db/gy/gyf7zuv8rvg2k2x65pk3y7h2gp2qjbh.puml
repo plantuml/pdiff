@@ -1,0 +1,14 @@
+{
+  "sha1": "gyf7zuv8rvg2k2x65pk3y7h2gp2qjbh",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.529Z",
+    "url": "http://forum.plantuml.net/9405/stereotype-note-over-multiple-participants-is-crashing",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam NoteFontColor<<red>> red
+participant A
+participant B
+note<<red>> over A, B : test
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "ce68ntfoexeadp1ztlw9qfiwm0f6inh",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.339Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+participant A
+participant B
+participant C
+
+note over A: "State: Initial"
+/ note over B: "State: Initial"
+/ note over C: "State: Initial"
+
+A -> B: Send Message
+& C -> B: Another Simultaneous Message
+@enduml

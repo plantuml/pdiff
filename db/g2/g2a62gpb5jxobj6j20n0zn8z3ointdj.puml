@@ -1,0 +1,38 @@
+{
+  "sha1": "g2a62gpb5jxobj6j20n0zn8z3ointdj",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.057Z",
+    "url": "https://forum.plantuml.net/11729/new-css-styling-is-not-recognized-in-class-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title title
+legend legend
+footer footer
+header header
+caption caption
+<style>
+    document {
+       BackGroundColor orange
+    }
+    title {
+       BackGroundColor yellow
+    }
+    legend {
+       BackGroundColor green
+    }
+    footer {
+       BackGroundColor blue
+       FontColor red
+       FontSize 15
+    }
+    header {
+       BackGroundColor red
+    }
+    caption {
+       BackGroundColor purple
+    }
+</style>
+Sally --> Bob
+@enduml

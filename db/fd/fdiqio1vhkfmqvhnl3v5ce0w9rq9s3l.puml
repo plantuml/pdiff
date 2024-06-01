@@ -1,0 +1,14 @@
+{
+  "sha1": "fdiqio1vhkfmqvhnl3v5ce0w9rq9s3l",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.964Z",
+    "url": "https://forum.plantuml.net/16937/internal-server-error-if-1-1",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[A]
+!if -1 == -1
+[Bob] -> [Alice]
+!endif
+@enduml

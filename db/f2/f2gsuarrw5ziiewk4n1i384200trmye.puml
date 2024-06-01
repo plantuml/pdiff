@@ -1,0 +1,64 @@
+{
+  "sha1": "f2gsuarrw5ziiewk4n1i384200trmye",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.447Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:Start;
+:Donec sed ex tempus;
+
+:Efficitur nibh vel, tempus magna
+Integer cursus erat nulla;
+
+:eget laoreet massa;
+
+repeat
+
+    :Aliquam placerat metu;
+    if (Duis nec porta velit) then (yes)
+        :Mauris id convallis quam;
+    elseif (Aliquam efficitur risus id nulla) then (yes)
+        :Aliquam a imperdiet erat,
+        Nullam ullamcorper dui augue;
+        :vel viverra odio varius;
+        :Donec et tellus eu risus
+        vestibulum varius;
+    elseif (Aenean condimentum) then (yes)
+        :Nunc vitae efficitur dignissim;
+        if (Id condimentum metus mauris) then (yes)
+            if (Etiam tempor congue turpis) then (yes)
+                :Placerat fermentum ex tempus;
+            else (no)
+                :Nullam eu metus risus;
+            endif
+        else (no)
+        endif
+    else
+        :Nulla facilisi;
+    endif
+    
+    if (Lorem ipsum dolor sit amet, consectetur adipiscing elit) then (yes)
+        if (Cras turpis leo) then (yes)
+            :Dapibus tincidunt justo;
+            :Phasellus vitae velit lacus;
+            :Maecenas pellentesque bibendum;
+        else (no)
+        endif
+    else (no)
+        :Mauris metus augue;
+        if (Convallis at molestie eu) then (yes)
+            :Lectus diam vestibulum;
+        else (no)
+            :In vulputate nunc lacus;
+        endif
+    endif
+    
+
+repeat while (Proin nec luctus lacus)
+    
+stop
+
+
+@enduml

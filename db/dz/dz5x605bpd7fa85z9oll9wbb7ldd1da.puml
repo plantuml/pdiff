@@ -1,0 +1,21 @@
+{
+  "sha1": "dz5x605bpd7fa85z9oll9wbb7ldd1da",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.644Z",
+    "url": "https://forum.plantuml.net/10679/feature-gantt-progress",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+<style>
+ganttDiagram {
+  document {
+    BackGroundColor gold
+  }
+}
+</style>
+[foo] lasts 21 days
+[foo] is 40% completed
+[bar] lasts 30 days and is 10% complete
+[bar2] lasts 15 days and is 0% complete
+@endgantt

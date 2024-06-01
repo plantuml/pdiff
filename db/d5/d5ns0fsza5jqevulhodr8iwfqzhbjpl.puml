@@ -1,0 +1,27 @@
+{
+  "sha1": "d5ns0fsza5jqevulhodr8iwfqzhbjpl",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.532Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+
+!definelong CONTROLLER(NAME)
+    NAME##Controller -up---|> App.Http.Controllers.Controller : extends
+    NAME##Controller : +NAME
+    NAME##Controller : +__construct( NAME##RepositoryInterface )
+    NAME##Controller : +index()
+    NAME##Controller : +create()
+    NAME##Controller : +store()
+    NAME##Controller : +show()
+    NAME##Controller : +edit()
+    NAME##Controller : +update()
+    NAME##Controller : +destroy()
+!enddefinelong
+!define ENTITY_NAME Order
+
+CONTROLLER(ENTITY_NAME)
+
+@enduml

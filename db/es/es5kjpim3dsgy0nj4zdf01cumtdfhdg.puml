@@ -1,0 +1,123 @@
+{
+  "sha1": "es5kjpim3dsgy0nj4zdf01cumtdfhdg",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.025Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+package Order {
+class Order
+}
+
+package Customer {
+    Customer --{ CustomerRegionWarehouse
+    CustomerRegionWarehouse }-- WarehouseInventory
+    CustomerRegionWarehouse --> ItemWarehousePriority
+    ItemWarehousePriority }-- Inventory
+    Customer --{ MultiWarehouseOptions
+    Customer --{ Order
+    Customer --{ User
+}
+
+package Mall {
+Inventory --{ MallInventoryReflectionQueue
+    Mall --{ Customer
+    Mall --{ MallInventoryReflectionQueue
+}
+
+package WarehouseItems {
+    Shipment }-- Warehouse
+    Item --{ ShipmentItem
+    Item --{ Inventory
+    Inventory }-- WarehouseInventory
+    ShipmentItem }-- Warehouse
+}
+
+ 
+
+package Order {
+    Order *-- Shipment
+    Shipment .. ShipmentStatus
+    Shipment *-- ShipmentItem
+}
+
+class ShipmentStatus <<enum>> {
+    {field} Waiting Allocation
+    {field} Waiting Backorder
+    {field} Fulfilled (?)
+}
+
+ 
+
+class Order {
+    {field} Buyer
+    {field} Payment
+    {field} TotalPrice
+    {field} Mall
+
+}
+
+class Shipment {
+    {field} Consignee
+    {field} Date
+    {field} DeliveryNo
+    {field} DeliveryMethod
+    {field} TotalPrice
+    {field} Status : ShipmentStatus
+}
+
+
+class ShipmentItem {
+    {field} Product
+    {field} Quantity
+    {field} Unit Price
+}
+
+ 
+
+class Warehouse {
+    {field} Location
+}
+
+ 
+
+class Item {
+    {field} Size
+    {field} Color
+    {field} Weight
+
+}
+
+note bottom: Attributes belong to other tables \nJust shown here for simplicity
+
+class Inventory {
+}
+
+note right: Information about item stock management 
+
+class WarehouseInventory {
+    {field} Quantity
+}
+
+class CustomerRegionWarehouse {
+    {field} Priority
+}
+
+class ItemWarehousePriority {
+    {field} Priority
+}
+
+class MultiWarehouseOptions {
+    {field} Options
+}
+
+class Customer {
+    {field} Mall
+}
+
+class MallInventoryReflectionQueue {
+    {field} Quantity
+}
+@enduml

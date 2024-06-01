@@ -1,0 +1,14 @@
+{
+  "sha1": "cqmflwhupima1u0ou6cain92a69xs7w",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.912Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundcolor transparent
+A <|-- B
+A <|-- C
+
+B <|-- D
+@enduml

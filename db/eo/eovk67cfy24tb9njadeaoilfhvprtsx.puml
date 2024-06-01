@@ -1,0 +1,26 @@
+{
+  "sha1": "eovk67cfy24tb9njadeaoilfhvprtsx",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.854Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Lampiris|
+start
+#01DF01:initiate switch() ;
+#01DF01:VerifierRecevabiliteCHF();
+|Web Service|
+if (PCE connu) then (non)
+|Lampiris|
+:statut 022;
+stop
+else (oui)
+|Web Service|
+endif
+if (Validee) then (non)
+:statut 023;
+|Lampiris|
+stop
+endif 
+@enduml

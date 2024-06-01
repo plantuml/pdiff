@@ -1,0 +1,20 @@
+{
+  "sha1": "g1z7wbc3p47kf42argtfh136ii7q61z",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.025Z",
+    "url": "https://github.com/plantuml/plantuml/issues/124",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package "One" {
+  entity foo {
+  }
+}
+newpage
+package "Two" {
+  entity bar {
+  }
+}
+bar ||--|| foo
+@enduml

@@ -1,0 +1,34 @@
+{
+  "sha1": "gyv0cje2nvba9u9p8i1ho60ar43uneq",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.568Z",
+    "url": "https://forum.plantuml.net/16284/how-to-left-align-when-the-aws-lib-is-also-used",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <awslib/AWSCommon>
+!include <awslib/General/User>
+
+<style>
+
+file {
+   HorizontalAlignment left
+   FontColor blue
+}
+</style>
+
+User(user, "Trusted user", "")
+
+file policy <<policy>> [
+{
+\t"Action": [
+\t\t"sts:AssumeRole"
+\t],
+\t"Effect": "Allow",
+\t"Resource": <b>"arn:aws:iam::1:role/role"</b>
+}
+]
+
+user -- policy
+@enduml

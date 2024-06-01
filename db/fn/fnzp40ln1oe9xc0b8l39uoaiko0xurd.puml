@@ -1,0 +1,15 @@
+{
+  "sha1": "fnzp40ln1oe9xc0b8l39uoaiko0xurd",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.434Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package package2{
+class Class2
+}
+package package1{
+Class1 "Document" -- Class2 
+}
+@enduml

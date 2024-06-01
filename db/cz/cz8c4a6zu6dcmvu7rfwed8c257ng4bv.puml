@@ -1,0 +1,27 @@
+{
+  "sha1": "cz8c4a6zu6dcmvu7rfwed8c257ng4bv",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.294Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+!unquoted procedure Z($code)
+%invoke_procedure($code)
+!endprocedure
+
+!procedure myXtraCode()
+a->b:hello
+activate b
+b->a:hello too
+deactivate b
+note right
+test
+end note
+!endprocedure
+ 
+Z(myXtraCode)
+
+@enduml

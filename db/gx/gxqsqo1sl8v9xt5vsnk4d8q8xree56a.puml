@@ -1,0 +1,20 @@
+{
+  "sha1": "gxqsqo1sl8v9xt5vsnk4d8q8xree56a",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.499Z",
+    "url": "https://forum.plantuml.net/11682/beta-style-cropped-output-images-when-style-functionality",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+document {
+  BackgroundColor palegreen
+  'Margin 10
+}
+</style>
+rectangle r
+node n
+file f
+[c]
+@enduml

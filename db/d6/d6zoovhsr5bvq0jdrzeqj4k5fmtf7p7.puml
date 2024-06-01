@@ -1,0 +1,22 @@
+{
+  "sha1": "d6zoovhsr5bvq0jdrzeqj4k5fmtf7p7",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.615Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwire
+
+* DDR3 [200x100]
+move(0,200)
+* SLC_NAND [200x100]
+
+DDR3 --> SLC_NAND
+DDR3 <--> SLC_NAND
+DDR3 <-- SLC_NAND
+DDR3 -- SLC_NAND
+DDR3 ==> SLC_NAND
+DDR3 <==> SLC_NAND
+DDR3 <== SLC_NAND
+DDR3 == SLC_NAND
+@endwire

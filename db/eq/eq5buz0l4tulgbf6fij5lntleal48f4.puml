@@ -1,0 +1,15 @@
+{
+  "sha1": "eq5buz0l4tulgbf6fij5lntleal48f4",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.904Z",
+    "url": "https://forum.plantuml.net/12823/accept-hexagon-content-without-overflow-deployment-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+rectangle r1 {
+ hexagon #pink "VeryLOOOOOOOOOOOOOOOOOOOg\nVeryLOOOOOOOOOOOOOOOOOOOg\nVeryLOOOOOOOOOOOOOOOOOOOg\nVeryLOOOOOOOOOOOOOOOOOOOg\nVeryLOOOOOOOOOOOOOOOOOOOg"
+}
+
+@enduml

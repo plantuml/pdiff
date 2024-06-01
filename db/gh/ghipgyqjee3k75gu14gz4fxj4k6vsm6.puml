@@ -1,0 +1,28 @@
+{
+  "sha1": "ghipgyqjee3k75gu14gz4fxj4k6vsm6",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.775Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1422",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+.test {
+  LineColor blue
+  BackgroundColor lightCyan
+  LineThickness 1.0
+  ArrowThickness 0.5
+  FontName Arial Narrow
+  FontColor green
+  FontSize 11
+  FontStyle bold
+}
+</style>
+* a 
+** b
+** <<test9>>:b(Not yet ;-));
+**: c
+(OK); <<test>>
+** d (OK) <<test>>
+@endmindmap

@@ -1,0 +1,33 @@
+{
+  "sha1": "dni7g8y9s7dq8vndh5s9woauex5n4ua",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.215Z",
+    "url": "http://forum.plantuml.net/7827/devicons-and-font-awesome-library-in-%40salt",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+skinparam BoxPadding 40
+
+box "group 1" #lightblue
+    Participant P1
+    Participant P2
+end box
+' I would like to insert an horizontal minimu space constraint here
+box "group 2" #lightgreen
+    Participant P3
+    Participant P4
+end box
+
+loop forever
+    P1 -> P2
+    P2 --> P1
+end
+
+& loop forever
+    P3 -> P4
+    P4 --> P3
+end
+
+@enduml

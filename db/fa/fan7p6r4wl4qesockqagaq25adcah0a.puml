@@ -1,0 +1,23 @@
+{
+  "sha1": "fan7p6r4wl4qesockqagaq25adcah0a",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.855Z",
+    "url": "https://github.com/plantuml/plantuml/issues/338",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam component {
+  BackgroundColor<<Apache>> Red
+  BackgroundColor Green
+}
+
+() "Data Access" as DA
+
+component "Web Server" << Apache >>
+
+DA - [First Component]
+[First Component] ..> () HTTP : use
+HTTP - [Web Server] 
+@enduml

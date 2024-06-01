@@ -1,0 +1,11 @@
+{
+  "sha1": "grbbqftuodjz3de6ha1zdjo1ob9y3r2",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.218Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+java.lang.Object <|-- classic.collections.ArrayList
+classic.collections.ArrayList <|-- net.sourceforge.plantuml.ArrayList
+@enduml

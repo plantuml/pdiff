@@ -1,0 +1,13 @@
+{
+  "sha1": "ff3koj9aew6bbx9c7t6mhvfmplxbq9z",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.043Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam stateBackgroundColor<<Foo>> red
+skinparam stateFontColor<<Foo>> yellow
+skinparam stateFontSize<<Foo>> 30
+state state1 <<Foo>>
+@enduml

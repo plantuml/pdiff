@@ -1,0 +1,13 @@
+{
+  "sha1": "cb2e7abvh2gkocbb4q0stfhgrq8yx8r",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.177Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+[Prototype design] starts D+0
+[Test prototype] starts D+15
+[Prototype design] ends D+14
+[Test prototype] ends D+24
+@endgantt

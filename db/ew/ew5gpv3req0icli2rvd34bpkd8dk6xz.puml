@@ -1,0 +1,12 @@
+{
+  "sha1": "ew5gpv3req0icli2rvd34bpkd8dk6xz",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.201Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+partition accentué
+(*) --> "mon activité" as azé
+azé --> (*)
+@enduml

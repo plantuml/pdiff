@@ -1,0 +1,17 @@
+{
+  "sha1": "fvr2tg6exhwbvw7si0z0yip8cmc85aa",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.800Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set namespaceSeparator ::
+
+namespace A::B::C #yellow\gold {
+ class foo2
+}
+
+class X::Y::class1
+
+@enduml

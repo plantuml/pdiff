@@ -1,0 +1,17 @@
+{
+  "sha1": "g6wsanhd8av3kwzozqim2i54fzztlbb",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.289Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1467",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+class HashMap<K,V>
+    HashMap [a1] <|-u-> [e] V1
+    HashMap [b2] *.r.> [f] V2
+    HashMap [c3] o.d.> [g] V3
+    HashMap [d4] +-l-> [h] V4
+
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "d41vdk6nmb23dq1kh3lhr69n6o8c1od",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.481Z",
+    "url": "https://forum.plantuml.net/15609/crash-when-note-on-object-member",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+object Obj {
+  Id = "1"
+  Name = "test"
+}
+
+note right of Obj::Name
+  Name of object
+end note
+@enduml

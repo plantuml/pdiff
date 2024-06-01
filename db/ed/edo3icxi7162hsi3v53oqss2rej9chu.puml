@@ -1,0 +1,21 @@
+{
+  "sha1": "edo3icxi7162hsi3v53oqss2rej9chu",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.278Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+
+<style>
+node {
+    HorizontalAlignment right
+    MinimumWidth 300
+}
+</style>
+* Hi
+** some
+** short but nice
+** ideas
+
+@endmindmap

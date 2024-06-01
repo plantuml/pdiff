@@ -1,0 +1,12 @@
+{
+  "sha1": "fjdthhemq1us3jgu34m1ozy092tgwfx",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.259Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skinparam svek true
+(*) ..> "Activity 1"
+..> "ac2"
+@enduml

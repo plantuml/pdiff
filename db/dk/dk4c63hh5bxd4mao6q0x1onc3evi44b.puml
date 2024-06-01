@@ -1,0 +1,18 @@
+{
+  "sha1": "dk4c63hh5bxd4mao6q0x1onc3evi44b",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.109Z",
+    "url": "https://forum.plantuml.net/16886/deployment-diagram-shall-support-coloring-orientation-order",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+node foo
+title Bracketed line style without label
+foo --> bar
+foo -left[bold]-> bar1
+foo -[dashed]-> bar2
+foo -[dotted]-> bar3
+foo -[hidden]-> bar4
+foo -[plain]-> bar5
+@enduml

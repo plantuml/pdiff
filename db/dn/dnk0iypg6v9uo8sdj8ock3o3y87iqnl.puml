@@ -1,0 +1,17 @@
+{
+  "sha1": "dnk0iypg6v9uo8sdj8ock3o3y87iqnl",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.230Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator null
+state AbstractState {
+ InnerState2 --> InnerState1
+  AbstractState --> InnerState1 : all
+}
+
+
+
+@enduml

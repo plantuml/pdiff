@@ -1,0 +1,11 @@
+{
+  "sha1": "gx14blryr35xk0rvvfzpty0pryy079l",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.469Z",
+    "url": "http://www.redblobgames.com/grids/hexagons/",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+colors Chocolate
+@enduml

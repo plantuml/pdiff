@@ -1,0 +1,52 @@
+{
+  "sha1": "efwlr3ep7u27q3qk85i9pactkx5rc9i",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.373Z",
+    "url": "http://forum.plantuml.net/8750/footer-text-on-sequence-diagrams-appears-over-sequences",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title An example
+
+'a brief description of the diagram'
+legend top
+An example
+end legend
+
+Alice->Bob: Some text about a message
+activate Bob
+Caroline->Bob: Some text about a message
+activate Caroline
+
+note right of Caroline
+**Note:**
+Some text
+end note
+Caroline->David: Some text about a message
+activate David
+note right of David
+**Note:**
+Some text
+end note
+David->David: Some text about a message
+David-->Caroline: Some text about a message
+deactivate David
+
+note right of Caroline
+**Note:**
+Some notes
+end note
+
+group #transparent if customer not in offboarding process
+  Caroline->David: Some text about a message Some text about a messageSome text about a messageSome text about a messageSome text about a messageSome text about a message
+  activate David
+  David->David: Some text about a message
+  deactivate David
+end group
+
+Caroline->Bob: Some text about a message
+deactivate Bob
+
+center footer Confidential\n%date[HH:MM '-' dd.MM.yyyy]%\n%filename%
+@enduml

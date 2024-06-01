@@ -1,0 +1,14 @@
+{
+  "sha1": "fs45v1ep1ejq5ti0squolthdwtsymwr",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.577Z",
+    "url": "https://github.com/plantuml/plantuml/issues/267",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam preserveAspectRatio xMinYMid slice
+start
+:foo1;
+stop
+@enduml

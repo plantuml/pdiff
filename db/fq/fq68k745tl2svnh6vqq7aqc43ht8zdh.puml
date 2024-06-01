@@ -1,0 +1,18 @@
+{
+  "sha1": "fq68k745tl2svnh6vqq7aqc43ht8zdh",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.497Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequenceDivider {
+    BorderColor red
+    BorderThickness 3.0
+    BackgroundColor #f3e8d8
+    FontColor blue
+}
+Alice -> Bob
+== foo ==
+Alice -> Bob
+@enduml

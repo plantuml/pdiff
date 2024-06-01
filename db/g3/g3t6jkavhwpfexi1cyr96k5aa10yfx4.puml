@@ -1,0 +1,15 @@
+{
+  "sha1": "g3t6jkavhwpfexi1cyr96k5aa10yfx4",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.135Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+digraph unix {
+cl1 ;cl3 ;cl6 ;
+cl1 -> cl3;
+cl1 -> cl6;
+cl6 -> cl3;
+}
+@enduml

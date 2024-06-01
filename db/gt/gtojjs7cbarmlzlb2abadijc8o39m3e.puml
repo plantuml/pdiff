@@ -1,0 +1,11 @@
+{
+  "sha1": "gtojjs7cbarmlzlb2abadijc8o39m3e",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.334Z",
+    "url": "http://forum.plantuml.net/7708/formatting-options-inside-%40startmath-%40endmath",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmath
+color(red)(f(t))=color(blue)((a_0)/2 + sum_(n=1)^ooa_ncos((npit)/L)+sum_(n=1)^oo b_n\ sin((npit)/L))
+@endmath

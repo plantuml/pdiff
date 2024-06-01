@@ -1,0 +1,15 @@
+{
+  "sha1": "c3vkjb14cgen4jkr5z0tjwk8okv0284",
+  "insertion": {
+    "when": "2024-06-01T09:03:00.859Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> Active
+state Active begin
+  Stopped -> Running : ev1
+  Running -> Stopped : ev2
+end state
+
+@enduml

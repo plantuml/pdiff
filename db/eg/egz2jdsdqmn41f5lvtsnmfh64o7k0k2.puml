@@ -1,0 +1,25 @@
+{
+  "sha1": "egz2jdsdqmn41f5lvtsnmfh64o7k0k2",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.421Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1316",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+c -> c: First Page: One
+c -> tc: First Page: Two
+tc -> is: First Page: Three
+is -> tc: First Page: Four
+tc -> sc: First Page: Five
+newpage
+
+c -> c ++: Second Page: One
+c -> tc: Second Page: Two
+tc -> is: Second Page: Three
+is -> tc: Second Page: Four
+tc -> sc: Second Page: Five
+c -> c --: deactivaton
+
+@enduml

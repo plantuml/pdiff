@@ -1,0 +1,13 @@
+{
+  "sha1": "cbydl7mpfrubc96bnmszhzbcyn4o8bt",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.202Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts the 2023/12/04.
+sunday are closed.
+[T1] requires 5 days.
+
+@endgantt

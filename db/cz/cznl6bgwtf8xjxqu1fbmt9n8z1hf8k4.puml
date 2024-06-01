@@ -1,0 +1,23 @@
+{
+  "sha1": "cznl6bgwtf8xjxqu1fbmt9n8z1hf8k4",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.310Z",
+    "url": "https://forum.plantuml.net/16579/plantuml-inner-group-exceeded-the-outer-group",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+hide footbox
+hide unlinked
+
+i2c -> app ++ : I2C request completed
+app -> i2c : getI2CStatus(&result)
+
+alt result == OK
+  ref over app, app : I2CJobEndProcessing()
+else
+  ref over app, app  : SecondaryErrorHandling(CommunicationError)
+end
+
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "cwrd0ko501lmr90g6yzxd41fseh4f6d",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.172Z",
+    "url": "https://forum.plantuml.net/12210/arrow-description-for-repeat-loop",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+->dsc_1;
+repeat :foo;
+ ->dsc_2;
+ :Submit;
+ ->dsc_3;
+repeat while (Valid?) is (No) not (Yes) -> back to foo
+->dsc_4;
+stop
+@enduml

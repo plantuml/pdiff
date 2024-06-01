@@ -1,0 +1,32 @@
+{
+  "sha1": "cqgo139zslcpjbiggxiu1jwu7stne2m",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.904Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+'start
+
+:Szabalysertesi hatosag;
+
+if (Dontes) then
+:Meghallgatas nelkuli Arecibo;
+if (Meghallgatast ker?) then (igen)
+:???;
+else (nem)
+:Jogerosse valik;
+:SZNYR-ben rogzul;
+:stop;
+else
+:Bizonyitasi eljaras;
+endif
+if (Lezaro hatarozat) then
+:Elmarasztalas\n"erdemi hatarozat";
+else 
+:Megszuntetes;
+endif
+stop
+
+@enduml

@@ -1,0 +1,28 @@
+{
+  "sha1": "cpu69n2tdxod464c9buvj3dr2f0uvzt",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.852Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+</style>
+
+class classe1 {
+  -field1
+  ~field2
+   field3
+  #field4
+  +field5
+  *IE_MANDATORY
+
+  -method1()
+  ~method2()
+   method3()
+  #method4()
+  +method5()
+  *IE_MANDATORY()
+}
+
+@enduml

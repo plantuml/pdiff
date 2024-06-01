@@ -1,0 +1,21 @@
+{
+  "sha1": "gp4vca613mdc0knifnhzfmrso6kaa10",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.131Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autonumber
+hide footbox
+
+Bob -> Alice : hello1\nthis\nmessage
+Bob -> Alice : hello2
+autonumber 48
+Bob -> Bob : hello3 **in bold**
+Bob -> Alice : hello4
+autonumber 120 10
+Bob -> Alice : hello5
+Bob -> Alice : hello6
+
+@enduml

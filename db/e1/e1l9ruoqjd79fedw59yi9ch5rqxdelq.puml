@@ -1,0 +1,17 @@
+{
+  "sha1": "e1l9ruoqjd79fedw59yi9ch5rqxdelq",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.745Z",
+    "url": "https://forum.plantuml.net/15232/declare-participants-similar-to-components?show=16269#c16269",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant MyParticipant order 20 [
+    =MyTitle
+    ----
+    ""MySubTitle""
+]
+participant Bob order 10
+
+@enduml

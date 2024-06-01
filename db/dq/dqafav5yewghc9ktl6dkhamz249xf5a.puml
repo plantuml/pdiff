@@ -1,0 +1,24 @@
+{
+  "sha1": "dqafav5yewghc9ktl6dkhamz249xf5a",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.334Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=6282/timing-diagram-bugs",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title test title
+legend
+test
+end legend
+
+
+robust "Power switch" as PowerSwitch
+robust "Power" as Power
+PowerSwitch is Off
+Power is Off
+@0
+PowerSwitch is On
+@+1
+Power is On
+@enduml

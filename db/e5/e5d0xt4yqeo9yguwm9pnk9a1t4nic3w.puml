@@ -1,0 +1,20 @@
+{
+  "sha1": "e5d0xt4yqeo9yguwm9pnk9a1t4nic3w",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.016Z",
+    "url": "https://github.com/plantuml/plantuml/issues/164",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+
+skinparam class {
+  BackgroundColor LightBlue
+}
+
+class Collection1
+enum Collection2
+
+
+@enduml

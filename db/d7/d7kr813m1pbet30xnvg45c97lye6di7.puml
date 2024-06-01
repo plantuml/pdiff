@@ -1,0 +1,22 @@
+{
+  "sha1": "d7kr813m1pbet30xnvg45c97lye6di7",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.642Z",
+    "url": "https://forum.plantuml.net/12396/user-defined-style-targets-in-activity-diagram-beta",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+    sequenceDiagram {
+      actor {
+        BackgroundColor Blue
+      }
+     .myStyle {
+        BackgroundColor Red
+     }
+}
+</style>
+actor Bob
+actor Sally <<myStyle>>
+@enduml

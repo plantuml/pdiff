@@ -1,0 +1,16 @@
+{
+  "sha1": "db2k0yw7exvy5non1oji4byepbo62at",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.754Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1309#issuecomment-1459021728",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator .
+rectangle "hello" as a.hello
+
+rectangle "world" as a.world
+
+a.hello -> a.world
+@enduml

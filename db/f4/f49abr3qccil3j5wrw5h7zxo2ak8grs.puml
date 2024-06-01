@@ -1,0 +1,21 @@
+{
+  "sha1": "f49abr3qccil3j5wrw5h7zxo2ak8grs",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.504Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|swimlane1 aaaaaaaaaaaaaa|
+:first;
+:second;
+|swimlane2 aaaaaaaaaaaaaa|
+:third;
+if (foo) then
+:something;
+endif
+|swimlane1 aaaaaaaaaaaaaa|
+:back to swinline1;
+|swimlane2 aaaaaaaaaaaaaa|
+:back to swinline2;
+@enduml

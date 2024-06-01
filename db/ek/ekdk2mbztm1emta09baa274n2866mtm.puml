@@ -1,0 +1,63 @@
+{
+  "sha1": "ekdk2mbztm1emta09baa274n2866mtm",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.584Z",
+    "url": "https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+{
+   "Identifier":"2AAAA_SSSSSSS",
+   "Table":[
+      {
+         "Identifier":"34AAAA_rrrrrrrrrrrrr",
+         "Name":"AAAA rrrrrrrrrrrrrrrrrr",
+         "Kind":"hhhhhhhhhhhhhhhhhh",
+         "Variable":[
+            {
+               "IsReserve1":false
+            },
+            {
+               "IsReserve":false
+            },
+            {
+               "BitPosition":1,
+               "Isaaaaa":false,
+               "Isaaaaabbbbb":true,
+               "IsReserve":false
+            }
+         ]
+      },
+      {
+         "Identifier":"32AAAA_rrrrrrrrrrrrr",
+         "Name":"AAAA rrrrrrrrrrrrrrrrrr",
+         "Variable":[
+            {
+               "BAAAAAAAAA":"-",
+               "Identifier":"BBBBpppppppppppn",
+               "Name":"BBBBpppppppppppp",
+               "Type":"Boolean",
+               "Unit":"None",
+               "Toaaaaaaa":true,
+               "IsReserve":false
+            },
+            {
+               "IsResessrve10":false
+            },
+            {
+               "IsResserve11":false
+            }
+         ]
+      },
+      {
+         "Identifier":"AAAA_oooooooooooooo",
+         "Variable":[
+            {
+               "IsReservse12":false
+            }
+         ]
+      }
+   ]
+}
+@endjson

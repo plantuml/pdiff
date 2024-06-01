@@ -1,0 +1,25 @@
+{
+  "sha1": "gl934a9dp2bnqerjsh5vhowpn3851pd",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.960Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1423",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!theme cerulean
+<style>
+.continuous {
+  FontColor red
+}
+.input {
+  FontColor blue
+}
+</style>
+<<continuous>>:action1; 
+:action2; <<continuous>>
+:action3}
+<<input>>:foo1;
+:foo2; <<input>>
+:foo3<
+@enduml

@@ -1,0 +1,37 @@
+{
+  "sha1": "gc97lwzk4ru7urki4andlipsaes7d92",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.600Z",
+    "url": "https://forum.plantuml.net/15354/activity-strange-glitch-repeat-loop",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|L1|
+start
+:a1;
+    if (c1) then (Yes)
+        :a2;
+        end
+    else (No)
+        repeat
+        |L2|
+        :a3;
+            if (c2) then (Yes)
+                :a4;
+                end
+            else (No)
+                |L3|
+                if (c3) then (Yes)
+                    :a5;
+                else (No)
+                    :a6;
+                endif
+                |L2|
+                :a7;
+            endif
+            |L1|
+        repeatwhile (r1)
+        kill
+    endif
+@enduml

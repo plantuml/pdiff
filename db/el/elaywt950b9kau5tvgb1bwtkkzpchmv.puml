@@ -1,0 +1,18 @@
+{
+  "sha1": "elaywt950b9kau5tvgb1bwtkkzpchmv",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.624Z",
+    "url": "https://forum.plantuml.net/14516/skinparam-shadowing-in-nwdiag",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+  network dc {
+    server;
+    internet;
+  }
+  internet [shape = cloud];
+}
+
+@enduml

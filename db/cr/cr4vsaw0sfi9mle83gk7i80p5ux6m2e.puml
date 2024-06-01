@@ -1,0 +1,32 @@
+{
+  "sha1": "cr4vsaw0sfi9mle83gk7i80p5ux6m2e",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.930Z",
+    "url": "https://forum.plantuml.net/14423/sequence-improve-background-color-group-with-roundcorner",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 1.5
+hide footbox
+<style>
+sequenceDiagram {
+    RoundCorner 30
+}
+</style>
+
+alt #00ff0080 successful case
+    Bob -> Alice: Authentication Accepted
+else Another type of failure
+   Bob -> Alice: Please repeat
+else #ff000080 Another type of failure
+   Bob -> Alice: Please repeat
+else #0000ff80 Another type of failure
+   Bob -> Alice: Please repeat
+else Another type of failure
+   Bob -> Alice: Please repeat
+else #0000ff80 Another type of failure
+   Bob -> Alice: Please repeat
+end
+
+@enduml

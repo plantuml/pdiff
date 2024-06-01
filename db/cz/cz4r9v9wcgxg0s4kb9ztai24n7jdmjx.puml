@@ -1,0 +1,18 @@
+{
+  "sha1": "cz4r9v9wcgxg0s4kb9ztai24n7jdmjx",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.277Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+"test1    "
+"X      "
+"1      "
+[OK   ]
+[Cancel ]
+^Drop list 1 ^
+^D2     ^
+}
+@endsalt

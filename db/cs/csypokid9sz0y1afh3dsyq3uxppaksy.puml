@@ -1,0 +1,15 @@
+{
+  "sha1": "csypokid9sz0y1afh3dsyq3uxppaksy",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.029Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A {
+ PK ID Integer
+ FK OSM_ID BigInteger
+ PP OtherID Integer
+}
+A::ID -- B
+@enduml

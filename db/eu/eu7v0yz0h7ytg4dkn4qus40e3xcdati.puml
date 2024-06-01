@@ -1,0 +1,14 @@
+{
+  "sha1": "eu7v0yz0h7ytg4dkn4qus40e3xcdati",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.093Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcute
+group body {
+cheese color=lightBlue  radius=100,20 start=5,20 end=90,50 position=70,100
+}
+rectangle color=black dimension=2,2
+body position=10,10 rotation=20
+@endcute

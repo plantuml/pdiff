@@ -1,0 +1,11 @@
+{
+  "sha1": "gla8c5cezlhq5qkbsaduu75vu9lyqj3",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.966Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide footbox
+:foo:
+@enduml

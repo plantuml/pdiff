@@ -1,0 +1,27 @@
+{
+  "sha1": "caixv2yan9tjwx4fzweqgq2e63ozllg",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.144Z",
+    "url": "https://photos.app.goo.gl/FfSh5nystMQYh26V9",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+node {
+  stereotype {
+    FontSize 20
+    
+    .bar {
+    	FontSize 10
+    }
+  }
+}
+</style>
+
+node nodefoo <<foo>>
+node nodebar <<bar>>
+
+
+@enduml

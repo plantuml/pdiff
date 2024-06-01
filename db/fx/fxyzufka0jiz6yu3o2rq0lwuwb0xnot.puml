@@ -1,0 +1,20 @@
+{
+  "sha1": "fxyzufka0jiz6yu3o2rq0lwuwb0xnot",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.850Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequenceDividerBackgroundColor #white-lightgrey
+skinparam sequenceLifeLineBackgroundColor #white-lightgrey
+skinparam sequenceDividerBorderColor #white|green
+skinparam sequenceLifeLineBorderColor #white|green
+
+Alice -> Bob
+== foo ==
+Alice -> Bob
+activate Alice
+Alice -> Bob
+
+@enduml

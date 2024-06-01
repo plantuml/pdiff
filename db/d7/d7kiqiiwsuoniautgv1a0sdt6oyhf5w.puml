@@ -1,0 +1,21 @@
+{
+  "sha1": "d7kiqiiwsuoniautgv1a0sdt6oyhf5w",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.630Z",
+    "url": "http://forum.plantuml.net/8619/detach-in-split-drawing-wrong-lines",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+split
+    :a1;
+    detach
+split again
+    :a2;
+    detach
+split again
+    :a3;
+end split
+end
+@enduml

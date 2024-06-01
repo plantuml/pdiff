@@ -1,0 +1,18 @@
+{
+  "sha1": "c2oyiyslxv795jewdd21t4z4wuy1er0",
+  "insertion": {
+    "when": "2024-06-01T09:03:00.800Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* root
+	* Lorem ipsum dolor sit amet
+		* Lorem ipsum dolor sit amet
+		* Lorem ipsum dolor sit amet
+		* Lorem ipsum dolor sit amet
+		* Lorem ipsum dolor sit amet
+	* Lorem ipsu dolor sit amet
+		* ---
+			* ---
+@endmindmap

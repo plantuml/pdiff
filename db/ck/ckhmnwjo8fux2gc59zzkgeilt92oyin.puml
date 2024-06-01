@@ -1,0 +1,48 @@
+{
+  "sha1": "ckhmnwjo8fux2gc59zzkgeilt92oyin",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.607Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[-> SbcMXdCtrl: startThread
+
+SbcMXdCtrl->SbcMXdCtrl: struct timespec initialTimeout={1,0}
+loop while(true)
+alt if mEnabled==false
+SbcMXdCtrl->SbcModCtrlFsm: mFsm.processDisable()
+SbcMXdCtrl->SbcModCtrlMsgReader: mMsgReader.disableConnection()
+[<-- SbcMXdCtrl: break
+end
+
+SbcMXdCtrl->SbcModCtrlMsgReader: receive(const struct timespec& initialTimeout, struct timespec& remainingTimeout)
+activate SbcModCtrlMsgReader
+note over SbcMXdCtrl
+The receive calls
+gets blocked until
+we receive an apparently
+valid SbcModCtrlMsg, or
+the timeout expires
+end note
+
+SbcModCtrlMsgReader --> SbcMXdCtrl: return
+deactivate SbcModCtrlMsgReader
+
+alt if timeout
+SbcMXdCtrl->SbcModCtrlFsm: mFsm.processTimeout()
+SbcMXdCtrl->SbcMXdCtrl: initialTimeout={1,0}
+SbcMXdCtrl->SbcMXdCtrl: continue
+else Message received
+end
+SbcMXdCtrl->SbcModCtrlMsgReader: sbcModCtrlMsg=getReceivedMessage()
+activate SbcModCtrlMsgReader
+SbcModCtrlMsgReader -->SbcMXdCtrl : return sbcModCtrlMsg
+deactivate SbcModCtrlMsgReader
+
+SbcMXdCtrl->SbcMXdCtrl: validateMessage()
+alt if Message 
+
+
+end
+@enduml

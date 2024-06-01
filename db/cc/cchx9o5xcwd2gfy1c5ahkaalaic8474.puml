@@ -1,0 +1,13 @@
+{
+  "sha1": "cchx9o5xcwd2gfy1c5ahkaalaic8474",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.243Z",
+    "url": "http://forum.plantuml.net/6702/add-to-%26-in-latex-export",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class SomeClass {
+Something & something other with a \\ does not work
+}
+@enduml

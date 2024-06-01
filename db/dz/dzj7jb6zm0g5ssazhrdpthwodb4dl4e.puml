@@ -1,0 +1,22 @@
+{
+  "sha1": "dzj7jb6zm0g5ssazhrdpthwodb4dl4e",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.667Z",
+    "url": "http://forum.plantuml.net/3756",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package foo <<Node>>
+{
+class A
+class B
+}
+
+
+package foo1 <<Node>> {
+class A1
+class B1
+}
+
+@enduml

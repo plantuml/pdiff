@@ -1,0 +1,10 @@
+{
+  "sha1": "gg4wx0dab2gbtusuvoxocss4nmc9tgb",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.727Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> Main_Libre : print ("aaaaaa")
+@enduml

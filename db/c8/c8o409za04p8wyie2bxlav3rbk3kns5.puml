@@ -1,0 +1,16 @@
+{
+  "sha1": "c8o409za04p8wyie2bxlav3rbk3kns5",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.069Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Cls {
+	method()
+}
+
+note right of Cls::typo
+	error
+end note
+@enduml

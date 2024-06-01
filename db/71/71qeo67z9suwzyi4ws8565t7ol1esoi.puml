@@ -1,0 +1,22 @@
+{
+  "sha1": "71qeo67z9suwzyi4ws8565t7ol1esoi",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.718Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> NotShooting
+state NotShooting begin
+  [*] --> Idle
+  Idle --> Configuring : EvConfig
+  Configuring --> Idle : EvConfig
+end state
+ * 
+Shooting --> NotShooting : a2
+NotShooting --> Shooting : a1
+
+Shooting --> [*] : EvPowerOff
+NotShooting --> [*]: EvPowerOff
+
+@enduml

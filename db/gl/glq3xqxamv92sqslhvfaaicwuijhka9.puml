@@ -1,0 +1,44 @@
+{
+  "sha1": "glq3xqxamv92sqslhvfaaicwuijhka9",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.016Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+
+<style>
+mindmapDiagram {
+  node {
+    Padding 5
+    Margin 15
+    BackGroundColor white
+  }
+  rootNode {
+    Padding 15
+    FontStyle Italic
+    BackGroundColor green
+  }
+  leafNode {
+    Padding 1
+    BackGroundColor yellow
+    FontColor blue
+    FontSize 15
+  }
+}
+</style>
+* World
+** America
+*** Canada
+*** Mexico
+*** USA
+<style>
+  node {
+    BackGroundColor lightBlue
+  }
+</style>
+** Europe
+*** England
+*** Germany
+*** Spain
+@endmindmap

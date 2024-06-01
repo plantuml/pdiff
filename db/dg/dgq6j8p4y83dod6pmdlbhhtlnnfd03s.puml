@@ -1,0 +1,16 @@
+{
+  "sha1": "dgq6j8p4y83dod6pmdlbhhtlnnfd03s",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.970Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1000#issuecomment-1248650647",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+</style>
+title Put all elt on plain
+rectangle "Composite" as Composite <<Composite>>
+rectangle "Observer" as Observer <<Observer>>
+rectangle "Subject" as Subject <<Subject>>
+@enduml

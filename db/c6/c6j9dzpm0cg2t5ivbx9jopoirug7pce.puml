@@ -1,0 +1,32 @@
+{
+  "sha1": "c6j9dzpm0cg2t5ivbx9jopoirug7pce",
+  "insertion": {
+    "when": "2024-06-01T09:03:00.945Z",
+    "url": "https://github.com/DrMarkusVoss/pumla/tree/main/test/examples/simple/ports",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!pragma svek_trace on
+
+
+component "displayTemp" as displayTemp <<block>> {
+
+    portin "temp_dC" as temp_dC_displayTemp
+    portin "temp_dF" as temp_dF_displayTemp
+
+
+    rectangle "internals" {
+        component display
+        component conversion
+
+        temp_dC_displayTemp -u-> display
+        temp_dF_displayTemp --> display
+        conversion <--> display
+
+    }
+}
+
+
+@enduml

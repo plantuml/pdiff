@@ -1,0 +1,10 @@
+{
+  "sha1": "cx7hy8s2udwh77gbl2xf0g1ts98dft",
+  "insertion": {
+    "when": "2024-06-01T09:03:02.198Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startdef(id=macro)
+Alice -> Bob : hello1
+@enddef
