@@ -1,0 +1,12 @@
+{
+  "sha1": "kcem6xus9w80boc4xv96ng306zzwpp0",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.852Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package "test" {
+    [__init__]
+}
+@enduml

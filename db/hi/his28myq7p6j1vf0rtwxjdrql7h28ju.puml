@@ -1,0 +1,16 @@
+{
+  "sha1": "his28myq7p6j1vf0rtwxjdrql7h28ju",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.639Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam svek true
+
+:User:
+"Main Admin" as Admin
+(Start)
+"Use the application" as (Use)
+
+@enduml

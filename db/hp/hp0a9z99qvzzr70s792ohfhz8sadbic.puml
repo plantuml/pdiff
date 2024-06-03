@@ -1,0 +1,15 @@
+{
+  "sha1": "hp0a9z99qvzzr70s792ohfhz8sadbic",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.824Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:This is **bold**
+This is //italics//
+This is ""monospaced""
+This is --stroked--
+This is __underlined__
+This is ~~waved~~;
+@enduml

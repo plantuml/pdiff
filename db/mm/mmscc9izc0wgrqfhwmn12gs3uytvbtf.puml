@@ -1,0 +1,20 @@
+{
+  "sha1": "mmscc9izc0wgrqfhwmn12gs3uytvbtf",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.410Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1436",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+root {
+  FontName "Hack", "DejaVu Sans Mono", "Courier New", "Nimbus Mono L", "Monospaced", Courier, monospace
+}
+</style>
+
+[Component\nABC]
+frame "Frame" {
+  card Card
+}
+@enduml

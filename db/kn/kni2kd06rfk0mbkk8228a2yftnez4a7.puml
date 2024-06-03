@@ -1,0 +1,18 @@
+{
+  "sha1": "kni2kd06rfk0mbkk8228a2yftnez4a7",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.179Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title foo
+header header
+footer footer
+
+:start;
+if (some test) then
+  :do this;
+endif
+:end of process;
+@enduml

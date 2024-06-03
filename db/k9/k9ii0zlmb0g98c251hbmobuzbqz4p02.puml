@@ -1,0 +1,13 @@
+{
+  "sha1": "k9ii0zlmb0g98c251hbmobuzbqz4p02",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.754Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+hide footbox
+title Test
+[Foo] lasts 12 days
+[Dummy] lasts 10 days and starts 10 days after start
+@endgantt

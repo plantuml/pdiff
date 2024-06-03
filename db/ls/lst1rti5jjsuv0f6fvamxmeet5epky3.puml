@@ -1,0 +1,13 @@
+{
+  "sha1": "lst1rti5jjsuv0f6fvamxmeet5epky3",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.506Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide members
+hide class circled
+TopLinkSessionMgr "*" -- TopLinkService
+
+@enduml 

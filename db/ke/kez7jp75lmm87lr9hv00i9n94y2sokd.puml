@@ -1,0 +1,14 @@
+{
+  "sha1": "kez7jp75lmm87lr9hv00i9n94y2sokd",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.929Z",
+    "url": "https://forum.plantuml.net/11731/packagestyle-doesnt-seem-to-always-work",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam packageStyle rectangle
+package A {
+   rectangle B
+}
+@enduml

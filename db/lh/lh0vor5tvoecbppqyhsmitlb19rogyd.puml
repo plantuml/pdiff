@@ -1,0 +1,27 @@
+{
+  "sha1": "lh0vor5tvoecbppqyhsmitlb19rogyd",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.126Z",
+    "url": "http://wiki.plantuml.net/site/preprocessing-json",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$partlen=2
+!$data={"partlen": "2", "participants" :[
+{"name": "XYZ" ,"as": "xyz"},
+{"name": "RST" ,"as": "rst"},
+{"name": "UVW" ,"as": "uvw"}
+]
+}
+!$partlen=$data.partlen
+!$i=0
+   
+:a;
+:$i;
+:$partlen;
+!foreach $part in $data.participants
+:$part.name as $part.as;
+!endfor
+:b;
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "ixx1zirknjmsyooob0rnrv5zi2uyk60",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.319Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml	 
+package Bus_Tx {
+	Bus_Tx "1" *--  "n" Tx_FIFO 
+	class Tx_FIFO
+	class Bus_Tx
+}
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "mstodreb4vwh2m9dmygzxe7e0fozj57",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.637Z",
+    "url": "http://forum.plantuml.net/8827/arrow-cardinality-thickness-changed-skinparam-class-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob |o--|{ Alice : hello
+Ted |o-[thickness=5]-|{ Alice : hello
+@enduml

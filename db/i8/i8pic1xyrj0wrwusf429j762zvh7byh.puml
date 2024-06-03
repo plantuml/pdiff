@@ -1,0 +1,15 @@
+{
+  "sha1": "i8pic1xyrj0wrwusf429j762zvh7byh",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.436Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class Class01 << Foo >>
+Class01 "1" *-- "many" Class02 : contains
+
+class Class03 << Foo >>
+Class03 o-- Class04 : agregation
+@enduml

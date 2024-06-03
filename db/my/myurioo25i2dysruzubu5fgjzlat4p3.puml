@@ -1,0 +1,21 @@
+{
+  "sha1": "myurioo25i2dysruzubu5fgjzlat4p3",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.910Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Slowlane|
+:walk;
+
+|Fastlane|
+:run;
+  note right
+    test right
+  end note
+
+  note left
+    test left
+  end note
+@enduml

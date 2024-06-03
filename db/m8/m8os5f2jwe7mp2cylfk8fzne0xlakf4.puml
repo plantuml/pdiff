@@ -1,0 +1,17 @@
+{
+  "sha1": "m8os5f2jwe7mp2cylfk8fzne0xlakf4",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.997Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor Foo1
+participant Foo2
+boundary Foo3
+control Foo4
+entity Foo5
+
+Foo1 -> Foo2
+Foo2 --> Foo5 : test
+@enduml

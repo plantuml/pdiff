@@ -1,0 +1,17 @@
+{
+  "sha1": "igya59fe4vtv7rsisa9a9rpny80luaa",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.723Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1053",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+  skinparam backgroundColor #Motivation
+  archimate #MOTIVATION "[[https://scrumguides.org/scrum-guide.html#transparency {Transparency} Transparency]]" <<motivation-principle>> as TRANSPARENCY
+  archimate #MOTIVATION "[[https://scrumguides.org/scrum-guide.html#inspection {Inspection} Inspection]]" <<motivation-principle>> as INSPECTION
+  archimate #MOTIVATION "[[https://scrumguides.org/scrum-guide.html#adaptation {Adaptation} Adaptation]]" <<motivation-principle>> as ADAPTATION
+
+  TRANSPARENCY -[hidden]right- INSPECTION
+  INSPECTION -[hidden]right- ADAPTATION
+@enduml

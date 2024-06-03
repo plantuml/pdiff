@@ -1,0 +1,23 @@
+{
+  "sha1": "ib57npie4uhxg276khffxerrbxtdcrz",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.520Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+digraph unix {
+sh0006 [shape=plaintext,label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>
+</TD><TD FIXEDSIZE="TRUE" WIDTH="16" HEIGHT="16"></TD><TD></TD></TR>
+<TR><TD FIXEDSIZE="TRUE" WIDTH="16" HEIGHT="16"></TD>
+<TD BGCOLOR="#000006" FIXEDSIZE="TRUE" WIDTH="63.0" HEIGHT="48.0" PORT="h"></TD>
+<TD FIXEDSIZE="TRUE" WIDTH="16" HEIGHT="16"></TD></TR><TR><TD></TD>
+<TD FIXEDSIZE="TRUE" WIDTH="16" HEIGHT="16"></TD><TD></TD></TR></TABLE>>];
+sh0007;
+sh0005->sh0006:h;
+sh0007->sh0008;
+sh0007->sh0006:h[headlabel=<<TABLE BGCOLOR="#0000FF" FIXEDSIZE="TRUE" WIDTH="87" HEIGHT="16"><TR><TD></TD></TR></TABLE>>];
+sh0007->sh0006:h[headlabel=<<TABLE BGCOLOR="#FF001E" FIXEDSIZE="TRUE" WIDTH="96" HEIGHT="16"><TR><TD></TD></TR></TABLE>>];
+sh0008->sh0005;
+}
+@enduml

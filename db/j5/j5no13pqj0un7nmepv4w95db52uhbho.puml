@@ -1,0 +1,13 @@
+{
+  "sha1": "j5no13pqj0un7nmepv4w95db52uhbho",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.516Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package "Classic Collections" #DDDDDD {}
+package "Classic Collections2" #DDDDDD {
+  Object <|-- ArrayList
+}
+@enduml

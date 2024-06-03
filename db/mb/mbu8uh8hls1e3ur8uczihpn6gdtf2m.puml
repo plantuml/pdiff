@@ -1,0 +1,27 @@
+{
+  "sha1": "mbu8uh8hls1e3ur8uczihpn6gdtf2m",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.067Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Page 1
+
+skinparam shadowing false
+skinparam component {
+ BackgroundColor<<service>> #D0E0F0
+}
+
+[Factory] as factory
+[Consumer] <<service>> as consumer_service
+[Provider] as provider
+
+factory --> consumer_service
+provider --> consumer_service
+
+newpage
+
+consumer_service ..> factory
+
+@enduml

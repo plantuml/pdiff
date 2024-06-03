@@ -1,0 +1,13 @@
+{
+  "sha1": "imrjp8uid7j8gddt5kkghstneu78sfi",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.961Z",
+    "url": "https://forum.plantuml.net/16694/ebnf-add-notes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+title Test on comments
+
+(*a*) test_above_below_first (*b*) = (*this is a comment\nabove z*) z (*this is a comment\nbelow z*);
+@endebnf

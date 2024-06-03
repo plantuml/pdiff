@@ -1,0 +1,23 @@
+{
+  "sha1": "jfewt4x2x3si9zp2ej847wcy8iftdsw",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.824Z",
+    "url": "http://forum.plantuml.net/8067/tabulation-character-doesnt-work-in-legend",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+-> Test 1\t\tTest tabulation 1;
+:Test 2\t\tTest tabulation 2;
+-> Test 4;
+:Test 5;
+-> Test 6;
+:Test 7;
+legend right
+**Caption :**
+Test legend\t\tTest tabulation 3
+Test legend 2\t\tTest tabulation 4
+endlegend
+stop
+@enduml

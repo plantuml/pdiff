@@ -1,0 +1,16 @@
+{
+  "sha1": "mwafl0dgzsnf9m9x5k1kma0lg7pvjw2",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.805Z",
+    "url": "https://forum.plantuml.net/11344/no-text-spacing-with-fork-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+fork
+-> 5showing more text that is\ntoo long once again\nin this\nparticular\nscenario\nwhere this happens;
+:6final state of\nthis fork;
+-> 7Have something that is long\nwritten here as an\nexample;
+endfork
+
+@enduml

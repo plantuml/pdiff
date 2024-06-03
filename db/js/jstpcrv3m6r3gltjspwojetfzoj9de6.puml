@@ -1,0 +1,37 @@
+{
+  "sha1": "jstpcrv3m6r3gltjspwojetfzoj9de6",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.192Z",
+    "url": "https://forum.plantuml.net/8071/have-more-than-one-hyperlink-text-color?show=15818#c15818",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+root {
+  HyperlinkColor #FF0000
+}
+.normal {
+  HyperlinkColor #00FF00
+}
+
+.otro {
+  HyperlinkColor #00FFFF
+}
+</style>
+
+title test on HyperlinkColor [[test link]]
+
+ class uno <<normal>> {
+  * aaa
+  + [[modelo normal]]
+  - bb
+ }
+ 
+  class TRES AS "[[http://www.plantuml.com tres]]" <<otro>> {
+  * aaa
+  + [[otro modelo]]
+  + aa 
+  - bb
+ }
+@enduml

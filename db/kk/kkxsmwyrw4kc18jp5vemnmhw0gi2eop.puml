@@ -1,0 +1,31 @@
+{
+  "sha1": "kkxsmwyrw4kc18jp5vemnmhw0gi2eop",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.118Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+B <|-- M
+M <|-- D
+
+class B {
+  # m_b: int
+}
+note left of B::m_b
+  b
+end note
+
+class D {
+  # m_d: int
+}
+
+note left of D::m_d
+  d
+end note
+
+B *-- C1
+C1 *-- C2
+
+@enduml

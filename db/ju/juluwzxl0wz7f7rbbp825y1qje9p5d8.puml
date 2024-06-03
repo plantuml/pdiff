@@ -1,0 +1,14 @@
+{
+  "sha1": "juluwzxl0wz7f7rbbp825y1qje9p5d8",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.279Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor Bob
+participant Alice
+Bob -> Alice : hello
+create ThisIsTheLongNameOfAnInstance as T
+Alice -> T
+@enduml

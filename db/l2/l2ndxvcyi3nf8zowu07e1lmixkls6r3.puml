@@ -1,0 +1,34 @@
+{
+  "sha1": "l2ndxvcyi3nf8zowu07e1lmixkls6r3",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.618Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=3931/is-it-possible-to-draw-if-elseif-else-structure-vertically",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title lot_of_elsif
+start
+if (Enum) Then (Value_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA)
+:Do_A;
+elseif (Enum) Then (Value_BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB)
+:Do_B;
+elseif (Enumsdfds sdf) Then (Value_CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC)
+:Do_C dfgfdg;
+:Do_C dfgfdg2;
+:Do_C dfgfdg3;
+elseif (Enum) Then (Value_DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD)
+:Do_D;
+elseif (Enum) Then (Value_EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE)
+:Do_E;
+elseif (Enum) Then (Value_FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
+:Do_F;
+elseif (Enum) Then (Value_GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG)
+:Do_G;
+elseif (Enum) Then (Value_HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH)
+:Do_H;
+Else (Value_ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ)
+:Do_Z;
+endif
+end
+@enduml

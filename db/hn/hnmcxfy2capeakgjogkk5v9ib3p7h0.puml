@@ -1,0 +1,25 @@
+{
+  "sha1": "hnmcxfy2capeakgjogkk5v9ib3p7h0",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.781Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+sprite $printer8 [15x15/8] {
+	00098888A110000
+	000I000088GI000
+	235I0GOOOW0I532
+	R00I0GOOOW0I00R
+	R11HHHHHHHHH11R
+	S9999999999999S
+	YaZZZZZZZZZZZaY
+	0GWWWWWWWWWWWG0
+}
+start
+:foo1 <$printer8> on several line;
+:foo1 <$printer8>;
+:toto <$printer8>
+toto on long line;
+
+@enduml

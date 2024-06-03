@@ -1,0 +1,19 @@
+{
+  "sha1": "hrs01gna2hjstzzucuolkwboag9uqdg",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.938Z",
+    "url": "https://forum.plantuml.net/17241/smetana-breaks-entity-arrows",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+'breaks
+a |o-- b
+'works
+c ||-- d
+'breaks
+e }o-- f
+'works
+g }|-- h
+@enduml

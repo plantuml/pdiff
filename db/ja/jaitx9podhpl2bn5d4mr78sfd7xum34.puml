@@ -1,0 +1,43 @@
+{
+  "sha1": "jaitx9podhpl2bn5d4mr78sfd7xum34",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.642Z",
+    "url": "https://github.com/plantuml/plantuml/commit/f2b9f03e154fd8f075e4e91988a8ee4118d61595#commitcomment-60201184",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!theme aws-orange
+
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+  Object[] elementData
+  size()
+}
+
+enum TimeUnit {
+  DAYS
+  HOURS
+  MINUTES
+}
+
+annotation SuppressWarnings
+
+annotation Annotation {
+  annotation with members
+  String foo()
+  String bar()
+}
+
+@enduml

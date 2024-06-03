@@ -1,0 +1,31 @@
+{
+  "sha1": "ko3dvpelmmltluf3i6x36u73sj4qcyk",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.215Z",
+    "url": "https://forum.plantuml.net/10923/how-to-create-a-creole-table-without-a-bolded-first-row",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+note as deepCSS0
+  |<#white> Husky / Yorkie |
+  |<#gainsboro> SourceTree0 |
+endnote
+
+note as deepCSS1
+  |= <#white> Husky / Yorkie |= Foo |
+  |<#gainsboro><r> SourceTree1 | foo1 |
+endnote
+
+note as deepCSS2
+  |= Husky / Yorkie |
+  |<#gainsboro> SourceTree2 |
+endnote
+
+note as deepCSS3
+  <#white>|= Husky / Yorkie |= Foo |
+  |<#gainsboro> SourceTree1 | foo1 |
+endnote
+
+
+@enduml

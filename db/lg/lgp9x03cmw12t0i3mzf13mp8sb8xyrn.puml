@@ -1,0 +1,10 @@
+{
+  "sha1": "lgp9x03cmw12t0i3mzf13mp8sb8xyrn",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.105Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+alice -> bob : block
+@enduml

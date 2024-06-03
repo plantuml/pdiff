@@ -1,0 +1,21 @@
+{
+  "sha1": "ks1out2tl3318cqs5ndtt0ixshurzeg",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.290Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+Dog --|> Mammal
+
+class Mamal [[http://www.google.com]]
+'url of Mamal is [[http://www.google.com]]
+
+class Dog {
+NemesisCat
+}
+Dog o-- Cat
+
+Cat --|> Mammal
+@enduml

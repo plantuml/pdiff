@@ -1,0 +1,27 @@
+{
+  "sha1": "jey2c7qpky20qe1h452qrjnsry0duuy",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.803Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+document {
+  BackGroundColor transparent
+}
+root {
+  FontColor #?black:white
+}
+classDiagram {
+  class {
+    BackGroundColor black
+  }
+}
+</style>
+!assume transparent dark
+title
+my title
+endtitle
+class foo1
+@enduml

@@ -1,0 +1,32 @@
+{
+  "sha1": "kmmhl7wkmn6vf6cvvoxaud6nug21dd3",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.172Z",
+    "url": "https://forum.plantuml.net/9939/conditional-application-of-styles",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam useBetaStyle true
+!procedure formatConnection($sequenceArrowThickness, $from, $to, $protocol)
+<style>
+arrow {
+  LineThickness $sequenceArrowThickness
+}
+</style>
+  $from<<->>$to : $protocol
+!endprocedure
+
+box "AWS " #LightBlue
+    participant "aPlatform" as ap
+   
+end box
+box "External" #Lightgreen
+    participant "External API" as extapi
+    participant "External  Service" as exts
+end box
+
+formatConnection("5", "ap", "extapi","<< MA-TLS >>")
+
+@enduml

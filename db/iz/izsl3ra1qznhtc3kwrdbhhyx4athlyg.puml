@@ -1,0 +1,11 @@
+{
+  "sha1": "izsl3ra1qznhtc3kwrdbhhyx4athlyg",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.364Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam dpi 300
+class foo
+@enduml

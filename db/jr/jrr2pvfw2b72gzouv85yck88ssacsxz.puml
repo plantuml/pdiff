@@ -1,0 +1,23 @@
+{
+  "sha1": "jrr2pvfw2b72gzouv85yck88ssacsxz",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.139Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+    while ($attr_name => $attr_value) is (true)
+    note right
+    //echo "add attributes to ".$rootElement->tagName.": ".print_r($value, true);
+    end note
+        if (:is_array($attr_value);) then (yes)
+        :processing;
+
+
+        endif
+
+        :$rootElement.setAttribute($attr_name, $attr_value);
+    endwhile (false)
+stop
+@enduml

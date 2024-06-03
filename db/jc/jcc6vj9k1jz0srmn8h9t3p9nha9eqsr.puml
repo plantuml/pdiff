@@ -1,0 +1,15 @@
+{
+  "sha1": "jcc6vj9k1jz0srmn8h9t3p9nha9eqsr",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.726Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+!function double($a) return $a+$a
+
+
+alice -> bob : the double of 3 is double(3)
+@enduml

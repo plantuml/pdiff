@@ -1,0 +1,17 @@
+{
+  "sha1": "h6tuiebi8mk41s1dxi94h40bk738hj9",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.221Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+left to right direction
+(a use case)
+(another use case) as (uc1)  
+usecase UC2
+usecase (YAanother use case) as uc3
+"another use case" as (uc4)  
+usecase "UC5"
+usecase "YAanother use case" as uc6
+@enduml

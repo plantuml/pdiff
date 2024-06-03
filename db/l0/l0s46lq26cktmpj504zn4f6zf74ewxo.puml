@@ -1,0 +1,10 @@
+{
+  "sha1": "l0s46lq26cktmpj504zn4f6zf74ewxo",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.555Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class "rsnqicm483xnkznu4gwwsmpgehjyg5f3uggesj5lyg2mmuakqhxz5kss35qewqwx91wbzrvx5wwv" as tr
+@enduml

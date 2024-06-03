@@ -1,0 +1,18 @@
+{
+  "sha1": "muyk5z55zu81gbz4oqpu8b4t5vjz1sf",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.714Z",
+    "url": "https://forum.plantuml.net/14819/the-combination-while-note-break-statements-does-draw-figure",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+while(int i=0;i<100;i++)
+   if ( conf ) then (true)
+    note right
+       if statement
+    end note
+    :finalize;
+   endif
+end while
+@enduml

@@ -1,0 +1,41 @@
+{
+  "sha1": "m353rwrzfjidlq8ca9iv6105jngfv9g",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.800Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:This is a **creole** test
+This is //italic// and **bold**.
+* Bullet list
+* Second item
+** Sub item
+*** Sub item 1
+*** Sub item 2
+** Sub item
+
+# Numbered list
+# Second item
+## Sub item A
+## Sub item B
+## Sub item B
+# Third item
+## Sub item A
+## Sub item B
+
+= Extra-large heading
+some text
+== Large heading
+some text
+=== Medium heading
+some text
+==== Small heading
+some text
+----
+Force\\linebreak
+;
+
+stop
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "hecap84ionpos47ikdwkjh4hf17i0v9",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.510Z",
+    "url": "https://forum.plantuml.net/15304/backward-in-repeat-loop-in-the-wrong-swimlane",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+start
+:Activity 1;
+
+repeat :Activity 2;
+
+
+backward :Correction in second;
+
+
+repeat while (Something wrong?) is (yes) not (no);
+stop
+@enduml

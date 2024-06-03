@@ -1,0 +1,23 @@
+{
+  "sha1": "mpr2mllilcy3tr8eqlirg21bbbn4jfl",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.496Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+left to right direction
+skinparam componentStyle uml2
+[<back:gray><latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex></back>] as fx
+[<color:blue><latex>\mathcal{D}</latex></color>] as D
+[<latex>\mathcal{H}</latex>] as H
+[<latex>\mathcal{g}</latex>] as g
+[<latex>P(\mathbf{x})</latex>] as Px
+(<latex>\mathcal{A}</latex>) as A
+Px --> D
+fx --> D
+D --> A
+H --> A
+A --> g
+g .-> fx: <latex>\mbox{Loss}(f,g)</latex>
+@enduml

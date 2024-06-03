@@ -1,0 +1,14 @@
+{
+  "sha1": "lj7w7z1yihecr01tusx3023st8uzrgj",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.208Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+box "AB"
+participant A
+collections B
+end box
+@enduml

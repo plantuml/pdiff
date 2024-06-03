@@ -1,0 +1,15 @@
+{
+  "sha1": "knv82tdhepds3yxk7esqssboi9mcvgi",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.207Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+XA13 --> Y1
+state XA6 {
+	XA6 --> XA1
+	--
+	state XA13
+}
+@enduml 

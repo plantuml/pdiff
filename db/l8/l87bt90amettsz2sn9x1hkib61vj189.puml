@@ -1,0 +1,12 @@
+{
+  "sha1": "l87bt90amettsz2sn9x1hkib61vj189",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.849Z",
+    "url": "https://forum.plantuml.net/14690/timing-diagram-cropped-clock-period-multiple-diagram-length",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title period 10 pulse 50
+clock C with period 10 pulse 50
+@enduml

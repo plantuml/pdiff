@@ -1,0 +1,29 @@
+{
+  "sha1": "hra223cqc1r5ztvd4olb3fft1dk1f0j",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.917Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define table(x) class x << (T,#FFAAAA) >>
+
+
+table(Settings) {
+  Table for all settings.
+  ==
+  <u>userId</u> int(11)
+   int(10) -- A comment
+  field1 int(10)
+  field2 varchar(128)
+}
+
+table(Mitarbeiter) {
+Table Mitarbeiter
+==
++ field3
++ field4
+}
+
+Settings::field1 -> Mitarbeiter::field3
+@enduml

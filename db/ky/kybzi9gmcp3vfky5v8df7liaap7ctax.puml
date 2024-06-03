@@ -1,0 +1,29 @@
+{
+  "sha1": "kybzi9gmcp3vfky5v8df7liaap7ctax",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.471Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1783",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Why $a and $b are modified?
+
+!$a = [0,1]
+!$b = %json_add($a, 5)
+!$c = %json_add($a, 6)
+!$d = %json_add($b, 7)
+
+json a {
+"value":$a
+}
+json b {
+"value":$b
+}
+json c {
+"value":$c
+}
+json d {
+"value":$d
+}
+@enduml

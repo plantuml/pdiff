@@ -1,0 +1,33 @@
+{
+  "sha1": "jvhxj5n9yxx52h2tsqwizgasothouzp",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.321Z",
+    "url": "http://forum.plantuml.net/4986/package-style-is-confused-by-several-stereotypes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package foo1 <<Node>> {
+  class Class1
+}
+
+package foo2 <<A>><<B>> {
+  class Class2
+}
+
+package foo3 <<Foo>><<Node>><<Bar>> {
+  class Class3
+}
+
+node foo4 <<Node>> {
+  class Class1
+}
+
+node foo5 <<A>><<B>> {
+  class Class2
+}
+
+node foo6 <<Foo>><<Node>><<Bar>> {
+  class Class3
+}
+@enduml

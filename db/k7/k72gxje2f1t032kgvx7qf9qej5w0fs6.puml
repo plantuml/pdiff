@@ -1,0 +1,21 @@
+{
+  "sha1": "k72gxje2f1t032kgvx7qf9qej5w0fs6",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.677Z",
+    "url": "http://forum.plantuml.net/4019/interaction-frame",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+mainframe This is a frame
+
+participant alpha
+participant beta
+
+alpha -> beta: a1
+beta <- alpha: a2
+
+beta -> alpha: b1
+alpha <- beta: b2
+@enduml

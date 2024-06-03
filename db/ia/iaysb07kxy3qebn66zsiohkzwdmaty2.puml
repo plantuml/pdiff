@@ -1,0 +1,20 @@
+{
+  "sha1": "iaysb07kxy3qebn66zsiohkzwdmaty2",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.506Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+start
+-[#green;#maroon,dashed]->
+partition dummy {
+note right
+foo
+end note
+':some activity;
+}
+end
+
+@enduml

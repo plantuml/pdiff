@@ -1,0 +1,16 @@
+{
+  "sha1": "mxs2iu56acx9mih4vqjvusdr3mqnsjo",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.889Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob->Bob: coucou2
+!exit
+activate Bob
+Bob->Bob: coucou3
+destroy Bob
+Bob->Bob: this is an\nexample of long\nmessage
+Bob->Alice: And this\nis an other on\nvery long too
+@enduml

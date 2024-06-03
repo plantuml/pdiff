@@ -1,0 +1,17 @@
+{
+  "sha1": "loxo6pjc5wpzk04ekgwtul68r9akbwb",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.371Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <tupadr3/common.puml>
+!include <tupadr3/devicons/mysql.puml>
+
+DEV_MYSQL(db1)
+DEV_MYSQL(db2,label of db2)
+DEV_MYSQL(db3,label of db3,database)
+DEV_MYSQL(db4,label of db4,database,red) #DeepSkyBlue
+
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "l9e1o8ho8ma8z36r4lk64a2xu8lpbkn",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.898Z",
+    "url": "https://forum.plantuml.net/11147/full-support-for-cr%C3%A9ole-in-legend",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+legend
+Aqsddddddddddddddddddd
+----
+B
+end legend
+
+@enduml

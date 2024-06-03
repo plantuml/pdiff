@@ -1,0 +1,23 @@
+{
+  "sha1": "krpir48cyab2bbxg7twpvmjlu8bu6c1",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.276Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1448",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startfiles
+/.github/
+/src/example.py
+/src/iiimple1.py
+/tests/example_test.py
+/src/wwwmple2.py
+/tests/v1/example_test.py
+/README.md
+/doc/foo/dummy.doc
+<note>
+this is a note
+on two lines
+</note>
+/LICENSE
+@endfiles

@@ -1,0 +1,33 @@
+{
+  "sha1": "i5pgdir0s4hsdukd07ljpi10ewobc73",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.345Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Web Browser" as WB
+concise "Web User" as WU
+
+@0
+WU is Idle
+WB is Idle
+
+@100
+WU -> WB : URL
+WU is Waiting
+
+@200
+WB is Proc.
+
+@300
+WU -> WB : URL2
+WB is Waiting
+
+@500
+WU is ok
+
+@700
+WB is Idle
+
+@enduml

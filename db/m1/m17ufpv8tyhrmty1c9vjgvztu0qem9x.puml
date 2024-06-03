@@ -1,0 +1,18 @@
+{
+  "sha1": "m17ufpv8tyhrmty1c9vjgvztu0qem9x",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.704Z",
+    "url": "https://forum.plantuml.net/15879",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam rectangle {
+    shadowing false
+}
+skinparam rectangle<<webApp>> {
+    BackgroundColor #438DD5
+    Shadowing true
+}
+rectangle "Web Application" <<webApp>> as web_app
+@enduml

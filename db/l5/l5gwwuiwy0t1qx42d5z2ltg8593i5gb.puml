@@ -1,0 +1,19 @@
+{
+  "sha1": "l5gwwuiwy0t1qx42d5z2ltg8593i5gb",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.730Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[XX]
+skinparam agent {
+    backgroundColor Yellow
+    backgroundColor<<st>> LightBlue
+}
+  @pause
+this is ignored
+  		  	@unpause
+agent AA <<st>>
+agent BB
+@enduml

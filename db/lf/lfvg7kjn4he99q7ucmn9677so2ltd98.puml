@@ -1,0 +1,33 @@
+{
+  "sha1": "lfvg7kjn4he99q7ucmn9677so2ltd98",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.086Z",
+    "url": "https://github.com/plantuml/plantuml/issues/657#issuecomment-1505398332",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+activityDiagram {
+    diamond {
+        MaximumWidth 200
+    }
+}
+</style>
+
+start
+  if (LONG LONG LONG LONG LONG LONG LONG TEXT) then
+      :YES;
+  else
+      :NO;
+  endif
+end
+
+start
+  if (LONG LONG LONG LONG LONG LONG LONG TEXT) then
+      :YES;
+  elseif (ELSEIF)
+      :NO;
+  endif
+end
+@enduml

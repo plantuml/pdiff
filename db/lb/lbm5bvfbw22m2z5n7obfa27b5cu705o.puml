@@ -1,0 +1,42 @@
+{
+  "sha1": "lbm5bvfbw22m2z5n7obfa27b5cu705o",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.982Z",
+    "url": "https://forum.plantuml.net/15747/bold-arrows-via-skinparam-are-not-working-anymore",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam arrow {
+    Color green
+    FontColor green
+}
+
+skinparam arrow<<bluebold>> {
+    Color blue;line.Bold()
+}
+
+skinparam arrow<<bold>> {
+    Color ;line.Bold()
+}
+
+[a]
+[b]
+
+' not working anymore
+a -->> b <<bold>> : "stereotype bold"
+
+' not working anymore
+a -->> b <<bluebold>> : "stereotype bluebold"
+
+' working in old and new version
+a -[#blue,bold]-> b : "line bluebold"
+
+@enduml

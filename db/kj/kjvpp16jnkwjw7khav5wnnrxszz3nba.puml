@@ -1,0 +1,39 @@
+{
+  "sha1": "kjvpp16jnkwjw7khav5wnnrxszz3nba",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.055Z",
+    "url": "https://github.com/plantuml/plantuml/pull/980",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+document {
+  header {
+    FontColor red
+	BackgroundColor lightGray
+  }
+}
+  
+classDiagram {
+  class {
+	  FontColor blue
+	  BackgroundColor yellow
+	  
+	  header {
+	  	FontSize 20
+	  	FontColor green
+	  	BackgroundColor red
+	  }
+  }
+}
+</style>
+
+header some page header
+
+class Foo {
+  dummy
+}
+
+@enduml

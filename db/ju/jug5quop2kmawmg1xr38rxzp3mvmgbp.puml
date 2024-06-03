@@ -1,0 +1,13 @@
+{
+  "sha1": "jug5quop2kmawmg1xr38rxzp3mvmgbp",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.272Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set namespaceSeparator \\
+ 
+CardBundle\\Card "1" --> "1..*" TagBundle\\Tag
+(CardBundle\\Card,TagBundle\\Tag) .. TagBundle\\CardTag
+@enduml

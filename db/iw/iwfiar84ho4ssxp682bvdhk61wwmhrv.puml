@@ -1,0 +1,10 @@
+{
+  "sha1": "iwfiar84ho4ssxp682bvdhk61wwmhrv",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.284Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+(\<\<.+\>\>)?
+@endregex

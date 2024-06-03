@@ -1,0 +1,21 @@
+{
+  "sha1": "k1n5x4p2r9sme4pyd2y20p2bn9cvad7",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.488Z",
+    "url": "https://forum.plantuml.net/12317/transparence-management-with-monochrome-reverse",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam monochrome reverse
+<style>
+document {
+  backgroundcolor transparent
+}
+</style>
+node n {
+file f
+cloud c
+}
+footer Observed on V1.2020.19
+@enduml

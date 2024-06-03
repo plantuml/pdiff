@@ -1,0 +1,32 @@
+{
+  "sha1": "lt0ys5qmvnszwag6u87twtqv0u8y40d",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.530Z",
+    "url": "https://forum.plantuml.net/9706/background-hyperlink-attributes-activity-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam HyperlinkColor #White
+
+skinparam Default {
+  FontColor #004C5D
+}
+
+skinparam Activity {
+  FontColor #White
+  BackgroundColor #D3637D
+}
+
+skinparam Partition {
+  BackgroundColor #FDF6E3
+}
+
+start
+partition "[[https://google.com/ demo]]" {
+  :action1;
+  :[[https://google.com/ action2 with link]];
+}
+
+stop
+@enduml

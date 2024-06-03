@@ -1,0 +1,16 @@
+{
+  "sha1": "myd0un5psbwt146k2qvbn9lmsao06mq",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.903Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define A1
+!define BC
+
+!ifdef AA || B || BC
+title A or B
+!endif
+Bob-> Alice
+@enduml

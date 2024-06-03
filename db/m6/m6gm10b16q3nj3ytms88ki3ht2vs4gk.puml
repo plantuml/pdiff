@@ -1,0 +1,32 @@
+{
+  "sha1": "m6gm10b16q3nj3ytms88ki3ht2vs4gk",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.955Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+state comp1 {
+    comp1: exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    comp1: e
+    comp1: e
+    comp1: e
+    comp1: e
+
+    state en1 <<entrypoint>>
+    state en2 <<entrypoint>>
+    state ex1 <<exitpoint>>
+}
+state comp2 {
+    [*] --> wait2
+    wait2 -up-> action2: Timeout
+    action2 --> wait2: Failed
+}
+state comp3 {
+}
+action2 -up-> en2: info2
+comp2 -up-> en1: Information
+comp3 -down-> en1: info3
+comp4 --> ff
+@enduml

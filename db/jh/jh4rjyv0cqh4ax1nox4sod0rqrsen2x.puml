@@ -1,0 +1,29 @@
+{
+  "sha1": "jh4rjyv0cqh4ax1nox4sod0rqrsen2x",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.880Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty fields
+hide empty methods
+
+class A {
+	a1
+	__
+	a2
+	__
+	a3
+	__
+	a4
+}
+class C {
+  - {method} foo
+  foo2
+}
+class D {
+  + {field} bar()
+  bar2()
+}
+@enduml

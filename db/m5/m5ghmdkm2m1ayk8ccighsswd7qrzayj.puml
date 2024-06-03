@@ -1,0 +1,13 @@
+{
+  "sha1": "m5ghmdkm2m1ayk8ccighsswd7qrzayj",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.922Z",
+    "url": "https://forum.plantuml.net/11320/latex-command-requires-space-between-activity-object-08beta10",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:Ready;
+: <latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex>]
+:finish;
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "hlxg43wk7c7n4aeyogw4siu41wz9zu1",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.723Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+fork
+     -[#red]->
+     :goo;
+fork again
+     :goo;
+     -[#green;#red]->
+end fork
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "iujtayjmuy4vbmngnm84kk4xl2guk5f",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.227Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase foo #blue
+artifact foo2 #red
+(foo3) #green
+:foo4: #magenta
+actor foo5 #yellow
+component foo6 #red
+
+@enduml

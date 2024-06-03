@@ -1,0 +1,14 @@
+{
+  "sha1": "my3asl1nectf3mmj7884q16qmhfqtx2",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.896Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Bob
+class Alice
+note left of Alice
+  hello <u:#FF0000>toto</u> and <w:green>green</w> and <s:#00FFFF>strike</s> ok.
+end note
+@enduml

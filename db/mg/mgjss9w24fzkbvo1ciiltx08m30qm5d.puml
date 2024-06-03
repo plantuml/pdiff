@@ -1,0 +1,22 @@
+{
+  "sha1": "mgjss9w24fzkbvo1ciiltx08m30qm5d",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.227Z",
+    "url": "https://github.com/plantuml/plantuml/issues/975",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.static lib {
+    backgroundColor DarkKhaki
+}
+.shared lib {
+    backgroundColor Green
+}
+</style>
+
+[AA] <<static lib>>
+[BB] <<shared lib>>
+[CC] <<static_lib>>
+@enduml

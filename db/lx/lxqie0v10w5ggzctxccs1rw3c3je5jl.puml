@@ -1,0 +1,16 @@
+{
+  "sha1": "lxqie0v10w5ggzctxccs1rw3c3je5jl",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.644Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*)  --> "check input"
+If "input is verbose" then
+--> [Yes] "turn on verbosity"
+--> "run command"
+else
+--> "run command"
+Endif
+@enduml

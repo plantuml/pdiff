@@ -1,0 +1,13 @@
+{
+  "sha1": "kuoetc3aouxusq3nmfqxts4ha1tn4df",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.374Z",
+    "url": "http://forum.plantuml.net/7654/newpage-expression-crashes-versions-1-2018-4-%26-1-2018-5",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class test
+newpage
+class test2
+@enduml

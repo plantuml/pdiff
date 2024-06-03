@@ -1,0 +1,25 @@
+{
+  "sha1": "l66bqcew70fudhza8a7ls8ptgnbj20e",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.772Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=6493/missing-background-color-of-databases-after-latex-export",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+allow_mixing
+skinparam class {
+  BackgroundColor #c3d8f4\#6192d1
+  BorderColor #00FFFF
+  FontColor #50FFFF
+}
+skinparam database {
+  BackgroundColor #FFd8f4\#FF92d1
+  BorderColor #50FF50
+  FontColor #FF5050
+}
+class dummy1 {
+  foo1
+}
+database dummy2
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "mukqzzoect6fzb2r4m91xlyydf1igv9",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.693Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Swimlane 1|
+start
+repeat
+:Task B;
+while (Condition 1) is (Yes)
+  :Task C;
+endwhile (No)
+repeat while (Condition 2) is (Yes) not (No)
+:Task D;
+@enduml

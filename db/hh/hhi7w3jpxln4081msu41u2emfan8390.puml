@@ -1,0 +1,16 @@
+{
+  "sha1": "hhi7w3jpxln4081msu41u2emfan8390",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.564Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundColor grey
+A -> B: request
+...5 seconds...
+A -> B: request
+...W...
+A -> B: request
+...this is a very long sentence that is very long...
+@enduml

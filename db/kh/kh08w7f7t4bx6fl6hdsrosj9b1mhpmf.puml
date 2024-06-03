@@ -1,0 +1,11 @@
+{
+  "sha1": "kh08w7f7t4bx6fl6hdsrosj9b1mhpmf",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.978Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase "Modeliser\nles\nprojets" as UC1
+comtotoponent compo <<testable>>
+@enduml

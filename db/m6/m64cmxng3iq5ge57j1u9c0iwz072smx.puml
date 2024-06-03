@@ -1,0 +1,18 @@
+{
+  "sha1": "m64cmxng3iq5ge57j1u9c0iwz072smx",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.948Z",
+    "url": "https://github.com/plantuml/plantuml/pull/448",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam BackgroundColor grey
+skinparam Shadowing false
+skinparam StateBackgroundColor grey
+
+[*] -->o foo
+foo x--> foo
+
+@enduml

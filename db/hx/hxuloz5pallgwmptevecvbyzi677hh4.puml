@@ -1,0 +1,12 @@
+{
+  "sha1": "hxuloz5pallgwmptevecvbyzi677hh4",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.120Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam titleFontSize 17
+title test
+Bob -> Alice : ok
+@enduml

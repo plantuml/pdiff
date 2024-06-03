@@ -1,0 +1,26 @@
+{
+  "sha1": "icnkksku8ecedrvc8j5xqj26qdxbdcn",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.590Z",
+    "url": "https://forum.plantuml.net/13843/missing-arrowheads-in-sequence-diagram?show=13846#c13846",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+== <color:red> KO ==
+Alice x->    Alice : ""x->  ""
+Alice <->    Alice : ""<->  ""
+Alice o<->o  Alice : ""o<->o""
+Alice <->o   Alice : ""<->o""
+Alice x<->x  Alice : ""x<->x""
+Alice x->o   Alice : ""x->o ""
+
+== <color:green> OK ==
+Alice x->    Bob : ""x->  ""
+Alice <->    Bob : ""<->  ""
+Alice o<->o  Bob : ""o<->o""
+Alice <->o   Bob : ""<->o""
+Alice x<->x  Bob : ""x<->x""
+Alice x->o   Bob : ""x->o ""
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "j03kpvecemfy38t8wpc611y9le3ft90",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.373Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Lampiris|
+:initiate switch();
+:VerifierRecevabiliteCHF();
+|Web Service|
+if (Recevable) then (non)
+:statut 022;
+stop
+endif
+@enduml

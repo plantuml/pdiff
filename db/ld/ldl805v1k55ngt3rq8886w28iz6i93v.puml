@@ -1,0 +1,30 @@
+{
+  "sha1": "ldl805v1k55ngt3rq8886w28iz6i93v",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.008Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+partition Conductor #red/white {
+'partition Conductor #red {
+  (*) --> "Climbs on Platform"
+  --> === S1 ===
+  --> Bows
+}
+
+partition Audience #LightSkyBlue {
+  === S1 === --> Applauds
+}
+
+partition Conductor {
+  Bows --> === S2 ===
+  --> WavesArmes
+  Applauds --> === S2 ===
+}
+
+partition Orchestra #CCCCEE {
+  WavesArmes --> Introduction
+  --> "Play music"
+}
+@enduml

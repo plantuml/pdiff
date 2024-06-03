@@ -1,0 +1,20 @@
+{
+  "sha1": "ipjbg0kyd1jti1lmgr3tjdyjcissgzc",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.064Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state CompositeState {
+        state entry1 <<entrypoint>>
+
+        state SubComposite {
+                [*] --> A
+                A -left-> B
+                B --> [*]
+        }
+        [*] -up-> SubComposite
+        entry1 --> B
+}
+@enduml

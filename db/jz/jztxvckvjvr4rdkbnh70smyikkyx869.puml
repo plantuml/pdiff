@@ -1,0 +1,22 @@
+{
+  "sha1": "jztxvckvjvr4rdkbnh70smyikkyx869",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.429Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor Smith
+box "A box" #LightBlue
+participant foo
+participant bar
+end box
+participant baz
+
+Smith -> foo: call foo
+alt #green if something
+foo -> bar: do something
+else something else
+foo -> baz: do something else
+end
+@enduml

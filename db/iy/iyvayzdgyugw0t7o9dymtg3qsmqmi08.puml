@@ -1,0 +1,13 @@
+{
+  "sha1": "iyvayzdgyugw0t7o9dymtg3qsmqmi08",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.336Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* First Root
+** With some branch
+* Second Root
+** With another branch
+@endmindmap

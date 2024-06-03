@@ -1,0 +1,15 @@
+{
+  "sha1": "ic3onp3bakhderz2w2s1n2xpbdvinsw",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.562Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam backgroundColor red
+
+class foo1
+class foo2
+
+@enduml

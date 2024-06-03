@@ -1,0 +1,16 @@
+{
+  "sha1": "iqvo8s778ritx5tbudvrmcq93zecajl",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.116Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam topurl http://www.google.com
+
+Title this is a title
+participant Bob [[/search]]
+participant Alice [[http://www.sf.net{This is alice}]]
+Bob -> Alice : ok
+
+@enduml

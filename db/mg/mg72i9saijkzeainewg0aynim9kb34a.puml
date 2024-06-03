@@ -1,0 +1,15 @@
+{
+  "sha1": "mg72i9saijkzeainewg0aynim9kb34a",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.189Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam arrowThickness 4
+component c1
+component c2
+component c3
+c1 --> c2
+c1 -[dashed]-> c3
+@enduml

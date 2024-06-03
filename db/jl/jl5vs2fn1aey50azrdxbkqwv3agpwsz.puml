@@ -1,0 +1,11 @@
+{
+  "sha1": "jl5vs2fn1aey50azrdxbkqwv3agpwsz",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.006Z",
+    "url": "https://github.com/plantuml/plantuml/issues/40",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+listfonts <U+1F680><U+263A><U+1F601><U+1F680><U+1F6E0>
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "ivyokssi50s0bhflyqi4e5bow490pey",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.269Z",
+    "url": "http://forum.plantuml.net/6864/block-comment-before-code-gives-syntax-error",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+/' my comment '/ !define foo bar
+Alice -> Bob : foo
+@enduml

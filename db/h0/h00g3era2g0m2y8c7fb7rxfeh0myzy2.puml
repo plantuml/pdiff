@@ -1,0 +1,12 @@
+{
+  "sha1": "h00g3era2g0m2y8c7fb7rxfeh0myzy2",
+  "insertion": {
+    "when": "2024-06-03T18:59:28.983Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=6423/can-i-set-arrow-thickness-on-a-component-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class c1
+c1 -[thickness=5]-> c4
+@enduml

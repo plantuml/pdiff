@@ -1,0 +1,13 @@
+{
+  "sha1": "k8h3e24wcalfr8kx3idqpkdcyb5i4z4",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.733Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class toto1
+class toto2
+class toto3
+this is a strange line <b>bold</b>
+@enduml

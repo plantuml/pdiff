@@ -1,0 +1,13 @@
+{
+  "sha1": "i3gf1k3n7nq3ayg3gdgmigmeiczi4q",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.268Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Abox
+participant Bbox
+create Abox
+Bbox -> Abox : create
+@enduml

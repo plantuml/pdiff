@@ -1,0 +1,16 @@
+{
+  "sha1": "l9p5mqgft3vt5qu8ci3xhwg7r6pybzm",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.919Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1301",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+
+actor "User" as User
+participant "A.B" as A.B
+User -> A.B : Uses
+
+@enduml

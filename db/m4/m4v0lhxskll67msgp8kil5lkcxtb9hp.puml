@@ -1,0 +1,46 @@
+{
+  "sha1": "m4v0lhxskll67msgp8kil5lkcxtb9hp",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.901Z",
+    "url": "https://forum.plantuml.net/17932/nwdiag-possible-misbehavior",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+    ISP_A [ shape = cloud];
+    ISP_A -- routerA;
+    ISP_B [ shape = cloud];
+    ISP_B -- routerB;
+
+    network RED {
+        address = "192.168.8.0/24"
+        color = red
+        routerA [address = "192.168.8.1"];
+        routerB [address = "192.168.8.2"];
+        Firewall [address = "192.168.8.x"];
+    }
+    network ORANGE {
+        address = "192.168.9.0/24
+        color = orange
+        Firewall [address = "192.168.9.1"];
+        WebServer [address = "192.168.7.x"];
+        OtherServer [address = "192.168.7.x"];
+    }
+    network GREEN {
+        address = "192.168.7.0/24
+        color = palegreen
+        Firewall [address = "192.168.7.1"];
+        controller [address = "192.168.7.x"];
+        workstation [address = "192.168.7.x"];
+    }
+    group {
+        color = "#aaaaFF";
+        description = "LXD Server";
+        Firewall;
+        WebServer;
+        OtherServer;
+    }
+
+}
+@enduml

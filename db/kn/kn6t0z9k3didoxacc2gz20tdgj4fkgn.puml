@@ -1,0 +1,11 @@
+{
+  "sha1": "kn6t0z9k3didoxacc2gz20tdgj4fkgn",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.179Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+toto1 *-- toto2
+interface toto1
+@enduml

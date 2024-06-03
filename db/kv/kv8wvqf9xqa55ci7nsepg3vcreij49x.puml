@@ -1,0 +1,18 @@
+{
+  "sha1": "kv8wvqf9xqa55ci7nsepg3vcreij49x",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.406Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+[Angular] --> [Provider]
+
+component [Provider] {
+(setMember1)
+}
+
+[Provider]
+
+@enduml

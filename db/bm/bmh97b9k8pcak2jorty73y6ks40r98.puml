@@ -1,0 +1,19 @@
+{
+  "sha1": "bmh97b9k8pcak2jorty73y6ks40r98",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.653Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : ok1
+Alice -> t1 : t1
+Alice -> t2 : t2
+Alice -> t3 : t3
+
+== Resource AllocationAllocationX ==
+
+Bob -> Alice : ok2
+
+
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "kfw6qtn5ws9ut26paaxsnzttvp96i3p",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.950Z",
+    "url": "https://forum.plantuml.net/12056/ability-to-add-a-label-to-a-group-in-nwdiag",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|lane 1|
+start
+repeat
+repeat :some action;
+repeat while(test 1);
+repeat while(test 2);
+stop
+@enduml

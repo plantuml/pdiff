@@ -1,0 +1,20 @@
+{
+  "sha1": "jwzbt2v0vl1h9oqo5t5ttnzx5egndu",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.342Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "Data" as DATA
+@DATA
+0 is A0 #Yellow
+100 is 4B #AntiqueWhite
+200 is 04 #LightSkyBlue 
+300 is {...} #SlateGrey 
+400 is 18 #white
+500 is {hidden} #SlateGrey 
+600 is 05 
+700 is {-} 
+800 is 08 
+@enduml

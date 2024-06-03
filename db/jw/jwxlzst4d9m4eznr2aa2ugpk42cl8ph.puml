@@ -1,0 +1,10 @@
+{
+  "sha1": "jwxlzst4d9m4eznr2aa2ugpk42cl8ph",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.335Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state state1 #red
+@enduml

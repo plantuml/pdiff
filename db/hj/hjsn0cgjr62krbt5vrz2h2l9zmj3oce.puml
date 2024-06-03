@@ -1,0 +1,14 @@
+{
+  "sha1": "hjsn0cgjr62krbt5vrz2h2l9zmj3oce",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.674Z",
+    "url": "http://forum.plantuml.net/8667/variable-substitution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define i j
+!define h i
+!define g h
+title g h i
+@enduml

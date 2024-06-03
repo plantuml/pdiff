@@ -1,0 +1,13 @@
+{
+  "sha1": "k28yb0o74s7sdserhbv5hw3iybq6z8d",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.495Z",
+    "url": "https://github.com/plantuml/plantuml/issues/322",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component Foo
+component Bar
+Foo -0)- Bar
+@enduml

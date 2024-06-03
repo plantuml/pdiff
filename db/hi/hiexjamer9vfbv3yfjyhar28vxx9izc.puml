@@ -1,0 +1,27 @@
+{
+  "sha1": "hiexjamer9vfbv3yfjyhar28vxx9izc",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.595Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1596",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam actorStyle awesome
+<style>
+actor {
+  BackGroundColor aliceblue
+  LineColor red
+  LineThickness 4
+  FontColor blue
+  FontSize 15
+  FontStyle italic
+}
+</style>
+
+actor a
+component b
+a-->b: hello
+
+@enduml

@@ -1,0 +1,42 @@
+{
+  "sha1": "lq9fo97y3u64pqyi7yqx3wphnghk1zy",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.415Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+arrow {
+  LineStyle 8
+  LineColor blue
+}
+</style>
++ New Job
+<style>
+arrow {
+  LineColor green
+}
+</style>
+++ Decide on Job Requirements
++++ Identity gaps
++++ Review JDs
+++++ Sign-Up for courses
+++++ Volunteer
+++++ Reading
++++ Checklist
+++++ Responsibilities
+++++ Location
+<style>
+arrow {
+  LineStyle 0
+  LineThickness 4
+}
+</style>
+++ CV Upload Done
++++ CV Updated
+++++ Spelling & Grammar
+++++ Check dates
+++++ Skills
++++ Recruitment sites chosen
+@endwbs

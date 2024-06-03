@@ -1,0 +1,10 @@
+{
+  "sha1": "l6kwnypokovle5ms4pge46nf71vbxlo",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.786Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : <text class=foo id=dummy>message</text>
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "ksiwmdbxsq6r7phrb7k9l6zeeyk4whz",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.318Z",
+    "url": "https://forum.plantuml.net/10223/possible-combine-icons-with-formats-icon-replaced-anymore",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "<&person>ca marche"
+rectangle "==<&person>ca marche pas"
+@enduml

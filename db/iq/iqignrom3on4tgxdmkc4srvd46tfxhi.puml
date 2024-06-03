@@ -1,0 +1,33 @@
+{
+  "sha1": "iqignrom3on4tgxdmkc4srvd46tfxhi",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.106Z",
+    "url": "https://forum.plantuml.net/3118/introduce-padding-setting?show=11394#c11394",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+<style>
+</style>
+
+title padding/margin needs example:
+ 
+file "file\n" as package {
+() " " as acc1
+() " " as acc2
+}
+
+acc1 ~RIGHT~ acc2 : "access"
+acc1 <~RIGHT~ acc2 : "r"
+acc1 ~RIGHT~> acc2 : "w"
+acc1 <~RIGHT~> acc2 : "rw"
+
+caption
+What I'd love to be able to do:
+# ±25px bottom padding to //file//
+# add ±10px top margin to the diagram
+# ±5px left&right padding to the document
+# fix the missing space ""here"" (and on 1.)
+end caption
+@enduml

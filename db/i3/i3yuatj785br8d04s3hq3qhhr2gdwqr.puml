@@ -1,0 +1,20 @@
+{
+  "sha1": "i3yuatj785br8d04s3hq3qhhr2gdwqr",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.289Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma horizontalLineBetweenDifferentPackageAllowed
+
+package A {
+component Component1
+}
+package B {
+component Component2
+}
+
+Component1 -right-> Component2
+
+@enduml

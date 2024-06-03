@@ -1,0 +1,14 @@
+{
+  "sha1": "ksoezx9ito68hqw8kok2ytpgcq9df5e",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.339Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+entity EFG
+entity ABC [
+ details1
+ details2
+]
+@enduml

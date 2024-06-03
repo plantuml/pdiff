@@ -1,0 +1,21 @@
+{
+  "sha1": "hwuyb76mbc7nntaimxgrkp98dswtec3",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.113Z",
+    "url": "http://forum.plantuml.net/6852/",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+rectangle blahblah as bb  #line.dotted {
+    rectangle "first3" as fst #77F;line.dashed {
+        rectangle third #red;line.dashed
+        (forth)
+        rectangle fifth #line.bold
+    }
+    rectangle "second" as scnd
+    fst -> scnd
+
+}
+@enduml

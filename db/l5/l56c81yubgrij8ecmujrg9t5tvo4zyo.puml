@@ -1,0 +1,12 @@
+{
+  "sha1": "l56c81yubgrij8ecmujrg9t5tvo4zyo",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.723Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A ->> B : Nice arrowhead
+A <<-- B : Nice arrowhead
+A <<->> B : BUG
+@enduml

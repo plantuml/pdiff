@@ -1,0 +1,23 @@
+{
+  "sha1": "j3h1cttygvtifkqmpbwce6turbttf5l",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.429Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml 
+start 
+:AmSingleUserPrepayAction.prepay(request,response); 
+if (校验地区编号是否合法\n StringUtils.isBlank(regionId) \n || regionId.trim().equals("-1") \n|| regionId.trim().equals("000")) then (Y) 
+if(判断用户登录是否合法 \n UserInfoInterface user = SessionManager.getUser() \n user == null) then (Y) 
+
+else (N :登录不合法Return) 
+endif 
+else (N :地区编号不合法Return) 
+endif 
+
+note left : A 
+stop 
+
+
+@enduml

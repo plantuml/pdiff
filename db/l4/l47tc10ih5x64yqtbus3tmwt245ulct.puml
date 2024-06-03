@@ -1,0 +1,19 @@
+{
+  "sha1": "l47tc10ih5x64yqtbus3tmwt245ulct",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.674Z",
+    "url": "https://github.com/plantuml/plantuml/issues/967#issuecomment-1365230051",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace NR <<Rectangle>> {
+    class NR1
+    class NR2
+}
+
+namespace NC <<Cloud>> {
+    class NC1
+    class NC2
+}
+@enduml

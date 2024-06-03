@@ -1,0 +1,11 @@
+{
+  "sha1": "lgrsgwl4ih9sb5ay4nh6r4eatkpbc3a",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.112Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcreole
+this is an example <i>which is italic</i>
+this is //an// example <i>which **is** italic
+@endcreole

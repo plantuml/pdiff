@@ -1,0 +1,24 @@
+{
+  "sha1": "m9k3kl5pfwl84gx6zh54m6jcmau3gwv",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.011Z",
+    "url": "https://forum.plantuml.net/14692/user-defined-style-applied-on-class-also-becomes-stereotype",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+classDiagram {
+    RoundCorner 15
+    .mystyle {
+    	RoundCorner 5
+        BackgroundColor cyan
+        FontStyle Bold
+        FontColor red
+    }
+}
+</style>
+class AliceMyStyle <<<mystyle>>>
+class AliceMyStyleStereo <<mystyle>>
+class Alice
+@enduml

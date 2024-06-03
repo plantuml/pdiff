@@ -1,0 +1,12 @@
+{
+  "sha1": "iq22wld7blokop50jdflpsz9sm0jwya",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.092Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+Alice -> Bob : path %dirpath()
+Alice -> Bob : filename %filename()
+@enduml

@@ -1,0 +1,24 @@
+{
+  "sha1": "i4y4f2unbz6q0oecf9ajfs8bhx09p3s",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.303Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+node {
+    MaximumWidth 300
+}
+
+firstNode {
+	FontSize 50
+}
+
+leafNode {
+}
+
+arrow {
+}
+</style>
+@endmindmap

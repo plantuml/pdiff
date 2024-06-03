@@ -1,0 +1,14 @@
+{
+  "sha1": "i6s5r19dasaspzpocyqq19nx23dquvl",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.387Z",
+    "url": "https://forum.plantuml.net/12844/please-allow-%23transparent-synonym-%2300000000-activity-diagram?show=12885#c12885",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+node node1
+  node node2
+
+  node1 -[#transparent]- node2
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "8ra2ms5a3ysv956ahd79nfzmqpa473q",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.646Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package p1 {
+class bidon
+}
+
+package p2 {
+class A
+class B
+}
+
+p1 +--- p2
+
+p1 +-- foo2
+
+@enduml

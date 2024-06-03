@@ -1,0 +1,20 @@
+{
+  "sha1": "ij9tnfjukfzom9fmgfruwvsf0gv97em",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.786Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Hello;
+if (test) then
+	:Action10;
+	:Action20;
+else
+	:Action30;
+	:Action40;
+endif
+:Action50;
+:Action60;
+@enduml

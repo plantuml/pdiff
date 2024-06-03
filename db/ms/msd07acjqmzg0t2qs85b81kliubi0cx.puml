@@ -1,0 +1,55 @@
+{
+  "sha1": "msd07acjqmzg0t2qs85b81kliubi0cx",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.602Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+sprite $TimerExpired [17x21/4z] Os101qnWmCmCfXWP6HcOqG1M0OH-C0T91Cg4Yw0pq9MY6uR2XuWmu1D0rm9t9HeVoHae8cX-8yxx-0K0
+sprite $TimerStarted [17x21/4z] Os101qnWmCmCfXWP6HcOqG0H0WpeV5GHY4NeV8G8mZ7eV8W80pu1B4P02IG-aWWw0rqfXc6aXmS0
+sprite $TimerStopped [17x21/4z] Os101qnWmCmCfXWP6HcOqG1M0OH-C0T91Cg4Yw0pq9MY6uR2XuWmu1D0rq9jzn0N7YW00000
+hide footbox
+title test of plant uml
+participant ALICE
+participant BOB
+
+scale 3.0
+
+......
+<- ALICE : <$TimerStarted> <b>Set</b> TEST_TIMER_1
+ALICE ->> BOB : <b>TEST_MESSAGE_1
+BOB ->> ALICE : <b>TEST_MESSAGE_2
+<- ALICE : <$TimerStopped> <b>Reset</b> TEST_TIMER_1
+ALICE ->> BOB : <b>TEST_MESSAGE_1
+BOB ->> ALICE : <b>TEST_MESSAGE_2
+ALICE ->> BOB : <b>TEST_MESSAGE_1
+......
+<- ALICE : <$TimerStarted> <b>Set</b> TEST_TIMER_1
+ALICE ->> BOB : <b>TEST_MESSAGE_1
+BOB ->> ALICE : <b>TEST_MESSAGE_2
+<- ALICE : <$TimerStopped> <b>Reset</b> TEST_TIMER_1
+ALICE ->> BOB : <b>TEST_MESSAGE_1
+BOB o->> ALICE : <b>TEST_MESSAGE_2
+ALICE ->>o BOB : <b>TEST_MESSAGE_1
+......
+newpage Test of PlantUML, Part 2
+
+......
+<- ALICE : <$TimerStarted> <b>Set</b> TEST_TIMER_1
+ALICE ->> BOB : <b>TEST_MESSAGE_1
+BOB ->> ALICE : <b>TEST_MESSAGE_2
+<- ALICE : <$TimerStopped> <b>Reset</b> TEST_TIMER_1
+ALICE ->> BOB : <b>TEST_MESSAGE_1
+BOB ->> ALICE : <b>TEST_MESSAGE_2
+ALICE ->> BOB : <b>TEST_MESSAGE_1
+......
+<- ALICE : <$TimerStarted> <b>Set</b> TEST_TIMER_1
+ALICE ->> BOB : <b>TEST_MESSAGE_1
+BOB ->> ALICE : <b>TEST_MESSAGE_2
+<- ALICE : <$TimerStopped> <b>Reset</b> TEST_TIMER_1
+ALICE ->> BOB : <b>TEST_MESSAGE_1
+BOB o->> ALICE : <b>TEST_MESSAGE_2
+ALICE ->>o BOB : <b>TEST_MESSAGE_1
+......
+@enduml

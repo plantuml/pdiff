@@ -1,0 +1,10 @@
+{
+  "sha1": "hwckd3zioql4v8od4368dpk0k5aiqvs",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.092Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcute
+ stick color=green position=30,30 dimension=20,70 rotation=10
+@endcute

@@ -1,0 +1,18 @@
+{
+  "sha1": "mz1iyeloay4kedrvv41g6p5e71cwfil",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.917Z",
+    "url": "https://forum.plantuml.net/9939/conditional-application-of-styles",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+
+<style>
+arrow {
+  LineColor green
+}
+</style>
+Alice -> Bob : hello
+@enduml

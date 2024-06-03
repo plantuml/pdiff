@@ -1,0 +1,15 @@
+{
+  "sha1": "h93clqdgbzyss81lh3t85s6z9zu4pzl",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.299Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none 
+component compo1 {
+component c1
+}
+component c2
+c1 #-- c2
+@enduml

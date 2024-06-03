@@ -1,0 +1,26 @@
+{
+  "sha1": "hr8elmbo6ewqvuuv77ijgivfgtfjato",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.910Z",
+    "url": "https://forum.plantuml.net/5261/please-allow-adding-edges-class-members-methods-complex-names?show=15161",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+left to right direction
+
+class User {
+  id2 : INTEGER
+  ..
+  id : INTEGER
+}
+
+class Email {
+  id : INTEGER
+  ..
+  user_id : INTEGER
+  address : INTEGER
+}
+
+User::id *-- Email::user_id
+@enduml

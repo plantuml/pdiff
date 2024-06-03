@@ -1,0 +1,22 @@
+{
+  "sha1": "h5st25g1u6o4w4lcdh2sdfooskl2572",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.179Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+scale 1.0
+ 
+skinparam class {
+  AttributeFontName  consolas
+  AttributeFontSize  12
+  AttributeFontStyle italic
+}
+ 
+enum MyEnum {
+    MyEnumValue1 = 0x00000001
+}
+ 
+@enduml

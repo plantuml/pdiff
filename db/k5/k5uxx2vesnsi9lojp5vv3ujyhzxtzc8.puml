@@ -1,0 +1,24 @@
+{
+  "sha1": "k5uxx2vesnsi9lojp5vv3ujyhzxtzc8",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.642Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+[*] --> State1
+State1 --> State2 : Succeeded
+State1 --> [*] : Aborted
+State2 --> State3 : Succeeded
+State2 --> [*] : Aborted
+state State3 {
+[*] --> AccumulateEnoughDataLongStateName
+AccumulateEnoughDataLongStateName --> AccumulateEnoughDataLongStateName : New Data
+AccumulateEnoughDataLongStateName --> ProcessData : Enough Data
+}
+State3 --> State3 : Failed
+State3 --> [*] : Succeeded / Save Result
+State3 --> [*] : Aborted
+
+@enduml

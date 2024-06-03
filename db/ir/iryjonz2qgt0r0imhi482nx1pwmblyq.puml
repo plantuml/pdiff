@@ -1,0 +1,15 @@
+{
+  "sha1": "iryjonz2qgt0r0imhi482nx1pwmblyq",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.153Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam arrowColor  #blue
+skinparam arrowFontColor #blue
+skinparam arrowLollipopColor #red
+
+something -right(0- anything : description
+
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "jfbir4tl9l7xeoeehuox1kbrhd1vjgt",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.817Z",
+    "url": "https://forum.plantuml.net/13560/gantt-issue-with-yearly-print-when-project-begin-beginning",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+projectscale yearly
+Project starts the 2020-12-01
+[Prototype design] lasts 450 days
+@endgantt

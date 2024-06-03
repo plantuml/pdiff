@@ -1,0 +1,13 @@
+{
+  "sha1": "h7g4tmwmjj82njjvke1m0cimj6kcc85",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.246Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1158",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+file test_bullet_list_creole [
+***bold no space***
+]
+@enduml

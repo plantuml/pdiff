@@ -1,0 +1,19 @@
+{
+  "sha1": "lmi6yc4m867zxhhuswvq9udpgq3u81u",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.300Z",
+    "url": "https://forum.plantuml.net/14346/hyphen-in-node-id-causes-syntax-error",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+  network network2 {
+    address = "192.0.2.0/16"
+    description = "network-1"
+    node1 [address="192.0.2.4", description = "node-1"];
+    node2 [address="192.0.2.2"];
+    node3 [address="192.0.2.3"];
+  }
+}
+@enduml

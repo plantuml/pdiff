@@ -1,0 +1,15 @@
+{
+  "sha1": "hm6ymrrlp7mcvslcexwewwrvyxj1dbp",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.740Z",
+    "url": "http://forum.plantuml.net/8612/teoz-wrong-note-position-after-array",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Bob -> Alice ++ #blue : hello
+note right: (3) Where does blue start?
+return Hi
+& Ken -[#red]> Jane: (4) Same level?
+@enduml

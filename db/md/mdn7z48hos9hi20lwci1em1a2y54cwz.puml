@@ -1,0 +1,26 @@
+{
+  "sha1": "mdn7z48hos9hi20lwci1em1a2y54cwz",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.109Z",
+    "url": "https://forum.plantuml.net/15983/element-line-style-not-applied-in-usecase-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Bracketed line thickness
+class foo
+class bar
+bar1 : [thickness=1]
+bar2 : [thickness=2]
+bar3 : [thickness=4]
+bar4 : [thickness=8]
+bar5 : [thickness=16]
+
+foo --> bar                 : ∅
+foo -[thickness=1]-> bar1   : [1]
+foo -[thickness=2]-> bar2   : [2]
+foo -[thickness=4]-> bar3   : [4]
+foo -[thickness=8]-> bar4   : [8]
+foo -[thickness=16]-> bar5  : [16]
+
+@enduml

@@ -1,0 +1,21 @@
+{
+  "sha1": "hgrnwn65sxvfqavv8t1v212a1c2828g",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.550Z",
+    "url": "https://github.com/plantuml/plantuml-stdlib/issues/63#issuecomment-1314774419",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <awslib14/AWSCommon>
+!include <awslib14/BusinessApplications/all>
+!include <awslib14/Storage/SimpleStorageService>
+
+actor "Person" as personAlias
+WorkDocs(desktopAlias, "Label", "Technology", "Optional Description")
+SimpleStorageService(storageAlias, "Label", "Technology", "Optional Description")
+
+personAlias --> desktopAlias
+desktopAlias --> storageAlias
+
+@enduml

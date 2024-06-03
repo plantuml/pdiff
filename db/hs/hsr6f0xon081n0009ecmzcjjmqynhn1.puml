@@ -1,0 +1,19 @@
+{
+  "sha1": "hsr6f0xon081n0009ecmzcjjmqynhn1",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.987Z",
+    "url": "https://forum.plantuml.net/9744/default-value-of-functions-params-doesnt-work-in-functions",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!function $inner($param1, $param2 = "arg2default")
+!return $param1 + " " + $param2
+!endfunction
+
+!function $test($param)
+!return $param
+!endfunction
+
+A -> B: $test($inner("arg1"))
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "ihejfh109q7rqcvhttv49mmzdq6neii",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.730Z",
+    "url": "https://forum.plantuml.net/14473/backward-in-activity-beta-break-in-swim-lanes?show=14648#a14648",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Developer|
+start
+repeat :Step1;
+|Owner|
+:Step 2;
+backward :back;
+repeat while
+|Developer|
+:Step 3;
+stop
+@enduml

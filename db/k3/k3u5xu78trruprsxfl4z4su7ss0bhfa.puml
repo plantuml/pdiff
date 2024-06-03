@@ -1,0 +1,51 @@
+{
+  "sha1": "k3u5xu78trruprsxfl4z4su7ss0bhfa",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.593Z",
+    "url": "https://forum.plantuml.net/16765/label-null-point-exception-in-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+title /api/v1/operations/initializations/{schema}/{table}/batch/{batchUID}
+
+if (Validate payload format) then (OK)
+   
+    :Search the possible match batch record in DB
+    __log possible match__
+    - {batchUid} -> batchUid
+    ;
+    
+    If (log record > 0) then (Yes)
+        :Prepare the initial load reponse;
+    else (No)
+        :Set http code = 403 ;
+        label sp_label0
+        goto sp_label1
+    endif
+else (Not OK)
+    :Set http code = 404 ;
+    
+    label sp_label1
+
+    :Generate errorCodeUid;
+    :Log error with errorCodeUid to Devo;
+
+    stop
+endif
+
+if (Record filter Provided?) then (Yes)
+    :__Filter by__
+    - recordFrom
+    - recordTo
+    ;
+else (No)
+endif
+
+:Set http code = 200;
+:Return Http response;
+
+stop
+@enduml

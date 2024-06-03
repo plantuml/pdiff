@@ -1,0 +1,18 @@
+{
+  "sha1": "j2ekb6vcgzlg8rtuz5ggquqkmd9wltj",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.401Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+folder "somefolder" as sf
+note top : foobar
+
+folder "somefolder2" as sf2
+note bottom : foobar
+
+folder sf3verylong
+note top : foobar
+
+@enduml

@@ -1,0 +1,27 @@
+{
+  "sha1": "l2jbnvksido2tskklvstpx2tiu02xqp",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.611Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+together {
+
+     rectangle Rec1 {
+         rectangle One
+         rectangle Two
+
+         One -> Two
+     }
+
+     rectangle Rec2 {
+         rectangle Three
+         rectangle Four
+
+         Three -> Four
+     }
+}
+
+@enduml

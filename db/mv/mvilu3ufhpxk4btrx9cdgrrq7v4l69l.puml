@@ -1,0 +1,14 @@
+{
+  "sha1": "mvilu3ufhpxk4btrx9cdgrrq7v4l69l",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.763Z",
+    "url": "https://github.com/plantuml/plantuml/issues/835#issuecomment-998623186",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+project starts 2021/12/16
+2021/12/16 to 2021/12/17 is named [A]
+2022/01/13 to 2022/01/14 is named [B]
+[Do stuff] starts at [A]'s start and ends at [B]'s end
+@endgantt

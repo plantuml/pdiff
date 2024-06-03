@@ -1,0 +1,14 @@
+{
+  "sha1": "kizdk35gxg7oczr6mmdhojts0fuiywy",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.041Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!definelong AUTHEN()
+x -> y : hello
+y -> x : ok
+!enddefinelong
+AUTHEN()
+@enduml

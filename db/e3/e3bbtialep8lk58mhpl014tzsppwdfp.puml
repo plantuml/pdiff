@@ -1,0 +1,17 @@
+{
+  "sha1": "e3bbtialep8lk58mhpl014tzsppwdfp",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.418Z",
+    "url": "https://forum.plantuml.net/15605/activity-missing-arrow-label-on-end-merge",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+fork
+  :action 1;
+-> missing arrow label;
+fork again
+  :action 2;
+-> missing arrow label;
+end merge
+@enduml

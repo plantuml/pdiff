@@ -1,0 +1,16 @@
+{
+  "sha1": "ipvfr0s3jhemoup00p0rio3w8ynut8l",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.085Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+while( while 1 ) 
+-[#LightGreen]-> true;
+	:action;
+endwhile
+-[#Grey]-> false;
+stop
+@enduml

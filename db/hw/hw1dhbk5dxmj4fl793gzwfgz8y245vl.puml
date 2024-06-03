@@ -1,0 +1,12 @@
+{
+  "sha1": "hw1dhbk5dxmj4fl793gzwfgz8y245vl",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.078Z",
+    "url": "https://forum.plantuml.net/13336/inline-style-manage-dashed-dotted-nested-element-deployment",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+artifact artifact #aliceblue;line:blue;line.dotted;text:blue
+
+@enduml

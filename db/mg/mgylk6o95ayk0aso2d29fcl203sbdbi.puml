@@ -1,0 +1,12 @@
+{
+  "sha1": "mgylk6o95ayk0aso2d29fcl203sbdbi",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.234Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcute
+ rectangle color=green position=30,30 dimension=20,5 rotation=10
+ rectangle color=green position=30,34 dimension=15,5 rotation=10
+ rectangle color=green position=30,38 dimension=10,5 rotation=10
+@endcute

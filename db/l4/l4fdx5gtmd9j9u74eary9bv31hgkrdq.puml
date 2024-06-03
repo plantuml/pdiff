@@ -1,0 +1,28 @@
+{
+  "sha1": "l4fdx5gtmd9j9u74eary9bv31hgkrdq",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.681Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{+
+Road Test
+===
+{
+[Exit]|<space:20>|[Search]|[Resume]|[Screen]|[Window]|<space:20>|[Expand]|[Visible]|<space:20>|[Crash Data]|<space:20>|Show: |^All^|Road Quick Search: |"          "
+}
+{+
+Total Vehicles:| 216,000 |.| Subaru:|0 |.| Ford:|0 |.| Date: |Feb 30, 2014 |.| State
+Total Accidents: | 0 |.| Toyota: |0 |.| . | . |.| Status: | Updating |.| Mississtucky
+}
+{T#
++<b>Roads | <b># Cars | <b>Car Limit | <b># Trucks | <b>Truck Limit | <b>Vehicle Limit
++Road Capacity | 66,000 | 100,000 | 3,000 | 150,000 | 400,000
+++Town 1 | 5,000 | . | 100,000 | . | .
++++Road 1 | 1,000  | . | . | . | .
+++Town 2 | 60,000 | . | 50,000 | . | .
+}
+{[Resume] | [View <u>D</u>etails] | [Show <u>E</u>vents] | [Edit <u>L</u>imits] | [Update <u>P</u>rofile]}
+}
+@endsalt

@@ -1,0 +1,21 @@
+{
+  "sha1": "kdyee3mhr3gv76vnrmejzlg53e3d3zw",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.901Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+state OuterState {
+}
+
+state AbstractState {
+ state InnerState1
+ InnerState2 --> OuterState
+ InnerState2 --> InnerState1
+}
+
+AbstractState --> AbstractState
+
+@enduml

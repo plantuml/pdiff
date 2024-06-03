@@ -1,0 +1,19 @@
+{
+  "sha1": "mw4s29b3b4f45bek29gpxahy00qde1l",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.791Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1348",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class a {
+    int i
+}
+
+note left of a::i
+    This note on i
+end note
+
+@enduml

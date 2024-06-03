@@ -1,0 +1,12 @@
+{
+  "sha1": "ibd4w5f4giltd1r54jg3pecybm0njvb",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.520Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define SHOW_TYPE(x) my##x
+class ArrayList
+ArrayList : SHOW_TYPE(foo_type) size()
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "je1f8wh3iyqprbhjb6hyah2uzvifzec",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.775Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1293#issuecomment-1712983800",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    namespace ns {
+        class foo {
+        }
+        foo <-- .bar
+    }
+
+    struct bar {
+    }
+@enduml

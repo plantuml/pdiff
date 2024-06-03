@@ -1,0 +1,34 @@
+{
+  "sha1": "jjrrjqmrexv7xwywra396wfugwq7bci",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.971Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+package Catalog {
+    class Item {
+    }
+}
+
+package User {
+    class User {
+        String name
+    }
+}
+
+package Purchase as Pu {
+    class Purchase {
+    }
+
+    class LineItem {
+        int quantity
+    }
+
+    LineItem --> Item
+    Purchase --> User
+    LineItem *-- Purchase
+}
+
+@enduml

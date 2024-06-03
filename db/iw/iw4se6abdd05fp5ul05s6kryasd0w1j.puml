@@ -1,0 +1,15 @@
+{
+  "sha1": "iw4se6abdd05fp5ul05s6kryasd0w1j",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.284Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class cl1 {
+	 field1
+  method1()
+}
+cl1 -- cl2
+cl2 -- cl3
+@enduml

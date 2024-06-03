@@ -1,0 +1,27 @@
+{
+  "sha1": "mxisavnbrribt9yh3ftd1iz9egqu3z9",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.875Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam activityFontSize 4
+skinparam activityDiamondFontSize 30
+skinparam activityArrowFontSize 24
+skinparam activityFontColor red
+
+:start;
+if (some) then (yes)
+repeat
+  :first action;
+  :second action;
+repeatwhile (data to treat)
+else (no)
+  :me;
+endif
+while (foo)
+  :dans le while;
+endwhile
+:end of process;
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "k2eh78mk8sa7l8k7eph5zpew83m4nqr",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.516Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1578",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+mode compact
+clock "clk" as clk with period 1
+binary "bin" as bin
+@0
+bin is 0
+@1
+bin is 1
+@enduml

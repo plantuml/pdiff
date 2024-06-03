@@ -1,0 +1,23 @@
+{
+  "sha1": "jifdzm9sz9kxvgms9h78ip2t3kaw40l",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.943Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+repeat
+  :Test something;
+  floating note left : A note
+    if (Something went wrong?) then (no)
+      :OK;
+      break
+    endif
+    ->NOK;
+    :Alert "Error with long text";
+repeat while (Something went wrong with long text?) is (yes)
+->no;
+:Alert "Sucess";
+stop
+@enduml

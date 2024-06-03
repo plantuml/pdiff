@@ -1,0 +1,23 @@
+{
+  "sha1": "jeq34o3rstriblfycfld9j59w3dtawm",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.796Z",
+    "url": "http://forum.plantuml.net/6773/skinparam-partitionbordercolor-does-not-work",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam PartitionBorderColor blue
+
+start
+partition Initialization {
+    :read config file;
+    :init internal variable;
+}
+partition Running {
+    :wait for user interaction;
+    :print information;
+}
+
+stop
+@enduml

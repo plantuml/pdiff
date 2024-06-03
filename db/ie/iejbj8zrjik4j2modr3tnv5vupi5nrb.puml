@@ -1,0 +1,26 @@
+{
+  "sha1": "iejbj8zrjik4j2modr3tnv5vupi5nrb",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.618Z",
+    "url": "https://forum.plantuml.net/17600/note-and-position-not-rendering-correctly-on-cheerpj",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+
+rectangle a
+rectangle b
+a -- b
+
+rectangle big {
+  rectangle inside
+}
+note left of big
+note1
+end note
+note top of big
+note2
+end note
+
+@enduml

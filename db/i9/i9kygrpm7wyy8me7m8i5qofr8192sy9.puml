@@ -1,0 +1,28 @@
+{
+  "sha1": "i9kygrpm7wyy8me7m8i5qofr8192sy9",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.457Z",
+    "url": "http://forum.plantuml.net/7736/lines-over-activities-when-using-swim-lanes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|User|
+start
+split
+    |User|
+    :Prepare a source upload;
+    : Upload the package to the master with dput;
+    |Master|
+    : Receive the upload;
+    : Save the upload parameters;
+    :queue a build job;
+split again
+    |User|
+    : Create archive rebuild on the web interface;
+    |Master|
+    :Queue a build jobs for all packages in the archive;
+endsplit
+
+stop
+@enduml

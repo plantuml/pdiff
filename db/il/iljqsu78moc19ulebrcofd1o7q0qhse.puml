@@ -1,0 +1,13 @@
+{
+  "sha1": "iljqsu78moc19ulebrcofd1o7q0qhse",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.884Z",
+    "url": "http://forum.plantuml.net/7000/shadowing-false-doesnt-work-with-all-elements",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing   false
+actor actor
+usecase usecase
+@enduml

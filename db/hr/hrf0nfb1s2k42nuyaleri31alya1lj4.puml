@@ -1,0 +1,15 @@
+{
+  "sha1": "hrf0nfb1s2k42nuyaleri31alya1lj4",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.924Z",
+    "url": "https://forum.plantuml.net/10493/how-can-i-customize-the-actor-icon-in-svg-output",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam actorStyle awesome
+:User:
+"Main Admin" as Admin
+(Start)
+"Use the application" as (Use)
+@enduml

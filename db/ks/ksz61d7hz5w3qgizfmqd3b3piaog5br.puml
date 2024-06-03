@@ -1,0 +1,17 @@
+{
+  "sha1": "ksz61d7hz5w3qgizfmqd3b3piaog5br",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.346Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+'!preprocessorV2
+
+!include <tupadr3/font-awesome/gears.puml>
+{^"My group box<$gears*.3>"
+  Login    | "<$gears*.3>MyName   "
+  Password | "****     "
+  [Cancel] | [  OK<$gears*.3>   ]
+}
+@endsalt

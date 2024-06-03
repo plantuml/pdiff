@@ -1,0 +1,19 @@
+{
+  "sha1": "mkipgpld9wka2b60nxxns5k4b29nn85",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.361Z",
+    "url": "https://github.com/plantuml/plantuml/issues/218",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam SequenceMessage {
+  Margin 35
+  Padding 5
+  BackgroundColor Green
+  BorderColor Blue
+}
+Alice->Bob : hello
+
+@enduml

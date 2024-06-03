@@ -1,0 +1,14 @@
+{
+  "sha1": "kd06bbave2xrsjyfovhm0pto3l49xzy",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.873Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:er; <<output>>
+:<< Automobile >>
+Pinto;
+stop
+@enduml

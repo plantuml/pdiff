@@ -1,0 +1,17 @@
+{
+  "sha1": "l8hylfjwk7z8yshpl4763pijhd1qym",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.863Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*)-->"lol"
+-->"debut boucle ligne"
+-right->if"reste lignes" then
+  -->[Liste nonvide]"debut boucle ligne"
+else
+  -->[Liste vide]"continuer"
+  -->(*)
+endif
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "jbif88119bv4ftfwl5679xuszigolsu",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.698Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Alice
+participant Bob
+box "Titre 2"
+participant Pluton
+participant Sun
+endbox
+Alice -> Bob
+Bob -> Pluton
+Pluton -> Sun
+@enduml

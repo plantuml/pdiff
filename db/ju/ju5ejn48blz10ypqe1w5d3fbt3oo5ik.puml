@@ -1,0 +1,31 @@
+{
+  "sha1": "ju5ejn48blz10ypqe1w5d3fbt3oo5ik",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.265Z",
+    "url": "http://wiki.plantuml.net/site/plantumlshell",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!procedure msg(source, destination)
+source --> destination
+!endprocedure
+
+!procedure init_class($name)
+class $name {
+$addCommonMethod()
+}
+!endprocedure
+
+
+!procedure $addCommonMethod()
+  toString()
+  hashCode()
+!endprocedure
+
+
+init_class("foo1")
+init_class("foo2")
+msg("foo1", "foo2")
+@enduml

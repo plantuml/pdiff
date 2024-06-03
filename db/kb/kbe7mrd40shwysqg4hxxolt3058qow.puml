@@ -1,0 +1,17 @@
+{
+  "sha1": "kbe7mrd40shwysqg4hxxolt3058qow",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.803Z",
+    "url": "https://forum.plantuml.net/10600/sequence-diagram-missing-polygon-object-handwritten-create",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title modifier of B ("*") is not seen 
+component A
+component B {
+}
+component C {
+}
+B "*" -- C
+@enduml

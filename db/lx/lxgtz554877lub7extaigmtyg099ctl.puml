@@ -1,0 +1,15 @@
+{
+  "sha1": "lxgtz554877lub7extaigmtyg099ctl",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.628Z",
+    "url": "http://forum.plantuml.net/7710/teoz-and-%26-within-groups-is-not-working",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+group friends
+Bob -> Alice : Secret
+& Alice -> Stacy : Rumors
+end
+@enduml

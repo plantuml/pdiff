@@ -1,0 +1,37 @@
+{
+  "sha1": "hs0ns0cipakdkw2rnwav5m2kbq5ykd",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.952Z",
+    "url": "https://forum.plantuml.net/16185/diagram-connection-similar-contains-underscores-version",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+
+!define my_red FF0000A0
+!define my_blue 0000FFA0
+!define my_green 00AA00A0
+
+
+
+class "BigLibrary" as lib {
+    + longnamedfunction
+    + longnamedfunctionbutdifferent
+    + longnamedfunctionalsodifferent
+}
+
+
+class "SomeHandler" as handler
+class "SomeHelper" as helper
+
+
+
+handler -[#my_red]- lib::longnamedfunction
+handler -[#my_red]- lib::longnamedfunctionalsodifferent
+
+helper -[#my_blue]- lib::longnamedfunctionalsodifferent
+helper -- lib::longnamedfunctionbutdifferent
+
+
+@enduml

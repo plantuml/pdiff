@@ -1,0 +1,31 @@
+{
+  "sha1": "j3w4vtf13adcfyycqmmpen55epht7ka",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.450Z",
+    "url": "http://forum.plantuml.net/8158/improve-text-on-arrows-in-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+if (A) then (yes)
+        -[#black]-> aa1;
+        :AA;
+        -[#black]-> aa2;
+    elseif (B) then (yes)
+        :BB;
+        -[#black]-> bb2;
+    elseif (C) then (yes)
+        -[#black]-> cc1;
+        :CC;
+    elseif (D) then (yes)
+        :DD;
+    else (no)
+        -[#black]-> ee1;
+    :EE;
+        -[#black]-> ee2;
+    endif
+
+stop
+@enduml

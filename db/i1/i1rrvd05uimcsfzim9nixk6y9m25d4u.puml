@@ -1,0 +1,22 @@
+{
+  "sha1": "i1rrvd05uimcsfzim9nixk6y9m25d4u",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.261Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace A {
+  class Source {
+    att : String
+  }
+}
+
+namespace B {
+  class Target {
+    att : String
+  }
+  Target "0..*" --> "0..1" A.Source
+}
+
+@enduml

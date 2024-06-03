@@ -1,0 +1,21 @@
+{
+  "sha1": "kd260j1ogcjkh2u6q9wg93ej79zrwfz",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.887Z",
+    "url": "http://forum.plantuml.net/6852/",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+rectangle blahblah as bb <<System Boundry>> {
+    rectangle "first" as fst <<System Boundry>> {
+        rectangle third #line.dashed
+        (forth)
+        rectangle fifth <<System Boundry>>
+    }
+    rectangle "second" as scnd
+    fst -> scnd
+
+}
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "mdoy3knlo6ze1nd5fzp0zcv5afskvv",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.116Z",
+    "url": "https://forum.plantuml.net/15360/ideas-for-2-new-json-builtins",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$myjson = {
+"name": "Mark McGwire", "hr": 65, "avg":  0.278
+}
+
+!foo = $myjson.root
+!foreach $key in %get_json_keys($myjson)
+     rectangle $key
+!endfor
+
+@enduml

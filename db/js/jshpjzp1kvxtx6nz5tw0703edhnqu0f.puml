@@ -1,0 +1,27 @@
+{
+  "sha1": "jshpjzp1kvxtx6nz5tw0703edhnqu0f",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.185Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide @unlinked
+box "b1"
+participant A
+participant B
+end box
+
+box "b2"
+participant C
+participant D
+participant E
+end box
+
+box "b3"
+participant F
+end box
+
+A -> E
+
+@enduml

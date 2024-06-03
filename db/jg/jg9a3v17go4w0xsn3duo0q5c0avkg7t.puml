@@ -1,0 +1,24 @@
+{
+  "sha1": "jg9a3v17go4w0xsn3duo0q5c0avkg7t",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.866Z",
+    "url": "https://forum.plantuml.net/14563/style-object-allow-style-on-object-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+root {
+  FontColor Red
+  BackgroundColor palegreen
+}
+</style>
+
+object o1
+object user {
+  name = "Dummy"
+  id = 123
+}
+
+o1  -> user
+@enduml

@@ -1,0 +1,25 @@
+{
+  "sha1": "m5sj092rxskio04owrypzgu6hlmuckm",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.941Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title toto
+Object <|-- Foo
+class Foo [[http://www.google.com]] {
+  + methods1() [[[http://www.yahoo.com/A1{Some explainations about this method}]]]
+  + methods2() [[[http://www.yahoo.com/A2]]]
+ }
+ 
+ class Foo2 {
+  + methods1() [[[http://www.yahoo.com/B1]]]
+  + methods2() [[[http://www.yahoo.com/B2]]]
+ }
+ 
+ class Object [[http://www.fr]] {
+ }
+ 
+Object <|--- Foo2
+@enduml

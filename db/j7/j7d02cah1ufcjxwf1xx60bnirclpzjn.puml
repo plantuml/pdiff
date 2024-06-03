@@ -1,0 +1,21 @@
+{
+  "sha1": "j7d02cah1ufcjxwf1xx60bnirclpzjn",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.565Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+
+    state A {
+        state AA0
+        --
+        state AA1 {
+            state B1
+            '-- 
+            state B2
+        }
+    }
+
+@enduml

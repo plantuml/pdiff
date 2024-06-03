@@ -1,0 +1,20 @@
+{
+  "sha1": "l54am1n0depujzzovvzyle5m36ilf2i",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.716Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam interface {
+backgroundColor blue
+backgroundColor<<st>> aqua
+}
+skinparam interface<<st>>  {
+backgroundColor aqua
+}
+interface II1 <<st>>
+interface II2
+component foo
+
+@enduml

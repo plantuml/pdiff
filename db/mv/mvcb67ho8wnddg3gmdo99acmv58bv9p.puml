@@ -1,0 +1,19 @@
+{
+  "sha1": "mvcb67ho8wnddg3gmdo99acmv58bv9p",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.749Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+cl2 *-left- cl2Left 
+cl2 *-right- cl2Right 
+cl2 *-up- cl2Up 
+cl2 *-down- cl2Down
+ 
+cl3 o-left-> cl3Left 
+cl3 o-right-> cl3Right 
+cl3 o-up-> cl3Up 
+cl3 o-down-> cl3Down
+ 
+@enduml

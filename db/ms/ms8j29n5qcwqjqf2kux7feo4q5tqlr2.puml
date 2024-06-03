@@ -1,0 +1,23 @@
+{
+  "sha1": "ms8j29n5qcwqjqf2kux7feo4q5tqlr2",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.595Z",
+    "url": "https://forum.plantuml.net/11288/mixed-signal-timing-diagram?show=11369#c11369",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+analog "Vcore" as VDD
+analog "VCC" between -4.5 and 6.5 as VCC
+VCC ticks num on multiple 3
+
+@0
+VDD is 0
+VCC is 3
+@2
+VDD is 0
+@3
+VDD is 6
+VCC is 6
+VDD@1 -> VCC@2 : "test"
+@enduml

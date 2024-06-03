@@ -1,0 +1,18 @@
+{
+  "sha1": "mql8juaw0o8y853xecba3thw8nkieks",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.510Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam activityArrowFontColor red
+(*)  --> "check input"
+If "input is verbose" then
+--> [Yes] "turn on verbosity"
+--> "run command"
+else
+--> "run command"
+Endif
+-->(*)
+@enduml

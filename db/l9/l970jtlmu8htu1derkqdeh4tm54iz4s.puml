@@ -1,0 +1,23 @@
+{
+  "sha1": "l970jtlmu8htu1derkqdeh4tm54iz4s",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.884Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Station {
++name: string
+}
+
+class StationCrossing {
++cost: TimeInterval
+}
+
+<> StationCrossing
+
+StationCrossing . diamond
+diamond - "from 0..*" Station
+diamond - "to 0..*" Station
+
+@enduml

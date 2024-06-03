@@ -1,0 +1,14 @@
+{
+  "sha1": "klizxt6rcfxcau1wqset0dg6imxph53",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.132Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+      while (w)
+      :foo1;
+      endwhile ([iteration done1])
+      -> match found in loop?;
+      stop
+@enduml

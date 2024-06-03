@@ -1,0 +1,35 @@
+{
+  "sha1": "hnq6ftqqqls0pu4t9e5ouo3izcnfcv7",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.782Z",
+    "url": "http://forum.plantuml.net/9366/teoz-bug-color-activations-lifelines-are-same-when-they-same",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+hide footbox
+
+title bug: lifeline color same for activation on same row (teoz)
+
+a->b: 1
+activate b #red
+& b->c: 2
+activate c #lightgreen
+note right
+here is a good
+note that explains
+end note
+c->d: 2.2
+activate d #lightblue
+d->c: 3.1
+c->d: 3.2
+deactivate c
+d->e: 4
+activate e #silver
+e->d: 5
+deactivate e
+& d->b: 6
+deactivate d
+deactivate b
+@enduml

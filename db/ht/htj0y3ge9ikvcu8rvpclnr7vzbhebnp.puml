@@ -1,0 +1,18 @@
+{
+  "sha1": "htj0y3ge9ikvcu8rvpclnr7vzbhebnp",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.994Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam CircledCharacterFontStyle Italic
+skinparam CircledCharacterFontSize 20
+skinparam CircledCharacterRadius 13
+
+skinparam ClassStereotypeFontSize 30
+skinparam ClassStereotypeFontStyle Bold
+skinparam ClassStereotypeFontName Times
+
+class Demo << Stereo >>
+@enduml

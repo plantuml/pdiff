@@ -1,0 +1,12 @@
+{
+  "sha1": "ll3x80dqzr92wnuulrhzc5vaiouq9qa",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.257Z",
+    "url": "https://forum.plantuml.net/16071/deployment-could-you-improve-port-management",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+card c
+port t
+@enduml

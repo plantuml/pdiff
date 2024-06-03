@@ -1,0 +1,15 @@
+{
+  "sha1": "l7cdj9666mchfxuv6o8oq0uwxehd9lb",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.814Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Actor A3
+Actor A4
+Actor A5
+
+note over A3,A4 : common Role over A3 and A4a with much much more text and a little difference to others
+/ note over A5 : common Role over A5 and A6
+@enduml

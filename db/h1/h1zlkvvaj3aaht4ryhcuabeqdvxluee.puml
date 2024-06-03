@@ -1,0 +1,20 @@
+{
+  "sha1": "h1zlkvvaj3aaht4ryhcuabeqdvxluee",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.102Z",
+    "url": "https://forum.plantuml.net/12507/repeat-over-multiple-swimlanes-bugged",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!procedure $element($alias, $description="", $label="", $technology="", $size=12, $colour="green")
+rectangle $alias as "
+<color:$colour><<$alias>></color>
+==$label==
+//<size:$size>[$technology]</size>//
+
+  $description"
+!endprocedure
+
+$element("myalias", "This description is" + %newline() + " on several lines", $size=10, $technology="Java")
+@enduml

@@ -1,0 +1,33 @@
+{
+  "sha1": "lgsefm254bq1s5x2s5axvnqu9qs8q96",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.119Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+state comp1 {
+    comp1: entry / do_entry1()
+    comp1: entry / do_entry2()
+    comp1: entry / do_entry3()
+    comp1: entry / do_entry4()
+    comp1: exit / do_exit()
+
+    state en1 <<entrypoint>>
+    state en2 <<entrypoint>>
+    state ex1 <<exitpoint>>
+    state ff
+}
+state comp2 {
+    [*] --> wait2
+    wait2 -up-> action2: Timeout
+    action2 --> wait2: Failed
+}
+state comp3 {
+}
+action2 -up-> en2: info2
+comp2 -up-> en1: Information
+comp3 -down-> en1: info3
+comp4 --> ff
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "kzvaj1xg4395mqxpeubzhomsgj51g88",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.513Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[->A : Works
+]->A : Does not work
+
+A->[ : direction1
+A<-[ : direction2
+@enduml

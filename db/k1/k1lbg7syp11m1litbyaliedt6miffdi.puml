@@ -1,0 +1,23 @@
+{
+  "sha1": "k1lbg7syp11m1litbyaliedt6miffdi",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.481Z",
+    "url": "http://forum.plantuml.net/8690/hide-the-activities-in-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Plan -right-> Collect
+-down-> Assure
+-down[hidden]-> Describe
+-left[hidden]-> Preserve
+-left[hidden]-> Discover
+-up[hidden]-> Integrate
+-up[hidden]-> Analyze
+
+Analyze -right-> Plan
+
+Assure --> Analyse
+
+hide Integrate
+@enduml

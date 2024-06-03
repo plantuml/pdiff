@@ -1,0 +1,20 @@
+{
+  "sha1": "j7xp4pyxc085v56ukgv5q9m4hnl798c",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.593Z",
+    "url": "https://github.com/plantuml/plantuml/issues/307",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+object London
+object Washington
+object Berlin
+
+map CapitalCity {
+ UK *-> London
+ USA *--> Washington
+ Germany *---> Berlin
+}
+@enduml

@@ -1,0 +1,25 @@
+{
+  "sha1": "m144toqejyprflp7nrc7cs1wwu23ovy",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.697Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+<style>
+	sequenceDiagram {   
+	  actor { 
+	    FontColor Blue 
+	  }
+	 .myStyle {
+	    FontColor Red
+	 }
+	}
+} 
+</style> 
+
+actor Bob 
+' this will now be printed in Red 
+actor Sally <<myStyle>>
+@enduml

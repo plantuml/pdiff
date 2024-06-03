@@ -1,0 +1,17 @@
+{
+  "sha1": "lmznqet6p5el9eh3x9nd94kw6qvmhgh",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.321Z",
+    "url": "https://forum.plantuml.net/12469/package-background-transparent-package-default-background?show=12487#c12487",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam packageStyle rect
+skinparam backgroundcolor transparent
+skinparam packagebackgroundcolor transparent
+skinparam style strictuml
+package a {
+class B
+}
+@enduml

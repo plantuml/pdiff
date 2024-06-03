@@ -1,0 +1,16 @@
+{
+  "sha1": "m5wg8b9d5uzq2vksieh9lcio7jg3erh",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.941Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+artifact foo1
+artifact foo2 as "This artifact
+is defined
+----
+on several lines"
+component c1
+usecase u2
+@enduml

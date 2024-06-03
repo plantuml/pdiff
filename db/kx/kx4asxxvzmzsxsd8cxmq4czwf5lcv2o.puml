@@ -1,0 +1,15 @@
+{
+  "sha1": "kx4asxxvzmzsxsd8cxmq4czwf5lcv2o",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.443Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam classHeaderBackgroundColor #4FF
+skinparam classBackgroundColor #77F
+skinparam classBorderColor #F0F
+skinparam stereotypeCBackgroundColor #FFF
+skinparam stereotypeCBorderColor #FF0
+class foo1 << stereo1 >>
+@enduml

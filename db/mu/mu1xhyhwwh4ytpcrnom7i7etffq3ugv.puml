@@ -1,0 +1,19 @@
+{
+  "sha1": "mu1xhyhwwh4ytpcrnom7i7etffq3ugv",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.679Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+printscale weekly
+weeks starts on Monday and must have at least 4 days
+
+project starts 2021/01/25
+
+[Prototype design] lasts 20 days
+[Code prototype] lasts 20 days
+[Write tests] lasts 15 days
+[Code prototype] starts at [Prototype design]'s end
+[Write tests] starts at [Code prototype]'s start
+@endgantt

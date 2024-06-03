@@ -1,0 +1,20 @@
+{
+  "sha1": "lrbfisigf9dftt0xchvuduroogpkco",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.457Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+	{
+	test1
+	test2
+	[button 3]
+	test4
+	}
+	B
+	C
+	D
+}
+@endsalt

@@ -1,0 +1,10 @@
+{
+  "sha1": "lnwidpgzaocn2av5vlsexe1banep78x",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.340Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+javax.sound.sampled.AudioFormat.Encoding *-- javax.sound.sampled.AudioFormat
+@enduml

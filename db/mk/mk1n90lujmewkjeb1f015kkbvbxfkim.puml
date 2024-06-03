@@ -1,0 +1,12 @@
+{
+  "sha1": "mk1n90lujmewkjeb1f015kkbvbxfkim",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.347Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Item001 "1" ..> "1" Type001 : has a
+Item002 "1" ..> "1" Type002 : "has a"
+Item003 "1\nlong text to test alignement" ..> "1\nlong text to test alignement" Type003 : has a\nlong text to test alignement
+@enduml

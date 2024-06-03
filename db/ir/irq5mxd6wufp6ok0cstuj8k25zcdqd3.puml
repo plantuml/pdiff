@@ -1,0 +1,17 @@
+{
+  "sha1": "irq5mxd6wufp6ok0cstuj8k25zcdqd3",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.137Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide private members
+hide protected members
+hide package members
+class Foo {
+  - private
+  # protected
+  ~ package
+}
+@enduml

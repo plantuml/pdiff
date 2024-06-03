@@ -1,0 +1,13 @@
+{
+  "sha1": "i75guuqzh9n5n006a2fcco9umqv2v3i",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.401Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+note over IT, FKM
+20 The system displays one screen in user language with table of parameters.
+The table has got 4 columns: Action button Update, name of parameter and value. 
+end note
+@enduml

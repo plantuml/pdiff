@@ -1,0 +1,45 @@
+{
+  "sha1": "mn98vduwjm9uoaki3b872smk0ru6dne",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.438Z",
+    "url": "https://forum.plantuml.net/14104/sequence-diagram-incoming-outgoing-some-arrows-are-inverted",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Long title to see cropped arrow
+participant Alice as a
+participant Bob   as b
+== <color:red> KO ==
+ [o<-x b : "" [o<-x""
+ [o//- b : "" [o//-""
+  [o/- b : ""  [o/-""
+ [o\\- b : "" [o\\-""
+  [o\- b : ""  [o\-""
+ [o<<- b : "" [o<<-""
+[x<->x b : ""[x<->x""
+  [o<- b : ""  [o<-""
+  [<-o b : ""  [<-o""
+  [<-x b : ""  [<-x""
+...
+  [x<-o b : ""  [x<-o""
+  [//-o b : ""  [//-o""
+   [/-o b : ""   [/-o""
+  [\\-o b : ""  [\\-o""
+   [\-o b : ""   [\-o""
+  [<<-o b : ""  [<<-o""
+   [<-o b : ""   [<-o""
+== <color:green> OK ==
+[o<->o b : ""[o<->o""
+  [<-> b : ""  [<->""
+ [o<-o b : "" [o<-o""
+...
+  [x<- b : ""  [x<-""
+  [//- b : ""  [//-""
+   [/- b : ""   [/-""
+  [\\- b : ""  [\\-""
+   [\- b : ""   [\-""
+  [<<- b : ""  [<<-""
+   [<- b : ""   [<-""
+footer \nObserved on : 1.2021.7\n(current version: %version())
+@enduml

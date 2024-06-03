@@ -1,0 +1,24 @@
+{
+  "sha1": "j3go0ccs7mt125aidzmx2uc14tp3rya",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.422Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+partition "Correct" {
+:a;
+note right
+Note is inside the partition
+end note
+}
+partition "Wrong" {
+ 
+note right
+Note is outside the partition
+end note
+}
+ 
+stop
+@enduml

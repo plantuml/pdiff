@@ -1,0 +1,13 @@
+{
+  "sha1": "jj30nw2idt324vlgx11gafdemncd1i5",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.950Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant "foo\nbar1" as foobar1
+participant foobar2 as "foo\nbar2"
+participant "foo\nbar3"
+participant "This is foobar@example.com" as foobar@example.com
+@enduml

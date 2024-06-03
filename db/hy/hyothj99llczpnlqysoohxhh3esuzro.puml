@@ -1,0 +1,15 @@
+{
+  "sha1": "hyothj99llczpnlqysoohxhh3esuzro",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.152Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+allow_mixing
+class foo1
+usecase foo2
+actor foo3
+foo1 -- foo2
+component comp3
+@enduml

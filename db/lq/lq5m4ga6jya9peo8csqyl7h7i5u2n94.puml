@@ -1,0 +1,19 @@
+{
+  "sha1": "lq5m4ga6jya9peo8csqyl7h7i5u2n94",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.401Z",
+    "url": "https://forum.plantuml.net/15451/fork-line-not-appearing-many-built-themes-activity-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!theme amiga
+start
+:Hello;
+fork
+:World;
+fork again
+:Venus;
+end fork
+stop
+@enduml

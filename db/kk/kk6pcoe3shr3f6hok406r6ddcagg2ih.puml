@@ -1,0 +1,14 @@
+{
+  "sha1": "kk6pcoe3shr3f6hok406r6ddcagg2ih",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.069Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+repeat
+  :Waiting for message;
+while (forever)
+stop
+@enduml

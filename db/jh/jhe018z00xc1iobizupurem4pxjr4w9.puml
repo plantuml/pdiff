@@ -1,0 +1,31 @@
+{
+  "sha1": "jhe018z00xc1iobizupurem4pxjr4w9",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.894Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundColor LightYellow
+skinparam state {
+  StartColor MediumBlue
+  EndColor Red
+  BackgroundColor Peru
+  BackgroundColor<<Warning>> Olive
+  BorderColor Grey
+  FontName Impact
+}
+
+[*] --> NotShooting
+
+state "Not Shooting State" as NotShooting {
+  state "Idle mode" as Idle <<Warning>>
+  state "Configuring mode" as Configuring
+  [*] --> Idle
+  Idle --> Configuring : EvConfig
+  Configuring --> Idle : EvConfig
+}
+
+NotShooting --> [*]
+
+@enduml

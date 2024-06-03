@@ -1,0 +1,43 @@
+{
+  "sha1": "hh12apraxehqkbs4icki10pl2ymrgxd",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.550Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Bob
+participant Alice
+
+Bob->Alice: coucou1
+note left: <i>to</i>to1
+activate Bob
+Bob->Bob: co2
+
+note right: <u>toto2</u>
+deactivate Bob
+note right of Alice: <b>toto</b> prime 
+Bob->Alice: c3
+
+note right of Alice: <s>toto</s> prime 
+
+activate Alice
+note right: toto3
+Bob->Alice: coucou4
+
+note right: toto4
+note left: toto5
+activate Bob
+deactivate Bob
+
+Bob->Bob: c5
+note right: toto6
+
+Bob->Bob: coucou6
+activate Bob
+deactivate Bob
+
+Bob->Alice: coucou7
+Bob->Alice: coucou8
+Bob->Alice: coucou9
+@enduml

@@ -1,0 +1,21 @@
+{
+  "sha1": "m22t42tfehckxw4qb52ozcu0ex6t76c",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.767Z",
+    "url": "https://forum.plantuml.net/12230/allow-significant-indentation-beginning-mindmap-diagram?show=12301#c12301",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* root
+!$arg=2
+!while $arg!=0
+  !$i=3
+  ** $arg
+  !while $i != 0
+    *** $arg.$i
+    !$i = $i - 1
+  !endwhile
+  !$arg = $arg - 1
+!endwhile
+@endmindmap

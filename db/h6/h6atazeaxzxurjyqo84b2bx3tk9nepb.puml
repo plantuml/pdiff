@@ -1,0 +1,25 @@
+{
+  "sha1": "h6atazeaxzxurjyqo84b2bx3tk9nepb",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.200Z",
+    "url": "https://github.com/plantuml/plantuml/issues/43#issuecomment-588209385",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+mindmapDiagram {
+  .myStyle {
+    BackGroundColor lightblue
+    LineColor lightblue
+  }
+}
+</style>
+* root
+** node 1 <<myStyle>>
+*** subNode 1
+*** subNode 2
+**** subSubNode
+
+** node 2
+@endmindmap

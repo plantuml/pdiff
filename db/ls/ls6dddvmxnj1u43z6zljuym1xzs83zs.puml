@@ -1,0 +1,22 @@
+{
+  "sha1": "ls6dddvmxnj1u43z6zljuym1xzs83zs",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.485Z",
+    "url": "https://github.com/plantuml/plantuml/issues/268",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+cloud failure {
+  rectangle "initial: test~*" as a
+  rectangle "backslash: test\~*" as b
+  rectangle "double-tilde: test~~*" as c
+}
+
+cloud workarounds {
+  rectangle "whitespace-after: test~ *" as w_1
+  rectangle "tilde character as unicode: test<U+007E>*" as w_2
+}
+
+@enduml

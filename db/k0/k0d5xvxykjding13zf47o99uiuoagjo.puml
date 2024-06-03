@@ -1,0 +1,35 @@
+{
+  "sha1": "k0d5xvxykjding13zf47o99uiuoagjo",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.450Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase foo
+note left
+foo
+--
+foo2
+==toto==
+meu
+==
+ya
+--
+[[http://www.cot{cloud} my link]] hello
+end note
+
+note as note2
+foo
+--
+foo2
+==toto==
+meu
+==
+ya
+--
+cot
+[[http://www.cot{cloud} my link]] hello
+end note
+
+@enduml

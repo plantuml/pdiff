@@ -1,0 +1,35 @@
+{
+  "sha1": "lod57042cki46zf1jobhsjywrwxck5u",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.361Z",
+    "url": "https://forum.plantuml.net/13727/anchor-point-relative-to-another-anchor-point",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+clock clk with period 1
+binary "enable" as EN
+concise "dataBus" as db
+
+@0 as :start
+@5 as :en_high 
+@10 as :en_low
+
+@en_high-2 as :EnHighMinus2
+
+@:start
+EN is low
+db is "0x0000"
+
+@:en_high
+EN is high
+
+@:en_low
+EN is low
+
+@:EnHighMinus2
+db is "0xf23a"
+
+@:en_high+6
+db is "0x0000"
+@enduml

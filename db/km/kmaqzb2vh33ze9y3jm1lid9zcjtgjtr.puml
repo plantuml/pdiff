@@ -1,0 +1,22 @@
+{
+  "sha1": "kmaqzb2vh33ze9y3jm1lid9zcjtgjtr",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.153Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam swimlaneWidth 400
+|swimlane1|
+:first with a very very long name to be displayed;
+:second;
+|swimlane2|
+:third;
+if (foo) then
+:something;
+endif
+|swimlane1|
+:back to swinline1;
+|swimlane2|
+:back to swinline2;
+@enduml

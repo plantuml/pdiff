@@ -1,0 +1,14 @@
+{
+  "sha1": "km5ygmvk82ql6vk09wup84cxz4357uy",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.146Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml 
+hide <<tag>>  
+class bob <<tag>>{
+}
+class joe{
+}
+@enduml

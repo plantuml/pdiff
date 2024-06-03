@@ -1,0 +1,31 @@
+{
+  "sha1": "igpg6a19rvxpwtrkevgzftoudpu7pzi",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.716Z",
+    "url": "https://forum.plantuml.net/13408/could-you-allow-maximumwidth-on-style-for-note-test-activity?show=13478#c13478",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+activityDiagram {
+  activity {
+    MaximumWidth 100
+  }
+  note {
+    MaximumWidth 200
+  }
+}
+</style>
+start
+:foo1 foo1 foo1 foo1 foo1 foo1 foo1 foo1 foo1 foo1 foo1 foo1 foo1 foo1;
+note right
+  Long Long Long Long Long Long Long Long Long Long Long Long Long Long note
+  This note is on several
+  //lines// and can
+  contain <b>HTML</b>
+  ====
+  * Calling the method ""foo()"" is prohibited
+end note
+'floating note left: This is a Long Long Long Long Long Long Long Long Long Long Long Long Long Long note
+@enduml

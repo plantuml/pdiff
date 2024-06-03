@@ -1,0 +1,12 @@
+{
+  "sha1": "l8282lj2s52chg51u86h2aa7c0zhugj",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.842Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skinparam dpi 1000
+Alice o-> Bob : hello
+Alice <<--o Bob : ok
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "kao4jwo024uatqhr5u1adixz4g8q1nw",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.789Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state comp1 {
+    comp1: entry / do_entry()
+    state en1 <<entrypoint>>
+    state en2 <<entrypoint>>
+}
+@enduml

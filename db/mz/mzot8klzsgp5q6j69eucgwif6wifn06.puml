@@ -1,0 +1,17 @@
+{
+  "sha1": "mzot8klzsgp5q6j69eucgwif6wifn06",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.938Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+package "entities" {
+
+A1 -> A2
+A3 -> A2 : b2
+A3 -> A2
+
+
+@enduml

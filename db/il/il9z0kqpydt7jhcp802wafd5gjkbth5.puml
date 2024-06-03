@@ -1,0 +1,15 @@
+{
+  "sha1": "il9z0kqpydt7jhcp802wafd5gjkbth5",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.870Z",
+    "url": "http://forum.plantuml.net/7184/set-legendborderthickness-to-0",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam LegendBorderThickness 0
+Bob -> Alice : hello
+legend
+this is a legend
+endlegend
+@enduml

@@ -1,0 +1,73 @@
+{
+  "sha1": "if4v38j3eblu788m1lg78s2bfwnwq1i",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.660Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "L1 cache reference" as L1
+concise "Branch mispredict" as BM
+concise "L2 cache reference" as L2
+concise "Mutex lock/unlock" as MUX
+concise "Main memory reference" as MEMREF
+concise "Compress 1K bytes with Zippy" as ZIP1K
+concise "Send 2K bytes over 1 Gbps network" as SEND2K
+concise "SSD random read" as SEEKSSD
+concise "Read 1 MB sequentially from memory" as RAM
+concise "Round trip within same datacenter" as DC
+concise "Read 1 MB sequentially from SSD" as SSD
+concise "Disk seek" as SEEKDISK
+concise "Read 1 MB sequentially from disk" as DISK
+concise "Send packet CA->Netherlands->CA" as NET
+@0
+L1 is done
+BM is 5ns
+L2 is 7ns
+MUX is 25ns
+MEMREF is 100ns
+ZIP1K is 3000ns
+SEND2K is 20000ns
+SEEKSSD is 150000ns
+RAM is 250000ns
+DC is 500000ns
+SSD is 1000000ns
+SEEKDISK is 10000000ns
+DISK is 20000000ns
+NET is 150000000ns
+@5
+BM is ""
+@7
+L2 is ""
+
+@25
+MUX is ""
+
+@100
+MEMREF is ""
+
+@3000
+ZIP1K is ""
+
+@20000
+SEND2K is ""
+
+@150000
+SEEKSSD is ""
+
+@250000
+RAM is ""
+
+@500000
+DC is ""
+
+@1000000
+SSD is ""
+
+@10000000
+DISK is ""
+
+@150000000
+NET is ""
+
+@enduml

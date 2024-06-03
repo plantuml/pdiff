@@ -1,0 +1,18 @@
+{
+  "sha1": "hk9iyv26kxxpra6ptxllpes82a2d0pa",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.695Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundcolor AntiqueWhite/Gold
+
+participant Alice #red\blue
+
+Alice -> Bob : hello
+
+note left #green-white : ok
+
+
+@enduml

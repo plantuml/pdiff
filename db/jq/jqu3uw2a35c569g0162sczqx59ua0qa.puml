@@ -1,0 +1,13 @@
+{
+  "sha1": "jqu3uw2a35c569g0162sczqx59ua0qa",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.111Z",
+    "url": "https://github.com/plantuml/plantuml/issues/198",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+skinparam sequenceArrowThickness 3.5
+Alice -> Bob : hello
+@enduml

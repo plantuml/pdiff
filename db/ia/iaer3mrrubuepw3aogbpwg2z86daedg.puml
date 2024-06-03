@@ -1,0 +1,24 @@
+{
+  "sha1": "iaer3mrrubuepw3aogbpwg2z86daedg",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.478Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!define tsLabel(backColor,anchor,ts_id) \n [[anchor{JUMP_TO} ts_id]] <color:backColor><size:14><&arrow-thick-bottom></size></color><back:backColor><color:white>&#160;&#160;backColor&#160;&#160;</color></back>
+
+    start
+-[#red;#blue]->   
+    partition "SOME FLOW" {
+            if(Condition?)then(yes:tsLabel(red,anchor1,id1))
+-[#red]->           
+            else(no:tsLabel(blue,anchor2,id2))
+-[#blue]->
+            endif
+-[#red;#blue]->
+    }
+
+    stop
+@enduml

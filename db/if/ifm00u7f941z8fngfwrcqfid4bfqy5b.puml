@@ -1,0 +1,19 @@
+{
+  "sha1": "ifm00u7f941z8fngfwrcqfid4bfqy5b",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.681Z",
+    "url": "http://forum.plantuml.net/7801/version-1-2018-07-dpi-handling",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam dpi 300
+
+!include <office/Clouds/cloud_disaster_red>
+
+
+package "Use sprite directly" {
+    [Some <$cloud_disaster_red> object]
+}
+
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "mn9iuicqj01dqyxrhw1zl4uadaqvapa",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.445Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Alice
+participant Bob
+note left of Alice
+	This is displayed
+	left of Alice
+end note
+note right of Alice: This is displayed right of Alice.
+note over Alice: This is displayed over Alice.
+note over Alice, Bob: This is displayed\n over Bob and Alice.
+@enduml

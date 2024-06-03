@@ -1,0 +1,26 @@
+{
+  "sha1": "ifxvmf6aibljwnzc1un4hct4q4vf0rs",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.695Z",
+    "url": "http://wiki.plantuml.net/site/plantumlshell",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!procedure msg(source, destination)
+source --> destination
+!endprocedure
+
+!procedure init_class(name)
+class name {
+  init()
+  toString()
+  hashCode()
+}
+!endprocedure
+
+init_class("foo1")
+init_class("foo2")
+msg("foo1", "foo2")
+@enduml

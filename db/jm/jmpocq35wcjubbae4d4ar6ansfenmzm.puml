@@ -1,0 +1,46 @@
+{
+  "sha1": "jmpocq35wcjubbae4d4ar6ansfenmzm",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.020Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+
+<style>
+sequenceDiagram
+{
+  box {
+        BackgroundColor Yellow
+        .Client
+        {
+            BackgroundColor LightYellow
+        }
+        .Cloud {
+            BackgroundColor LightRed
+        }
+  }
+  participant {
+        BackgroundColor LightBlue
+        FontColor Black
+        .Color1
+        {
+          FontColor Red
+        }
+        .Color2
+        {
+          FontColor white
+        }
+  }
+}
+</style>
+
+box "Tier 1"  <<Client>>
+    participant "Alfa" as a <<Color1>>
+end box
+box "Tier 2"  <<Cloud>>
+    participant "Beta" as b <<Color2>>
+    participant "Theta" as c
+end box
+@enduml

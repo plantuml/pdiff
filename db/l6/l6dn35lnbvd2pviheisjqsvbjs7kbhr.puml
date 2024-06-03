@@ -1,0 +1,14 @@
+{
+  "sha1": "l6dn35lnbvd2pviheisjqsvbjs7kbhr",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.779Z",
+    "url": "https://forum.plantuml.net/1361/message-to-itself-on-left-side?show=13828#a13828",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Bob -> Alice : hello
+Alice <- Alice : hello I have a lot to say so let me start... \nBla Bla Bla Bla
+Bob -> Bob : hi
+@enduml

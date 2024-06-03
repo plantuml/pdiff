@@ -1,0 +1,14 @@
+{
+  "sha1": "llooj0yng79o92znsg7hyx5iahtqctw",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.278Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:A;
+note left
+this is a note
+end note
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "jruzc7319fhwuuf7lmscybqb4r4km7q",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.146Z",
+    "url": "http://math.chapman.edu/~jipsen/mathml/asciimathjax.html",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmath
+[[a,b],[c,d]]((n),(k)) stackrel"def"= or \stackrel{\Delta}{=}" "("or ":=) {::}_(\ 92)^238U
+@endmath

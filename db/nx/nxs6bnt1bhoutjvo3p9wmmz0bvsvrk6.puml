@@ -1,0 +1,12 @@
+{
+  "sha1": "nxs6bnt1bhoutjvo3p9wmmz0bvsvrk6",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.523Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title this title is very very long and not on several lines
+Bob -> Alice : hello
+
+@enduml

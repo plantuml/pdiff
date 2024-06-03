@@ -1,0 +1,18 @@
+{
+  "sha1": "l5jxq254ghxtq7ybcjh29gjzrso64pe",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.751Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+!define SHOW_METHODS
+class ArrayList
+!ifdef SHOW_METHODS
+ArrayList : int size()
+ArrayList : void clear()
+!endif
+ 
+@enduml

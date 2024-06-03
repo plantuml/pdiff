@@ -1,0 +1,10 @@
+{
+  "sha1": "hasr1fy4r3ztieedszb6y5f4eofk449",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.383Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcute
+triangle points=0,0,10:0,50,10:100,50,10 color=red
+@endcute

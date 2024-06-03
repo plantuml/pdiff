@@ -1,0 +1,13 @@
+{
+  "sha1": "khl0zuiyl18zgddt18iwyovnebjlk0b",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.992Z",
+    "url": "http://forum.plantuml.net/7503/formatting-bug-in-component-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+[Object1] - Interface1
+Interface1 <- [Object2] : Test Text
+@enduml

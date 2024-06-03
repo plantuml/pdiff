@@ -1,0 +1,18 @@
+{
+  "sha1": "lb045c4xfctb9zwkbybxydj7jyatb02",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.968Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam minClassWidth 200
+component foo
+component barwhichisverylongandoutbreakthelimitgivenbythedefaultvalue
+node node [
+foo1
+====
+foo2
+]
+artifact artifact
+@enduml

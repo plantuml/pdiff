@@ -1,0 +1,25 @@
+{
+  "sha1": "jc4nfwjc995l1jjmo4c8h5uwtr9w4fi",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.712Z",
+    "url": "http://forum.plantuml.net/8612/teoz-wrong-note-position-after-array",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Bob -> Alice : first
+& Alice -> Ken : second
+note right: (1) second above first
+...
+Jane -> John: Hi1
+note left: (2) Should be same level as first Hi
+return Hi2
+note right: (2) Should be same level as second Hi
+...
+Bob -> Alice ++ #blue : hello
+note right: (3) Where does blue start?
+return Hi
+& Ken -[#red]> Jane: (4) Same level?
+...
+@enduml

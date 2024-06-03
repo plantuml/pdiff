@@ -1,0 +1,25 @@
+{
+  "sha1": "k05h13r57ov6hevnmqm9el34xnyy22f",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.450Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (DataEfeito <= Datacorrente - 30 dias?) then
+if (tem impedimentos processo) then
+	stop
+else
+	if (valores divergentes?) then
+		stop
+	else
+		:foo;
+	endif
+endif	
+else
+  stop
+endif
+
+stop
+@enduml

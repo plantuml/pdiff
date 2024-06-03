@@ -1,0 +1,12 @@
+{
+  "sha1": "m6qy56b37882nz3izi6msq4szbrd56e",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.962Z",
+    "url": "https://forum.plantuml.net/9774/conditional-drawing-of-box-participants-sequence-diagram?show=9802#c9802",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$foo = "John"
+Alice -> Bob : Do you know $foo ?
+@enduml

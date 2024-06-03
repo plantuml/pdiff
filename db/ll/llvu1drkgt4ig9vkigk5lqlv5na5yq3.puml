@@ -1,0 +1,13 @@
+{
+  "sha1": "llvu1drkgt4ig9vkigk5lqlv5na5yq3",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.285Z",
+    "url": "https://forum.plantuml.net/12123/gantt-pause-tasks-for-some-period-resource-availability",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts the 5th of december 2018
+[Prototype design] lasts 17 days
+[Prototype design] pauses from 2018/12/13 to 2018/12/19
+@endgantt

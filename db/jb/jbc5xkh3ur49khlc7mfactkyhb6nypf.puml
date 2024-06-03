@@ -1,0 +1,13 @@
+{
+  "sha1": "jbc5xkh3ur49khlc7mfactkyhb6nypf",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.684Z",
+    "url": "http://forum.plantuml.net/8667/variable-substitution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define i j
+!define h i
+title h i
+@enduml

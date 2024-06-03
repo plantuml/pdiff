@@ -1,0 +1,36 @@
+{
+  "sha1": "lhvonc5l9veav4buoyb3im9msd9sfqr",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.165Z",
+    "url": "https://github.com/plantuml/plantuml/issues/577#issuecomment-1116117741",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Home Page;
+
+
+switch (action1)
+note left: on action1
+case ( click - linka )
+
+  :Page 1.1;
+
+case ( click - linkb )
+  :Page 1.2;
+  switch (action2)
+note left: on action2
+  case ( click - linkdsfsdf )
+    :first;
+    stop
+  case ( click - linkb )
+    :second;
+
+  endswitch
+endswitch
+
+:someending;
+
+stop
+@enduml

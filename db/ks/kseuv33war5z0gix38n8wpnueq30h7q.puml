@@ -1,0 +1,11 @@
+{
+  "sha1": "kseuv33war5z0gix38n8wpnueq30h7q",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.304Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam classArrowColor Red|Green
+A - B
+@enduml

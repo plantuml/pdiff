@@ -1,0 +1,16 @@
+{
+  "sha1": "mrb9i1gze69kpd113elfhu7rsfugrt8",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.545Z",
+    "url": "https://github.com/plantuml/plantuml/issues/700#issuecomment-962682783",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+!theme amiga
+{
+    "fruit": "Apple",
+    "size": "Large",
+    "color": "Red"
+}
+@endjson

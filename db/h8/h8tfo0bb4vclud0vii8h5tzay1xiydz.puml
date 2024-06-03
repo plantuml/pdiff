@@ -1,0 +1,16 @@
+{
+  "sha1": "h8tfo0bb4vclud0vii8h5tzay1xiydz",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.271Z",
+    "url": "https://forum.plantuml.net/12187/jdot-smetana-random-associations-in-class-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+class A
+A *-B
+A *--C
+A *---D
+A *----E
+@enduml

@@ -1,0 +1,38 @@
+{
+  "sha1": "kkm4jssuztnz48yohtwab58td2hqhql",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.090Z",
+    "url": "https://forum.plantuml.net/17143/arrow-incorrect-with-long-text-if",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (
+A
+A
+A
+AA
+A
+AA
+A
+A
+A
+AA
+A
+AA
+) then
+:a;
+
+elseif (B) then
+:bb;
+
+else
+
+if (CA) then
+:ccc;
+endif
+
+endif
+
+@enduml

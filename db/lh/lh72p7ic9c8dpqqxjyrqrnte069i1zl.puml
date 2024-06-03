@@ -1,0 +1,34 @@
+{
+  "sha1": "lh72p7ic9c8dpqqxjyrqrnte069i1zl",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.144Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+    skinparam shadowing false
+    title Subway turnstile v0.1
+
+    state Locked
+    state Unlocked
+    state Violation
+
+    Locked : entry/lock
+    Unlocked : entry/unlock
+
+    [*] --> Locked
+
+    Locked --> Unlocked : coin
+    Locked --> Violation : pass/alarm
+
+    Unlocked --> Locked : pass
+    Unlocked --> Locked: timeout
+    Unlocked --> Unlocked : coin/refund
+
+    Violation --> Locked : Ready/reset alarm
+    Violation --> Violation : pass/alarm
+    Violation --> Violation : coin/refund
+    Violation --> Violation : reset/reset alarm
+
+@enduml

@@ -1,0 +1,32 @@
+{
+  "sha1": "h8igaa0ktt7i12l2q55l2y4kg15v6ff",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.260Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+sprite $businessProcess [16x16/16] {
+FFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFF
+FFFFFFFFFF0FFFFF
+FFFFFFFFFF00FFFF
+FF00000000000FFF
+FF000000000000FF
+FF00000000000FFF
+FFFFFFFFFF00FFFF
+FFFFFFFFFF0FFFFF
+FFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFF
+}
+
+participant Alice <<$businessProcess>>
+participant Bob << (U,#ADD1B2)  >>
+Alice -> Bob : hello
+Bob -> Charlie : hi
+@enduml

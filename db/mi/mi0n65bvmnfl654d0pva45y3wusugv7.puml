@@ -1,0 +1,23 @@
+{
+  "sha1": "mi0n65bvmnfl654d0pva45y3wusugv7",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.291Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam arrow {
+    MessageAlign right
+}
+
+|Customer|
+|Sales|
+:**SEND** report
+to customer;
+->in big envelop;
+|Customer|
+:**RECEIVE** report;
+-> by mail;
+|Sales|
+:**RECEIVE** ack;
+@enduml

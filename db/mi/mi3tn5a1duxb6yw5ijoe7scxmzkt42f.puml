@@ -1,0 +1,14 @@
+{
+  "sha1": "mi3tn5a1duxb6yw5ijoe7scxmzkt42f",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.305Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+archimate #APPLICATION A
+archimate #MOTIVATION  B
+
+A -\\ B
+
+@enduml

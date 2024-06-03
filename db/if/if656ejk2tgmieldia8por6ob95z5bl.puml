@@ -1,0 +1,24 @@
+{
+  "sha1": "if656ejk2tgmieldia8por6ob95z5bl",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.667Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+    if (Handshake) then (yes)
+        if (hello ?) then (yes)
+            :Fill struct
+            struct hello
+            {
+              std::uint8_t unix_time[4]
+              std::uint8_t random[28]
+            };
+        else if (finish ?) then (yes)
+            :Clear ?;
+        endif
+    else (no)
+    endif
+end
+@enduml 

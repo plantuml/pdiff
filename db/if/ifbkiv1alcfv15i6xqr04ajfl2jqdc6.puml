@@ -1,0 +1,22 @@
+{
+  "sha1": "ifbkiv1alcfv15i6xqr04ajfl2jqdc6",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.674Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+document {
+  BackGroundColor Navy
+}
+root {
+  FontColor #?black:white
+}
+</style>
+title
+my title
+endtitle
+class foo1
+foo2 <|-- foo1
+@enduml

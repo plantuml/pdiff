@@ -1,0 +1,17 @@
+{
+  "sha1": "mmhxm8mlhy8ty1bisu2usaudso84dah",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.403Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:start;
+while (data to treat)
+  :first action;
+  :second action;
+endwhile
+:end of process;
+stop
+@enduml

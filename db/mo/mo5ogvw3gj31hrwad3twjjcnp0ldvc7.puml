@@ -1,0 +1,24 @@
+{
+  "sha1": "mo5ogvw3gj31hrwad3twjjcnp0ldvc7",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.459Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant ": Registre" as R 
+-> R : messageX
+activate R
+R ->] : message Y
+R -> R : clear 
+activate R
+
+R -> R : ok1
+
+R -> R : ok2
+deactivate R
+
+R ->] : message Y
+
+deactivate R
+@enduml

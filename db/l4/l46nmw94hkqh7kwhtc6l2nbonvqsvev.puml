@@ -1,0 +1,14 @@
+{
+  "sha1": "l46nmw94hkqh7kwhtc6l2nbonvqsvev",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.667Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+storage storage
+
+cloud cloud
+
+@enduml

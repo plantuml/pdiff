@@ -1,0 +1,13 @@
+{
+  "sha1": "hjzblrpgpe60heydv74e8g7qoagnstf",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.681Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) -left->[text] "activity1"
+-up-> "activity2"
+-up> "activity3"
+
+@enduml

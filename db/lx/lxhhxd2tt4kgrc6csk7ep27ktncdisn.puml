@@ -1,0 +1,18 @@
+{
+  "sha1": "lxhhxd2tt4kgrc6csk7ep27ktncdisn",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.635Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <tupadr3/common>
+!include <tupadr3/font-awesome/server>
+!include <tupadr3/font-awesome/database>
+!include <cloudinsight/tomcat>
+!include <cloudinsight/kafka>
+!include <cloudinsight/java>
+!include <cloudinsight/cassandra>
+!include <material/common>
+listsprites
+@enduml

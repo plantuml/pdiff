@@ -1,0 +1,21 @@
+{
+  "sha1": "jj3tlzow33ysfel4buhc49xzwnb9pft",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.964Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+!function id($text)
+!return $text
+!endfunction
+
+!final unquoted function id($text)
+!return $text
+!endfunction
+
+
+alice -> bob : id("aa")
+@enduml

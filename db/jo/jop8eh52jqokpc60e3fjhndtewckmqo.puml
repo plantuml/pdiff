@@ -1,0 +1,17 @@
+{
+  "sha1": "jop8eh52jqokpc60e3fjhndtewckmqo",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.062Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1105",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml 
+state a
+a -> b
+note on link #red
+Should be red
+end note
+a --> c
+note on link #blue: Should be blue
+@enduml

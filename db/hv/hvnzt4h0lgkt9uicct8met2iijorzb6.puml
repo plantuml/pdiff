@@ -1,0 +1,18 @@
+{
+  "sha1": "hvnzt4h0lgkt9uicct8met2iijorzb6",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.071Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A0
+class B1
+class C2
+
+
+A0 *--  B1
+A0 *--  C2
+
+(A0, B1) . (A0, C2)
+@enduml

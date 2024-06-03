@@ -1,0 +1,22 @@
+{
+  "sha1": "mrjpkzv5mgxqnjspfl9tiyaxv93awpy",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.560Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout elk
+
+package color {
+class red
+class green
+}
+
+class foo
+class bar
+
+foo --> red
+
+
+@enduml

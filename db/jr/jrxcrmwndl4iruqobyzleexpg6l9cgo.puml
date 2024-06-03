@@ -1,0 +1,20 @@
+{
+  "sha1": "jrxcrmwndl4iruqobyzleexpg6l9cgo",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.164Z",
+    "url": "https://forum.plantuml.net/16822/remove-restore-%24tag-issue",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component C1 $tag1 {
+  node n $tag3
+}
+component C2 $tag2 {
+}
+
+C1 -- C2
+
+remove $tag3
+restore $tag1
+@enduml

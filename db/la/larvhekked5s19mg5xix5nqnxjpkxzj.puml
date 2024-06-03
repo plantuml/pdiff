@@ -1,0 +1,15 @@
+{
+  "sha1": "larvhekked5s19mg5xix5nqnxjpkxzj",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.961Z",
+    "url": "http://forum.plantuml.net/9106/render-interface-is-incomplete",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Camera1
+class Camera2
+
+Camera ()- Camera1
+Camera ()- Camera2
+@enduml

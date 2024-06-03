@@ -1,0 +1,41 @@
+{
+  "sha1": "kc1tzh6gr1anc85bn297f2gd6o7yth",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.838Z",
+    "url": "https://github.com/plantuml/plantuml/pull/980",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+
+map {
+    BackGroundColor lightblue
+    FontColor blue
+}
+
+object {
+    BackGroundColor lightblue
+    FontColor blue
+}
+
+header {
+    BackGroundColor palegreen
+    FontColor red
+}
+</style>
+
+object London
+
+map CapitalCity {
+ UK *-> London
+ USA => Washington
+ Germany => Berlin
+}
+
+object user {
+  name = "Dummy"
+  id = 123
+}
+
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "jfi33tddp52w9lyorpkt3kwtfjclxew",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.831Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Foo<T> 
+class "Foo<int>" as Foo_int
+class "Foo<double>" as Foo_double
+@enduml

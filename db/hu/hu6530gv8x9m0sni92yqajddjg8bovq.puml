@@ -1,0 +1,37 @@
+{
+  "sha1": "hu6530gv8x9m0sni92yqajddjg8bovq",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.029Z",
+    "url": "https://forum.plantuml.net/16984/arrow-position-and-size-in-timing-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 3
+
+robust "Robust" as RobustOn
+concise "Concise" as ConciseState
+
+RobustOn is Off
+ConciseState is "Off"
+
+@0 as :On_Start
+@1 as :On
+@3 as :On_Start2
+
+@:On_Start
+RobustOn is On
+
+@:On
+RobustOn is Off
+
+ConciseState is "G..."
+@:On_Start2
+RobustOn is On
+
+RobustOn@:On_Start <-> @:On : 1000 ms
+RobustOn@:On <-> @:On_Start2: <color:red>See arrow's end
+ConciseState@:On_Start <-> @:On : 1000 ms
+ConciseState@:On <-> @:On_Start2: The comment
+
+@enduml

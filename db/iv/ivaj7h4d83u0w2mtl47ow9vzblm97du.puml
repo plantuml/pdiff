@@ -1,0 +1,54 @@
+{
+  "sha1": "ivaj7h4d83u0w2mtl47ow9vzblm97du",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.241Z",
+    "url": "http://forum.plantuml.net/8429/is-it-possible-to-write-inside-of-a-diamond",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+entity   Student {
+  {field} id {PK}
+  {field} name
+  {field} sex
+  {field} birthDate
+  {field} GPA
+}
+
+entity   Professor {
+  {field} name
+}
+
+entity   Department {
+  {field} courses
+  {field} professors
+  {field} name
+  {field} building location
+}
+
+entity   Course {
+  {field} name {PK}
+  {field} number
+}
+
+entity   Section {
+  {field} professor
+  {field} number
+}
+
+entity   EnrollsIn {
+  {field} grade
+}
+
+Section - Professor : Has >
+Professor -- Department : IsIn >
+Department - Course : Offers >
+Course -- Section : From >
+(Student, Section) .. EnrollsIn
+
+diamond diamond1 as "diamond with test"
+
+EnrollsIn -> diamond1
+diamond1 --> Section : demo 1
+diamond1 --> Department : another link
+@enduml

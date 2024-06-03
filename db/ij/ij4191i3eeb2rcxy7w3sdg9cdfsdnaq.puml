@@ -1,0 +1,33 @@
+{
+  "sha1": "ij4191i3eeb2rcxy7w3sdg9cdfsdnaq",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.779Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+
+abstract class AbstractEventItem {
+  name:String
+  description:String
+  iconUrl:String
+  iconClassName:String
+  startTime:long
+  sortOrder:int
+  status:EventStatus
+  resultString:String
+  link:String
+}
+
+
+class RacingEventItem extends AbstractEventItem {
+    raceNumber:int
+    flags:RaceFlag[]
+    meetingId:int
+}
+
+class SportEventItem extends AbstractEventItem {
+    marketCount:int
+}
+@enduml

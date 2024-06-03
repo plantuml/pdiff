@@ -1,0 +1,31 @@
+{
+  "sha1": "k61ceqfh7tc8i2zwq4t0fgqv68t8b37",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.649Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+partition P1 {
+  (*) --> X
+  --> == B1 ==
+  --> Y
+  ---> == B2 ==
+  --> Z
+}
+
+partition P2 {
+  == B1 ==  
+  -->  if C then
+    --> [yes] M
+    --> N
+  else
+    --> N
+  endif
+
+  --> O
+  --> == B2 ==
+}
+
+@enduml

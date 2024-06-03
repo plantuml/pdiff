@@ -1,0 +1,20 @@
+{
+  "sha1": "imla6j5yox44413i6if4xbv42k2tzsg",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.954Z",
+    "url": "https://forum.plantuml.net/11707/linestyle-linethickness-management-component-deployment",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+skinparam package {
+    BorderStyle dashed
+}
+
+' uncommenting the following line removes BorderStyle for all packages
+package "package 1" as p1
+
+package "package 2" as p2 {
+}
+@enduml

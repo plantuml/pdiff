@@ -1,0 +1,36 @@
+{
+  "sha1": "i6v3ej4d64r2pzzcv3lhdsnml5wml77",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.394Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma backToLegacyPackage
+
+package "DDF Content API" <<Folder>> #DDDDDD {
+package ddf.content <<Node>> {
+interface ContentFramework
+}
+package ddf.content.operation <<Node>> {
+interface Operation
+interface Request
+interface Response
+interface CreateRequest
+interface CreateResponse
+}
+package ddf.content.provider <<Node>> {
+interface StorageProvider
+}
+package ddf.content.plugin <<Node>> {
+interface ContentPlugin
+}
+}
+package "DDF Mime Types Support" <<Folder>> {
+package ddf.mime <<Node>> {
+interface MimeTypeMapper
+interface MimeTypeResolver
+}
+}
+'"DDF Content API" --- "DDF Mime Types Support"
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "iky6uv41kl6cqbkv9fu1zcgjvmzr9ve",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.842Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+    if (test1) then
+      while (while2)
+        :ins1;
+      endwhile
+      -[#Black]->
+      :ins2;
+    endif
+stop
+@enduml

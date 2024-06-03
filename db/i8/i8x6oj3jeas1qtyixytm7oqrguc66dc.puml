@@ -1,0 +1,20 @@
+{
+  "sha1": "i8x6oj3jeas1qtyixytm7oqrguc66dc",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.436Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A extends B1, B2 implements C,D,E {
+}
+
+interface ZA extends ZB1, ZB2 {
+}
+
+class QA extends QB1, QB2 implements QC,QD,QE
+
+interface RZA extends RZB1, RZB2
+
+
+@enduml

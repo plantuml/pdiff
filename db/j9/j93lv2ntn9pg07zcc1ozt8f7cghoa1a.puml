@@ -1,0 +1,29 @@
+{
+  "sha1": "j93lv2ntn9pg07zcc1ozt8f7cghoa1a",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.628Z",
+    "url": "https://forum.plantuml.net/10297/how-to-report-this-possible-bug-in-the-beta-nwdiag",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+  network NETWORK_BASE {
+
+   dev_A   [address = "dev_A" ]
+   dev_B [address = "dev_B" ]
+  }
+  network IntNET1 {
+
+   dev_B [address = "dev_B1" ]
+   dev_M [address = "dev_M1" ]
+
+  }
+  network IntNET2 {
+
+   dev_B [address = "dev_B2" ]
+   dev_M [address = "dev_M2" ]
+
+ }
+}
+@enduml

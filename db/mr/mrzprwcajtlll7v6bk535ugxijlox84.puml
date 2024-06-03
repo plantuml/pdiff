@@ -1,0 +1,32 @@
+{
+  "sha1": "mrzprwcajtlll7v6bk535ugxijlox84",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.574Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1531",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.save {
+  LineColor blue
+  BackgroundColor lightCyan
+  LineThickness 2
+  ArrowThickness 0.5
+  FontName Arial Narrow
+  FontColor red
+  FontSize 11
+  FontStyle regular
+}
+</style>
+repeat
+  :Generate diagrams; <<save>>
+backward:Log context; <<save>>
+repeat while (more data?) is (yes)
+
+repeat
+  :Generate diagrams; <<save>>
+backward:Log
+context; <<save>>
+repeat while (more data?) is (yes)
+@enduml

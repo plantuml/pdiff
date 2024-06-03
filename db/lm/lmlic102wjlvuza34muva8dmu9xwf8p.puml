@@ -1,0 +1,13 @@
+{
+  "sha1": "lmlic102wjlvuza34muva8dmu9xwf8p",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.307Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+while (test)
+  :task;
+  ->label;
+endwhile
+@enduml

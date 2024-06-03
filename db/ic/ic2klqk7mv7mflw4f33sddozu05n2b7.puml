@@ -1,0 +1,14 @@
+{
+  "sha1": "ic2klqk7mv7mflw4f33sddozu05n2b7",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.555Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+header titi
+title toto
+Bob -> Alice : hello
+create Dog
+Alice -> Dog : create
+@enduml

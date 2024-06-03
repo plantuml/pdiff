@@ -1,0 +1,17 @@
+{
+  "sha1": "jeukdwd0c27y536iymdt7q0nt3oz9ux",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.803Z",
+    "url": "http://forum.plantuml.net/7334/disable-style-heigth-attributes-exported-scaling-browsers",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam svgDimensionStyle false
+
+component a {
+}
+component b {
+}
+a -(0- b
+@enduml

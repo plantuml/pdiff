@@ -1,0 +1,27 @@
+{
+  "sha1": "l8qfq53tolt494noj1s70rm2sr2c60h",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.870Z",
+    "url": "https://forum.plantuml.net/16630/wbs-diagram-hyperlinkunderline-false",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+
+<style>
+wbsDiagram {
+  .pinkname {
+      BackgroundColor pink
+  }
+}
+</style>
+
+* Software Project
+**[#SkyBlue] Design
+***: Build team
+ - John (The database) [[https://dawkins.com Dawkins]]
+ - Sally (The javascript) Marten
+ - Fred (The Animal) Johnson; <<pinkname>>
+*** Start detailed estimation
+
+@endwbs

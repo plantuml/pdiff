@@ -1,0 +1,17 @@
+{
+  "sha1": "jvgs0vw1rw8z80i1b2lv66xo0r32coa",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.314Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma horizontalLineBetweenDifferentPackageAllowed
+node n1 {
+component c1
+}
+node n2 {
+component c2
+}
+n1 "1"-right-"1" n2
+@enduml

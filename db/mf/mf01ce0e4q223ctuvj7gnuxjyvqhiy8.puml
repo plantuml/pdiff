@@ -1,0 +1,27 @@
+{
+  "sha1": "mf01ce0e4q223ctuvj7gnuxjyvqhiy8",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.167Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1044#issuecomment-1160748638",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!theme plain
+<style>
+sequenceDiagram  {
+  group {
+    FontColor transparent
+  }
+}
+</STYLE>
+
+participant "⡏⠱⠀⡏⠁⠞⠊⠑⠝⠞⡊⠝⠋⠕" as pi
+participant "⡙⠱⠀⡍⠑⠝⠞⠉⠁⠗⠑⠤⡙⡃" as db
+
+group ⠁⠇⠞ [<color:#0>⠁⠥⠞⠓⠕⠗⠊⠵⠁⠞⠊⠕⠝⠀⡕⡅</color>]
+  db --> pi: ⡏⠁⠞⠊⠑⠝⠞⠀⠊⠝⠋⠕
+else <color:#0>⠁⠥⠞⠓⠕⠗⠊⠵⠁⠞⠊⠕⠝⠀⠋⠁⠊⠇</color>
+  db --> pi: ⡑⠗⠗⠕⠗⠀⠷⠝⠕⠀⠁⠉⠉⠑⠎⠎⠾
+end
+@enduml

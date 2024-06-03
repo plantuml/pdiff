@@ -1,0 +1,21 @@
+{
+  "sha1": "ha3eh21n4fyh89njbvm3q5iepfzj8ol",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.355Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam colorArrowSeparationSpace 3
+start
+:do a;
+-[#blue;#yellow;#green]-> text1 ;
+if (test) then
+-[#blue,dashed;#yellow;#green]-> text2 ;
+:do b;
+else
+-[#blue,dotted]-> text3 ;
+:do c;
+-[bold]->
+endif
+@enduml

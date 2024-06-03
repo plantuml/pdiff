@@ -1,0 +1,14 @@
+{
+  "sha1": "l50nxo1olsfy634ieq1574kyvuja03m",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.709Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title
+foo
+%lighten("toto", 50)
+endtitle
+alice->bob
+@enduml

@@ -1,0 +1,23 @@
+{
+  "sha1": "httnshtit2dysoy0l04m7b707uedf1",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.001Z",
+    "url": "https://forum.plantuml.net/7019/hh-mm-ss-time-format-in-timing-diagram?show=10028#c10028",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Web Browser" as WB
+concise "Web User" as WU
+
+@0
+WU is Idle
+WB is Idle
+
+@0:00:30
+WU is Waiting : some note
+WB is Processing : some other note
+
+@0:01:30
+WB is Waiting
+@enduml

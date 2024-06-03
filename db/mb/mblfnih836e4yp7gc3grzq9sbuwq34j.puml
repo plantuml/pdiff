@@ -1,0 +1,22 @@
+{
+  "sha1": "mblfnih836e4yp7gc3grzq9sbuwq34j",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.053Z",
+    "url": "https://forum.plantuml.net/16644/style-allow-all-style-for-json-object?show=16712#c16712",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+json {
+  MaximumWidth 200
+  MinimumWidth 200
+}
+</style>
+json JSON {
+  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}
+json JSON1 {
+  "text": "a min. test"
+}
+@enduml

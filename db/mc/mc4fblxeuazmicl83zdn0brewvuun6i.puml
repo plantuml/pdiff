@@ -1,0 +1,37 @@
+{
+  "sha1": "mc4fblxeuazmicl83zdn0brewvuun6i",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.074Z",
+    "url": "http://forum.plantuml.net/7617/activity-beta-arrow-is-loger-in-partition",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:act1;
+if (cond ?) then (label1)
+  stop
+endif
+:act2;
+if (cond ?) then (label2)
+  :act3;
+else (label3)
+  :act4;
+endif
+:act5;
+
+partition foo {
+  :act1;
+  if (cond ?) then (label1)
+    stop
+  endif
+  :act2;
+  if (cond ?) then (label2)
+    :act3;
+  else (label 3)
+    :act4;
+  endif
+  :act5;
+}
+stop
+@enduml

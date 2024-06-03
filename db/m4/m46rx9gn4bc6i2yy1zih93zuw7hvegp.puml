@@ -1,0 +1,23 @@
+{
+  "sha1": "m46rx9gn4bc6i2yy1zih93zuw7hvegp",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.866Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+fork
+	:foo1;
+fork again
+	stop
+endfork
+:this is on
+several <b>lines
+and very interesting;
+
+:on two
+lines;
+
+stop
+@enduml

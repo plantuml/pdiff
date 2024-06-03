@@ -1,0 +1,17 @@
+{
+  "sha1": "h9kjdofguci22oflsfzzfgfkf7ahp8o",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.327Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1305",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : hello
+
+left footer
+* one
+* two
+* three
+endfooter
+@enduml

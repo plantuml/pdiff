@@ -1,0 +1,24 @@
+{
+  "sha1": "ifo5z2oc6fdl8zfm2dmslmpebab2m6x",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.688Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam SequenceGroupBorderColor red
+
+Alice->Bob: Authentication Request
+alt successful case
+    Bob->Alice: Authentication Accepted
+else some kind of failure
+    Bob->Alice: Authentication Failure
+    opt
+        loop 1000 times
+            Alice->Bob: DNS Attack
+        end
+    end
+else Another type of failure
+    Bob->Alice: Please repeat
+end
+@enduml

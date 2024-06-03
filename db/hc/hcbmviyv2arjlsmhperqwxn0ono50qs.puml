@@ -1,0 +1,21 @@
+{
+  "sha1": "hcbmviyv2arjlsmhperqwxn0ono50qs",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.446Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+element {
+  BackGroundColor #AAA
+}
+</style>
+
+participant Alice
+participant Bob
+Alice -> Bob : hello1
+
+@enduml

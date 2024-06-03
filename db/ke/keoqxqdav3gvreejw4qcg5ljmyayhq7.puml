@@ -1,0 +1,24 @@
+{
+  "sha1": "keoqxqdav3gvreejw4qcg5ljmyayhq7",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.915Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+Hello --> World
+Hello --> World
+Hello --> World
+Hello --> World
+Hello --> World
+
+newpage
+
+foo <-- bar
+foo <-- bar
+foo <-- bar
+foo <-- bar
+foo <-- bar
+
+@enduml

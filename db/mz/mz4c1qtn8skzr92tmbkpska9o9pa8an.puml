@@ -1,0 +1,22 @@
+{
+  "sha1": "mz4c1qtn8skzr92tmbkpska9o9pa8an",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.924Z",
+    "url": "https://github.com/plantuml/plantuml/issues/855",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+repeat
+  :Do something1;
+  backward:single line statement works fine;
+repeat while (you want to)
+:Just a gap between the repeat loops;
+repeat
+  :Do something2;
+  backward: multiline
+  statement throws a syntax error;
+repeat while (you want to)
+end
+@enduml

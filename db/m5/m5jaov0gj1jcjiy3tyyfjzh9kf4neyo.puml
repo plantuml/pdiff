@@ -1,0 +1,21 @@
+{
+  "sha1": "m5jaov0gj1jcjiy3tyyfjzh9kf4neyo",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.922Z",
+    "url": "https://forum.plantuml.net/1021/need-to-allow-dashes-in-entity-names?show=16794#c16794",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+interface i
+node n {
+  port p
+  port firstportname
+  port "name-with-dash"
+}
+
+i --> p
+i --> firstportname
+i --> "name-with-dash"
+"name-with-dash" --> firstportname
+@enduml

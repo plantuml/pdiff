@@ -1,0 +1,36 @@
+{
+  "sha1": "h8yhizvprdzia3f7is3yqj0772yarg0",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.285Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+partition "**process** HelloWorld" {
+	note left
+	 A1
+	 A1
+	 ----
+	 A1
+	 A1
+	 A1
+	 A1
+	 A1
+	end note
+	:Ready;
+	:HelloWorld(i)>
+	:Hello-Sent;
+}
+partition "**process** HelloWorld2" {
+	note right
+	 A1sdfjh sdflsdhfj sdflshdfjh sdfsdqfjhsdf sdqf
+	 A1
+	 ----
+	 A1
+	 A1
+	end note
+	:Ready;
+	:HelloWorld(i)>
+	:Hello-Sent;
+}
+@enduml

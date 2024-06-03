@@ -1,0 +1,19 @@
+{
+  "sha1": "lhjyl71r961lgzu70jsqi42pr6upu64",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.158Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty description
+
+state A
+
+state B {
+}
+
+state C {
+  state d <<entrypoint>>
+}
+@enduml

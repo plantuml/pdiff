@@ -1,0 +1,28 @@
+{
+  "sha1": "mhswlj9rwwmhr43z1yxzrtv3h9k4s66",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.270Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+activate IT
+IT->IT : coucou1 
+activate IT
+IT->IT : coucou2 
+activate IT
+IT->IT : coucou3
+activate IT
+note left of IT : note
+note right of IT : this is a long note
+IT->IT : coucou4
+
+IT1->B : hello
+
+deactivate IT
+deactivate IT
+deactivate IT
+deactivate IT
+
+@enduml

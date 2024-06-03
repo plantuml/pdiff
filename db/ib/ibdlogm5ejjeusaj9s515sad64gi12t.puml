@@ -1,0 +1,38 @@
+{
+  "sha1": "ibdlogm5ejjeusaj9s515sad64gi12t",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.534Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Activity Diagram PlantUML New Syntax
+start
+split
+:VIDEOSOURCE;
+'PlantUML bug - Arrow label across partition is never shown
+->image;
+partition OpticalFlow {
+:FeatureDetection
+<I>FXT::harriscorners</I>;
+->feature_list;
+:FeatureTracking
+<I>TRA::nn_association</I>;
+->track_list;
+}
+split again
+:CAR;
+->Info from Car;
+:EgoMotion
+<I>EGO::Ego_2D</I>;
+'PlantUML bug - Arrow label is placed after the end split. (separately reported)
+->3x3_matrix;
+end split
+:Triangulation
+<I>SSFM::triangulation</I>;
+->3d_point_list;
+:3DTracking
+<I>FXT::harriscorners</I>;
+->3d_point_list;
+stop
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "keqvoebk34llnjdy7xm6vfw70sugno2",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.922Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1467",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class HashMap<K,V>
+    HashMap [a1] <|-u-> [e] V1
+    HashMap [b2] *.r.> [f] V2
+    HashMap [c3] o.d.> [g] V3
+    HashMap [d4] +-l-> [h] V4
+
+    MoreComplex [x: String] ..> X
+    MoreComplex [y: int] --> Y
+    MoreComplex [z: boolean] ..> Z
+@enduml

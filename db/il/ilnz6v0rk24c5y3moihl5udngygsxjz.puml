@@ -1,0 +1,24 @@
+{
+  "sha1": "ilnz6v0rk24c5y3moihl5udngygsxjz",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.898Z",
+    "url": "https://forum.plantuml.net/11735/beta-style-backgroundcolor-doesnt-group-components-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+document {
+  BackgroundColor pink
+}
+</style>
+
+node ff {
+node nn [
+node nn2
+{{
+a->b
+}}
+]
+}
+@enduml

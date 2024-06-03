@@ -1,0 +1,25 @@
+{
+  "sha1": "l0lqzrydbykh7r95eky1hol0fwm9d1v",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.534Z",
+    "url": "https://forum.plantuml.net/10089/fontcolor-not-applied-in-sequence-participant",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam {
+    Participant {
+        FontColor Black
+        FontColor<<Color1>> Black
+        FontColor<<Color2>> White
+    }
+}
+
+box "Group 1"
+    participant "Alfa" as One <<Color1>>
+end box
+box "Group 2"
+    participant "Beta" as Two <<Color2>>
+    participant "<font color = white>Omega" as Three <<Color2>>
+end box
+@enduml

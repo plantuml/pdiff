@@ -1,0 +1,12 @@
+{
+  "sha1": "j5brpc76pwa0ypcebz6qkj7l737st2x",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.492Z",
+    "url": "https://forum.plantuml.net/16046/business-usecase-or-usecase-does-not-work-when-allow_mixing",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+allowmixing
+actor/ "actor/"
+@enduml

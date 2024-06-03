@@ -1,0 +1,10 @@
+{
+  "sha1": "l5qa7esoshe6xrxi7oezx2eeu3or2il",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.765Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+emoji 1f5
+@enduml

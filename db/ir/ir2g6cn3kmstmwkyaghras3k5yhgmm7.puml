@@ -1,0 +1,14 @@
+{
+  "sha1": "ir2g6cn3kmstmwkyaghras3k5yhgmm7",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.123Z",
+    "url": "http://forum.plantuml.net/6993/conditional-conditional-creation-participants-participants",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant A30 as P30 order -30
+participant A20 order -20
+participant A21 order 2123459
+participant A10
+@enduml

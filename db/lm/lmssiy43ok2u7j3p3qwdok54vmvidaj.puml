@@ -1,0 +1,15 @@
+{
+  "sha1": "lmssiy43ok2u7j3p3qwdok54vmvidaj",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.321Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Title This is the title\nOn several Lines
+Header Header
+Footer Footer
+actor User [[file://c:/toto.txt]]
+User --> (Start the application)
+' url of User is [[file://c:/toto.txt]]
+@enduml

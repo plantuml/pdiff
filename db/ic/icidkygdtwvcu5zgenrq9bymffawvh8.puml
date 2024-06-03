@@ -1,0 +1,23 @@
+{
+  "sha1": "icidkygdtwvcu5zgenrq9bymffawvh8",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.569Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+
+package SFML {
+rectangle System
+rectangle Window
+rectangle Graphics
+rectangle Audio
+rectangle Network
+}
+System <.. Window
+Window <.. Graphics
+System <.. Graphics
+System <.. Audio
+System <.. Network
+@enduml

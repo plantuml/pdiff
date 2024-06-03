@@ -1,0 +1,17 @@
+{
+  "sha1": "mran7ygr3n4gttv9qztt69a1a4tvtr7",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.538Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Lane|
+start
+partition "Partition" {
+repeat
+:Activity;
+repeat while (Condition)
+}
+end
+@enduml

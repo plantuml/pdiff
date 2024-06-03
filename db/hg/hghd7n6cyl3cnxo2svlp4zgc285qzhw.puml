@@ -1,0 +1,22 @@
+{
+  "sha1": "hghd7n6cyl3cnxo2svlp4zgc285qzhw",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.543Z",
+    "url": "https://github.com/plantuml/plantuml/issues/263",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+.s1 {
+  BackgroundColor #E74C3C
+}
+.s2 {
+  BackgroundColor #E74C3C
+}
+</style>
+
+* Mqwerty\npoint
+** Qwerty\npoint <<s1>>
+** Dummy\npoint <<s2>>
+@endmindmap

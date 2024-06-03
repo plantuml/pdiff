@@ -1,0 +1,21 @@
+{
+  "sha1": "hw626bumym3lfboxnb6rfxrv6kya7k1",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.085Z",
+    "url": "https://forum.plantuml.net/10325/could-you-detail-namespace-declaration-management",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+namespace net {
+}
+
+namespace net.entities {
+}
+
+namespace net.entities.sub {
+}
+
+
+@enduml

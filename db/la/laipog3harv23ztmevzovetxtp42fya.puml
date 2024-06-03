@@ -1,0 +1,12 @@
+{
+  "sha1": "laipog3harv23ztmevzovetxtp42fya",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.954Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=6493/missing-background-color-of-databases-after-latex-export",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+database foo1 #blue
+cloud foo2 #red
+@enduml

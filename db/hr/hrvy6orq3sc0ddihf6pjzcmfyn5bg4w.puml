@@ -1,0 +1,14 @@
+{
+  "sha1": "hrvy6orq3sc0ddihf6pjzcmfyn5bg4w",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.945Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autoactivate on
+alice -> bob : hello
+bob -> bob : self call
+return success1
+return success2
+@enduml

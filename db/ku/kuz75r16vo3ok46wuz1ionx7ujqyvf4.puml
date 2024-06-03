@@ -1,0 +1,22 @@
+{
+  "sha1": "kuz75r16vo3ok46wuz1ionx7ujqyvf4",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.385Z",
+    "url": "https://forum.plantuml.net/12427/backward-in-activity-beta-does-not-work-with-swim-lanes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+|Swimlane1|
+start
+repeat :foo as starting label;
+  :read data;
+  :generate diagrams;
+backward:This is backward;
+repeat while (more data?)
+|Swimlane1|
+
+stop
+
+@enduml

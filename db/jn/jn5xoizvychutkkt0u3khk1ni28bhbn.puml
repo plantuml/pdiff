@@ -1,0 +1,15 @@
+{
+  "sha1": "jn5xoizvychutkkt0u3khk1ni28bhbn",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.034Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[Windos] as WIN
+interface USB as USBI
+[Long Name] as LN
+
+WIN--USBI
+USBI--LN
+@enduml

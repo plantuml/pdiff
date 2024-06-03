@@ -1,0 +1,24 @@
+{
+  "sha1": "j7utiw1tbxwnyaplxbs0842fd35rf2y",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.586Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ActivityBorderThickness 0.1
+|Customer|
+start
+:Sends request;
+|Team|
+:Reviews request; 
+while (Details sufficient?) is (No)
+:requests more detail;
+        |Customer|
+        :Provides more detail;
+        |Team|
+:re-reviews the request;
+endwhile (Yes)
+:Forwards request;
+end
+@enduml

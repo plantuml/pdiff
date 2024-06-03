@@ -1,0 +1,26 @@
+{
+  "sha1": "i9xuxlhice2z7jldrnscwkbv5uc7l37",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.471Z",
+    "url": "http://forum.plantuml.net/5124/skinparam-and-hidden-stereotypes?show=7746#c7746",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide stereotype 
+show <<example>> stereotype 
+skinparam component {
+    BackgroundColor<<base>> #99ff99
+    BorderColor<<base>> Black
+    BackgroundColor<<example>> Yellow
+    BorderColor<<example>> Maroon
+}
+
+package "Something" {
+    [baseComponent1]<<base>>
+    [exampleComponent1]<<example>>
+    [P5] <<P5>>
+    (XxaPtfl) <<P5>>
+    (XxaPtfl2) <<example>>
+}
+@enduml

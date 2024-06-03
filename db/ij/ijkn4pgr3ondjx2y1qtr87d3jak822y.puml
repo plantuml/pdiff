@@ -1,0 +1,23 @@
+{
+  "sha1": "ijkn4pgr3ondjx2y1qtr87d3jak822y",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.807Z",
+    "url": "http://forum.plantuml.net/9018/why-no-gradient-support-for-sequence-diagram-boxes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+box BoxOfAlice #yellow/blue
+  participant Alice #yellow/blue
+end box
+
+box BoxOfBob #orange
+  participant Bob
+end box
+
+Alice -> Bob: Hello
+
+note over Alice #yellow/blue
+  fancy!
+end note
+@enduml

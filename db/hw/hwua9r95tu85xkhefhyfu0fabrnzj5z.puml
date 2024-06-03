@@ -1,0 +1,20 @@
+{
+  "sha1": "hwua9r95tu85xkhefhyfu0fabrnzj5z",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.106Z",
+    "url": "https://github.com/Crashedmind/PlantUML-opensecurityarchitecture-icons/blob/master/example.png",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <osa/user/audit/audit>
+!include <osa/user/green/architect/architect>
+!include <osa/user/black/hat/hat-sprite>
+
+Auditor : <$audit>
+Architect : <$architect>
+BlackHat : <$black_hat>
+
+Auditor -> Architect
+Architect -> BlackHat
+@enduml

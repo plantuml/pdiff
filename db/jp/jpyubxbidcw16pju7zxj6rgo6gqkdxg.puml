@@ -1,0 +1,15 @@
+{
+  "sha1": "jpyubxbidcw16pju7zxj6rgo6gqkdxg",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.083Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package benji {}
+class foo1
+class foo2
+foo1 <--> foo2
+fooB1 <-> fooB2
+fooC1 <...> fooC2
+@enduml

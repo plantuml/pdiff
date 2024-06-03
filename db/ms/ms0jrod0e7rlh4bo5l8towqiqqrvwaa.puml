@@ -1,0 +1,35 @@
+{
+  "sha1": "ms0jrod0e7rlh4bo5l8towqiqqrvwaa",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.581Z",
+    "url": "http://forum.plantuml.net/8359/group-components-cant-be-set-transparent",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundColor red
+'skinparam nodeBackgroundColor
+skinparam cloudBackgroundColor transparent
+skinparam databaseBackgroundColor blue
+
+
+database "Group mode database" {
+	node "Group mode node" {
+	  node simplenode
+	  node multilinenode[
+	    = Multi-line node
+	    More detail goesherea
+	  ]
+	}
+	
+	cloud "Group mode cloud" {
+	  cloud simplecloud
+	  cloud multilinecloud[
+	    = Multi-line cloud
+	    More detail goes here
+	  ]
+	}
+
+  database simpledatabase
+}
+@enduml

@@ -1,0 +1,27 @@
+{
+  "sha1": "m1ucxfwlso16nlm58uopvuamnmvqdk",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.746Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequence {
+       ArrowColor                  #2960A3
+       ActorBorderColor            #2960A3
+       LifeLineBorderColor         #04186F
+       LifeLineBackgroundColor     #04186F
+       ParticipantBorderColor      #DFE5F3
+       ParticipantBackgroundColor  #EEF1F8
+       ParticipantFontSize         15
+       ParticipantFontColor        black
+       ActorBackgroundColor        white
+       ActorFontColor              black
+       ActorFontSize               15
+  BoxBackgroundColor          #EEF1F8
+  BoxBorderColor              #EEF1F8
+}
+participant Alice [[http://plantuml.sourceforge.net/qa/?qa=90/web-links-in-generated-images-e-g-using-image-maps]]
+participant "[[http://www.istec.de Bob]]" as Bob
+Alice -> Bob [[http://www.google.com]] : ok
+@enduml

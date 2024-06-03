@@ -1,0 +1,16 @@
+{
+  "sha1": "k4mhstidrd74v7p37x8czdauou5u3wg",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.621Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase "Modeliser\nles\nprojets" as UC1
+usecase inter
+actor "Le Fameux Toto" as toto
+note left of compo: ceci est un grand composant
+note right of toto: Cet acteur\nest essentiel
+toto --> UC1
+compo-->compo : essai
+@enduml

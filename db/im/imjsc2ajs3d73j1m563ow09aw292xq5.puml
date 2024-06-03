@@ -1,0 +1,24 @@
+{
+  "sha1": "imjsc2ajs3d73j1m563ow09aw292xq5",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.940Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* root
+** 1
+*** 11
+**** 111
+**** 112
+*** 12
+**** 121
+**** 122
+** 2
+*** 21
+**** 211
+**** 212
+*** 22
+**** 221
+**** 222
+@endmindmap

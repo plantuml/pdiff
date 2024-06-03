@@ -1,0 +1,14 @@
+{
+  "sha1": "ipqeb5cu6khroguysmyp5jieni0stsm",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.071Z",
+    "url": "https://forum.plantuml.net/10495/can-an-img-be-supported-as-a-thumbnail-to-the-original",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component "compA" as compA {
+}
+
+note right of compA: [[http://google.fr{a nice toolip} <img:HelloWorld.png{scale=2}>]]
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "lfdbdefx4h0w8bxnxdcxgzpexo5lppl",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.072Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ 
+participant "A" as A
+participant "B" as B
+ 
+note over A: A1
+/ note over A: A2 this line throws an error
+/ note over B: B1
+ 
+@enduml

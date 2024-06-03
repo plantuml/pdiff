@@ -1,0 +1,20 @@
+{
+  "sha1": "jnpvbragpnnd1voye234mfnv07bflzi",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.055Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+header some header
+footer some footer
+title My title
+nwdiag {
+  network inet {
+	  web01 [shape = cloud]
+  }
+}
+legend
+The legend
+end legend
+@enduml

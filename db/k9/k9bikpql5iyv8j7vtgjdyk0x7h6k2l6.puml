@@ -1,0 +1,12 @@
+{
+  "sha1": "k9bikpql5iyv8j7vtgjdyk0x7h6k2l6",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.747Z",
+    "url": "https://github.com/plantuml/plantuml/issues/310",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+*[#dd01a4] one
+ *[#dd01a4] oneone
+@endmindmap

@@ -1,0 +1,17 @@
+{
+  "sha1": "hnr9n7o624glu7hk1y0d4mhbzhz6tiw",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.789Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+object S1
+object S2
+object S3
+object S4
+S1 -[#red]-> S2
+S1 -[#blue,bold]le-> S3
+S1 -r[#blue,bold]-> S4
+
+@enduml

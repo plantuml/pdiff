@@ -1,0 +1,15 @@
+{
+  "sha1": "j8g72f1yv2rh9gqvemxeb68fu5vwz3f",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.600Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultFontName Elephant
+skinparam defaultMonospacedFontName Forte
+class foo {
+  This is normal
+  ""This is monospaced""
+}
+@enduml

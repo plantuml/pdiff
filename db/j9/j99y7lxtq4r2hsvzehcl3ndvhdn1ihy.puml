@@ -1,0 +1,21 @@
+{
+  "sha1": "j99y7lxtq4r2hsvzehcl3ndvhdn1ihy",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.635Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+state OuterState {
+}
+
+state AbstractState {
+ state InnerState1
+ InnerState2 --> OuterState
+ InnerState2 --> InnerState1
+}
+
+AbstractState --> InnerState1
+
+@enduml

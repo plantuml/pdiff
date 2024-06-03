@@ -1,0 +1,14 @@
+{
+  "sha1": "jqmf88h5zlrqdwxepsags5mout53eyb",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.104Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+	start
+	if (very long condition is truncated?) then (yes)
+	 :BAD;
+	endif
+	stop
+@enduml

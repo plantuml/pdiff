@@ -1,0 +1,17 @@
+{
+  "sha1": "llcll8a5kogtfqx8rrwakni7p8mthci",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.264Z",
+    "url": "https://forum.plantuml.net/11776/shape-issue-on-stack-element-deployement-diagram-on-v1-2020",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 1
+skinparam BackgroundColor pink
+title Shape Stack **K0**
+stack stack1
+stack stack {
+}
+stack1--stack
+@enduml

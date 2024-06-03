@@ -1,0 +1,30 @@
+{
+  "sha1": "lephx7n2xq6gjwar7wyg3nuvb5dugkm",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.030Z",
+    "url": "https://forum.plantuml.net/15243/title-mindmap-with-style-not-work-on-new-version-of-plantuml",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title
+{{mindmap
+<style>
+mindmapDiagram {
+  node {
+    FontColor #2FA4E7
+    LineColor #2FA4E7
+    BackGroundColor transparent
+  }
+  arrow {
+    LineColor #2FA4E7
+  }
+}
+</style>
+
+* a
+** b
+*** c
+}}
+end title
+@enduml

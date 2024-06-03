@@ -1,0 +1,20 @@
+{
+  "sha1": "jb2ytk85nqmdsixqwp00glywmswu919",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.670Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+node N <<device>> {
+	 node "SUSE Linux Ent 10" <<OS>> {
+	   rectangle shopping.war <<web archive>>
+	 }
+	}
+	node A <<device>>
+	skinparam node {
+	  backgroundColor<<device>> LightBlue
+	  backgroundColor<<OS>> Pink
+	}
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "is637i9sfv4s7xm6yn6vnbgos8nkbtw",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.160Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+!definelong FOO(name)
+line1 name
+line2 name
+line3 name
+!enddefinelong
+
+Alice -> Bob : hello
+note left
+tmp1 FOO(bar1)
+end note
+ 
+@enduml

@@ -1,0 +1,31 @@
+{
+  "sha1": "lsuixtcuwcbreu2kgylwe6wyjh4e56m",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.523Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+
+
+<style>
+caption {
+    Padding 1
+    Margin 15
+    HorizontalAlignment left
+    LineColor blue
+    LineThickness 3.0
+    BackgroundColor gold
+    RoundCorner 40
+}
+</style>
+
+
+* New style
+** New features
+** Template Files
+*** They are \ngreat and \n should have them!
+
+caption caption
+
+@endmindmap

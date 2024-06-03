@@ -1,0 +1,19 @@
+{
+  "sha1": "lead1zbhpwb3ttsxcgcslh55w8rae5a",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.022Z",
+    "url": "https://forum.plantuml.net/14810/additional-text-for-elseif-missing-when-using-useverticalif",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!pragma useVerticalIf on
+start
+if (foo) then (ok3)
+  :f1;
+(additional text) elseif (foo2) then (ok2)
+  :f2;
+else (notok)
+  :f3;
+endif
+@enduml

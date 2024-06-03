@@ -1,0 +1,25 @@
+{
+  "sha1": "h2n483y3423iesi2oh4iwi4051y4ile",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.123Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class dummy2
+class dummy8
+class dummy10
+class toto5
+
+
+toto ()- dummy2
+toto3 -- dummy4
+toto5 -() dummy
+
+toto ()- dummy8
+
+toto ()- dummy10
+
+dummy4 *-- dummy8
+
+@enduml

@@ -1,0 +1,33 @@
+{
+  "sha1": "m1w0zq7b66v9i1bjs7046vluec2myc5",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.753Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+(*) --> VerifyReservation
+if "test if correct" then
+  -> [incorrect] sendToAirport
+  --> (*)
+else
+  --> [correct] getPreference
+  --> ===Y1===
+  
+  if "bagage?" then
+    --> [bagage] ReceiveBaggage
+    --> ===Y2===
+  else
+    --> [nobagage] ===Y2===
+  endif
+  
+  ===Y1=== --> PrintBoadingboard
+  --> ===Y2===
+  
+  --> GiveTravelDocumentation
+  --> (*)
+endif
+
+
+@enduml

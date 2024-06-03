@@ -1,0 +1,13 @@
+{
+  "sha1": "i3reaxg94sb9jexb1ski78m7cm3t8gp",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.268Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor 有土可种桑麻
+actor 有水克养鱼虾
+actor 有人非你非我
+usecase 有马克走天涯
+@enduml

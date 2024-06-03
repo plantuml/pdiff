@@ -1,0 +1,21 @@
+{
+  "sha1": "mghvd6otfa9zatkzk3mopgpvffcu4bb",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.227Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> if "Do redirect?" then
+ ->[yes] "redirect request"
+ --> ==BEFORE_DESTROY===
+else
+ if "Do Forward?" then
+  -left->[yes] "Forward request"
+  --> ==BEFORE_DESTROY===
+ else
+  -right->[no] "Render page template"
+  --> ==BEFORE_DESTROY===
+ endif
+endif
+@enduml

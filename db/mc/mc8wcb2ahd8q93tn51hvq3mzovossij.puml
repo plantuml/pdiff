@@ -1,0 +1,12 @@
+{
+  "sha1": "mc8wcb2ahd8q93tn51hvq3mzovossij",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.081Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam componentStyle uml2
+node "System\nController\nbox"
+database "\nPostgreSQL\ndatabase\n" as DB
+@enduml

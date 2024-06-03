@@ -1,0 +1,18 @@
+{
+  "sha1": "ju4897bw2r3mwktn0tix37aj28ty2sk",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.248Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam participantBackgroundColor AntiqueWhite/Gold
+skinparam participantClickableBackgroundColor red
+skinparam participantClickableBorderColor green
+
+participant Alice
+participant Bob [[foo]]
+Alice -> Bob : hello
+'url of Bob is [[foo]]
+
+@enduml

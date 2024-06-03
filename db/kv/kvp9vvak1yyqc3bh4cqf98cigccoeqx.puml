@@ -1,0 +1,16 @@
+{
+  "sha1": "kvp9vvak1yyqc3bh4cqf98cigccoeqx",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.413Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:User:
+"Main Admin" as Admin [[http://www.admin.fr]]
+'url of Admin is [[http://www.admin.fr]]
+(Start)
+"Use the application" as (Use) [[http://start]]
+'url of Start is [[http://start]]
+
+@enduml

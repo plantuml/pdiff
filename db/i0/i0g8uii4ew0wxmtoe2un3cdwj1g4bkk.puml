@@ -1,0 +1,14 @@
+{
+  "sha1": "i0g8uii4ew0wxmtoe2un3cdwj1g4bkk",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.203Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1037",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+alice->bob
+legend
+foo
+endlegend
+@enduml

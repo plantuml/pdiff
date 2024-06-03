@@ -1,0 +1,16 @@
+{
+  "sha1": "kquxablh7yow8nybvk25x7kcmbnivnk",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.262Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ hide empty methods
+ 
+ class agent as "ulan:{m}-agent" {
+   a schema:Person    | Organization
+   --from preferred Biography--
+   schema:description
+ }
+@enduml

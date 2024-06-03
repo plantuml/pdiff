@@ -1,0 +1,45 @@
+{
+  "sha1": "en6ua1jgrv1zjybp7xt2cynv02xytrq",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.001Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Dummy1 {
+  +thisIsALongmethod1()
+  +anotherMetheod()
+  
+  +String a1
+  +Date d;
+}
+
+class Dummy2 <<even>> {
+  +thisIsALongmethod1()
+  +anotherMetheod()
+  
+  +String a1
+  +Date d;
+}
+
+class Dummy3 {
+  +thisIsALongmethod1()
+  +anotherMetheod()
+  +String a1
+  +Date d;
+}
+
+class Dummy4 <<even>> {
+  +thisIsALongmethod1()
+  +anotherMetheod()
+  +String a1
+  +Date d;
+}
+
+hide class circled
+show <<even>> circled
+hide <<even>> methods
+hide Dummy2 stereotype
+
+
+@enduml

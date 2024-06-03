@@ -1,0 +1,14 @@
+{
+  "sha1": "hnez1hs62mm7mp8frlc7bvmq6dbbb9y",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.761Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultTextAlignment center
+start
+:foo
+very very very very long text;
+end
+@enduml

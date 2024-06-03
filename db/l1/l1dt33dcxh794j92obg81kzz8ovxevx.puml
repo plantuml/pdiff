@@ -1,0 +1,16 @@
+{
+  "sha1": "l1dt33dcxh794j92obg81kzz8ovxevx",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.562Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+partition P1
+(*) --> A1
+end partition
+
+partition P2
+A1 --> A2
+end partition
+@enduml

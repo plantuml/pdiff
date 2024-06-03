@@ -1,0 +1,41 @@
+{
+  "sha1": "lh3m7fhhdxi16ttntb4tqua9avs0j6f",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.137Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+   [X] checkbox
+	[] checkbox
+	() radio
+	(X) radio
+	This is a text
+	[This is my button]
+	<<
+	............
+	.XXXXX......
+	.X...X......
+	.XXXXXXXXXX.
+	.X........X.
+	.X........X.
+	.X........X.
+	.X........X.
+	.XXXXXXXXXX.
+	............
+	>>
+	<<
+	.............
+	.XXXXX......X
+	.X...X.......
+	.XXXXXXXXXX..
+	.X........X..
+	.X........X..
+	.X........X..
+	.X........X..
+	.XXXXXXXXXX..
+	.............
+	>>
+}
+@endsalt

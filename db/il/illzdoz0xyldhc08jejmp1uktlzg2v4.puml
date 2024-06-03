@@ -1,0 +1,17 @@
+{
+  "sha1": "illzdoz0xyldhc08jejmp1uktlzg2v4",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.891Z",
+    "url": "https://forum.plantuml.net/15983/element-line-style-not-applied-in-usecase-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+abstract   abstract
+annotation annotation #line:red;line.bold;text:red
+note bottom: Why not bold?
+class      class      #line:green;line.dashed;text:green
+note bottom: Why not dashed?
+interface  interface  #line:blue;line.dotted;text:blue
+note bottom: Why not dotted?
+@enduml

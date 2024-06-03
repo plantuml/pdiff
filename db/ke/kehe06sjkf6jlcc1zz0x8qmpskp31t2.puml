@@ -1,0 +1,12 @@
+{
+  "sha1": "kehe06sjkf6jlcc1zz0x8qmpskp31t2",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.908Z",
+    "url": "https://github.com/plantuml/plantuml/discussions/1264",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultFontName       "Verdana"
+Alice -> Bob
+@enduml

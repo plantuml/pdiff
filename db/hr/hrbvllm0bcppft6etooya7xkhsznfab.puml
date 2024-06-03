@@ -1,0 +1,15 @@
+{
+  "sha1": "hrbvllm0bcppft6etooya7xkhsznfab",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.917Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(Alice) -> Bob : ok1
+newpage
+(Alice) -> Bob : ok2
+skinparam hand {
+    written true
+}
+@enduml

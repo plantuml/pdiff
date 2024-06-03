@@ -1,0 +1,17 @@
+{
+  "sha1": "i1bmmh6axwsjf6xcbihv1kd3i2zjzfd",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.247Z",
+    "url": "https://forum.plantuml.net/13669/spaces-in-markdown-syntax-in-mindmap",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* World
+ * America
+  * Mexico
+  * USA 
+ * Europe
+  * Italy
+  * Spain 
+@endmindmap

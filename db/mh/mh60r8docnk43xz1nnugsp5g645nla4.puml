@@ -1,0 +1,17 @@
+{
+  "sha1": "mh60r8docnk43xz1nnugsp5g645nla4",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.248Z",
+    "url": "https://github.com/plantuml/plantuml/issues/72",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty members
+hide empty attributes
+hide circle
+
+class "<U+1F3F7> U+1F3F7\n<U+1F527> U+1F527\n<U+1F6E0> U+1F6E0"
+class "&#127991; 127991\n&#128295; 128295\n&#128736; 128736"
+class "<:label:> label\n<:wrench:> wrench\n<:hammer_and_wrench:> hammer_and_wrench"
+@enduml

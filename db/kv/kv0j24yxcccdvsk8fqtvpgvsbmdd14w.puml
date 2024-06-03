@@ -1,0 +1,12 @@
+{
+  "sha1": "kv0j24yxcccdvsk8fqtvpgvsbmdd14w",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.392Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state foo1
+state foo2
+foo1 --> foo2 : description
+@enduml

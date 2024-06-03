@@ -1,0 +1,20 @@
+{
+  "sha1": "knqw81yl1y1omu4s3osyk09kaur55we",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.200Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Hello;
+:Init;
+:label10;
+:Other;
+:Other2;
+if (dummy) then (when foo and dummy)
+	:goto label10;
+endif
+:Other3;
+:goto label10;
+@enduml

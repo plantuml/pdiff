@@ -1,0 +1,17 @@
+{
+  "sha1": "h5vesvphj66bf4otd9een04iaxamgwt",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.186Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package foo1 {
+  class cl1
+}
+
+package foo2 {
+}
+
+
+@enduml

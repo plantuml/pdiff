@@ -1,0 +1,15 @@
+{
+  "sha1": "mahuw2l5snqans2qncdczz80ln901yz",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.032Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwire
+
+* DDR3 [200x100]
+move(0,200)
+* SLC_NAND [200x100]
+
+DDR3 --> SLC_NAND : thisisme
+@endwire

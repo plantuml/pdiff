@@ -1,0 +1,13 @@
+{
+  "sha1": "kxnrp2asocoq1zqjsq0h96bbk6asl9i",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.443Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Title toto
+Bob -> Alice : ok
+footer test
+scale 1/4
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "lku6n2ccmylxuhm5u6ximgtckv0w2ms",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.243Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=1831/border-thickness&show=5082#c5082",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam titleBorderColor black
+title My Title
+Bob -> Alice : hello
+@enduml

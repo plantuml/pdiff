@@ -1,0 +1,14 @@
+{
+  "sha1": "ish0015y644hlimcn02e7vshmatbh2h",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.174Z",
+    "url": "https://forum.plantuml.net/17507/dotted-arrow-also-the-close-comment-blocks-html-xml-markdown",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+entity B
+map example {
+    A *-_> B
+}
+@enduml

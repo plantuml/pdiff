@@ -1,0 +1,15 @@
+{
+  "sha1": "huwk63if16bdlw77o2u0vszvfb6hpfp",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.050Z",
+    "url": "https://github.com/plantuml/plantuml/issues/81",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class B {
++ B()
++ ~B()
++ B(in a : const B&)
+}
+@enduml

@@ -1,0 +1,28 @@
+{
+  "sha1": "irsk9w3tjcv30tp5r5fv1xbhn6um8b0",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.144Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Subscriber {
+  subscriberId
+}
+
+
+class AccumUsage {
+  subscriberId
+}
+
+class IpSession {
+  ipAddress
+  specificData 
+  sapcOriginStateId 
+  apnId
+}
+
+Subscriber "1" -[#blue]-> "1..*" IpSession
+Subscriber "1" --> "0..1" AccumUsage
+
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "mm3f9mgg4orc4aduzs9bgn3kb6awaby",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.389Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Class1 <|-- ClassBase : sample association name not exported via txmi:star
+
+Class2 *-- Elements : "contains"
+City "*" --o "1" Country 
+@enduml

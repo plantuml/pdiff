@@ -1,0 +1,38 @@
+{
+  "sha1": "lxb3f3ii4rlnsqqnxyru2eqdyutfyst",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.614Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1334",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+{
+    "a": true,
+    "desc": "a",
+    "addP": false,
+    "addP1": false,
+    "addP2": false,
+    "addP3": false,
+    "addP4": false,
+    "addP5": false,
+    "addP6": false,
+    "addP7": false,
+    "addP8": false,
+    "addP9": false,
+    "addP11": false,
+    "addP12": false,
+    "addP13": false,
+    "addP14": false,
+    "addP15": false,
+    "addP16": false,
+    "addP17": false,
+    "addP18": false,
+    "addP19": false,
+    "allOfallOfallOfallOfallOfallOfallOfallOfallOfallOfallOfallOfallOfallOfallOfallOfallOf": [
+        "{ ... }",
+        "{ ... }",
+        "{ ... }"
+    ]
+}
+@endjson

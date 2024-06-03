@@ -1,0 +1,16 @@
+{
+  "sha1": "h12sst001qtzn2u0z2isd3i9truavn3",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.046Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam guillemet false
+!definelong COMP_TEXTGENCOMP(name)
+[name] << Comp >>
+interface Ifc << IfcTyoe >> AS name##Ifc
+name##Ifc - [name]
+!enddefinelong
+COMP_TEXTGENCOMP(dummy)
+@enduml

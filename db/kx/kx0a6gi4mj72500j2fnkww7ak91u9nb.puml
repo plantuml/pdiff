@@ -1,0 +1,12 @@
+{
+  "sha1": "kx0a6gi4mj72500j2fnkww7ak91u9nb",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.434Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startyaml
+- A
+- B
+- C
+@endyaml

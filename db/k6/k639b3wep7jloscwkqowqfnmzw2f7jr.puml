@@ -1,0 +1,21 @@
+{
+  "sha1": "k639b3wep7jloscwkqowqfnmzw2f7jr",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.656Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+if ( 1 ) then (ok)
+:foo5;
+note right
+  this is also
+  long and
+  on several
+  line
+end note
+:foo6;
+note left: toto
+stop
+endif
+@enduml

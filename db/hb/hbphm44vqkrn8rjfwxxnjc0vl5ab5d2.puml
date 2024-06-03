@@ -1,0 +1,20 @@
+{
+  "sha1": "hbphm44vqkrn8rjfwxxnjc0vl5ab5d2",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.411Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam card<<srv>> {
+    BorderThickness 0
+    BackgroundColor transparent
+    FontColor #074d92
+    FontStyle bold
+    StereotypeFontSize 0
+}
+
+card foo1
+card foo2 <<srv>>
+
+@enduml

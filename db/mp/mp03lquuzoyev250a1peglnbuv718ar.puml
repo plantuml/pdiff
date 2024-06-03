@@ -1,0 +1,11 @@
+{
+  "sha1": "mp03lquuzoyev250a1peglnbuv718ar",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.473Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1232",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+help type
+@enduml

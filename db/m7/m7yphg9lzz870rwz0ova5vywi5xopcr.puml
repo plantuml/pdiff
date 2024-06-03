@@ -1,0 +1,11 @@
+{
+  "sha1": "m7yphg9lzz870rwz0ova5vywi5xopcr",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.983Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:<math>int_0^1f(x)dx</math>;
+:<latex>\sum_{i=0}^{n-1} (a_i + b_i^3)</latex>;
+@enduml

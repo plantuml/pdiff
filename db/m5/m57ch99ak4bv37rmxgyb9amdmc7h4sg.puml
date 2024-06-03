@@ -1,0 +1,26 @@
+{
+  "sha1": "m57ch99ak4bv37rmxgyb9amdmc7h4sg",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.908Z",
+    "url": "https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+{
+    "quiz": {
+        "sport": {
+            "q1": {
+                "question": "Which one is correct team name in NBA?",
+                "options": [
+                    "New York Bulls",
+                    "Los Angeles Kings",
+                    "Golden State Warriros",
+                    "Huston Rocket"
+                ],
+                "answer": "Huston Rocket"
+            }
+        }
+    }
+}
+@endjson

@@ -1,0 +1,12 @@
+{
+  "sha1": "kksldmpkr33w12ko3t4p498dpzwq6f7",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.104Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* first element
+** second element
+** third element
+@endwbs

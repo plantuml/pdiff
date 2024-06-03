@@ -1,0 +1,19 @@
+{
+  "sha1": "hc7mp62kg0scek2a9fv67wi9xj3qkbl",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.439Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+N={# This is my title }
+S={# [OK south] | [Cancel]}
+W={# West }
+E={# East }
+C={#
+A0 | B0
+A1 | B1 
+}
+}
+@endsalt

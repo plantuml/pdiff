@@ -1,0 +1,38 @@
+{
+  "sha1": "ju5bgf3pqhfu1q8mc15r91ejrxivdke",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.258Z",
+    "url": "https://forum.plantuml.net/15082/probably-error-bug",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor User
+participant API_Service as Api
+participant RabbitMQ as RMQ
+participant Worker as Worker
+participant SMS_Gateway as SMS
+
+autonumber
+
+ref over User: ввод имени пользователя, \n эл. почты, \n номера телефона, \n нажатие кнопки регистрации \n на форме
+User -> Api: POST / HTTPS / {telnumber}}
+Api -> RMQ: amqp protocol \n {telnumber, approve_code}}
+User <-- Api: отображаем приглашение \n ввести код из SMS
+
+loop бесконечный цикл опроса очереди и отправки сообщений
+    Worker -> RMQ: извлечение сообщений \n по одному
+    loop
+        Worker -> SMS: отправка сообщения, \n в случае ошибки отправки \n сообщения продолжать отправлять \n его бесконечно, затем \n извлекать из очереди следующее \n сообщение итд.
+        alt
+            SMS --> Worker: get 200 code (здесь нужен break)
+            break
+        else
+            SMS --> Worker: get 502 code
+        end
+    end
+end
+
+@enduml

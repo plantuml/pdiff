@@ -1,0 +1,12 @@
+{
+  "sha1": "imb7tfn1nk7ymwx0xmz17yha73nv76l",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.919Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define B C
+!define A B
+alice -> bob : A
+@enduml

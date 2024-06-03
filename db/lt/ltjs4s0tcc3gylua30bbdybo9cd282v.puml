@@ -1,0 +1,40 @@
+{
+  "sha1": "ltjs4s0tcc3gylua30bbdybo9cd282v",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.537Z",
+    "url": "http://forum.plantuml.net/8975/dependency-between-packages-containing-classes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package Application [
+{{
+  class class
+}}
+]
+
+package ClientInterface [
+{{
+  class class1
+}}
+]
+
+package LibraryInterface [
+{{
+  interface interface1
+  interface interface2
+}}
+]
+
+package LibraryImplementation [
+{{
+  class class2
+  class class3
+}}
+]
+
+Application ..> ClientInterface
+ClientInterface .down.> LibraryInterface
+ClientInterface .down.> LibraryImplementation
+LibraryImplementation .right.> LibraryInterface
+@enduml

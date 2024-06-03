@@ -1,0 +1,36 @@
+{
+  "sha1": "hpc340o7pppekctc9n02ntl5oa9myu5",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.831Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+box "Box1"
+       participant A
+end box
+
+box "Box2 with a very long title END"
+       participant B
+end box
+
+box "Box3"
+       participant C
+       participant D
+end box
+
+box "Box4 with a very long title that is even longer END"
+       participant E
+       participant F
+end box
+
+box "Box5 with a very long title that is even longer END"
+       participant G
+end box
+
+'participant H
+
+A->B : this is a even very very long message that should push everyone END
+
+@enduml

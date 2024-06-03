@@ -1,0 +1,35 @@
+{
+  "sha1": "l9wdf7h9elj6jjpn0n87cuumv6n1z21",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.926Z",
+    "url": "https://forum.plantuml.net/14554/style-state-allow-fontcolor-style-on-state",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+root {
+  FontColor Red
+}
+state {
+  FontColor Blue
+  BackGroundColor yellow
+  LineColor violet
+  header {
+  	FontColor Green
+  }
+}
+</style>
+title How to change fontcolor by style?
+state A {
+  state B {
+  }
+  state C {
+    state c : state c
+  }
+}
+ 
+state S1 : state S1
+state S2
+
+@enduml

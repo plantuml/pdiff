@@ -1,0 +1,17 @@
+{
+  "sha1": "mowqbfh6liaz65qonn5peaflzwf975k",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.466Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A
+note right of A
+if (a) {
+  return b;
+} else {
+return c;
+}
+end note
+@enduml

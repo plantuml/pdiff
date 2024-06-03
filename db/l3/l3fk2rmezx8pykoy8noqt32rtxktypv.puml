@@ -1,0 +1,17 @@
+{
+  "sha1": "l3fk2rmezx8pykoy8noqt32rtxktypv",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.639Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+root { FontName: Roboto; }
+</style>
+
+title Roboto
+
+scale 4
+iiiiiiiiiiiiiiiiiiiiii -> wwwwwwwwwwwwwwwwwwwwwwwww : hello
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "mc251up7pkn37nc5jwe59gk3ffwiilb",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.067Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1286",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam style strictuml
+
+class foo1.foo2
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "lsuecst4aapm2qwybbfu19ae784hs2d",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.516Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+fork
+    :Activity A;
+    note:note on activity A
+fork again
+    :Activity B;
+    note:note on activity B
+    :Activity C;
+end fork
+stop
+@enduml

@@ -1,0 +1,21 @@
+{
+  "sha1": "ilye5cm3gr8fkejlnm5zf0440cmzozj",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.905Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+-[#green]-> before repeat;
+repeat
+-[#pink]-> after repeat;
+:Write;
+-> send to review;
+:Reviews;
+-[#yellow]-> endrepeat;
+repeat while (was it proper?) -[#blue]-> no
+-[#red]->yes;
+:some action;
+stop
+@enduml

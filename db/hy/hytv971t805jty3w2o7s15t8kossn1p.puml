@@ -1,0 +1,29 @@
+{
+  "sha1": "hytv971t805jty3w2o7s15t8kossn1p",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.166Z",
+    "url": "http://forum.plantuml.net/9065/not-able-to-use-partition-inside-repeat",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:1;
+:2;
+repeat
+:3;
+:4;
+if (User confirms) then (Yes )
+:5;
+break
+else (User clicks on Cancel)
+:6;
+:7;
+endif
+partition abc {
+    :9;
+}
+repeat while (cond)
+    :8;
+stop
+@enduml

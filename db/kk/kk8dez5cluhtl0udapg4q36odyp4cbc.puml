@@ -1,0 +1,17 @@
+{
+  "sha1": "kk8dez5cluhtl0udapg4q36odyp4cbc",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.076Z",
+    "url": "http://forum.plantuml.net/7287/change-classfontcolor-dynamically-between-class-boxes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class classA {
+testMethodCode()        
+}
+
+class classB #f00 {
+testMethodCode()       
+}
+@enduml

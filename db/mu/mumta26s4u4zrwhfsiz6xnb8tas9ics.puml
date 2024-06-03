@@ -1,0 +1,13 @@
+{
+  "sha1": "mumta26s4u4zrwhfsiz6xnb8tas9ics",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.700Z",
+    "url": "http://forum.plantuml.net/9498/sequence-diagram-message-arrows",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob x-> Alice : 0-4 x->
+Bob x->x Alice : 0-6 x->x
+Bob x->o Alice : 0-8 x->o
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "k3jvry17ak42cqb60ruryzis5brgqrb",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.579Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Client
+participant User
+User -> User : goo
+create Client
+User -> Client : Start
+@enduml

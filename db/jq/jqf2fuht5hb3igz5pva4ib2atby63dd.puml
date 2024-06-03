@@ -1,0 +1,13 @@
+{
+  "sha1": "jqf2fuht5hb3igz5pva4ib2atby63dd",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.090Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:any;
+switch (any2)
+case (a)
+        :Charged;
+@enduml

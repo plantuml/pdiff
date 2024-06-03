@@ -1,0 +1,12 @@
+{
+  "sha1": "k4lpibv55zjmq9f4suce55jre6f8tj8",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.614Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ia42 -up-> ia123
+'(ia42, ia123) . ia_1000042_ia125_has_father_123
+(ia123, ia42) . ia_1000042_ia125_has_father_123
+@enduml

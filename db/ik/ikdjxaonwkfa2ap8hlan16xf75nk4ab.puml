@@ -1,0 +1,35 @@
+{
+  "sha1": "ikdjxaonwkfa2ap8hlan16xf75nk4ab",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.814Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "DNS Resolver" as DNS
+robust "Web Browser" as WB
+concise "Web User" as WU
+
+@0
+WU is Idle
+WB is Idle
+DNS is Idle
+
+@+100
+WU -> WB : URL
+WU is Waiting
+WB is Processing
+
+@+200
+WB is Waiting
+WB -> DNS@+50 : Resolve URL
+
+@+100
+DNS is Processing
+
+@+300
+DNS is Idle
+DNS -> WU : foo
+DNS@650 -> WU : foo
+DNS@750 -> WU : foo
+@enduml

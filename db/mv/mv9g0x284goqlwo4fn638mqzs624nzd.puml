@@ -1,0 +1,17 @@
+{
+  "sha1": "mv9g0x284goqlwo4fn638mqzs624nzd",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.721Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package "entities" {
+
+A1 -> A2 : a
+A3 -> A2 : cccc
+A3 -> A2 : B
+}
+
+
+@enduml

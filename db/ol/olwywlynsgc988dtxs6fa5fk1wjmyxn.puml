@@ -1,0 +1,13 @@
+{
+  "sha1": "olwywlynsgc988dtxs6fa5fk1wjmyxn",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.933Z",
+    "url": "https://forum.plantuml.net/12825/syntax-error-issue-on-not-network-equipment-chain-on-nwdiag",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+  a -- b [shape = cloud, address="USB"];
+}
+@enduml

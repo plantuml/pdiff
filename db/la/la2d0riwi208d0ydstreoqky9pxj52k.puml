@@ -1,0 +1,28 @@
+{
+  "sha1": "la2d0riwi208d0ydstreoqky9pxj52k",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.940Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|line1|
+|line2|
+
+|line1|
+start
+|line2|
+fork
+:lib1::send_Hook();
+detach
+
+fork again
+:lib2::hook3;
+detach
+
+fork again
+endfork
+
+stop
+
+@enduml

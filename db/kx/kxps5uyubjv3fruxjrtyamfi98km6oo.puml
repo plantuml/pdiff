@@ -1,0 +1,22 @@
+{
+  "sha1": "kxps5uyubjv3fruxjrtyamfi98km6oo",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.457Z",
+    "url": "https://forum.plantuml.net/10846/startsub-includesub-example-documentation-behaves-differently?show=10857#c10857",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A -> A : stuff1
+!log foo $with_details
+!if ($with_details=="true")
+B -> B : stuff2
+!endif
+C -> C : stuff3
+!if ($with_details=="true")
+D -> D : stuff4
+!endif
+!if (%variable_exists("$with_details")==0)
+D -> D : with_details is undefined
+!endif
+@enduml

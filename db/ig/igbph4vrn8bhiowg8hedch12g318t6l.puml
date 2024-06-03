@@ -1,0 +1,14 @@
+{
+  "sha1": "igbph4vrn8bhiowg8hedch12g318t6l",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.709Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam svek true
+hide members
+hide class circled
+TopLinkSessionMgr "*" -- TopLinkService
+
+@enduml 

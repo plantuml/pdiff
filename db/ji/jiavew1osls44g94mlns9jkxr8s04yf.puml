@@ -1,0 +1,17 @@
+{
+  "sha1": "jiavew1osls44g94mlns9jkxr8s04yf",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.936Z",
+    "url": "https://forum.plantuml.net/2585/broadcast-or-a-multicast-message-in-a-sequence-diagram?show=13008#c13008",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+actor Alice
+actor Bob
+actor Charlie
+actor Dave
+Alice -> Bob & Dave: Bob & Dave
+Alice -> Bob & Dave & Charlie : Bob & Dave & Charlie
+@enduml

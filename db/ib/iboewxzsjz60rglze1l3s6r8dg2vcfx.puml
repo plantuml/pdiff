@@ -1,0 +1,15 @@
+{
+  "sha1": "iboewxzsjz60rglze1l3s6r8dg2vcfx",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.541Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+-class fo{
+	# field1 : type
+	- field2 : type
+	- foo1(param : type2) : type3
+	# foo2(param : type2) : type3
+}
+@enduml

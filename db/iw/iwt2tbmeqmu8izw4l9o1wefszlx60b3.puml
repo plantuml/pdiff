@@ -1,0 +1,20 @@
+{
+  "sha1": "iwt2tbmeqmu8izw4l9o1wefszlx60b3",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.298Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:start1;
+partition #CadetBlue;header:red "go up the stairs in a way that is methodic \n----\n[[http://www.google.es link]]" {
+
+ :go up first step;
+ :go up second step;
+ if (tired) then(yes)
+   :stop a bit\n----\nnow;
+ endif
+ :go up last steps;
+}
+:start2;
+@enduml

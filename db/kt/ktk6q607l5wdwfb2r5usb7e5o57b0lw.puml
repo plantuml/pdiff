@@ -1,0 +1,13 @@
+{
+  "sha1": "ktk6q607l5wdwfb2r5usb7e5o57b0lw",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.353Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+skinparam useBetaStyle true
+<style>
+</style>
++ My First Node
+@endwbs

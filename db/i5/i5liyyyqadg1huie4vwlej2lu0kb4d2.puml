@@ -1,0 +1,19 @@
+{
+  "sha1": "i5liyyyqadg1huie4vwlej2lu0kb4d2",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.338Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package p1 {
+  class in1
+}
+package p2 <<Foo>> {
+  class in2
+}
+package p3 {
+}
+package p4 <<Foo>> {
+}
+@enduml

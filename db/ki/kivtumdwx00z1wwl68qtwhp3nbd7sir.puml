@@ -1,0 +1,21 @@
+{
+  "sha1": "kivtumdwx00z1wwl68qtwhp3nbd7sir",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.034Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+package "PKG" {
+component CMP3 as C3 {
+rectangle "info"
+}
+}
+ 
+component "CMP 5" as POS {
+}
+ 
+POS ~up~# "foo" C3 : call
+ 
+@enduml

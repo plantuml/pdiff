@@ -1,0 +1,13 @@
+{
+  "sha1": "kwfh9boc0ezqwpwd9mgudt9rl7sz6d9",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.427Z",
+    "url": "https://forum.plantuml.net/12062/misintepretation-of-tooltip-as-operation",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Event_or << Entity >> {
+   [[https://www.openresearch.org/wiki/Property:Event_in_series{foreign key(pagename) of the Event series this event belongs to} series]] : TEXT
+  }
+@enduml

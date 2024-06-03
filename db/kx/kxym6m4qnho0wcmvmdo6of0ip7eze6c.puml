@@ -1,0 +1,13 @@
+{
+  "sha1": "kxym6m4qnho0wcmvmdo6of0ip7eze6c",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.457Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> StartingActivity in "First partition"
+--> "Other activity"
+--> "Last activity" in "Last Partition"
+
+@enduml

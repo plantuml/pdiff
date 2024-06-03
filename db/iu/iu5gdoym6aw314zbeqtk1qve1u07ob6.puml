@@ -1,0 +1,13 @@
+{
+  "sha1": "iu5gdoym6aw314zbeqtk1qve1u07ob6",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.210Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+namespace Vehicles {
+   Toyota --|> Car : implements
+}
+@enduml

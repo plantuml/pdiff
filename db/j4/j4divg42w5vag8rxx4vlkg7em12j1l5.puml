@@ -1,0 +1,13 @@
+{
+  "sha1": "j4divg42w5vag8rxx4vlkg7em12j1l5",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.471Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component component1
+database database1
+queue queue2
+queue "queue1\n----\ntoto" as queue3
+@enduml

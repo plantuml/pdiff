@@ -1,0 +1,12 @@
+{
+  "sha1": "hea902srz1n3prl87vv1vmdr0q714ln",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.503Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1016",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> one
+one: \t<sup>1</sup>
+@enduml

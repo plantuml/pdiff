@@ -1,0 +1,15 @@
+{
+  "sha1": "jsutc7nqdfr4nxny0dufb0u44zdcdvw",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.199Z",
+    "url": "http://forum.plantuml.net/6933/macro-arguments-cascading-into-calls-to-other-macros",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define FOO(c, i) <color:c>i</color>
+!define BAR(color) FOO(color, sometext)
+class something {
+	BAR(Red)
+}
+@enduml

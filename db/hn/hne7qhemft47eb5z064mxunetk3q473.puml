@@ -1,0 +1,39 @@
+{
+  "sha1": "hne7qhemft47eb5z064mxunetk3q473",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.761Z",
+    "url": "http://forum.plantuml.net/8317/do-digraphs-not-work-with-entities",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundColor LightYellow
+skinparam state {
+  StartColor MediumBlue
+  EndColor Red
+  BackgroundColor Peru
+  BackgroundColor<<Warning>> Olive
+  BackgroundColor<<choice>> palegreen
+  BorderColor Grey
+  FontName Impact
+}
+skinparam activityBackgroundColor palegreen
+
+state "Req(Id)" as ReqId <<sdlreceive>>
+state "Minor(Id)" as MinorId <<sdlsend>>
+state "MinorReq := Id;" as MinorReq <<rect>>
+state "Major(Id)" as MajorId <<sdlsend>>
+state "MajorReq := Id;" as MajorReq <<rect>>
+ 
+state c <<choice>>
+ 
+Idle --> ReqId
+ReqId --> c
+c --> MinorId : [Id <= 10]
+MinorId --> MinorReq
+c --> MajorId : [Id > 10]
+MajorId --> MajorReq
+MinorReq --> j
+MajorReq --> j
+j --> Busy
+@enduml

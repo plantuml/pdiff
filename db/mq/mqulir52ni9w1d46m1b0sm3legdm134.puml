@@ -1,0 +1,25 @@
+{
+  "sha1": "mqulir52ni9w1d46m1b0sm3legdm134",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.517Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A {
+  member1
+  memberB()
+  member2
+}
+note right of A::member1
+  This member is annotated
+end note
+note right of A::memberB
+  This method is now explained in a UML note
+end note
+note left of A::member2
+  Yet **another**
+  note on several lines.
+end note
+
+@enduml

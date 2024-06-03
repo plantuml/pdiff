@@ -1,0 +1,19 @@
+{
+  "sha1": "hu6d7a7vaiagezz0j7qbk8fl0yhdal7",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.036Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+sprite SVG_NO_BEZIER <svg width="12cm" height="6cm" viewBox="0 0 1200 600"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <path d="M200,300 L400,50 L600,300
+           L800,550 L1000,300"
+        fill="#FF0000" stroke="#888888" stroke-width="2" />
+</svg>
+
+
+Alice->Bob : ab<$SVG_NO_BEZIER>cd
+
+@enduml

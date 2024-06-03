@@ -1,0 +1,14 @@
+{
+  "sha1": "hwrk9c7ka9y8ln50drqu1riik45h5ol",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.099Z",
+    "url": "https://forum.plantuml.net/17811/theme-supports-no-calculated-from-path-and-stdlib-from-path",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!theme C4_united from <C4/themes>
+!include <C4/C4>
+C4Version()
+%version()
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "maxfl3ovu6pgdi2pfgxcgw8w0e4qsaa",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.046Z",
+    "url": "https://forum.plantuml.net/11930/incorrect-string-of-ortho-line?show=15203#a15203",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam linetype ortho
+Entity01 "1" }|--|| "2" Entity02
+@enduml

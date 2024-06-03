@@ -1,0 +1,19 @@
+{
+  "sha1": "lkij5g7s4th03x4wcuhrjgkc2fqvm6w",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.236Z",
+    "url": "http://forum.plantuml.net/8159/class-method-cannot-be-hidden",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Method {
+    foo()
+}
+
+class Other {
+    foo()
+}
+
+hide method
+@enduml

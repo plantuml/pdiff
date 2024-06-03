@@ -1,0 +1,23 @@
+{
+  "sha1": "m0hkzpo50co5jspuz16206vhjiygd23",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.683Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*top) --> "01onCreate()"
+"01onCreate()" --> "02onStart()"
+"02onStart()" --> if "" then
+--> "05onResume()"
+else
+--> "07onStop()"
+endif
+"05onResume()" -->  "06onPause()"
+"06onPause()" --> "07onStop()"
+"07onStop()" -*->  "01onCreate()"
+"07onStop()" -*-> "03onRestart()"
+"03onRestart()" -right-> "02onStart()"
+"07onStop()" --> "08onDestroy"
+"08onDestroy" --> (*)
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "mwpyx7e7uebpmoyz0qsld88clgnoz8p",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.826Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam layout neato
+:actor1:
+:actor2:
+:actor3:
+:actor4:
+(UC1)
+(UC2)
+(UC3)
+(UC4)
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "m3i8i0dlc7krc2gqphj8erfs5fdb06h",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.831Z",
+    "url": "http://forum.plantuml.net/8663/activity-arrow-color-before-start-assigned-the-wrong-arrow",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:A;
+-[#blue]->
+start
+:B;
+@enduml

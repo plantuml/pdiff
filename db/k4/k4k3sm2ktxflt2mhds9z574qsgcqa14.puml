@@ -1,0 +1,22 @@
+{
+  "sha1": "k4k3sm2ktxflt2mhds9z574qsgcqa14",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.607Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+
+[*] --> A
+
+state Configuring {
+  [*] --> Z
+}
+
+state A {
+  [*] --> Configuring
+end state
+
+
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "m3dw5r1oiugjfok0n738u3iseg1jpch",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.824Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=5151/hyperlink-interferes-with-visibility",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    class Operation << (H,#E6FFE6)  >> {
+    __todo/fixme__
+     -is_abstract   [[ blaha(xyz,12) { tooltip } ]]
+    }
+@enduml

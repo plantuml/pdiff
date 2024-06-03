@@ -1,0 +1,14 @@
+{
+  "sha1": "k3opfpk3drg5llef91qdbmw2035czz9",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.586Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+skinparam monochrome true
+package foo {
+class dummy2
+}
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "he0nx79mltp852ah8oi7es0wttmwupf",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.496Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+Bob -> Alice : synchronous call
+Bob ->> Alice : asynchronous call
+
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "hl6me7p8h8vsvct44wvdjaiikloxvg6",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.716Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam rectangle {
+    BorderColor Blue
+    BorderColor<<Software System>> Green
+    RoundCorner<<Software System>> 25
+    BorderStyle<<Software System>> dashed
+    BorderStyle dotted
+}
+rectangle rect1<<Software System>>
+rectangle rect2
+
+rect1 -[dashed]-> rect2
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "h2bjt4e0p95d02utoa7695uumqc8xg3",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.116Z",
+    "url": "https://forum.plantuml.net/9880/changed-behaviour-from-vers-2019-5-to-vers-2019-6",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define Extension(id, name, type = "Extension")  class   "<b>TYP: name</b>" as id << (E,White) type >>
+
+Extension(A, B)
+note left
+${loadExtension(SST310_DEFAULT_ERROR_RESPONSE)}
+end note
+@enduml

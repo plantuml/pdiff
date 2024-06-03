@@ -1,0 +1,11 @@
+{
+  "sha1": "liji9fcidk3xqmuyuh7h49e23igc9ha",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.180Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : default\non two different lines
+Bob -> Alice : very very long message
+@enduml

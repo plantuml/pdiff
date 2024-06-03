@@ -1,0 +1,28 @@
+{
+  "sha1": "harm3d6kr72w3uezho0gyg3ordc0bcl",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.376Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class cl1 extends cl2 {
+pour cl1
+}
+interface i1 {
+pourr i1
+}
+
+interface i1 extends i2 {
+ pour i1 encore
+}
+
+class cl3 implements i3 {
+ pour cl3
+}
+
+interface i5 implements i2 {
+pour i5
+}
+
+@enduml

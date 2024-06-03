@@ -1,0 +1,31 @@
+{
+  "sha1": "ki7tsto0fm5ugkw72jxzhuzhjhp8a3n",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.013Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:start;
+if (some **creole**
+on several lines
+|= table |= header |
+| a1 | a2 |
+| b1 | b2 |
+====
+a test
+-- my title --
+* toto) then (yes)
+  :me;
+endif
+ if (==0==
+==1==
+==2==
+==3==
+==4==
+==5==
+==6==
+* toto) then (yes)
+  :me;
+endif
+@enduml

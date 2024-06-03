@@ -1,0 +1,28 @@
+{
+  "sha1": "mjt9a87ei5c6p4azikextba87e49dfr",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.333Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    start
+    #green:if(foo)
+    :...;
+    #red:elseif(bar)
+    :...;
+    else
+    :..;
+    endif
+    stop
+
+    start
+    if(foo)
+    :...;
+    #red:elseif(bar)
+    :...;
+    else
+    :..;
+    endif
+    stop
+@enduml

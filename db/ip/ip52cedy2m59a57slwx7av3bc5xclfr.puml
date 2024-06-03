@@ -1,0 +1,16 @@
+{
+  "sha1": "ip52cedy2m59a57slwx7av3bc5xclfr",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.057Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:foo1;
+if (test) then
+  :foo2withaverylongdescription;
+else
+  :foo2;
+endif
+:foo5;
+@enduml

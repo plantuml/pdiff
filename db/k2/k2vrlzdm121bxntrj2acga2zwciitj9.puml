@@ -1,0 +1,16 @@
+{
+  "sha1": "k2vrlzdm121bxntrj2acga2zwciitj9",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.537Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+cloud "Chat Service + DB" as Char {
+  [Service]
+  database [PSQL] as DB {
+  json JSON {
+    "fruit":"apple",
+    "color":["Red", "Green"]
+  }
+@enduml

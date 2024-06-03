@@ -1,0 +1,13 @@
+{
+  "sha1": "kck7tzhftgrmqk21lh8pz5ejuo8f1z5",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.859Z",
+    "url": "https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+{
+"k": [1, 2, 3]
+}
+@endjson

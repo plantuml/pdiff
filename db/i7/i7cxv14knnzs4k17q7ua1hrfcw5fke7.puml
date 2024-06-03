@@ -1,0 +1,43 @@
+{
+  "sha1": "i7cxv14knnzs4k17q7ua1hrfcw5fke7",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.415Z",
+    "url": "https://forum.plantuml.net/13848/error-has-occured-java-lang-unsupportedoperationexception?show=13849#c13849",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+partition "require(require_type req_type)" {
+start
+  switch (req_type?)
+  case (EOF)
+    if (notfound "%%EOF") then (y)
+      :throw syntax_error(EOF_not_found);
+      stop
+    endif
+    if (end of stream) then (y)
+      stop
+    endif
+    if (there is no "**[EOL]**") then (y)
+      stop
+    endif
+    :throw syntax_error(EOF_invalid);
+    stop
+  case (EOL)
+    if (LF || CRLF || CR) then (y)
+      stop
+    endif
+    :throw syntax_error(EOL_not_found);
+    stop
+  case (startxref)
+    :ignore_if_present(any_whitespace_characters_except_EOL);
+    if (there is no "startxref") then (y)
+      :throw syntax_error(startxref_not_found);
+    endif
+    :ignore_if_present(any_whitespace_characters_except_EOL | comment);
+    :require(EOL);
+  endswitch
+stop
+}
+
+@enduml

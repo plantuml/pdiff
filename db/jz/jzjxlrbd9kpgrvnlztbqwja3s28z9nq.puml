@@ -1,0 +1,26 @@
+{
+  "sha1": "jzjxlrbd9kpgrvnlztbqwja3s28z9nq",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.409Z",
+    "url": "https://forum.plantuml.net/17885/decimal-time-values-not-accepted-in-parameters-procedures",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+binary "enable" as EN
+
+@0 as :start
+@5 as :en_high 
+@10 as :en_low
+@:en_high-2 as :en_highMinus2
+
+@:start
+EN is low
+
+@:en_high+1.5
+EN is high
+
+@10.5
+EN is low
+
+@enduml

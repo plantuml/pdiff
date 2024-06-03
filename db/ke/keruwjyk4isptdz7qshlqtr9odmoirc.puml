@@ -1,0 +1,11 @@
+{
+  "sha1": "keruwjyk4isptdz7qshlqtr9odmoirc",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.922Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "Data" as DATA
+@DATA
+@enduml

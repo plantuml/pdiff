@@ -1,0 +1,12 @@
+{
+  "sha1": "h5ga612j8fij5b32hzcajmouym9m5aa",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.165Z",
+    "url": "http://forum.plantuml.net/8652/cutting-off-component-diagram-interfaces",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+DataAccess - [First Component] 
+[First Component] ..> HTTP : use
+@enduml

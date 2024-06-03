@@ -1,0 +1,15 @@
+{
+  "sha1": "h1mftn6ljam2fy0r2pwwrksg9kvs9dz",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.081Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> " Arret de l'application "
+--> " Arret de la base de donnees "
+--> " FlashCopy des fichiers hors Base de donnees "
+--> ===B1===
+--> " Sauvegarde TSM du disque copie "
+B1 --> " Demarrage de la base de donnees "
+@enduml

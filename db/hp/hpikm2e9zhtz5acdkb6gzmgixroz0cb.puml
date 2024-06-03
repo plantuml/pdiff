@@ -1,0 +1,17 @@
+{
+  "sha1": "hpikm2e9zhtz5acdkb6gzmgixroz0cb",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.845Z",
+    "url": "https://gist.github.com/rxaviers/7360908",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob : innocent<:1F607:>is<#0:1F607:><color:green>is<#000:1F607:>
+Alice -> Bob : innocent<:innocent:>is
+Alice -> Bob : innocent<:2600:><U+2600>is<#green:2600:>
+Alice -> Bob : <size:20>innocent<:innocent:>is
+Alice -> Bob : <size:20>innocent<U+1F607>is
+Alice -> Bob : <size:20>innocent<:smile:>is
+Alice -> Bob : <:church:>
+@enduml

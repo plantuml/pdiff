@@ -1,0 +1,29 @@
+{
+  "sha1": "kbstt92uigw2fjkaywq7vw9boqygiwb",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.817Z",
+    "url": "http://forum.plantuml.net/8729/note-right-breaks-split-in-activity-beta",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+split
+:bar1;
+note
+A bit of text describing what happens
+end note
+split again
+:bar2;
+end split
+:next;
+split
+:bar1;
+split again
+:bar2;
+note right
+A bit of text describing what happens
+end note
+end split
+stop
+@enduml

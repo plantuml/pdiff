@@ -1,0 +1,17 @@
+{
+  "sha1": "l0ouou5zjibr3duc4kk3av6hu0m1ek8",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.541Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide time-axis
+concise "Web User" as WU
+
+WU is Absent
+
+@WU
+0 is Waiting
++500 is ok
+@enduml

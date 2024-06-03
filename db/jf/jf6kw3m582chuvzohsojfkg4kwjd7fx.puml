@@ -1,0 +1,26 @@
+{
+  "sha1": "jf6kw3m582chuvzohsojfkg4kwjd7fx",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.817Z",
+    "url": "https://forum.plantuml.net/11728/timing-diagram-crash-with-constraint-in-binary",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "Web User" as WU
+binary "Bin" as Bin
+
+WU is Absent
+
+@WU
+0 is Waiting
++500 is ok
+@200 <-> @+150 : {150 ms}
+
+@Bin
+0 is 0
++200 is 1
++100 is 0
+'The Following line crash Plantuml
+@200 <-> @+100 : {100 ms}
+@enduml

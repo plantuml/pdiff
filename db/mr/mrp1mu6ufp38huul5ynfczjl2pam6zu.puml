@@ -1,0 +1,24 @@
+{
+  "sha1": "mrp1mu6ufp38huul5ynfczjl2pam6zu",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.560Z",
+    "url": "https://github.com/plantuml/plantuml/issues/226",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+title Example
+
+start
+:step 1;
+
+if (condition) then (Foo::foo())
+    :We are in Foo::foo();
+else (Bar::bar())
+    :We are in Bar::bar();
+endif
+
+stop
+
+@enduml

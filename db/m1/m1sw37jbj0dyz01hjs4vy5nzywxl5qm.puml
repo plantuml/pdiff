@@ -1,0 +1,10 @@
+{
+  "sha1": "m1sw37jbj0dyz01hjs4vy5nzywxl5qm",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.732Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startlatex
+$\sum_{i=0}^{n-1} (a_i + b_i^2)$
+@endlatex

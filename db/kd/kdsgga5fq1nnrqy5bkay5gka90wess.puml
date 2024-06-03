@@ -1,0 +1,10 @@
+{
+  "sha1": "kdsgga5fq1nnrqy5bkay5gka90wess",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.894Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+"Hello world!"
+@endjson

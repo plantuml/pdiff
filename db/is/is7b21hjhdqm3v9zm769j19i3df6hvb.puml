@@ -1,0 +1,21 @@
+{
+  "sha1": "is7b21hjhdqm3v9zm769j19i3df6hvb",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.167Z",
+    "url": "http://forum.plantuml.net/8662/activity-hidding-arrow-entering-a-split-does-not-work",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+split
+   -[hidden]->
+   :A;
+split again
+   -[hidden]->
+   :B;
+split again
+   -[hidden]->
+   :C;
+end split
+:D;
+@enduml

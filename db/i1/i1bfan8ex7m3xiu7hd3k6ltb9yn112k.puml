@@ -1,0 +1,54 @@
+{
+  "sha1": "i1bfan8ex7m3xiu7hd3k6ltb9yn112k",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.240Z",
+    "url": "https://forum.plantuml.net/13288/the-ability-to-customise-the-highlight-for-json-yaml",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+<style>
+jsonDiagram {
+  node {
+    BackGroundColor black
+    LineColor lightblue
+    FontName Helvetica
+    FontColor #CCFF02
+    FontSize 18
+    FontStyle bold
+    RoundCorner 0
+    LineThickness 2
+    LineStyle 10-5
+    separator {
+      LineThickness 0.5
+      LineColor black
+      LineStyle 1-5
+    }
+    highlight {
+	  BackGroundColor red
+	  FontColor white
+      FontStyle italic
+    }
+  }
+  arrow {
+    BackGroundColor lightblue
+    LineColor green
+    LineThickness 2
+    LineStyle 2-5
+  }
+}
+</style>
+#highlight "address" / "state"
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 27,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  }
+}
+@endjson

@@ -1,0 +1,24 @@
+{
+  "sha1": "kkonmtbdebsnqv6nf1mmbgyda52vkwv",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.097Z",
+    "url": "https://forum.plantuml.net/11556/diagrams-backgroundcolor-transparent-nullpointerexception?show=11720#c11720",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+scale 1.5
+<style>
+mindmapDiagram {
+  document {
+  	BackGroundColor transparent
+  }
+  element {
+  	BackGroundColor red
+  }
+}
+</style>
+* a
+** a11
+** a22
+@endmindmap

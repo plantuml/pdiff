@@ -1,0 +1,14 @@
+{
+  "sha1": "j4qyofaoqhj68oe25o9fkwbxcm2s4q2",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.485Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+'!preprocessorV2
+!define ijk 123
+Alice -> Bob : ijk
+' Some comment
+@enduml

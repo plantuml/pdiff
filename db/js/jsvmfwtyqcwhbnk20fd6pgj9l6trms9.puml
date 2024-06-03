@@ -1,0 +1,13 @@
+{
+  "sha1": "jsvmfwtyqcwhbnk20fd6pgj9l6trms9",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.206Z",
+    "url": "https://forum.plantuml.net/10445/link-is-not-parsed-in-the-latest-version",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component fooA2
+component fooA1
+fooA1 -- fooA2: [[http://www.google.com]]
+@enduml

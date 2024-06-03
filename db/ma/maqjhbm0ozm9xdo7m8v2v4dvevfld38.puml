@@ -1,0 +1,21 @@
+{
+  "sha1": "maqjhbm0ozm9xdo7m8v2v4dvevfld38",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.039Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1265",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+root {
+  BackgroundColor gray
+  Linecolor red
+  
+  FontColor green
+}
+</style>
+state state {
+  state expansionInput <<expansionInput>>
+}
+@enduml

@@ -1,0 +1,25 @@
+{
+  "sha1": "iayrqiti5v6p54x56yroo1bsyiwb9fv",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.492Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skin rose
+skinparam {
+IconProtectedColor DarkGoldenRod
+IconProtectedBackgroundColor DarkGoldenRod
+}
+class  Doer    {
+--
+{method} + execute
+{method} # execute_for_all_children
+}
+class  MetaDataScanner {
+--
+{method} # execute_Class
+{method} # execute_Footer
+}
+Doer <|-- MetaDataScanner
+@enduml

@@ -1,0 +1,36 @@
+{
+  "sha1": "k7olmoa8ldj56nv3lmfc16vsxa2kyys",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.691Z",
+    "url": "https://forum.plantuml.net/15471/bordercolor-backgroundcolor-nullpointerexception-graphviz",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequence {
+  ArrowColor Black
+  LifeLineBorderColor Black
+}
+skinparam participant {
+  Bordercolor none
+  Backgroundcolor none
+  Shadowing false
+}
+participant "<size:40><&monitor></size>\nCliente" as WKS
+participant "<size:40><&loop></size>\nSwitch" as SW
+participant "<size:40><&lock-locked></size>\nServidor de\nAutenticação\n(RADIUS)" as RADIUS
+WKS->SW:EAPoL-Start
+SW->WKS:EAP-Request-Identity
+WKS->SW:EAP-Response-Identity
+SW->RADIUS:RADIUS Accept-Request
+RADIUS->SW:RADIUS Access-Challenge
+SW->WKS:EAP-Request/OTP
+WKS->SW:EAP-Response/OTP
+SW->RADIUS:RADIUS Access-Request
+RADIUS->SW:RADIUS Access-Accept
+SW->WKS:EAP-Success
+SW->SW:Port Authorized
+...
+WKS->SW:EAPoL-Logoff
+SW->SW:Port Unauthorized
+@enduml

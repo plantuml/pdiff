@@ -1,0 +1,20 @@
+{
+  "sha1": "i564yd58yckvx6moneu59ul7j11624j",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.324Z",
+    "url": "https://github.com/esteinberg/plantuml4idea/issues/221",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!define Table(name,desc) class name as "desc" << (T,#FFAAAA) >>
+!define primary_key(x) <b>x</b>
+!define not_null(x) <u>x</u>
+
+Table(user_role, "user_role") {
+not_null(primary_key(id)) BIGINTEGER
+}
+
+
+@enduml

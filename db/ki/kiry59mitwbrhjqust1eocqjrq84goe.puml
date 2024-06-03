@@ -1,0 +1,18 @@
+{
+  "sha1": "kiry59mitwbrhjqust1eocqjrq84goe",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.034Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ [*] --> ma
+
+  state "midgeAdult" as ma <<Midge>> {
+  	state Foo1 <<Weavil>>
+    [*] --> Foo1
+  } 
+  
+  [*] --> Foo1
+  
+@enduml

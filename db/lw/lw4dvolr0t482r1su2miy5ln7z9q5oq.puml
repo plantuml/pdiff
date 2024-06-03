@@ -1,0 +1,23 @@
+{
+  "sha1": "lw4dvolr0t482r1su2miy5ln7z9q5oq",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.601Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1214",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!theme cerulean
+ 
+box "S/W"
+participant driver 
+
+end box
+
+box "NIC H/W"
+participant dma_arb 
+end box
+
+== Receive Pkt ==
+driver -> dma_arb: test
+@enduml

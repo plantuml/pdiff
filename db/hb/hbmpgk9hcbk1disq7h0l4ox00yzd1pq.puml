@@ -1,0 +1,12 @@
+{
+  "sha1": "hbmpgk9hcbk1disq7h0l4ox00yzd1pq",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.404Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define COLOR_BOX #ccccc
+!define COLOR_BOX #ccccc
+alice -> bob : print COLOR_BOX
+@enduml

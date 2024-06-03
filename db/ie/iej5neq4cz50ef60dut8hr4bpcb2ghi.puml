@@ -1,0 +1,18 @@
+{
+  "sha1": "iej5neq4cz50ef60dut8hr4bpcb2ghi",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.618Z",
+    "url": "https://forum.plantuml.net/11911/could-be-possible-define-simply-task-between-two-milestones",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+project starts on 2020-07-01
+[P_start] happens 2020-07-03
+[P_end]   happens 2020-07-13
+
+'[Prototype design] starts at [P_start]'s end and ends at [P_end]'s start
+'Why not to remplace by
+[Prototype design] occurs from [P_start2] to [P_end]
+
+@endgantt

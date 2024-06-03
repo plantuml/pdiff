@@ -1,0 +1,17 @@
+{
+  "sha1": "k36ytrs2z20gikjjuge3e2j9v5f4m0q",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.544Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+   [X] checkbox
+	[] checkbox
+	() radio
+	(X) radio
+	This is a text
+	[This is my button]
+}
+@endsalt

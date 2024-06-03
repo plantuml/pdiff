@@ -1,0 +1,27 @@
+{
+  "sha1": "h1ebrv76t0bp3912t5lmr9ev3jybyap",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.067Z",
+    "url": "https://github.com/plantuml/plantuml/issues/399",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+   repeat 
+   if(condition A) then (yes)
+    fork
+   :a1;
+    fork again
+   :a2;
+   end fork
+   elseif(condition B) then (yes)
+    :b1;
+    :b2;
+   elseif(condition C) then (yes)
+   -[#blue]->
+   break   
+   endif
+   repeat while(test) is (No) not (Yes)
+ end
+@enduml

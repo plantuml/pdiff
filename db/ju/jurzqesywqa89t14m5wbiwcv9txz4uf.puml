@@ -1,0 +1,14 @@
+{
+  "sha1": "jurzqesywqa89t14m5wbiwcv9txz4uf",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.286Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam colorArrowSeparationSpace 3
+start
+:do a;
+-[#red;#blue;#green;#orange]-> label;
+:do b;
+@enduml

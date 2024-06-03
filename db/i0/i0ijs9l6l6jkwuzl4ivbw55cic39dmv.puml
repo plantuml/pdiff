@@ -1,0 +1,13 @@
+{
+  "sha1": "i0ijs9l6l6jkwuzl4ivbw55cic39dmv",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.219Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinParam CaptionFontSize 10
+skinParam CaptionFontColor blue
+class AA
+caption This is caption
+@enduml 

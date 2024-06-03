@@ -1,0 +1,22 @@
+{
+  "sha1": "lh243shl92m01w239525ae658ywg698",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.137Z",
+    "url": "https://photos.app.goo.gl/FfSh5nystMQYh26V9",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam node {
+    StereotypeFontSize 20
+}
+skinparam node {
+    StereotypeFontSize<<bar>> 10
+}
+
+
+node nodefoo <<foo>>
+node nodebar <<bar>>
+
+@enduml

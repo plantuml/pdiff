@@ -1,0 +1,16 @@
+{
+  "sha1": "k937xdyt7fhp8u99pavdpxp4ff43mwz",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.740Z",
+    "url": "http://forum.plantuml.net/8614/autonumber-problem-with-note-right-of",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autonumber
+Alice -> Bob : Hello {%autonumber%}
+note right : %autonumber%
+
+Alice -> Bob : Hello {%autonumber%}
+note right of Bob : %autonumber%
+@enduml

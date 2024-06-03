@@ -1,0 +1,23 @@
+{
+  "sha1": "mnfrcdumvekpfctvoqs63jbcjov1nu3",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.452Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+left to right direction
+class P
+class C1
+class C2
+interface A1
+circle A2
+C1 ..> A1
+C2 --( A2
+A1 <|.. B1
+A1 <|.. B2
+B1 --|> P
+B2 --|> P
+A2 -- B2
+
+@enduml

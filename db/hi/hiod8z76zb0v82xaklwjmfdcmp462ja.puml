@@ -1,0 +1,22 @@
+{
+  "sha1": "hiod8z76zb0v82xaklwjmfdcmp462ja",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.623Z",
+    "url": "https://forum.plantuml.net/16247/gantt-chart-vertical-separators",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+
+Project starts 2022-06-27
+
+Separator just before 2022-06-28
+Separator just after 2022-06-29
+
+[task1] starts at 2022-06-27 and lasts 1 week
+[task2] starts 2 days after [task1]'s end and lasts 3 days
+
+'Separator just after [task1]'s end
+
+@endgantt

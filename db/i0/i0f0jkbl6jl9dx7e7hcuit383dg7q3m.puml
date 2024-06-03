@@ -1,0 +1,19 @@
+{
+  "sha1": "i0f0jkbl6jl9dx7e7hcuit383dg7q3m",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.191Z",
+    "url": "https://github.com/plantuml/plantuml/issues/137",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title
+The Java and JDBC flow
+on several lines with a very long title which is larger than the diagram itself
+end title
+autonumber
+"Application thread" -> "DB connection": SQL query A
+"DB connection" -> "Application thread": SQL resultset A
+"Application thread" -> "DB connection": SQL query B
+"DB connection" -> "Application thread": SQL resultset B
+@enduml

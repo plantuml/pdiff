@@ -1,0 +1,23 @@
+{
+  "sha1": "imwcw9gto48oku5223z0w0bc6ghk05l",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.968Z",
+    "url": "http://forum.plantuml.net/7710/teoz-and-%26-within-groups-is-not-working",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+group groupname
+    [-> B : label1
+    & B -> C : label2
+    C -> B : label3
+    & B ->[ : label4
+end
+group groupname
+    [-> B : label1
+    & B -> C : label2
+    C -> B : label3
+    & [<- B : label4
+end
+@enduml

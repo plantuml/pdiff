@@ -1,0 +1,20 @@
+{
+  "sha1": "l69vijlja40vsavmlu16y6ybpgd7vb2",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.779Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+(*) --> "this activity
+	is <b>very</b> long
+ and defined on several lines
+that contains many <i>text</i>" as A1
+
+--> "Another activity" as A2
+
+-left-> "This one"
+A1 --> "Toto"
+
+@enduml

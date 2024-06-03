@@ -1,0 +1,26 @@
+{
+  "sha1": "ji2bis4156p68k64pxyzta86jtxq8y",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.915Z",
+    "url": "http://forum.plantuml.net/9216/color-on-partition-note-gets-ignored-and-note-the-wrong-side",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+if (a) then (yes)
+  partition "Hi I make things clearer" {
+    note #lightblue
+      Am I blue too?
+    end note
+    while (true)
+      note #lightblue
+        Can I be blue too?
+      end note
+       :Do Something;
+       note #lightblue
+         I'm blue!
+       end note
+    end while
+  }
+endif
+@enduml

@@ -1,0 +1,27 @@
+{
+  "sha1": "hbt1lffgxpoexomg79csrm3vbaqjuma",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.425Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+digraph unix {
+cl1;cl4 
+;cl7 
+;cl10 
+;cl14 
+;cl17 
+;cl22 
+;cl1 -> cl4;cl4 -> cl7
+;{rank=same; cl4; cl7}
+
+cl7 -> cl10
+;cl4:h -> cl14:h
+;cl17 -> cl14:h
+;{rank=same; cl17; cl14}cl17 -> cl10
+;cl14:h -> cl22;{rank=same; cl14; cl22}
+cl22 -> cl10
+;}
+
+@enduml

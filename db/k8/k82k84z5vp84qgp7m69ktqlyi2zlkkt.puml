@@ -1,0 +1,20 @@
+{
+  "sha1": "k82k84z5vp84qgp7m69ktqlyi2zlkkt",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.712Z",
+    "url": "https://forum.plantuml.net/17456/can-not-set-long-name-arrow-label-repeat-statement-with-break",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+repeat
+  :taskA;
+  -> dataaaa;
+  if (check) is (OK) then
+    break;
+  else (NG)
+  endif
+repeat while (retry?) is (true) not (false)
+stop
+@enduml

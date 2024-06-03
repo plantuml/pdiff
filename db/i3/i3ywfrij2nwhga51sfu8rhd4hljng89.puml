@@ -1,0 +1,26 @@
+{
+  "sha1": "i3ywfrij2nwhga51sfu8rhd4hljng89",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.296Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1394",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+	start {
+	    BackgroundColor #palegreen
+	    LineColor #pink
+	    LineThickness 2.5
+	}
+	end {
+	    BackgroundColor #palegreen
+	    LineColor #green
+	    LineThickness 2.5
+	}
+</style>
+
+[*] --> State1
+State1 --> [*]
+@enduml

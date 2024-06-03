@@ -1,0 +1,11 @@
+{
+  "sha1": "ip4vl51xk9vx13hdajqgd8e10hayo67",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.050Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam dpi 600
+Alice -o Bob : hello
+@enduml

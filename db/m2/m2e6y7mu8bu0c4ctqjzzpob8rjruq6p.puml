@@ -1,0 +1,25 @@
+{
+  "sha1": "m2e6y7mu8bu0c4ctqjzzpob8rjruq6p",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.781Z",
+    "url": "https://forum.plantuml.net/13824/getting-unsupportedoperation-when-adding-stop-and-end-case",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+title Number Analysis
+switch (source)
+
+case ( a )
+:case1;
+
+case ( b )
+:case2;
+end
+
+case ( c )
+:case3;
+
+endswitch
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "ihjduh1whkbl83pz4jpl0olqjmysr89",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.737Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1123",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+Entity01 }|..|| Entity02
+@enduml

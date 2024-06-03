@@ -1,0 +1,19 @@
+{
+  "sha1": "irfhqgm43tjpgitb2cx85rxl3o5g1zy",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.130Z",
+    "url": "https://forum.plantuml.net/15606/activity-arrow-label-overlap-on-some-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!t="this is t1\nthis is t2\nthis is t3\n"
+
+if (if?) then (<color blue>yes)
+  :a a a a a;
+->t;
+else (<color blue>no)
+  :b b b b b;
+->t;
+endif
+@enduml

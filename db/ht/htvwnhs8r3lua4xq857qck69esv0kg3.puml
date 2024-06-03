@@ -1,0 +1,12 @@
+{
+  "sha1": "htvwnhs8r3lua4xq857qck69esv0kg3",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.008Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+[ThisMustFail] lasts 15 days
+[ThisMustFail] starts 2023-09-25
+
+@endgantt

@@ -1,0 +1,14 @@
+{
+  "sha1": "jkpbsy8ggehjhb21oo1r4wpz0llhjv",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.999Z",
+    "url": "https://github.com/plantuml/plantuml/issues/62",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+   salt
+{
+  Just plain text
+}
+@enduml

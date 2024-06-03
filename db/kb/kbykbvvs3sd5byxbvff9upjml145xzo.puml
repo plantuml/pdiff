@@ -1,0 +1,31 @@
+{
+  "sha1": "kbykbvvs3sd5byxbvff9upjml145xzo",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.831Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+if (toto)
+
+:A\non\nseveral\nlines;
+note left
+note
+end note
+
+:b;
+note right
+this is a note which is longer
+and on
+several lines
+but without overscan
+it allow some tests
+end note
+
+:c;
+
+endif
+
+@enduml

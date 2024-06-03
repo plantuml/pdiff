@@ -1,0 +1,21 @@
+{
+  "sha1": "qi3zj0dt5lxeiy0b628vg031kwynqrx",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.333Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : ok1
+Alice -> t1 : t1
+Alice -> t2 : t2
+Alice -> t3 : t3
+
+loop Resource Allocation
+end
+
+note over Bob, t3: Resource Allocation
+
+Bob -> Alice : ok2
+
+@enduml

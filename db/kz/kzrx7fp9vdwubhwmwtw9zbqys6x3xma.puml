@@ -1,0 +1,22 @@
+{
+  "sha1": "kzrx7fp9vdwubhwmwtw9zbqys6x3xma",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.506Z",
+    "url": "https://forum.plantuml.net/16882/is-it-possible-to-color-split-in-an-activity-diagram-new",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+sprite S3_LOGO <svg xmlns="http://www.w3.org/2000/svg" width="428" height="512">
+<path d="M378,99L295,257l83,158,34-19V118Z" fill="#e25444"/><path d="M378 99l-166 19-84.5 139L212 396l166 19V99z" fill="#7b1d13"/>
+<path d="M43,99L16,111V403l27,12L212,257Z" fill="#58150d"/><path d="M42.637,98.667l169.587,47.111V372.444L42.637,415.111V98.667Z" fill="#e25444"/>
+<g fill="#58150d"><path d="M212.313,170.667l-72.008-11.556,72.008-81.778,71.83,81.778Z"/>
+<path d="M284.143 159.111l-71.919 11.733-71.919-11.733V77.333m72.008 264.889l-72.008 13.334 72.008 70.222 71.83-70.222z"/></g>
+<path d="M212 16l-72 38v105l72.224-20.333zm.224 180.444l-71.919 7.823v104.838l71.919 8.228V196.444zm0 176.889L140.305 355.3v103.063L212.224 496V373.333z" fill="#7b1d13"/>
+<path d="M284.143 355.3l-71.919 18.038V496l71.919-37.637V355.3zm-71.919-158.856l71.919 7.823v104.838l-71.919 8.228V196.444zM212 16l72 38v105l-72-20V16z" fill="#e25444"/>
+</svg>
+
+A->B2: <$S3_LOGO>
+
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "l3vr9z2x1ugpspwrg3ng3w1vqf5gdbk",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.660Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set namespaceSeparator .
+class My.Namespace.Person
+@enduml

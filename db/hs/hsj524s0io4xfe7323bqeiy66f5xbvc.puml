@@ -1,0 +1,22 @@
+{
+  "sha1": "hsj524s0io4xfe7323bqeiy66f5xbvc",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.973Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+   state Running {
+      [*] --> A1
+      state A1 {
+         [*] -> innerA1
+      }
+      A1 --> A2
+      --
+      state B1 {
+         [*] --> innerB1
+      }
+'     [*] --> A2
+   } 
+
+@enduml

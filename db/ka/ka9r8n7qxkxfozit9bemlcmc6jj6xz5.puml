@@ -1,0 +1,11 @@
+{
+  "sha1": "ka9r8n7qxkxfozit9bemlcmc6jj6xz5",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.782Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundColor transparent
+start
+@enduml

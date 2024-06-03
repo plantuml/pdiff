@@ -1,0 +1,18 @@
+{
+  "sha1": "j7693bj25uv2ssgwuqm0lwmh7u24pk3",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.558Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+!function id($a) return $a
+
+
+alice -> bob : expected 14 for id(2+3*4)
+alice -> bob : expected 10 for id(2*3+4)
+alice -> bob : expected 20 for id((2+3)*4)
+alice -> bob : expected 14 for id(2*(3+4))
+@enduml

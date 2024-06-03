@@ -1,0 +1,15 @@
+{
+  "sha1": "lrmf1yv7rqpirhe6c7rqjlzfk23kwne",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.471Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+repeat
+  :read data;
+  :generate diagrams;
+repeat while () is (test)
+stop
+@enduml

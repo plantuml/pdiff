@@ -1,0 +1,20 @@
+{
+  "sha1": "ivaum99739oelwtymuqm35f0sqi43dm",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.241Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+
+state OddlyLarge1 {
+Inner1 --> Inner2
+}
+OddlyLarge1 --> Inner1
+state OddlyLarge2 {
+toto --> toto2
+}
+
+OddlyLarge2 --> OddlyLarge2
+@enduml

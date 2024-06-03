@@ -1,0 +1,22 @@
+{
+  "sha1": "j0bdvel159foqoepgzpg0bm5tduwg8a",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.380Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Swimlane1|
+start
+:foo1;
+fork
+|#AntiqueWhite|Swimlane2|
+:foo2;
+|Swimlane1|
+forkagain
+:foo2.1;
+end fork
+|Swimlane2|
+:foo5;
+stop
+@enduml

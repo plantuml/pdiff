@@ -1,0 +1,18 @@
+{
+  "sha1": "jr21djteg12swvtlu50lsoaadcvcno2",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.118Z",
+    "url": "http://forum.plantuml.net/6837/definelong-requires-extra-charater",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!definelong TABLE(name)
+entity name
+!enddefinelong
+
+TABLE(house) {
+   * mandatory_attribute **in bold**
+   **optional_attribute**
+}
+@enduml

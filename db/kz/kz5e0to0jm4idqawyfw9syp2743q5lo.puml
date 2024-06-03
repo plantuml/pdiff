@@ -1,0 +1,15 @@
+{
+  "sha1": "kz5e0to0jm4idqawyfw9syp2743q5lo",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.485Z",
+    "url": "https://forum.plantuml.net/10481/associations-and-realizations-of-elements-with-namespaces",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace A {
+  A.B.Toto <|.. Foo
+  A.B.Toto <|.. Bar
+}
+
+@enduml

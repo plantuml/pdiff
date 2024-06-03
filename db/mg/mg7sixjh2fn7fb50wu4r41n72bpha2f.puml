@@ -1,0 +1,20 @@
+{
+  "sha1": "mg7sixjh2fn7fb50wu4r41n72bpha2f",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.196Z",
+    "url": "http://forum.plantuml.net/9108/is-combination-of-break-and-detach-statement-supported",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+while ( TRUE )
+    if (A) then (yes)
+      break
+    endif
+    if (B) then (yes)
+      :return error;
+      detach
+    endif
+endwhile
+:return 0;
+@enduml

@@ -1,0 +1,25 @@
+{
+  "sha1": "ileyh49m7wsi2ar3mpxku1ra2qiso78",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.877Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1769",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+frame f1 {
+   component A
+}
+component B
+
+' DOES NOT WORK
+remove A
+
+'works
+remove B
+
+'works
+' remove f1  
+
+
+@enduml

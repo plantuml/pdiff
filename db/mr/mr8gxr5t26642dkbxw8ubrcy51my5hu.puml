@@ -1,0 +1,13 @@
+{
+  "sha1": "mr8gxr5t26642dkbxw8ubrcy51my5hu",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.531Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1406",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+Command = start,
+?(_)? (* comment *),
+end;
+@endebnf
