@@ -1,0 +1,27 @@
+{
+  "sha1": "tgcp9o1ql8ofxgc2n3wga7iuz2jztnr",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.182Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+set separator none
+
+[*] --> NotShooting
+
+state "This is not Shooting " as NotShooting begin
+  [*] --> Idle
+  Idle --> Configuring : EvConfig
+  Configuring --> Idle : EvConfig
+end state
+
+state Configuring {
+  [*] --> NewValueSelection
+  NewValueSelection --> NewValuePreview : EvNewValue
+  NewValuePreview --> NewValueSelection : EvNewValueRejected
+  NewValuePreview --> NewValueSelection : EvNewValueSaved
+}
+
+@enduml

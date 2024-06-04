@@ -1,0 +1,16 @@
+{
+  "sha1": "ryhzg79ppje6ncgijdlyvokozr7iyej",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.426Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+
+state "12345678901234567890" as blah5
+
+blah5 -right-> blah6 : b
+
+state "12345678901234567890" as blah6
+@enduml

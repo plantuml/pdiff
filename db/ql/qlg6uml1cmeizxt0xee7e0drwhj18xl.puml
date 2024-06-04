@@ -1,0 +1,18 @@
+{
+  "sha1": "qlg6uml1cmeizxt0xee7e0drwhj18xl",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.570Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1137",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+node ServA
+node ServB
+node ServC <<TypeA>>
+
+ServA --> ServB <<TypeA>> : TypeA
+ServA --> ServB <<TypeB>> : TypeB
+
+remove <<TypeA>>
+@enduml

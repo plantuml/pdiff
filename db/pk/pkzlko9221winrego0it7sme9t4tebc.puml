@@ -1,0 +1,21 @@
+{
+  "sha1": "pkzlko9221winrego0it7sme9t4tebc",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.330Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|swim1|
+start
+split
+  :something;
+split again
+  |swim2|
+:something else;
+split again
+  |swim3|
+:really swimming now;
+end split
+:out;
+@enduml

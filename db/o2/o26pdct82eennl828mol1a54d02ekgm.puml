@@ -1,0 +1,13 @@
+{
+  "sha1": "o26pdct82eennl828mol1a54d02ekgm",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.247Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : hello
+create Dog
+Alice -> Dog : create
+note right : this is right and very very long
+@enduml

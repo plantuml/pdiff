@@ -1,0 +1,20 @@
+{
+  "sha1": "qn2wuiqxmfzf204iu6twkss982f8u6j",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.597Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+activate bob
+bob -> alice
+activate alice
+deactivate alice
+
+bob -> alice
+activate alice
+deactivate alice
+
+bob -> bob : last
+
+@enduml

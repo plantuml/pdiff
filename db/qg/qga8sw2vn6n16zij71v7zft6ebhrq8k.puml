@@ -1,0 +1,22 @@
+{
+  "sha1": "qga8sw2vn6n16zij71v7zft6ebhrq8k",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.404Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package Afoo1 #red-green {
+  actor Afoo2
+}
+
+database Bfoo1 #red-green {
+  actor Bfoo2
+}
+
+cloud Cfoo1 #red-green {
+  actor Cfoo2
+}
+
+
+@enduml

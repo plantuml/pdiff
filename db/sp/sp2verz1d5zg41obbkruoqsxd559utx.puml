@@ -1,0 +1,13 @@
+{
+  "sha1": "sp2verz1d5zg41obbkruoqsxd559utx",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.292Z",
+    "url": "https://github.com/plantuml/plantuml/issues/416",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autonumber
+Self -> Self: callSelf
+Self --> Alice : hello!
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "ot5bi6s7nocp3x0xu1y8nh4th1tnfoq",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.275Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Citoyen|
+Start
+:Envoi du formulaire ;
+while (le formulaire est valide ?) is (non)
+|ebee-vdq-form|
+:Re-affichage du formulaire avec messages d'erreur ;
+:Remplissage du formulaire ;
+Endwhile (oui)
+|ebee-vdq-form|
+:Demande de generation du PDF/A avec le compte VDQ_WORK ;
+@enduml

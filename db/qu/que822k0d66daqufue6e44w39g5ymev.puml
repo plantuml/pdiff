@@ -1,0 +1,13 @@
+{
+  "sha1": "que822k0d66daqufue6e44w39g5ymev",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.913Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class classe1
+classe1 : -field1
+
+
+@enduml

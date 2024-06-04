@@ -1,0 +1,24 @@
+{
+  "sha1": "n48eblenwb5lam9pwxgxqmtm7qch8pr",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.178Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob->Alice: coucou2
+opt cas1
+Alice -> Bob:okl
+opt cas2 long exprès
+Alice -> Bob:okl
+opt
+	Alice->Bob: ok0
+	Alice->Bob: ok1
+	else toto
+	Alice->Bob: ok2
+end
+else
+Bob->Bob: ok4
+end
+end
+@enduml

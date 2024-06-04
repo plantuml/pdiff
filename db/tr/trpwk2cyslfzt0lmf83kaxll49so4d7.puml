@@ -1,0 +1,14 @@
+{
+  "sha1": "trpwk2cyslfzt0lmf83kaxll49so4d7",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.674Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package a {
+	package ddf.content  {
+		interface ContentFramework
+	}
+}
+@enduml

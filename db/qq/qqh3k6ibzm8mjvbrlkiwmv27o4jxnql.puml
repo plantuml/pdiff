@@ -1,0 +1,49 @@
+{
+  "sha1": "qqh3k6ibzm8mjvbrlkiwmv27o4jxnql",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.776Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class foo1 {
+	m1
+	--titre that is very very long--
+	m2
+	__
+	m3
+	m31
+	..point..
+	m32
+	--other--
+	+m4()
+	m5()
+	==
+	+m6
+	== TEST ==
+	empty
+	__line__
+	+toto()
+}
+
+class foo2 {
+	m1
+	--titre--
+	m2
+	__
+	m3
+	m31
+	..point..
+	m32
+	--other--
+	+m4()
+	m5()
+	==
+	+m6
+	== TEST ==
+	empty
+	__line__
+	+toto()
+}
+
+@enduml

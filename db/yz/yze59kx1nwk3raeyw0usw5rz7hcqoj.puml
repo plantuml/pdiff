@@ -1,0 +1,14 @@
+{
+  "sha1": "yze59kx1nwk3raeyw0usw5rz7hcqoj",
+  "insertion": {
+    "when": "2024-06-04T17:28:47.024Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundColor transparent
+Bob -> Alice : hello1
+group foo
+Bob -> Alice : hello2
+end group
+@enduml

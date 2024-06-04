@@ -1,0 +1,24 @@
+{
+  "sha1": "rlxv2qrm2b5991kab0x8cev37paba6q",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.982Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor "person" as p
+participant "microwave" as m
+   
+p->m: cook food
+par2
+   m->m: twiddle
+also
+   p2->p2: twiddle   
+also
+   p3->p3: twiddle   
+also
+   p->p: twiddle   
+end
+   
+p<-m: cooked food   
+@enduml

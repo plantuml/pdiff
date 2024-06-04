@@ -1,0 +1,15 @@
+{
+  "sha1": "qrlgqn7ucsmrrnkx2mcjbk4wpnh5s1v",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.833Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autonumber "<font color=red>[000]</font>"
+hide footbox
+
+Bob -> Alice : hello1\nthis\nmessage
+Bob -> Alice : hello2
+
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "pft6xd3v5drkubyrucjub17i2rh1sha",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.151Z",
+    "url": "http://forum.plantuml.net/6707/",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+folder A {
+  folder B {
+    folder C
+  }
+  folder A
+}
+@enduml

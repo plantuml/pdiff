@@ -1,0 +1,14 @@
+{
+  "sha1": "tmphfgy5mml4wtxc300c5kb1dbpez41",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.456Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+database Aria
+node "Telemetry API"
+cloud {
+
+}
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "oqkw6qj40anbx3mnhruk571kutu55i3",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.113Z",
+    "url": "https://forum.plantuml.net/13250/nullpointerexception-declare-style-before-sequence-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+</style>
+a->b
+<style>
+  note {
+    BackGroundColor green
+  }
+</style>
+note over a: note\nover a
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "pb1q1at7bu28pjfyn9qfcie7d3qyecv",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.907Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout elk
+class foo1
+class foo2
+foo1 <--> foo2 : short label
+
+foo "1" --> "*" bar : this label is very\nlong and has an impact\non the layout
+foo "foo" --> "bar" bar2 : hello
+
+@enduml

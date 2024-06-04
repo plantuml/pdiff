@@ -1,0 +1,14 @@
+{
+  "sha1": "r041jiq2vjmlzauult65ze1f8gxgwrq",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.149Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1429#issuecomment-1558089182",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component foo1 as "My comp" [[My_component_1]]
+component foo2 as "My comp2" [[My_component_2]]
+
+foo1 -> foo2
+@enduml

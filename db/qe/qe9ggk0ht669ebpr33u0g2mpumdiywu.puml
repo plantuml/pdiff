@@ -1,0 +1,11 @@
+{
+  "sha1": "qe9ggk0ht669ebpr33u0g2mpumdiywu",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.346Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1053",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+archimate #MOTIVATION "[[https://scrumguides.org/scrum-guide.html#transparency {Transparency} Transparency]]" <<motivation-principle>> as TRANSPARENCY
+@enduml

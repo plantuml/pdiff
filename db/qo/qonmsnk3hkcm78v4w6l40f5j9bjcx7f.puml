@@ -1,0 +1,24 @@
+{
+  "sha1": "qonmsnk3hkcm78v4w6l40f5j9bjcx7f",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.728Z",
+    "url": "http://forum.plantuml.net/8984/notes-fields-fields-visibility-modifiers-causes-exception",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class String{
+}
+
+class TestAttrributeNote {
+ String attribute1
+# attribute2 : String
+}
+
+note right of TestAttrributeNote::attribute1
+This is a note that breaks.
+end note
+
+
+@enduml

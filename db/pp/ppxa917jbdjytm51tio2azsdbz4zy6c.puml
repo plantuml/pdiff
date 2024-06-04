@@ -1,0 +1,25 @@
+{
+  "sha1": "ppxa917jbdjytm51tio2azsdbz4zy6c",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.558Z",
+    "url": "http://forum.plantuml.net/8228/activation-after-group-end-does-not-work",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!pragma teoz false
+
+participant A
+participant B
+
+A -> B: Request1
+
+opt condition
+end
+
+activate A
+A -> B: Request2
+deactivate A
+
+@enduml

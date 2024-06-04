@@ -1,0 +1,37 @@
+{
+  "sha1": "qog8wukvehvupn197ounv211awmgfvj",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.715Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+	participant "A" as A
+	participant "B" as B
+	participant "C" as C
+	
+	group I1
+		group J1
+			A->B
+		end
+		group J2
+			B->C
+		end
+	end
+	group I2
+		group J1
+			A->B
+		end
+		group J2
+			B->C
+		end
+	end
+	group I3
+		group J1
+			A->B
+		end
+		group J2
+			B->C
+		end
+	end
+@enduml

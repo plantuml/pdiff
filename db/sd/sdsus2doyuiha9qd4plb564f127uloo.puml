@@ -1,0 +1,15 @@
+{
+  "sha1": "sdsus2doyuiha9qd4plb564f127uloo",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.016Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!$foo="er"
+!define toto
+Alice -> Bob : expected 0 %variable_exists('dummy')
+Alice -> Bob : expected 1 %variable_exists('toto')
+Alice -> Bob : expected 1 %variable_exists('$foo')
+@enduml

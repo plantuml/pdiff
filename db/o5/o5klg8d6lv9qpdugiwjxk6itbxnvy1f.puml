@@ -1,0 +1,14 @@
+{
+  "sha1": "o5klg8d6lv9qpdugiwjxk6itbxnvy1f",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.392Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class test
+test : <b>method()</b> non gras
+test : <font color=purple><i>field</i> non</font> gras
+
+@enduml

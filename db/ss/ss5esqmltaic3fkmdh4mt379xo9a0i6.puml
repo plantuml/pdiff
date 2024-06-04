@@ -1,0 +1,16 @@
+{
+  "sha1": "ss5esqmltaic3fkmdh4mt379xo9a0i6",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.395Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+A "1" -- "*" B : id1
+(A,B) . R1
+
+A "1" -- "1" B : id2
+(A,B) . R2
+
+@enduml

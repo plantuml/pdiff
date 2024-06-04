@@ -1,0 +1,20 @@
+{
+  "sha1": "nmygmc9v74grc41ibujdgzei99kaktd",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.868Z",
+    "url": "https://forum.plantuml.net/15583/borderstyle-dashed-not-working-anymore",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam rectangle {
+    BorderStyle dashed
+}
+
+rectangle "R1" as r1  {
+  rectangle "R2" as r2 {
+  }
+}
+
+@enduml

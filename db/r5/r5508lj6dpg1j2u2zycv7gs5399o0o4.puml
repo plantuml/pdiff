@@ -1,0 +1,68 @@
+{
+  "sha1": "r5508lj6dpg1j2u2zycv7gs5399o0o4",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.334Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1538",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+' Local style for the diamonds of the first if;
+<style>
+activityDiagram {
+  diamond {
+    LineColor blue
+    BackgroundColor lightCyan
+    LineThickness 2
+    ArrowThickness 0.5
+    FontName Arial Narrow
+    FontColor red
+    FontSize 18
+    FontStyle regular
+  }
+}
+</style>
+:On the diamonds of the first if;
+floating note
+According the above (local) style:
+* The line color is not good
+it should be <color:blue>blue
+* The FontColor is not good
+it should be <color:red>red
+* The LineThickness is not good
+* The FontStyle is not good
+* ...
+* <b>Only the BackgroundColor is good!
+end note
+if (decision) then (yes)
+    :C1;
+else (no)
+endif
+
+
+' Local style for the diamonds of the second if;
+<style>
+activityDiagram {
+  diamond {
+    LineColor red
+    BackgroundColor pink
+    LineThickness 1
+    ArrowThickness 1
+    FontName Courier
+    FontColor blue
+    FontSize 10
+    FontStyle italic
+  }
+}
+</style>
+:On the diamonds of the second if;
+floating note
+<b>All is good here... (like if the param will be global)
+The BackgroundColor, the LineColor, the FontColor
+end note
+if (decision) then (yes)
+    :C2;
+else (no)
+endif
+@enduml

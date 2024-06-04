@@ -1,0 +1,14 @@
+{
+  "sha1": "qxvi914e2vyozkbd9jpdj5f1d72s831",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.071Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component comp1 [
+This component
+has a long comment
+on several lines
+]
+@enduml

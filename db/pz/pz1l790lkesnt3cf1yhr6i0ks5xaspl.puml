@@ -1,0 +1,12 @@
+{
+  "sha1": "pz1l790lkesnt3cf1yhr6i0ks5xaspl",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.892Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Title This is the title\nOn several Lines
+Footer Footer
+User --> (Start the application)
+@enduml

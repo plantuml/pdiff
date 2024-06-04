@@ -1,0 +1,24 @@
+{
+  "sha1": "prnmtpq08khildm33dumu93o2qp1czn",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.631Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Title this is my title
+Dummy -> Alice : foo1
+ref over Alice, Dummy : [[http://www.google.com]] Foo2
+
+Alice -> Bob : hello
+Bob -> Other : hello
+
+ref over Alice, Bob : [[http://www.google.com]] this is a reference over Alice and Bob
+
+Other --> Alice : ok
+
+ref over Alice, Other, Bob : [[http://www.google.com]] this is a reference over Alice and Other
+
+Other --> Alice : ok again
+
+@enduml

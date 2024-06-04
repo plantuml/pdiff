@@ -1,0 +1,31 @@
+{
+  "sha1": "rkk22s83d42icw5zjxif8n8utmoxx2o",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.947Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:start;
+fork
+  :foo1;
+  :foo2;
+fork again
+  :foo3;
+  kill
+endfork
+if (foo4) then
+  :foo5;
+  kill
+endif
+if (foo6) then
+  :foo7;
+else
+  :foo8;
+  kill
+endif
+:foo9;
+kill
+:foo10;
+stop
+@enduml

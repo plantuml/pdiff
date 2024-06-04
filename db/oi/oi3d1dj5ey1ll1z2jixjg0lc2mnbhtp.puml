@@ -1,0 +1,15 @@
+{
+  "sha1": "oi3d1dj5ey1ll1z2jixjg0lc2mnbhtp",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.914Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+CENTER )-left- A
+CENTER )-right- B
+CENTER )-- C
+CENTER )-- C1
+CENTER )-up- D
+@enduml

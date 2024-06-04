@@ -1,0 +1,22 @@
+{
+  "sha1": "rcq34npde79im0ubum17tft2z346aoy",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.594Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{+
+foo1
+foo2
+foo3
+--
+foo4
+==
+foo5
+..
+foo6
+~~
+foo7
+}
+@endsalt

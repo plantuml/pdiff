@@ -1,0 +1,20 @@
+{
+  "sha1": "n0hed1be0y7ngcwmzx2xta3m4wj0y62",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.068Z",
+    "url": "https://forum.plantuml.net/16042/creole-trees-do-not-respect-indent-levels-in-a-class-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Foo {
+-- A1 --
+coco
+|_ A1
+|_ b()
+  |_ b1
+  |_ b2
+    |_ b2.1
+|_ c()
+}
+@enduml

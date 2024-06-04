@@ -1,0 +1,19 @@
+{
+  "sha1": "s1use209jjrowawkd0rytbgzcgqrrh0",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.597Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set namespaceSeparator .
+namespace net {
+a1 <|-- b1
+}
+
+namespace net.sourceforge {
+c1 <|-- d1
+c1 --> net.a1
+}
+
+@enduml

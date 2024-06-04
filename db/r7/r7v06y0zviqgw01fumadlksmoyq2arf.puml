@@ -1,0 +1,27 @@
+{
+  "sha1": "r7v06y0zviqgw01fumadlksmoyq2arf",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.421Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+title Mon Titre
+
+Bob -> Alice : hello
+
+skinparam footerFontColor yellow
+skinparam footerFontSize 30
+skinparam backgroundColor #AAAAAA
+
+left footer
+this is a footer that is very very long but contains no information
+endfooter
+
+left header
+this is a long
+<b>header</b>
+end header
+
+@enduml

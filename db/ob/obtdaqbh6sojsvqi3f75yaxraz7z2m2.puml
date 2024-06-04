@@ -1,0 +1,12 @@
+{
+  "sha1": "obtdaqbh6sojsvqi3f75yaxraz7z2m2",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.670Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor 春 
+春 -> 春燕 : 燕燕燕 
+note left : 燕燕燕
+@enduml

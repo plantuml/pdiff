@@ -1,0 +1,23 @@
+{
+  "sha1": "ogo6ihklnl0piasxyg5xdbhd8dlmio1",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.842Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam NoteBorderThickness 3
+skinparam NoteBorderColor green
+
+note as node1
+  This is a test note!
+end note
+
+note as node2
+  This is a test note!
+end note
+
+class foo
+foo -- node2
+
+@enduml

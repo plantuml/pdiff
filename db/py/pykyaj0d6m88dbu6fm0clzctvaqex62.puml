@@ -1,0 +1,40 @@
+{
+  "sha1": "pykyaj0d6m88dbu6fm0clzctvaqex62",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.876Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    nwdiag {
+        group {
+            description = "A";
+            fed_a;
+            dataSource;
+            FSA;
+        }
+        group {
+            description = "B";
+            FSB;
+            userB;
+            searchB;
+        }
+        fed_a [shape = queue];
+        fed_a -- dataSource;
+        network scope_A {
+            dataSource [shape = collections];
+            FSA;
+        }
+          network middle{
+           width = full;
+           FSA [shape = cloud];
+           FSB [shape = cloud];
+          }
+        network scope_B {
+            FSB;
+            userB [shape = actor];
+        }
+        userB -- searchB;
+        searchB;
+    }
+@enduml

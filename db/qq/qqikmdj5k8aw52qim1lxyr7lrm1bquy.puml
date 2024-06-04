@@ -1,0 +1,48 @@
+{
+  "sha1": "qqikmdj5k8aw52qim1lxyr7lrm1bquy",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.783Z",
+    "url": "https://forum.plantuml.net/13298/allow-style-on-wbs-boxless-node",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+wbsDiagram {
+  FontColor blue
+  FontStyle bold  
+  FontSize 13
+  
+  document {
+    BackGroundColor silver
+  }
+
+  element {
+    BackGroundColor palegreen
+    LineThickness 1.0
+  }
+  
+  boxless {
+	  FontColor green
+	  FontStyle italic 
+      MaximumWidth 40
+  }
+  
+  leafNode {
+	  FontSize 9
+  }
+
+  rootNode {
+	  BackGroundColor yellow
+  }
+}
+</style>
++ the partner workpackage
+++ blue
++++ blue workpackage
++++_ blue boxless workpackage 
+++ red
++++ red workpackage
++++_ red boxless workpackage
+
+@endwbs

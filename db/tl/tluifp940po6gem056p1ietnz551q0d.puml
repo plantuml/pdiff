@@ -1,0 +1,15 @@
+{
+  "sha1": "tluifp940po6gem056p1ietnz551q0d",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.437Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class CopierTXTEnCSV <<(F, zzgrey)>>
+class log
+
+class conf <<(F, grey)>>
+conf : FICHIER_CONF = oravoscoms.properties
+conf : chargerConfiguration()
+@enduml

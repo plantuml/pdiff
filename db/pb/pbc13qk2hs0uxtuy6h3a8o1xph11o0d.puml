@@ -1,0 +1,14 @@
+{
+  "sha1": "pbc13qk2hs0uxtuy6h3a8o1xph11o0d",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.948Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant "Widget" as 1
+loop Until operation is successful
+[<--1: SomeOutgoingOperation
+note right:This note causes a failure
+end
+@enduml

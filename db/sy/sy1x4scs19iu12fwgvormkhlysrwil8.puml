@@ -1,0 +1,13 @@
+{
+  "sha1": "sy1x4scs19iu12fwgvormkhlysrwil8",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.603Z",
+    "url": "https://forum.plantuml.net/10200/dont-require-dot-for-shapeless-diagrams-and-svg-output",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+legend
+Root
+end legend
+@enduml

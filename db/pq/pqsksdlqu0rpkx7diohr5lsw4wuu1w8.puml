@@ -1,0 +1,13 @@
+{
+  "sha1": "pqsksdlqu0rpkx7diohr5lsw4wuu1w8",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.595Z",
+    "url": "http://forum.plantuml.net/7836/possibly-automatically-swimlane-boxes-rather-having-manually",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam wrapWidth 100
+start
+:this is a very long component description;
+@enduml

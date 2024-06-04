@@ -1,0 +1,13 @@
+{
+  "sha1": "rez4q7z80voggzc9iihm4fxoz34dgwc",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.702Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam SequenceMessageAlign reverseDirection
+Alice -> Bob : hello with long
+Alice -> Bob : hello
+return ok
+@enduml

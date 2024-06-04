@@ -1,0 +1,16 @@
+{
+  "sha1": "rgey14lb80apf5okq3m1vaolnjh8z8v",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.790Z",
+    "url": "https://forum.plantuml.net/11380/backgroundcolor-transparent-doesnt-element-alone-element?show=11418#c11418",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam BackgroundColor transparent
+legend
+ legend
+ test
+ BackgroundColor 
+end legend
+@enduml

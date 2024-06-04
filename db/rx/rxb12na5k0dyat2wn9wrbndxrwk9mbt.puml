@@ -1,0 +1,17 @@
+{
+  "sha1": "rxb12na5k0dyat2wn9wrbndxrwk9mbt",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.384Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam note {
+BackgroundColor<<st1>> #white
+BorderColor<<st1>> #green
+FontColor<<st1>> #red
+}
+A -> B : msg
+note<<st1>> over A : text 1
+note over B #line:green;back:lightblue : text 2
+@enduml

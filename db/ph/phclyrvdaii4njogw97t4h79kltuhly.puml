@@ -1,0 +1,18 @@
+{
+  "sha1": "phclyrvdaii4njogw97t4h79kltuhly",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.191Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+
+A0 -- A1
+A0 -- A3
+A1 -- A5
+
+class A4
+note left of A4 : left
+
+@enduml

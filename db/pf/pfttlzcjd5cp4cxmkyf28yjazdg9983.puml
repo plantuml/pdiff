@@ -1,0 +1,13 @@
+{
+  "sha1": "pfttlzcjd5cp4cxmkyf28yjazdg9983",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.157Z",
+    "url": "https://forum.plantuml.net/11674/practical-gantt-chart-improvements",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+[Prototype design] lasts 13 days
+[Test prototype] lasts 4 days and 1 week
+[Test prototype] starts 1 week and 2 days after [Prototype design]'s end
+@endgantt

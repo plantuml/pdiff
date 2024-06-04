@@ -1,0 +1,10 @@
+{
+  "sha1": "riix4r1dnxtnzu7zv1c7qaopjl9yoww",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.857Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+\[\[[%s]*([^%s%g\[\]]+?)(?:[%s]*\{([^{}]*)\})?(?:[%s]([^%s\{\}\[\]][^\[\]]*))?[%s]*\]\]
+@endregex

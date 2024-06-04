@@ -1,0 +1,107 @@
+{
+  "sha1": "y2nh7tdehcqubof73z7m9i5vlojdgt",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.972Z",
+    "url": "https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+{
+   "Identifier":"AAAA_SSSSSSS",
+   "Name":"AAAA SSSSS",
+   "IpPort":0,
+   "Protocol":"uuuuuuu",
+   "WordOrder":"aaaa",
+   "Table":[
+      {
+         "Identifier":"AAAA_rrrrrrrrrrrrr",
+         "Name":"AAAA rrrrrrrrrrrrrrrrrr",
+         "Kind":"hhhhhhhhhhhhhhhhhh",
+         "Variable":[
+            {
+               "AAAAAAAAAA":"-",
+               "Identifier":"BBBBpppppppppppn",
+               "Name":"BBBBpppppppppppp",
+               "Type":"Boolean",
+               "Unit":"None",
+               "Index":10,
+               "BitPosition":0,
+               "Isaaaaa":false,
+               "Toaaaaaaa":true,
+               "IsReserve":false
+            },
+            {
+               "AAAAAAAAAA":"-",
+               "Identifier":"outON",
+               "Name":"aaaaaaaa",
+               "Type":"Boolean",
+               "Unit":"None",
+               "Index":10,
+               "BitPosition":1,
+               "Isaaaaa":false,
+               "Isaaaaabbbbb":true,
+               "IsReserve":false
+            },
+            {
+               "AAAAAAAAAA":"-",
+               "Identifier":"reAAAA",
+               "Name":"reAAAA",
+               "Type":"Float32",
+               "CellCount":2,
+               "Unit":"MMMMMM",
+               "Index":18,
+               "BitPosition":0,
+               "Isaaaaa":false,
+               "Isaaaaabbbbb":true,
+               "IsReserve":false
+            }
+         ]
+      },
+      {
+         "Identifier":"AAAA_oooooooooooooo",
+         "Name":"AAAA oooooooooooooo",
+         "Kind":"KKKKKK",
+         "Variable":[
+            {
+               "AAAAAAAAAA":"-",
+               "Identifier":"inAAAADbbbbbbe",
+               "Name":"inAAAADbbbbbbbbb",
+               "Type":"Boolean",
+               "Unit":"None",
+               "Index":0,
+               "BitPosition":0,
+               "Isaaaaa":false,
+               "Isaaaaabbbbb":true,
+               "IsReserve":false
+            },
+            {
+               "AAAAAAAAAA":"-",
+               "Identifier":"inAAAADCCCCCCCCCCC",
+               "Name":"inAAAADCCCCCCCCCCCCC",
+               "Type":"Boolean",
+               "Unit":"None",
+               "Index":0,
+               "BitPosition":0,
+               "Isaaaaa":false,
+               "Isaaaaabbbbb":true,
+               "IsReserve":false
+            },
+            {
+               "AAAAAAAAAA":"-",
+               "Identifier":"AAAAWWWWWWWWW",
+               "Name":"AAAAWWWWWWWW",
+               "Type":"UInt16",
+               "CellCount":1,
+               "Unit":"None",
+               "Index":1,
+               "BitPosition":0,
+               "Isaaaaa":true,
+               "Isaaaaabbbbb":true,
+               "IsReserve":false
+            }
+         ]
+      }
+   ]
+}
+@endjson

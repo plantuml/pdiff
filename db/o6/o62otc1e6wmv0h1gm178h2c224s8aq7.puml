@@ -1,0 +1,19 @@
+{
+  "sha1": "o62otc1e6wmv0h1gm178h2c224s8aq7",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.412Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define SHOW_FIELDS
+!undef SHOW_METHODS
+class foo {
+!ifdef SHOW_FIELDS || SHOW_METHODS
+This is shown
+!endif
+!ifdef SHOW_FIELDS && SHOW_METHODS
+This is NOT shown
+!endif
+}
+@enduml

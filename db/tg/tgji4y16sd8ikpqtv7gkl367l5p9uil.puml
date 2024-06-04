@@ -1,0 +1,19 @@
+{
+  "sha1": "tgji4y16sd8ikpqtv7gkl367l5p9uil",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.195Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+node node1
+node node2
+node node3
+node node4
+node node5
+node1 -- node2
+node1 .. node3
+node1 ~~ node4
+node1 == node5
+
+@enduml

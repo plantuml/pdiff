@@ -1,0 +1,30 @@
+{
+  "sha1": "lgztd1dwafcj59tx7e8c5t0e2n0yf7b",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.303Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Dummy1 {
+  +thisIsALongmethod1()
+  +anotherMetheod()
+  
+  +String a1
+  +Date d;
+}
+
+class Dummy2 <<even>> {
+  +String a1
+  +Date d;
+}
+
+class Dummy3 {
+  +thisIsALongmethod1()
+  +anotherMetheod()
+}
+
+class Dummy4 <<even>>
+
+hide empty methods
+@enduml

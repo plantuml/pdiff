@@ -1,0 +1,25 @@
+{
+  "sha1": "pm0o7hhllbkuwks4mofabxm6d4xo59b",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.371Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=1762/namespace-label-formating",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+repeat
+  :task;
+repeat while (test) is (value1)
+
+repeat
+  :task;
+repeat while (test) is (value1) not (value2)
+
+:some text;
+
+repeat
+  :task;
+repeat while (test) not (value2)
+
+@enduml

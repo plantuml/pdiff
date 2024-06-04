@@ -1,0 +1,14 @@
+{
+  "sha1": "onwpexfzb5bm0kp6v6tuk115c8fvkti",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.049Z",
+    "url": "https://forum.plantuml.net/10495/can-an-img-be-supported-as-a-thumbnail-to-the-original",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component "compA" as compA {
+}
+
+note right of compA: [[http://google.fr <img:foo.webp{scale=2}>]]
+@enduml

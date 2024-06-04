@@ -1,0 +1,12 @@
+{
+  "sha1": "s77r7if1x3o9njpfkxamuqamymyzhwn",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.737Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace net.sourceforge.plantuml {
+  classic.collections.ArrayList <|-- net.sourceforge.plantuml.ArrayList
+}
+@enduml

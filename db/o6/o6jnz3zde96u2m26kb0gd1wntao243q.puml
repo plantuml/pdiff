@@ -1,0 +1,15 @@
+{
+  "sha1": "o6jnz3zde96u2m26kb0gd1wntao243q",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.438Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+B->C
+activate C
+C-->B
+note right : long
+deactivate C
+@enduml

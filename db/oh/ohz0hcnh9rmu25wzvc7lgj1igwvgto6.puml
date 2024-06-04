@@ -1,0 +1,11 @@
+{
+  "sha1": "ohz0hcnh9rmu25wzvc7lgj1igwvgto6",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.901Z",
+    "url": "https://forum.plantuml.net/11084/javascript-hyperlinks-in-svg",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : [[javascript:alert('test') hello]]
+@enduml

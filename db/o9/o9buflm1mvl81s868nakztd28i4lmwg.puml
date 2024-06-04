@@ -1,0 +1,41 @@
+{
+  "sha1": "o9buflm1mvl81s868nakztd28i4lmwg",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.565Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+circle {
+ start {
+   LineColor red
+   BackgroundColor red
+ }
+ stop {
+   LineColor green
+   BackgroundColor green
+ }
+}
+</style>
+
+start;
+:FINDHW();
+:GetTable();
+if (foo) then
+:i=0;
+endif
+while (foo)
+:is i==TopologySize?;
+endwhile
+repeat
+:return result;
+repeatwhile (foo)
+fork
+:is dynamic data for this C?;
+endfork
+:Find Data on the heap for C;
+:Can the buffer accommodate?;
+stop;
+@enduml

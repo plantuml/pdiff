@@ -1,0 +1,21 @@
+{
+  "sha1": "oy2o994r4f353ewihwm63pamtzramoy",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.425Z",
+    "url": "https://forum.plantuml.net/17932/nwdiag-possible-misbehavior?show=17943#c17943",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+
+c1 [ shape = cloud];
+
+network nw {
+  c1;
+  a;
+  b;
+}
+
+}
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "pji1eas2ohh8szdmgr2xh0qjoisyldz",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.293Z",
+    "url": "https://forum.plantuml.net/16056/the-mindmaps-root-node-could-never-be-centered-now?show=16070#c16070",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* root node
+* another root node
+@endmindmap

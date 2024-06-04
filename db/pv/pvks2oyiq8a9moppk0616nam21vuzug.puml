@@ -1,0 +1,28 @@
+{
+  "sha1": "pvks2oyiq8a9moppk0616nam21vuzug",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.775Z",
+    "url": "http://alphadoc.plantuml.com/doc/dokuwiki/en/nwdiag-issues",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+
+    network proxy {
+        app;
+    }
+
+    network default {
+    	app;
+        db;
+    }
+    
+    group {
+      color = "pink";
+      app;
+      db;
+    }
+
+}
+@enduml

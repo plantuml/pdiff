@@ -1,0 +1,15 @@
+{
+  "sha1": "red33ozsn7880pmgs9arpvl0k9goqoj",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.672Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ (*) --> {
+ -- toto1
+ (*) --> D
+ -- toto2
+ (*) --> F
+ }
+@enduml

@@ -1,0 +1,27 @@
+{
+  "sha1": "puaayxcwo1qzj1eft9r54x3c3s9knz9",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.705Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam swimlane {
+  BorderThickness 0
+  TitleFontColor black
+  TitleFontSize 30
+  width same
+}
+|swimlane1|
+:first with a very very long name to be displayed;
+:second;
+|swimlane2|
+:third;
+if (foo) then
+:something;
+endif
+|swimlane1|
+:back to swinline1;
+|swimlane2|
+:back to swinline2;
+@enduml

@@ -1,0 +1,15 @@
+{
+  "sha1": "rpzmnqr1nnciutpixjpbxgxkfgcplls",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.135Z",
+    "url": "https://forum.plantuml.net/14830/something-planed-that-chinese-text-supports-word-wraps-too",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam wrapWidth 200
+
+["this is a component, and it will wrap this descripttion"] as a
+
+["这也是一个组件，但是这段文件不会自动换行下去，这是为什么呢。"] as b
+@enduml

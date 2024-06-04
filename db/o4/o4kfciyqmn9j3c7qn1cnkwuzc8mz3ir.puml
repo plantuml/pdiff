@@ -1,0 +1,11 @@
+{
+  "sha1": "o4kfciyqmn9j3c7qn1cnkwuzc8mz3ir",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.356Z",
+    "url": "https://forum.plantuml.net/17070/ebnf-special-border-enhancement",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+foo = "literal" | ?special? | rule;
+@endebnf

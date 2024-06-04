@@ -1,0 +1,31 @@
+{
+  "sha1": "pw9o15gi0bb3zew3ioibdbet55p7wbq",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.795Z",
+    "url": "https://forum.plantuml.net/14442/style-allow-shadowing-with-roundcorner-sequence-reference",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+</style>
+ref over Alice, Bob : this is a reference\n(normal style)
+<style>
+sequenceDiagram {
+  reference {
+    RoundCorner 30
+    Shadowing 1
+  }
+}
+</style>
+ref over Alice, Bob : this is a reference\n(RoundCorner + Shadowing)
+<style>
+sequenceDiagram {
+  reference {
+    RoundCorner 30
+    Shadowing 0
+  }
+}
+</style>
+ref over Alice, Bob : this is a reference\n(RoundCorner + No Shadowing)
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "tobofgfr9fmi85w0hwmlksvouj0ys85",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.532Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> State1
+state HandleFailure <<O-O>>
+HandleFailure : FailureSubmachine
+State1 -->O HandleFailure : error1/
+HandleFailure ->O test
+HandleFailure X--> Foo
+HandleFailure X-> Foo2
+@enduml

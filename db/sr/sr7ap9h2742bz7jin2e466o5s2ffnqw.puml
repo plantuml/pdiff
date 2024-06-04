@@ -1,0 +1,22 @@
+{
+  "sha1": "sr7ap9h2742bz7jin2e466o5s2ffnqw",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.362Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam node {
+    backgroundColor Yellow
+    backgroundColor<<st>> LightBlue
+}
+node AA <<st>> {
+  [ZZ]
+}
+node BB {
+  [XX]
+}
+node CC {
+}
+node DD
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "sctr1gknjm0h4731zt9k91pgfauoctd",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.978Z",
+    "url": "http://forum.plantuml.net/8751/inconsistent-placements-legend-title-across-diagram-types",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title my title
+legend 
+  This is the legend
+  on several lines
+end legend
+
+Alice -> Bob : hello
+
+@enduml

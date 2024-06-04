@@ -1,0 +1,50 @@
+{
+  "sha1": "ozgwyd24zhvylsm7pur8y0dkvfjjnch",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.476Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+wbsDiagram {
+  node {
+    Padding 5
+    Margin 15
+    BackGroundColor white
+  }
+
+  .europeStyle * {
+	  node {
+	    FontColor red
+	  }
+	  /' this is some comment 
+	   '/
+  }
+
+  .europeStyle {
+	  node {
+	    FontSize 20
+	  }
+  }
+
+  .usaStyle * {
+	  node {
+	      Padding 10; // because we are fatter ;) 
+	  }
+	  FontColor Blue
+  }
+}
+</style>
+
+* World
+** America
+*** Canada
+*** Mexico
+*** USA <<usaStyle>>
+**** Texas
+** Europe <<europeStyle>>
+*** England
+*** Germany
+*** Spain
+@endwbs

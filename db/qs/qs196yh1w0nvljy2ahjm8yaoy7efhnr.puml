@@ -1,0 +1,34 @@
+{
+  "sha1": "qs196yh1w0nvljy2ahjm8yaoy7efhnr",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.840Z",
+    "url": "https://github.com/plantuml/plantuml/issues/230",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skin debug
+skinparam useBetaStyle true
+
+<style>
+swimlane {
+  BackgroundColor #5FF
+  LineColor yellow
+  LineThickness 5
+}
+</style>
+
+
+|swinlane1|
+:first;
+:second;
+|swinlane2|
+:third;
+if (foo) then
+:something;
+endif
+|swinlane1|
+:back to swinline1;
+|swinlane2|
+:back to swinline2;
+@enduml

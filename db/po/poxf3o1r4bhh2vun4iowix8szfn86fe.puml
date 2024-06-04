@@ -1,0 +1,14 @@
+{
+  "sha1": "poxf3o1r4bhh2vun4iowix8szfn86fe",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.527Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+TrackModels : TrackModels() 
+TrackModels : int trackID
+TrackModels : vector<CrossCameraModel> models 
+TrackModels : bool addModel(CrossCameraModel x) * 
+@enduml

@@ -1,0 +1,23 @@
+{
+  "sha1": "spzk56ekslmqs8fmsuyscg0ooqvz6de",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.333Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma useVerticalIf on
+:process;
+while (available?) is (no1)
+  if (condition?) then (yes1)
+    :other process;
+    end
+  elseif (condition2) then (yes2)
+  :fo;
+  else (no3)
+  endif
+endwhile (yes3)
+
+end
+
+@enduml

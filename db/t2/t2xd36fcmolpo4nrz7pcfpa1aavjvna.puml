@@ -1,0 +1,16 @@
+{
+  "sha1": "t2xd36fcmolpo4nrz7pcfpa1aavjvna",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.725Z",
+    "url": "https://github.com/plantuml/plantuml/issues/700#issuecomment-963837840",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startyaml
+!theme amiga
+fruit: Apple
+size: Large
+color:
+ - Red
+ - Green
+@endyaml

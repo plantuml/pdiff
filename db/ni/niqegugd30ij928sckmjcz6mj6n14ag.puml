@@ -1,0 +1,17 @@
+{
+  "sha1": "niqegugd30ij928sckmjcz6mj6n14ag",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.670Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+(*) --> "this activity" as A1
+
+--> "Another activity" as A2
+
+A1 --> "Toto"
+A2 -left-> "This one"
+
+@enduml

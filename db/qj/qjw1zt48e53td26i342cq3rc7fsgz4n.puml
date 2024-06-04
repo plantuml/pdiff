@@ -1,0 +1,14 @@
+{
+  "sha1": "qjw1zt48e53td26i342cq3rc7fsgz4n",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.525Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (test) then
+ :foo1;
+endif
+:foo2;
+@enduml

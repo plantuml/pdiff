@@ -1,0 +1,20 @@
+{
+  "sha1": "r9an9u2nacl6obf8333hscda7uqor0x",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.489Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequenceGroupHeaderFontName Impact
+skinparam sequenceReferenceFontName Impact
+
+Alice -> Bob: ok
+alt
+Alice -> Bob: ok
+end
+
+ref over Alice,Bob
+  some text
+end
+@enduml

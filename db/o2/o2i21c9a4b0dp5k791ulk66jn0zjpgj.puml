@@ -1,0 +1,21 @@
+{
+  "sha1": "o2i21c9a4b0dp5k791ulk66jn0zjpgj",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.269Z",
+    "url": "https://forum.plantuml.net/9684/split-while-bug-with-a-couple-of-workarounds",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Split Bug (not working)
+:Something;
+repeat
+     :Repeat Bug;
+     split
+          :something; 
+     split again
+           :Something Else;
+      end split
+repeat while(\nRepeat?\nYes=Down\nNo=Right\n)
+:something;
+@enduml

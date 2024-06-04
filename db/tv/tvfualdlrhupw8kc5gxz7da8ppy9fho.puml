@@ -1,0 +1,16 @@
+{
+  "sha1": "tvfualdlrhupw8kc5gxz7da8ppy9fho",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.807Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title
+You can have qrcode
+<qrcode:abcdef> or <qrcode:abcdef{scale=3}>
+end title
+start
+:foo4<qrcode:abcdef>;
+stop
+@enduml

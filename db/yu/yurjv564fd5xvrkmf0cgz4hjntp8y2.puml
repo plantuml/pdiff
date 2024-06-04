@@ -1,0 +1,34 @@
+{
+  "sha1": "yurjv564fd5xvrkmf0cgz4hjntp8y2",
+  "insertion": {
+    "when": "2024-06-04T17:28:47.017Z",
+    "url": "https://forum.plantuml.net/13731/activity-layout-issue-java-error-end-merge-with-more-than-fork",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+title Number Analysis
+switch (source)
+
+case ( a )
+:case1;
+'end
+
+case ( b0 )
+:case20;
+'end
+
+case ( b1 )
+:case21;
+'end
+case ( b2 )
+:case22;
+'end
+
+case ( c )
+:case3;
+end
+
+endswitch
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "r2ntpqgfwyw6m5m69xhr866riitfkj3",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.306Z",
+    "url": "https://forum.plantuml.net/16415/on-the-same-row-breaks-when-used-on-self",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+[Nomination] happens 2022-03-31 and displays on same row as [Nomination]
+@endgantt

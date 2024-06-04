@@ -1,0 +1,16 @@
+{
+  "sha1": "oryqk37a3zxvtmpp2lk4bkwwjezlvzo",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.202Z",
+    "url": "http://forum.plantuml.net/7827/devicons-and-font-awesome-library-in-%40salt",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+!include <tupadr3/font-awesome/gears.puml>
+{^"My group box<$gears*.3>"
+  Login    | "<$gears*.3>MyName   "
+  Password | "****     "
+  [Cancel] | [  OK<$gears*.3>   ]
+}
+@endsalt

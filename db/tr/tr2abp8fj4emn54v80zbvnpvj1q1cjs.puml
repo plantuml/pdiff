@@ -1,0 +1,18 @@
+{
+  "sha1": "tr2abp8fj4emn54v80zbvnpvj1q1cjs",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.636Z",
+    "url": "https://forum.plantuml.net/14338/stereotypes-disregards-stereotype-skinparam-properties",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+' hide stereotype
+
+skinparam ParticipantBorderColor<<type>> #Black
+skinparam SequenceLifeLineBorderColor<<type>> #Black
+
+participant Bob <<type>>
+
+@enduml

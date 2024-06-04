@@ -1,0 +1,20 @@
+{
+  "sha1": "s8zqcgw2vvadnpns7vzjqx0raguaank",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.791Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam objectBackgroundColor red
+skinparam objectBackgroundColor<<azerty>> green
+object foo1 {
+  dummy
+}
+object foo2 #purple {
+  dummy
+}
+object foo3 <<azerty>> {
+  dummy
+}
+@enduml

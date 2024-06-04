@@ -1,0 +1,14 @@
+{
+  "sha1": "r27v33meodz798sw7jjk08hy1ard6yp",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.273Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=5096/caption-disapear-with-teoz",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Title aaaaaaa 
+caption aaaa.txt V0001
+Bob->Alice : hello
+@enduml

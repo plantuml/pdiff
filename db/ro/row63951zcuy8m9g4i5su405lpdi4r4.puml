@@ -1,0 +1,28 @@
+{
+  "sha1": "row63951zcuy8m9g4i5su405lpdi4r4",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.106Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightGreen
+    }
+    :depth(1) {
+      BackGroundColor white
+    }
+}
+</style>
+* Linux
+** NixOS
+** Debian
+*** Ubuntu
+**** Linux Mint
+**** Kubuntu
+**** Lubuntu
+**** KDE Neon
+*** SolydXKxxxxxx
+@endmindmap

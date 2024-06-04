@@ -1,0 +1,14 @@
+{
+  "sha1": "pf6ovlv0hwdeb8ravd4owlqhumdtku7",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.111Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+partition "Empty partition" {
+#FBFB77:Can the partition be centered\nand the note be over the activity arrow]
+}
+stop
+@enduml

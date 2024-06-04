@@ -1,0 +1,26 @@
+{
+  "sha1": "o28bcosltm2qx4lbigcp5ebwp56vfx9",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.253Z",
+    "url": "https://forum.plantuml.net/12655/nwdiag-overlapp-problem-with-3-newtorks",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+	network AAA {
+		address = "192.168.1.x/24"
+		
+		NAT [address = "192.168.1.22x"];
+		RRR [address = "192.168.1.20x"];
+	}
+	network BBB {
+		address = "192.168.3.x/24";
+		RRR [address = "192.168.3.1x"];
+	}
+	network CCC {
+		address = "192.168.2.x/24"
+		NAT [address = "192.168.2.12x"];
+	}
+}
+@enduml

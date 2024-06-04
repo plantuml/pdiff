@@ -1,0 +1,12 @@
+{
+  "sha1": "pmktnkmhkimzzxmugowxxdqvyuql8j3",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.426Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+object "~#1: Person" as p1
+p1 : String toto = "hello"
+
+@enduml

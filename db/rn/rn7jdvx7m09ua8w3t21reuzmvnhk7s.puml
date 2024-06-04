@@ -1,0 +1,32 @@
+{
+  "sha1": "rn7jdvx7m09ua8w3t21reuzmvnhk7s",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.025Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam stereotypePosition bottom
+participant Alice << demo >>
+actor Bob << test >>
+Alice -> Bob : ok
+note left
+Another long line to test
+this is sub<sub>sub</sub> that is
+Another long line to test
+this is sup<sup>sup</sup> that is
+Another long line to test
+this is sup<sup>sup</sup> that issub<sub>sub</sub> and all
+Another long line to test
+end note
+Alice -> Bob : ok
+note right
+<size:18>Another long line to test
+<size:18>this is sub<sub>sub</sub> that is
+<size:18>Another long line to test
+<size:18>this is sup<sup>sup</sup> that is
+<size:18>Another long line to test
+<size:18>this is sup<sup>sup</sup> that issub<sub>sub</sub> and all
+<size:18>Another long line to test
+end note
+@enduml

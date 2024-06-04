@@ -1,0 +1,15 @@
+{
+  "sha1": "ozl08cgbjpoftlnjbzab6n6cerbr2cw",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.484Z",
+    "url": "https://forum.plantuml.net/10964/sequence-queuebordercolor-not-respected",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam QueueBorderColor #00f
+skinparam QueueBorderColor<<cooper>> #0f0
+queue Bob
+queue Alice <<cooper>>
+Bob -> Alice : hello
+@enduml

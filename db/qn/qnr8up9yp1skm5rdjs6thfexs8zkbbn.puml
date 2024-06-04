@@ -1,0 +1,18 @@
+{
+  "sha1": "qnr8up9yp1skm5rdjs6thfexs8zkbbn",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.680Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ ' title imagemap for Webserver appears top left from actor User
+ title Title
+ actor User as u [[/wiki/index.php/User]]
+ participant Webserver as w [[/wiki/index.php/Webserver]]
+ 'url of u is [[/wiki/index.php/User]]
+ 'url of w is [[/wiki/index.php/Webserver]]
+
+
+ u -> w: right
+@enduml

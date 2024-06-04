@@ -1,0 +1,13 @@
+{
+  "sha1": "qtb8y8l1aigydsdbwmk0csh64ki4mcq",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.886Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1357",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state S.I {
+    S.I --> S.I
+}
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "s4jynga1el8tnxa4cfuk2hlqqrhuewn",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.651Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1050",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+group [Architectural design]
+[Create draft of architecture] lasts 10 days
+then [Prepare construction documents] lasts 10 days
+then [Agreement on architectural plan] lasts 1 day
+end group
+end group
+
+@endgantt

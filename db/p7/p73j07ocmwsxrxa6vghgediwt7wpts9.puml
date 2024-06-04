@@ -1,0 +1,16 @@
+{
+  "sha1": "p73j07ocmwsxrxa6vghgediwt7wpts9",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.748Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "Web Browser" as WB
+
+@WB
+0 is idle
+2.7 is Proc.
+7.9 is Waiting
+
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "qndy672dgy6j9pnszqf7dtn29tz1ui2",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.649Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+archimate #APPLICATION "Do Something" as App_Func1 <<application-function>>
+archimate #MOTIVATION  SomeMotivation
+
+App_Func1 --> SomeMotivation
+
+archimate #APPLICATION "Some Function2" <<application-function>>
+archimate #APPLICATION SomeFunction3 as App_Func4 <<application-function>>
+
+App_Func1 --> App_Func4
+
+@enduml

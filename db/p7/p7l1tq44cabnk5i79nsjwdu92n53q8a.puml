@@ -1,0 +1,22 @@
+{
+  "sha1": "p7l1tq44cabnk5i79nsjwdu92n53q8a",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.768Z",
+    "url": "https://github.com/plantuml/plantuml/issues/185",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set namespaceSeparator none
+
+class Student {
+  Name
+}
+Student "0..*" -- "1..*" Course
+(Student, Course) . Enrollment
+
+class Enrollment {
+  drop()
+  cancel()
+}
+@enduml

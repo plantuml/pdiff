@@ -1,0 +1,12 @@
+{
+  "sha1": "odumym7yhared3xujq2a6pudka8vq9g",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.750Z",
+    "url": "https://forum.plantuml.net/16570/single-resource-gantt-chart?show=16570#q16570",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+{Alice} starts at 2023-08-15
+{Bob} ends at 2023-12-31
+@endgantt

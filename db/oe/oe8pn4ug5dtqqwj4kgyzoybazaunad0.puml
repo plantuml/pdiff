@@ -1,0 +1,15 @@
+{
+  "sha1": "oe8pn4ug5dtqqwj4kgyzoybazaunad0",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.770Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+
+* root
+** first
+** second
+@endmindmap

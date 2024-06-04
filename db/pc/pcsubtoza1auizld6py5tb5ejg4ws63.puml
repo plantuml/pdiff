@@ -1,0 +1,16 @@
+{
+  "sha1": "pcsubtoza1auizld6py5tb5ejg4ws63",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.012Z",
+    "url": "https://forum.plantuml.net/13879/report-automatic-text-color-will-crash-participant-includes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ParticipantFontColor automatic
+participant "Dark <&globe>" as dark #indigo
+participant "Light <&globe>" as light #ivory
+' The addition of an icon to the text displayed in the above participants causes
+' a crash
+dark -> light: Test 1
+@enduml

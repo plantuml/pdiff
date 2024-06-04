@@ -1,0 +1,22 @@
+{
+  "sha1": "qexzrzgen298082p71gl29x10o30mc1",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.365Z",
+    "url": "http://forum.plantuml.net/6950/skinparam-collections-bordercolor-participantbordercolor",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam {
+    ParticipantBackgroundColor #red
+    ParticipantBorderColor #blue
+    CollectionsBackgroundColor #yellow
+    CollectionsBorderColor #green
+}
+
+participant A
+collections C
+A -> C: messages
+C -> A: responces
+
+@enduml

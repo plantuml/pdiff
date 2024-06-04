@@ -1,0 +1,14 @@
+{
+  "sha1": "qg5qk1fsu69jb4al472eii9p7yebgze",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.398Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+  network inet {
+	  web01 [shape = cloud]
+  }
+}
+@enduml

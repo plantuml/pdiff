@@ -1,0 +1,31 @@
+{
+  "sha1": "ouwy2tcq38kqeuys08m35emtjjopp04",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.329Z",
+    "url": "https://forum.plantuml.net/18457/color-individual-conditional-in-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.foo {
+  LineColor red
+  BackgroundColor pink
+  LineThickness 1
+  ArrowThickness 1
+  FontName Courier
+  FontColor blue
+  FontSize 10
+  FontStyle italic
+}
+</style>
+
+if (decision) then (yes)
+    :C1; <<foo>>
+else (no)
+endif
+if<<foo>> (decision) then (yes)
+    :C2;
+else (no)
+endif
+@enduml

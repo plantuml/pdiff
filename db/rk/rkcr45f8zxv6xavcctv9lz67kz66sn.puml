@@ -1,0 +1,15 @@
+{
+  "sha1": "rkcr45f8zxv6xavcctv9lz67kz66sn",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.941Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package foo1 <<Node>> {
+ class Class1
+}
+package foo2 <<Card>> {
+ class Class2
+}
+@enduml

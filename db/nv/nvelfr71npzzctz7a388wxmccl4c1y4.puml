@@ -1,0 +1,15 @@
+{
+  "sha1": "nvelfr71npzzctz7a388wxmccl4c1y4",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.111Z",
+    "url": "https://github.com/plantuml/plantuml/issues/132",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequenceMessageAlign direction
+Bob->Alice: This is a long message to increase the distance between Alice and Bob
+Bob->Alice: should be left aligned
+Alice->Bob: should be right aligned
+Alice<->Bob: should be centered
+@enduml

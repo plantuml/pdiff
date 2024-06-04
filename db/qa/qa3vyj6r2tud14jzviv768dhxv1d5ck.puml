@@ -1,0 +1,32 @@
+{
+  "sha1": "qa3vyj6r2tud14jzviv768dhxv1d5ck",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.174Z",
+    "url": "https://github.com/plantuml/plantuml/issues/836",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+scale 100 as 0 pixels
+
+concise "identificatin-app" as idapp
+concise "CSABackApp" as CB
+
+
+
+idapp is idle
+CB is idle
+
+
+@idapp
+
+0 is "идентификация"
++250 is "запрос в процессинг"
+
+
+@CB
+
+0 is "обновление профиля"
+
+@enduml

@@ -1,0 +1,25 @@
+{
+  "sha1": "shi7eftkv9dkrno8t5h6p5ubebuxii0",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.105Z",
+    "url": "https://forum.plantuml.net/16071/deployment-could-you-improve-port-management",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+card c
+
+node node {
+  port p1long
+  port p2long
+  port p3long
+  file f1
+}
+
+c --> p1long
+c --> p2long
+c --> p3long
+p1long --> f1
+p2long --> f1
+@enduml

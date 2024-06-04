@@ -1,0 +1,25 @@
+{
+  "sha1": "th477whzmyt0rx8i8b14x0rqjhvfakh",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.221Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1297",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+spotClass {
+  BackgroundColor blue;
+  FontColor red;
+}
+
+</style>
+
+class ArrayList {
+  Object[] elementData
+  size()
+}
+
+
+@enduml

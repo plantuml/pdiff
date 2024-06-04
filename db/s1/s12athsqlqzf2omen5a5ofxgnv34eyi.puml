@@ -1,0 +1,31 @@
+{
+  "sha1": "s12athsqlqzf2omen5a5ofxgnv34eyi",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.539Z",
+    "url": "https://github.com/plantuml/plantuml/issues/794",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+state {
+  BackGroundColor: blue;
+}
+activityBar {
+  .fork {
+    BackGroundColor: green;
+  }
+  .join {
+    BackGroundColor: orange;
+  }
+}
+</style>
+state f <<fork>>
+state a <<MyState>>
+state b <<MyState>>
+state j <<join>>
+f --> a
+f --> b
+a --> j
+b --> j
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "rbssbvrql8nn48pffqus01pch7559y8",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.560Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1307#issuecomment-1455198456",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class a
+class b
+a --_> b
+@enduml

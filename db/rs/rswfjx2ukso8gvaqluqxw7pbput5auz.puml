@@ -1,0 +1,13 @@
+{
+  "sha1": "rswfjx2ukso8gvaqluqxw7pbput5auz",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.227Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+loop
+X -> Y: z();
+end
+destroy X
+@enduml

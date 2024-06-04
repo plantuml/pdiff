@@ -1,0 +1,13 @@
+{
+  "sha1": "szd59xkseqsc5u6pdp28ojlt42xv13e",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.624Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!ijk	= "foo"
+Alice -> Bob : ijk
+Alice -> Bob : ijkl
+@enduml

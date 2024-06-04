@@ -1,0 +1,47 @@
+{
+  "sha1": "t8q3nogm4plny6jrsf7qtm2cpzpxlc6",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.917Z",
+    "url": "https://photos.app.goo.gl/FfSh5nystMQYh26V9",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skin rose
+
+top to bottom direction
+
+skinparam linetype ortho
+skinparam linetype polyline
+
+skinparam componentStyle rectangle
+
+!$Facet = "#lightgreen"
+!$Server = "<<Server>>"
+!$PubSub = "<<Publisher>> <<Subscriber>>"
+!$CU = "#lightyellow"
+!$CUMandatory = "-->"
+!$CUOptional = "-.>"
+!$CUAtLeastOne = '-[#blue]-#'
+
+!$SmallFont = "<size:12>"
+
+skinparam node {
+    StereotypeFontSize<<Application Role>> 5
+}
+
+package "$SmallFont Legend" as Legend {
+    [$SmallFont Conformance Unit] as CU $CU
+    node "$SmallFont Facet" as Facet $Facet
+    Facet $CUMandatory "$SmallFont mandatory" CU
+    Facet $CUOptional "$SmallFont optional" CU   
+    node "$SmallFont Facet A" as FacetA $Facet
+    node "$SmallFont Facet B" as FacetB <<Application Role>> $Facet
+    CU -[hidden]- FacetA
+    CU -[hidden]- FacetB
+    CU $CUAtLeastOne "$SmallFont at least one" FacetA
+    CU $CUAtLeastOne FacetB
+}
+
+@enduml

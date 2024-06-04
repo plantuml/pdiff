@@ -1,0 +1,11 @@
+{
+  "sha1": "qqgtbl5sv272w1izshjrb4hann55edg",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.769Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startbpm
+:login;
+20:<+>
+@endbpm

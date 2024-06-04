@@ -1,0 +1,19 @@
+{
+  "sha1": "pzn7n4zhiws02hgr0qcnadct9cw6fgv",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.925Z",
+    "url": "https://forum.plantuml.net/17187/verticals-separators-gantt-chart-appear-certain-conditions",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2022-12-01
+projectscale monthly zoom 3
+
+[task1] lasts 1 week
+[task2] starts 20 days after [task1]'s end and lasts 3 days
+
+Separator just at [task1]'s end
+Separator just 2 days after [task1]'s end
+
+@endgantt

@@ -1,0 +1,16 @@
+{
+  "sha1": "qalu63845jqeyg106bfn6br61ovkauf",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.188Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1436",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam DefaultFontName "Hack", "DejaVu Sans Mono", "Courier New", "Nimbus Mono L", "Monospaced", Courier, monospace
+
+[Component\nABC]
+frame "Frame" {
+  card Card
+}
+@enduml

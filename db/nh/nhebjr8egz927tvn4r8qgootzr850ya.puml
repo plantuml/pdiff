@@ -1,0 +1,20 @@
+{
+  "sha1": "nhebjr8egz927tvn4r8qgootzr850ya",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.585Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A ->> B: request
+A <<-- B: response
+A ->]: ok
+A ->>]: not supported
+A -->]: ok
+A --\\]: not supported
+A ->]: error
+note right: note is misplaced and overwrites the message text
+...5 seconds...
+A -> B
+note right: the delay description should probable be horizontally centered over all the participants rather then horizontally centered on the page.
+@enduml

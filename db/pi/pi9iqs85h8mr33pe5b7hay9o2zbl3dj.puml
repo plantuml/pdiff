@@ -1,0 +1,28 @@
+{
+  "sha1": "pi9iqs85h8mr33pe5b7hay9o2zbl3dj",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.233Z",
+    "url": "https://github.com/plantuml/plantuml/issues/43#issuecomment-680120185",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+skinparam backgroundColor #302934
+<style>
+mindmapDiagram {
+  .rootStyle * {
+    BackGroundColor lightblue
+    LineColor lightblue
+  }
+  .leafStyle * {
+    LineColor lightgray
+    FontColor white
+  }
+}
+</style>
+* Lessons by Den <<rootStyle>>
+** OS-agnostic package management
+***_ Flatpak <<leafStyle>>
+***_ SNAP Packages <<leafStyle>>
+***_ AppImages <<leafStyle>>
+@endmindmap

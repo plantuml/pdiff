@@ -1,0 +1,14 @@
+{
+  "sha1": "sk1uhchcoymc7p2t0sldiaiba7hnpw5",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.171Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Dummy -> Alice : foo1
+ref over Alice, Dummy : Foo2
+
+Alice -> Bob : hello
+
+@enduml

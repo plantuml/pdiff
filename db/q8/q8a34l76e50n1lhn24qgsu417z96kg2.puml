@@ -1,0 +1,11 @@
+{
+  "sha1": "q8a34l76e50n1lhn24qgsu417z96kg2",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.119Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* root node
+** some first level node
+@endmindmap

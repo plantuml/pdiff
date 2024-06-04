@@ -1,0 +1,30 @@
+{
+  "sha1": "qnesujh1j0y8c3rthie1xgsgzm44hes",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.657Z",
+    "url": "https://forum.plantuml.net/11726/possible-hide-component-icon-component-bracketed-component",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam BackgroundColor transparent
+
+'skinparam componentStyle uml2
+skinparam componentStyle rectangle
+
+component A {
+   component "A.1.KO" {
+}
+   component A.44 {
+      [A4.1]
+}
+   component "A.2"
+   [A.3]
+   component A.5 [
+A.5] 
+   component A.6 [
+]
+}
+
+[a]->[b]
+@enduml

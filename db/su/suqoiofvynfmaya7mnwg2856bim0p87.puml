@@ -1,0 +1,17 @@
+{
+  "sha1": "suqoiofvynfmaya7mnwg2856bim0p87",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.500Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+a -> t
+state t {
+[*] --> State1
+State1 : this is a string
+State1 : this is another string
+
+State1 -> State2
+}
+@enduml

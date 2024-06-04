@@ -1,0 +1,36 @@
+{
+  "sha1": "qb6mp61m4k6a1r2cjc1yzahrjrhvk2p",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.226Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1609",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+-> A
+rnote right
+Wrong note shape (r)
+end note
+-> A
+hnote right
+Wrong note shape (h)
+end note
+
+A -> B
+rnote right
+Correct note shape (r)
+end note
+A -> B
+hnote right
+Correct note shape (h)
+end note
+
+B ->
+rnote left
+Wrong note shape (r)
+end note
+B ->
+rnote left
+Wrong note shape (h)
+end note
+@enduml

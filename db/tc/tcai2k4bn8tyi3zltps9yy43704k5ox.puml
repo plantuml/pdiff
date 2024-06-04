@@ -1,0 +1,18 @@
+{
+  "sha1": "tcai2k4bn8tyi3zltps9yy43704k5ox",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.061Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+|Alpha|
+start
+:something;
+
+|Omega|
+:anything;
+end
+
+@enduml

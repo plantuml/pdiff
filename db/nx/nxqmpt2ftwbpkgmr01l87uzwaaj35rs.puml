@@ -1,0 +1,68 @@
+{
+  "sha1": "nxqmpt2ftwbpkgmr01l87uzwaaj35rs",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.153Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Fournisseur|
+start
+#01DF01:initiate switch() ;
+#01DF01:VerifierRecevabiliteCHF();
+|Web Service|
+if (PCE connu) then (non)
+	|Fournisseur|
+	:PCE inconnu;
+        if (Demande Analyse) then (non)
+             :Statut 022;
+             :PCE inconnu;
+	     stop;
+        else (oui)
+             |Web Service|        
+             if (Recherche PCE validee) then (non)
+                   stop;
+             else (oui) 
+                  |Fournisseur|
+                  : nouveau PCE;
+             endif
+         endif
+if (Validee) then (non)
+	|Fournisseur|
+	:statut 023;
+	:Demande non validee;
+	stop
+endif 
+|Web Service|
+while (Besoin RdV)
+	|Fournisseur|
+	:statut 045;
+	:En attente de realisation;
+	|Web Service|
+	if (Date disponible) then (oui)
+		:envoi heures du creneau;
+		|Fournisseur|
+		if (Confirmation) then (oui)
+			#01DF01:AccepterRdV();
+			:Statut 063;
+			:Rdv Programme;
+			Stop
+		else (non)
+		endif
+	else (non)
+		|Web Service|
+		:envoi de liste de disponibilites;
+		|Fournisseur|
+		while (changement de liste)
+			#01DF01:demanderPrecSuiv();
+			|Web Service|
+			:recuper nouvelle liste;
+		endwhile (liste OK)
+	endif
+	|Fournisseur|
+	#01DF01:ProposerDatePlage();
+endwhile (Pas de RdV)
+:Statut 050;
+:En cours de realisation;
+stop
+@enduml

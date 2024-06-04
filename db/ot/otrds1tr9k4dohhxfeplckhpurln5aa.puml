@@ -1,0 +1,22 @@
+{
+  "sha1": "otrds1tr9k4dohhxfeplckhpurln5aa",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.295Z",
+    "url": "http://forum.plantuml.net/5366/please-provide-skinparam-shadowing-elements-individually?show=7787",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam componentShadowing false
+skinparam rectangleShadowing false
+skinparam actorShadowing false
+skinparam databaseShadowing false
+actor actor
+component component
+rectangle rectangle
+database database
+
+rectangle r2 {
+  node node
+}
+@enduml

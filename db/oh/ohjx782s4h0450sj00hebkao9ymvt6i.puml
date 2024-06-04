@@ -1,0 +1,26 @@
+{
+  "sha1": "ohjx782s4h0450sj00hebkao9ymvt6i",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.867Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam object {
+  BackgroundColor LightCoral 
+  FontSize 16
+  
+  <<Foo1>> {
+  	FontSize 8
+     BackgroundColor LightBlue
+  }
+  
+}
+
+object A <<Foo1>>
+object B
+
+A *-- B
+
+@enduml  

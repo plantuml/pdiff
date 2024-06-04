@@ -1,0 +1,23 @@
+{
+  "sha1": "qb2npqzelf61532t39vqg2xqf0h0102",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.212Z",
+    "url": "http://forum.plantuml.net/9017/colored-return-lines-in-sequence-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequencearrowcolor #black
+
+Alice -> Bob: Good Request
+Alice <[#green]- Bob: Positive Response
+Alice -> Bob: Bad Request
+Alice <[#red]- Bob: Negative Response
+
+...
+
+Alice -> Bob ++: Good Request
+return #green Positive Response
+Alice -> Bob ++: Bad Request
+return #red Negative Response
+@enduml

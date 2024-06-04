@@ -1,0 +1,13 @@
+{
+  "sha1": "tj7unmck2cv7jayjwyxdias7zds3w13",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.307Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam rectangleBorderThickness 0.5
+
+rectangle foo1
+
+@enduml

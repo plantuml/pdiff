@@ -1,0 +1,26 @@
+{
+  "sha1": "n1en9ypama2fziy7gtceirwgwncjjem",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.098Z",
+    "url": "https://github.com/plantuml/plantuml-stdlib/issues/63#issuecomment-1314774419",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <awslib/AWSCommon>
+!include <awslib/General/User>
+
+<style>
+
+file {
+   HorizontalAlignment left
+   FontColor blue
+}
+</style>
+
+User(user, "Trusted user", "")
+
+file policy <<policy>>
+
+user -- policy
+@enduml

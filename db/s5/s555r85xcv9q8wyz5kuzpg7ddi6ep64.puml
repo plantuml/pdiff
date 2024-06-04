@@ -1,0 +1,26 @@
+{
+  "sha1": "s555r85xcv9q8wyz5kuzpg7ddi6ep64",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.685Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+document {
+  BackGroundColor Navy
+}
+root {
+  FontColor #?black:white
+}
+sequenceDiagram {
+  participant {
+    BackGroundColor white
+  }
+}
+</style>
+title
+my title
+endtitle
+alice->bob : hello
+@enduml

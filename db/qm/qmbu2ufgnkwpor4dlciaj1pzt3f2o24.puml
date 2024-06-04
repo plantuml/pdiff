@@ -1,0 +1,12 @@
+{
+  "sha1": "qmbu2ufgnkwpor4dlciaj1pzt3f2o24",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.590Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+object foo {
+
+}
+@enduml

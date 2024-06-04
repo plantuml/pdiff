@@ -1,0 +1,20 @@
+{
+  "sha1": "t9qa6ujq4psmnzjowrmenfwwjygyu08",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.971Z",
+    "url": "http://forum.plantuml.net/8830/caption-disapear-with-salt",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+salt
+{#
+|Addr| Data                
+
+| 1 | data
+|  0 | serial number   |*
+
+}
+
+caption Table 1.
+@enduml

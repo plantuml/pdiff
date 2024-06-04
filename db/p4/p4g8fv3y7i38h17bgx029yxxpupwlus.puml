@@ -1,0 +1,15 @@
+{
+  "sha1": "p4g8fv3y7i38h17bgx029yxxpupwlus",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.680Z",
+    "url": "https://github.com/plantuml/plantuml/issues/727",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+repeat :Text 1;
+-> visible;
+
+:Text 2;
+-> not visible;
+@enduml

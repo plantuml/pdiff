@@ -1,0 +1,21 @@
+{
+  "sha1": "tt0kw92fqzjhcp6bfq39re89pl0xw4u",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.704Z",
+    "url": "https://forum.plantuml.net/11326/note-on-arrow-goes-out-of-sync",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam linetype ortho
+node temp1
+together {
+node temp2
+node temp3
+node temp4
+}
+temp1 -down-> temp2 : temp1 to temp2\nNote is out of sync
+temp3 -down-> temp4
+temp1 -down-> temp4 : temp1 to temp4 Note is out of sync
+temp2 -right-> temp3
+@enduml

@@ -1,0 +1,23 @@
+{
+  "sha1": "s9f0gc6h26e7nej1vjlqp7b6va012fr",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.815Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob->Alice: coucou2
+note left: test note
+note over Bob,Alice
+ceci est encore une longue
+phrase
+end note
+alt toto
+Alice->Bob: ok2
+note right
+ceci est encore une longue
+phrase
+end note
+end
+Bob->Bob: encore un long\ncommentaire qui ne veut rien dire
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "rd1j5vmzd1zc39i8qlotv3c6v9v9ry7",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.616Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcreole
+this is an example <b>which is bold</b>
+this is **an** example <b>which is bold
+@endcreole

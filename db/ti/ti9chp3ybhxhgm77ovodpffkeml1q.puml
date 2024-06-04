@@ -1,0 +1,32 @@
+{
+  "sha1": "ti9chp3ybhxhgm77ovodpffkeml1q",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.248Z",
+    "url": "https://forum.plantuml.net/12017/package-with-only-legend-shows-up-empty",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+legend top
+L
+end legend
+
+entity E {
+   ee
+}
+
+package P {
+    legend
+    P legend
+    end legend
+}
+
+package Q {
+    legend
+    Q legend
+    end legend
+    entity Qq {
+      qq
+    }
+}
+@enduml

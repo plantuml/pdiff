@@ -1,0 +1,11 @@
+{
+  "sha1": "sq9kvokho4m1kf6i44rwfgkuvlsph3y",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.348Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale max 50 width
+class Foo1
+@enduml

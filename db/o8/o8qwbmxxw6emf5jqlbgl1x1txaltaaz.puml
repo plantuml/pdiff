@@ -1,0 +1,25 @@
+{
+  "sha1": "o8qwbmxxw6emf5jqlbgl1x1txaltaaz",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.526Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam usebetastyle true
+
+Bob -> Alice : hello
+...
+Alice -> Bob : ok
+...dummy...
+Alice -> Bob : ok2
+
+<style>
+delay {
+  FontColor red
+}
+</style>
+...dummy\non\nseveral\nlines...
+Alice -> Bob : ok3
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "tjcmjldulbez7n724wtv7b2mp2n4csr",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.314Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title toto
+package com.oracle.xmvc.error
+class ErrorManager
+note right of ErrorManager : toto
+@enduml

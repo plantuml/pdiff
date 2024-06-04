@@ -1,0 +1,33 @@
+{
+  "sha1": "rtzj1af820saaylc8u76ghfc52ld3rn",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.249Z",
+    "url": "https://forum.plantuml.net/16403/activity-diagram-colors-for-fork",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ConditionEndStyle hline
+<style>
+arrow{
+  LineColor blue
+}
+</style>
+start
+repeat
+:;
+fork
+-[#blue]->
+fork again
+-[#green]->
+if (question) then (no) 
+-[#green]->
+:action;
+-[#green]->
+else (yes)
+-[#green]->
+endif
+-[#green]->
+end
+end merge
+@enduml

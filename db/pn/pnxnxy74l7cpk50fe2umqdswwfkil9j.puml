@@ -1,0 +1,12 @@
+{
+  "sha1": "pnxnxy74l7cpk50fe2umqdswwfkil9j",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.493Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant A
+participant B
+A -> B : ABcdef gh 1666
+@enduml

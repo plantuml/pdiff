@@ -1,0 +1,46 @@
+{
+  "sha1": "o4w56uujo50te94mdzcki2uzf5elx76",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.379Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+<style>
+element {
+  BackgroundColor: white;
+  LineColor: black;
+  header {
+    FontStyle: bold;
+  }
+  highlight {
+  	BackgroundColor: red;
+  }
+}
+</style>
+#highlight "lastName"
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 27,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }
+  ],
+  "children": [],
+  "spouse": null
+}
+@endjson

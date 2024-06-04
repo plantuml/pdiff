@@ -1,0 +1,12 @@
+{
+  "sha1": "rw0s8kz3oerz18jrs7mmah3nxdsnh9t",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.323Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=6290/specifying-default-values-in-macro-result-in-failure",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define my_test(a="def a",b="def b") note right: a, b 
+my_test()
+@enduml

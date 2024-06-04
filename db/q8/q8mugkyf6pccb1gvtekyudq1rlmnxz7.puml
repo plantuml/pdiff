@@ -1,0 +1,15 @@
+{
+  "sha1": "q8mugkyf6pccb1gvtekyudq1rlmnxz7",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.142Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor A #red
+
+create B
+A --> B : Create an event
+
+B --> C : Some text
+@enduml

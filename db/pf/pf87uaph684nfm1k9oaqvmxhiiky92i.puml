@@ -1,0 +1,20 @@
+{
+  "sha1": "pf87uaph684nfm1k9oaqvmxhiiky92i",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.118Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1515",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace Foo {
+    namespace Bar {
+        class Quz
+    }
+
+    class Quz
+}
+
+namespace Bar {}
+
+@enduml

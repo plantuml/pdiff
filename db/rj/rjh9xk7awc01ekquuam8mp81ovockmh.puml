@@ -1,0 +1,12 @@
+{
+  "sha1": "rjh9xk7awc01ekquuam8mp81ovockmh",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.877Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*)--> "test1 <img:notfoundfile.png>"
+-->[ok] "test2 <b>toto</b>"
+--> (*)
+@enduml

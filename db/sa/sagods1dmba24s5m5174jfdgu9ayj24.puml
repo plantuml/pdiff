@@ -1,0 +1,17 @@
+{
+  "sha1": "sagods1dmba24s5m5174jfdgu9ayj24",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.830Z",
+    "url": "https://forum.plantuml.net/16781/allow-special-sequence-management-special-sequence-symbol",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+(* Example from §8.1 ISO-EBNF *)
+
+h-tab = ? IS0 6429 character Horizontal Tabulation ? ;
+
+new-line = { ? IS0 6429 character Carriage Return ? },
+? IS0 6429 character Line Feed ?,
+{ ? IS0 6429 character Carriage Return ? };
+@endebnf

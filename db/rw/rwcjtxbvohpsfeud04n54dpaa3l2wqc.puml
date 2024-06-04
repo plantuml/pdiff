@@ -1,0 +1,21 @@
+{
+  "sha1": "rwcjtxbvohpsfeud04n54dpaa3l2wqc",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.344Z",
+    "url": "https://forum.plantuml.net/12437/wrapwidth-wraps-punctuation-when-a-font-size-is-set?show=12437",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam wrapWidth 267
+skinparam ActivityFontSize 10
+skinparam NoteFontSize 10
+
+start
+:Hello world;
+:Patients over 65 are elligible for pneumococcal vaccine! This is given as a single lifetime dose. Delay to allow optimal response.;
+     note left #white
+Patients over 65 are elligible for pneumococcal vaccine. This is given as a single lifetime dose. Delay to allow optimal response.
+      end note
+stop
+@enduml

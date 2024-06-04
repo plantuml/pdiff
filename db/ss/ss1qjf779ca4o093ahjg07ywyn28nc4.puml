@@ -1,0 +1,19 @@
+{
+  "sha1": "ss1qjf779ca4o093ahjg07ywyn28nc4",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.388Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+split
+:a;
+split again
+:b;
+split again
+:c sqdsqdsfsdfdsfsf;
+stop
+end split
+:c;
+@enduml

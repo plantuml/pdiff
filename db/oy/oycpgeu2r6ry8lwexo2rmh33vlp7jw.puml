@@ -1,0 +1,32 @@
+{
+  "sha1": "oycpgeu2r6ry8lwexo2rmh33vlp7jw",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.440Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1007#issuecomment-1385230328",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!pragma useVerticalIf on
+|LaneA|
+start
+:Activity1;
+|LaneB|
+if (Conditional) then (yes)
+ label l
+ |Lane C|
+ :Activity2;
+(No) elseif (Conditional)
+ label l
+ |Lane D|
+ :Activity3;
+else (No)
+ label l
+ |Lane E|
+ -[#red]->;
+ :Activity4;
+endif
+|LaneA|
+-[#red]->;
+stop
+@enduml

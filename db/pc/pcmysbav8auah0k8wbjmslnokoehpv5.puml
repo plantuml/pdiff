@@ -1,0 +1,31 @@
+{
+  "sha1": "pcmysbav8auah0k8wbjmslnokoehpv5",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.995Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1176",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultTextAlignment center
+
+start
+
+:«foreach»
+Network Ainterface controllers (NIC)
+{{
+skinparam backgroundColor #f1f1f1
+
+start
+
+:«foreach»
+NIC ports
+;
+
+stop
+}}
+FIN3
+;
+
+stop
+@enduml

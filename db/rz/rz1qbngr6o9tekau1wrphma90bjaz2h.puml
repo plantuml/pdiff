@@ -1,0 +1,25 @@
+{
+  "sha1": "rz1qbngr6o9tekau1wrphma90bjaz2h",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.445Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (t1) then (ja)
+    stop
+else (nein)
+    if (t2?) then (ja)
+        stop
+    else (nein)
+        :a1;
+        if (t3) then (nein)
+             :a2;
+        else (ja)
+            :a4;
+            stop
+        endif
+    endif
+endif
+@enduml

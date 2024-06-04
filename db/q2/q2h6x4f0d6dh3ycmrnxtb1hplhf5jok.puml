@@ -1,0 +1,15 @@
+{
+  "sha1": "q2h6x4f0d6dh3ycmrnxtb1hplhf5jok",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.011Z",
+    "url": "https://forum.plantuml.net/13345/lollipop-overlaps-with-arrows-label",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 2
+skinparam arrowColor  #blue
+skinparam arrowFontColor #red
+skinparam arrowLollipopColor #green
+(something) -(0- (anything) : abpp12
+@enduml

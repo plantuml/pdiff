@@ -1,0 +1,43 @@
+{
+  "sha1": "t5zzgtqnpnds6ace92fzsew3adyfv1a",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.810Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!pragma useNewPackage
+
+class BaseClass
+
+namespace Revelate.Legacy.Base.Biz {
+
+  class Person
+  Person : guid OID
+  Person : string FirstName
+  Person : string LastName
+  Person : boolean IsBirthday()
+
+  .BaseClass <|-- Revelate.Legacy.Base.Biz.BaseClass
+  Revelate.Legacy.Base.Biz.BaseClass <|-- Person
+
+  .BaseClass <|-- Person
+
+  class Meeting
+
+  Meeting  o--  Person : Relation1
+
+  .BaseClass <|- Meeting
+
+}
+
+namespace Revelate.Sungard.Biz {
+  class Person
+  Revelate.Legacy.Base.Biz.Person  <|- Person
+  Person : CustomAttribute
+
+  Revelate.Legacy.Base.Biz.Meeting  o-- Person : Relation2
+}
+
+@enduml

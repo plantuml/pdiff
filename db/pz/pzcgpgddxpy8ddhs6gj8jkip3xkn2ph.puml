@@ -1,0 +1,26 @@
+{
+  "sha1": "pzcgpgddxpy8ddhs6gj8jkip3xkn2ph",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.901Z",
+    "url": "https://forum.plantuml.net/10868/highlighted-periods-in-timing-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+mode compact
+concise "Web Browser" as WB
+concise "Web User" as WU
+
+@WB
+0 is idle
++200 is Proc.
++100 is Waiting
+
+@WU
+0 is Waiting #red;line:00FF00
++500 is ok
+
+
+highlight 200 to 450 : this is a text
+
+@enduml

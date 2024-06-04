@@ -1,0 +1,15 @@
+{
+  "sha1": "oax4qduc3uaj1d9c9p6xv3kbbzu1xyq",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.637Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam DefaultFontName Helvetica
+Title this is my title
+class Alice
+note left of Alice
+  Note
+end note
+@enduml

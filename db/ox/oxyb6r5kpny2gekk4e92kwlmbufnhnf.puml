@@ -1,0 +1,20 @@
+{
+  "sha1": "oxyb6r5kpny2gekk4e92kwlmbufnhnf",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.411Z",
+    "url": "https://forum.plantuml.net/11518/issues-with-final-separator-latex-math-expression-activity?show=17270#c17270",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Help us to choose the right keyword for stereotype!;
+
+:input; <<input>>
+:output; <<output>>
+:procedure; <<procedure>>
+:load; <<load>>
+:save; <<save>>
+:continuous; <<continuous>>
+:task; <<task>>
+@enduml

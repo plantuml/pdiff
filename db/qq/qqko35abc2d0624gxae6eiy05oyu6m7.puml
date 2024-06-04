@@ -1,0 +1,12 @@
+{
+  "sha1": "qqko35abc2d0624gxae6eiy05oyu6m7",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.790Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autoactivate on
+Bob -> Alice : hello
+Bob <-- Alice : ok2
+@enduml

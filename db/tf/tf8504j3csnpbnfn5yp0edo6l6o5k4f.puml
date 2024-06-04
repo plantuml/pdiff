@@ -1,0 +1,21 @@
+{
+  "sha1": "tf8504j3csnpbnfn5yp0edo6l6o5k4f",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.144Z",
+    "url": "https://forum.plantuml.net/10505/teoz-rendering-issues?show=14796#c14796",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+a->b: test1
+activate b
+&b->c: test2
+
+
+c-->b: test3
+deactivate b
+&b-->a: test4
+
+@enduml

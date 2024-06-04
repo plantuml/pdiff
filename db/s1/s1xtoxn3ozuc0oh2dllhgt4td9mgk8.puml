@@ -1,0 +1,16 @@
+{
+  "sha1": "s1xtoxn3ozuc0oh2dllhgt4td9mgk8",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.603Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam sequenceStereotypeFontSize 21
+skinparam sequenceStereotypeFontStyle bold
+skinparam sequenceStereotypeFontColor blue
+
+actor Alice <<FOO>>
+participant Bob <<DUMMY>>
+Alice -> Bob
+@enduml

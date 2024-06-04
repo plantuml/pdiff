@@ -1,0 +1,20 @@
+{
+  "sha1": "rknyyzcwis20ayqhkfwvmxbfghi15o0",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.954Z",
+    "url": "https://forum.plantuml.net/14015/activity-switch-case-notes-are-not-working",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (whatever) then
+    :foo if;
+    note right
+      if this will not be rendered
+    end note
+else
+    :bar;
+endif
+stop
+@enduml

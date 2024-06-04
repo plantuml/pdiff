@@ -1,0 +1,50 @@
+{
+  "sha1": "ndxcsawjdkgnuwk16bc2mewil4h4iq9",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.488Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+@startuml
+	'skinparam shadowing false
+title PlantUML Sequence newpage test
+
+participant P
+participant S
+participant U
+
+== Page 1 ==
+P -> S
+S -> S
+U -> S
+U -> U
+S -> P
+P -> S
+S -> P
+S -> U
+S -> P
+P -> S
+S -> P
+S -> U
+
+newpage
+== Page 2 ==
+
+U -> S
+S -> P
+S -> P
+P -> S
+S -> P
+S -> U
+
+newpage
+== Page 3 ==
+
+U -> S
+S -> P
+P -> S
+S -> U
+
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "stcv0sykxwfff73qgjo8q6q6mcfiox0",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.435Z",
+    "url": "https://github.com/plantuml/plantuml/issues/434",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startyaml
+FOO1: bar1
+FOO2: bar2
+@endyaml

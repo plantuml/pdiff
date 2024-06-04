@@ -1,0 +1,17 @@
+{
+  "sha1": "qg10kdxbch2ahxozjp0ur4rrpyhxu4",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.391Z",
+    "url": "http://forum.plantuml.net/9220/plantuml-generates-svg-with-not-unique-element-ids",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component a as a {
+}
+component b as b {
+}
+
+a->b: test
+a<-b: test response
+@enduml

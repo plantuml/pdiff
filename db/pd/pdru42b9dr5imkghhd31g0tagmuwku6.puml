@@ -1,0 +1,11 @@
+{
+  "sha1": "pdru42b9dr5imkghhd31g0tagmuwku6",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.052Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1232",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+help color
+@enduml

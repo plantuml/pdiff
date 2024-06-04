@@ -1,0 +1,14 @@
+{
+  "sha1": "qyo0hx0rtdojpnvdgfeaw77gxa50wub",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.105Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) -right-> if "" then
+  -->[cas1] cas1
+else
+  -->[cas2] cas2
+endif
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "p5hkqnzkj0skkriemtsslhev1kvit7a",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.708Z",
+    "url": "https://forum.plantuml.net/12433/how-to-increase-width-of-day-in-gantt-diagram?show=13714#c13714",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2020-11-13
+[One two three four five six seven] lasts 7 days
+[MaxTaskEnd] happens at [One two three four five six seven]'s end
+-- Phase Two --
+[Eight nine ten eleven twelve] lasts 7 days
+[Eight nine ten eleven twelve] starts at [One two three four five six seven]'s end
+@endgantt

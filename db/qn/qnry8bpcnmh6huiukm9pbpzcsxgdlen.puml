@@ -1,0 +1,12 @@
+{
+  "sha1": "qnry8bpcnmh6huiukm9pbpzcsxgdlen",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.687Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+A->B: INVITE tel:CdPN,\nP_prefered=sip:uri of itself
+& B->C: INVITE tel:CdPN; PAID=sip:uri of itself
+@enduml

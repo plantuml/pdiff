@@ -1,0 +1,21 @@
+{
+  "sha1": "oyha835mq14rohmfexfw1adwax5da1v",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.447Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam backgroundColor transparent
+
+Alice -> Bob : hello
+Alice ->o Bob : hello
+Alice ->>o Bob : hello
+Alice -\o Bob : hello
+Alice -/o Bob : hello
+Alice -\\o Bob : hello
+Alice -//o Bob : hello
+
+Alice o<-- Bob : ok
+@enduml

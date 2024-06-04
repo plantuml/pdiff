@@ -1,0 +1,14 @@
+{
+  "sha1": "rrivkahkqb3g7hsz0a2ls183g3af5u7",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.183Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:AIS a<
+note left : foo
+note right : bar
+stop 
+@enduml

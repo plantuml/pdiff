@@ -1,0 +1,11 @@
+{
+  "sha1": "rbvoojap15g5m2tlyureff0lwmo3wvl",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.567Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam CircledCharacterRadius 7
+class Toto
+@enduml

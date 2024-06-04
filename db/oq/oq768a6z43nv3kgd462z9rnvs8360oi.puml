@@ -1,0 +1,25 @@
+{
+  "sha1": "oq768a6z43nv3kgd462z9rnvs8360oi",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.106Z",
+    "url": "https://github.com/plantuml/plantuml/issues/722",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+:text 1;
+
+switch ()
+case (case 1)
+    :text 2;
+    ->this is invisible1;
+case (case 2)
+    :text 3;
+    ->this is invisible2;
+case (this is invisible as well3)
+endswitch
+
+stop
+
+@enduml

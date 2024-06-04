@@ -1,0 +1,43 @@
+{
+  "sha1": "tkba5lb2w56i0pnciv9save4y4q6t9o",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.353Z",
+    "url": "https://forum.plantuml.net/10089/fontcolor-not-applied-in-sequence-participant",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+
+<style>
+sequenceDiagram {
+  box {
+        BackgroundColor Yellow
+        .Client{
+            BackgroundColor LightYellow
+        }
+        .Cloud {
+            BackgroundColor LightRed
+        }
+  }
+  participant {
+        BackgroundColor LightBlue
+        FontColor Black
+        .Color1 {
+          FontColor Red
+        }
+        .Color2 {
+          FontColor white
+        }
+  }
+}
+</style>
+
+box "Tier 1"  <<Client>>
+    participant "Alfa" as a <<Color1>>
+end box
+box "Tier 2"  <<Cloud>>
+    participant "Beta" as b <<Color2>>
+    participant "Theta" as c
+end box
+@enduml

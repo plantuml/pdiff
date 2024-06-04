@@ -1,0 +1,21 @@
+{
+  "sha1": "r731hf413b814r8oo1i4r1a215zosn1",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.380Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1515",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace Foo {
+    namespace Bar1 {
+        class Quz3
+    }
+
+    class Quz4
+}
+
+namespace Bar2 {}
+
+remove Bar2
+@enduml

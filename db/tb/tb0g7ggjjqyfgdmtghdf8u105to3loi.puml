@@ -1,0 +1,14 @@
+{
+  "sha1": "tb0g7ggjjqyfgdmtghdf8u105to3loi",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.018Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ 
+usecase xx1 as "c
+--xx2--"
+ 
+ 
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "oljjobv5kahdkrrs38rbf4qtxluqga0",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.983Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant QACT as A
+participant DIAG as B
+participant "Target\nDIAG" as C
+A -> B : hello
+@enduml

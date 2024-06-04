@@ -1,0 +1,13 @@
+{
+  "sha1": "tbmqd53kbrq7lucknak04xz0wqf1qco",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.053Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Bob [[http://www.yahoo.com]]
+participant Alice [[latex://interaction1]]
+Bob -> Alice [[http://www.google.com]] : hello
+Bob -> Alice [[latex://resource-interaction]] : interact
+@enduml

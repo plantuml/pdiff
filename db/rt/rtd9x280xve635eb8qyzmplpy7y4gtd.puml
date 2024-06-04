@@ -1,0 +1,20 @@
+{
+  "sha1": "rtd9x280xve635eb8qyzmplpy7y4gtd",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.235Z",
+    "url": "http://forum.plantuml.net/8383/how-to-hide-unused-states",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty description
+
+state "Error" AS S0_UNKNOWN
+state "Send" AS S1_SOME_START
+state "Process" AS S2_SOME_PROCESS
+state "Confirmed" AS S3_SOME_CONFIRM
+
+'hide S0_UNKNOWN
+'hide S2_SOME_PROCESS
+
+@enduml

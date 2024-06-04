@@ -1,0 +1,10 @@
+{
+  "sha1": "skma0s4m7v9xp0ncjbxbv21zdpsml9t",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.212Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+stdlib cloudinsight
+@enduml

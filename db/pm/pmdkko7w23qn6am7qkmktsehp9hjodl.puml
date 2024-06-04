@@ -1,0 +1,26 @@
+{
+  "sha1": "pmdkko7w23qn6am7qkmktsehp9hjodl",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.413Z",
+    "url": "https://forum.plantuml.net/14423/sequence-improve-background-color-group-with-roundcorner",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 1.5
+hide footbox
+<style>
+sequenceDiagram {
+    RoundCorner 30
+}
+</style>
+
+alt #blue cas0
+   Bob -> Alice: call0
+else #yellow cas1
+   Bob -> Alice: call1
+else #red cas2
+   Bob -> Alice: call2
+end
+
+@enduml

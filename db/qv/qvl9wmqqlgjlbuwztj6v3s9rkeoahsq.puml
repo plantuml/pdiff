@@ -1,0 +1,20 @@
+{
+  "sha1": "qvl9wmqqlgjlbuwztj6v3s9rkeoahsq",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.941Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+alt Normal termination
+  loop
+    Server -> ProcessN: stop
+    destroy ProcessN
+  end loop
+else Cancellation
+  loop
+    Server -> ProcessN: kill
+    destroy ProcessN
+  end loop
+end alt
+@enduml

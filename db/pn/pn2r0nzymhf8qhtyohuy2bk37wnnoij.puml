@@ -1,0 +1,28 @@
+{
+  "sha1": "pn2r0nzymhf8qhtyohuy2bk37wnnoij",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.457Z",
+    "url": "https://forum.plantuml.net/9774/conditional-drawing-of-box-participants-sequence-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!unquoted procedure addService($part, $service, $as)
+    !if %variable_exists($part)
+        control "$service" as $as
+    !endif
+!endprocedure
+
+!define PART_REF
+
+box "AWS" #LightBlue
+    participant "mPlatform" as mp
+    addService(PART_REF, RefDat_MS, rdms)
+    participant "PING Access" as pa
+end box
+
+box "ApplicationZone Z5 " #LightGrey
+    participant "ESP" as esp
+    addService("PART2", "Service Portal", "portal") 
+end box
+@enduml

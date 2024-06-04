@@ -1,0 +1,21 @@
+{
+  "sha1": "pfsxfv4nxj9e0hm0jvvud4ma2lvxdjd",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.143Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* first element
+** second element
+<style>
+wbsDiagram {
+  node {
+    BackGroundColor red
+    FontSize 14
+    FontStyle Bold
+  }
+}
+</style>
+** third element
+@endwbs

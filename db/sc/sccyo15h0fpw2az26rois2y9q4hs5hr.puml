@@ -1,0 +1,18 @@
+{
+  "sha1": "sccyo15h0fpw2az26rois2y9q4hs5hr",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.959Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!definelong CALL_METHOD(FROM_CLASS, TO_CLASS, FUNC_NAME, ARG = "", RETURN_LABEL = "")
+    FROM_CLASS -> TO_CLASS: FUNC_NAME(ARG)
+    FROM_CLASS <-- TO_CLASS: RETURN_LABEL
+!enddefinelong
+
+!define TaxiManager_DELEGATE SpeedyCab
+CALL_METHOD(TaxiManager, TaxiManager_DELEGATE, TaxiManager_DELEGATE)
+
+@enduml

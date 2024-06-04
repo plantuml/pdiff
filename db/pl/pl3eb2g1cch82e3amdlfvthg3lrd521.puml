@@ -1,0 +1,14 @@
+{
+  "sha1": "pl3eb2g1cch82e3amdlfvthg3lrd521",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.352Z",
+    "url": "http://forum.plantuml.net/8333/use-long-description-with-archimate-elements",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+archimate #Technology VPN <<technology-device>> [
+long description
+on several lines
+]
+@enduml

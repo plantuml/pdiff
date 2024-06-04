@@ -1,0 +1,23 @@
+{
+  "sha1": "q7km041rw3howwdk4q50rm28w48vg1f",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.097Z",
+    "url": "https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.2.0",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+
+!include <tupadr3/common.puml>
+!include <tupadr3/devicons2/docker.puml>
+
+'participant "Alice <$docker>" as alice
+alice -> bob
+
+legend right
+|<#blue><color:#CE93D8><$docker>    | App1 |
+'|<$docker> | App2 |
+endlegend
+
+@enduml

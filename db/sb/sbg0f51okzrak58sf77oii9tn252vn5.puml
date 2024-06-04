@@ -1,0 +1,38 @@
+{
+  "sha1": "sbg0f51okzrak58sf77oii9tn252vn5",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.892Z",
+    "url": "http://forum.plantuml.net/6351/performance-problem?show=6694#c6694",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:Send **str1**;
+partition "str2" {
+partition "str3" {
+partition "str4" {
+:Receive **str5**;
+partition "str6" {
+:Fetch str7;
+}
+partition "str8" {
+:Use str9;
+:Use str10;
+:Use str11;
+:Use str12;
+:Use str13;
+:Use str14;
+:Use str15;
+}
+partition str16 {
+:Validate str17;
+:Generate event with str18;
+}
+}
+}
+}
+partition str19 {
+:Store str20;
+:Publish str21;
+}
+@enduml

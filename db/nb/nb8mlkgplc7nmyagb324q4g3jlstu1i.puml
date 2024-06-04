@@ -1,0 +1,14 @@
+{
+  "sha1": "nb8mlkgplc7nmyagb324q4g3jlstu1i",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.369Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=3938/clipping-in-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> "ClickServlet.handleRequest()"
+if "Page.onSecurityCheck which is very very long" then
+  -> "Page.onInit()"
+endif
+@enduml

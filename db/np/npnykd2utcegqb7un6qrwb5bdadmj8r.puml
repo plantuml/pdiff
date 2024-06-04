@@ -1,0 +1,35 @@
+{
+  "sha1": "npnykd2utcegqb7un6qrwb5bdadmj8r",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.909Z",
+    "url": "https://forum.plantuml.net/13954/activity-switch-horizontal-missing-diamond-last-kill-detach",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title <color:red> Missing arrow after 'case20', 'case22'  and 'diamond'
+
+start
+switch (source)
+
+case ( a )
+:case1;
+end
+
+case ( b0 )
+:case20;
+
+case ( b1 )
+:case21;
+
+case ( b2 )
+:case22;
+
+case ( c )
+:case3;
+stop
+
+endswitch
+:...;
+
+@enduml

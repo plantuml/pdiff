@@ -1,0 +1,32 @@
+{
+  "sha1": "tfm8iojm2z5f0y0uj352kv1838nag0t",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.168Z",
+    "url": "http://forum.plantuml.net/9377/plantuml-clipping-text-in-class-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Some Stuff
+
+' Classes
+
+class Company
+
+class BusinessUnit
+
+class Group
+
+class Employee
+
+' Interface Implementations
+
+IGroup ()- Company
+IGroup ()- BusinessUnit
+
+' Relationships
+
+Company --> BusinessUnit
+BusinessUnit --> Group
+Group --> Employee
+@enduml

@@ -1,0 +1,39 @@
+{
+  "sha1": "raqh1vv6rkzn9u61lwdign0njxqlzjk",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.520Z",
+    "url": "http://www.plantuml.com/plantuml/umla/bOxBYWCX44NtzHL5xxFenwoAXFp7C0nLhIHDR2VuW371VvysPZ44Dr6AYqVkqQCFx49S3QZbvFXwncYNNxm3-2WLp2Rwe5t_pUPwvktAi6YpxvwyuevQ3T6XKIYq8xYZOtlP-v_ePat8XBdbEF6wDYG55mlYYqTwae5a99b8FeeKSSRT0HM1ui3_Aukz4AQUqa1ff3HXEUqEQTXct6RAKFPhuuQVpz-ezrRtXPIXF74ZI4EDiSRq283ycAEsAgxc3m00",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+digraph unix {
+
+subgraph cluster1_alpha {
+label="cluster_alpha";
+
+subgraph cluster1_beta {
+label="cluster_beta";
+{ rank=source; a; }
+
+subgraph cluster1_gamma {
+label="cluster_gamma";
+  { rank=source; b1;b2;b3;b4;b5; b1->b2->b3->b4->b5}
+  c -> d;
+data;
+  { rank=sink; y1;y2;y3;y4 ; y1->y2->y3->y4}
+}
+}
+
+  { rank=sink; z [label="ddddddddddddddddddddddddddddddddddddddddddddddd"] ;}
+y1->z;
+y2->z;
+y3->z;
+y4->z;
+
+
+}
+
+
+}
+@enduml

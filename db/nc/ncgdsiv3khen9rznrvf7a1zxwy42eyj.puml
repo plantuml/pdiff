@@ -1,0 +1,31 @@
+{
+  "sha1": "ncgdsiv3khen9rznrvf7a1zxwy42eyj",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.433Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1023",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!define AWS_BG_COLOR #FFFFFF
+!define AWS_BORDER_COLOR #FF9900
+
+sprite $APIGateway [64x64/16z] {
+xTC5biCm30JGiIfRqjp_lcMkqWqjUzuBvvlDjTFJ4uqlQJ5QA-1yYWCQOtNkan9IBTOotqoI4X9DvfvCIaZqi4zAIFImVrT2E-lt_bn2oxnpdAV_V2zIgG_7
+D5-ASlDm_CZ-_tplDji7IIgSCSjRSP95wCLcUCF16ngzm2Rx4-S6mMC1Ktqv3G4s9r2c-We9ii98Xg1EzJmMKCgPSx9dXJagIKFb34-ddjuvPta6PDdwTP_d
+-_ut3yRzOTCye9I7OvhNQcptXtxa-_n1ROmtHURP1ESYXlmPGnhJH1MWg0rvqm98ZOG-5Y6PbmHdyIf8_04xnyMpyNMkdPwU7G
+}
+
+skinparam participant<<APIGateway>> {
+    BackgroundColor AWS_BG_COLOR
+    BorderColor AWS_BORDER_COLOR
+}
+
+
+actor User as user
+participant OnlyLabel as p1 << APIGateway >>
+participant BothZWSP as p4 << ($APIGateway, #CC2264) APIGateway >>
+
+user -> p4: renders as expected
+@enduml

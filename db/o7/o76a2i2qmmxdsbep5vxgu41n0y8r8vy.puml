@@ -1,0 +1,17 @@
+{
+  "sha1": "o76a2i2qmmxdsbep5vxgu41n0y8r8vy",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.458Z",
+    "url": "https://github.com/plantuml/plantuml/issues/166",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+if (somecheck) then
+    :moreSomething;
+    :moreStuff;
+else
+    end
+endif
+:toto;
+@enduml

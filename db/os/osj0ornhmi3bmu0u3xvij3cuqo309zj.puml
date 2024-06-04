@@ -1,0 +1,25 @@
+{
+  "sha1": "osj0ornhmi3bmu0u3xvij3cuqo309zj",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.231Z",
+    "url": "http://forum.plantuml.net/9481/preprocessor-include-guards-with-preprocessorv2",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!procedure set()
+Alice -> Bob : set %set_variable_value("foo", 42)
+!endprocedure
+
+!procedure get() {
+!if %variable_exists("foo")
+Alice -> Bob : you should see that
+!else
+Alice -> Bob : you should NOT SEE THAT
+!endif
+!endprocedure
+
+set()
+get()
+
+@enduml

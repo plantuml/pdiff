@@ -1,0 +1,15 @@
+{
+  "sha1": "ygnx8xurwxxuohhy5ghslia3wh4r3x",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.995Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase sameid1
+rectangle sameid2
+
+interface foo
+interface foo
+
+@enduml

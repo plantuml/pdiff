@@ -1,0 +1,15 @@
+{
+  "sha1": "nvxrxwgz03mgua4klqbn6a2oq56u86d",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.117Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
++ Project
+++ Part A
++++ Part AA
+++++ Part AAA
++++++ Part AAAA
+++++++ Part AAAAA
+@endwbs

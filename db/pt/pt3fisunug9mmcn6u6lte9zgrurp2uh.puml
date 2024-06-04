@@ -1,0 +1,17 @@
+{
+  "sha1": "pt3fisunug9mmcn6u6lte9zgrurp2uh",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.667Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam flashcode 1
+Person "1" *-- "*" Person : "parent" contains "children"
+
+Group "1" --> "*" Item : "" "members"
+Group "1" --> "1" Item1 : "" is a "leader"
+
+A *- "*" B : contains "Bees"
+A o-- "1" C : "a"
+@enduml

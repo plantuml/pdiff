@@ -1,0 +1,25 @@
+{
+  "sha1": "rbb71n9ttoj9abwa8fydksy4hecc3cv",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.533Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+{T
+ +World
+ ++America
+ +++Canada
+ +++USA
+ ++++New York
+ ++++Boston
+ +++Mexico
+ ++Europe
+ +++Italy
+ +++Germany
+ ++++Berlin
+ ++Africa
+}
+}
+@endsalt

@@ -1,0 +1,18 @@
+{
+  "sha1": "r1emlhdtol68dbbrgaenui6tg3h49m4",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.219Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+document {
+  BackGroundColor transparent
+}
+</style>
+* r0
+** a
+*** a1
+**** a11
+@endwbs​

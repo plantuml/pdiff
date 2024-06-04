@@ -1,0 +1,30 @@
+{
+  "sha1": "pdebpc5igrhh2zsb5bnjadrg53u51pn",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.045Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "Boot Process" as BP
+
+@+0
+
+BP is "LK INIT DRAM"
+@+11
+
+BP is "LK INIT MMC"
+@+30
+
+BP is "LK START APPS"
+@+43
+
+BP is "LK START APPS"
+@+11
+
+BP is "LK BOOTING PARTITIONS"
+@+39
+
+BP is "TRUSTZONE INIT"
+@+8
+@enduml

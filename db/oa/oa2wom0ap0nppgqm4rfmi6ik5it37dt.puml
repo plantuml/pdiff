@@ -1,0 +1,16 @@
+{
+  "sha1": "oa2wom0ap0nppgqm4rfmi6ik5it37dt",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.600Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+legend
+  This is the legend that is very very long
+  on several lines
+end legend
+
+Alice -> Bob : hello
+
+@enduml

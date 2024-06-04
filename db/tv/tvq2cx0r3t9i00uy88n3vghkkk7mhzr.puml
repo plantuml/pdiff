@@ -1,0 +1,40 @@
+{
+  "sha1": "tvq2cx0r3t9i00uy88n3vghkkk7mhzr",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.814Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+start
+if ()
+    #PaleGreen:dummy;
+        note left
+            dummy text
+        end note
+    #PaleGreen:dummy;
+        note left
+            dummy text
+        end note
+    if () then ([dummy text])
+    #PaleGreen:dummy;
+        note:dummy text
+    #PaleGreen:dummy;
+    else ([dummy text])
+        note right
+             dummy text
+        end note
+        if () then ( )
+            #PaleGreen:dummy;
+            end;
+        else ([dummy\ntext])
+            #PaleGreen:dummy;
+            end;    
+        endif    
+    endif
+else ([dummy text])
+    #PaleGreen:dummy;
+endif
+stop
+@enduml

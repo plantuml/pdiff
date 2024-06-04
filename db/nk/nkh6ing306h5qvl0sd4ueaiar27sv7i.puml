@@ -1,0 +1,20 @@
+{
+  "sha1": "nkh6ing306h5qvl0sd4ueaiar27sv7i",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.756Z",
+    "url": "https://discord.com/channels/1083727021328306236/1084966845100072980",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package pack {
+	class ClassA {
+	    a
+	}
+	class ClassC
+}
+
+ClassA --> ClassB
+ClassB --> ClassC
+ClassA::a --> ClassC
+@enduml

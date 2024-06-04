@@ -1,0 +1,21 @@
+{
+  "sha1": "rkuzuux5rld650m5oteig6ap46nsvkz",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.976Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1702",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+
+<style>
+.a {
+  LineThickness 3
+  Linecolor red
+}
+</style>
+
+card a
+a -> b <<a>>
+@enduml

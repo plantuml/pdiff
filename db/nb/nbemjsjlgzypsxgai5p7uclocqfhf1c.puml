@@ -1,0 +1,24 @@
+{
+  "sha1": "nbemjsjlgzypsxgai5p7uclocqfhf1c",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.388Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+folder folder
+file file
+file {
+  artifact artifact1
+  artifact artifact2
+}
+file MyFile {
+  artifact artifact3
+  artifact artifact4
+}
+file MyOtherFile [
+  Simple text
+  ====
+  Other text
+]
+@enduml

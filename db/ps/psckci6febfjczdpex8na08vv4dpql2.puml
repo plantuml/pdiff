@@ -1,0 +1,20 @@
+{
+  "sha1": "psckci6febfjczdpex8na08vv4dpql2",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.647Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:foo1;
+-[#hotpink]->
+repeat
+  -[#gold]->
+  :foo2;
+  -[#green]->
+  :foo3;
+  -[#black]->
+repeatwhile (foo)
+-[#greenyellow]->
+:foo4;
+@enduml

@@ -1,0 +1,15 @@
+{
+  "sha1": "tsj44bkslg6ih7ihbjsbmnqkuj6ku2u",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.688Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define DOUBLE(x) x x
+!definelong AUTHEN(x,y)
+x -> y : DOUBLE(hello)
+y -> x : ok
+!enddefinelong
+AUTHEN(Bob1,Alice)
+@enduml

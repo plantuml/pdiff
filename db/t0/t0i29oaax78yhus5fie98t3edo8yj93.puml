@@ -1,0 +1,29 @@
+{
+  "sha1": "t0i29oaax78yhus5fie98t3edo8yj93",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.671Z",
+    "url": "https://forum.plantuml.net/11192/json-structures-inside-a-function",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!unquoted procedure $lookup($id)
+
+'!$data = %loadJSON("system.json")
+!$data={"participants" :[ 
+{"id": "cm" ,"label": "customer master","desc": "manages customers"},
+{"id": "tm" ,"label": "transaction manager","desc": "manages transactions"},
+{"id": "am" ,"label": "account master","desc": "manages accounts"}
+]
+}
+
+!foreach $part in $data.participants
+  !if $part.id == $id
+    :id=$part.id \nlabel=$part.label \ndesc=$part.desc; 
+  !endif
+!endfor
+
+!end procedure
+
+$lookup("cm")
+@enduml

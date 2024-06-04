@@ -1,0 +1,29 @@
+{
+  "sha1": "n0e0mi9lszvfseeeeosyvpkfshu40k",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.023Z",
+    "url": "http://forum.plantuml.net/7817/how-to-use-boxpadding-with-teoz",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+skinparam BoxPadding 30
+
+box "One"
+  participant a
+  participant b
+end box
+
+box "Other"
+  participant c
+  participant d
+end box
+
+  participant e
+
+box "Other2"
+  participant f
+  participant g
+end box
+@enduml

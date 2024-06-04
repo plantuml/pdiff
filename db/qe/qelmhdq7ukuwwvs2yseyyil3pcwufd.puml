@@ -1,0 +1,12 @@
+{
+  "sha1": "qelmhdq7ukuwwvs2yseyyil3pcwufd",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.352Z",
+    "url": "https://github.com/plantuml/plantuml/issues/333#issuecomment-637542077",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmath
+dpi 300
+f(t)=(a_0)/2 + sum_(n=1)^ooa_ncos((npit)/L)+sum_(n=1)^oo b_n\ sin((npit)/L)
+@endmath

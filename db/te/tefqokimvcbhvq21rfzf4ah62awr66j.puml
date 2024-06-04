@@ -1,0 +1,23 @@
+{
+  "sha1": "tefqokimvcbhvq21rfzf4ah62awr66j",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.105Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam model FOO
+[*] --> NotShooting
+
+state NotShooting {
+  state Configuring {
+    [*] --> NewValueSelection
+    NewValueSelection --> NewValuePreview : EvNewValue
+    NewValuePreview --> NewValueSelection : EvNewValueRejected
+    NewValuePreview --> NewValueSelection : EvNewValueSaved
+  }
+  [*] --> Idle
+  Idle --> Configuring : EvConfig
+  Configuring --> Idle : EvConfig
+}
+@enduml

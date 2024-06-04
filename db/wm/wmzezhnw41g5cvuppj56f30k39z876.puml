@@ -1,0 +1,20 @@
+{
+  "sha1": "wmzezhnw41g5cvuppj56f30k39z876",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.918Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Activity Diagram PlantUML New Syntax
+start
+split
+:a0;
+:b0;
+
+split again
+:a1;
+:b1;
+end split
+stop
+@enduml

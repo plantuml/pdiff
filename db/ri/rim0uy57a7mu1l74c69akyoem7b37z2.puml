@@ -1,0 +1,25 @@
+{
+  "sha1": "rim0uy57a7mu1l74c69akyoem7b37z2",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.863Z",
+    "url": "https://forum.plantuml.net/16497/frame-header-font-style",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+frame {
+  FontColor red
+  title {
+    FontColor green
+  }
+}
+file {
+  FontColor blue
+}
+</style>
+frame sw_package as SW {
+  file defect as df
+}
+frame sw_package2 as SW2
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "r8wuppx5srzk05j5cmanx4f9k3kjd4i",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.462Z",
+    "url": "https://forum.plantuml.net/17007/how-we-can-disable-textlength-at-svg-generation",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+https://forum.plantuml.net/17007/how-we-can-disable-textlength-at-svg-generation
+
+@enduml

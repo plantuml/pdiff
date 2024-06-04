@@ -1,0 +1,12 @@
+{
+  "sha1": "teryrmyjkmk781f38mhtkpmte8cnc0t",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.118Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam SequenceReferenceAlign center
+Alice -> Bob : This is very long
+ref over Alice, Bob : short
+@enduml

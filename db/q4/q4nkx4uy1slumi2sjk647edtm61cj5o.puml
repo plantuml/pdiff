@@ -1,0 +1,13 @@
+{
+  "sha1": "q4nkx4uy1slumi2sjk647edtm61cj5o",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.041Z",
+    "url": "http://forum.plantuml.net/8534/skinparam-roundcorners-individual-background-stereotype",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam RoundCorner 25
+class Foo
+class Foo2 #lightblue
+@enduml

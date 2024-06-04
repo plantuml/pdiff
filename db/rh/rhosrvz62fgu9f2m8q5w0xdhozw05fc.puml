@@ -1,0 +1,19 @@
+{
+  "sha1": "rhosrvz62fgu9f2m8q5w0xdhozw05fc",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.832Z",
+    "url": "https://forum.plantuml.net/17019/prevent-wrap-for-comma-dot-etc",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+set separator none
+
+skinparam {
+  wrapWidth 200
+  maxMessageSize 100
+}
+
+rectangle "blabla //blabla// blabla blabla blabla, les //blabla// et les blabla, les blabla, les //blabla// et les //blabla//."
+@enduml

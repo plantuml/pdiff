@@ -1,0 +1,16 @@
+{
+  "sha1": "s878mymcbxq3yhnphy6ei2f8p7rzhqy",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.765Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=5072/space-in-a-group-extends-group-to-left",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+A->B
+opt
+  B->C: test
+  |||
+end
+@enduml

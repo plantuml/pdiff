@@ -1,0 +1,22 @@
+{
+  "sha1": "nk0y9x2n6vg72k8670fni8wmgvvsod0",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.749Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+alt dummy
+alt foo
+Bob->Alice : hello
+else
+Bob<-Alice : hello2
+end
+note right: Some explication on foo.
+else
+Bob<-Alice : hello3
+end
+note right: Some explication on dummy.
+Alice->John_smith : hello
+Alice->An_other_actor : hello
+@enduml

@@ -1,0 +1,29 @@
+{
+  "sha1": "pundze73prnxyt8ss9ipc3niwzf71el",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.755Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+<style>
+note {
+  shadowing 0
+  .st1 {
+	BackgroundColor #white
+	LineColor #green
+	FontColor #red
+  }
+  .with {
+  	shadowing 3
+  }
+}
+</style>
+
+A -> B : msg
+note<<st1>> over A : text 1
+note over B #line:green;back:lightblue;shadowing:false : text 2
+note<<with>> over A : text 3
+note<<without>> over A : text 4
+@enduml

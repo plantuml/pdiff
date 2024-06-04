@@ -1,0 +1,15 @@
+{
+  "sha1": "rb4x4sxembqyvdiig22nfaorm2zke55",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.527Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:inter sdfsdf sdf sd sd fs df ds sfqsdf;
+if (other test?) then (ok)
+  :action2;
+else (not ok\nonseveral\nlines\na\nb\nc)
+  :action3;
+endif
+@enduml

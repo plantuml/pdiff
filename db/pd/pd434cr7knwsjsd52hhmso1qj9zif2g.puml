@@ -1,0 +1,31 @@
+{
+  "sha1": "pd434cr7knwsjsd52hhmso1qj9zif2g",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.026Z",
+    "url": "http://forum.plantuml.net/2035/usecase-alias-not-available-in-rectangle",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ 
+left to right direction
+skinparam packageStyle rect
+ 
+rectangle Test1 {
+actor :Alice: as user
+usecase (Usecase 1) as usecase1
+usecase (Usecase 2) as usecase2
+  user -> usecase1
+}
+ 
+newpage
+left to right direction
+skinparam packageStyle rect
+ 
+rectangle Test2 {
+usecase (Usecase 1) as usecase1
+usecase (Usecase 2) as usecase2
+  user -> usecase2
+}
+ 
+@enduml

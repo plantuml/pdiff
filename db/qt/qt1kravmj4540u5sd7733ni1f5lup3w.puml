@@ -1,0 +1,21 @@
+{
+  "sha1": "qt1kravmj4540u5sd7733ni1f5lup3w",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.873Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{+
+{* File | Edit | Source | Refactor
+ File | New | Open File | - | Close | Close All }
+{/ <b>General | Fullscreen | Behavior | Saving }
+{
+	{ Open image in: | ^Smart Mode^ }
+	[X] Smooth images when zoomed
+	[X] Confirm image deletion
+	[ ] Show hidden images 
+}
+[Close]
+}
+@endsalt

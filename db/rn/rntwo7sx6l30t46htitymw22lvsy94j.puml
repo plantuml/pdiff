@@ -1,0 +1,21 @@
+{
+  "sha1": "rntwo7sx6l30t46htitymw22lvsy94j",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.046Z",
+    "url": "https://forum.plantuml.net/18701/negative-values-causing-syntax-error-in-robust-has-list?show=18705",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "D" as D
+D has 4,3,2,1,0,-3
+
+@0
+D is 1
+
+@1
+D is 2
+
+@2
+D is -3
+@enduml

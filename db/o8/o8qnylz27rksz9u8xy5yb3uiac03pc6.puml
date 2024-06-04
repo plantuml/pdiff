@@ -1,0 +1,12 @@
+{
+  "sha1": "o8qnylz27rksz9u8xy5yb3uiac03pc6",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.517Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1586",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchronology
+[Event1] happens at 2023-11-24 10:11:50.750
+[Event2] happens at 2023-11-28 14:11:50.750
+@endchronology

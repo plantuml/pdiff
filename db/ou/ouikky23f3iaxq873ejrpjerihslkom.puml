@@ -1,0 +1,24 @@
+{
+  "sha1": "ouikky23f3iaxq873ejrpjerihslkom",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.321Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title
+foo
+color=%lighten("012345", 50)
+color=%lighten("#012345", 50)
+color10=%lighten("red", 10)
+color10=%darken("red", 10)
+color50=%lighten("red", 50)
+color50=%darken("red", 50)
+red is_dark=%is_dark("red")
+red is_light=%is_light("red")
+white is_dark=%is_dark("white")
+white is_light=%is_light("white")
+%function_exists("%is_light")
+endtitle
+alice->bob
+@enduml

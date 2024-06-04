@@ -1,0 +1,12 @@
+{
+  "sha1": "n66q5gw53ksh2ifgbx3kfg1v3brh0w7",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.214Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class "ProductA1" as PA1
+class PA1 implements APA
+
+@enduml

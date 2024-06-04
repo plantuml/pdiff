@@ -1,0 +1,18 @@
+{
+  "sha1": "t2uvdxs6d7zme9s9qwc3jleclrv0s8t",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.718Z",
+    "url": "https://forum.plantuml.net/6699/please-provide-macros-insert-current-number-total-number-pages?show=10976#c10976",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+footer This is %page% of %lastpage%
+Alice --> Bob : A1
+newpage
+Alice --> Bob : A2
+newpage
+Alice --> Bob : A3
+newpage
+Alice --> Bob : A4
+@enduml

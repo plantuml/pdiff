@@ -1,0 +1,28 @@
+{
+  "sha1": "qjxrg8m1ogvq1k9ko4ihkaqtzwd3bqr",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.532Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1190",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ArrowHeadColor none
+
+start
+:Foo;
+partition "Backend" {
+fork
+  partition "Before" {
+    :action A;
+  }
+fork again
+  partition "After" {
+    :action B;
+    note right: hello notes;
+  }
+end fork
+}
+
+stop
+@enduml

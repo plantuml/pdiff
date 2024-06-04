@@ -1,0 +1,15 @@
+{
+  "sha1": "rds240i9g7jw3vol8aqyjsns6pupz8p",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.652Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam pathHoverColor green
+class Foo2 [[http://www.yahoo.com/Foo2]] {
+  +double[] x [[[http://www.yahoo.com/B1]]]
+  +double y [[[http://www.yahoo.com/B2]]]
+}
+Foo2 --> Foo3
+@enduml

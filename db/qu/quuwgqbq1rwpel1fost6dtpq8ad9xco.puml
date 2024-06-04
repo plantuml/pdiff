@@ -1,0 +1,14 @@
+{
+  "sha1": "quuwgqbq1rwpel1fost6dtpq8ad9xco",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.926Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 70 width
+participant Bob
+participant APP
+url of APP is [[http://tomcat.apache.org/]]
+Bob -> APP : hello
+@enduml

@@ -1,0 +1,15 @@
+{
+  "sha1": "pl707muib8p4h8089sh2gyuqr249of4",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.358Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty attributes
+actor "Employee" as EMP
+[Tomcat] as APP
+[Oracle] as DB
+EMP -- APP
+APP -- DB
+@enduml

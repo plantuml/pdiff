@@ -1,0 +1,69 @@
+{
+  "sha1": "tpefiq3ugr2dnwp879bb0xeu6ocwuu3",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.573Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=5112/skinparam-boundary-control-database-entity-sequence-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam {
+    ActorBackgroundColor #cc6666
+    ActorBorderColor #c62021
+    BoundaryBackgroundColor #fbaf60
+    BoundaryBorderColor #e08510
+    ControlBackgroundColor #b5bd68
+    ControlBorderColor #718c00
+    DatabaseBackgroundColor #8abeb7
+    DatabaseBorderColor #39959b
+    EntityBackgroundColor #81a2be
+    EntityBorderColor #4271ae
+    ParticipantBackgroundColor #b294bb
+    ParticipantBorderColor #8959a8
+}
+
+skinparam sequence {
+    LifeLineBorderColor #404040
+    ArrowColor #101010
+}
+
+actor A1
+boundary B2
+control C3
+database D4
+entity E5
+participant P6
+
+activate A1 #cc6666
+A1 --> B2 : To boundary
+activate B2 #fbaf60
+
+B2 --> C3 : To control
+activate C3 #b5bd68
+
+C3 -> D4 : To database
+activate D4 #8abeb7
+
+D4 -> C3 : Resp data to C3
+deactivate D4
+
+C3 --> E5 : To entity
+activate E5 #81a2be
+
+E5 -> P6 : To log
+activate P6 #b294bb
+
+P6 -> E5 : OK
+deactivate P6
+
+E5 --> C3 : Resp to C3
+destroy E5
+
+C3 --> B2 : Resp to B2
+deactivate C3
+
+B2 --> A1 : Resp to A1
+deactivate B2
+deactivate A1
+
+@enduml

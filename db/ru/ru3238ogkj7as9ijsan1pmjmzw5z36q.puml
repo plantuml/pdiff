@@ -1,0 +1,13 @@
+{
+  "sha1": "ru3238ogkj7as9ijsan1pmjmzw5z36q",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.256Z",
+    "url": "http://forum.plantuml.net/7411/support-for-multiple-label-arrows-in-use-case-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase A
+A - B : < a
+B -- C : > c
+@enduml

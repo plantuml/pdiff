@@ -1,0 +1,15 @@
+{
+  "sha1": "r0pi83q3dzg4uff4bm5f8e68l2m0yek",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.212Z",
+    "url": "https://forum.plantuml.net/13725/gantt-add-zoom-for-daily-scale",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+projectscale daily zoom 10
+Project starts 2020-11-13
+[One two three four five six seven] lasts 7 days
+[Eight nine ten eleven twelve] lasts 7 days
+[Eight nine ten eleven twelve] starts at [One two three four five six seven]'s end
+@endgantt

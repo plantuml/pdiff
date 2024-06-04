@@ -1,0 +1,28 @@
+{
+  "sha1": "n6bb1qrubpa2r5blufn13qj5u2e3kt0",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.221Z",
+    "url": "https://forum.plantuml.net/14997/swimlane-repeat-loop?show=14997#q14997",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title Backward Not working
+
+|#lightcyan|B|
+|#lightcoral|C|
+|C|
+:CVD created;
+|B|
+|C|
+repeat
+    |B|
+    :Assessment;
+    |C|
+    backward:I want this in the C swimlane;
+    |B|
+repeat while (Suffient Detail?) is (no)
+->yes;
+|B|
+:End;
+@enduml

@@ -1,0 +1,29 @@
+{
+  "sha1": "n7704iia21u92ahy4k62l5t7b364g93",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.240Z",
+    "url": "https://forum.plantuml.net/11736/locally-linecolor-linestyle-management-placement-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+document {
+  Backgroundcolor pink
+}
+</style>
+
+frame "f1_no_group" #fff {
+node A #red|green;line.dashed;line:blue
+
+node B #red|green;line.dashed;line:blue [
+BB 
+]
+
+node C #red|green;line.dashed;line:blue [
+]
+
+}
+
+@enduml

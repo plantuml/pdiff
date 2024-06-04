@@ -1,0 +1,31 @@
+{
+  "sha1": "orenmyw1vq7yv45aipfj3yvpqvywcc5",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.129Z",
+    "url": "https://forum.plantuml.net/11130/is-there-a-compact-timing-diagram?show=11287#c11287",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+clock clk with period 50
+compact robust "Web Browser" as WB
+compact concise "Web User" as WU
+
+WU is unkwown
+
+@0
+WU is Waiting
+WB is Idle
+
+@200
+WB is Proc.
+
+@300
+WB is Waiting
+
+@500
+WU is ok
+
+@700
+WB is Idle
+@enduml

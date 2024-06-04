@@ -1,0 +1,16 @@
+{
+  "sha1": "qtfm64is3svs9frwfsi03yfrjnhordp",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.899Z",
+    "url": "https://github.com/plantuml/plantuml/commit/f2b9f03e154fd8f075e4e91988a8ee4118d61595#commitcomment-60201184",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+class {
+  BackgroundColor blue
+}
+</style>
+class foo
+@enduml

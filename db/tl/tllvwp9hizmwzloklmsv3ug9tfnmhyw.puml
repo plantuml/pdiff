@@ -1,0 +1,20 @@
+{
+  "sha1": "tllvwp9hizmwzloklmsv3ug9tfnmhyw",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.410Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : hello
+
+create Other
+Alice -> Other : new
+
+create String
+Alice -> String
+note right: You can also put notes!
+
+Alice --> Bob : ok
+
+@enduml

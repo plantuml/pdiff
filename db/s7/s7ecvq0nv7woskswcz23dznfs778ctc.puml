@@ -1,0 +1,24 @@
+{
+  "sha1": "s7ecvq0nv7woskswcz23dznfs778ctc",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.744Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1535",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+  box "Micro frontend"
+      box "Components"
+          box "Component 1"
+              entity Part1 as C1P1
+              entity Part2 as C1P2
+          end box
+  
+          box "Component 2"
+              entity Part1 as C2P1
+              entity Part2 as C2P2
+          end box
+      end box
+  end box
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "o98mu1kyubkcn926k252emknq8ym70t",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.552Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=3893/deprecated-bluemodern-replicated-exactly-skinparam-directives",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam lifelineStrategy solid
+skinparam SequenceGroupHeaderFontColor red
+skinparam SequenceGroupFontColor green
+skinparam SequenceGroupBodyBackgroundColor yellow
+loop forever
+    A -> B: ping
+    B -> A: pong
+end
+@enduml

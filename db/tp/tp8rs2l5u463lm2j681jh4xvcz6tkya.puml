@@ -1,0 +1,15 @@
+{
+  "sha1": "tp8rs2l5u463lm2j681jh4xvcz6tkya",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.565Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+package P1 {
+class UC1
+}  
+class UC2
+UC2 --> UC5
+@enduml

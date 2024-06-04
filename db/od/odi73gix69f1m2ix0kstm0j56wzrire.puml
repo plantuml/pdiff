@@ -1,0 +1,35 @@
+{
+  "sha1": "odi73gix69f1m2ix0kstm0j56wzrire",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.725Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Interface RowMacroStage
+Interface RowStage extends RowMacroStage
+
+Abstract AbstractRow {
++String getThickness()
++String getWidth()
+#final Rectangle[] getBoundRectangles()
+}
+
+RowMacroStage <|.. AbstractRow
+Abstract AbstractRowPart
+AbstractRow <|-- AbstractRowPart
+AbstractRowPart <|-- RowHybridMacroStage
+Note left of RowHybridMacroStage : Concatenation of a part\nand component line
+Class RowHybridMacroStage
+
+RowHybridMacroStage <|-- RowHybridStage
+
+AbstractRow <|--- RowComponentMacroStage
+Note right of RowComponentMacroStage : One component on the line\nwithout a part
+Class RowComponentMacroStage
+RowComponentMacroStage <|-- RowComponentStage
+
+AbstractRowPart <|-- RowPartMacroStage 
+RowPartMacroStage <|-- RowPartStage
+Class RowPartMacroStage
+@enduml

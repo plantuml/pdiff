@@ -1,0 +1,18 @@
+{
+  "sha1": "p5p8r7rfd81t9tzqdx2ne16chfrbjmf",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.714Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Foo ..> IBar: <<delegate>>
+IBarFactory ..> IBar : <<create>>
+
+interface IBarFactory {
+}   
+
+interface IBar {
+}
+
+@enduml

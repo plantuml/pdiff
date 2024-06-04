@@ -1,0 +1,16 @@
+{
+  "sha1": "tevjtmyh2njyt1mfp1sdg5kv7kwxpew",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.124Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:start;
+if (some **creole** foo) then (yes)
+  :me\non two lines;
+  :a table
+  |= title |
+  | foo\non two lines|;
+endif
+@enduml

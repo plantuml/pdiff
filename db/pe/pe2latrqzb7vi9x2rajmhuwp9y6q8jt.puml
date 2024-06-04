@@ -1,0 +1,33 @@
+{
+  "sha1": "pe2latrqzb7vi9x2rajmhuwp9y6q8jt",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.068Z",
+    "url": "https://forum.plantuml.net/14247/ensure-that-plantuml-crash-embeddeddiagram-meets-wrap_width",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set namespaceSeparator none
+skinparam wrap_width 150
+
+left to right direction
+
+actor User
+
+User --> (1. select template)
+User --> (2. write uml diagram)
+
+note right of User
+{{
+    skinparam wrap_width 150
+    start
+
+    while (count < max?)
+      :count = count + increment;
+    endwhile
+
+    stop
+}}
+end note
+
+@enduml

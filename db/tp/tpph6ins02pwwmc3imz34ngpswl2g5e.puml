@@ -1,0 +1,22 @@
+{
+  "sha1": "tpph6ins02pwwmc3imz34ngpswl2g5e",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.585Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob : hello
+note left
+foo
+--
+foo2
+==toto==
+meu
+==
+ya
+--
+cot
+[[http://www.cot{cloud} my link]] hello
+end note
+@enduml

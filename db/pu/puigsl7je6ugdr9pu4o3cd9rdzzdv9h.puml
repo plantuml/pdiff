@@ -1,0 +1,12 @@
+{
+  "sha1": "puigsl7je6ugdr9pu4o3cd9rdzzdv9h",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.727Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor PlantUML
+usecase (map)
+PlantUML -> map : Thanks Maxime! You can [[http://www.google.com CLICK]] here
+@enduml

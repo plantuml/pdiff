@@ -1,0 +1,18 @@
+{
+  "sha1": "tli9nri3crz8zq58ofez58ibnv0opo7",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.404Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=6481/exceptions-during-export-with-color-gradients",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam class {
+  BackgroundColor #c3d8f4\#6192d1
+  BorderColor #505050
+  FontColor #505050
+}
+class Class {
+  Dummy
+}
+@enduml

@@ -1,0 +1,27 @@
+{
+  "sha1": "nb2ysqlwqcrek0lnvfbb3ztso0kiagb",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.347Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+partition Conductor {
+ :Climbs on Platform;
+ fork
+	:Bows;
+}
+partition Audience {
+ fork again
+	:Applauds;
+partition Conductor {
+ end fork
+ :Waves Arms;
+}
+partition Orchestra {
+ :Introduction;
+ :Plays Music;
+}
+end
+@enduml 

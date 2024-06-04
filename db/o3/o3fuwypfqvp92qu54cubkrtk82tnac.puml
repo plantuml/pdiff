@@ -1,0 +1,20 @@
+{
+  "sha1": "o3fuwypfqvp92qu54cubkrtk82tnac",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.330Z",
+    "url": "https://forum.plantuml.net/17898/activity-diagrama-skinparam-conditionstyle-insidediamond?show=17900#a17900",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam style strictuml
+skinparam conditionStyle InsideDiamond
+start
+:Activity 1;
+repeat
+    :Activity 2;
+    :Activity 3;
+repeat while (condition) is (yes) not (no)
+:Activity 4;
+stop
+@enduml

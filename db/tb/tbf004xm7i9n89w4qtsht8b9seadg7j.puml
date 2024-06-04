@@ -1,0 +1,27 @@
+{
+  "sha1": "tbf004xm7i9n89w4qtsht8b9seadg7j",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.034Z",
+    "url": "https://forum.plantuml.net/15372/new-styling-not-working-for-nesting-elements",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'FORMAT
+<style>
+  frame {
+    LineColor Blue
+    BackgroundColor LightBlue
+    Shadowing 0
+  }
+  rectangle {
+    LineColor Green
+    Backgroundcolor LightGreen
+    Shadowing 0
+  }
+</style>
+'ELEMENTS
+frame Foo5 {
+  rectangle Foo6
+}
+@enduml

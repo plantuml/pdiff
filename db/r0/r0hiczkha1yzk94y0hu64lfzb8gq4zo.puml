@@ -1,0 +1,15 @@
+{
+  "sha1": "r0hiczkha1yzk94y0hu64lfzb8gq4zo",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.191Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:foo;
+note left
+ You can use images <img:data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==>
+end note
+stop
+@enduml

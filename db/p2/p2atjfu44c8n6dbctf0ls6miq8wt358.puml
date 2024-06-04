@@ -1,0 +1,27 @@
+{
+  "sha1": "p2atjfu44c8n6dbctf0ls6miq8wt358",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.607Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+database "Empty database" {
+}
+database "Ok Database" {
+   component foo
+}
+cloud "Cloud 1" {
+}
+cloud "Cloud 2" {
+component fiz
+}
+
+card "My Card" {
+  component foo2
+}
+
+card "Empty Card" {
+}
+
+@enduml

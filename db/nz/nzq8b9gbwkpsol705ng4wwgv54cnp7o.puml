@@ -1,0 +1,24 @@
+{
+  "sha1": "nzq8b9gbwkpsol705ng4wwgv54cnp7o",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.195Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+package "Ge Folder" as GeFolder {
+}
+
+package "Especialized Folder" as EspecializedFolder {
+}
+package "Especialized Folder2" as EspecializedFolder2 {
+}
+package "Especialized Folder3" as EspecializedFolder3 {
+}
+
+GeFolder <.. EspecializedFolder
+GeFolder <.. EspecializedFolder2
+GeFolder <.. EspecializedFolder3
+
+@enduml

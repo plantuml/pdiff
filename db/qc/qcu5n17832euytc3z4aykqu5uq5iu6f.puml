@@ -1,0 +1,12 @@
+{
+  "sha1": "qcu5n17832euytc3z4aykqu5uq5iu6f",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.266Z",
+    "url": "https://forum.plantuml.net/17033/strictuml-arrowheads-in-activity-diagrams?show=17039#c17039",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:first;
+@enduml

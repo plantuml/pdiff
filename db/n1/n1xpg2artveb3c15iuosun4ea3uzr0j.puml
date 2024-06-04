@@ -1,0 +1,16 @@
+{
+  "sha1": "n1xpg2artveb3c15iuosun4ea3uzr0j",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.123Z",
+    "url": "https://github.com/plantuml/plantuml/issues/137",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title The Java and JDBC flow
+autonumber
+"Application thread" -> "DB connection": SQL query A
+"DB connection" -> "Application thread": SQL resultset A
+"Application thread" -> "DB connection": SQL query B
+"DB connection" -> "Application thread": SQL resultset B
+@enduml

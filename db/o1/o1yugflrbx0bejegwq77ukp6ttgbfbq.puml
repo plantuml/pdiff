@@ -1,0 +1,24 @@
+{
+  "sha1": "o1yugflrbx0bejegwq77ukp6ttgbfbq",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.240Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    namespace pragma {
+        class PragmaStringMultiTest {
+            {field} + p1 
+            __
+            {method} + myMethod
+        }
+    }
+    namespace MyPack {
+        class MyItem {
+            {field} + MyProp 
+            __
+            {method} + MyItem 
+        }
+    }
+    MyPack.MyItem "1" -left- pragma.PragmaStringMultiTest
+@enduml

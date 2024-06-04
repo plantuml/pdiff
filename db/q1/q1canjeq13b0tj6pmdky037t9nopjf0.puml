@@ -1,0 +1,16 @@
+{
+  "sha1": "q1canjeq13b0tj6pmdky037t9nopjf0",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.985Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1672",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class BaseChat<A> extends BaseEntity {
+}
+
+class CoupleChat extends BaseChat<A> {
+}
+
+@enduml

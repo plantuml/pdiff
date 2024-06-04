@@ -1,0 +1,22 @@
+{
+  "sha1": "s7f1c6wdmyb8serkdeg9dlpwnj4p579",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.751Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1297",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam stereotypeC {
+  BackgroundColor #FFF
+  BorderColor #FF0
+}
+
+class ArrayList {
+  Object[] elementData
+  size()
+}
+
+
+@enduml

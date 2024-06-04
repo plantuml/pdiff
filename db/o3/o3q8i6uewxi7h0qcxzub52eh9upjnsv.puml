@@ -1,0 +1,35 @@
+{
+  "sha1": "o3q8i6uewxi7h0qcxzub52eh9upjnsv",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.349Z",
+    "url": "https://forum.plantuml.net/12685/smetana-doesnt-allow-hide-in-connections?show=12693#c12693",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+!pragma layout smetana
+
+package Package1 {
+  package Package2 {
+    class Class1 {
+    }
+    class Class2 {
+  }
+  }
+  
+  package Package3 {
+    class Class3 {
+    }
+
+    class Class4 {
+    }
+    Class3 -down[hidden]- Class4
+    Class1 -right[hidden]- Class3: "                      "
+    Class1 -down[hidden]- Class2: "                      "
+    Class2 -right[hidden]- Class3: "              "
+  }  
+}
+@enduml

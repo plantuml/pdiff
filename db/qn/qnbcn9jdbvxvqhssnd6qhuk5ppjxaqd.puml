@@ -1,0 +1,17 @@
+{
+  "sha1": "qnbcn9jdbvxvqhssnd6qhuk5ppjxaqd",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.636Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A->B: start
+B-->A: ok
+A->B: initialize
+create C
+B->C: start
+activate C
+C-->A: ok
+'deactivate C
+@enduml

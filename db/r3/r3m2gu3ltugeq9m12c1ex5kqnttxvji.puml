@@ -1,0 +1,25 @@
+{
+  "sha1": "r3m2gu3ltugeq9m12c1ex5kqnttxvji",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.313Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Flight : flightNumber : Integer
+Flight : departureTime : Date
+Flight : flightDuration : Minute = 60
+Flight : delayFlight (numberOfMinutes : Minutes)
+Flight : getArrivalTime() : Date
+
+FrequentFlyer : firstName : String
+FrequentFlyer : lastName : String
+FrequentFlyer : frequentFlyerNumber : String
+
+Flight -- FrequentFlyer
+MileageCredit . (Flight, FrequentFlyer)
+
+MileageCredit : baseMiles : Integer()
+MileageCredit : bonusMiles : Integer()
+
+@enduml

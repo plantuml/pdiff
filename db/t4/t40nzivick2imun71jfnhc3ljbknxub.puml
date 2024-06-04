@@ -1,0 +1,16 @@
+{
+  "sha1": "t40nzivick2imun71jfnhc3ljbknxub",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.767Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam handwritten true
+skinparam actorBorderColor<<Foo>> black
+skinparam actorBackgroundColor<<Foo>> DarkSeaGreen
+skinparam usecaseBorderColor<<Foo>> DarkSlateGray
+skinparam usecaseBackgroundColor<<Foo>> DarkSeaGreen
+:actor: <<Foo>>
+(use case) <<Foo>>
+@enduml

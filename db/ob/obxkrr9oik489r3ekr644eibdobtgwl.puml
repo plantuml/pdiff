@@ -1,0 +1,20 @@
+{
+  "sha1": "obxkrr9oik489r3ekr644eibdobtgwl",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.684Z",
+    "url": "https://forum.plantuml.net/15614/style-sequence-allow-stereotype-for-arrow-sequence-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.a {
+  LineStyle 5
+  LineThickness 2
+  Linecolor red
+}
+</style>
+participant alice
+alice -> bob : msg
+alice -> bob <<a>> : red
+@endumls

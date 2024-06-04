@@ -1,0 +1,15 @@
+{
+  "sha1": "q56ml22sc3dt6igoqirkg4fjn48sk6o",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.065Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class a
+note bottom of a
+IF cond THEN
+    flow=1
+ENDIF
+end note
+@enduml

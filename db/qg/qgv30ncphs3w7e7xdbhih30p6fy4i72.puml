@@ -1,0 +1,14 @@
+{
+  "sha1": "qgv30ncphs3w7e7xdbhih30p6fy4i72",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.439Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+activate C
+A -> B
+activate C
+deactivate C
+A -> B
+@enduml

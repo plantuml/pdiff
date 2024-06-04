@@ -1,0 +1,17 @@
+{
+  "sha1": "q16v24pikud4649a1hv07xjvqhg3sc1",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.979Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant "First Participant" as First
+participant "Second Participant" as Second
+activate First
+create Second
+' without the newline the arrow is correct, with the newline the arrow stops too early
+First->Second: new\nObject
+First->Second: Call 1
+First<-Second: Result
+@enduml

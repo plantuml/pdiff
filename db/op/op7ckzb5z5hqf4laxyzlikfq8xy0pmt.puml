@@ -1,0 +1,36 @@
+{
+  "sha1": "op7ckzb5z5hqf4laxyzlikfq8xy0pmt",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.064Z",
+    "url": "http://forum.plantuml.net/9048/img-tag-for-sequence-diagram-participants-does-always-render",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define logo(x) "x <img:https://wiki.agilicus.com/media/wiki/favicon.png>" as x
+
+Title: Test
+skinparam minClassWidth 150
+
+
+box "Box1" #LightGreen
+ participant logo(A)
+end box
+
+A->A: Hey
+B->B: Hey
+C->C: Hey
+D->D: Hey
+E->E: Hey
+F->F: Hey
+G->G: Hey
+H->H: Hey
+I->I: Hey
+J->I: Hey
+K->I: Hey
+L->I: Hey
+M->I: Hey
+N->I: Hey
+O->I: Hey
+P->I: Hey
+@enduml

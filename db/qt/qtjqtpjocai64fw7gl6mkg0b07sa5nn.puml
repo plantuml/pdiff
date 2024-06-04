@@ -1,0 +1,24 @@
+{
+  "sha1": "qtjqtpjocai64fw7gl6mkg0b07sa5nn",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.906Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1421#issuecomment-1788455745n",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+<style>
+timeline {
+    BackGroundColor Grey
+    FontName Helvetica
+    FontSize 20
+    FontColor Blue
+}
+</style>
+
+Project starts the 2023/12/04.
+sunday are closed.
+[T1] requires 5 days.
+
+@endgantt

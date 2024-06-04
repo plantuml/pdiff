@@ -1,0 +1,14 @@
+{
+  "sha1": "o1y3bfixiokokdgnhnnd4k5foqj18wb",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.234Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state ERROR {
+  ERROR : details
+}
+state REBOOTING {
+}
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "sv4pyfbc8d7n5ew05zuzerq88ricsfp",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.522Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+skinparam backgroundcolor transparent
+Actor A
+rectangle R1 {
+  A - (UC 1.a)
+}
+rectangle R2 {
+  A - (UC 2)
+}
+@enduml

@@ -1,0 +1,15 @@
+{
+  "sha1": "srvn9empcjtgqhwsio231xmvnb5un9q",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.371Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+%set_variable_value("$foo"+"dummy", "42")
+
+Alice -> Bob : expected 42 %get_variable_value("$foo"+"dummy")
+Alice -> Bob : expected EMPTY %get_variable_value("$foo"+"dummyd")
+
+@enduml 

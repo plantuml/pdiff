@@ -1,0 +1,15 @@
+{
+  "sha1": "rzno2ivxsq93gheu9utg9j4cfsxvp7t",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.481Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Hello;
+if (dummy\non\nseveral) then (foo)
+stop
+endif
+:Other;
+@enduml

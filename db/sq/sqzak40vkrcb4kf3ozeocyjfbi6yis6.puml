@@ -1,0 +1,23 @@
+{
+  "sha1": "sqzak40vkrcb4kf3ozeocyjfbi6yis6",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.355Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (condition A) then (yes)
+  :Text 1;
+elseif (condition B) then (yes)
+  :Text 2;
+  stop
+elseif (condition C) then (yes)
+  :Text 3;
+elseif (condition D) then (yes)
+  :Text 4;
+else (nothing)
+  :Text else;
+endif
+stop
+@enduml

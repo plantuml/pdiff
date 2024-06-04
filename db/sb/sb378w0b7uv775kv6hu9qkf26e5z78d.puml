@@ -1,0 +1,17 @@
+{
+  "sha1": "sb378w0b7uv775kv6hu9qkf26e5z78d",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.878Z",
+    "url": "https://forum.plantuml.net/9998/macros-in-macro-parameters-does-not-work",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!definelong CALL(from,to,funcname)
+from -[#808080]> to : funcname
+!enddefinelong
+
+!define GREY(x) <color:#808080>x</color>
+
+CALL(SDF, MU, GREY(My func))
+@enduml

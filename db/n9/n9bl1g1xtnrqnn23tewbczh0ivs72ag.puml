@@ -1,0 +1,19 @@
+{
+  "sha1": "n9bl1g1xtnrqnn23tewbczh0ivs72ag",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.293Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+</style>
+
+class CLASS
+enum ENUM
+interface INTERFACE
+annotation ANNOTATION
+abstract class ABSTRACT_CLASS
+entity ENTITY
+
+@enduml

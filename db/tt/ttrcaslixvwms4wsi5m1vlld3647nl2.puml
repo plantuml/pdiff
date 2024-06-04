@@ -1,0 +1,21 @@
+{
+  "sha1": "ttrcaslixvwms4wsi5m1vlld3647nl2",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.733Z",
+    "url": "http://forum.plantuml.net/6707/",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+start
+repeat
+'  :Test something;
+    if (Something went wrong?) then (no)
+      :OK;
+	  ' comment brak and there is no more problem
+      break
+    endif
+repeat while (Something went wrong with long text?) is (yes)
+stop
+@enduml

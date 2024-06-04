@@ -1,0 +1,16 @@
+{
+  "sha1": "nqhqakq3mvicyraluek85h2z3dkh49k",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.945Z",
+    "url": "https://forum.plantuml.net/10798/is-it-possible-to-hide-the-component-icon?show=11696#c11696",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam componentStyle rectangle
+component [component1] #GreenYellow 
+()interface
+
+[component1] -> ()interface
+()interface <.. [component2]
+@enduml

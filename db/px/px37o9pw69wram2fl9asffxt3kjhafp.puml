@@ -1,0 +1,11 @@
+{
+  "sha1": "px37o9pw69wram2fl9asffxt3kjhafp",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.812Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Foo
+skinparam classBorderColor    #FFBD42-white
+@enduml

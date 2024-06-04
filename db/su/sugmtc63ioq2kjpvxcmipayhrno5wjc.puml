@@ -1,0 +1,10 @@
+{
+  "sha1": "sugmtc63ioq2kjpvxcmipayhrno5wjc",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.479Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+CustomController --|> App.Http.Controllers.Controller
+@enduml

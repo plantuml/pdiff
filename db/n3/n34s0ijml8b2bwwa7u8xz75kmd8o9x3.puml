@@ -1,0 +1,18 @@
+{
+  "sha1": "n34s0ijml8b2bwwa7u8xz75kmd8o9x3",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.155Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[-> Node: Start TC
+Node -> SUT : RAR
+activate Node
+Node <- SUT : RAA
+[<[#blue]-Node: Succ
+[<[#red]-Node: Fail
+[<-[#red]-Node: Fail
+[<[#red]--Node: Fail
+deactivate Node
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "sox83sh2mtlo3y5q7rftwhh1tg4b9if",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.284Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{#
+.|.| Column 2 | Column 3
+Row header 1 |B| * | value 2
+Row header 2 |C| value 3 | value 4
+}
+@endsalt

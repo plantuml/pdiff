@@ -1,0 +1,16 @@
+{
+  "sha1": "rhvs60un9qubfsgrz696wbpedcm84rt",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.850Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam SequenceBoxBorderColor blue
+skinparam SequenceBoxBackgroundColor yellow
+
+box
+Alice->Bob: Authentication Request
+endbox
+Bob -> Other
+@enduml

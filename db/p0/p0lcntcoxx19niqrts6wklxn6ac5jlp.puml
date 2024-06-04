@@ -1,0 +1,26 @@
+{
+  "sha1": "p0lcntcoxx19niqrts6wklxn6ac5jlp",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.522Z",
+    "url": "https://forum.plantuml.net/15837/map-do-not-show-members-and-fluffy-arrows",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+left to right direction
+map "AAA A" as AAAA {
+  ffff => ffff
+  gggg => gggg
+}
+
+map "CCC C" as CCCC {
+  oooo => pppp
+  ssss => tttt
+  => uuuu
+  => yyyy
+}
+
+AAAA::ffff => CCCC::oooo
+AAAA::gggg => CCCC::ssss
+
+@enduml

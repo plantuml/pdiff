@@ -1,0 +1,21 @@
+{
+  "sha1": "oavujyr2qlzx8u5hu8x5p5a3vkf9rfb",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.631Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> "Activity 0"
+
+if "some test" then
+  if "test3" then
+    -left->[true] "Activity 1A"
+  else
+    -->[false] "Activity 1B"
+  endif
+else
+  -left->[Other true] "Activity 2"
+endif
+
+@enduml

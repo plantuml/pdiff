@@ -1,0 +1,21 @@
+{
+  "sha1": "px4t60ctesopty2g18cku06zxrdshl6",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.819Z",
+    "url": "https://github.com/plantuml/plantuml/issues/700#issuecomment-962682783",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+node n [
+{{yaml
+!theme amiga
+title hello
+fruit: Apple
+size: Large
+color:
+ - Red
+ - Green
+}}
+]
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "r7lzbrd63nvrhcauksy9mm7vjl51lu6",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.400Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component "A" as A {
+
+		component "E" as E {
+			 !define F H
+			 circle "TBD" as F
+			 !define G H
+			 circle "TBD" as G
+		}
+	}
+
+	component "B" as B {
+        	control "C" as C
+	}
+@enduml

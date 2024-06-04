@@ -1,0 +1,11 @@
+{
+  "sha1": "prlezfowcsefc8ofu3uke17f2szr8d2",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.624Z",
+    "url": "https://twitter.com/riduidel/status/1601129293383610370",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+(a(b\bc)*|d*|(ef\wg)+h)+|i*|jk
+@endregex

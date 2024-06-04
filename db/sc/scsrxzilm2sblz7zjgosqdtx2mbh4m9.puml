@@ -1,0 +1,11 @@
+{
+  "sha1": "scsrxzilm2sblz7zjgosqdtx2mbh4m9",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.972Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class __Test1__
+class "__Test2__" as foo2
+@enduml

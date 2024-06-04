@@ -1,0 +1,14 @@
+{
+  "sha1": "tblox9371nyqd71cio43m4a2xjcuqp9",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.046Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam svek true
+skinparam packageStyle rect
+package foo {
+  class dummy
+}
+@enduml

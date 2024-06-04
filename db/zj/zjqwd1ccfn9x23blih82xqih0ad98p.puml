@@ -1,0 +1,27 @@
+{
+  "sha1": "zjqwd1ccfn9x23blih82xqih0ad98p",
+  "insertion": {
+    "when": "2024-06-04T17:28:47.046Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam useBetaStyle true
+
+<style>
+title {
+  FontColor green
+}
+participant {
+  FontColor green
+}
+</style>
+
+
+Title This is my title
+participant Bob
+actor Alice
+
+@enduml

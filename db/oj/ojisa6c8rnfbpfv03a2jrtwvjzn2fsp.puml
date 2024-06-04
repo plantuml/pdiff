@@ -1,0 +1,19 @@
+{
+  "sha1": "ojisa6c8rnfbpfv03a2jrtwvjzn2fsp",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.945Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rotate
+minwidth 600
+
+Bob -> Alice : hello1
+Bob -> Alice : hello2
+Bob -> Alice : hello3
+Bob -> Alice : hello4
+Bob -> Alice : hello5
+Bob -> Alice : hello6
+
+@enduml

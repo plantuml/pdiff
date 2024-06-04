@@ -1,0 +1,33 @@
+{
+  "sha1": "ozqtmkj821b6rcd11pv3f2zb94ax99r",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.499Z",
+    "url": "http://forum.plantuml.net/6915/can-i-do-round-corners-of-elements-in-component-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam roundCorner 10
+'scale 4
+actor actor
+agent agent
+artifact artifact
+boundary boundary
+card card
+cloud cloud
+component component
+control control
+database database
+entity entity
+file file
+folder folder
+frame frame
+interface  interface
+node node
+package package
+queue queue
+stack stack
+rectangle rectangle
+storage storage
+usecase usecase
+@enduml

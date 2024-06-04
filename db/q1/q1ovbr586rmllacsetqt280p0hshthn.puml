@@ -1,0 +1,14 @@
+{
+  "sha1": "q1ovbr586rmllacsetqt280p0hshthn",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.991Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwire
+*big_1
+	*a
+	--
+	*b
+	
+@endwire

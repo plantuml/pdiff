@@ -1,0 +1,43 @@
+{
+  "sha1": "trcvxcm2dlee43to8v2sa4y3gsbp8sj",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.644Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1534",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.test  {
+  LineColor blue
+  BackgroundColor lightCyan
+  LineThickness 2
+  ArrowThickness 0.5
+  FontName Arial Narrow
+  FontColor red
+}
+.save {
+  FontColor navy
+  BackGroundColor Cyan
+}
+</style>
+
+<<test>>:multiple\nlines\nusing\nbackslash-n;
+/'
+<<test>>:multiple
+lines
+using
+new lines;
+'/
+:multiple\nlines\nusing\nbackslash-n; <<test>>
+:multiple
+lines
+using
+new lines; <<test>>
+
+:multiple\nlines\nusing\nbackslash-n; <<save>>
+:multiple
+lines
+using
+new lines; <<save>>
+@enduml

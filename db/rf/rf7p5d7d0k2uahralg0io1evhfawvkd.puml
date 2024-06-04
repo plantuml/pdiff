@@ -1,0 +1,21 @@
+{
+  "sha1": "rf7p5d7d0k2uahralg0io1evhfawvkd",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.716Z",
+    "url": "https://forum.plantuml.net/14647/timing-diagrams-can-we-get-an-offset-for-clocks",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+clock clk with period 100 pulse 25
+concise "Signal1" as S1
+robust S2
+@0
+S1 is 0
+S2 is 0
+@100
+S1 is 1
+@200
+S1 is 1
+S2 is 1
+@enduml

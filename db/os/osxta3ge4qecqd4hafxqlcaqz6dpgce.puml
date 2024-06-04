@@ -1,0 +1,25 @@
+{
+  "sha1": "osxta3ge4qecqd4hafxqlcaqz6dpgce",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.261Z",
+    "url": "https://forum.plantuml.net/11491/backgroundcolor-transparent-doesnt-empty-group-deployement?show=11491#q11491",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam BackgroundColor transparent
+
+component A {
+   component "A.1.KO" {
+}
+   component A.4 {
+      [A4.1]
+}
+   component "A.2"
+   [A.3]
+   component A.5 [
+A.5] 
+   component A.6 [
+]
+}
+@enduml

@@ -1,0 +1,30 @@
+{
+  "sha1": "ny2g8n22mxmo2ocscn6co8ijmmukk96",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.166Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1460",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ 
+skinparam fixCircleLabelOverlapping true
+ 
+() "Product Dubbo" as product_dubbo
+() "Member Dubbo" as member_dubbo
+() "Guide Dubbo" as guide_dubbo
+() "Search Dubbo" as search_dubbo
+ 
+[ME]
+[P] - product_dubbo
+member_dubbo - [M]
+[G] - guide_dubbo
+search_dubbo - [S]
+ 
+guide_dubbo <. [ME]
+[ME] ..> member_dubbo
+[ME] ..> product_dubbo
+[ME] .> search_dubbo
+
+
+@enduml

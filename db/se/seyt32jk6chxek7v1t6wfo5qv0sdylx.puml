@@ -1,0 +1,18 @@
+{
+  "sha1": "seyt32jk6chxek7v1t6wfo5qv0sdylx",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.050Z",
+    "url": "https://forum.plantuml.net/12864/object-diagram-crash-when-map-refers-to-object-inside-group?show=12875#a12875",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+frame G {
+        object A
+}
+
+map M {
+        a *-> A
+}
+
+@enduml

@@ -1,0 +1,15 @@
+{
+  "sha1": "q568ub5xwv5bqf96wxnjocqhedtkpkl",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.057Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+->toto;
+:A on
+several
+lines;
+stop
+@enduml

@@ -1,0 +1,28 @@
+{
+  "sha1": "n5q23whqyamy6fm9nhzbfqvnn4uznao",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.194Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=5112/skinparam-boundary-control-database-entity-sequence-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam {
+    ActorBackgroundColor red
+    ActorBorderColor blue
+    BoundaryBackgroundColor #de935f
+    BoundaryBorderColor #f5871f
+    ControlBackgroundColor #b5bd68
+    ControlBorderColor #718c00
+    DatabaseBackgroundColor #8abeb7
+    DatabaseBorderColor #3e999f
+    EntityBackgroundColor #81a2be
+    EntityBorderColor #4271ae
+}
+boundary boundary
+control control
+database database
+entity entity
+actor actor
+collections collections
+@enduml

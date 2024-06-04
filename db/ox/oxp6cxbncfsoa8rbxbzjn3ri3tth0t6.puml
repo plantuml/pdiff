@@ -1,0 +1,15 @@
+{
+  "sha1": "oxp6cxbncfsoa8rbxbzjn3ri3tth0t6",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.404Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob
+alt successful case
+    Bob -> Alice
+else Another type of failure and more to do for Alice and Bob and the logging system
+   Bob -> Alice
+end
+@enduml

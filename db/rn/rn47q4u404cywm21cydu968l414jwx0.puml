@@ -1,0 +1,16 @@
+{
+  "sha1": "rn47q4u404cywm21cydu968l414jwx0",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.019Z",
+    "url": "http://forum.plantuml.net/7024/simplier-way-to-deactivate-lifeline-without-return-message",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autoactivate on
+
+Alice -> Bob : msg1
+deactivate
+Alice -> Bob : msg2
+deactivate
+@enduml

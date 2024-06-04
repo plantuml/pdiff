@@ -1,0 +1,13 @@
+{
+  "sha1": "s23t9bfnnyfn0biwg78c30w30orvpoo",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.609Z",
+    "url": "http://forum.plantuml.net/6790/any-way-to-specify-arrow-head-tail-labels",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant foo
+participant dummy
+foo "1" -> "*" dummy : contains
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "rbrwhjmy0y5jeotzqlantqo679echhe",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.553Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam classBorderThickness<<stereo>> 5
+class A <<stereo>>
+class B
+@enduml

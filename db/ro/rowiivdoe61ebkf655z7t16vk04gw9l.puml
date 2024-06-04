@@ -1,0 +1,20 @@
+{
+  "sha1": "rowiivdoe61ebkf655z7t16vk04gw9l",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.115Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!$a = "foo"
+Alice -> Bob : $a
+!ifdef $a
+Alice -> Bob : a is defined. ok
+!endif
+!ifdef $b
+Alice -> Bob : b is defined. not ok
+!else
+Alice -> Bob : b is not defined. ok
+!endif
+@enduml

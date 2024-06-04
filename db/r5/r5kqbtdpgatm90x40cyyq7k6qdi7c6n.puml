@@ -1,0 +1,15 @@
+{
+  "sha1": "r5kqbtdpgatm90x40cyyq7k6qdi7c6n",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.350Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+Title: sg dg sdf dfg df
+Subtitle: sdfsdfsdfsd
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+@enduml

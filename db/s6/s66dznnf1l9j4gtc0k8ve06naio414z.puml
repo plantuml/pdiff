@@ -1,0 +1,12 @@
+{
+  "sha1": "s66dznnf1l9j4gtc0k8ve06naio414z",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.704Z",
+    "url": "https://forum.plantuml.net/11806/dashed-arrow-also-the-close-comment-blocks-html-xml-markdown",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Alice
+Alice --_> Bob
+@enduml

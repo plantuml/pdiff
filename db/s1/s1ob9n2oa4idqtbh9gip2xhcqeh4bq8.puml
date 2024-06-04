@@ -1,0 +1,15 @@
+{
+  "sha1": "s1ob9n2oa4idqtbh9gip2xhcqeh4bq8",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.584Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startbpm
+:login;
+20:<+>
+:show new message1;
+30:<+>
+resume 20
+:show new task2;
+@endbpm

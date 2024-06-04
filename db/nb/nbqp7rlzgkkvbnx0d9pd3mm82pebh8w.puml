@@ -1,0 +1,15 @@
+{
+  "sha1": "nbqp7rlzgkkvbnx0d9pd3mm82pebh8w",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.400Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> "Bob\non 2 lines" : hello
+"Bob\non 2 lines" --> Alice : ok
+Alice -> "Castor doo()" as Castor : hello
+Castor --> Alice : ok
+Alice -> Castor2 as "Castor doo2()" : hello
+Castor2 --> Alice : ok
+@enduml

@@ -1,0 +1,28 @@
+{
+  "sha1": "tfuvjl2yz91hxbs0usuw44agbj6iaf6",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.176Z",
+    "url": "https://forum.plantuml.net/16971/how-can-apply-style-or-background-color-to-note-class-method",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+    note {
+        .faint {
+            BackgroundColor red
+        }
+    }
+</style>
+
+class A
+{
+   B()
+}
+
+note left of A::"B()"
+ test not red
+end note
+
+@enduml

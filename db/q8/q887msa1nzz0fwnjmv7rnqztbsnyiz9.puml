@@ -1,0 +1,20 @@
+{
+  "sha1": "q887msa1nzz0fwnjmv7rnqztbsnyiz9",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.513Z",
+    "url": "https://forum.plantuml.net/15606/activity-arrow-label-overlap-on-some-activity-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!t="this is t1\nthis is t2\nthis is t3\n"
+!z="this is z1\nthis is z2\nthis is z3\n"
+
+:end;
+repeat
+  :read data;
+  :generate diagrams;
+->t;
+repeat while (foo) is (z)
+stop
+@enduml

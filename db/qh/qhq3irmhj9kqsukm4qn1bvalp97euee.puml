@@ -1,0 +1,13 @@
+{
+  "sha1": "qhq3irmhj9kqsukm4qn1bvalp97euee",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.454Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice ->Bob: Hello
+Bob ->] : message1
+Alice ->] : This is a very long message
+Bob ->] : And this is even longer for the test
+@enduml

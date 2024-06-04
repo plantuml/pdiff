@@ -1,0 +1,16 @@
+{
+  "sha1": "p2iq3zowunu1ljqlw3u1fjys2xriy21",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.621Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace testNS {
+note as N1
+   test
+end note
+
+test .. N1
+}
+@enduml

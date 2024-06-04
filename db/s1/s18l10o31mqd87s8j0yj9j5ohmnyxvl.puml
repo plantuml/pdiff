@@ -1,0 +1,13 @@
+{
+  "sha1": "s18l10o31mqd87s8j0yj9j5ohmnyxvl",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.545Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+title foo
+skinparam backgroundColor red
+Bob -> Alice : hello
+@enduml

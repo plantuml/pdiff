@@ -1,0 +1,16 @@
+{
+  "sha1": "odd8ndqpv0xfqfd3x6t1whtyoklssbh",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.719Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcute
+group body {
+cheese color=BurlyWood  radius=100 start=270 end=360 position=70,100
+cheese color=BurlyWood  radius=50 start=90 end=270 position=50,50
+rectangle color=BurlyWood  dimension=20,100 position=50,0
+}
+rectangle color=black dimension=2,2
+body position=10,10
+@endcute

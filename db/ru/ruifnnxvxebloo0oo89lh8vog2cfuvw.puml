@@ -1,0 +1,18 @@
+{
+  "sha1": "ruifnnxvxebloo0oo89lh8vog2cfuvw",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.262Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Swimlane1|
+start
+partition Optional {
+    :Action1;
+    |Swimlane2|
+    :Action2;
+}
+
+stop
+@enduml

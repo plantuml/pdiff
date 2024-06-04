@@ -1,0 +1,17 @@
+{
+  "sha1": "orj3jvtbiq8bpxjvn5vjk5avmq18h3b",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.150Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam arrowColor red
+START
+REPEAT
+:hello world!;
+repeatwhile(condition on only one line)is(true or
+several lines)
+->[FALSE];
+STOP
+@enduml

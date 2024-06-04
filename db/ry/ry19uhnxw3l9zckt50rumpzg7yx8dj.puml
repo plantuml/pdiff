@@ -1,0 +1,11 @@
+{
+  "sha1": "ry19uhnxw3l9zckt50rumpzg7yx8dj",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.414Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Footer Footer
+User --> (Start the application)
+@enduml

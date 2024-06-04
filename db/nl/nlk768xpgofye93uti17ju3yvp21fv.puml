@@ -1,0 +1,24 @@
+{
+  "sha1": "nlk768xpgofye93uti17ju3yvp21fv",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.808Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam classAttributeIconSize 16
+skinparam classAttributeFontSize 16
+'skinparam classBackgroundColor #DFDCD3
+
+object "~#1: Person" as p1
+p1 : -String toto = "hello"
+p1 : #String toto = "hello"
+p1 : ~String toto = "hello"
+p1 : +String toto = "hello"
+
+object "~#1: Person" as p2
+
+p1 --> p2 : test
+
+@enduml

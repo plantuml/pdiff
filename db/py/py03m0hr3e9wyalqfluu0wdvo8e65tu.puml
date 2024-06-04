@@ -1,0 +1,25 @@
+{
+  "sha1": "py03m0hr3e9wyalqfluu0wdvo8e65tu",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.862Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+Bob -> Alice : hello
+Bob <- Alice : hello
+
+Bob ->> Alice : hello
+Bob <<- Alice : hello
+
+Bob --> Alice : hello
+Alice --> Bob : hello
+
+Bob -->> Alice : hello
+Alice -->> Bob : hello
+
+Bob -> Bob : Hello
+Bob --> Bob : Hello
+
+@enduml

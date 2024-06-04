@@ -1,0 +1,21 @@
+{
+  "sha1": "nknk4wc9iyw1w0ys37wnxzn5oj3343s",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.763Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam linetype ortho
+[*] --> NotShooting
+
+state NotShooting begin
+  [*] --> Idle
+  Idle --> Configuring : EvConfig
+  Configuring --> Idle : EvConfig
+end state
+
+NotShooting --> Shooting : EvShutterReleased
+Shooting --> NotShooting : EvShutterHalf
+
+@enduml

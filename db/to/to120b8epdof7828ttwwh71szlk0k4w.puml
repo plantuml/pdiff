@@ -1,0 +1,30 @@
+{
+  "sha1": "to120b8epdof7828ttwwh71szlk0k4w",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.518Z",
+    "url": "http://forum.plantuml.net/6249/how-do-i-change-the-border-style-of-a-rectangle?show=6813#c6813",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam rectangle {
+    borderColor<<System Boundry>> Red
+    borderStyle<<System Boundry>> dashed
+    borderThickness<<System Boundry>> 1
+    roundCorner<<System Boundry>> 25
+    fontColor<<System Boundry>> #ababab
+    borderStyle dashed
+    roundCorner 25
+}
+
+rectangle blahblah as bb <<System Boundry>> {
+    rectangle "first" as fst <<System Boundry>> {
+        rectangle third
+        (forth)
+        rectangle fifth <<System Boundry>>
+    }
+    rectangle "second" as scnd
+    fst -> scnd
+
+}
+@enduml

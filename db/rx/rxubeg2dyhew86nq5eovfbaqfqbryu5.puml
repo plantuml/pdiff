@@ -1,0 +1,32 @@
+{
+  "sha1": "rxubeg2dyhew86nq5eovfbaqfqbryu5",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.406Z",
+    "url": "https://forum.plantuml.net/11184/ifelse-and-swimlanes-seems-to-break-logic",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam monochrome true
+title Swim Lane Issue
+|low|
+start
+:something Received;
+if (doe) then (yes)
+    :log ;
+elseif (rae) then (yes)
+    :log ;
+elseif (me) then (yes)
+|Middle|
+    :log ;
+elseif (fa) then (no)
+|Low|
+    :log ;
+elseif (lah?) then (Yes)
+    :log ;
+else (dee)
+|High|
+    :Hello World;
+endif
+end
+@enduml

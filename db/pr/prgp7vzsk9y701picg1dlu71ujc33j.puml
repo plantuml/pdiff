@@ -1,0 +1,13 @@
+{
+  "sha1": "prgp7vzsk9y701picg1dlu71ujc33j",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.618Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1574",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob : --stricken-out--
+Alice -> Bob : --strickenout--
+Alice -> Bob : --strickenout-- text
+@enduml

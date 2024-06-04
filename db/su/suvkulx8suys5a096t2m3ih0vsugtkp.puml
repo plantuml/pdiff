@@ -1,0 +1,18 @@
+{
+  "sha1": "suvkulx8suys5a096t2m3ih0vsugtkp",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.514Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set namespaceSeparator .
+namespace classic.collections {
+Object <|-- ArrayList
+}
+
+namespace net.sourceforge.plantuml {
+class ArrayList
+classic.collections.ArrayList <|-- ArrayList
+}
+@enduml

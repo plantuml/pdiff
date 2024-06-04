@@ -1,0 +1,23 @@
+{
+  "sha1": "nqrwkle2yc9w5czvcn7tucjva4ys0ay",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.958Z",
+    "url": "http://forum.plantuml.net/8701/skinparam-defaulttextalignment-center-does-elseif-boxes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultTextAlignment center
+start
+if (condition A \n or \n condition E) then (true)
+:do something;
+elseif (condition B)
+:do something else;
+endif
+if (condition C \n or \n condition F) then (true)
+:do something again;
+else (false)
+:do another thing;
+endif
+end
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "s8pr7gowi650v1gs6j0snfqrkifojbe",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.784Z",
+    "url": "https://forum.plantuml.net/13091/differences-between-outputs-arrowlollipopcolor-component",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 2
+skinparam ArrowLollipopColor yellow
+skinparam BackgroundColor grey
+
+[foo]
+[bar]
+foo -(0)- bar
+foo -0)- bar
+foo -(0- bar
+@enduml

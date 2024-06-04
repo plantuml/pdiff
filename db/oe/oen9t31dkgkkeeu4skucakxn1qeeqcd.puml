@@ -1,0 +1,29 @@
+{
+  "sha1": "oen9t31dkgkkeeu4skucakxn1qeeqcd",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.791Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (isForwarded?) then (when no)
+    if (continue processing?) then (when yes)
+       :foo;
+       note left
+         --titre--
+         foo
+         __titre2__
+         * foo1
+         * foo2
+         * foo3
+         ====
+         This //is// creole
+       end note
+    endif
+    :A;
+endif
+:==bareB1==;
+:FIN;
+stop
+@enduml

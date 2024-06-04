@@ -1,0 +1,26 @@
+{
+  "sha1": "t245ejo6khu5y7yzktrwmm33hg0onj2",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.712Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwire
+*DDR3L
+
+*SLC_NAND
+	*a [30x30]
+	*b [30x30]
+	*c [30x30]
+	
+*SLC_NAND_2
+	*a [30x30]
+
+	*b
+		*b01
+		*b02
+		*b03
+	
+	*c [30x30]
+	
+@endwire

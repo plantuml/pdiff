@@ -1,0 +1,18 @@
+{
+  "sha1": "szlggnuna5doyfyvyklzb3j8b2y4tg3",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.630Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam usecaseBackgroundColor<<A>> BlanchedAlmond
+skinparam actorBackgroundColor<<A>> Black
+
+actor ac1 <<A>>
+usecase UC1 <<A>>
+:ac1: --> (UC1)
+:ac2: --> (UC2)
+
+@enduml  

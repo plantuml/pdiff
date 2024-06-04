@@ -1,0 +1,13 @@
+{
+  "sha1": "qe7ebviffrqflfnx0ifhn67njl5w0b2",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.334Z",
+    "url": "http://forum.plantuml.net/9421/arrow-inversion-with-skinparam-linetype-ortho-missing-arrow?show=9421#q9421",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Forum
+class Topic
+Forum *--|> Topic
+@enduml

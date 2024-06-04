@@ -1,0 +1,28 @@
+{
+  "sha1": "seak3shdfk3ow627uturyd6fzznu2e5",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.023Z",
+    "url": "https://forum.plantuml.net/17587/notes-linked-to-messages-in-sequence-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+note {
+  BackgroundColor: red;
+}
+</style>
+
+participant A
+participant B
+
+A -> B: hi
+B -> A : hello
+
+note <<red>> left
+something
+end note
+
+
+@enduml

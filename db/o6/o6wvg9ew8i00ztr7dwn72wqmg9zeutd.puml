@@ -1,0 +1,15 @@
+{
+  "sha1": "o6wvg9ew8i00ztr7dwn72wqmg9zeutd",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.451Z",
+    "url": "http://forum.plantuml.net/7485/diagonal-corner",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam rectangle {
+    DiagonalCorner 10
+    BorderColor Red
+}
+rectangle rec
+@enduml

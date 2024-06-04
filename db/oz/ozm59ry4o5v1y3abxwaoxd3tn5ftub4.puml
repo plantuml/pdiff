@@ -1,0 +1,11 @@
+{
+  "sha1": "ozm59ry4o5v1y3abxwaoxd3tn5ftub4",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.491Z",
+    "url": "https://forum.plantuml.net/12578/svg-in-img-do-not-render?show=12931#a12931",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "<img:https://upload.wikimedia.org/wikipedia/commons/8/8c/SVG_logo_h.svg>" as foo
+@enduml

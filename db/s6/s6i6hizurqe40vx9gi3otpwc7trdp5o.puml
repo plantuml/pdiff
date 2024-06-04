@@ -1,0 +1,27 @@
+{
+  "sha1": "s6i6hizurqe40vx9gi3otpwc7trdp5o",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.716Z",
+    "url": "https://forum.plantuml.net/18163/no-colored-border-on-state-start-end",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+stateDiagram {
+  end, start, state {
+    LineColor #blue
+    BackgroundColor #red
+  }
+}
+</style>
+
+state s <<start>>
+state e <<end>>
+
+state a as "a" #white {
+}
+
+s -> a: no blue border on
+a -> e: no blue border on
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "r48fgou43wsznwrd6lnic1w4jvxi5ov",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.322Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide footbox
+start
+:toto;
+@enduml

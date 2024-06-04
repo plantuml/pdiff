@@ -1,0 +1,18 @@
+{
+  "sha1": "tiq31b97qnfhmzjq4zv2gkvenvlu3a3",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.286Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam SequenceGroupHeaderFontColor red
+skinparam SequenceGroupFontColor green
+skinparam SequenceGroupBodyBackgroundColor yellow
+'skinparam SequenceGroupFontStyle italic
+'skinparam SequenceGroupHeaderFontStyle italic
+loop forever
+	A -> B: ping
+	B -> A: pong
+end
+@enduml

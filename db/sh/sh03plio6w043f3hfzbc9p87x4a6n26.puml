@@ -1,0 +1,34 @@
+{
+  "sha1": "sh03plio6w043f3hfzbc9p87x4a6n26",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.091Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+'skinparam backgroundColor red
+skinparam package {
+  fontColor blue
+  stereotypeFontColor red
+}
+skinparam package<<Layout>> {
+  borderColor Transparent
+  backgroundColor Transparent
+  fontColor Transparent
+  stereotypeFontColor Transparent
+}
+
+package p1 <<Dummy>> {
+class Foo1 <<Other>>
+}
+
+package p2 <<Layout>> {
+class Foo2
+}
+
+package p3 <<Dummy>> {
+}
+
+
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "r8ll2t0uz6ddvvegy4di56ogm1lekt",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.448Z",
+    "url": "https://github.com/plantuml/plantuml/issues/134",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Alice->Bob:m1
+Bob->Charlie:m2
+note across
+this default
+on several lines
+end note
+Bob->Alice
+@enduml

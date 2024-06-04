@@ -1,0 +1,17 @@
+{
+  "sha1": "o9mo6ylcxaoo6noyq1ztlx8s60z1pnk",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.587Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant "FlexPro" as fp
+participant "EP" as ep
+participant "TGB" as tgb
+
+loop 3 times
+ep->tgb: Binding
+tgb-->ep: ACK
+end
+@enduml

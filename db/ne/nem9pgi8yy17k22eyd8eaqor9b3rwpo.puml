@@ -1,0 +1,57 @@
+{
+  "sha1": "nem9pgi8yy17k22eyd8eaqor9b3rwpo",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.518Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Channels|
+|ODS|
+|GHS|
+|Other  Legacy Systems| 
+|Custom GL Pre-Processor|
+|CHS|
+|CHS-GL|
+|EIG|
+|Oracle GL|
+|Channels|
+:Customer Transaction]
+|ODS|
+:Transaction Types/
+|CHS|
+split
+:Update Customer Accounts;
+|CHS-GL|
+:Accounting Treatment (Walker CoA);
+|EIG|
+:Walker to Oracle CoA Mapping;
+|Oracle GL|
+:Journal Posting (Oracle CoA);
+|GHS|
+split again
+:Update Customer Accounts;
+|Custom GL Pre-Processor|
+:Accounting Treatment (Walker CoA);
+|EIG|
+:Walker to Oracle CoA Mapping;
+|Oracle GL|
+:Journal Posting (Oracle CoA);
+|GHS|
+split again
+:Update Customer Accounts;
+|Custom GL Pre-Processor|
+:Accounting Treatment (Walker CoA);
+|EIG|
+:Walker to Oracle CoA Mapping;
+|Oracle GL|
+:Journal Posting (Oracle CoA);
+|Custom GL Pre-Processor|
+split again
+:Accounting Treatment (Walker CoA);
+|EIG|
+:Walker to Oracle CoA Mapping;
+|Oracle GL|
+:Journal Posting (Oracle CoA);
+end split
+@enduml

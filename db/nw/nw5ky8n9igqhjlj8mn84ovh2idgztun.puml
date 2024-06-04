@@ -1,0 +1,17 @@
+{
+  "sha1": "nw5ky8n9igqhjlj8mn84ovh2idgztun",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.125Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[->> A: found message with left note
+note left #FFCCCC: left note 1
+[->> A: found message with right note
+note right #77FF77: right note 2
+A ->]: lost message with left note
+note left #FFCCCC: left note 3
+A ->]: lost message with right note
+note right #FFCCCC: right note 4
+@enduml

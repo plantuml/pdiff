@@ -1,0 +1,10 @@
+{
+  "sha1": "ooup3ilu8hlqcki84ggxhkjgi1u2en2",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.056Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class  AvailabilityCheckRequestor << Singleton >>  << Startup >>  << Stateless Session Bean >>
+@enduml 

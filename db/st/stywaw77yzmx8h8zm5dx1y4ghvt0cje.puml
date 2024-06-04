@@ -1,0 +1,22 @@
+{
+  "sha1": "stywaw77yzmx8h8zm5dx1y4ghvt0cje",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.472Z",
+    "url": "https://forum.plantuml.net/10143/style-beta-user-defined-style-not-working-for-mindmaps",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor Red
+    }
+    .lol {
+        BackgroundColor Green
+    }
+}
+</style>
+* root
+** not root <<lol>>
+@endmindmap

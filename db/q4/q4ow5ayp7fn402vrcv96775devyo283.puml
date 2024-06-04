@@ -1,0 +1,30 @@
+{
+  "sha1": "q4ow5ayp7fn402vrcv96775devyo283",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.050Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+'http://click.sourceforge.net/images/activity-diagram-small.png
+title Servlet Container
+
+(*) --> "ClickServlet.handleRequest()"
+--> "new Page"
+
+if "Page.onSecurityCheck" then
+  ->[true] "Page.onInit()"
+  
+  if "isForward?" then
+   ->[no] "Process controls"
+  else
+   -->[yes] ===Y1===
+  endif
+  
+else
+  -->[false] ===Y2===
+endif
+
+
+@enduml

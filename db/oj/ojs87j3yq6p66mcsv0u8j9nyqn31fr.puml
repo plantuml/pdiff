@@ -1,0 +1,16 @@
+{
+  "sha1": "ojs87j3yq6p66mcsv0u8j9nyqn31fr",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.954Z",
+    "url": "http://forum.plantuml.net/9031/do-you-plan-for-conditional-code-in-macros?show=9167#a9167",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+!function $inc($value, $step)
+!return $value + 2*$step
+!endfunction
+
+Alice -> Bob : expeected 234 : $inc($inc(30, 2),100)
+@enduml

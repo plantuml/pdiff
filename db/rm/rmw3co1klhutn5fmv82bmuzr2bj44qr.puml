@@ -1,0 +1,13 @@
+{
+  "sha1": "rmw3co1klhutn5fmv82bmuzr2bj44qr",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.011Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+Title : Single Item Booking with no payment
+User -> BB : Confirms checkout
+BB : Make Booking
+@enduml

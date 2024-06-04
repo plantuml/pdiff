@@ -1,0 +1,27 @@
+{
+  "sha1": "osj8ajr1pqwb5fegyy7o4atchb5907f",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.242Z",
+    "url": "https://forum.plantuml.net/17043/transparent-background-colours-on-alt-else-elements",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+<style>
+sequenceDiagram {
+    RoundCorner 30
+}
+</style>
+alt #00ff0080 successful case
+    Bob -> Alice: Authentication Accepted
+else #ff000080 Another type of failure
+   Bob -> Alice: Please repeat
+else #0000ff80 Another type of failure
+   Bob -> Alice: Please repeat
+else #0000ff80 Another type of failure
+   Bob -> Alice: Please repeat
+else #00ffff80 Another type of failure
+   Bob -> Alice: Please repeat
+end
+@enduml

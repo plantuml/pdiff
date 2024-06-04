@@ -1,0 +1,13 @@
+{
+  "sha1": "pigrykr8462u51gniuyv5mzpkk0xnmd",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.246Z",
+    "url": "https://github.com/plantuml/plantuml/issues/841",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+B1 -() A1
+B2 -() A1
+B2 -() A2
+@enduml

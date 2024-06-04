@@ -1,0 +1,19 @@
+{
+  "sha1": "swkc9iytc2fsozjw4c53h3kum2tjdpq",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.556Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+      network {
+        A [address = 192.168.0.1, description = "web server01"];
+        B [address = 192.168.0.2, description = "web server02"];
+      }
+      network {
+        A [address = 172.0.0.1];
+        C [address = 172.0.0.2, description = "database server"];
+      }
+}
+@enduml

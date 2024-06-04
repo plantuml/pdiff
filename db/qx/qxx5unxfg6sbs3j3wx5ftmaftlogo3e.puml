@@ -1,0 +1,22 @@
+{
+  "sha1": "qxx5unxfg6sbs3j3wx5ftmaftlogo3e",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.078Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam package {
+    backgroundColor Yellow
+    backgroundColor<<st>> LightBlue
+}
+package AA <<st>> {
+  [ZZ]
+}
+package BB {
+  [XX]
+}
+package CC {
+}
+package DD
+@enduml

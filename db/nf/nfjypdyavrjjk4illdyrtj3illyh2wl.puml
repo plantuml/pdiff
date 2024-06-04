@@ -1,0 +1,21 @@
+{
+  "sha1": "nfjypdyavrjjk4illdyrtj3illyh2wl",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.539Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+title Show Odd Formatting of Starting Point with Loops
+
+(*top) -> "Refresh Browser" as refreshBrowser
+refreshBrowser --> "Show Page 1" as page1
+page1 --> "Show Page 2" as page2
+page2 --> "Show Page 3" as page3
+page3 --> "Show Page 4" as page4
+page4 --> "Show Page 5" as page5
+page5 --> "Show Page 6" as page6
+page6 -->refreshBrowser
+
+@enduml

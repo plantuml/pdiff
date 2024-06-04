@@ -1,0 +1,14 @@
+{
+  "sha1": "vgg4mpfgej6cnxzp96pnbuh6w2sz30",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.887Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{
+  Login<&person> | "MyName   "
+  Password<&key> | "****     "
+  [Cancel <&circle-x>] | [OK <&account-login>]
+}
+@endsalt

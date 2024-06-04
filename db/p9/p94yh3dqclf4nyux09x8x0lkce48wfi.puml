@@ -1,0 +1,26 @@
+{
+  "sha1": "p94yh3dqclf4nyux09x8x0lkce48wfi",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.811Z",
+    "url": "http://blockdiag.com/en/nwdiag/nwdiag-examples.html",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+  network dmz {
+      address = "210.x.x.x/24"
+
+      web01 [address = "210.x.x.1"];
+      web02 [address = "210.x.x.2"];
+  }
+  network internal {
+      address = "172.x.x.x/24";
+
+      web01 [address = "172.x.x.1"];
+      web02 [address = "172.x.x.2"];
+      db01;
+      db02;
+  }
+}
+@enduml

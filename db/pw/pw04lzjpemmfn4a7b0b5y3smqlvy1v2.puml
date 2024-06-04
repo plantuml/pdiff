@@ -1,0 +1,20 @@
+{
+  "sha1": "pw04lzjpemmfn4a7b0b5y3smqlvy1v2",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.782Z",
+    "url": "https://forum.plantuml.net/13622/style-allow-fontcolor-transparent-or-%2300000000-on-svg",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+card {
+    FontColor transparent
+}
+node {
+    FontColor #00000000
+}
+</style>
+card card
+node node
+@enduml

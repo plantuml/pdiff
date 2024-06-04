@@ -1,0 +1,11 @@
+{
+  "sha1": "nv31t58h0530pv95tv9b062gog8s2kl",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.089Z",
+    "url": "https://forum.plantuml.net/16750/ebnf-allow-full-repetition-management-with-repetition-symbol",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+Fortran_77_continuation_line = 5 * " ",  '[...]', 66 * [character];
+@endebnf

@@ -1,0 +1,69 @@
+{
+  "sha1": "ogcghpsjar57ds2mm6ilstisxmittn8",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.835Z",
+    "url": "https://forum.plantuml.net/11010/activity-diagram-swimlanes-generates-diagram-whitespace",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|#AntiqueWhite|Actor A|
+|Actor B|
+|#AntiqueWhite|Actor C|
+
+|Actor A|
+(B)
+:Some random action;
+
+split
+        |Actor A|
+        if (Some condition shown here) then (no)
+                :Some random action;
+                
+                :Some random action;
+                end;
+        else
+                :Some random action;
+                detach;
+        endif;
+split again
+        |Actor B|
+        :Some random action;
+
+        |Actor C|
+        :Some random action;
+        
+        :Some random action;
+
+        :Some random action;
+
+        |Actor B|
+        :Some random action;
+
+        |Actor A|
+        :Some random action;
+
+        |Actor B|
+        :Some random action;
+
+        |Actor C|
+        if (Test condition) then (yes)
+                if (Some other condition) then (true)
+                        |Actor B|
+                        :Some random action;
+                        |Actor A|
+                        :Some random action;
+                else (false)
+                        |Actor C|
+                        :Some random action;
+                endif
+                
+        else (otherwise)
+                :Some random action;
+                end;
+        endif
+
+end split
+
+:TODO TODO TODO;
+@enduml

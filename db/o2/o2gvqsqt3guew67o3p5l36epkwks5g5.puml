@@ -1,0 +1,10 @@
+{
+  "sha1": "o2gvqsqt3guew67o3p5l36epkwks5g5",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.261Z",
+    "url": "https://forum.plantuml.net/12176/gantt-aliases-differently-other-diagrams-possible-same-label",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+@enduml

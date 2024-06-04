@@ -1,0 +1,13 @@
+{
+  "sha1": "pfksp10208d542utm6a37gbqfjvspwg",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.127Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1448#issuecomment-1820720969",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startfiles
+/tests/__init_file__.py
+/tests/~__init_file__.py
+
+@endfiles

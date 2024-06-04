@@ -1,0 +1,16 @@
+{
+  "sha1": "p8u7cnss9xu2xf7i7i8f97x5ex64r7x",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.790Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package foo1 [
+  text containing \n description of foo
+]
+
+package foo2 [
+  = Creole heading
+]
+@enduml

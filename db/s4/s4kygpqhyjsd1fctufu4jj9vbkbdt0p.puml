@@ -1,0 +1,22 @@
+{
+  "sha1": "s4kygpqhyjsd1fctufu4jj9vbkbdt0p",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.658Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam padding 15
+start
+repeat :foo as starting label;  
+  :read data;  
+  :generate diagrams;  
+backward:This is backward;  
+repeat while (more data?)  
+ 
+if (Is daytime?) then (no) 
+ : Go To Sleep;
+ else (yes)
+endif
+stop
+@enduml

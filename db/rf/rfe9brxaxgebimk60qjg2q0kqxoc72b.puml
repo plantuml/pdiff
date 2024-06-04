@@ -1,0 +1,62 @@
+{
+  "sha1": "rfe9brxaxgebimk60qjg2q0kqxoc72b",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.730Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+SWMAG ->  SwmagHandler: evDownloadSWReq
+alt if RET
+    SwmagHandler -> AntennaConfigurationData : evWriteParameterToXml
+end
+
+create FilesToDeviceDownloader
+SwmagHandler  -> FilesToDeviceDownloader : new
+SwmagHandler  -> FilesToDeviceDownloader : startFilesDownload()
+
+
+FilesToDeviceDownloader -> HDLCLayer : evDownloadStart
+HDLCLayer -> FilesToDeviceDownloader : evDownloadStart
+
+alt evDownloadStart.params == false
+
+    FilesToDeviceDownloader -> SWMAG : evDownloadSWReply(fail)
+
+else
+
+    loop for each fileList element
+        FilesToDeviceDownloader -> FilesToDeviceDownloader : getDataToSend()
+        FilesToDeviceDownloader -> HDLCLayer : evDownloadApplication
+        HDLCLayer -> FilesToDeviceDownloader : evDownloadApplication
+        alt evDownloadApplication.params == fail
+            FilesToDeviceDownloader -> SWMAG : evDownloadSWReply(fail)
+        else evDownloadApplication.params == busy
+            loop 10 times
+                FilesToDeviceDownloader -> HDLCLayer : evDownloadApplication
+                HDLCLayer -> FilesToDeviceDownloader : evDownloadApplication
+                alt evDownloadApplication.params == ok
+                    break
+                end
+            end
+
+        else
+            FilesToDeviceDownloader -> HDLCLayer : evDownloadEnd
+            HDLCLayer -> FilesToDeviceDownloader : evDownloadEnd
+            alt evDownloadEnd.params == fail
+                FilesToDeviceDownloader -> SWMAG : evDownloadSWReply(fail)
+            else
+                 FilesToDeviceDownloader -> SWMAG : evDownloadSWReply(ok)
+            end
+            SWMAG -> SwmagHandler : evSetALDSWVersionReq
+            SwmagHandler -> HDLCLayer : evWriteUserData
+            HDLCLayer -> SwmagHandler : evWriteUserData
+            alt evWriteUserData.params == fail
+                SwmagHandler -> SWMAG : evSetALDSWVersionReply(fail)
+            else
+                SwmagHandler -> SWMAG : evSetALDSWVersionReply(ok)
+            end
+        end
+    end
+end
+@enduml

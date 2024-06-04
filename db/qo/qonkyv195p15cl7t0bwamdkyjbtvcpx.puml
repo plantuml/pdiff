@@ -1,0 +1,29 @@
+{
+  "sha1": "qonkyv195p15cl7t0bwamdkyjbtvcpx",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.722Z",
+    "url": "http://forum.plantuml.net/8179/allow-turn-on-off-shadowing-for-elements-with-stereotypes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam rectangle<<boundary>> {
+  shadowing false
+  borderStyle dashed
+  backgroundColor whitesmoke
+}
+
+skinparam rectangle<<package>> {
+  shadowing true
+  borderStyle solid
+  backgroundColor azure
+}
+
+hide <<package>> stereotype
+hide <<boundary>> stereotype
+
+rectangle "Packages Boundary" <<boundary>> {
+  rectangle "Package A" <<package>>
+  rectangle "Package B" <<package>>
+}
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "s0v7hzvzih9hwmodgzknoq4qegnaw50",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.531Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=6441/component-diagram-shifted-and-rounded-arrows",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+[A] - interface
+[B] ..> interface : use
+@enduml

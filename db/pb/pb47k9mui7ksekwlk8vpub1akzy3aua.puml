@@ -1,0 +1,19 @@
+{
+  "sha1": "pb47k9mui7ksekwlk8vpub1akzy3aua",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.923Z",
+    "url": "https://forum.plantuml.net/11852/controlling-precision-of-generated-floats-in-svg",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts the 20th of september 2018
+Saturdays are closed
+Sundays are closed
+2018-09-21 to 2018-09-25 are colored in salmon
+2018-09-21 to 2018-09-30 are named [Vacation in the Bahamas]
+
+today is 30 days after start and is colored in #AAF
+[Foo] happens 40 days after start
+[Dummy] lasts 10 days and starts 10 days after start
+@endgantt

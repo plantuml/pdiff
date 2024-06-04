@@ -1,0 +1,16 @@
+{
+  "sha1": "tabxlcrxjsmogjappudnheh8l01bgl9",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.993Z",
+    "url": "https://forum.plantuml.net/15660/composete-diagram-unsupportedoperationexception-smetana",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+[*] -> State1
+state A {
+    State1 -> State2 : auto
+    State1 <- State2
+}
+@enduml

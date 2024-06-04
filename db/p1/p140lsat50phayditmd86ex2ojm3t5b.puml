@@ -1,0 +1,27 @@
+{
+  "sha1": "p140lsat50phayditmd86ex2ojm3t5b",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.544Z",
+    "url": "https://forum.plantuml.net/11937/add-ability-to-contol-placement-constraint-timing-diagram?show=14671#c14671",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust R
+@0
+R is 0
+@1
+R is 1
+@2
+R is 0
+@3
+R is 1
+@5
+R is 0
+@10
+R is 1
+
+R@0 <-> @2 : {A long label}
+R@2 <-> @5 : {Another long label}
+R@5 <-> @10 : {Another long label}
+@enduml

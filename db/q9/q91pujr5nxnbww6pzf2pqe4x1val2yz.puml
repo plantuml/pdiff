@@ -1,0 +1,19 @@
+{
+  "sha1": "q91pujr5nxnbww6pzf2pqe4x1val2yz",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.159Z",
+    "url": "http://forum.plantuml.net/6817/java-lang-illegalargumentexception",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam groupInheritance 3
+
+Group <|-- PLACEHOLDER
+Group <|-- Events
+Group <|-- Travels
+
+hide PLACEHOLDER
+
+@enduml

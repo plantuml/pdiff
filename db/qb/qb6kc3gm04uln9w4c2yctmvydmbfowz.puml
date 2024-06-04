@@ -1,0 +1,15 @@
+{
+  "sha1": "qb6kc3gm04uln9w4c2yctmvydmbfowz",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.220Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+interface MyInterface {
+}
+
+abstract class AbstractList {
++counter : string
+}
+@enduml

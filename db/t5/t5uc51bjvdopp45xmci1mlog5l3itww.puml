@@ -1,0 +1,26 @@
+{
+  "sha1": "t5uc51bjvdopp45xmci1mlog5l3itww",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.803Z",
+    "url": "https://forum.plantuml.net/9722/repeat-condition-in-wrong-swimline",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|actorA|
+Start
+:activity1;
+repeat
+    :activity2;
+|actorB|
+  :activity5;
+if (ifcond1) then
+  stop
+else
+|actorC|
+  :activity6;
+endif
+'|actorC| 'Doesn't help to get repeatcond2 into actorC swimlane
+  repeat while (repeatcond2)
+  end
+@enduml

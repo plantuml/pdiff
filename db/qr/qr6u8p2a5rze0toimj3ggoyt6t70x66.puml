@@ -1,0 +1,28 @@
+{
+  "sha1": "qr6u8p2a5rze0toimj3ggoyt6t70x66",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.827Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|S1|
+split
+:K1_S1;
+split again
+|S2|
+:K1_S2;
+split again
+|S3|
+:K1_S3;
+split again
+|S1|
+:K2_S1;
+split again
+|S2|
+:K2_S2;
+split again
+|S3|
+:K2_S3;
+end split
+@enduml

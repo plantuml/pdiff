@@ -1,0 +1,27 @@
+{
+  "sha1": "ttq2uzbybjp69gfdkz76wnoy9ei8f4c",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.717Z",
+    "url": "https://the-lum.github.io/puml-themes-gallery/#aws-orange",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+cloud, database {
+	FontColor #?black:white
+}
+
+cloud {
+	BackgroundColor black
+}
+
+database {
+	BackgroundColor white
+}
+</style>
+
+cloud cloud
+database database
+@enduml

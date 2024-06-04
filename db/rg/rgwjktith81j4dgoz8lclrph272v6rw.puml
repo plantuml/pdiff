@@ -1,0 +1,17 @@
+{
+  "sha1": "rgwjktith81j4dgoz8lclrph272v6rw",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.819Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+skinparam StateFontColor white
+skinparam StateBorderColor white
+skinparam StateBackgroundColor gray
+skinparam BackgroundColor gray
+state "Any Page" as s1 {
+   state "Using the text\nsearch input" as s2
+}
+@enduml

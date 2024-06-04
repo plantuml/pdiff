@@ -1,0 +1,28 @@
+{
+  "sha1": "pjamgnw5iowlfhi8k7a6nzt68hx724d",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.286Z",
+    "url": "https://forum.plantuml.net/11052/remove-unlinked-components",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+package a {
+component foo1
+component foo2
+component foo3
+}
+component unlinked
+component dummy
+
+foo1 -- foo2
+unlinked -- dummy
+
+'Here we remove all components that are unlinked
+remove @unlinked
+
+'Here we remove the component which name is "unlinked"
+remove unlinked
+
+@enduml

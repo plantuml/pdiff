@@ -1,0 +1,21 @@
+{
+  "sha1": "qcneepyqv9qkasxo1p8otit1o43i67a",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.259Z",
+    "url": "https://forum.plantuml.net/13336/inline-style-manage-dashed-dotted-nested-element-deployment?show=13540#c13540",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+</style>
+title style
+node node #aliceblue;line:blue;line.dotted;text:blue {
+}
+package package #aliceblue;line:blue;line.dotted;text:blue {
+}
+queue queue #aliceblue;line:blue;line.dotted;text:blue {
+}
+rectangle rectangle #aliceblue;line:blue;line.dotted;text:blue {
+}
+@enduml

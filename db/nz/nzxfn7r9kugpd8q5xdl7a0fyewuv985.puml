@@ -1,0 +1,44 @@
+{
+  "sha1": "nzxfn7r9kugpd8q5xdl7a0fyewuv985",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.212Z",
+    "url": "https://forum.plantuml.net/11657/test-open-discussion-about-transparency-comparison-between",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skinparam Backgroundcolor palegreen
+'skinparam Backgroundcolor transparent
+
+'skinparam nodeBackgroundColor #FEFECE
+'skinparam cloudBackgroundColor transparent
+'skinparam fileBackgroundColor #FEFECE
+
+
+<style>
+document {
+  backgroundColor red
+}
+element {
+  backgroundColor green
+}
+group {
+  backgroundColor blue
+}
+</style>
+
+node n0
+
+node n_level_1 {
+node nn
+cloud nc
+node n_level_2 {
+}
+}
+
+file f_level_1 {
+file f1
+file f2 {
+}
+}
+@enduml

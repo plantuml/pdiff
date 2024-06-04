@@ -1,0 +1,17 @@
+{
+  "sha1": "rnfcvs3ktq2onb1iajy8u7j4915hwqp",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.032Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+{+
+{/ General | <b>Fullscreen | Behavior | Saving }
+{
+	{ Show next images after (in seconds): | "5  " }
+	[X] Always expand images to fit screen
+}
+[Close]
+}
+@endsalt

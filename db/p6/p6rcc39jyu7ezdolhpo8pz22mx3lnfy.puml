@@ -1,0 +1,21 @@
+{
+  "sha1": "p6rcc39jyu7ezdolhpo8pz22mx3lnfy",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.665Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1575",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+legend
+    Example of simple table
+    |= |= table |= header |
+    | a | table | row |
+    | b | table | row |
+end legend
+
+foo -> bar: vers
+
+@enduml

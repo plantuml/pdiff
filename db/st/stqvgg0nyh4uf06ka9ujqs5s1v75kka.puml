@@ -1,0 +1,61 @@
+{
+  "sha1": "stqvgg0nyh4uf06ka9ujqs5s1v75kka",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.452Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!definelong someFunc
+                partition dummy {
+                note right
+                    2. **NO ARROW COLORING**
+                    if function is empty
+                    Uncomment the line "some activity"
+                    and the coloring will appear
+                end note
+'                    :some activity;
+                }
+            !enddefinelong
+
+             skinparam colorArrowSeparationSpace 1
+
+            start
+             
+            -[#red;#green;#orange;#blue]->
+            if(e?)then(yes)
+                -[#green]->
+                if(c?)then(yes)
+                    -[#maroon,dashed]->
+                else(no:\n1. ONLY BLUE ARROW below\n**Should be 2 arrows**)
+                    -[#green;#blue]->
+                if(d?)then(yes)
+                    -[#maroon,dashed]->
+                else(no)
+                    -[#green]->
+                    :do something}                                        
+                    -[#green]->
+                endif
+                -[#green;#maroon,dashed]->
+
+                someFunc()
+
+                -[#green;#maroon,dashed]->                
+                endif
+                -[#green;#maroon,dashed]->
+            
+            elseif(f?)then(yes)
+                -[#orange]->
+                :activity}
+                -[#orange]->
+            else(no)
+            endif
+
+        stop
+
+    legend left
+        **Issues 1 and 2** are explained in the diagram
+        **Issue 3:** probably there should not be multi arrows between elseifs,
+        though multi arrows should still present before the if (as it is on screen)
+    endlegend
+@enduml

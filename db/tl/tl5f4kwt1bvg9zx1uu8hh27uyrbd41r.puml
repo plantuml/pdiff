@@ -1,0 +1,14 @@
+{
+  "sha1": "tl5f4kwt1bvg9zx1uu8hh27uyrbd41r",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.381Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+alt successful case
+    Bob->Alice: Authentication Accepted
+else some kind of failure
+    Bob->Alice: Authentication
+end
+@enduml

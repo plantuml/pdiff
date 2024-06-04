@@ -1,0 +1,16 @@
+{
+  "sha1": "r5uag7j1yap0f4ie1x4jvbibt9otg3d",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.356Z",
+    "url": "https://forum.plantuml.net/17457/together-group-as-group-fails-since-plantuml-1-2023-0-jar",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+together  {
+	rectangle "A" as A #White{
+        }
+	rectangle "B" as B #White{
+        }
+}
+@enduml

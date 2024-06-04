@@ -1,0 +1,15 @@
+{
+  "sha1": "tocea86lks848is9j03zjl9vgqx0l2c",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.537Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ParticipantPadding 30
+
+participant a
+create b
+a --> b : <<create>>
+
+@enduml

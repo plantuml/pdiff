@@ -1,0 +1,33 @@
+{
+  "sha1": "qe0tv0ushyx1snz1wt4kqwwmx6ms1m5",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.327Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam activityArrowColor green
+
+:start;
+partition foo {
+:exe1;
+if (test) then
+  :toto2;
+  fork
+    partition fork1 {
+      :some;
+    }
+  forkagain
+    :toto2;
+  endfork
+endif
+:other;
+}
+partition last {
+:stop ?;
+}
+partition last {
+stop
+}
+stop
+@enduml

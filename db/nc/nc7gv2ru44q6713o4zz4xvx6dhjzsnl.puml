@@ -1,0 +1,18 @@
+{
+  "sha1": "nc7gv2ru44q6713o4zz4xvx6dhjzsnl",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.415Z",
+    "url": "http://forum.plantuml.net/8575/add-option-to-hide-alias-on-folder-top-part",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultTextAlignment center
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+hide stereotype
+
+folder "==Static Content\n//<size:12>[File system]</size>//\n\n Serves static files from API website root" <<component>> as static
+package "==Static Content\n//<size:12>[File system]</size>//\n\n Serves static files from API website root" <<component>> as static2
+@enduml

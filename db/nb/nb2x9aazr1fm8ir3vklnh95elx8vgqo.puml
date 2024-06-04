@@ -1,0 +1,17 @@
+{
+  "sha1": "nb2x9aazr1fm8ir3vklnh95elx8vgqo",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.340Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+sprite SVG_WITH_BEZIER <svg width="12cm" height="6cm" viewBox="0 0 1200 600"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <path d="M200,300 Q400,50 600,300 T1000,300"
+        fill="none" stroke="red" stroke-width="5"  />
+</svg>
+
+Alice->Bob : <$SVG_WITH_BEZIER>
+
+@enduml

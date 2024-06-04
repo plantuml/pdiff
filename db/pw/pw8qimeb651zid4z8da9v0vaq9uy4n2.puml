@@ -1,0 +1,23 @@
+{
+  "sha1": "pw8qimeb651zid4z8da9v0vaq9uy4n2",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.788Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class My.Namespace.Person
+class My.Namespace.Meeting
+class Customer.Implementation.Namespace.Person
+My.Namespace.Person <|- Customer.Implementation.Namespace.Person
+Customer.Implementation.Namespace.Person : string CustomAttribute
+My.Namespace.Person : guid OID
+My.Namespace.Person : string FirstName
+My.Namespace.Person : string LastName
+My.Namespace.Person : boolean IsBirthday()
+My.Namespace.Meeting : guid OID
+My.Namespace.Meeting : guid PersonID
+
+My.Namespace.Person "1" *-- "many" My.Namespace.Meeting : <b>Person-Meeting</b>\nMeetings/Person\nFk=Meeting.PersonID
+
+@enduml

@@ -1,0 +1,32 @@
+{
+  "sha1": "t9wkufi4cntu5z1jv2x17pgjvpn1wso",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.977Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> "A"
+if "" then
+  -->[1] "D"
+  if "" then
+    -->[2]"asd"
+  else
+    -->[3]"F"
+    -->"XX
+        X"
+    --> (*)
+  endif
+else
+  -->[4] "H"
+  if "" then
+    -->[5] "J"
+    -->"XX
+        X"
+    --> (*)
+  else
+    -->[6] "K"
+    --> (*)
+  endif
+endif
+@enduml

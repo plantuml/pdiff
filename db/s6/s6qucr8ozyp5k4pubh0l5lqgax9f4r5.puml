@@ -1,0 +1,15 @@
+{
+  "sha1": "s6qucr8ozyp5k4pubh0l5lqgax9f4r5",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.729Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma useNewPackage
+namespace f1 {
+  namespace f2 {
+    class f3
+  }
+}
+@enduml

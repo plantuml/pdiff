@@ -1,0 +1,16 @@
+{
+  "sha1": "pch77nx1kfr0dxeju4mbglpi1tcltvf",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.981Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A->B : 1
+A->B : 2
+...foo...
+A->B : 3
+A->B : 4
+create C
+A->C
+@enduml

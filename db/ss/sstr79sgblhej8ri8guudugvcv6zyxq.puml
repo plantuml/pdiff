@@ -1,0 +1,22 @@
+{
+  "sha1": "sstr79sgblhej8ri8guudugvcv6zyxq",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.420Z",
+    "url": "http://forum.plantuml.net/6808/nested-ifdef-bug",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!define FILE_FORMAT_SVG 1
+
+!ifdef FILE_FORMAT_SVG
+title Test SVG
+!else
+!ifdef FILE_FORMAT_PNG 
+title Test PNG
+!else 
+title Test with unknown type
+!endif
+Bob -> Alice : hello
+@enduml

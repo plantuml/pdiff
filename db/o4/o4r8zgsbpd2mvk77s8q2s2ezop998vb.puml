@@ -1,0 +1,29 @@
+{
+  "sha1": "o4r8zgsbpd2mvk77s8q2s2ezop998vb",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.365Z",
+    "url": "https://github.com/plantuml/plantuml/discussions/882#discussioncomment-2055332",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+document {
+	backgroundColor: #EEE;
+}
+element {
+	backgroundColor: #F00;
+}
+
+@media (prefers-color-scheme:dark) {
+	document {
+		backgroundColor: #222;
+	}
+	element {
+		backgroundColor: #00F;
+	}
+}
+</style>
+
+Alice -> Bob
+@enduml

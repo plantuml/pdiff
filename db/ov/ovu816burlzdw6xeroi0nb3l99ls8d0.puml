@@ -1,0 +1,21 @@
+{
+  "sha1": "ovu816burlzdw6xeroi0nb3l99ls8d0",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.352Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:act1;
+partition P1 {
+    note left
+        This is note for P1
+        which is being over-drawed
+        by the arrow.
+    end note
+    :act2;
+    :act3;
+}
+stop
+@enduml

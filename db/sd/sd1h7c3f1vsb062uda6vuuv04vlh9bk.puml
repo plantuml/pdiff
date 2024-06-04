@@ -1,0 +1,14 @@
+{
+  "sha1": "sd1h7c3f1vsb062uda6vuuv04vlh9bk",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.992Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define TEST something
+a->b: test:\nTEST
+note right: The test is:\nTEST
+a->b: test:\n TEST
+note left: The test is:\n TEST 
+@enduml

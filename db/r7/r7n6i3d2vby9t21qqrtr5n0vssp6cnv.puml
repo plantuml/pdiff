@@ -1,0 +1,12 @@
+{
+  "sha1": "r7n6i3d2vby9t21qqrtr5n0vssp6cnv",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.408Z",
+    "url": "https://forum.plantuml.net/17007/how-we-can-disable-textlength-at-svg-generation",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+The textLength attribute causes Persian words does not render correctly in SVG previewers used
+
+@enduml

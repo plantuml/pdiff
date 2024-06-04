@@ -1,0 +1,26 @@
+{
+  "sha1": "pe3c9om5lozjo5svlobi3vh29v4m2mx",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.075Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam classAttributeIconSize 0
+class classe1
+classe1 : -field1
+classe1 : ~field2
+classe1 : field3
+classe1 : #field4
+classe1 : +field5
+
+classe1 : -method1()
+classe1 : ~method2()
+classe1 : method3()
+classe1 : #method4()
+classe1 : +method5()
+
+class class2 {
+  #foo
+}
+@enduml

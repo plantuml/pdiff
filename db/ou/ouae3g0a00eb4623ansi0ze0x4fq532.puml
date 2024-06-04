@@ -1,0 +1,14 @@
+{
+  "sha1": "ouae3g0a00eb4623ansi0ze0x4fq532",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.315Z",
+    "url": "http://forum.plantuml.net/7551/how-do-you-color-a-partition-in-new-activity-syntax",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:foo1;
+partition title2 #LightSkyBlue {
+:foo3;
+}
+@enduml

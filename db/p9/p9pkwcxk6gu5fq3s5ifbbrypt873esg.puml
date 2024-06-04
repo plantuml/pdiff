@@ -1,0 +1,20 @@
+{
+  "sha1": "p9pkwcxk6gu5fq3s5ifbbrypt873esg",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.818Z",
+    "url": "https://github.com/plantuml/plantuml-server/issues/101",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+while ()
+  :read data;
+  :generate diagrams;
+endwhile
+while (c)
+  :read data;
+  :generate diagrams;
+endwhile
+stop
+@enduml

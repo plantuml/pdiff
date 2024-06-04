@@ -1,0 +1,13 @@
+{
+  "sha1": "sbgv011oxl4g5bio5e4xz4faj6coueg",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.899Z",
+    "url": "https://github.com/plantuml/plantuml/issues/294",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+{a} Bob -> Alice : hello
+{a} <-> {b} : foo
+@enduml

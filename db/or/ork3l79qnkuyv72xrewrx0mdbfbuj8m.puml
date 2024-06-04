@@ -1,0 +1,22 @@
+{
+  "sha1": "ork3l79qnkuyv72xrewrx0mdbfbuj8m",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.157Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> if "" then
+-> "A"
+--> ==B===
+else
+if "" then
+-left-> "C"
+--> ==B===
+else
+-> "D"
+--> ==B===
+endif
+endif
+
+@enduml

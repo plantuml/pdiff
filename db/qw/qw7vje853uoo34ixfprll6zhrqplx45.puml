@@ -1,0 +1,19 @@
+{
+  "sha1": "qw7vje853uoo34ixfprll6zhrqplx45",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.992Z",
+    "url": "https://forum.plantuml.net/15878/component-deployment-allow-handwritten-file-stack-and-note",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 3
+skinparam handwritten true
+
+artifact Artifact #palegreen 
+frame KO #pink {
+file File
+stack Stack
+note right: ko
+}
+@enduml

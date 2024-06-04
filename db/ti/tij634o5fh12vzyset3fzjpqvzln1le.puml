@@ -1,0 +1,12 @@
+{
+  "sha1": "tij634o5fh12vzyset3fzjpqvzln1le",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.254Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+note left of Bob 
+[[javascript:alert(location.origin) CLICKME!!!!]]
+end note
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "p3fhquzur0lgrb6na35w5jx0njtns1p",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.665Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+CardBundle.Card "1" --> "1..*" TagBundle.Tag
+(CardBundle.Card,TagBundle.Tag) .. TagBundle.CardTag
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "sbx4yqjwnibxbpws17gvndz8c6lj1p5",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.944Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+node {
+MaximumWidth 300
+}
+</style>
+
+* Bidouille
+** Qwant
+*** https://www.qwant.com/?r=FR&sr=fr&l=fr_fr&h=0&s=0&a=1&b=1&hc=1&smartNews=1&smartVideos=1&smartSocial=1&theme=0&i=1&client=brz-vivaldi&q=%s
+*** [[https://www.qwant.com/?r=FR&sr=fr&l=fr_fr&h=0&s=0&a=1&b=1&hc=1&smartNews=1&smartVideos=1&smartSocial=1&theme=0&i=1&client=brz-vivaldi&q=%s]]
+@endmindmap

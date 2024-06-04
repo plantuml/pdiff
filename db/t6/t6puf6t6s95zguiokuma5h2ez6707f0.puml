@@ -1,0 +1,17 @@
+{
+  "sha1": "t6puf6t6s95zguiokuma5h2ez6707f0",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.835Z",
+    "url": "http://wiki.plantuml.net/site/style-evolution",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+alt successful case1
+    Bob->Alice: Authentication Accepted
+else some kind of failure
+    Bob->Alice: Authentication
+end
+
+@enduml

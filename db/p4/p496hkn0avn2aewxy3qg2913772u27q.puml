@@ -1,0 +1,19 @@
+{
+  "sha1": "p496hkn0avn2aewxy3qg2913772u27q",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.672Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Actor A1
+Actor A2
+Actor A3
+Actor A4
+Actor A5
+Actor A6
+
+note over A1,A2 : common Role over A1 and A2
+/ note over A3,A4 : common Role over A3 and A4
+/ note over A5,A6 : common Role over A5 and A6
+@enduml

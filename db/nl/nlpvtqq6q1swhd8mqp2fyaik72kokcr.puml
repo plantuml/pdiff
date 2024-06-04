@@ -1,0 +1,29 @@
+{
+  "sha1": "nlpvtqq6q1swhd8mqp2fyaik72kokcr",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.817Z",
+    "url": "https://forum.plantuml.net/10194/class-diagrams-method-method-arrow-sometimes-points-method",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class table1 {
+    id
+    --
+    other_id
+    ..
+    honkhonk
+}
+
+class table2 {
+    id
+    --
+    foreignkey
+    ..
+    beepboop
+}
+
+table2::foreignkey --> table1::id
+
+@enduml

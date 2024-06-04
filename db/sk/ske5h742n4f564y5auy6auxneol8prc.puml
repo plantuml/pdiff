@@ -1,0 +1,12 @@
+{
+  "sha1": "ske5h742n4f564y5auy6auxneol8prc",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.188Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+Alice -> Bob : expected 0 %function_exists('foo')
+Alice -> Bob : expected 1 %function_exists('%function_exists')
+@enduml

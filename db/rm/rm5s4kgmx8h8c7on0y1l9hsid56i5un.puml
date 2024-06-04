@@ -1,0 +1,19 @@
+{
+  "sha1": "rm5s4kgmx8h8c7on0y1l9hsid56i5un",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.989Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package "Classic Collections" {
+  class "ArrayList" as ArrayListClassic
+  Object <|-- ArrayListClassic
+}
+
+package net.sourceforge.plantuml {
+  class "ArrayList" as MyArrayList
+  ArrayListClassic <|-- MyArrayList 
+}
+
+@enduml

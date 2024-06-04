@@ -1,0 +1,37 @@
+{
+  "sha1": "o68077nx231fs11gq0q93954klkwshf",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.425Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Registration in the system;
+:Entering your username; <<input>>
+repeat:Entering a password; <<input>>
+:Re-entering your password; <<input>>
+backward:Passwords don't match;
+note right:Error
+repeat while (Passwords match?) is (No) not (Yes)
+:Sending data to the server; <<output>>
+:Waiting for a response from the server for a certain amount of time;
+if(The server responds?) then (No)
+:Displaying the message: server is not responding;
+:Return to the registration screen;
+else (Yes)
+:Response analysis;
+if(Got an error?) then (Yes)
+:Displaying an error message;
+:Return to Eran registration;
+else(No)
+if(Is your username busy?) then (Yes)
+:Displaying a message: This username is busy;
+:Return to the registration screen;
+else(No)
+:Displaying a message: you have successfully registered;
+endif
+endif
+endif
+stop
+@enduml

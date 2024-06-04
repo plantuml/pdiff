@@ -1,0 +1,17 @@
+{
+  "sha1": "q8bnd3m9t5h2wevh7skql8nrmarpa1b",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.128Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+state single1 {
+a -> b
+--
+c -> d
+--
+e -> f
+}
+@enduml

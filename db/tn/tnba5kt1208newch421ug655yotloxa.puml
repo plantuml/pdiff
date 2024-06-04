@@ -1,0 +1,29 @@
+{
+  "sha1": "tnba5kt1208newch421ug655yotloxa",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.476Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+partition Conductor
+(*) --> ClimbsOnPlatform
+--> === S1 ===
+--> Bows
+endpartition
+
+partition Audience gray
+=== S1 === --> Applauds
+endpartition
+
+partition Conductor
+Bows --> === S2 ===
+--> WavesArmes
+Applauds --> === S2 ===
+endpartition
+
+partition Orchestra
+WavesArmes --> Introduction
+endpartition
+
+@enduml

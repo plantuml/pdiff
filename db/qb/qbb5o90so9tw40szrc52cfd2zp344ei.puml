@@ -1,0 +1,22 @@
+{
+  "sha1": "qbb5o90so9tw40szrc52cfd2zp344ei",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.234Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+!function $inc($string)
+!$val = %intval($string)
+!log value is $val
+!dump_memory
+!return $val+1
+!endfunction
+
+Alice -> Bob : 4 $inc("3")
+!unused = "foo"
+!dump_memory EOF
+
+@enduml

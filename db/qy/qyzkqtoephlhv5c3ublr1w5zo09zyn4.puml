@@ -1,0 +1,16 @@
+{
+  "sha1": "qyzkqtoephlhv5c3ublr1w5zo09zyn4",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.118Z",
+    "url": "https://github.com/plantuml/plantuml/issues/180",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+switch (color)
+case (red)
+  :Text 1;
+endswitch
+stop
+@enduml

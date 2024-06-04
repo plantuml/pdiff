@@ -1,0 +1,31 @@
+{
+  "sha1": "rw6jqk5i6j931w10gb2e9qyy2wm7ixa",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.337Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcute
+group coif {
+rectangle position=99,0 dimension=100,100 color=#FF7B1F curve=10
+circle position=100,100 radius=100 color=#FF7B1F
+}
+group body {
+stick position=120,30 dimension=40,30 color=#FF7645
+rectangle position=70,0 dimension=60,130 color=#00E087 curve=30
+circle color=white radius=13 position=105,30
+cheese position=92,130 radius=80 start=180,25 end=270 color=#00E087 
+}
+group wing {
+triangle points=(80,0,25):(80,50,25):(0,50,15) color=#00C377
+}
+group feet {
+stick color=#FD8150 position=10,0 dimension=5,15
+stick color=#FD8150 position=20,0 dimension=5,15
+stick color=#FD8150 position=2,10 dimension=30,5
+}
+coif position=55,0 scale=0.30
+feet position=35,130 scale=2.5
+body position=0,16
+wing position=28,75 scale=1.13
+@endcute

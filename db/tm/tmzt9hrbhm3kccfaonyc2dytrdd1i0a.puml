@@ -1,0 +1,17 @@
+{
+  "sha1": "tmzt9hrbhm3kccfaonyc2dytrdd1i0a",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.470Z",
+    "url": "https://github.com/plantuml/plantuml/issues/827",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+network 5012-VM6S.W {
+width = full
+   dev_A   [address = "dev_A" ]
+   dev_B [address = "dev_B" ]
+}
+}
+@enduml

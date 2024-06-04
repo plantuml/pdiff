@@ -1,0 +1,14 @@
+{
+  "sha1": "qk1j87kkw2qnmscpxdh5gynb664zjds",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.539Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=5136/can-the-hotspot-areas-of-tooltips-be-controlled",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class MyTestClass [[{Tooltip of class, MyTestClass}]] {
+  + Property1  [[{Tooltip of property, Property1}]]
+  + Methods2() [[{Tooltip of method, Methods2}]]
+}
+@enduml

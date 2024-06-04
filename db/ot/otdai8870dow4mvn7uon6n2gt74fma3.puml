@@ -1,0 +1,20 @@
+{
+  "sha1": "otdai8870dow4mvn7uon6n2gt74fma3",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.289Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+skinparam guillemet false
+!procedure COMP_TEXTGENCOMP(name)
+[name] << Comp >>
+interface Ifc << IfcTyoe >> AS name##Ifc
+name##Ifc - [name]
+!endprocedure
+
+COMP_TEXTGENCOMP("dummy")
+ 
+@enduml

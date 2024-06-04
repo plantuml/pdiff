@@ -1,0 +1,20 @@
+{
+  "sha1": "tnqc80o6mnttbndx6f1hbwqo08yb2fg",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.489Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+skinparam linetype polyline
+
+class cl1
+cl1 -- cl2
+cl2 -- cl4
+cl2 -- cl5
+cl1 -- cl3
+cl1 --- cl4
+cl1 -- cl5
+cl5 -- cl4
+@enduml

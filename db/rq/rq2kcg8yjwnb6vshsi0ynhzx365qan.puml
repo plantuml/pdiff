@@ -1,0 +1,14 @@
+{
+  "sha1": "rq2kcg8yjwnb6vshsi0ynhzx365qan",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.149Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+ while () is ([cond met])
+   :Do it;
+ endwhile ([else])
+end
+@enduml

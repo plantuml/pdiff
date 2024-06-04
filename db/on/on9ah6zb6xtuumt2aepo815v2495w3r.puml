@@ -1,0 +1,33 @@
+{
+  "sha1": "on9ah6zb6xtuumt2aepo815v2495w3r",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.034Z",
+    "url": "https://forum.plantuml.net/16185/diagram-connection-similar-contains-underscores-version",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+
+!define my_red FF0000A0
+!define my_blue 0000FFA0
+!define my_green 00AA00A0
+
+
+
+class "BigLibrary" as lib {
+    + a
+    + aa
+    + c
+}
+
+
+class "SomeHandler" as handler
+
+
+
+handler -- lib::a
+handler -[#my_red]- lib::aa
+
+
+@enduml

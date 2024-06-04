@@ -1,0 +1,13 @@
+{
+  "sha1": "nus1lvoexm9kgwnph5dwqvci37q445m",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.069Z",
+    "url": "https://forum.plantuml.net/16080/is-the-skinparam-arrowheadcolor-no-longer-available",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ArrowHeadColor red
+:Qwerty;
+:Ytrewq;
+@enduml

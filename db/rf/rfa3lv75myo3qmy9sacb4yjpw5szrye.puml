@@ -1,0 +1,26 @@
+{
+  "sha1": "rfa3lv75myo3qmy9sacb4yjpw5szrye",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.722Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam state {
+BorderColor<<comp>> Black
+BackgroundColor<<comp>> Blue
+BorderColor<<simple>> Black
+BackgroundColor<<simple>> Green
+}
+c<<simple>> --> d<<simple>> : event
+ 
+state "a_1" as a<<comp>>{
+x<<simple>> --> y<<simple>> : ev
+}
+ 
+state "a_2" as b<<comp>> {
+w<<simple>> --> z<<simple>> : ev2
+}
+ 
+a --> b : ev3
+@enduml

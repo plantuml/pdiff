@@ -1,0 +1,14 @@
+{
+  "sha1": "q30xdibwzm2bkl96gjwibdrgyz8oee",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.018Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1302",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+ns1.classA "1" --> "1" ns1.classB : Used in foo method
+(ns1.classB, ns1.classA) .. ns1.Exception : Exception
+
+@enduml

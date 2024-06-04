@@ -1,0 +1,70 @@
+{
+  "sha1": "rvo2bn8mri7w0a50s0ieivopfrquzyb",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.302Z",
+    "url": "https://forum.plantuml.net/10379/style-rendering-in-mindmaps-broken",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+skinparam shadowing false
+skinparam ArrowColor #1ba1e2
+
+<style>
+
+mindmapDiagram {
+
+  RoundCorner 0
+
+  .lvl1 {
+    BackGroundColor #dfa9fe
+    LineColor #c765ff
+    FontColor #7900bf
+  }
+
+  .lvl2 {
+    BackGroundColor #ffa69e
+    LineColor #ff6556
+    FontColor #ab0e00
+  }
+
+  .lvl3 {
+    BackGroundColor #c5e0b3
+    LineColor #a8d08d
+    FontColor #538135
+  }
+}
+
+</style>
+
+* aaaaa <<lvl1>>
+**:bbb
+  cccccc <<lvl2>>;
+** ddddddd <<lvl2>>
+*** eeeeeeeeee <<lvl3>>
+**:bbb
+  cccccc <<lvl2>>;
+** ddddddd <<lvl2>>
+*** eeeeeeeeee <<lvl3>>
+**:bbb
+  cccccc <<lvl2>>;
+** ddddddd <<lvl2>>
+*** eeeeeeeeee <<lvl3>>
+**:bbb
+  cccccc <<lvl2>>;
+** ddddddd <<lvl2>>
+*** eeeeeeeeee <<lvl3>>
+**:bbb
+  cccccc <<lvl2>>;
+** ddddddd <<lvl2>>
+*** eeeeeeeeee <<lvl3>>
+**:bbb
+  cccccc <<lvl2>>;
+** ddddddd <<lvl2>>
+*** eeeeeeeeee <<lvl3>>
+**:bbb
+  cccccc <<lvl2>>;
+** ddddddd <<lvl2>>
+*** eeeeeeeeee <<lvl3>>
+
+@endmindmap

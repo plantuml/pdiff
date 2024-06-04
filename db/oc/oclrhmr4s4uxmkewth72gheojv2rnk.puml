@@ -1,0 +1,27 @@
+{
+  "sha1": "oclrhmr4s4uxmkewth72gheojv2rnk",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.706Z",
+    "url": "https://forum.plantuml.net/13954/activity-switch-horizontal-missing-diamond-last-kill-detach",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+switch (source)
+
+case ( a )
+:case1;
+
+case ( b )
+:case2;
+
+case ( c )
+:case3;
+detach
+'kill
+
+endswitch
+:...;
+
+@enduml

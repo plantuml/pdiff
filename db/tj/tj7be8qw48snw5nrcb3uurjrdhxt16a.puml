@@ -1,0 +1,18 @@
+{
+  "sha1": "tj7be8qw48snw5nrcb3uurjrdhxt16a",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.300Z",
+    "url": "https://forum.plantuml.net/15497/error-when-using-as-double-arrow-for-styles",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.LAN-A {
+  LineColor Red
+}
+</style>
+
+rectangle A
+rectangle LA <<LAN-A>>
+@enduml

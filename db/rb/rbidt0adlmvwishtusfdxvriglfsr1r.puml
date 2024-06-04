@@ -1,0 +1,25 @@
+{
+  "sha1": "rbidt0adlmvwishtusfdxvriglfsr1r",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.546Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam monochrome true
+start
+:Text ;
+repeat
+:Text 0;
+if (condition A ? ) then (yes)
+  :Text 6;
+elseif (condition B ? ) then (yes)
+  break
+else
+ :Text7
+endif
+repeat while (condition C ? )is (yes) not (no)
+->
+ :Text 8;
+stop
+@enduml

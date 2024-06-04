@@ -1,0 +1,20 @@
+{
+  "sha1": "iee3vz9ws9gygkz8vmsxzuq4j25hlr1",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.593Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'skin BlueModern
+Bob -> Alice : ok1
+Alice -> t1 : t1
+Alice -> t2 : t2
+Alice -> t3 : t3
+
+== Resource AllocationAllocationX ==
+
+Bob -> Alice : ok2
+
+
+@enduml

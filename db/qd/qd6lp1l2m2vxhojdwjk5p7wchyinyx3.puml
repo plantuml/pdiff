@@ -1,0 +1,13 @@
+{
+  "sha1": "qd6lp1l2m2vxhojdwjk5p7wchyinyx3",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.287Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+note over Bob
+~//This should not be italic//
+~**This should not be bold**
+end note
+@enduml

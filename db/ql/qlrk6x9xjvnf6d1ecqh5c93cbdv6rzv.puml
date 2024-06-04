@@ -1,0 +1,18 @@
+{
+  "sha1": "qlrk6x9xjvnf6d1ecqh5c93cbdv6rzv",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.577Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+Person "1" *-- "*" Person : "parent" contains "children"
+
+Group "1" --> "*" Item : "" "members"
+Group "1" --> "1" Item1 : "" is a "leader"
+
+A *- "*" B : contains "Bees"
+A o-- "1" C : "a"
+
+@enduml

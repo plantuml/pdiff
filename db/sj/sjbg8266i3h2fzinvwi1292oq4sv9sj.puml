@@ -1,0 +1,19 @@
+{
+  "sha1": "sjbg8266i3h2fzinvwi1292oq4sv9sj",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.156Z",
+    "url": "https://forum.plantuml.net/10436/possible-show-parallel-constraints-other-timing-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "Web User" as WU
+
+WU is Absent
+
+@WU
+0 is Waiting
++500 is ok
+@200 <-> @+150 : {150 ms}
+@200 <-> @+200 : {200 ms}
+@enduml

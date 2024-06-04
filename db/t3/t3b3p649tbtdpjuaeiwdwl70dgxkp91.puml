@@ -1,0 +1,20 @@
+{
+  "sha1": "t3b3p649tbtdpjuaeiwdwl70dgxkp91",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.755Z",
+    "url": "https://forum.plantuml.net/9660/legend-comes-on-top-of-title-when-having-large-header",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+legend top
+Some legend.
+end legend
+
+right header
+<size:50>HEADER
+end header
+
+
+A -> B
+@enduml

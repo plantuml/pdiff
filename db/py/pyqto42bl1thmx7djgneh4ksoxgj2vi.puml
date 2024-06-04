@@ -1,0 +1,23 @@
+{
+  "sha1": "pyqto42bl1thmx7djgneh4ksoxgj2vi",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.885Z",
+    "url": "https://forum.plantuml.net/10903/state-labels-overlap-with-participants-names",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Web Browser" as WB
+concise "Web User" as WU
+
+@2019/07/02
+WU is Idle
+WB is Idle
+
+@2019/07/04
+WU is Waiting : some note
+WB is Processing : some other note
+
+@2019/07/05
+WB is Waiting
+@enduml

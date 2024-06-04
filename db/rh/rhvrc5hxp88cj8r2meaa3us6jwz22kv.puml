@@ -1,0 +1,12 @@
+{
+  "sha1": "rhvrc5hxp88cj8r2meaa3us6jwz22kv",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.844Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:toto;
+end
+@enduml

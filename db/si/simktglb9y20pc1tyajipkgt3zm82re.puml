@@ -1,0 +1,17 @@
+{
+  "sha1": "simktglb9y20pc1tyajipkgt3zm82re",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.137Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:=My test
+|= table |= header |
+| a1 | a2 |
+| b1 | b2 |
+
+|= table |= header |
+| a1 | a2 |
+| b1 | b2 |;
+@enduml

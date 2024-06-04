@@ -1,0 +1,13 @@
+{
+  "sha1": "tf4vigojxgmvi6p94tjddoixbz66nqc",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.137Z",
+    "url": "http://forum.plantuml.net/8445/gradient-background-colors-respond-to-scale-twice",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundcolor blue/red
+scale 2
+Bob -> Alice : hello
+@enduml

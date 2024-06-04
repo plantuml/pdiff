@@ -1,0 +1,13 @@
+{
+  "sha1": "8ebgmzi7lf10ncqvijhd135cliuflbt",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.784Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title <font size=20>Simple <u>title</u></font>
+
+(*) -> "First Activity"
+
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "p50hzpwuz19j68vcndlpz6qhhlhdyge",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.701Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1202#issuecomment-1334901427",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+scale 2000*740
+*_ scipy
+*_ pandas
+@endmindmap

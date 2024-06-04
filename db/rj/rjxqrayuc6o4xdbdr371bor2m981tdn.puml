@@ -1,0 +1,12 @@
+{
+  "sha1": "rjxqrayuc6o4xdbdr371bor2m981tdn",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.892Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam stereotypePosition bottom
+participant "Famous Bob" as Bob << Generated >>
+participant Alice << (C,#ADD1B2) Testable >>
+@enduml    

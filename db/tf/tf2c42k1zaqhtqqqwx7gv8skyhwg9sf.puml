@@ -1,0 +1,16 @@
+{
+  "sha1": "tf2c42k1zaqhtqqqwx7gv8skyhwg9sf",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.131Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+scale 1.5
+actor Bob #00EEEE
+participant Alice #Red
+
+Bob -> Alice: v_act >  1.00
+
+@enduml

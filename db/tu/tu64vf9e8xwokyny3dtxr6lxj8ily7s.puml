@@ -1,0 +1,24 @@
+{
+  "sha1": "tu64vf9e8xwokyny3dtxr6lxj8ily7s",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.775Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define Junction_Or circle #black
+!define Junction_And circle #whitesmoke
+
+Junction_And JunctionAnd
+Junction_Or JunctionOr
+
+archimate #Technology "VPN Server" as vpnServerA <<technology-device>>
+
+rectangle #lightgreen GO
+rectangle #red STOP
+rectangle WAIT #orange
+GO -up-> JunctionOr
+STOP -up-> JunctionOr
+STOP -down-> JunctionAnd
+WAIT -down-> JunctionAnd
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "t9zq1yutw19sc4h9xotmhzm3x00idve",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.984Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1304",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title hide members
+hide members
+object A {
+  foo
+}
+object B
+
+@enduml

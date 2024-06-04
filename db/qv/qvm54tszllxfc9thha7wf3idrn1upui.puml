@@ -1,0 +1,12 @@
+{
+  "sha1": "qvm54tszllxfc9thha7wf3idrn1upui",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.948Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace Dummy [[http://www.google.com {this is a tooltip on Dummy}]] #DDDDDD {
+class foo
+}
+@enduml

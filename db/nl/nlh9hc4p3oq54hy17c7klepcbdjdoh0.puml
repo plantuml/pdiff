@@ -1,0 +1,35 @@
+{
+  "sha1": "nlh9hc4p3oq54hy17c7klepcbdjdoh0",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.801Z",
+    "url": "https://forum.plantuml.net/10017/split-fork-if-swimlane-bug",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+|swimlane1|
+start
+
+|swimlane1|
+if(q?)
+|swimlane1|
+  split
+    :c;
+    detach
+|swimlane2|
+  split again
+    :d;
+    detach
+  end split
+|swimlane1|
+else
+|swimlane2|
+  fork
+  fork again
+    :e;
+  end fork
+endif
+
+stop
+@enduml

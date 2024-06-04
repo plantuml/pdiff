@@ -1,0 +1,16 @@
+{
+  "sha1": "s659sqxp19baxoafgvqcxn3qjru1xrx",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.698Z",
+    "url": "http://forum.plantuml.net/7329/state-diagrams-concurrent-color-customization-not-honored",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam StateBorderColor<<meblue>> blue
+state a<<meblue>> {
+  state b
+  --
+  state c
+}
+@enduml

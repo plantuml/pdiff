@@ -1,0 +1,45 @@
+{
+  "sha1": "ocaa03fs7sh49qm3n4mhh4yt74laz1r",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.691Z",
+    "url": "https://forum.plantuml.net/14752/style-salt-allow-full-style-on-salt",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startsalt
+<style>
+root {
+  FontName SansSerif
+  HyperLinkColor green
+  FontColor red
+  FontSize 19
+  FontStyle plain
+  HorizontalAlignment right
+  RoundCorner 15
+  DiagonalCorner 10
+  LineColor #3600A8
+  LineThickness 3.0
+  BackGroundColor #pink
+  Shadowing 1.0
+  Margin 10
+  Padding 20
+}
+</style>
+{#
+{* File | Edit | Source | Refactor
+ Refactor | New | Open File | - | Close | Close All }
+{/ General | Fullscreen | Behavior | Saving }
+{
+{ Open image in: | ^Smart Mode^ }
+[X] Smooth images when zoomed
+[X] Confirm image deletion
+[ ] Show hidden images
+}
+[Close]
+{#
+. | Column 2 | Column 3
+Row header 1 | value 1 | value 2
+Row header 2 | A long cell | *
+}
+}
+@endsalt

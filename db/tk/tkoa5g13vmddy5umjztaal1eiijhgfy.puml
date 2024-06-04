@@ -1,0 +1,13 @@
+{
+  "sha1": "tkoa5g13vmddy5umjztaal1eiijhgfy",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.366Z",
+    "url": "http://bob.com]]",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : [[http://a.com]] hello
+newpage
+Bob <- Alice : [[http://b.com]] hello
+@enduml

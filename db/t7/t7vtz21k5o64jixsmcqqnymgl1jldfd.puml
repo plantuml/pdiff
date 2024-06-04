@@ -1,0 +1,17 @@
+{
+  "sha1": "t7vtz21k5o64jixsmcqqnymgl1jldfd",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.880Z",
+    "url": "http://forum.plantuml.net/6728/whether-possible-sequenceboxbackgroundcolor-transparent",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam BackgroundColor transparent
+skinparam SequenceBoxBackgroundColor transparent
+
+box
+Alice->Bob
+endbox
+Bob -> Other
+@enduml

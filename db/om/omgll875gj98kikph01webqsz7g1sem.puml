@@ -1,0 +1,33 @@
+{
+  "sha1": "omgll875gj98kikph01webqsz7g1sem",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.013Z",
+    "url": "https://github.com/DrMarkusVoss/pumla/tree/main/test/examples/simple/ports",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+
+
+component "Temperature Sensor" as tempSensor <<block>> {
+    note as tempSensor_TVs
+        1some tagged value table
+        would be here
+        usually.
+    end note
+
+    portin in1withalongname
+    portin in2withalongname
+    
+    portout out1withalongname
+    portout out2withalongname
+
+}
+
+note bottom of tempSensor
+2note bottom
+end note
+
+
+@enduml

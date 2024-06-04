@@ -1,0 +1,15 @@
+{
+  "sha1": "qqdq4jyuudil4ga98c4r4xwfvyovrfh",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.763Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=6496/beautiful-c-in-classes-after-latex-export",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam tikzFont 2.3;4.5
+class Wwwwwwwwwwwwwwww
+class Uuuuuuuuuuuuuuuuuuuuuuuu
+class iiiiii
+class Licensing
+@enduml

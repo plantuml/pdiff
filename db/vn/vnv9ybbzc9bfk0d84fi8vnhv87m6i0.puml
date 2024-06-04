@@ -1,0 +1,22 @@
+{
+  "sha1": "vnv9ybbzc9bfk0d84fi8vnhv87m6i0",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.894Z",
+    "url": "http://forum.plantuml.net/7306/break-in-while-loop-renders-incorrectly",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+while(Is a = b?) is (yes)
+  :Do something;
+  if(Is d = c?) then (yes)
+  :TestNode;
+  break
+  else (no1)
+  :toto1;
+  endif
+  :toto3;
+endwhile (no2)
+:Clean up;
+stop
+@enduml

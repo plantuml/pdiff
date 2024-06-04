@@ -1,0 +1,10 @@
+{
+  "sha1": "sp7wif802b91cmtiujnc6j0ysy4fn63",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.298Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) -->[message] "toto"
+@enduml

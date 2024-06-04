@@ -1,0 +1,19 @@
+{
+  "sha1": "o5agjx44orp8ouunyckbmgz1tgeicy3",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.386Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+   [*] -> Super
+   state Super {
+      [*] --> Default
+      Default --> Running : Run
+      DND --> Running : Run
+      Super --> DND : DoNotDisturb
+   }
+
+
+@enduml

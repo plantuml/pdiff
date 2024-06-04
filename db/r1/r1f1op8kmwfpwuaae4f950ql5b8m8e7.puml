@@ -1,0 +1,13 @@
+{
+  "sha1": "r1f1op8kmwfpwuaae4f950ql5b8m8e7",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.224Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package oft_openflow_types { 
+class cl1
+} 
+note top of oft_openflow_types : bar
+@enduml

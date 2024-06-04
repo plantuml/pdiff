@@ -1,0 +1,37 @@
+{
+  "sha1": "rcm4seuqvgf7cineaqhvenz6kv5ll8v",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.588Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam svek true
+package "Android" {
+class AndroidBtClient
+class BluetoothRetransmitter << (J,orchid) >>
+class SocketListener << (J,orchid) >>
+}
+
+package "Qt-based platform-independent" {
+class ECGConnector
+class BtClient
+}
+
+package "Linux/Maemo/MeeGo" {
+class BluezBtClient
+}
+
+ECGConnector -right-> BtClient
+BtClient <|.. BluezBtClient
+BtClient <|.. AndroidBtClient
+
+AndroidBtClient --+ "local socket" SocketListener
+SocketListener -right-> BluetoothRetransmitter
+BluetoothRetransmitter --+ "local socket" AndroidBtClient
+
+BluezBtClient -() Bluetooth
+BluetoothRetransmitter -() Bluetooth
+
+hide members
+@enduml

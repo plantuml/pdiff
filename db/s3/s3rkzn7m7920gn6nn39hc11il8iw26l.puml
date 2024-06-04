@@ -1,0 +1,30 @@
+{
+  "sha1": "s3rkzn7m7920gn6nn39hc11il8iw26l",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.639Z",
+    "url": "https://forum.plantuml.net/13616/how-can-i-define-note-with-stereotype",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing<<legendnote>> false
+skinparam note<<legendnote>> {
+    backgroundcolor green
+    bordercolor green
+}
+
+[Component 1] as C1
+
+note bottom of C1 <<legendnote>>
+Legend
+text
+end note
+
+note as N1 <<legendnote>>
+Legend
+stereotype not working
+end note
+
+N1 -L-> C1
+N2 -R-> C1
+@enduml

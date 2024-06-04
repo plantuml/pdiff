@@ -1,0 +1,12 @@
+{
+  "sha1": "ocfu4yr3kfaywenup6qo4i1xvmh13g7",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.698Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+activate A
+A->A: Test
+deactivate A
+@enduml

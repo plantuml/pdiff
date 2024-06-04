@@ -1,0 +1,21 @@
+{
+  "sha1": "rk7t9c0n0kc6l0gs8ljlt4pe7egit8m",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.919Z",
+    "url": "http://forum.plantuml.net/8458/how-to-conditionally-connect-components",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!definelong connect(CALLER)
+        component "CALLEE" as callee
+        CALLER -[single]-> callee
+!enddefinelong 
+
+component test1
+connect(test1)
+component test2
+connect(test2)
+connect(test2)
+connect(test2)
+@enduml

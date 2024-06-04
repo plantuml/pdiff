@@ -1,0 +1,24 @@
+{
+  "sha1": "tj1avfb380d7my175f4gjbm4s8e3zr9",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.293Z",
+    "url": "https://forum.plantuml.net/11052/remove-unlinked-components?show=11133#c11133",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!pragma svek_trace on
+
+rectangle "==Outer 1" as o1 {
+	rectangle "==Outer 2" as o2 {
+		rectangle "==Inner" as inner
+	}
+}
+rectangle "a" as a
+rectangle "b" as b
+a -> b
+
+remove @unlinked
+
+@enduml

@@ -1,0 +1,15 @@
+{
+  "sha1": "qewmugt9d2bjs6a46qen0093vkstvwx",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.359Z",
+    "url": "https://forum.plantuml.net/15352/private-public-indicators-are-always-present-state-diagramm",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> test
+test -> a : +OK
+test -left-> b : +marche pas
+a -up-> c : -marche pas
+a --> d : -ok
+@enduml

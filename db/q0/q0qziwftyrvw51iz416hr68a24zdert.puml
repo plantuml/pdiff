@@ -1,0 +1,13 @@
+{
+  "sha1": "q0qziwftyrvw51iz416hr68a24zdert",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.933Z",
+    "url": "http://forum.plantuml.net/7688/text-rendered-in-math-is-not-scaled-by-scale-command",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 5
+state State
+State : <math>S<=1/(F+(1-F)/N)</math>
+@enduml

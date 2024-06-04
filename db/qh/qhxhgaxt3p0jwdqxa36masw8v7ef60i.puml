@@ -1,0 +1,22 @@
+{
+  "sha1": "qhxhgaxt3p0jwdqxa36masw8v7ef60i",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.467Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+if (Turn On The Game?) then (yes)
+  :Having Fun;
+  note left #red
+    this
+    is
+    note
+  end note
+else (no)
+  :Not Having Fun;
+  note right #blue :sad note is sad
+endif
+stop
+@enduml

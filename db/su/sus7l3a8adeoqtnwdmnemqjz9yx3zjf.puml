@@ -1,0 +1,25 @@
+{
+  "sha1": "sus7l3a8adeoqtnwdmnemqjz9yx3zjf",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.507Z",
+    "url": "https://github.com/plantuml/plantuml/issues/180",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+start
+switch (AlternativeAlternativeAlternative ""GatewayID"" defined for...)
+	case (**SomeOne**\n2)
+	:a;
+	case (**ANY**\n1\n2\n3)
+	:b;
+	case (else)
+		:Get Main ""GatewayID"";
+	endswitch
+:Get **Alternative**\n""GatewayID"";
+
+
+stop
+
+@enduml

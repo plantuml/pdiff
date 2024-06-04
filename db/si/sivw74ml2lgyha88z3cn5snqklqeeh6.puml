@@ -1,0 +1,13 @@
+{
+  "sha1": "sivw74ml2lgyha88z3cn5snqklqeeh6",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.144Z",
+    "url": "https://forum.plantuml.net/14729/consistency-arrow-syntax-between-state-deployment-diagrams",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle a
+rectangle b
+b <- a
+@enduml

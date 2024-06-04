@@ -1,0 +1,16 @@
+{
+  "sha1": "n7b7ddmnc6vt6ln2vyya03mmqnl3e1c",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.247Z",
+    "url": "http://forum.plantuml.net/7588/note-breaks-the-component-diagram-if-0-dashed-0-arrow-is-used",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component "B" as B {
+}
+component "A" as A {
+}
+note right of A: will not fail if commented
+B 0--0 A
+@enduml

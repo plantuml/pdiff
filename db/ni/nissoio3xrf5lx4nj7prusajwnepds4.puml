@@ -1,0 +1,15 @@
+{
+  "sha1": "nissoio3xrf5lx4nj7prusajwnepds4",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.686Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!preprocessorV2
+
+!function double($a) return $a+$a
+
+
+alice -> bob : expected of 8 is double(%strlen(double("aa")))
+@enduml

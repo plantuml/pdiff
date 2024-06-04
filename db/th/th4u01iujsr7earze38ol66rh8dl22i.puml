@@ -1,0 +1,13 @@
+{
+  "sha1": "th4u01iujsr7earze38ol66rh8dl22i",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.228Z",
+    "url": "https://github.com/plantuml/plantuml/issues/43#issuecomment-547150737",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+*[#Orange] Teamlead Roadmap
+**[#FFBBAA] ABC
+***[#FFBBCC]_ Resource Manager
+@endmindmap

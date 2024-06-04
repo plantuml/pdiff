@@ -1,0 +1,27 @@
+{
+  "sha1": "ttqnrp5wtt3kqrdnxh886mviynve79v",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.724Z",
+    "url": "https://forum.plantuml.net/13971/gantt-remove-background-grid-possible?show=13975#c13975",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+<style>
+ganttDiagram {
+  document {
+  backgroundColor red
+  }
+  timeline {
+    BackgroundColor palegreen
+ }
+}
+</style>
+printscale weekly
+hide footbox
+Project starts 2020-07-01
+[Design du prototype] starts 2020-07-01
+[Test du prototype] starts 2020-07-16
+[Design du prototype] ends 2020-07-15
+[Test du prototype] ends 2020-07-25
+@endgantt

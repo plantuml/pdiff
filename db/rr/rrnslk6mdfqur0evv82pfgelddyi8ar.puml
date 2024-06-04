@@ -1,0 +1,16 @@
+{
+  "sha1": "rrnslk6mdfqur0evv82pfgelddyi8ar",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.199Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=6496/beautiful-c-in-classes-after-latex-export",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Utility;
+:UuuuuuuuuuUuuuuuuuuuUuuuuuuuuuUuuuuuuuuu;
+:iiiiiiiiiiiiiii;
+:Licensing;
+:WWWwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww;
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "r0bhtf1s2yl4rvitim4qbiz5gu0jf79",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.184Z",
+    "url": "https://forum.plantuml.net/16303/why-does-plus-change-from-name-of-map-key-to-comment",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+map User {
+method3 => 
+}
+map Interface {
++__method1__ => void
+method2 => 
+}
+User::method3 --> Interface::__method1__
+@enduml

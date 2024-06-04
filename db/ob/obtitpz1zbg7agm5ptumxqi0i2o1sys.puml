@@ -1,0 +1,33 @@
+{
+  "sha1": "obtitpz1zbg7agm5ptumxqi0i2o1sys",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.677Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Dummy1 {
+  {abstract} thisIsALongmethod1()
+  {classifier} thisIsALongmethod2()
+  {static} anotherMethod()
+  normal()
+  
+  {abstract} field1
+  {classifier} field2
+  {static} field3
+  simple
+}
+
+class Dummy2 {
+  thisIsALongmethod1()
+  thisIsALongmethod1()
+  anotherMethod()
+  normal()
+  
+  field1
+  field2
+  field3
+  simple
+}
+
+@enduml

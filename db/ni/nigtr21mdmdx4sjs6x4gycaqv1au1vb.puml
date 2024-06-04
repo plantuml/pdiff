@@ -1,0 +1,11 @@
+{
+  "sha1": "nigtr21mdmdx4sjs6x4gycaqv1au1vb",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.635Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob : date expected %date()
+Alice -> Bob : date expected %date("yyyy.MM.dd G 'at' HH:mm:ss z")
+@enduml

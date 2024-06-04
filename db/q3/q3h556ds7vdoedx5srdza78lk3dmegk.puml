@@ -1,0 +1,18 @@
+{
+  "sha1": "q3h556ds7vdoedx5srdza78lk3dmegk",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.024Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+box "BIG"
+box "small"
+actor Alice
+end box
+participant Bob
+participant Claude
+end box
+
+@enduml

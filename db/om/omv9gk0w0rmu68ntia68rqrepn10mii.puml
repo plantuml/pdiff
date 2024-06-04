@@ -1,0 +1,24 @@
+{
+  "sha1": "omv9gk0w0rmu68ntia68rqrepn10mii",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.019Z",
+    "url": "https://github.com/plantuml/plantuml/issues/221",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam RoundCorner 15
+skinparam SequenceMessage {
+  Margin 35
+  Padding 5
+  BorderColor Blue
+}
+Alice->Bob : hello
+participant Bob
+participant Alice
+
+rnote over Bob
+This should be rounded
+end note
+Bob->Alice: This message should be rounded 
+@enduml

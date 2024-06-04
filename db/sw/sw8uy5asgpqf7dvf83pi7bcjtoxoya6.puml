@@ -1,0 +1,36 @@
+{
+  "sha1": "sw8uy5asgpqf7dvf83pi7bcjtoxoya6",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.540Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+
+[-> Bob
+[-> Bob
+[-> Bob
+[-> Bob
+[-> Bob
+[-> Bob
+Bob ->]
+Bob ->]
+Bob ->]
+Bob ->]
+Bob ->]
+Bob ->]
+@enduml

@@ -1,0 +1,21 @@
+{
+  "sha1": "pi6yn389o24ep6mzkod1d5bopt1rtwu",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.226Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Architect|
+start
+repeat
+:Write;
+|#AntiqueWhite|Reviewer with a very long title|
+:Reviews;
+|Architect|
+repeat while (was it proper?)
+->yes;
+|(...)|
+:some action on the next level;
+stop
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "soj42goykaox3ruh9q32efs8vogkfkb",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.271Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1242",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace N2 {
+  class B0
+  together {
+    class B1
+    class B2
+  }
+  class B3
+}
+@enduml

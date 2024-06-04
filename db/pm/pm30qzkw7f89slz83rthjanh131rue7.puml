@@ -1,0 +1,25 @@
+{
+  "sha1": "pm30qzkw7f89slz83rthjanh131rue7",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.385Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* root node
+** some first level node
+***_ second level node
+***_ another second level node
+***_ foo
+***_ bar
+***_ foobar
+** another first level node
+
+left side
+
+**_ second level node
+**_ another second level node
+**_ foo
+**_ bar
+**_ foobar
+@endmindmap

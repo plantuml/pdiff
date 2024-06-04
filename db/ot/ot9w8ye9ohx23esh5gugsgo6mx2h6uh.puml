@@ -1,0 +1,12 @@
+{
+  "sha1": "ot9w8ye9ohx23esh5gugsgo6mx2h6uh",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.281Z",
+    "url": "http://plantuml.sourceforge.net/qa/?qa=5088/creating-link-in-sequence-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+MC -> MC : Create\n[[http://www.google.com User\nentity]]
+MC -> MC : Create\n[[http://www.google.com User]]\nentity
+@enduml

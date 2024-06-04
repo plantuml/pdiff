@@ -1,0 +1,21 @@
+{
+  "sha1": "sx3jz83wdbp9r9fjpeyvas408avmlo4",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.576Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Foo1
+participant Foo2
+
+Foo1 -> Foo2 : msg 1
+activate Foo1
+Foo1 -> Foo2 : msg 2
+activate Foo2
+Foo1 -> Foo2 : msg 3
+deactivate Foo1
+Foo1 -> Foo2 : msg 4
+deactivate Foo2
+
+@enduml

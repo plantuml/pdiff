@@ -1,0 +1,15 @@
+{
+  "sha1": "p2ut1xba1uqqoqz8yc6f2h1ulpqr585",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.650Z",
+    "url": "https://forum.plantuml.net/11607/how-improve-positioning-notes-and-label-initial-final-state",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state foo
+state foo2
+note "This is a floating note1" as N1
+foo --> foo2
+note "This is a floating note2" as N2
+@enduml

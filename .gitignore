@@ -14,3 +14,5 @@ build
 *.log
 svek.*
 /tmp/
+*.html
+/pages

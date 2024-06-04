@@ -1,0 +1,15 @@
+{
+  "sha1": "tllx7ocwkyubhks5v5noihkrae8tjm2",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.417Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "empty rectangle" <<foobar>> {
+}
+rectangle "outer" <<foobar>> {
+  rectangle inner
+component "empty component" <<foobar>> {
+}
+@enduml

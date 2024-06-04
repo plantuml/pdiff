@@ -1,0 +1,11 @@
+{
+  "sha1": "t9aj7y26p9my6qagird0ojt834ozvan",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.944Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale max 60*20
+Alice->Bob:hello
+@enduml

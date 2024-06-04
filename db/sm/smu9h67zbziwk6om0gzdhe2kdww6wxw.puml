@@ -1,0 +1,12 @@
+{
+  "sha1": "smu9h67zbziwk6om0gzdhe2kdww6wxw",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.250Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml file4
+alice->bob:hello1
+newpage
+alice->bob:hello1
+@enduml

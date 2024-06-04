@@ -1,0 +1,19 @@
+{
+  "sha1": "opqkl55jhih9aatiqcdbukqn5q65kdq",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.092Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+sprite $motivation-value jar:archimate/value
+skinparam usecase {
+	BorderColor Black
+}
+usecase "Motivation value"  as MV <<$archimate/value>> #Motivation
+
+legend left
+<$motivation-value>:motivation-value
+endlegend
+
+@enduml

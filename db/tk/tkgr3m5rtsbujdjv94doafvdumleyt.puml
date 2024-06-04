@@ -1,0 +1,15 @@
+{
+  "sha1": "tkgr3m5rtsbujdjv94doafvdumleyt",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.359Z",
+    "url": "https://github.com/plantuml/plantuml/issues/104",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam wrapWidth 150
+state "a" as a
+State "b" as b
+b: aaaaaaa bbbbbbbbbb ccccccccc ddddddddd eeeeeeeee ffffffffff ggggggggg hhhhhhhh
+a -right-> b
+@enduml

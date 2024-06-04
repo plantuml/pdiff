@@ -1,0 +1,16 @@
+{
+  "sha1": "r28mahr7ogqml3d615x5d9ymcj31ist",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.278Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam SequenceLifeLineBackgroundColor #FEFEFE/#CDCDCD
+participant P
+activate P
+P -> P : ignoreme
+...
+P -> P : ignoreme
+deactivate P
+@enduml

@@ -1,0 +1,29 @@
+{
+  "sha1": "s67kkkqrokvfi93gmokm44tjy8dh77y",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.710Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml 
+title Where's the rest text of the note?\n
+ 
+!definelong insertText1(foo)
+ok1 foo text
+!enddefinelong
+ 
+!definelong insertText2
+ok2 text
+!enddefinelong
+ 
+ 
+start
+note right
+this is an insertText1(dummy) where is the rest of the text?
+end note
+:other;
+note right
+this is an insertText2 where is the rest of the text?
+end note
+end  
+@enduml

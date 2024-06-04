@@ -1,0 +1,38 @@
+{
+  "sha1": "rw5eco8tpoo1xc77lcgdllo6p2e9x1m",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.329Z",
+    "url": "http://forum.plantuml.net/7591/entityfont-skinparams-dont-appear-to-work-sequence-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam Actor {
+   FontStyle bold
+   FontSize 14
+   FontColor #5b9bd5
+}
+
+skinparam Entity {
+   BorderColor #c8c8c8
+   BackgroundColor #5b9bd5
+}
+
+skinparam Sequence {
+   ParticipantBorderColor #c8c8c8
+   ParticipantBackgroundColor #5b9bd5
+   ParticipantFontStyle bold
+   ParticipantFontSize 14
+   ParticipantFontColor #ffffff
+}
+
+participant Alice
+entity Bob
+
+Alice -> Bob: call 1
+Bob --> Alice: response
+
+Alice -> Bob: call 2
+Alice <-- Bob: response
+
+@enduml

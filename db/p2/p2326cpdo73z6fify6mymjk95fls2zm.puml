@@ -1,0 +1,11 @@
+{
+  "sha1": "p2326cpdo73z6fify6mymjk95fls2zm",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.601Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+(*) --> "activity" #red-yellow
+
+@enduml

@@ -1,0 +1,25 @@
+{
+  "sha1": "ozarfnn8it0i00rgchxctn4phg1lm56",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.468Z",
+    "url": "https://forum.plantuml.net/10143/style-beta-user-defined-style-not-working-for-mindmaps",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+wbsDiagram {
+    node {
+        BackgroundColor Red
+    }
+
+    .lol {
+        BackgroundColor Green
+    }
+}
+</style>
+
+* root
+** not root <<lol>>
+
+@endwbs

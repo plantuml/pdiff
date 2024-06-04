@@ -1,0 +1,25 @@
+{
+  "sha1": "o9rscirzwvvhsxzojcpleelrjwli40a",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.593Z",
+    "url": "http://forum.plantuml.net/7675/teoz-box-around-participants",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+box "QuiteLongNameforBoxWhichIsVeryLong0"
+participant a0
+participant b0
+participant c0
+end box
+
+box "xx"
+participant a1
+participant b1
+participant c1
+end box
+
+participant z
+@enduml

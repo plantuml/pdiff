@@ -1,0 +1,23 @@
+{
+  "sha1": "pgnglnp8luta52i0l69r0a1g32n5vxm",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.171Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* Debian
+** Ubuntu
+*** Linux Mint
+*** Kubuntu
+*** Lubuntu
+*** KDE Neon
+** SolydXK
+
+right direction
+** foo1
+*** foo2
+*** foo3
+** foo1
+
+@endmindmap

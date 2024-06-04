@@ -1,0 +1,17 @@
+{
+  "sha1": "p2cpzahnsohm3j7ue8d4u09oh1h72nq",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.615Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class foo {
+ field1
+ field2
+ method1()
+ method2()
+}
+class bar
+foo <|-- bar
+@enduml

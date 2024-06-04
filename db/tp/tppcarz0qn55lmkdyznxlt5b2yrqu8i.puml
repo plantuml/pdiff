@@ -1,0 +1,17 @@
+{
+  "sha1": "tppcarz0qn55lmkdyznxlt5b2yrqu8i",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.579Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty members
+
+A_Driver -> A_Car : drives >
+(A_Driver, A_Car) -> A_Contract : under Contract >
+
+B_Driver -> B_Car : drives >
+(B_Car, B_Driver) -> B_Contract : under Contract >
+
+@enduml

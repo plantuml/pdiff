@@ -1,0 +1,16 @@
+{
+  "sha1": "rk4depx6qyas7h6vvkk4k5eqssun6yg",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.913Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma useNewPackage
+set separator none
+namespace f1 {
+  namespace f2 {
+    class f3
+  }
+}
+@enduml

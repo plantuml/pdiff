@@ -1,0 +1,16 @@
+{
+  "sha1": "syglafufn92vyfigvp3i3ti0i7ojqob",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.610Z",
+    "url": "http://forum.plantuml.net/7831/rendering-plantuml-legends-as-svg-drops-colors",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : hello
+legend right
+|= |= Type |
+|<back:red><color:red><U+3000></color></back> | Abcdef |
+|<back:blue><color:blue><U+3000></color></back> | Uvwxyz |
+endlegend
+@enduml

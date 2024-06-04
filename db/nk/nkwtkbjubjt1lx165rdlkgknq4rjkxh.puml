@@ -1,0 +1,27 @@
+{
+  "sha1": "nkwtkbjubjt1lx165rdlkgknq4rjkxh",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.785Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1217",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam component {
+    Style rectangle
+}
+
+<style>
+rectangle {
+    BackgroundColor #orange
+}
+component {
+    BackgroundColor #red
+    .foo { BackgroundColor #blue }
+}
+</style>
+
+component C1
+component C2 <<foo>>
+rectangle R1 <<foo>>
+@enduml

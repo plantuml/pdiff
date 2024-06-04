@@ -1,0 +1,14 @@
+{
+  "sha1": "s7sa7yw86ou0vp6hl2weuq103vjjkrg",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.757Z",
+    "url": "https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+twelve = "1" , "2";
+undeuxtrois = "1" , "2", "3";
+letter = "A" | "B";
+character = letter | digit | symbol | "_" ;
+@endebnf

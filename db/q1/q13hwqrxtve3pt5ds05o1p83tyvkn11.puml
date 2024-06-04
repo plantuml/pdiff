@@ -1,0 +1,20 @@
+{
+  "sha1": "q13hwqrxtve3pt5ds05o1p83tyvkn11",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.965Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1369",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+  repeat
+    if(T1) then
+      break
+    endif
+    
+
+    
+  repeat while (T3)
+stop
+@enduml

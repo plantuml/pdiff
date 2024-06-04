@@ -1,0 +1,19 @@
+{
+  "sha1": "r80bzwzjxlbxv38lvu0s21w6nrx1vxs",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.436Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator none
+state Running {
+  state A1 {
+     state A2
+  }
+  A1 --> A2
+  --
+  state B
+} 
+
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "o6lqb5p8vuho8kcub83jwqv1lv7usid",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.444Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+ 
+salt
+  {+
+  Random Walk segmentation
+  ~~
+  {+
+  Define images
+  Open image:  |  ^Original image ^
+  Open seed:   |  ^Seed image     ^
+  }
+  }
+@enduml

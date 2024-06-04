@@ -1,0 +1,20 @@
+{
+  "sha1": "samp20rcaf6yy5979in3icnyws7hyzi",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.836Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+title Mon Titre
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+enum TimeUnit
+
+rightfooter this is a footer
+right header this is a long\n<b>header</b>
+
+@enduml

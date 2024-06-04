@@ -1,0 +1,30 @@
+{
+  "sha1": "olsnxvscqzyfl25d7fqojwcdktyjdx7",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.995Z",
+    "url": "https://forum.plantuml.net/15114/hyperlinkunderline-false?show=15114#q15114",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+root {
+  HyperlinkColor #FF0000
+}
+</style>
+
+title test on HyperlinkColor [[test link]]
+
+ class uno <<normal>> {
+  * aaa
+  + [[modelo normal]]
+  - bb
+ }
+ 
+  class TRES AS "[[http://www.plantuml.com tres]]" <<otro>> {
+  * aaa
+  + [[otro modelo]]
+  + aa 
+  - bb
+ }
+@enduml

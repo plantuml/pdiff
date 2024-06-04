@@ -1,0 +1,25 @@
+{
+  "sha1": "oe5gtv95t0jes1pw2kxhd5uk71n6slr",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.763Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1085#issuecomment-1383135590",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title **Hessian 字节码映射**
+
+label l [
+{{json
+{
+  "<color:D4312C>0x00": "<color:D4312C>string：+0个字符    　D瓜哥 · https://www.diguage.com · 出品",
+  "<color:D4312C>0x01": "<color:D4312C>string：+1个字符",
+  "<color:D4312C>0x02": "<color:D4312C>string：+2个字符",
+  "<color:D4312C>0x03": "<color:D4312C>string：+3个字符",
+  "<color:D4312C>0x04": "<color:D4312C>string：+4个字符"
+}
+}}
+]
+
+footer <color:red>THE FOOTER
+@enduml

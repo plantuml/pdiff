@@ -1,0 +1,32 @@
+{
+  "sha1": "tu06gsqoka7vic1f1b20g7kivc1g8h1",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.761Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1000",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+Package {
+  FontColor red
+  FontSize 20
+  Fontstyle plain
+}
+</style>
+
+title title 
+package packagetest {
+    file ftest2
+}
+
+package packagetest0 {
+}
+
+frame f
+frame f0 {
+}
+frame f1 {
+file filea
+}
+@enduml

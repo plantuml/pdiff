@@ -1,0 +1,12 @@
+{
+  "sha1": "qvmtuvxyztxd6h66zuyqyiph4gxsyl2",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.955Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "business process" <<$archimate/business-process>>
+rectangle "business process2" <<$archimate/role>>
+rectangle "business process3" <<$archimate/business-processsd>>
+@enduml

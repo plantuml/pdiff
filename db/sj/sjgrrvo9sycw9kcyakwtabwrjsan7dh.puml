@@ -1,0 +1,30 @@
+{
+  "sha1": "sjgrrvo9sycw9kcyakwtabwrjsan7dh",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.164Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!definelong RAISE_ALARM(part,alarmname,message)
+rnote over part
+  <b>ALARM:</b> <&flag> alarmname
+  MSG = message
+end note
+!enddefinelong
+
+!definelong RAISE_ALARM2(part,alarmname,message)
+rnote over part : <b>ALARM:</b> <&flag> alarmname\nMSG = message
+!enddefinelong
+
+Bob->Alice : hello
+RAISE_ALARM(Bob,ShoudNotHappenError,What is <b>this</b>?\nNewlines are treated differently!)
+rnote over Bob : example1
+rnote over Bob : example2\nline2
+rnote over Bob
+example3\nline3
+end note
+RAISE_ALARM2(Bob,ShoudNotHappenError,What is <b>this</b>?\nNewlines are treated differently!)
+
+@enduml

@@ -1,0 +1,21 @@
+{
+  "sha1": "pxybszsuzvmn6wj9ucs1ed07uijb2zx",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.855Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1255",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+namespace N1 {
+  class A {
+    - prop1
+  }
+  together {
+    class TC {
+      - prop1
+    }
+    TC - A
+  }
+}
+@enduml

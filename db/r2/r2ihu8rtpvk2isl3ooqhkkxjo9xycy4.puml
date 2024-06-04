@@ -1,0 +1,19 @@
+{
+  "sha1": "r2ihu8rtpvk2isl3ooqhkkxjo9xycy4",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.292Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+package app {
+package drawables {
+class DrawableAdapter
+}
+package model {
+class DripSource
+}
+}
+
+@enduml

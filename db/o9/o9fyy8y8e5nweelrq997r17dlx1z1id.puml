@@ -1,0 +1,20 @@
+{
+  "sha1": "o9fyy8y8e5nweelrq997r17dlx1z1id",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.572Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam backgroundColor red
+Alice -> Bob : hello
+Alice ->o Bob : hello
+Alice ->>o Bob : hello
+Alice -\o Bob : hello
+Alice -/o Bob : hello
+Alice -\\o Bob : hello
+Alice -//o Bob : hello
+
+Alice o<-- Bob : ok
+@enduml

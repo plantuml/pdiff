@@ -1,0 +1,35 @@
+{
+  "sha1": "qfm19gwwcyn1i0byp0c3m1tfqjfmvwf",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.378Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+digraph unix {
+nodesep=0.486111;
+ranksep=0.833333;
+remincross=true;
+searchsize=500;
+compound=true;
+sh0013 [shape=rect,label="",width=1.083333,height=0.494575,color="#00000D"];
+sh0012 [shape=rect,label="",width=1.013889,height=0.494575,color="#00000C"];
+sh0009->sh0010[arrowtail=none,arrowhead=none,minlen=0,color="#00001F",style=invis];
+sh0014 [shape=rect,label="",width=0.930556,height=0.494575,color="#00000E"];
+subgraph cluster4p0 {label="";subgraph cluster4 {style=solid;color="#000004";label=<<TABLE BGCOLOR="#000005" FIXEDSIZE="TRUE" WIDTH="114" HEIGHT="17"><TR><TD></TD></TR></TABLE>>;
+subgraph cluster4p1 {label="";
+sh0006 [shape=rect,label="",width=1.791667,height=0.766927,color="#000006"];
+}}}
+subgraph cluster7a {label="";subgraph cluster7p0 {label="";subgraph cluster7 {style=solid;color="#000007";label=<<TABLE BGCOLOR="#000008" FIXEDSIZE="TRUE" WIDTH="85" HEIGHT="30"><TR><TD></TD></TR></TABLE>>;
+zacl0003 [shape=point,width=.01,label=""];subgraph cluster7i {label="";subgraph cluster7p1 {label="";
+sh0009 [shape=rect,label="",width=1.152778,height=0.522352,color="#000009"];
+sh0010 [shape=rect,label="",width=1.486111,height=0.522352,color="#00000A"];
+sh0011 [shape=rect,label="",width=1.444444,height=0.522352,color="#00000B"];
+}}}}}
+zacl0003->sh0006[arrowtail=none,arrowhead=empty,arrowsize=0.5,minlen=1,color="#00000F",ltail=cluster7];
+sh0012->zacl0003[arrowtail=none,arrowhead=none,minlen=1,color="#000013",lhead=cluster7];
+sh0013->zacl0003[arrowtail=none,arrowhead=none,minlen=1,color="#000017",lhead=cluster7];
+sh0014->sh0013[arrowtail=none,arrowhead=empty,arrowsize=0.5,minlen=1,color="#00001B"];
+sh0009->sh0011[arrowtail=none,arrowhead=none,minlen=1,color="#000023",style=invis];
+}
+@enduml

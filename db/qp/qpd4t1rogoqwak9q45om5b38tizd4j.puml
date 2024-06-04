@@ -1,0 +1,17 @@
+{
+  "sha1": "qpd4t1rogoqwak9q45om5b38tizd4j",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.735Z",
+    "url": "https://forum.plantuml.net/16056/the-mindmaps-root-node-could-never-be-centered-now?show=16070#c16070",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+rootNode {
+    HorizontalAlignment Center
+}
+</style>
+* root node
+* another root node
+@endmindmap

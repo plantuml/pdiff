@@ -1,0 +1,33 @@
+{
+  "sha1": "p2mjrgxg8t7xrhiusequy41mpnxmtjy",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.635Z",
+    "url": "http://forum.plantuml.net/9053/timing-diagrams-for-binary-signal-and-data-buses?show=9061#c9061",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+clock clk with period 50 pulse 10
+binary "Signal3" as S3
+concise "Signal1" as S1
+robust "Signal2" as S2
+
+@clk*0
+S1 is 0
+S2 is 0
+
+@clk*1
+S1 is 1
+S3 is high
+
+@clk*2
+S3 is down
+
+@clk*3
+S1 is 1
+S2 is 1
+S3 is 1
+
+@clk*4
+S3 is down
+@enduml

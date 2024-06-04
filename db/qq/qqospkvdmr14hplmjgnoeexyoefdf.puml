@@ -1,0 +1,11 @@
+{
+  "sha1": "qqospkvdmr14hplmjgnoeexyoefdf",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.803Z",
+    "url": "http://www.yahoo.com",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Alice -> Bob [[http://www.yahoo.com{Jason: {"firstName":"Bob", "lastName":"Smith"}}]] : hello
+@enduml

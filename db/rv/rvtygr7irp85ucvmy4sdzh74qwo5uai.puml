@@ -1,0 +1,18 @@
+{
+  "sha1": "rvtygr7irp85ucvmy4sdzh74qwo5uai",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.308Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!pragma layout smetana
+actor "User" as client
+usecase "12. Authentication" as authen
+package "DataONE" {
+actor "Coordinating Node" as CN
+actor "Member Node" as MN
+usecase "13. Authorization" as author
+ 
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "pm3eisnakn4rmntd5vy1ltvckdeke27",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.392Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1389",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ParticipantFontColor automatic
+participant bob #green|blue
+@enduml

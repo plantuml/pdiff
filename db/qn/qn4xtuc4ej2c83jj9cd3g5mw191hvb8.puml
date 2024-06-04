@@ -1,0 +1,61 @@
+{
+  "sha1": "qn4xtuc4ej2c83jj9cd3g5mw191hvb8",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.605Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class foo1
+class foo2
+class foo3
+Package Mirrorix{
+
+class CashFlow{
+  method()
+}
+class Logger{
+  method()
+}
+class Mute{
+  method()
+}
+class Program{
+  method()
+}
+class QtomCnx{
+  method()
+}
+class SqlCnx{
+  method()
+}
+class XmlNavigator{
+  method()
+}
+Package Operations{
+class Annonces{
+  method()
+}
+class Annonces{
+  method()
+}
+class MMDeals{
+  method()
+}
+class FxDeals{
+  method()
+}
+class PayInterco{
+  method()
+}
+class FxHedge{
+  method()
+}
+}
+Program *-- QtomCnx
+Program *-- Annonces
+Program *-- PayInterco
+Program *-- SqlCnx
+Program *-- Mute
+}
+@enduml

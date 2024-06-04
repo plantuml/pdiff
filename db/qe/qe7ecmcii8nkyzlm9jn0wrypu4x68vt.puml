@@ -1,0 +1,15 @@
+{
+  "sha1": "qe7ecmcii8nkyzlm9jn0wrypu4x68vt",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.339Z",
+    "url": "http://forum.plantuml.net/8242/set-background-color-of-latex-math-entries",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+while (yyyyyyyyyyyyyyyyyyyy)
+:test zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz;
+endwhile
+end
+@enduml

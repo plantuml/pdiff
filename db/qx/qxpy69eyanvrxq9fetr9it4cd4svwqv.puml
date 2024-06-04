@@ -1,0 +1,32 @@
+{
+  "sha1": "qxpy69eyanvrxq9fetr9it4cd4svwqv",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.050Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam backgroundColor lightGrey
+!pragma teoz true
+[-> Bob
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob <- Alice ++:
+Bob <- Alice ++:
+Bob <- Alice ++:
+Bob <- Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+Bob -> Alice ++:
+
+[-> Bob
+[-> Bob
+[-> Bob
+[-> Bob
+[<- Bob
+[<- Bob
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "t5mjenkv978bx3mqazg4zhs8qvga0ak",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.794Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startcute
+cheese color=green radius=100 start=270 end=360 position=70,100
+cheese color=red radius=50 position=50,50 start=90 end=270
+rectangle color=blue dimension=20,100 position=50,0
+@endcute

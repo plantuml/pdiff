@@ -1,0 +1,18 @@
+{
+  "sha1": "sbr6ukuv43dg1h4jcnrib4p376rleid",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.938Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+opt
+	Axxx ->Bxxx : message1
+else
+	Axxx ->Bxxx : message2
+end
+
+Bxxx->Cxxx : message3
+
+@enduml

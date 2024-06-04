@@ -1,0 +1,11 @@
+{
+  "sha1": "qqrlnbqesuwmx0lv6wk2kelmsvgedfu",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.809Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam classFontStyle bold
+enum BookCategory as "<color:#888888><plain>Enumeration</plain></color>\nBookCategory"
+@enduml

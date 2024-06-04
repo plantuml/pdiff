@@ -1,0 +1,29 @@
+{
+  "sha1": "r8xnlwaf0kk92fvabp196aewje7vno",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.469Z",
+    "url": "https://forum.plantuml.net/13672/style-allow-backgroundcolor-for-closed-days-gantt-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+<style>
+closed {
+  BackGroundColor pink
+  FontColor red
+}
+</style>
+
+
+sunday are closed
+saturday are closed
+
+Project starts the 2020-10-15
+[Prototype design] as [TASK1] lasts 25 days
+
+[Testing] lasts 5 days
+[TASK1]->[Testing]
+
+
+@endgantt

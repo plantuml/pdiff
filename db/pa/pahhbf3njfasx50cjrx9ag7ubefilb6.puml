@@ -1,0 +1,16 @@
+{
+  "sha1": "pahhbf3njfasx50cjrx9ag7ubefilb6",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.854Z",
+    "url": "https://forum.plantuml.net/10486/and-should-be-handled-for-actor-too",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+actor "a\n====\ncan use b" as a
+
+component "b\n====\ncan be used by a" as b {
+}
+
+a->b: use
+@enduml

@@ -1,0 +1,29 @@
+{
+  "sha1": "qfhte9ma4jm86hmja4oov11oognblg2",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.371Z",
+    "url": "https://forum.plantuml.net/12023/having-or-not-same-length-of-all-the-networks-nwdiag-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+nwdiag {
+  network NETWORK_BASE {
+   width = full
+   dev_A   [address = "dev_A" ]
+   dev_B [address = "dev_B" ]
+  }
+  network IntNET1 {
+
+   dev_B [address = "dev_B1" ]
+   dev_M [address = "dev_M1" ]
+
+  }
+  network IntNET2 {
+
+   dev_B [address = "dev_B2" ]
+   dev_M [address = "dev_M2" ]
+
+ }
+}
+@enduml

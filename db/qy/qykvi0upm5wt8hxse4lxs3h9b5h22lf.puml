@@ -1,0 +1,29 @@
+{
+  "sha1": "qykvi0upm5wt8hxse4lxs3h9b5h22lf",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.099Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam stateBackgroundColor<<Acacia>> green
+skinparam stateBackgroundColor<<Midge>> red
+skinparam stateBackgroundColor<<Weavil>> orange
+
+  state "midgeAdult" as ma <<Midge>> {
+    [*] --> midgeAdult <<Acacia>>: releaseMidge
+      midgeAdult : releaseMidge$date
+      midgeAdult : releaseMidge$adult
+      midgeAdult : -----
+      midgeAdult : midge$pEmerge
+      midgeAdult : midge$sexRatio
+  }
+
+  state acaciaMidge <<Weavil>> {
+    parFlower --> gall : stateAgingDeterministic
+      parFlower : meanEggsPerFemale
+      parFlower : maxEggsPerFlower
+    gall <<Weavil>> --> [*]
+  }
+
+@enduml

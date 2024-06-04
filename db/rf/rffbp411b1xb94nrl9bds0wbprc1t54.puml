@@ -1,0 +1,17 @@
+{
+  "sha1": "rffbp411b1xb94nrl9bds0wbprc1t54",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.736Z",
+    "url": "http://forum.plantuml.net/7574/with-participantpadding-create-message-arrow-wrong-position",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ParticipantPadding 80
+
+participant bbbbbbb
+participant a
+
+create a
+bbbbbbb->a
+@enduml

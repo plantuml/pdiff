@@ -1,0 +1,10 @@
+{
+  "sha1": "rrjnoa2kv71s2b1ho0jhbi33c6xxsno",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.189Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{1,2}\b
+@endregex

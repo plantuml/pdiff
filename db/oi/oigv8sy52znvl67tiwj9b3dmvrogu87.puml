@@ -1,0 +1,15 @@
+{
+  "sha1": "oigv8sy52znvl67tiwj9b3dmvrogu87",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.929Z",
+    "url": "https://forum.plantuml.net/10378/c4-standard-library-usage-broken-since-1-2019-5",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!include <c4/C4_Container>
+
+LAYOUT_WITH_LEGEND()
+
+Container(api_app, "API Application", "Java, Spring-boot")
+@enduml

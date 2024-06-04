@@ -1,0 +1,21 @@
+{
+  "sha1": "qkclwjprc7gi8f2rskrm2cate4h6lyj",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.545Z",
+    "url": "https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+{
+   "fruit":"Apple",
+   "size":"Large",
+   "color":"Red",
+   "options":[
+      "New York Bulls",
+      "Los Angeles Kings",
+      "Golden State Warriros",
+      "Huston Rocket"
+   ]
+}
+@endjson

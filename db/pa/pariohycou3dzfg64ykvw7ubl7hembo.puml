@@ -1,0 +1,12 @@
+{
+  "sha1": "pariohycou3dzfg64ykvw7ubl7hembo",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.893Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state S1
+state S1 : foo [[http://plantuml.com]] bar
+state S2
+@enduml

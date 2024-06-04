@@ -1,0 +1,15 @@
+{
+  "sha1": "tp364tzzt5uiormv91wutit1uzdaf2u",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.552Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam conditionStyle diamond
+while (check filesize with a very long name?) is (not empty)
+  :read file;
+endwhile (empty and very long)
+:foo3;
+:foo4;
+@enduml

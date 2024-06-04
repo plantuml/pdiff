@@ -1,0 +1,27 @@
+{
+  "sha1": "rwekg64ni02rvqm4kdd0jkltli5759n",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.351Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+
+if(a)
+    :b;
+elseif(c) then
+        :d;
+else(e)
+    if(f) then
+        :g;
+    elseif(h) then
+        :i;
+    else(j)
+        :k;
+    endif
+endif
+
+stop
+
+@enduml */

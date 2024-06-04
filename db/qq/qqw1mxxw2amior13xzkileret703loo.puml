@@ -1,0 +1,13 @@
+{
+  "sha1": "qqw1mxxw2amior13xzkileret703loo",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.821Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1326",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+object "Kannada : bambu" as ಬಮ್ಬು
+object bamboo
+bamboo <-- ಬಮ್ಬು
+@enduml

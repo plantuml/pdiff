@@ -1,0 +1,21 @@
+{
+  "sha1": "oy0jr53r7g6zabcvm3kycmnmq26z0ov",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.418Z",
+    "url": "https://forum.plantuml.net/14690/timing-diagram-cropped-clock-period-multiple-diagram-length",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+clock "c0" as C with period 50
+binary "Enable" as EN
+
+@0
+EN is low
+@10
+EN is high
+@60
+EN is low
+
+EN@50 <-> @70 : <color:red>Clock0\nis missing\nfrom 50 to 70
+@enduml

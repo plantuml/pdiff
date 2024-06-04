@@ -1,0 +1,15 @@
+{
+  "sha1": "pl3aldpj6zs7hodrjghbbgpqrnzuj74",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.344Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+a->b
+note right : 1. right
+note over a,b : 2. over
+note left : 3. left
+a<-b
+@enduml

@@ -1,0 +1,31 @@
+{
+  "sha1": "ttw5692ve3ryfgveld088ei2qhv6cdf",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.750Z",
+    "url": "https://forum.plantuml.net/10157/sequence-diagrams-with-diagrams-in-note-and-functions",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+!unquoted procedure OBJ()
+{{
+   class Object {
+        name : token
+        name : flag
+    }
+}}
+!endprocedure
+
+
+Alice -> Bob : hello1
+note bottom : my note
+Alice -> Bob : hello2
+note bottom
+  my note
+  is on several line
+  OBJ()
+end note
+
+@enduml

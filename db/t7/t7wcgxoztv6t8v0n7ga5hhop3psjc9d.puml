@@ -1,0 +1,17 @@
+{
+  "sha1": "t7wcgxoztv6t8v0n7ga5hhop3psjc9d",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.886Z",
+    "url": "https://forum.plantuml.net/12278/o-sets-wrong-arrow-direction",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+center1 -up- up1
+center2 -up-> up2
+center3 <-up- up3
+center4 o-up- up4
+center5 -up-o up5
+center6 <-up-o up6
+center7 o-up-> up7
+@enduml

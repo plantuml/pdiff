@@ -1,0 +1,49 @@
+{
+  "sha1": "nip4li6bbyz2idnfxo7l3n7913yhpf7",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.662Z",
+    "url": "http://forum.plantuml.net/7463/cards-and-rectangles-have-the-same-formatting",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam shadowing false
+skinparam defaultFontSize 16
+skinparam card {
+RoundCorner 30
+FontColor #DarkSlateGray
+BorderColor #LightGray
+BackGroundColor #LightGray
+FontName "Inconsolata"
+}
+
+skinparam rectangle {
+RoundCorner 10
+FontColor #DarkSlateGray
+BorderColor #LightGray
+BackGroundColor #white
+FontName "Roboto"
+}
+
+skinparam agent {
+RoundCorner 20
+BorderColor #e9f4f7
+BackGroundColor #e9f4f7
+FontColor #383f42
+FontName "Inconsolata"
+}
+
+skinparam ArrowColor #383f42
+skinparam ArrowFontColor #383f42
+skinparam ArrowFontSize 14
+skinparam LineColor #383f42
+skinparam LineFontColor #383f42
+skinparam LineFontSize 14
+
+rectangle Outer {
+card MyCard
+agent "MyAgent" as c10
+c10 -ri-> MyCard
+}
+
+@enduml

@@ -1,0 +1,28 @@
+{
+  "sha1": "tm9e1r3dqs1g8naeuqziaren5u6l15r",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.450Z",
+    "url": "https://forum.plantuml.net/12554/missing-connection-in-multilane-if-structure",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+skinparam ConditionEndStyle hline
+
+| 1 |
+start
+:A;
+| 2 |
+if (test) then
+  :B;
+else
+  |3|
+  :D;
+endif
+| 2 |
+:E;
+
+
+stop
+@enduml

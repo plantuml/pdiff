@@ -1,0 +1,10 @@
+{
+  "sha1": "pehe0zco7pmei9hnj3b806pm4liocgs",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.090Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Car -- Wheel : [[http://google.com test]]
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "rbfd6cna6npmxvnvb5jtd8rxyolzbde",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.539Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+fork
+:action 1;
+fork again
+:action with long name 2;
+end fork {or}
+stop
+@enduml

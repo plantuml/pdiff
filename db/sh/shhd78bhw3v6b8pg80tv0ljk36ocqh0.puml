@@ -1,0 +1,14 @@
+{
+  "sha1": "shhd78bhw3v6b8pg80tv0ljk36ocqh0",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.098Z",
+    "url": "https://github.com/plantuml/plantuml/issues/104",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam maxMessageSize 150
+state "a" as a
+State "b" as b
+a -right-> b : aaaaaaa bbbbbbbbbb ccccccccc ddddddddd eeeeeeeee ffffffffff ggggggggg hhhhhhhh
+@enduml

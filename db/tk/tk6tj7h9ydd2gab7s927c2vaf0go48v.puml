@@ -1,0 +1,25 @@
+{
+  "sha1": "tk6tj7h9ydd2gab7s927c2vaf0go48v",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.336Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml Test
+!theme plain
+
+<style>
+  fork, join {
+    BackgroundColor $FGCOLOR
+  }
+</style>
+
+state ForkTest <<fork>>
+state JoinTest <<join>>
+[*] --> ForkTest
+ForkTest --> State1
+ForkTest --> State2
+State1 --> JoinTest
+State2 --> JoinTest
+JoinTest --> [*]
+@enduml

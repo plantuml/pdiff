@@ -1,0 +1,12 @@
+{
+  "sha1": "pd2qs59ofecr0gz674famsho0dcijm7",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.019Z",
+    "url": "https://github.com/plantuml/plantuml/issues/726",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+entity User << aggregate >> implements spring.security.UserDetails, Session
+User "0..*" o--> "1..*" Role : > authorized
+@enduml

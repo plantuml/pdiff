@@ -1,0 +1,13 @@
+{
+  "sha1": "qxd5k66kiaxjwlrmhv68rzrot69zfj2",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.036Z",
+    "url": "https://forum.plantuml.net/10995/deployment-diagram-regression-if-name-ends-with",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle Side
+rectangle By
+rectangle "Side."
+@enduml

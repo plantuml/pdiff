@@ -1,0 +1,13 @@
+{
+  "sha1": "ngthj10ang2f5n5cja2ksxanq1tjw6x",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.565Z",
+    "url": "https://forum.plantuml.net/12374/add-support-of-node-colors-to-wbs-for-single-nodes",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+*[#blue] this is the partner workpackage
+**[#red] this is my workpackage
+** this is another workpackage
+@endwbs

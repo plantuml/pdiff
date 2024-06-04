@@ -1,0 +1,15 @@
+{
+  "sha1": "rq7gio0dqg05wq4cgpsweoqao4y3kig",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.155Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class javax.sound.sampled.AudioFormat.Encoding
+class net.sourceforge.mazix.components.sound.AudioManager
+class net.sourceforge.mazix.components.sound.AudioTest
+net.sourceforge.mazix.components.sound.AudioManager ..> javax.sound.sampled.AudioFormat.Encoding
+net.sourceforge.mazix.components.sound.AudioTest ..> javax.sound.sampled.AudioFormat
+@enduml

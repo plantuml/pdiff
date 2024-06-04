@@ -1,0 +1,30 @@
+{
+  "sha1": "slm02pn4py5rd44jv7ohdfio55qb120",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.228Z",
+    "url": "https://github.com/plantuml/plantuml/issues/337",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+    namespace f1 {
+    }
+    
+    namespace f1.function {
+        class Fox
+    }
+    
+    namespace issues {
+        f1.function.Fox <|-- Rabbit
+        f1.AbstractSet <|-- Dog
+    }
+
+
+    namespace f1.function {
+
+    }
+    
+
+
+
+@enduml

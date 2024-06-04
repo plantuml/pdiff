@@ -1,0 +1,33 @@
+{
+  "sha1": "qpk5ti5ebrj2m8lw8grlhbcuj19nhlm",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.742Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1158",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+file test_bullet_list_creole [
+*bullet list
+*no space
+* space
+* space with **bold**
+* **bold**
+==
+***bold no space**
+* space with end asterik *
+*no space with end asterik*
+* space with middle * asterik
+*no space with end * asterik
+* space with middle * **asterik**
+*no space with end * **asterik**
+==
+* **bold no space**
+* space with end asterik *
+* no space with end asterik*
+* space with middle * asterik
+* no space with end * asterik
+* space with middle * **asterik**
+* no space with end * **asterik**
+]
+@enduml

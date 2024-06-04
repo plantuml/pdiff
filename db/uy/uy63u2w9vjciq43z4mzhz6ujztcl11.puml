@@ -1,0 +1,15 @@
+{
+  "sha1": "uy63u2w9vjciq43z4mzhz6ujztcl11",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.864Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+class Observation {
+ name[[[http://field]]]
+}
+url of Observation is [[http://class]]
+
+@enduml

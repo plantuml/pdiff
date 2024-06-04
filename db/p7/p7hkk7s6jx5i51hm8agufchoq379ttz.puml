@@ -1,0 +1,14 @@
+{
+  "sha1": "p7hkk7s6jx5i51hm8agufchoq379ttz",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.754Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+node Foo {
+ [component1]
+ [component2]
+}
+url for Foo is [[http://www.google.com]]
+@enduml

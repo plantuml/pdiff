@@ -1,0 +1,22 @@
+{
+  "sha1": "ohwlmum5qtk5bn5qpfeoyw7n56d7kib",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.893Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1382",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant Alice
+actor Bob
+
+Alice -> Bob : hello
+note right: This is a note1
+
+ref over Bob
+  This can be on
+  several lines
+end ref
+
+note right: This is a right note2
+@enduml

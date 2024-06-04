@@ -1,0 +1,10 @@
+{
+  "sha1": "q8inpynks2qcuojqf9f3yxjcoibw6yu",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.135Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+listfont ceci est un essai de fonte de caractères
+@enduml

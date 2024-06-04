@@ -1,0 +1,21 @@
+{
+  "sha1": "ngadrsjvbg0w9qd7yo4bczxm3hl2cl2",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.558Z",
+    "url": "https://forum.plantuml.net/13095/timing-diagram-scale-fails-with-certain-sequence-of-times",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+@-200
+@0
+@500
+@2200
+@3300
+@4400
+@4950
+' fails at 5000
+@6600
+@8800
+@11550
+@enduml

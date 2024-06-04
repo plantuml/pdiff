@@ -1,0 +1,12 @@
+{
+  "sha1": "ted0i0unohzixmkk4ei891kvem7mkc1",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.099Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+page 1x2
+title diagram 1
+class A
+@enduml

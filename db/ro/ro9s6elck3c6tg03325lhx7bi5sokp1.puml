@@ -1,0 +1,54 @@
+{
+  "sha1": "ro9s6elck3c6tg03325lhx7bi5sokp1",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.077Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+skinparam useBetaStyle true
+<style>
+wbsDiagram {
+    Linecolor black
+    // will target any non specified styled node I think? 
+    // note that LineColor here seems to mean the connector/lifeline
+  :depth(0) {
+      // will target root node
+      BackgroundColor White
+      RoundCorner 10
+  }
+  :depth(1) {
+    // Will target America, Europe
+    BackgroundColor #c3c3c3-Black
+    RoundCorner 10
+    FontColor white
+    LineColor none
+  }
+  
+  .americaStyle * {
+      RoundCorner 10
+      FontColor red
+      
+      :depth(3) {
+          FontColor Blue
+      }
+  }
+  .randomStyle {
+      BackgroundColor White
+      LineColor Blue
+  }
+}
+</style>
+* World
+** America 
+*** Canada 
+*** Mexico
+**** Chihuahua <<randomStyle>>
+*** USA <<americaStyle>>
+**** Texas
+***< New York 
+** Europe <<europeStyle>>
+*** England
+*** Germany
+*** Spain
+@endwbs

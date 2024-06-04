@@ -1,0 +1,20 @@
+{
+  "sha1": "qus6emnfru6k0qz5gssu5hgmuv8s0f7",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.919Z",
+    "url": "https://forum.plantuml.net/16930/timing-diagram-invalid-display-with-only-on-state-in-concise",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+concise "AAAA" as ConsiseA
+concise "BBB" as ConsiseB
+
+ConsiseA is "OffA"
+ConsiseB is "OffB"
+
+@0
+ConsiseA is "OnA"
+
+
+@enduml

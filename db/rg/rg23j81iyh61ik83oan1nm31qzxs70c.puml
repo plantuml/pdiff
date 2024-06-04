@@ -1,0 +1,38 @@
+{
+  "sha1": "rg23j81iyh61ik83oan1nm31qzxs70c",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.764Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+skinparam monochrome true
+caption figure 1
+title My super title
+
+right side
+
+* count
+** 100
+*** 101
+*** 102
+** 200
+
+** A
+*** AA
+*** AB
+** B
+
+left side
+
+header
+My super header
+endheader
+
+center footer My super footer
+
+legend right
+  Short
+  legend
+endlegend
+@endmindmap

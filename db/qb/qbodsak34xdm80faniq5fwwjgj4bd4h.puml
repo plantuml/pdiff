@@ -1,0 +1,21 @@
+{
+  "sha1": "qbodsak34xdm80faniq5fwwjgj4bd4h",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.253Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1007",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma useVerticalIf on
+start
+:Activity1;
+if (Conditional) then (yes)
+ :Activity2;
+(No) elseif (Conditional)
+ :Activity3;
+else (No)
+ :Activity4;
+endif
+stop
+@enduml

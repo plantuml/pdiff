@@ -1,0 +1,24 @@
+{
+  "sha1": "sprozqpbqdhiieh9260fdn9caag8v2d",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.326Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 900 width
+
+CatalogController<|-- CatalogLocalController
+CatalogController<|-- CatalogExternalController
+
+DBAbstractModel<|-- CatalogLocalModel
+DBAbstractModel<|-- CatalogExternalModel
+DBAbstractModel<|-- CatalogParametersModel
+DBAbstractModel<|-- CatalogProfileHistoryModel
+
+
+class MessageHandlerSingleton {
+  int status
+  String[] messageStack()
+}
+@enduml

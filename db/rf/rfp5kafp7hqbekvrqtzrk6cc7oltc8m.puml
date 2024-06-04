@@ -1,0 +1,20 @@
+{
+  "sha1": "rfp5kafp7hqbekvrqtzrk6cc7oltc8m",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.743Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam package {
+  BackgroundColor blue
+  BorderColor red
+  BorderThickness 4
+  FontColor green
+  FontSize 40
+}
+
+package "Configuration files" {
+class foo
+}
+@enduml

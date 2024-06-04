@@ -1,0 +1,25 @@
+{
+  "sha1": "n0qca0fmxky7ajicwhpo18fqwl53m2s",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.076Z",
+    "url": "https://forum.plantuml.net/10664/encountering-java-lang-illegalargumentexception",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+package MyFoo {
+    class MyFoo.MyFoo
+}
+MyFoo -- Target
+
+package My.Module {
+    package My.Module.Defines {
+    }
+    class My.Module.Class {
+    }
+    My.Module.Class --> My.Module.Defines
+}
+My.Module --> MyFoo
+
+@enduml

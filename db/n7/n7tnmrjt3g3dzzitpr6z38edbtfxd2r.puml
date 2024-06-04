@@ -1,0 +1,38 @@
+{
+  "sha1": "n7tnmrjt3g3dzzitpr6z38edbtfxd2r",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.260Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+mindmapDiagram, wbsDiagram {
+  root {
+    BackgroundColor yellow
+    FontColor blue
+    LineColor red
+    LineThickness 1
+    Margin 10
+    Padding 6
+    Shadowing 0.0
+  }
+  element {
+    BackgroundColor white
+    LineThickness 1
+  }
+}
+</style>
+
+* Business Process Modelling WBS
+** Launch the project
+*** Complete Stakeholder Research
+*** Initial Implementation Plan
+** Design phase
+*** Model of AsIs Processes Completed
+**** Model of AsIs Processes Completed1
+**** Model of AsIs Processes Completed2
+*** Measure AsIs performance metrics
+*** Identify Quick Wins
+** Complete innovate phase
+@endwbs

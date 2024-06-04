@@ -1,0 +1,21 @@
+{
+  "sha1": "qpvy9yh8j7prabmnhbtkvk8j2wqpp48",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.750Z",
+    "url": "https://forum.plantuml.net/16821/%24tag-cannot-be-assigned-to-a-state-component",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'The following code fails due to $tagA assigned to a state type component:
+
+state "A" as a $tagA {
+}
+
+state "B" as b $tagB {
+}
+
+remove $tagA
+
+
+@enduml

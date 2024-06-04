@@ -1,0 +1,65 @@
+{
+  "sha1": "p1hylqdr2c23f2whkfedpgttlnd4bn1",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.561Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1202#issuecomment-1334901427",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+scale 1480*740
+title Создано в Termux ©https://habr.com/ru/users/ne555/
+*[#lightgreen] **Termux**
+** <&audio-spectrum>Мультимедиа
+***_ mp3splt
+***_ cmus
+***_ cava
+***_ ffmpeg
+***_ imagemagick
+***_ chafa
+***_ <s>youtubedr</s> => yt-dlp
+** <&data-transfer-download>Парсинг данных
+***_ curl..wget
+***_ примеры
+** <&cloud-upload>Автобэкап данных
+***_ rclone
+***_ 7-zip
+***_ cronie
+** <&bar-chart>Data Science
+***_ numpy
+***_ scipy
+***_ pandas
+***_ matplotlib
+***_ jupyter
+***_ wordcloud
+***_ visidata
+** <&envelope-closed>Работа с письмами
+***_ mutt
+** <&magnifying-glass>OSINT
+***_ check_email(s)
+***_ check_account(s)
+left side
+** <&terminal>Программирование на Android
+***_ python..brainfuck
+** <&layers>Сравнение пакетов
+***_ html2text*
+***_ links
+** <&lock-unlocked>Пентест
+***_ сниффинг
+***_ скан
+***_ брутфорс
+***_ дамп
+***_ фишинг
+** <&shield>Системное администрирование
+***_ chattr..nethogs
+** <&document>Пользовательское ПО
+***_ yaspeller
+***_ povray
+***_ gnuplot
+***_ plantuml
+***_ steghide
+***_ gpg
+***_ tor
+** <&wrench>Установка и настройка среды
+***_ widget..proot-distro
+@endmindmap

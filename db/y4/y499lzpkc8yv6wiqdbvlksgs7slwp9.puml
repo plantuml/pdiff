@@ -1,0 +1,17 @@
+{
+  "sha1": "y499lzpkc8yv6wiqdbvlksgs7slwp9",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.981Z",
+    "url": "http://forum.plantuml.net/7081/defining-folder-entities-generate-illegalargumentexception",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+folder test2 [
+TEXT
+]
+
+folder test2 [
+TEXT
+]
+@enduml

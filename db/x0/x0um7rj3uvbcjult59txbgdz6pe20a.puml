@@ -1,0 +1,23 @@
+{
+  "sha1": "x0um7rj3uvbcjult59txbgdz6pe20a",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.943Z",
+    "url": "https://github.com/plantuml/plantuml/issues/134",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam useBetaStyle true
+<style>
+note {
+	HorizontalAlignment center
+}
+</style>
+
+Bob -> Alice : hello
+Bob -> Alice : hello long
+note right
+This is a note
+can text be aligned or maybe centered?
+endnote
+@enduml

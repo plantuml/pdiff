@@ -1,0 +1,27 @@
+{
+  "sha1": "nyk816oqeyq9t7uonrlexbggqh4dhrp",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.178Z",
+    "url": "https://forum.plantuml.net/16198/is-it-possible-add-line-color-and-thickness-analog-variables",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+timingDiagram {
+  .red {
+    LineColor red
+    LineThickness 2
+  }
+
+  .blue {
+    LineColor blue
+    LineThickness 5
+  }
+}
+</style>
+
+analog "Vcore" as VDD <<red>>
+binary "Vcore_EN" as VDD_EN <<blue>>
+
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "qbjuoi02oi7mi37ul423wjfkhc3cfwn",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.240Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svek_trace on
+node "V" {
+	[Win Domain\nMaster Controller] as DC1
+}
+frame "f" as tomcatJIRA {
+		[JIRA Core]
+		[JIRA Software]
+		[JIRA Portfolio]
+}
+tomcatJIRA --> DC1
+tomcatJIRA -u- REST_JIRA
+tomcatJIRA -u- appLinkJIRA
+appLinkTZ --> appLinkJIRA
+@enduml

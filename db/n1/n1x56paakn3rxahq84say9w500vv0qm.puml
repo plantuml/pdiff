@@ -1,0 +1,48 @@
+{
+  "sha1": "n1x56paakn3rxahq84say9w500vv0qm",
+  "insertion": {
+    "when": "2024-06-04T17:28:38.115Z",
+    "url": "https://forum.plantuml.net/10992/sequence-diagrams-delay-delay-impact-all-timeline-and-some",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+participant LOOP
+entity lmuzxgq
+participant awcijxrjrn
+database dfuum
+
+group loop_lrbnb
+activate LOOP
+
+LOOP -> lmuzxgq : shbg nxmtju vdyzbb
+activate lmuzxgq
+...zxmyxb adlfget...
+return
+deactivate lmuzxgq
+
+group anjfn dingwezbbd
+LOOP -> lmuzxgq : qcdqgs bnyvl
+activate lmuzxgq
+lmuzxgq -> awcijxrjrn : ncmw bnyvl qcdqgs
+deactivate lmuzxgq
+LOOP -> lmuzxgq : nzwc husbou
+activate lmuzxgq
+lmuzxgq -> awcijxrjrn : ncmw husbou nzwc
+deactivate lmuzxgq
+
+end
+LOOP -> lmuzxgq : hbki nxmtju yxmekob
+activate lmuzxgq
+LOOP <-- lmuzxgq
+deactivate lmuzxgq
+LOOP -> lmuzxgq : hbki deoc nzwc
+activate lmuzxgq
+LOOP <-- lmuzxgq
+deactivate lmuzxgq
+
+deactivate LOOP
+end
+
+@enduml

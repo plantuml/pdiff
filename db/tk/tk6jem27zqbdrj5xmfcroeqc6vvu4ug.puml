@@ -1,0 +1,51 @@
+{
+  "sha1": "tk6jem27zqbdrj5xmfcroeqc6vvu4ug",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.328Z",
+    "url": "https://forum.plantuml.net/14457/cropped-reference-on-sequence-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 2
+<style>
+sequenceDiagram {
+  reference {
+    LineThickness 1
+  }
+}
+</style>
+ref over Alice, Bob : this is a reference 1
+<style>
+sequenceDiagram {
+  reference {
+    LineThickness 2
+  }
+}
+</style>
+ref over Alice, Bob : this is a reference 2
+<style>
+sequenceDiagram {
+  reference {
+    LineThickness 3
+  }
+}
+</style>
+ref over Alice, Bob : this is a reference 3
+<style>
+sequenceDiagram {
+  reference {
+    LineThickness 4
+  }
+}
+</style>
+ref over Alice, Bob : this is a reference 4
+<style>
+sequenceDiagram {
+  reference {
+    LineThickness 5
+  }
+}
+</style>
+ref over Alice, Bob : this is a reference 5
+@enduml

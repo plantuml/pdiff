@@ -1,0 +1,17 @@
+{
+  "sha1": "qgufcsz81lwp9hf2e651z8t3ttdkomb",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.425Z",
+    "url": "https://forum.plantuml.net/15423/functions-check-exists-default-value-get_variable_value",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$myjson = {
+  "name": "Mark McGwire", "hr": 65, "avg":  0.278
+}
+
+:%json_key_exists($myjson, "hr");
+:%json_key_exists($myjson, "foo");
+:%json_key_exists($myjson, null);
+@enduml

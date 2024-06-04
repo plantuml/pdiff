@@ -1,0 +1,12 @@
+{
+  "sha1": "t660qflsw6mi2lt5pcwx47tu6hte9z9",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.819Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultFontName Braille
+class "toto ()@⡹" as toto
+note right of toto : hel⡹⡹lo
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "t0eoryqhq2y3de9p60223nlnllamg0e",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.660Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1465#issuecomment-1597648143",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+binary "A" as a
+@0
+a is low
+@1
+a is high
+@2
+a is low
+note top of a : note top
+@enduml

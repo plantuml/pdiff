@@ -1,0 +1,11 @@
+{
+  "sha1": "tnsbqbrwyrpdkzjm6nc6kjt253ptgwc",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.505Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1320",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:joe:/ <<xxx>> #green -[#blue]-> (action)/ <<yyy>> #orange
+@enduml

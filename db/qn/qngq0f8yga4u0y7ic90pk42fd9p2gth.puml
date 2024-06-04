@@ -1,0 +1,23 @@
+{
+  "sha1": "qngq0f8yga4u0y7ic90pk42fd9p2gth",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.664Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:foo1;
+-[#gold]->
+if (test) then
+  -[#orchid]->
+  :foo2;
+  :foo3;
+  -[#green]->
+else
+  -[#black]->
+  :foo4;
+  -[#greenyellow]->
+endif
+-[#hotpink]->
+:foo5;
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "q73txyw2hyz0046o0mfi2p6x4s4zx6b",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.087Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define WM_Pub(data) #aaffcc:Publish data;
+
+start
+WM_Pub("Doc:signalForPendingSignature,aaa")
+
+@enduml

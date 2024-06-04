@@ -1,0 +1,13 @@
+{
+  "sha1": "ts5psfyr3yt51fukwm677le0q0uhd2h",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.682Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+title this <b>title</b> is <i>quite</i> defined on several lines
+Bob -> Alice
+
+@enduml

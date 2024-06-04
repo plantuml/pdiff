@@ -1,0 +1,26 @@
+{
+  "sha1": "sxficulsqnshcxp5h43hnwelp27mkgx",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.596Z",
+    "url": "http://forum.plantuml.net/8921/skinparam-wrapwidth-doesnt-works-in-hnote",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant a
+participant b
+participant c
+autonumber
+skinparam ParticipantPadding 80
+skinparam wrapWidth 30
+a -> b :msg
+note over a : %autonumber% aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa
+hnote over a : %autonumber% aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa
+rnote over a : %autonumber% aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa
+note over a,b : %autonumber% aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa
+hnote over a,b : %autonumber% aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa
+rnote over a,b : %autonumber% aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa
+b -> c :msg
+return msg_ack
+a <-- b :msg_ack
+@enduml
