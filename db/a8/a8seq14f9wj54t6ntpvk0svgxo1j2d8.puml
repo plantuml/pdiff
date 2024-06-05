@@ -1,5 +1,5 @@
 {
-  "sha1": "de05ffnbdua6w9zmuhn0rsxjeapycn9",
+  "sha1": "a8seq14f9wj54t6ntpvk0svgxo1j2d8",
   "insertion": {
     "when": "2024-06-01T09:03:02.878Z",
     "url": "https://forum.plantuml.net/15606/activity-arrow-label-overlap-on-some-activity-diagram",
@@ -7,8 +7,6 @@
   }
 }
 @startuml
-title %date()
-
 !t="this is t1\nthis is t2\nthis is t3\n"
 
 if (if?) then (<color blue>yes)
