@@ -9,6 +9,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonObject;
+
 public class DbCollection {
 
 	private final Path root;
@@ -35,6 +39,21 @@ public class DbCollection {
 
 	}
 
+	public String rewriteMe(DbFile file) throws IOException {
+		final String sha1 = file.getContentSha1();
+		final Path actualPath = getActualPath(sha1);
+		final JsonObject jsonFromDb = file.getJsonFromDbClone();
+		jsonFromDb.addProperty("sha1", sha1);
+
+		final Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
+		final List<String> list2 = List.of(gson.toJson(jsonFromDb));
+		final Stream<String> combinedStream = Stream.concat(list2.stream(), file.getContent().stream());
+
+		Files.write(actualPath, combinedStream.collect(Collectors.toList()));
+		return sha1;
+
+	}
+
 	public int count() throws IOException {
 		final AtomicInteger count = new AtomicInteger();
 		try (Stream<Path> paths = Files.walk(root)) {
@@ -57,7 +76,23 @@ public class DbCollection {
 	}
 
 	public Stream<DbFileBeforeRun> streamsBeforeRun(String runcode) throws IOException {
-		return pathStreams().map(p -> new DbFileBeforeRun(p, runcode));
+		return pathStreams().map(p -> {
+			try {
+				return new DbFileBeforeRun(p, runcode);
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+		});
+	}
+
+	public Stream<DbFile> streamsDbFile() throws IOException {
+		return pathStreams().map(p -> {
+			try {
+				return new DbFile(p);
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+		});
 	}
 
 	private static int getMinimalPrefixLengthForThose(String s1, String s2) {

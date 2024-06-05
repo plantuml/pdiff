@@ -12,7 +12,7 @@ import com.pdiff.core.Cmp;
 import com.pdiff.core.DbCollection;
 import com.pdiff.html.HtmlDiff;
 
-@Parameters(commandDescription = "This command compares two different runs")
+@Parameters(commandDescription = "Compare two different runs")
 public class DiffCommand {
 
 	@Parameter(description = "run1 run2")
@@ -57,7 +57,7 @@ public class DiffCommand {
 		System.out.println("Compared result: " + run2);
 
 		for (Cmp cmp : all.values())
-			if (cmp.isSame() == false)
+			if (cmp.bothPresent() && cmp.isSame() == false)
 				System.out.println(cmp);
 
 		final Path outHtml = Paths.get(run1 + "-" + run2 + ".html");

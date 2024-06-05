@@ -23,7 +23,7 @@ import com.pdiff.core.MagicOutput;
 import com.pdiff.core.NumberedThreadFactory;
 import com.pdiff.html.HtmlRun;
 
-@Parameters(commandDescription = "This command runs a PlantUML version on the entire collection")
+@Parameters(commandDescription = "Run a PlantUML version on the entire collection")
 public class RunCommand {
 
 	@Parameter(names = { "-r", "--run" }, description = "Specifies the name of the run", required = false)

@@ -152,6 +152,8 @@ public class HtmlDiff {
 			pw.println("</tr>");
 
 			for (Cmp cmp : cmps) {
+				if (cmp.bothPresent() == false)
+					continue;
 				if (cmp.isSame())
 					continue;
 

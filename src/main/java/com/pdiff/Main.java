@@ -15,11 +15,13 @@ public class Main {
 		final InsertCommand insertCommand = new InsertCommand();
 		final RunCommand runCommand = new RunCommand();
 		final DiffCommand diffCommand = new DiffCommand();
+		final RenumberCommand renumberCommand = new RenumberCommand();
 
 		final JCommander commander = JCommander.newBuilder() //
 				.addCommand("insert", insertCommand) //
 				.addCommand("run", runCommand) //
-				.addCommand("diff", diffCommand).build();
+				.addCommand("diff", diffCommand) //
+				.addCommand("renumber", renumberCommand).build();
 
 		commander.parse(args);
 
@@ -30,6 +32,8 @@ public class Main {
 			runCommand.doit();
 		} else if ("diff".equals(parsedCommand)) {
 			diffCommand.doit();
+		} else if ("renumber".equals(parsedCommand)) {
+			renumberCommand.doit();
 		} else {
 			commander.usage();
 		}

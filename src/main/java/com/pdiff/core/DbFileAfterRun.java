@@ -1,5 +1,6 @@
 package com.pdiff.core;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -9,21 +10,13 @@ import java.util.Optional;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-public class DbFileAfterRun implements Comparable<DbFileAfterRun> {
+public class DbFileAfterRun extends DbFile {
 
-	private final Path pumlPath;
 	private final String runcode;
 	private final JsonObject jsonFromRun;
-	private final JsonObject jsonFromDb;
 
 	public static Optional<DbFileAfterRun> load(Path pumlPath, String runcode) {
 		try {
-
-			List<String> all = Files.readAllLines(pumlPath);
-			all = all.subList(0, DbCollection.getStartingLine(all));
-			final String text = String.join("\n", all);
-
-			final JsonObject jsonFromDb = JsonParser.parseString(text).getAsJsonObject();
 
 			final String jsonFileName = pumlPath.getFileName().toString().replace(".puml", ".json");
 
@@ -33,7 +26,7 @@ public class DbFileAfterRun implements Comparable<DbFileAfterRun> {
 			final String content = new String(Files.readAllBytes(jsonPath));
 
 			final JsonObject jsonFromRun = JsonParser.parseString(content).getAsJsonObject();
-			return Optional.of(new DbFileAfterRun(pumlPath, runcode, jsonFromRun, jsonFromDb));
+			return Optional.of(new DbFileAfterRun(pumlPath, runcode, jsonFromRun));
 		} catch (Exception e) {
 			return Optional.empty();
 
@@ -41,7 +34,7 @@ public class DbFileAfterRun implements Comparable<DbFileAfterRun> {
 	}
 
 	public boolean sameResultAs(DbFileAfterRun other) {
-		return this.getCrc() == other.getCrc();
+		return other != null && this.getCrc() == other.getCrc();
 	}
 
 	@Override
@@ -49,37 +42,14 @@ public class DbFileAfterRun implements Comparable<DbFileAfterRun> {
 		return super.toString() + " " + jsonFromRun.toString();
 	}
 
-	private DbFileAfterRun(Path pumlPath, String runcode, JsonObject jsonFromRun, JsonObject jsonFromDb) {
-		this.pumlPath = pumlPath;
+	private DbFileAfterRun(Path pumlPath, String runcode, JsonObject jsonFromRun) throws IOException {
+		super(pumlPath);
 		this.runcode = runcode;
 		this.jsonFromRun = jsonFromRun;
-		this.jsonFromDb = jsonFromDb;
-	}
-
-	public String getFileName(int minimalPrefix) {
-		return getFileName().substring(0, minimalPrefix);
-	}
-
-	public String getFileName() {
-		return pumlPath.getFileName().toString();
-	}
-
-	public String getJavaScriptPngPath() {
-		final Path newPath = pumlPath.subpath(1, pumlPath.getNameCount());
-		return newPath.toString().replace(".puml", ".png").replace('\\', '/');
 	}
 
 	public JsonObject getJsonObject() {
 		return jsonFromRun;
-	}
-
-	@Override
-	public int compareTo(DbFileAfterRun other) {
-		return this.pumlPath.compareTo(other.pumlPath);
-	}
-
-	public Path getPumlPath() {
-		return pumlPath;
 	}
 
 	public int getCrc() {
@@ -99,13 +69,6 @@ public class DbFileAfterRun implements Comparable<DbFileAfterRun> {
 	public int getHeight() {
 		final JsonObject pngObject = jsonFromRun.getAsJsonObject("png");
 		return pngObject.get("height").getAsInt();
-	}
-
-	public String getUrl() {
-		final JsonObject insertion = jsonFromDb.getAsJsonObject("insertion");
-		if (insertion.has("url"))
-			return insertion.get("url").getAsString();
-		return null;
 	}
 
 	public String getDescription() {

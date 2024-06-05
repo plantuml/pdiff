@@ -44,11 +44,8 @@ public class DbFileInsert {
 		insertion.addProperty("when", DateTimeFormatter.ISO_INSTANT.format(instant));
 		if (url != null)
 			insertion.addProperty("url", url);
-		// insertion.addProperty("os", System.getProperty("os.name"));
-		insertion.addProperty("user", user);
-		// final String hostName = InetAddress.getLocalHost().getHostName();
-		// insertion.addProperty("hostname", hostName);
 
+		insertion.addProperty("user", user);
 		jsonObject.add("insertion", insertion);
 
 		final Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();

@@ -18,22 +18,13 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.pdiff.Introspection;
 
-public class DbFileBeforeRun implements Comparable<DbFileBeforeRun> {
+public class DbFileBeforeRun extends DbFile {
 
-	private final Path pumlPath;
 	private final String runcode;
 
-	public DbFileBeforeRun(Path pumlPath, String runcode) {
-		this.pumlPath = pumlPath;
+	public DbFileBeforeRun(Path pumlPath, String runcode) throws IOException {
+		super(pumlPath);
 		this.runcode = runcode;
-	}
-
-	public String getFileName(int minimalPrefix) {
-		return getFileName().substring(0, minimalPrefix);
-	}
-
-	public String getFileName() {
-		return pumlPath.getFileName().toString();
 	}
 
 	private Path transformPath(Path path, String extension) {
@@ -45,19 +36,19 @@ public class DbFileBeforeRun implements Comparable<DbFileBeforeRun> {
 	}
 
 	private DbFileAfterRun getDbFileAfterRun() {
-		final Optional<DbFileAfterRun> res = DbFileAfterRun.load(pumlPath, runcode);
+		final Optional<DbFileAfterRun> res = DbFileAfterRun.load(getPumlPath(), runcode);
 		if (res.isEmpty())
 			throw new IllegalStateException();
 		return res.get();
 	}
 
 	public void convertMe(int minimalPrefix) throws Exception {
-		List<String> all = Files.readAllLines(pumlPath);
+		List<String> all = Files.readAllLines(getPumlPath());
 		all = all.subList(DbCollection.getStartingLine(all), all.size());
 
 		final String text = String.join("\n", all);
-		final Path outputPathPng = transformPath(pumlPath, ".png");
-		final Path outputPathJson = transformPath(pumlPath, ".json");
+		final Path outputPathPng = transformPath(getPumlPath(), ".png");
+		final Path outputPathJson = transformPath(getPumlPath(), ".json");
 		Files.createDirectories(outputPathPng.getParent());
 
 		final long start = System.currentTimeMillis();
@@ -91,9 +82,9 @@ public class DbFileBeforeRun implements Comparable<DbFileBeforeRun> {
 
 	public void createStandaloneHtml(int minimalPrefix, DbFileBeforeRun prev, DbFileBeforeRun next,
 			List<DbFileBeforeRun> allRuns, List<DbFileAfterRun> allAfterRuns) throws IOException {
-		final Path outputPathHtml = transformPath(pumlPath, ".html");
+		final Path outputPathHtml = transformPath(getPumlPath(), ".html");
 
-		List<String> all = Files.readAllLines(pumlPath);
+		List<String> all = Files.readAllLines(getPumlPath());
 		all = all.subList(DbCollection.getStartingLine(all), all.size());
 
 		try (PrintWriter pw = new PrintWriter(Files.newBufferedWriter(outputPathHtml))) {
@@ -189,7 +180,7 @@ public class DbFileBeforeRun implements Comparable<DbFileBeforeRun> {
 						long_text = full[selected_text]
 						destination_url = f"{runcode}/{long_text[0:2]}/{long_text}.html"
 						current_location = window.location.href
-						base_url = current_location[:current_location.rfind('/runs/')]						
+						base_url = current_location[:current_location.rfind('/runs/')]
 						full_url = f"{base_url}/runs/{destination_url}"
 						print(full_url)
 						window.location.href = full_url
@@ -240,11 +231,6 @@ public class DbFileBeforeRun implements Comparable<DbFileBeforeRun> {
 			pw.println("</html>");
 
 		}
-	}
-
-	@Override
-	public int compareTo(DbFileBeforeRun other) {
-		return this.pumlPath.compareTo(other.pumlPath);
 	}
 
 }

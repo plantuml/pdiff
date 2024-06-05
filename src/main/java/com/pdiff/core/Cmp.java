@@ -13,6 +13,10 @@ public class Cmp {
 		this.run2 = file;
 	}
 
+	public boolean bothPresent() {
+		return run1 != null && run2 != null;
+	}
+
 	public boolean isSame() {
 		if (run1.getDescription().equals("(Error)") && run2.getDescription().equals("(Error)"))
 			return true;
