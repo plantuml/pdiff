@@ -1,0 +1,21 @@
+{
+  "sha1": "mfn4m9352hbzr7kb2f4im0dkxhbsn4f",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.680Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1789",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+group #ffa Group 1
+    Particpant_A -> Particpant_B
+    Particpant_A <- Particpant_B
+end
+
+group #ffa Group 2
+    Particpant_A -> Particpant_B++
+    Particpant_A <- Particpant_B--
+end
+@enduml

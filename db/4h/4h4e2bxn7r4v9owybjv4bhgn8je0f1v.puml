@@ -1,0 +1,15 @@
+{
+  "sha1": "4h4e2bxn7r4v9owybjv4bhgn8je0f1v",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.646Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1097",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+activate a
+a -> a : put
+||0||
+deactivate a
+@enduml

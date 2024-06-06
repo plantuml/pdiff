@@ -1,0 +1,28 @@
+{
+  "sha1": "o47fznyeyaqg0xzb80yqektzkx49f3j",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.655Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1802",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+'!theme crt-amber
+'skinparam backgroundColor #000000
+
+participant "Random Name" as foo
+
+hide footbox
+
+foo -> foo : test
+
+& opt message received
+    alt REQUEST
+        bossrpcp -> bossrpcp : request
+    else RESPONSE
+        bossrpcp -> bossrpcp : respond
+    end
+end
+@enduml

@@ -1,0 +1,17 @@
+{
+  "sha1": "p6bz8unb5vj8cg7t58v6vr6ull0tri5",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.687Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1793",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+A -> B++: Get data
+& B -> C++:a\n2
+& C -> D++:
+D -->> C--:a\n2
+& C -->> A--:
+&B -->> A--: Data
+@enduml

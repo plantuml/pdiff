@@ -1,0 +1,35 @@
+{
+  "sha1": "ekj4652s9ie0zhrwwzkwdetkqt18o9o",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.657Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1094",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+== Bad I ==
+A -> B ++		: ping   
+note right: Lifeline extends\n past message
+B -->? : log
+& B -> A --		: pong
+== Bad II ==
+A -> B 			: ping   
+Activate B
+note right: equally broken\nwithout --/++ notation
+B -->? : log
+& B -> A 		: pong
+Deactivate B
+== Good ==
+A -> B ++		: ping
+note right: but not perfect:\n"log" too close\n to lifeline  
+B -> A --		: pong
+& B -->? : log
+== Best ==
+A -> B 			: ping   
+Activate B
+note right: Looks perfect!
+B -->? : log
+Deactivate B
+& B -> A 		: pong
+@enduml

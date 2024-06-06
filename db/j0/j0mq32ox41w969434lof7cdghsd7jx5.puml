@@ -1,0 +1,22 @@
+{
+  "sha1": "j0mq32ox41w969434lof7cdghsd7jx5",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.727Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1773",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+component A
+component B
+component C
+component D
+
+A -up-> B : > up arrow **missing**
+B <-down- A : < up arrow works
+B -right-> C : > right arrow works
+C -down-> D : > down arrow works
+D -left-> A : > left arrow **missing**
+A <-right- D : < left arrow works
+
+@enduml

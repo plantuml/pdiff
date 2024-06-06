@@ -1,0 +1,36 @@
+{
+  "sha1": "lcvlxsgg0wplgjm6wfkas48mzvd8m4g",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.661Z",
+    "url": "https://github.com/plantuml/plantuml/issues/269",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+    opt
+        A->B: message
+    end
+    & opt
+        C->D: message
+    end
+
+    alt
+        A->B: message
+    end
+    & alt
+        C->D: message
+    end
+
+    alt
+        A->B: message
+    else default
+        B->B: other
+    end
+    & alt
+        C->D: message
+    else default
+        D->D: other
+    end
+
+@enduml

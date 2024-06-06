@@ -1,0 +1,18 @@
+{
+  "sha1": "pdi3xl1khfwekvkviy61unqakpfwqud",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.709Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1683",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Test -> Test : 1st self message, no activation
+Test -> Test ++: 2nd self message, starting activation
+Test -> Test ++: 3rd self message, staring another activation
+Test -> Test : 4th self message, continuing in the current activation
+Test -> Test --: 5th self message, deactivating once
+Test -> Test : 6th self message, continuing the activation
+Test -> Test --: 7th self message, exiting the activation
+Test -> Test : 8th self message, no activation
+@enduml

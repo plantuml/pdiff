@@ -1,0 +1,20 @@
+{
+  "sha1": "2vwirefget0lmjd3qcoy16kgdzhht8v",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.641Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1097",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+loop
+loop
+Bob->Alice : hello
+opt
+[->Alice : external event
+end opt
+end loop
+end loop
+@enduml

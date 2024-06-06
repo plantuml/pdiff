@@ -1,0 +1,13 @@
+{
+  "sha1": "24qosryh5x4cdvu4gtcsc99zwraq4il",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.673Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1451",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+Bob -> Alice : hello
+hnote left: text
+@enduml

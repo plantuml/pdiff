@@ -1,0 +1,19 @@
+{
+  "sha1": "r510yp5qxnnyoxsmp5mt371xcqcvtp6",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.707Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1683",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam {
+   Maxmessagesize 200
+}
+
+activate Test
+Test <<-- Test : the arrow and text are located inside the Lifeline because they are counted from the right side of the active member's column bar (Lifeline). Which is an incorrect display, right?
+Test <<-- Test : also the arrow is not displayed correctly (issue: #1678). (I wonder if the closing of the Lifeline is displayed correctly? Should it also include the arrow before it, i.e. close after it? If not, how do I close the Life Line after the last arrow?)
+deactivate Test
+
+@enduml

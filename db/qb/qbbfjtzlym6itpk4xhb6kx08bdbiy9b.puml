@@ -1,0 +1,35 @@
+{
+  "sha1": "qbbfjtzlym6itpk4xhb6kx08bdbiy9b",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.653Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1802",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+    opt
+        A->B: message
+    end
+    & opt
+        C->D: message
+    end
+
+    alt
+        A->B: message
+    end
+    & alt
+        C->D: message
+    end
+
+    alt
+        A->B: message
+    else default
+        B->B: other
+    end
+     alt
+        C->D: message
+    else default
+        D->D: other
+    end
+@enduml

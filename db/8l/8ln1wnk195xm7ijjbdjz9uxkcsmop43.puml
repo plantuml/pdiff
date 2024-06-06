@@ -1,0 +1,25 @@
+{
+  "sha1": "8ln1wnk195xm7ijjbdjz9uxkcsmop43",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.711Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1683",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+'skin rose
+skinparam sequence {
+ArrowColor Green
+}
+
+Testing <- Testing : 1st self message, no activation
+Testing <- Testing ++: 2nd self message, starting activation
+Testing <- Testing : 2.5th self message, no change
+Testing <- Testing ++: 3rd self message, staring another activation
+Testing <- Testing : 4th self message, continuing in the current activation
+Testing <- Testing --: 5th self message, deactivating once
+Testing <- Testing : 6th self message, continuing the activation
+Testing <- Testing --: 7th self message, exiting the activation
+Testing <- Testing : 8th self message, no activation
+@enduml

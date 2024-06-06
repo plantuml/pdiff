@@ -1,0 +1,20 @@
+{
+  "sha1": "jhhx6i770ixqrhwqmkgqkx5ip8mhmse",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.720Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1777",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+participant A
+participant B
+participant C
+participant D
+participant E
+group
+A->? : M1
+?->E : M2 [Grouped]
+end
+@enduml

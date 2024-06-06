@@ -1,0 +1,15 @@
+{
+  "sha1": "ofofeguvd90wizpfdf1ykeflki8s0nw",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.712Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1780",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A -> B : a
+note right: Note
+activate B
+B --> A : b
+deactivate B
+@enduml

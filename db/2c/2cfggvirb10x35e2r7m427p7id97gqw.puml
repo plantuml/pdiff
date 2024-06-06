@@ -1,0 +1,22 @@
+{
+  "sha1": "2cfggvirb10x35e2r7m427p7id97gqw",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.700Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1787",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+participant Bob   as b
+participant Alice as a
+a <->    a : ""<->""
+a o<->o  a : ""o<->o""
+a x<->x  a : ""x<->x""
+a x->o   a : ""x->o""
+a ->x    a : ""->x""
+a x->    a : ""x->""
+a x<-    a : ""x<-""
+a <-X    a : ""<-x""
+a o<-x   a : ""o<-x""
+@enduml

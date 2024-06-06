@@ -1,0 +1,39 @@
+{
+  "sha1": "i7m1foj1lycylnlzl7l9iscksuabtxd",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.637Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1097",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+skinparam ParticipantPadding 18
+skinparam BoxPadding 20
+box
+participant A
+end box
+  A -> B
+& B -> C
+opt#transparent #pink bad /'in teoz'/
+?o-> B : Pre
+& B <-o? : yolo
+'& C -[hidden]> C /' enlarge opt box '/
+end
+opt#transparent expand?
+[o-> B : Pre
+& B <-o? : yolo
+'& C -[hidden]> C /' enlarge opt box '/
+'& C -[hidden]> B
+end
+opt#transparent #20DD0090 OK
+  A o-> B
+& B <-o? : yolo
+'& C -[hidden]> C /' enlarge opt box '/
+end
+opt#transparent #pink bad?
+  A o-> B
+& B <-o] : yolo
+'& C -[hidden]> C /' enlarge opt box '/
+end
+@enduml

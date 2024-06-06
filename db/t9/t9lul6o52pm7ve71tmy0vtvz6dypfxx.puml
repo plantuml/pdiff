@@ -1,0 +1,28 @@
+{
+  "sha1": "t9lul6o52pm7ve71tmy0vtvz6dypfxx",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.685Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1099",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+  A <[#red]-o? ++
+  A -> B -- : very long\nmulti-line
+& B -> C ++ #red: single
+note over C: got it
+Deactivate C
+====
+  A <-o? ++ #green
+  A -> B -- : very long\nmulti-line
+& B -> C ++ #green : same\nheight
+note over C: got it
+Deactivate C
+====
+  A <-o? ++ #red
+  A -> B -- : single
+& B -> C ++ : very long\nmulti-line
+note over C: got it
+Deactivate C
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "4cfa2jwae1do0ekdixw1u9s55s5vqix",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.590Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1723",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+a -> a ++: call
+a ->> b: an async message happens\nwithin the call
+a -->> a --: return
+@enduml

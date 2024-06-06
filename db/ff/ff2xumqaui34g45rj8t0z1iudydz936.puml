@@ -1,0 +1,17 @@
+{
+  "sha1": "ff2xumqaui34g45rj8t0z1iudydz936",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.719Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1777",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam {
+      Maxmessagesize 200
+   }
+
+   group Grouping messages
+      Test <<-- Test : The group frame [now] does draw a border around the text (located on the left side), [no longer ignoring] its presence, and also [no longer ignores] the presence of a line.
+   end
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "kqd34az1lmnv7ka2gi4ls4w8cv56oip",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.630Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1723",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+activate a
+a -> a : put
+deactivate a
+@enduml

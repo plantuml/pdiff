@@ -1,0 +1,20 @@
+{
+  "sha1": "3xiwbaqx5ee2s7cgm2mpjvqtx80jr54",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.634Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1723",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+
+dummy -> A ++: first step
+
+A -> A: test
+A -> B --++: second step
+
+B -> B: test
+B -> C--: third step
+
+@enduml

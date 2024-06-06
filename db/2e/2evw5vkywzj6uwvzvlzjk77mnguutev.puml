@@ -1,0 +1,16 @@
+{
+  "sha1": "2evw5vkywzj6uwvzvlzjk77mnguutev",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.686Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1793",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A -> B++: Get data
+& A -> C++: 
+& A -> D++: 
+B -->> A--: Data
+& C -->> A--: 
+& D -->> A--:
+@enduml

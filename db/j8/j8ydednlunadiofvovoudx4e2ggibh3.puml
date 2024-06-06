@@ -1,0 +1,21 @@
+{
+  "sha1": "j8ydednlunadiofvovoudx4e2ggibh3",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.717Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1777",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Test --> Test: Text
+note right: the location of the Comment is correct
+
+Test --> Test: Text
+note left: the location of the Comment is correct
+
+Test <-- Test: Text
+note right: the location of the Comment is [now correct]
+
+Test <-- Test: Text
+note left: the location of the Comment is [now correct]
+@enduml

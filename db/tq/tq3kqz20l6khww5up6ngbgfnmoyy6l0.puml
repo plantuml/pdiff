@@ -1,0 +1,63 @@
+{
+  "sha1": "tq3kqz20l6khww5up6ngbgfnmoyy6l0",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.639Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1097",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+skinparam ParticipantPadding 18
+skinparam BoxPadding 20
+
+participant A
+participant B
+participant C
+
+== two short arrows ==
+opt#transparent OK /'in teoz'/
+?o-> B : Pre
+& B <-o? : yolo
+end
+?o-> B : Pre
+& B <-o? : yolo
+opt#transparent OK /'in teoz'/
+?o-> A : Pre
+& A <-o? : yolo
+end
+?o-> A : Pre
+& A <-o? : yolo
+opt#transparent OK /'in teoz'/
+?o-> A : longer text short
+end
+?o-> A : longer text short
+== left edge arrows ==
+opt#transparent OK
+[o-> B : Pre
+& B <-o? : yolo
+end
+[o-> B : Pre
+& B <-o? : yolo
+== right edge arrows ==
+opt#transparent OK
+  A o-> B
+& B <-o] : yolo
+end
+  A o-> B
+& B <-o] : yolo
+== extra long text on right edge arrows ==
+opt#transparent OK
+  A o-> B
+& B <-o] : This text extends the arrow length\n right edge arrow
+end
+  A o-> B
+& B <-o] : This text extends the arrow length\n right edge arrow
+== extra long text on right short arrows ==
+opt#transparent OK /'in teoz'/
+?o-> B : Pre
+& B <-o? : This text extends the arrow length\n short arrow
+end
+?o-> B : Pre
+& B <-o? : This text extends the arrow length\nshort arrow
+@enduml

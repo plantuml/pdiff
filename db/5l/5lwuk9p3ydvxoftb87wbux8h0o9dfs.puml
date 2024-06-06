@@ -1,0 +1,15 @@
+{
+  "sha1": "5lwuk9p3ydvxoftb87wbux8h0o9dfs",
+  "insertion": {
+    "when": "2024-06-06T17:24:18.635Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1803",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+activate a
+a -> a  : call
+||0||
+deactivate a
+@enduml
