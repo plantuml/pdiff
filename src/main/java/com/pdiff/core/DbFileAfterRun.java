@@ -75,8 +75,17 @@ public class DbFileAfterRun extends DbFile {
 		return jsonFromRun.get("description").getAsString();
 	}
 
+	public String getImplementation() {
+		return jsonFromRun.get("implementation").getAsString();
+	}
+
 	public String getRuncode() {
 		return runcode;
+	}
+
+	public boolean sameDescriptionAndImplementation(DbFileAfterRun other) {
+		return this.getDescription().equals(other.getDescription())
+				&& this.getImplementation().equals(other.getImplementation());
 	}
 
 }

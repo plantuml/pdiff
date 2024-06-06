@@ -50,22 +50,28 @@ public class HtmlDiff {
 							            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 							            margin-bottom: 20px;
 							        }
+							        table img {
+							            max-width: 95%;
+							            height: auto;
+							        }
 							        th, td {
 							            border: 1px solid #ddd;
 							            padding: 8px;
 							            text-align: left;
 							        }
-							        tr:nth-child(even) {
-							            background-color: #f9f9f9;
+							        tr:nth-child(3n) {
+							            background-color: #e9e9f9;
 							        }
-							        tr:nth-child(odd) {
+							        tr:nth-child(3n+1) {
 							            background-color: #fff;
+							        }
+							        tr:nth-child(3n+2) {
+							            background-color: #e9e9f9;
 							        }
 							        th {
 							            background-color: #ddd;
 							        }
 							        tr:hover {
-							            background-color: #f1f1f1;
 							        }
 							    </style>
 							</head>
@@ -133,22 +139,19 @@ public class HtmlDiff {
 
 			pw.println("<div id=detail></div>");
 
-//			all.stream().forEach(file -> {
-//				try {
-//					outSingleFile(pw, file);
-//				} catch (Exception e) {
-//					System.out.println(e);
-//				}
-//			});
+			pw.println("<p>");
+			pw.println("<p>");
 
-			pw.println("<p>");
-			pw.println("<p>");
+			final Cmp firstCmp = cmps.iterator().next();
+
+			final String run1name = firstCmp.getRun1().getRuncode();
+			final String run2name = firstCmp.getRun2().getRuncode();
 
 			pw.println("<table>");
 			pw.println("<tr>");
-			pw.println("<th>name</th>");
-			pw.println("<th>run1</th>");
-			pw.println("<th>run2</th>");
+//			pw.println("<th>name</th>");
+			pw.println("<th colspan=2>" + run1name + "</th>");
+			pw.println("<th colspan=2>" + run2name + "</th>");
 			pw.println("</tr>");
 
 			for (Cmp cmp : cmps) {
@@ -160,22 +163,50 @@ public class HtmlDiff {
 				final DbFileAfterRun run1 = cmp.getRun1();
 				final DbFileAfterRun run2 = cmp.getRun2();
 				pw.println("<tr>");
+				pw.println("<td colspan=4>");
+				pw.print("<center><b>" + run1.getFileName(minimalPrefix) + "</b></center>");
+				pw.println("</td>");
+				pw.println("</tr>");
+				pw.println("<tr>");
+
+//				if (run1.sameDescriptionAndImplementation(run2)) {
+//					pw.println("<td colspan=2>");
+//					pw.print(run1.getDescription());
+//					pw.println("</td>");
+//					pw.println("<td colspan=2>");
+//					pw.print(run1.getImplementation());
+//					pw.println("</td>");
+//				} else {
 				pw.println("<td>");
-				pw.print(run1.getFileName(minimalPrefix));
+				pw.print(run1.getDescription());
 				pw.println("</td>");
 				pw.println("<td>");
-				pw.print(run1.getDescription() + " " + run1.getCrc());
+				pw.print(run1.getImplementation());
 				pw.println("</td>");
 				pw.println("<td>");
-				pw.print(run2.getDescription() + " " + run2.getCrc());
+				pw.print(run2.getDescription());
 				pw.println("</td>");
+				pw.println("<td>");
+				pw.print(run2.getImplementation());
+				pw.println("</td>");
+//				}
+				pw.println("</tr>");
 
 				pw.println("<tr>");
-				pw.println("<td colspan=3>");
+//				pw.println("<td>");
+//				pw.print("1");
+//				pw.println("</td>");
+				pw.println("<td colspan=2>");
 				pw.println("<img src=runs/" + run1.getRuncode() + "/" + run1.getJavaScriptPngPath() + ">");
-				pw.println("<hr>");
+				pw.println("</td>");
+				pw.println("<td colspan=2>");
 				pw.println("<img src=runs/" + run2.getRuncode() + "/" + run2.getJavaScriptPngPath() + ">");
 				pw.println("</td>");
+//				pw.println("<td colspan=3>");
+//				pw.println("<img src=runs/" + run1.getRuncode() + "/" + run1.getJavaScriptPngPath() + ">");
+//				pw.println("<hr>");
+//				pw.println("<img src=runs/" + run2.getRuncode() + "/" + run2.getJavaScriptPngPath() + ">");
+//				pw.println("</td>");
 				pw.println("</tr>");
 
 			}

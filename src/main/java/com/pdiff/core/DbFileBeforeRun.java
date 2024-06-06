@@ -17,6 +17,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.pdiff.Introspection;
+import com.pdiff.OutputRun;
 
 public class DbFileBeforeRun extends DbFile {
 
@@ -52,7 +53,7 @@ public class DbFileBeforeRun extends DbFile {
 		Files.createDirectories(outputPathPng.getParent());
 
 		final long start = System.currentTimeMillis();
-		final String description = Introspection.outputImage(outputPathPng, text);
+		final OutputRun outputRun = Introspection.outputImage(outputPathPng, text);
 
 		final long duration = System.currentTimeMillis() - start;
 
@@ -61,7 +62,8 @@ public class DbFileBeforeRun extends DbFile {
 
 		final JsonObject jsonObject = new JsonObject();
 		jsonObject.addProperty("duration", duration);
-		jsonObject.addProperty("description", description);
+		jsonObject.addProperty("description", outputRun.description());
+		jsonObject.addProperty("implementation", outputRun.clazz());
 
 		final JsonObject png = new JsonObject();
 		png.addProperty("width", bufferedImage.getWidth());

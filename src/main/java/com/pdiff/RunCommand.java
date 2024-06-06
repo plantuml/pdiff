@@ -36,9 +36,9 @@ public class RunCommand {
 	private AtomicInteger done = new AtomicInteger();
 
 	private int minimalPrefix;
-	private long start;
 
 	private MagicOutput magicOutput;
+	private RemainingTime remainingTime;
 
 	public void doit() throws IOException, InterruptedException {
 
@@ -50,11 +50,12 @@ public class RunCommand {
 			version = Introspection.versionString();
 
 		final ExecutorService executorService = Executors.newFixedThreadPool(slot, new NumberedThreadFactory());
-		this.start = System.currentTimeMillis();
 
 		this.magicOutput = new MagicOutput(slot + 1);
 
 		final List<DbFileBeforeRun> allRuns = new ArrayList<>();
+
+		remainingTime = RemainingTime.ofTotalCount(this.count);
 
 		dbCollection.streamsBeforeRun(version).forEach(p -> executorService.submit(() -> {
 			try {
@@ -74,6 +75,9 @@ public class RunCommand {
 		final List<DbFileAfterRun> allAfter = dbCollection.streamsAfterRun(version).sorted().sequential()
 				.collect(Collectors.toList());
 
+		final Path outHtml = Paths.get(version + ".html");
+		new HtmlRun(outHtml, dbCollection);
+		
 		for (int i = 0; i < allRuns.size(); i++) {
 			System.out.println("Writing " + i + "/" + allRuns.size());
 			System.out.print(Ansi.ansi().cursorUpLine());
@@ -84,9 +88,6 @@ public class RunCommand {
 		System.out.print(Ansi.ansi().eraseLine());
 		System.out.println("Done!");
 
-		final Path outHtml = Paths.get(version + ".html");
-
-		new HtmlRun(outHtml, dbCollection);
 
 	}
 
@@ -94,17 +95,8 @@ public class RunCommand {
 		final String threadName = Thread.currentThread().getName();
 		final int workerId = Integer.parseInt(threadName.split("-")[1]);
 
-		final long duration = (System.currentTimeMillis() - start) / 1000L;
-
 		magicOutput.updateLivingPart(workerId, workerId + " " + dbFile.getFileName(minimalPrefix));
-
-		final int doneCount = done.get();
-		final int remainingCount = count - doneCount;
-		final long eta = (doneCount > 0) ? (duration * remainingCount / doneCount) : 0;
-
-		magicOutput.updateLivingPart(slot,
-				"Total " + done + "/" + count + " [" + duration + "s ETA=" + (eta / 60) + " minutes ]");
-		done.incrementAndGet();
+		magicOutput.updateLivingPart(slot, remainingTime.updateCountAndGetStatus(done.incrementAndGet()));
 
 		dbFile.convertMe(this.minimalPrefix);
 

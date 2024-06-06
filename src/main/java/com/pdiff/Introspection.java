@@ -5,6 +5,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.List;
 
 public class Introspection {
 
@@ -18,7 +19,7 @@ public class Introspection {
 		}
 	}
 
-	public static String outputImage(final Path outputPathPng, final String text) throws Exception {
+	public static OutputRun outputImage(final Path outputPathPng, final String text) throws Exception {
 
 		final Class<?> readerClass = Class.forName("net.sourceforge.plantuml.SourceStringReader");
 
@@ -30,7 +31,17 @@ public class Introspection {
 		try (OutputStream png = Files.newOutputStream(outputPathPng)) {
 			final Object result = outputImageMethod.invoke(readerInstance, png);
 			final Method getDescriptionMethod = result.getClass().getMethod("getDescription");
-			return (String) getDescriptionMethod.invoke(result);
+			final String description = (String) getDescriptionMethod.invoke(result);
+
+			// Introspection on getBlocks()
+			final Method getBlocksMethod = readerClass.getMethod("getBlocks");
+			final List<?> blocks = (List<?>) getBlocksMethod.invoke(readerInstance);
+			final Object firstBlock = blocks.get(0);
+			final Method getDiagramMethod = firstBlock.getClass().getMethod("getDiagram");
+			final Object diagram = getDiagramMethod.invoke(firstBlock);
+			final Class<?> diagramClass = diagram.getClass();
+
+			return new OutputRun(description, diagramClass.getSimpleName());
 		}
 	}
 

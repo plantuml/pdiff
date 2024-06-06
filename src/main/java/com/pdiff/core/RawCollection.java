@@ -18,6 +18,7 @@ public class RawCollection {
 	public void iterateMeAndInsert(String user, DbCollection dbCollection) throws IOException {
 		System.out.println();
 		System.out.println();
+		final int before = dbCollection.count();
 		try (Stream<Path> paths = Files.walk(root)) {
 			paths.filter(Files::isRegularFile).forEach(p -> {
 				try {
@@ -34,10 +35,12 @@ public class RawCollection {
 				}
 			});
 		}
+		final int after = dbCollection.count();
 		System.out.print(Ansi.ansi().cursorUpLine());
 		System.out.print(Ansi.ansi().eraseLine());
 		System.out.print(Ansi.ansi().cursorUpLine());
 		System.out.print(Ansi.ansi().eraseLine());
+		System.out.println("Collection size: " + before + " -> " + after);
 
 	}
 

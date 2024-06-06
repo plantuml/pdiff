@@ -66,20 +66,7 @@ public class HtmlRun {
 
 							    <script type="text/python">
 							from browser import document, html, window
-							full = dict()
-							desc = dict()
 									 """);
-
-			all.stream().forEach(file -> {
-				final String key = file.getFileName(minimalPrefix).replace(".puml", "");
-				final String name = file.getFileName().replace(".puml", "");
-				final JsonObject json = file.getJsonObject();
-				final String description = json.get("description").getAsString();
-				pw.println("full['" + key + "']='" + name + "'");
-				pw.println("desc['" + key + "']='" + description + "'");
-			});
-
-			pw.println("runcode='" + runcode + "'");
 
 			pw.println("""
 					def on_input(event):
@@ -102,15 +89,6 @@ public class HtmlRun {
 			pw.println("<p>");
 			pw.println("<p>");
 
-			pw.println("<div id=detail></div>");
-
-//			all.stream().forEach(file -> {
-//				try {
-//					outSingleFile(pw, file);
-//				} catch (Exception e) {
-//					System.out.println(e);
-//				}
-//			});
 
 			pw.println("<p>");
 			pw.println("<p>");
@@ -122,6 +100,7 @@ public class HtmlRun {
 			pw.println("<th>Duration</th>");
 			pw.println("<th>Width</th>");
 			pw.println("<th>Height</th>");
+			pw.println("<th>Implementation</th>");
 			pw.println("<th>Description</th>");
 			pw.println("<th>URL</th>");
 			pw.println("</tr>");
@@ -143,6 +122,9 @@ public class HtmlRun {
 					pw.println("</td>");
 					pw.println("<td>");
 					pw.print(file.getHeight());
+					pw.println("</td>");
+					pw.println("<td>");
+					pw.print(file.getImplementation());
 					pw.println("</td>");
 					pw.println("<td>");
 					pw.print(file.getDescription());

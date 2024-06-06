@@ -7,13 +7,16 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.zip.DataFormatException;
 
 import org.fusesource.jansi.Ansi;
 
+import com.pdiff.code.TranscoderSmart;
+
 public class RawFile {
 
-	private static final String urlRegex = "(https?://[^\\s'\"]+)";
-	private static final Pattern pattern = Pattern.compile(urlRegex, Pattern.CASE_INSENSITIVE);
+	private static final Pattern patternUrl = Pattern.compile("(https?://[^\\s'\"]+)", Pattern.CASE_INSENSITIVE);
+	private static final Pattern patternSrc = Pattern.compile("SRC=\\[([-_0-9a-zA-Z]+)\\]");
 
 	private final Path path;
 	private final List<String> content;
@@ -27,10 +30,17 @@ public class RawFile {
 	}
 
 	private static String detectUrl(String s) {
-		final Matcher matcher = pattern.matcher(s);
-
+		final Matcher matcher = patternUrl.matcher(s);
 		if (matcher.find())
 			return matcher.group();
+
+		return null;
+	}
+
+	private static String detectSrc(String s) {
+		final Matcher matcher = patternSrc.matcher(s);
+		if (matcher.find())
+			return matcher.group(1);
 
 		return null;
 	}
@@ -47,6 +57,25 @@ public class RawFile {
 
 		for (final Iterator<String> it = content.iterator(); it.hasNext();) {
 			String s = it.next();
+
+			final String src = detectSrc(s);
+			if (src != null) {
+				try {
+					final String raw = new TranscoderSmart().decode(src);
+					final DbFileInsert dbFile = new DbFileInsert();
+					dbFile.setUrl(url);
+					url = null;
+					dbFile.append(raw);
+					final String sha1 = dbFile.getSha1();
+					System.out.print(Ansi.ansi().cursorUpLine());
+					System.out.print(Ansi.ansi().eraseLine());
+					System.out.println(Ansi.ansi().fg(Ansi.Color.GREEN).a("(" + sha1 + ")").reset());
+					dbCollection.insertSingleFile(user, dbFile);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
 			final String tmp = detectUrl(s);
 			if (tmp != null)
 				url = tmp;

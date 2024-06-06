@@ -62,10 +62,21 @@ public class DbCollection {
 		return count.get();
 	}
 
+	final public boolean hasPragmaElk(Path path) {
+		try {
+			return Files.lines(path).anyMatch(line -> line.contains("!pragma layout elk"));
+		} catch (IOException e) {
+			e.printStackTrace();
+			return false;
+		}
+	}
+
 	public Stream<Path> pathStreams() throws IOException {
 		return Files.walk(root) //
+				.parallel() //
 				.filter(Files::isRegularFile) //
 				.filter(p -> p.toString().endsWith(".puml")) //
+				.filter(p -> !hasPragmaElk(p)) //
 				.parallel();
 	}
 

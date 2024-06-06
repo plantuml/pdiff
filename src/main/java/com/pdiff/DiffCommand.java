@@ -56,9 +56,9 @@ public class DiffCommand {
 		System.out.println("Reference result: " + run1);
 		System.out.println("Compared result: " + run2);
 
-		for (Cmp cmp : all.values())
-			if (cmp.bothPresent() && cmp.isSame() == false)
-				System.out.println(cmp);
+//		for (Cmp cmp : all.values())
+//			if (cmp.bothPresent() && cmp.isSame() == false)
+//				System.out.println(cmp);
 
 		final Path outHtml = Paths.get(run1 + "-" + run2 + ".html");
 
