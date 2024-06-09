@@ -22,6 +22,11 @@ public class DbFile implements Comparable<DbFile> {
 		this.jsonFromDb = JsonParser.parseString(text).getAsJsonObject();
 	}
 
+	@Override
+	public String toString() {
+		return getClass().getSimpleName() + " " + pumlPath.getFileName();
+	}
+
 	final public String getFileName(int minimalPrefix) {
 		return getFileName().substring(0, minimalPrefix);
 	}

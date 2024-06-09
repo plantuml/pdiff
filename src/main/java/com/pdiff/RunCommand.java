@@ -99,6 +99,7 @@ public class RunCommand {
 		magicOutput.updateLivingPart(slot, remainingTime.updateCountAndGetStatus(done.incrementAndGet()));
 
 		dbFile.convertMe(this.minimalPrefix);
+		magicOutput.updateLivingPart(workerId, "");
 
 	}
 
