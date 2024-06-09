@@ -20,5 +20,4 @@ print $c
 print $d   
 </code>
 end title
-footer Observed on V1.2020.19\n(current version: %version())
 @enduml

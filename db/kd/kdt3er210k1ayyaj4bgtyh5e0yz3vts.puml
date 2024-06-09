@@ -1,5 +1,5 @@
 {
-  "sha1": "mn98vduwjm9uoaki3b872smk0ru6dne",
+  "sha1": "kdt3er210k1ayyaj4bgtyh5e0yz3vts",
   "insertion": {
     "when": "2024-06-03T18:59:35.438Z",
     "url": "https://forum.plantuml.net/14104/sequence-diagram-incoming-outgoing-some-arrows-are-inverted",
@@ -41,5 +41,4 @@ participant Bob   as b
    [\- b : ""   [\-""
   [<<- b : ""  [<<-""
    [<- b : ""   [<-""
-footer \nObserved on : 1.2021.7\n(current version: %version())
 @enduml
