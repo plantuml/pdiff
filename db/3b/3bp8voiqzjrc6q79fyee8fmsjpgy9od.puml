@@ -1,0 +1,22 @@
+{
+  "sha1": "3bp8voiqzjrc6q79fyee8fmsjpgy9od",
+  "insertion": {
+    "when": "2024-06-10T17:22:17.937Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1816",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+participant a
+participant b
+participant c
+b ->> c ++: Outside Group
+&opt test
+  activate a
+  a ->> b --++ : Inside Group
+end
+deactivate a
+deactivate c
+deactivate b
+@enduml
