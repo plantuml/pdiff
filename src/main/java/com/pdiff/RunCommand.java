@@ -68,14 +68,16 @@ public class RunCommand {
 
 		remainingTime = RemainingTime.ofTotalCount(all.size());
 
-		all.stream().forEach(p -> executorService.submit(() -> {
-			try {
-				processFile(p);
-				runOk.add(p);
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}));
+		for (DbFileBeforeRun p : all) {
+			executorService.submit(() -> {
+				try {
+					processFile(p);
+					runOk.add(p);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			});
+		}
 
 		executorService.shutdown();
 		executorService.awaitTermination(1, TimeUnit.HOURS);
