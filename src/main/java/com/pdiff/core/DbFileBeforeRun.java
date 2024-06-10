@@ -82,8 +82,8 @@ public class DbFileBeforeRun extends DbFile {
 		return "../" + name.substring(0, 2) + "/" + name;
 	}
 
-	public void createStandaloneHtml(int minimalPrefix, DbFileBeforeRun prev, DbFileBeforeRun next,
-			List<DbFileBeforeRun> allRuns, List<DbFileAfterRun> allAfterRuns) throws IOException {
+	public void createStandaloneHtml(int minimalPrefix, DbFileBeforeRun prev, DbFileBeforeRun next/*,
+			List<DbFileAfterRun> allAfterRuns*/) throws IOException {
 		final Path outputPathHtml = transformPath(getPumlPath(), ".html");
 
 		List<String> all = Files.readAllLines(getPumlPath());
@@ -149,14 +149,14 @@ public class DbFileBeforeRun extends DbFile {
 					desc = dict()
 										""");
 
-			allAfterRuns.stream().forEach(file -> {
-				final String key = file.getFileName(minimalPrefix).replace(".puml", "");
-				final String name = file.getFileName().replace(".puml", "");
-				final JsonObject json = file.getJsonObject();
-				final String description = json.get("description").getAsString();
-				pw.println("full['" + key + "']='" + name + "'");
-				pw.println("desc['" + key + "']='" + description + "'");
-			});
+//			allAfterRuns.stream().forEach(file -> {
+//				final String key = file.getFileName(minimalPrefix).replace(".puml", "");
+//				final String name = file.getFileName().replace(".puml", "");
+//				final JsonObject json = file.getJsonObject();
+//				final String description = json.get("description").getAsString();
+//				pw.println("full['" + key + "']='" + name + "'");
+//				pw.println("desc['" + key + "']='" + description + "'");
+//			});
 
 			pw.println("runcode='" + runcode + "'");
 

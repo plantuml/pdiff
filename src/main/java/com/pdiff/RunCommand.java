@@ -10,6 +10,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import org.fusesource.jansi.Ansi;
@@ -17,7 +18,6 @@ import org.fusesource.jansi.Ansi;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.Parameters;
 import com.pdiff.core.DbCollection;
-import com.pdiff.core.DbFileAfterRun;
 import com.pdiff.core.DbFileBeforeRun;
 import com.pdiff.core.MagicOutput;
 import com.pdiff.core.NumberedThreadFactory;
@@ -29,10 +29,12 @@ public class RunCommand {
 	@Parameter(names = { "-r", "--run" }, description = "Specifies the name of the run", required = false)
 	private String version;
 
+	@Parameter(names = { "-f", "--filter" }, description = "Selects only some tests", required = false)
+	private String filter;
+
 	@Parameter(names = { "-s", "--slot" }, description = "Specifies the number of parallel slots", required = false)
 	private int slot = Runtime.getRuntime().availableProcessors();
 
-	private int count = 0;
 	private AtomicInteger done = new AtomicInteger();
 
 	private int minimalPrefix;
@@ -40,10 +42,15 @@ public class RunCommand {
 	private MagicOutput magicOutput;
 	private RemainingTime remainingTime;
 
+	private Predicate<? super DbFileBeforeRun> getFilter() {
+		if (filter == null)
+			return p -> true;
+		return p -> p.getFileName().startsWith(filter);
+	}
+
 	public void doit() throws IOException, InterruptedException {
 
 		final DbCollection dbCollection = new DbCollection();
-		this.count = dbCollection.count();
 		this.minimalPrefix = dbCollection.getMinimalPrefix();
 
 		if (version == null)
@@ -53,14 +60,18 @@ public class RunCommand {
 
 		this.magicOutput = new MagicOutput(slot + 1);
 
-		final List<DbFileBeforeRun> allRuns = new ArrayList<>();
+		final List<DbFileBeforeRun> runOk = new ArrayList<>();
 
-		remainingTime = RemainingTime.ofTotalCount(this.count);
+		final List<DbFileBeforeRun> all = dbCollection.streamsBeforeRun(version) //
+				.filter(getFilter()) //
+				.collect(Collectors.toList());
 
-		dbCollection.streamsBeforeRun(version).forEach(p -> executorService.submit(() -> {
+		remainingTime = RemainingTime.ofTotalCount(all.size());
+
+		all.stream().forEach(p -> executorService.submit(() -> {
 			try {
 				processFile(p);
-				allRuns.add(p);
+				runOk.add(p);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -70,24 +81,19 @@ public class RunCommand {
 		executorService.awaitTermination(1, TimeUnit.HOURS);
 
 		this.magicOutput.restoreOutput();
-		Collections.sort(allRuns);
-
-		final List<DbFileAfterRun> allAfter = dbCollection.streamsAfterRun(version).sorted().sequential()
-				.collect(Collectors.toList());
-
+		Collections.sort(runOk);
 		final Path outHtml = Paths.get(version + ".html");
-		new HtmlRun(outHtml, dbCollection);
-		
-		for (int i = 0; i < allRuns.size(); i++) {
-			System.out.println("Writing " + i + "/" + allRuns.size());
+		new HtmlRun(outHtml, runOk, dbCollection.getMinimalPrefix());
+
+		for (int i = 0; i < runOk.size(); i++) {
+			System.out.println("Writing result file " + i + "/" + runOk.size());
 			System.out.print(Ansi.ansi().cursorUpLine());
-			final DbFileBeforeRun prev = i > 0 ? allRuns.get(i - 1) : null;
-			final DbFileBeforeRun next = i < allRuns.size() - 1 ? allRuns.get(i + 1) : null;
-			allRuns.get(i).createStandaloneHtml(minimalPrefix, prev, next, allRuns, allAfter);
+			final DbFileBeforeRun prev = i > 0 ? runOk.get(i - 1) : null;
+			final DbFileBeforeRun next = i < runOk.size() - 1 ? runOk.get(i + 1) : null;
+			runOk.get(i).createStandaloneHtml(minimalPrefix, prev, next);
 		}
 		System.out.print(Ansi.ansi().eraseLine());
 		System.out.println("Done!");
-
 
 	}
 

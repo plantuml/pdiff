@@ -5,27 +5,20 @@ import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.Optional;
 
-import com.google.gson.JsonObject;
-import com.pdiff.core.DbCollection;
+import org.fusesource.jansi.Ansi;
+
 import com.pdiff.core.DbFileAfterRun;
+import com.pdiff.core.DbFileBeforeRun;
 
 public class HtmlRun {
 
-	private final String runcode;
-	private final int minimalPrefix;
-
-	public HtmlRun(Path outHtml, DbCollection dbCollection) throws IOException {
-
-		this.runcode = outHtml.getFileName().toString().replace(".html", "");
-		this.minimalPrefix = dbCollection.getMinimalPrefix();
-
-		final List<DbFileAfterRun> all = dbCollection.streamsAfterRun(runcode).sorted().sequential()
-				.collect(Collectors.toList());
+	public HtmlRun(Path outHtml, List<DbFileBeforeRun> runOk, int minimalPrefix) throws IOException {
+		final String runcode = outHtml.getFileName().toString().replace(".html", "");
 
 		try (PrintWriter pw = new PrintWriter(Files.newBufferedWriter(outHtml))) {
-			pw.println("<html><head><title>" + this.runcode + "</title>");
+			pw.println("<html><head><title>" + runcode + "</title>");
 			pw.println(
 					"""
 							    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.min.js"></script>
@@ -89,7 +82,6 @@ public class HtmlRun {
 			pw.println("<p>");
 			pw.println("<p>");
 
-
 			pw.println("<p>");
 			pw.println("<p>");
 
@@ -105,8 +97,12 @@ public class HtmlRun {
 			pw.println("<th>URL</th>");
 			pw.println("</tr>");
 
-			all.stream().forEach(file -> {
-				try {
+			for (int i = 0; i < runOk.size(); i++) {
+				System.out.println("Writing main HTML file " + i + "/" + runOk.size());
+				System.out.print(Ansi.ansi().cursorUpLine());
+				final Optional<DbFileAfterRun> tmp = DbFileAfterRun.load(runOk.get(i).getPumlPath(), runcode);
+				if (tmp.isPresent()) {
+					final DbFileAfterRun file = tmp.get();
 					final String name = file.getFileName(minimalPrefix).replace(".puml", "");
 					pw.println("<tr id=" + name + ">");
 					pw.println("<td>");
@@ -131,15 +127,15 @@ public class HtmlRun {
 					pw.println("</td>");
 					pw.println("<td>");
 					final String url = file.getUrl();
-					if (url != null) {
+					if (url != null)
 						pw.print("<a href='" + url + "'>" + url + "</a>");
-					}
+
 					pw.println("</td>");
 					pw.println("</tr>");
-				} catch (Exception e) {
-					System.out.println(e);
 				}
-			});
+			}
+
+			System.out.print(Ansi.ansi().eraseLine());
 
 			pw.println("</table>");
 
