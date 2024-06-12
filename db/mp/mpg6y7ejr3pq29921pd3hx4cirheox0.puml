@@ -1,0 +1,16 @@
+{
+  "sha1": "mpg6y7ejr3pq29921pd3hx4cirheox0",
+  "insertion": {
+    "when": "2024-06-12T21:58:12.406Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1801",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startjson
+scale max 100*100
+{
+   "fruit":"Apple",
+   "size":"Large",
+   "color": ["Red", "Green"]
+}
+@endjson
