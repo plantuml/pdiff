@@ -1,0 +1,75 @@
+{
+  "sha1": "puj84sx1qm95w7ms2n157uogyyb6v19",
+  "insertion": {
+    "when": "2024-06-14T17:32:42.314Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1707",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.input {
+  BackgroundColor  #ee1100
+}
+.output {
+  BackgroundColor  #ff4422
+}
+.procedure {
+  BackgroundColor  #feae2d
+}
+.load {
+  BackgroundColor  #69d025
+}
+.save {
+  BackgroundColor  #12bdb9
+}
+.continuous {
+  BackgroundColor #3311bb
+}
+.task {
+  BackgroundColor  #442299
+}
+.foo {
+  BackgroundColor  yellow
+}
+</style>
+
+start
+  repeat :Input; <<input>>
+  :Input; <<input>>
+  repeat while (Successful?) is (NO)
+  ->YES;
+  repeat :Output; <<output>>
+  :Output; <<output>>
+  repeat while (Successful?) is (NO)
+  ->YES;
+  repeat :Procedure; <<procedure>>
+  :Procedure; <<procedure>>
+  repeat while (Successful?) is (NO)
+  ->YES;
+  repeat :Load; <<load>>
+  :Load; <<load>>
+  repeat while (Successful?) is (NO)
+  ->YES;
+  repeat :Save; <<save>>
+  :Save; <<save>>
+  repeat while (Successful?) is (NO)
+  ->YES;
+  repeat :Continuous; <<continuous>>
+  :Continuous; <<continuous>>
+  repeat while (Successful?) is (NO)
+  ->YES;
+  repeat :Task; <<task>>
+  :Task; <<task>>
+  repeat while (Successful?) is (NO)
+  ->YES;
+  repeat :Task; <<task>>
+  :Task; <<task>>
+  repeat while (Successful?) is (NO)
+  ->YES;
+  repeat :Foo; <<foo>>
+  :Foo; <<foo>>
+  repeat while (Successful?) is (NO)
+  ->YES;
+end
+@enduml
