@@ -1,0 +1,11 @@
+{
+  "sha1": "edqawwwhoe33deqcr4ammsitku7xmfl",
+  "insertion": {
+    "when": "2024-06-15T17:26:43.469Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1827",
+    "user": "The-Lum"
+  }
+}
+@startmath
+a^2 newline a^3
+@endmath
