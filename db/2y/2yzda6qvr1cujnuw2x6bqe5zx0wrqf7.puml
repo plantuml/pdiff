@@ -1,0 +1,15 @@
+{
+  "sha1": "2yzda6qvr1cujnuw2x6bqe5zx0wrqf7",
+  "insertion": {
+    "when": "2024-06-15T17:56:17.791Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1824",
+    "user": "The-Lum"
+  }
+}
+@startcreole
+<math>
+a^2
+-
+4ab
+</math>
+@endcreole

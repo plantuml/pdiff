@@ -1,0 +1,13 @@
+{
+  "sha1": "ecpk3x73fpxoecgvoo55gq9j60gv4pb",
+  "insertion": {
+    "when": "2024-06-15T17:56:17.859Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1824",
+    "user": "The-Lum"
+  }
+}
+@startmath
+a^2
+-
+4ab
+@endmath
