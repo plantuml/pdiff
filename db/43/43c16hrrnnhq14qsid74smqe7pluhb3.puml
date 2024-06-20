@@ -1,0 +1,15 @@
+{
+  "sha1": "43c16hrrnnhq14qsid74smqe7pluhb3",
+  "insertion": {
+    "when": "2024-06-20T20:28:15.946Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1827",
+    "user": "The-Lum"
+  }
+}
+@startcreole
+<math>
+a^2
+newline
+a^3
+</math>
+@endcreole
