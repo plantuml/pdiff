@@ -1,0 +1,83 @@
+{
+  "sha1": "ikvwdfomckl0d5zqidqgq6kycq15xfm",
+  "insertion": {
+    "when": "2024-06-20T20:29:41.040Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1767",
+    "user": "The-Lum"
+  }
+}
+@startcreole math-Page-1
+= Test math - Page 1
+<math>!=</math>
+<math>!in</math>
+<math>(</math>
+<math>(:</math>
+<math>)</math>
+<math>*</math>
+<math>**</math>
+<math>***</math>
+<math>+-</math>
+<math>-</math>
+<math>-:</math>
+<math>-<</math>
+<math>-<=</math>
+<math>-=</math>
+<math>-></math>
+<math>->></math>
+<math>-lt</math>
+<math>...</math>
+<math>/</math>
+<math>//</math>
+<math>/_</math>
+<math>/_\</math>
+<math>:)</math>
+<math>:.</math>
+<math>:=</math>
+<math>:}</math>
+<math><<</math>
+<math><=</math>
+<math><=></math>
+<math>=></math>
+<math>>-</math>
+<math>>-=</math>
+<math>>-></math>
+<math>>->></math>
+<math>><|</math>
+<math>>=</math>
+<math>>></math>
+<math>@</math>
+<math>AA</math>
+<math>CC</math>
+<math>Delta</math>
+<math>EE</math>
+<math>Gamma</math>
+<math>Lambda</math>
+<math>Lamda</math>
+<math>Leftarrow</math>
+<math>Leftrightarrow</math>
+<math>Lim</math>
+<math>NN</math>
+<math>O/</math>
+<math>Omega</math>
+<math>Phi</math>
+<math>Pi</math>
+<math>Psi</math>
+<math>QQ</math>
+<math>RR</math>
+<math>Rightarrow</math>
+<math>Sigma</math>
+<math>TT</math>
+<math>Theta</math>
+<math>Xi</math>
+<math>ZZ</math>
+<math>[</math>
+<math>\ </math>
+<math>\\</math>
+<math>]</math>
+<math>^</math>
+<math>^^</math>
+<math>^^^</math>
+<math>_</math>
+<math>__|</math>
+<math>_|_</math>
+@endcreole

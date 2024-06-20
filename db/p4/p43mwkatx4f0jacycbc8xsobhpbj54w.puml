@@ -1,0 +1,27 @@
+{
+  "sha1": "p43mwkatx4f0jacycbc8xsobhpbj54w",
+  "insertion": {
+    "when": "2024-06-20T20:29:40.983Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1767#issuecomment-2178363890",
+    "user": "The-Lum"
+  }
+}
+@startcreole math-Page-0
+= Test math - Page 0 - Known issue
+
+<math>a -lt b</math>
+
+<math>a >->> b</math>
+<math>a\twoheadrightarrowtailb</math>
+
+<math>glb</math>
+<math>lub</math>
+
+<math>|~</math>
+
+<math>cancel(x)</math>
+
+<math>Sin(x)</math>
+<math>Log(x)</math>
+
+@endcreole
