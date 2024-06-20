@@ -1,0 +1,89 @@
+{
+  "sha1": "p7tydcweokachuag5hfldzgr7wqzrke",
+  "insertion": {
+    "when": "2024-06-20T20:29:41.050Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1767",
+    "user": "The-Lum"
+  }
+}
+@startcreole math-Page-4
+= Test math - Page 4 - p-z
+<math>partial</math>
+<math>phi</math>
+<math>pi</math>
+<math>pm</math>
+<math>prec</math>
+<math>preceq</math>
+<math>prod</math>
+<math>prop</math>
+<math>propto</math>
+<math>psi</math>
+<math>qquad</math>
+<math>quad</math>
+<math>rArr</math>
+<math>rangle</math>
+<math>rarr</math>
+<math>rceiling</math>
+<math>rfloor</math>
+<math>rho</math>
+<math>rightarrow</math>
+<math>rightarrowtail</math>
+<math>root</math>
+<math>rtimes</math>
+<math>sec</math>
+<math>sech</math>
+<math>setminus</math>
+<math>sigma</math>
+<math>sin</math>
+<math>sinh</math>
+<math>sqrt</math>
+<math>square</math>
+<math>stackrel</math>
+<math>star</math>
+<math>sub</math>
+<math>sube</math>
+<math>subset</math>
+<math>subseteq</math>
+<math>succ</math>
+<math>succeq</math>
+<math>sum</math>
+<math>sup</math>
+<math>supe</math>
+<math>supset</math>
+<math>supseteq</math>
+<math>tan</math>
+<math>tanh</math>
+<math>tau</math>
+<math>therefore</math>
+<math>theta</math>
+<math>tilde</math>
+<math>times</math>
+<math>to</math>
+<math>top</math>
+<math>triangle</math>
+<math>twoheadrightarrow</math>
+<math>twoheadrightarrowtail</math>
+<math>uarr</math>
+<math>ubrace</math>
+<math>ul</math>
+<math>underbrace</math>
+<math>underline</math>
+<math>underset</math>
+<math>uparrow</math>
+<math>upsilon</math>
+<math>uu</math>
+<math>uuu</math>
+<math>varepsilon</math>
+<math>varphi</math>
+<math>vartheta</math>
+<math>vdash</math>
+<math>vdots</math>
+<math>vec</math>
+<math>vee</math>
+<math>vv</math>
+<math>vvv</math>
+<math>wedge</math>
+<math>xi</math>
+<math>xx</math>
+<math>zeta</math>
+@endcreole

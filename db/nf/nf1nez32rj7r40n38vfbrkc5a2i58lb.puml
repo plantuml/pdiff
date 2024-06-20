@@ -1,0 +1,93 @@
+{
+  "sha1": "nf1nez32rj7r40n38vfbrkc5a2i58lb",
+  "insertion": {
+    "when": "2024-06-20T20:29:41.046Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1767",
+    "user": "The-Lum"
+  }
+}
+@startcreole math-Page-2
+= Test math - Page 2 - a-i
+<math>abs</math>
+<math>aleph</math>
+<math>alpha</math>
+<math>and</math>
+<math>angle</math>
+<math>approx</math>
+<math>arccos</math>
+<math>arcsin</math>
+<math>arctan</math>
+<math>ast</math>
+<math>backslash</math>
+<math>bar</math>
+<math>bb</math>
+<math>bbb</math>
+<math>beta</math>
+<math>bigcap</math>
+<math>bigcup</math>
+<math>bigvee</math>
+<math>bigwedge</math>
+<math>bot</math>
+<math>bowtie</math>
+<math>cap</math>
+<math>cdot</math>
+<math>cdots</math>
+<math>ceil</math>
+<math>chi</math>
+<math>circ</math>
+<math>cong</math>
+<math>cos</math>
+<math>cosh</math>
+<math>cot</math>
+<math>coth</math>
+<math>csc</math>
+<math>csch</math>
+<math>cup</math>
+<math>darr</math>
+<math>ddot</math>
+<math>ddots</math>
+<math>del</math>
+<math>delta</math>
+<math>det</math>
+<math>diamond</math>
+<math>dim</math>
+<math>div</math>
+<math>divide</math>
+<math>dot</math>
+<math>downarrow</math>
+<math>dt</math>
+<math>dx</math>
+<math>dy</math>
+<math>dz</math>
+<math>emptyset</math>
+<math>epsi</math>
+<math>epsilon</math>
+<math>equiv</math>
+<math>eta</math>
+<math>exists</math>
+<math>exp</math>
+<math>f</math>
+<math>floor</math>
+<math>forall</math>
+<math>frown</math>
+<math>g</math>
+<math>gamma</math>
+<math>gcd</math>
+<math>ge</math>
+<math>geq</math>
+<math>glb</math>
+<math>grad</math>
+<math>gt</math>
+<math>mgt</math>
+<math>gt=</math>
+<math>hArr</math>
+<math>harr</math>
+<math>hat</math>
+<math>if</math>
+<math>iff</math>
+<math>implies</math>
+<math>in</math>
+<math>infty</math>
+<math>int</math>
+<math>iota</math>
+@endcreole

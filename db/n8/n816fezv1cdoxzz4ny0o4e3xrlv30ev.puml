@@ -1,0 +1,33 @@
+{
+  "sha1": "n816fezv1cdoxzz4ny0o4e3xrlv30ev",
+  "insertion": {
+    "when": "2024-06-20T20:29:41.060Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1767",
+    "user": "The-Lum"
+  }
+}
+@startcreole math-Page-9
+= Test math - Page 9
+<math>3+sin(x)/5-2Sin(x)</math>
+<math>5+sin(x)+Sin(x)+"test Since"</math>
+<math>Log(x)/3 +log(x)/3</math>
+<math>Abs(3) + abs(3)</math>
+<math>3 + id(hi)(x^2)+class(red)(4)</math>
+<math>f^2(x)/5</math>
+<math>f^2x/5</math>
+<math>1/f^2x^2</math>
+<math>1/fx^2</math>
+<math>f'(x)/5</math>
+<math>[[1,2]]/4</math>
+<math>(x+2)/3</math>
+<math>u_-3 + u_- 3</math>
+<math>2^- +3</math>
+<math>3~2,5sim4</math>
+<math>overparen(AB)</math>
+<math>overarc(AB)</math>
+<math>(x-+5)(xmp5)</math>
+<math>3/</math>
+<math>2^</math>
+<math>2^+3</math>
+<math>/4</math>
+@endcreole

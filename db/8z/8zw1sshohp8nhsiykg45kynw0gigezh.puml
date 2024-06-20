@@ -1,0 +1,61 @@
+{
+  "sha1": "8zw1sshohp8nhsiykg45kynw0gigezh",
+  "insertion": {
+    "when": "2024-06-20T20:29:41.048Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1767",
+    "user": "The-Lum"
+  }
+}
+@startcreole math-Page-3
+= Test math - Page 3 - k-o
+<math>kappa</math>
+<math>lArr</math>
+<math>lambda</math>
+<math>lamda</math>
+<math>langle</math>
+<math>larr</math>
+<math>lceiling</math>
+<math>lcm</math>
+<math>ldots</math>
+<math>le</math>
+<math>leftarrow</math>
+<math>leftrightarrow</math>
+<math>leq</math>
+<math>lfloor</math>
+<math>lim</math>
+<math>ln</math>
+<math>log</math>
+<math>lt</math>
+<math>mlt</math>
+<math>lt=</math>
+<math>ltimes</math>
+<math>lub</math>
+<math>mapsto</math>
+<math>max</math>
+<math>min</math>
+<math>mod</math>
+<math>models</math>
+<math>mu</math>
+<math>nabla</math>
+<math>ne</math>
+<math>neg</math>
+<math>nn</math>
+<math>nnn</math>
+<math>norm</math>
+<math>not</math>
+<math>notin</math>
+<math>nu</math>
+<math>o+</math>
+<math>o.</math>
+<math>obrace</math>
+<math>odot</math>
+<math>oint</math>
+<math>omega</math>
+<math>oo</math>
+<math>oplus</math>
+<math>or</math>
+<math>otimes</math>
+<math>overbrace</math>
+<math>overline</math>
+<math>ox</math>
+@endcreole
