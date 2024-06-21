@@ -1,0 +1,21 @@
+{
+  "sha1": "5czicsgp6gn27gchdonhi502adis0ng",
+  "insertion": {
+    "when": "2024-06-21T16:00:38.477Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1812",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+.b * {linecolor blue}
+.r * {linecolor red}
+</style>
+
+* Root
+** Blue <<b>>
+*** B1
+*** B2
+** Red <<r>>
+*** R1
+@endwbs
