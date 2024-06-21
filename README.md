@@ -3,6 +3,10 @@
 The `pdiff` utility is designed to manage and compare PlantUML diagrams across different versions.
 It facilitates the collection, execution, and comparison of diagrams to ensure non-regression in PlantUML outputs.
 
+## 🏷️ Badge 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=plantuml_pdiff&metric=alert_status)](https://sonarcloud.io/project/overview?id=plantuml_pdiff)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=plantuml_pdiff&metric=code_smells)](https://sonarcloud.io/summary/overall?id=plantuml_pdiff)
+
 ## Objectives
 
 The primary objectives of the `pdiff` utility are:
