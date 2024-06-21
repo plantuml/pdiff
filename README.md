@@ -3,18 +3,18 @@
 The `pdiff` utility is designed to manage and compare PlantUML diagrams across different versions.
 It facilitates the collection, execution, and comparison of diagrams to ensure non-regression in PlantUML outputs.
 
-## 🏷️ Badge 
+## 🏷️ Badges
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=plantuml_pdiff&metric=alert_status)](https://sonarcloud.io/project/overview?id=plantuml_pdiff)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=plantuml_pdiff&metric=code_smells)](https://sonarcloud.io/summary/overall?id=plantuml_pdiff)
 
-## Objectives
+## 🎯 Objectives
 
 The primary objectives of the `pdiff` utility are:
 
 - **Maintain an official collection of diagrams**: Serve as a repository for diagrams used in PlantUML non-regression testing.
 - **Compare output changes**: Analyze and highlight differences in diagram outputs across various PlantUML versions.
 
-## Requirements
+## 🧰 Requirements
 
 To use this utility, you need:
 
@@ -23,7 +23,7 @@ To use this utility, you need:
 - **GraphViz**: A working installation of GraphViz.
 
 
-## Compilation
+## 🛠 Compilation
 
 With Gradle, use the following command:
 ```sh
@@ -60,7 +60,7 @@ Usage: <main class> [command] [command options]
 
 
 
-## Principles
+## 📖 Principles
 
 The `pdiff` tool operates in three primary modes:
 
@@ -79,9 +79,9 @@ The `pdiff` tool operates in three primary modes:
 
   In the diff phase, the tool compares the results of two different runs. Using the CRC, it identifies diagrams that produce different results and documents these differences in an HTML file.
 
-## How to Use
+## ℹ How to Use
 
-### Insertion
+### ➕ Insertion
 
 This mode allows you to add new diagrams to the collection `db`. Each diagram is assigned a SHA-1 signature which acts as its unique identifier.
 Diagrams must be self-contained and should not include external files, except those from the standard library.
@@ -91,7 +91,7 @@ Diagrams must be self-contained and should not include external files, except th
 java -jar build/libs/pdiff-all.jar insert -u foo@dummy.com
 ```
 
-### Run
+### ⚙ Run
 
 This mode executes a specified version of PlantUML on the entire collection of diagrams. Note that the PlantUML library is not bundled with the `pdiff` tool; you must
 [download](https://github.com/plantuml/plantuml/releases) or compile the desired version separately.
@@ -112,7 +112,7 @@ java -cp "plantuml-1.2023.13.jar;build/libs/pdiff-all.jar" com.pdiff.Main run
 ```
 
 
-### Compare
+### 🔀 Compare
 
 This mode compares the results of two different runs and provides a summary of the differences between them. The summary is saved in an HTML file.
 
