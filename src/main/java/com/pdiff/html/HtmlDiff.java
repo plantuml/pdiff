@@ -142,10 +142,16 @@ public class HtmlDiff {
 			pw.println("<p>");
 			pw.println("<p>");
 
-			final Cmp firstCmp = cmps.iterator().next();
+			String run1name = null;
+			String run2name = null;
 
-			final String run1name = firstCmp.getRun1().getRuncode();
-			final String run2name = firstCmp.getRun2().getRuncode();
+			for (Cmp cmp : cmps) {
+				if (cmp.getRun1() != null && cmp.getRun2() != null) {
+					run1name = cmp.getRun1().getRuncode();
+					run2name = cmp.getRun2().getRuncode();
+					break;
+				}
+			}
 
 			pw.println("<table>");
 			pw.println("<tr>");
