@@ -1,0 +1,26 @@
+{
+  "sha1": "jw17h53nrqnjz5r4cym0bo894e86rri",
+  "insertion": {
+    "when": "2024-06-23T08:53:29.555Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1833",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!theme C4_united from <C4/themes>
+!include <C4/C4_Component>
+!pragma layout elk
+'!pragma layout smetana
+'known issue: $textColor is not working with elk/smetana
+' AddRelTag("DEF", $legendText="Java-Abhängigkeit", $textColor = "#green", $lineColor = "#blue", $lineStyle = DottedLine(), $lineThickness=7)
+AddRelTag("DEF", $textColor = "#green", $lineColor = "#blue", $lineStyle = DottedLine(), $lineThickness=7)
+Component(A, "A")
+Component(B, "B")
+A -[#orange,dashed]-> B
+' WithoutPropertyHeader()
+AddProperty("PropC1", "ValueC1")
+AddProperty("PropC2", "ValueC2")
+Rel(A, B, "Te<$person>st", $tags="DEF")
+
+SHOW_LEGEND()
+@enduml

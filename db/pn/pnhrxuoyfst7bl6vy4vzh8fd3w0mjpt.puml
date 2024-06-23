@@ -1,0 +1,26 @@
+{
+  "sha1": "pnhrxuoyfst7bl6vy4vzh8fd3w0mjpt",
+  "insertion": {
+    "when": "2024-06-23T08:53:29.514Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1833",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'!pragma layout smetana
+!pragma layout elk
+
+<style>
+.a {
+  LineThickness 3
+  Linecolor red
+  Linestyle 3-2
+
+  Fontcolor green
+}
+</style>
+
+card a
+card b
+a -> b <<a>> : Should be green
+@enduml
