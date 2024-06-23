@@ -5,7 +5,9 @@ It facilitates the collection, execution, and comparison of diagrams to ensure n
 
 ## 🏷️ Badges
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=plantuml_pdiff&metric=alert_status)](https://sonarcloud.io/project/overview?id=plantuml_pdiff)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=plantuml_pdiff&metric=bugs)](https://sonarcloud.io/summary/overall?id=plantuml_pdiff)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=plantuml_pdiff&metric=code_smells)](https://sonarcloud.io/summary/overall?id=plantuml_pdiff)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=plantuml_pdiff&metric=duplicated_lines_density)](https://sonarcloud.io/summary/overall?id=plantuml_pdiff)
 
 ## 🎯 Objectives
 
