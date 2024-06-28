@@ -1,0 +1,31 @@
+{
+  "sha1": "8gdxr9ylvtqn821sshvhakvwbk76pvf",
+  "insertion": {
+    "when": "2024-06-28T15:36:27.842Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1842",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+skinparam ParticipantPadding 18
+  A -> B
+& B <- C
+== short arrows ==
+opt#transparent
+?o-> B : word
+& B <-o? : word
+end
+?o-> B : word
+& B <-o? : word
+== left edge arrow ==
+opt#transparent
+[o-> B : word
+end
+[o-> B : word
+== right edge arrow==
+opt#transparent
+& B <-o] : word
+end
+B <-o] : word
+@enduml

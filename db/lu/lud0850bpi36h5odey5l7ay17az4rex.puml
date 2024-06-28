@@ -1,0 +1,21 @@
+{
+  "sha1": "lud0850bpi36h5odey5l7ay17az4rex",
+  "insertion": {
+    "when": "2024-06-28T15:36:27.762Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1842",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+participant B
+== extra long text both sides, short vs edge ==
+opt#transparent OK
+   [o-> B : This text extends the arrow length\nright edge arrow
+& B <-o] : This text extends the arrow length\nright edge arrow
+end
+opt#transparent OK /'in teoz'/
+?o-> B : This text extends the arrow length\nshort arrow
+& B <-o? : This text extends the arrow length\nshort arrow
+end
+@enduml
