@@ -1,0 +1,14 @@
+{
+  "sha1": "5mupe6j77egx7b5vlcrpg92peh0glbc",
+  "insertion": {
+    "when": "2024-07-14T08:38:20.299Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1855",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+sprite AA <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <text x="0" y="14" style="font-size:15px;font-family:Consolas;fill:#00FF00;">42</text>
+</svg>
+title <$AA>
+@enduml

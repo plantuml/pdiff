@@ -1,0 +1,26 @@
+{
+  "sha1": "l9gwiwhplysozmg0ih1gj48sp94ycfm",
+  "insertion": {
+    "when": "2024-07-13T09:11:30.259Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1527#issuecomment-2218691939",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+.green {
+  BackgroundColor lightgreen
+}
+.pink {
+  BackgroundColor pink
+}
+.dotted {
+  LineStyle 10
+}
+</style>
+* Colors
+** Green <<green>>
+** Pink <<pink>>
+** Dotted  <<dotted>>
+** pink + dotted \n(KO on 1.2024.6)<<pink>> <<dotted>>
+@endmindmap

@@ -1,0 +1,25 @@
+{
+  "sha1": "egl195q7o4013tv8cq7nym52fpo2nii",
+  "insertion": {
+    "when": "2024-06-25T10:56:04.192Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+'!pragma layout elk
+
+<style>
+.a {
+  LineThickness 3
+  Linecolor red
+  Linestyle 3-2
+
+  Fontcolor green
+}
+</style>
+
+card a
+card b
+a -> b <<a>> : Should be green
+@enduml
