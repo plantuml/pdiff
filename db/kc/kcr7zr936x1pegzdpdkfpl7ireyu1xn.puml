@@ -1,0 +1,21 @@
+{
+  "sha1": "kcr7zr936x1pegzdpdkfpl7ireyu1xn",
+  "insertion": {
+    "when": "2024-07-14T20:58:05.992Z",
+    "user": "jimnelson372"
+  }
+}
+@startuml
+!pragma teoz true
+Test -->> Test: OK
+Test <<-- Test: OK
+Test <<-->> Test: the arrow is KO
+Test <<->> Test: the arrow is KO
+Test <<--> Test: the arrow is KO
+Test <->> Test: the arrow is KO
+Test <-> Test: the arrow is KO
+Test <<-> a: the arrow is KO
+Test <->> a: the arrow is KO
+Test <<--> a: the arrow is KO
+Test <-->> a: the arrow is KO
+@enduml

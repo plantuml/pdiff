@@ -1,0 +1,20 @@
+{
+  "sha1": "o10bxrcyal53y3bikzyzeyei5epw8z1",
+  "insertion": {
+    "when": "2024-07-14T20:58:05.991Z",
+    "user": "jimnelson372"
+  }
+}
+@startuml
+Test -->> Test: OK
+Test <<-- Test: OK
+Test <<-->> Test: the arrow is KO
+Test <<->> Test: the arrow is KO
+Test <<--> Test: the arrow is KO
+Test <->> Test: the arrow is KO
+Test <-> Test: the arrow is KO
+Test <<-> a: the arrow is KO
+Test <->> a: the arrow is KO
+Test <<--> a: the arrow is KO
+Test <-->> a: the arrow is KO
+@enduml
