@@ -1,0 +1,14 @@
+{
+  "sha1": "t1zpcpzeki7fy65lkvxsba2vq8cn5n0",
+  "insertion": {
+    "when": "2024-08-28T16:43:33.579Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1838",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts the 5th of december 2018
+[Prototype design] lasts 17 days
+[A] lasts 10 days and starts 2018/12/8
+[Prototype design] pauses from 2018/12/13 to 2 days before [A]'s end
+@endgantt

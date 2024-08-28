@@ -1,0 +1,21 @@
+{
+  "sha1": "r80wl3e7ct57e9r14blanwp0xejj2xk",
+  "insertion": {
+    "when": "2024-08-28T16:43:33.568Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1874",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|Lane1|
+:Foo;
+|Lane1|
+:toto;
+|Lane2|
+repeat :Bar (wrong lane);
+|Lane1|
+:tmpa;
+|Lane1|
+:tmpb;
+repeat while (Success)
+@enduml

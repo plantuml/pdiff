@@ -1,0 +1,23 @@
+{
+  "sha1": "dvrn0s5yx6ba5r4ukseggdjx0wwch2k",
+  "insertion": {
+    "when": "2024-07-06T14:31:25.283Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout elk
+
+package color {
+	class red
+	class green
+	
+}
+package size {
+	class big
+	class small
+}
+
+size -> color : link between packages
+
+@enduml

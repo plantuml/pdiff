@@ -1,0 +1,16 @@
+{
+  "sha1": "othfpd9lvt404i17h7487dag8ozovv5",
+  "insertion": {
+    "when": "2024-08-28T16:43:33.502Z",
+    "url": "https://forum.plantuml.net/19205/openiconic-%26minus-longer-properly-aligned-vertically-unlike",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+title example
+start
+:add further values into <color:DarkViolet>selectedContribs</color>:
+   • journalistAssimDays <&plus>= <color:ForestGreen>assimDays</color>             <color:grey>// only if > 0</color>
+   • specialContributionRemainder <&minus>= <color:ForestGreen>salary</color>    <color:grey>&#47;/ //subtract// !!!</color>;
+   
+@enduml

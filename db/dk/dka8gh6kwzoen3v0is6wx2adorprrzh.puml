@@ -1,0 +1,21 @@
+{
+  "sha1": "dka8gh6kwzoen3v0is6wx2adorprrzh",
+  "insertion": {
+    "when": "2024-08-28T16:43:33.565Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1871",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+start
+
+note right
+    title
+    ----
+    content
+end note
+
+stop
+
+@enduml

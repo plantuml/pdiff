@@ -1,0 +1,16 @@
+{
+  "sha1": "8pzlzkskp9hxp4o2yy640kowejz6np8",
+  "insertion": {
+    "when": "2024-08-28T16:43:33.555Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1856",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+file f [
+<back:Blue> aaa
+You can change <back:cadetblue>background color</back>
+This is <color:blue>Blue</color>
+This is <back:orange>Orange background</back>
+]
+@enduml

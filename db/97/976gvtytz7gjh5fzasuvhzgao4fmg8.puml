@@ -1,0 +1,25 @@
+{
+  "sha1": "976gvtytz7gjh5fzasuvhzgao4fmg8",
+  "insertion": {
+    "when": "2024-08-28T16:43:33.558Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1871",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+start
+
+if (true) then (YES)
+    	:do something;
+endif
+
+note right
+    title
+    ----
+    content
+end note
+
+stop
+
+@enduml
