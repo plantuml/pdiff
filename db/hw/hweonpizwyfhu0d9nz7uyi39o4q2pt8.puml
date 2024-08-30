@@ -1,0 +1,23 @@
+{
+  "sha1": "hweonpizwyfhu0d9nz7uyi39o4q2pt8",
+  "insertion": {
+    "when": "2024-08-30T14:59:21.272Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1428",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+rectangle BBB
+frame Site {
+    entity AAAA 
+    component AAAAA
+}
+
+card ssd [
+    foo
+]
+
+remove BBB
+remove AAAA
+@enduml

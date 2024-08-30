@@ -1,0 +1,16 @@
+{
+  "sha1": "gu5lgbb4vr7mg7gqqp4r9u31ndogahh",
+  "insertion": {
+    "when": "2024-08-30T14:53:37.836Z",
+    "url": "https://forum.plantuml.net/13135/remove-elements-package-namespace-restore-specific-doesnt",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+package P {
+    class A $shared
+    class B
+}
+remove *
+restore P.A
+@enduml

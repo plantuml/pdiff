@@ -1,0 +1,22 @@
+{
+  "sha1": "7prbosxdp9th36ulqg1odz3rjqau0gq",
+  "insertion": {
+    "when": "2024-08-30T14:53:37.815Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1870",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'https://plantuml.com/class-diagram
+
+package Foo {
+    class Visible
+    class Visible1
+    class Invisible2
+    
+}
+
+' normal, does not work
+hide Visible1
+hide Foo.Invisible2
+@enduml

@@ -1,0 +1,22 @@
+{
+  "sha1": "duashqfqqwr0co2du24ms71c6m9tu80",
+  "insertion": {
+    "when": "2024-08-30T14:53:37.827Z",
+    "url": "https://forum.plantuml.net/19103/remove-hide-sub-elements-in-included-plantuml",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+component a {
+    component a_sub
+}
+
+component b {
+    component b_sub
+}
+
+hide a
+hide b_sub
+
+@enduml

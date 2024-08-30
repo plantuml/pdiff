@@ -1,0 +1,22 @@
+{
+  "sha1": "br3c62fhbmfhvo5747h1j43aeqcb3a",
+  "insertion": {
+    "when": "2024-08-30T14:53:37.834Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1870",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+'https://plantuml.com/class-diagram
+
+class Invisible1
+hide Invisible1
+
+package Foo {
+    class Visible
+
+    class Invisible2
+    hide Invisible2
+}
+
+@enduml
