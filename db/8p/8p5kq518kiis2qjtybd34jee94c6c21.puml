@@ -1,0 +1,11 @@
+{
+  "sha1": "8p5kq518kiis2qjtybd34jee94c6c21",
+  "insertion": {
+    "when": "2024-10-10T13:30:32.237Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+a = (one, two), three;
+b = (one (* 1 *), two (* 2 *)), three (* 3 *);
+@endebnf

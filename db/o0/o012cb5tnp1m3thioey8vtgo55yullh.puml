@@ -1,0 +1,16 @@
+{
+  "sha1": "o012cb5tnp1m3thioey8vtgo55yullh",
+  "insertion": {
+    "when": "2024-10-10T13:28:07.084Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startebnf
+title First [modified] example of §5.8 Syntactic-term of ISO-EBNF
+
+letter = ? "A" - "Z" ?;
+
+vowel = "A" | "E" | "I" | "O" | "U";
+
+consonant = letter - vowel;
+@endebnf
