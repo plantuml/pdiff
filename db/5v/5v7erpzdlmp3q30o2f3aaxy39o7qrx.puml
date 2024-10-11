@@ -1,0 +1,31 @@
+{
+  "sha1": "5v7erpzdlmp3q30o2f3aaxy39o7qrx",
+  "insertion": {
+    "when": "2024-10-11T09:30:57.756Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1893",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+package {
+  FontColor blue
+  MinimumWidth 300
+}
+group {
+  package {
+    FontColor blue
+    MinimumWidth 300
+  }
+}
+</style>
+
+package not_nested
+note top of not_nested: Width OK
+
+package nested {
+  card c
+}
+note top of nested: <color:red>Width KO
+
+@enduml
