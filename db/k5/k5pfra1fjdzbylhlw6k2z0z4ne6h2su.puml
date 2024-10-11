@@ -1,0 +1,100 @@
+{
+  "sha1": "k5pfra1fjdzbylhlw6k2z0z4ne6h2su",
+  "insertion": {
+    "when": "2024-10-11T09:30:57.819Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1896",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+map {
+    BackGroundColor lightblue
+    LineColor blue
+    FontName Helvetica
+    FontColor blue
+    FontSize 12
+    FontStyle bold
+    RoundCorner 20
+    LineThickness 2
+    LineStyle 10-5
+    header {
+      BackGroundColor palegreen
+      LineColor red
+      FontName Helvetica
+      FontColor red
+      FontSize 18
+      FontStyle bold
+      RoundCorner 20
+      LineThickness 3
+      LineStyle 30-5
+    }
+}
+
+object {
+    BackGroundColor lightblue
+    LineColor blue
+    FontName Helvetica
+    FontColor blue
+    FontSize 12
+    FontStyle italic
+    RoundCorner 20
+    LineThickness 2
+    LineStyle 10-5
+    header {
+      BackGroundColor palegreen
+      LineColor red
+      FontName Helvetica
+      FontColor red
+      FontSize 18
+      FontStyle bold
+      RoundCorner 20
+      LineThickness 3
+      LineStyle 30-5
+    }
+}
+
+
+
+json {
+    BackGroundColor lightblue
+    LineColor blue
+    FontName Helvetica
+    FontColor blue
+    FontSize 12
+    FontStyle italic
+    RoundCorner 20
+    LineThickness 2
+    LineStyle 10-5
+    header {
+      BackGroundColor palegreen
+      LineColor red
+      FontName Helvetica
+      FontColor red
+      FontSize 18
+      FontStyle bold
+      RoundCorner 20
+      LineThickness 3
+      LineStyle 30-5
+    }
+}
+</style>
+
+object Object_user {
+  name = "Dummy"
+  id = 123
+}
+
+object London
+
+map Map_CapitalCity {
+ UK *-> London
+ USA => Washington
+ Germany => Berlin
+}
+
+json "JSON_data" as j {
+  "name" : "Dummy",
+  "id" : 123
+}
+@enduml
