@@ -1,0 +1,15 @@
+{
+  "sha1": "m6f7pbvqh7xjy3zvybucu79ed19iat7",
+  "insertion": {
+    "when": "2024-10-11T09:30:57.834Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1902",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+projectscale monthly
+Project starts the 2025-01-01 
+[XXX] starts 2025-01-01 and requires 100 days
+2025-01-18 to 2025-03-31 are colored in red
+2025-01-18 to 2025-03-31 are named [YYY]
+@endgantt
