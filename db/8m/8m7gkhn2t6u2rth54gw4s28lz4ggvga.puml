@@ -1,0 +1,15 @@
+{
+  "sha1": "8m7gkhn2t6u2rth54gw4s28lz4ggvga",
+  "insertion": {
+    "when": "2024-10-13T12:24:41.616Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1854",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty members
+class NamedStereotype       <<(S,#FF7700)Stereotype>>
+class ColoredCircle         <<(S,#FF7700)>>
+class PlainCircle           <<(S)>>
+class PlainCircleStereotype <<(S) Stereotype>>
+@enduml

@@ -1,16 +1,19 @@
 {
-  "sha1": "fyqxswj3btu29nmhnyaykxplzle05qx",
+  "sha1": "ed7cd3qjyuqiupg8fdb9cieatkbh0eh",
   "insertion": {
-    "when": "2024-06-01T09:03:06.892Z",
+    "when": "2024-10-13T12:20:31.359Z",
     "url": "https://forum.plantuml.net/9755/text-before-and-after-functions-discarded-the-preprocessor",
     "user": "plantuml@gmail.com"
   }
 }
 @startuml
-!unquoted function test($name) !return "class "+$name+" << (A, #FF00DD >>"
+!procedure test($name)
+class $name << (A, #FF00DD) >>
+!endprocedure
 
-test(test) {
+test("test") {
     id: int4
     do_something(): void
 }
+
 @enduml
