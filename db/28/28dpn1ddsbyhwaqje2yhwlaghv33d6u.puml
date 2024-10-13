@@ -1,0 +1,16 @@
+{
+  "sha1": "28dpn1ddsbyhwaqje2yhwlaghv33d6u",
+  "insertion": {
+    "when": "2024-10-13T09:37:00.065Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1867",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+rectangle A1 as "component A1"
+rectangle A2 as "component A2"
+
+A1 -\\ A2 : "relationship"
+
+@enduml
