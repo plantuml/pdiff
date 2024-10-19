@@ -1,0 +1,19 @@
+{
+  "sha1": "k1givcmh9xztss2luglaza0uu4y7x3u",
+  "insertion": {
+    "when": "2024-10-19T15:02:07.061Z",
+    "url": "https://forum.plantuml.net/15612/style-sequence-allow-linestyle-for-arrow-sequence-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+arrow {
+  LineStyle 10
+  LineColor red
+  FontColor blue
+}
+</style>
+alice ->  bob : msg
+alice --> bob : msg
+@enduml

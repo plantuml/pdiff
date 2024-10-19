@@ -1,0 +1,11 @@
+{
+  "sha1": "68b0wdzw3e3j7edkovz8bw3bn5jo6ig",
+  "insertion": {
+    "when": "2024-10-11T09:30:57.834Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1929",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+^[z\\-]?(z|\\|-)?$
+@endregex
