@@ -1,0 +1,24 @@
+{
+  "sha1": "53u45nf5e0cagbva1dq4rdriylvkbf2",
+  "insertion": {
+    "when": "2024-10-21T20:53:10.682Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1476",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+[*] --> A
+
+state A {
+  state AInternal {
+  }
+}
+A --> BInternal
+
+state B {
+  state BInternal {
+  }
+}
+B --> AInternal
+
+@enduml 
