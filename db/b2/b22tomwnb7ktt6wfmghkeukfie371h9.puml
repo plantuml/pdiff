@@ -1,0 +1,18 @@
+{
+  "sha1": "b22tomwnb7ktt6wfmghkeukfie371h9",
+  "insertion": {
+    "when": "2024-10-24T17:58:48.254Z",
+    "url": "https://forum.plantuml.net/1665/history-pseudostate",
+    "user": "The-Lum"
+  }
+}
+@startuml
+state Comp {
+    [*] --> A
+    A --> B
+    B --> C
+    C --> [*]
+    [H] --> A
+}
+[*] --> Comp[H]
+@enduml

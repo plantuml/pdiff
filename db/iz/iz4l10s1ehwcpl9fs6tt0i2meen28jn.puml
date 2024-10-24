@@ -1,0 +1,18 @@
+{
+  "sha1": "iz4l10s1ehwcpl9fs6tt0i2meen28jn",
+  "insertion": {
+    "when": "2024-10-24T17:58:48.257Z",
+    "url": "https://forum.plantuml.net/19174/is-there-a-list-of-things-like-sdlreceive",
+    "user": "The-Lum"
+  }
+}
+@startuml
+state start1  <<start>>
+state choice1 <<choice>>
+state fork1   <<fork>>
+state join2   <<join>>
+state end3    <<end>>
+state sdlreceive <<sdlreceive>>
+state history <<history>>
+state history2 <<history*>>
+@enduml
