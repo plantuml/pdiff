@@ -1,0 +1,13 @@
+{
+  "sha1": "li6vacg8vczy6iugr7lgbfqul4cxcf3",
+  "insertion": {
+    "when": "2024-10-24T17:58:48.144Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1788",
+    "user": "The-Lum"
+  }
+}
+@startuml
+state B
+A --> B[H*] : ev1
+A --> B[H*] : ev2
+@enduml

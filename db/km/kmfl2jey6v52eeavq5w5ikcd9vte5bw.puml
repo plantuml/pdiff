@@ -1,0 +1,13 @@
+{
+  "sha1": "kmfl2jey6v52eeavq5w5ikcd9vte5bw",
+  "insertion": {
+    "when": "2024-10-24T17:58:48.249Z",
+    "user": "The-Lum"
+  }
+}
+@startuml
+[*] --> Foo
+Foo --> Bar : Ev1
+Foo --> a[H*] : Ev2
+Bar --> a[H*] : Ev3
+@enduml
