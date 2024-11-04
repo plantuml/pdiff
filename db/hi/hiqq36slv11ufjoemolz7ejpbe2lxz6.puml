@@ -1,0 +1,11 @@
+{
+  "sha1": "hiqq36slv11ufjoemolz7ejpbe2lxz6",
+  "insertion": {
+    "when": "2024-11-04T21:13:50.746Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1968",
+    "user": "The-Lum"
+  }
+}
+@startuml
+json myJsonObject {"a": 1}
+@enduml
