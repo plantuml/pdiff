@@ -1,0 +1,16 @@
+{
+  "sha1": "o9jzly8i5rr60ocvsjvsq6wq796dtja",
+  "insertion": {
+    "when": "2024-11-04T21:13:50.854Z",
+    "url": "https://github.com/plantuml/plantuml/pull/1968",
+    "user": "The-Lum"
+  }
+}
+@startuml
+json myJsonArray [1,2,3]
+json myJsonNumber 123
+json myJsonTrue true
+json myJsonFalse false
+json myJsonString "a b c"
+json myJsonNull null
+@enduml
