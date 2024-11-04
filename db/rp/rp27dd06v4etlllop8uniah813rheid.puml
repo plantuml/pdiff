@@ -1,0 +1,27 @@
+{
+  "sha1": "rp27dd06v4etlllop8uniah813rheid",
+  "insertion": {
+    "when": "2024-10-25T20:42:38.781Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1950",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.s2n {
+    backgroundcolor green
+    Linecolor red
+    LineThickness 2
+}
+</style>
+
+:a;
+floating note left <<s2n>>: This is a note
+:b;
+note right <<s2n>>
+  This note is on several
+  //lines// and can
+  contain <b>HTML</b>
+end note
+
+@enduml

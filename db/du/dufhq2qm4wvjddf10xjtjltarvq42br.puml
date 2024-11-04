@@ -1,0 +1,27 @@
+{
+  "sha1": "dufhq2qm4wvjddf10xjtjltarvq42br",
+  "insertion": {
+    "when": "2024-10-25T20:42:38.830Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1950",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+<style>
+.s2n {
+    backgroundcolor green
+    Linecolor red
+    LineThickness 2
+}
+</style>
+
+[task01] requires 15 days
+note bottom <<s2n>>
+  memo1 ...
+  memo2 ...
+  explanations1 ...
+  explanations2 ...
+end note
+
+[task01] -> [task02]
+@endgantt
