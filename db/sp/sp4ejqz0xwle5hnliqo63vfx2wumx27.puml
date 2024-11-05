@@ -1,0 +1,42 @@
+{
+  "sha1": "sp4ejqz0xwle5hnliqo63vfx2wumx27",
+  "insertion": {
+    "when": "2024-11-05T18:06:49.388Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1945",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+document {
+  BackgroundColor red
+}
+arrow {
+  FontColor Blue
+  FontSize 14
+  FontStyle bold
+  cardinality {
+  	FontColor red
+    FontSize 10
+    FontStyle italic
+  }
+}
+class {
+  BackgroundColor yellow
+  generic {
+  	BackgroundColor purple
+  }
+  qualified {
+  	BackgroundColor green
+  	FontColor ivory
+  }
+}
+</style>
+
+    interface Map<K,V>
+    class HashMap<Long,Customer>
+
+    Map <|.. HashMap
+    Shop [customerId: long] ---> "customer\n1" Customer
+    HashMap [id: Long] -r-> "value" Customer
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "g8q4l5mwtfc5fded6kuqr6jzy9vwh6l",
+  "insertion": {
+    "when": "2024-11-05T18:06:49.388Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1945",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!theme crt-amber
+
+interface Map<K,V>
+class HashMap<Long,Customer>
+
+Map <|.. HashMap
+Shop [customerId: long] ---> "customer\n1" Customer
+HashMap [id: Long] -r-> "value" Customer
+@enduml
