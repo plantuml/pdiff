@@ -1,0 +1,12 @@
+{
+  "sha1": "5oyzqogpqz1d230n4393n8a8jr3iolx",
+  "insertion": {
+    "when": "2024-11-05T18:06:49.341Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1445",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+!theme crt-amber
+^("0" | "1" )$
+@enderegex
