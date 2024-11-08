@@ -1,0 +1,19 @@
+{
+  "sha1": "90ykp28rjx7hisoffdiexlcs1jl5vvv",
+  "insertion": {
+    "when": "2024-11-08T10:07:54.466Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1969",
+    "user": "The-Lum"
+  }
+}
+@startuml
+!pragma teoz true
+
+'a -> b++
+'return
+
+{start1} a -> b++
+{end1} return
+
+{start1}<->{end1} : 10 seconds
+@enduml

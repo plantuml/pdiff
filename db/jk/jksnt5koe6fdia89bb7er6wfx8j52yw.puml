@@ -1,0 +1,22 @@
+{
+  "sha1": "jksnt5koe6fdia89bb7er6wfx8j52yw",
+  "insertion": {
+    "when": "2024-11-08T10:07:54.353Z",
+    "url": "https://forum.plantuml.net/19431",
+    "user": "The-Lum"
+  }
+}
+@startmindmap
+<style>
+mindmapDiagram {
+    boxless {
+        FontColor darkgreen
+        FontSize 30
+    }
+}
+</style>
+*_ root
+** a1
+***_ a2
+**_ b1
+@endmindmap
