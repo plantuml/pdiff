@@ -1,0 +1,28 @@
+{
+  "sha1": "27yd7qsx0iczgq3b9ius4orklwq25nr",
+  "insertion": {
+    "when": "2024-11-12T13:12:10.227Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1640",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+stateDiagram {
+  header {
+    Fontcolor red
+    BackgroundColor #pink
+    HorizontalAlignment center
+  }
+}
+</style>
+
+state A : a\na a\na a a
+state B {
+state C
+}
+
+state B : b\nb b\nb b b
+A -> B : a2b
+header my hdr
+@enduml

@@ -1,0 +1,23 @@
+{
+  "sha1": "sst8471q31evkxzrkh16vsgag8sivst",
+  "insertion": {
+    "when": "2024-11-12T13:12:10.232Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1640",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+activityDiagram {
+  diamond {
+    HorizontalAlignment center
+    BackgroundColor pink
+    Fontcolor red
+  }
+}
+</style>
+if (a\na a\na a a?) is (red) then
+:print red;
+else 
+:print not red;
+@enduml

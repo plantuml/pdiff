@@ -1,0 +1,27 @@
+{
+  "sha1": "bt841cl7yd37z4vr6h1dug2rnzi2v37",
+  "insertion": {
+    "when": "2024-11-12T13:12:10.152Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1640",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.s {
+  HorizontalAlignment right
+  title {HorizontalAlignment right; fontcolor red;}
+  stereotype {HorizontalAlignment left; fontcolor green;}
+}
+</style>
+
+rectangle r <<s>> [
+a
+abc
+a b c d
+]
+
+rectangle rect1 <<s>> {
+  rectangle rect2 <<s>>
+}
+@enduml

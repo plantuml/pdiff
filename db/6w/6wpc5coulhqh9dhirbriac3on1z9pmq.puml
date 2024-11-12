@@ -1,0 +1,27 @@
+{
+  "sha1": "6wpc5coulhqh9dhirbriac3on1z9pmq",
+  "insertion": {
+    "when": "2024-11-12T13:12:10.236Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1640",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide stereotype
+<style>
+.left {
+  HorizontalAlignment left
+}
+.green {
+  FontColor green
+}
+.red {
+  FontColor red
+}
+</style>
+
+rectangle "a\na a" as rect1 <<left>> <<green>>
+rectangle "b\nb b" as rect2 <<left>> <<red>>{
+  rectangle rec
+}
+@enduml
