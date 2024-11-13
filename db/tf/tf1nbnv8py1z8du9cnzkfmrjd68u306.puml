@@ -1,0 +1,19 @@
+{
+  "sha1": "tf1nbnv8py1z8du9cnzkfmrjd68u306",
+  "insertion": {
+    "when": "2024-11-08T10:07:54.464Z",
+    "url": "https://forum.plantuml.net/15998",
+    "user": "The-Lum"
+  }
+}
+@startuml
+start
+:file f
+{{json
+{
+    "a":"b"
+}
+}}
+;
+stop
+@enduml
