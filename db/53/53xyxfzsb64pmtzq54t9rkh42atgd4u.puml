@@ -1,0 +1,26 @@
+{
+  "sha1": "53xyxfzsb64pmtzq54t9rkh42atgd4u",
+  "insertion": {
+    "when": "2024-11-19T12:22:17.379Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1550",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+[*] --> Main_NotConnected
+state "NotConnected" as Main_NotConnected [[{Main_NotConnected}]] 
+state "Connected" as Main_Connected [[{Main_Connected}]]  {
+   [*] --> Main_Connected_First
+   state "First" as Main_Connected_First [[{Main_Connected_First}]]  {
+      [*] --> Main_Connected_First_WaitingMeasure
+      state "WaitingMeasure" as Main_Connected_First_WaitingMeasure [[{Main_Connected_First_WaitingMeasure}]] 
+   } 
+} 
+
+ 
+Main_NotConnected --> Main_Connected : ConnectionDone()[]: 
+Main_Connected --> Main_NotConnected : Stop()[]: 
+Main_Connected_First --> Main_Connected_First
+
+@enduml

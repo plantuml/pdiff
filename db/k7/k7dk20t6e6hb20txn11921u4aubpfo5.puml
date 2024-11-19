@@ -1,0 +1,15 @@
+{
+  "sha1": "k7dk20t6e6hb20txn11921u4aubpfo5",
+  "insertion": {
+    "when": "2024-11-19T12:22:17.372Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1952",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+state B.A.X 
+state B.A.Y
+
+
+B -> Y
+@enduml

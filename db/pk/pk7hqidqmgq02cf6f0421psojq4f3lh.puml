@@ -1,0 +1,10 @@
+{
+  "sha1": "pk7hqidqmgq02cf6f0421psojq4f3lh",
+  "insertion": {
+    "when": "2024-11-18T15:41:29.456Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+alice -> bob : 123%newline()456
+@enduml

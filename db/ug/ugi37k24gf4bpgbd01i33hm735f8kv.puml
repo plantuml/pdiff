@@ -1,0 +1,11 @@
+{
+  "sha1": "ugi37k24gf4bpgbd01i33hm735f8kv",
+  "insertion": {
+    "when": "2024-11-19T12:22:17.338Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1445",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+^("0" | "1" )$
+@enderegex

@@ -1,0 +1,30 @@
+{
+  "sha1": "8cb5dn0x172c17rubz92pvpm3hh8mb3",
+  "insertion": {
+    "when": "2024-11-19T12:22:17.382Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1226",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+root {
+  BackGroundColor palegreen
+  LineThickness 5
+  LineColor red
+}
+</style>
+
+nwdiag {
+  network N {
+      w1;
+      w2;
+  }
+
+    group {
+    description = "long group label";
+    w1;
+    w2;
+  }
+}
+@enduml

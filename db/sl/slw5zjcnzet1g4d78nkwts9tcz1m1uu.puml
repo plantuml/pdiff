@@ -1,0 +1,15 @@
+{
+  "sha1": "slw5zjcnzet1g4d78nkwts9tcz1m1uu",
+  "insertion": {
+    "when": "2024-11-19T12:22:17.358Z",
+    "url": "https://forum.plantuml.net/16563",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+allowmixing
+json "some json" {
+"a": 1
+}
+object "some object"
+@enduml

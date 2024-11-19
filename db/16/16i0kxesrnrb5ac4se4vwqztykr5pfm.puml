@@ -1,0 +1,18 @@
+{
+  "sha1": "16i0kxesrnrb5ac4se4vwqztykr5pfm",
+  "insertion": {
+    "when": "2024-11-18T15:35:35.744Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1045",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!theme plain
+
+actor "Purchase Officer" as po
+participant ":Order" as o
+participant "Budget" as b
+participant "«datastore»%newline()Orders" as d_o
+actor "Supplier" as sup
+
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "tcgrkk1b9w8iee85c8jdqb4hkz39gxo",
+  "insertion": {
+    "when": "2024-11-19T12:22:17.371Z",
+    "url": "https://github.com/plantuml/plantuml/issues/525",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+printscale weekly with calendar date
+Project starts the 20th of september 2020
+[Prototype design] as [TASK1] requires 130 days
+[TASK1] is colored in Lavender/LightBlue
+[Testing] requires  20 days
+[TASK1]->[Testing]
+
+2021-01-18 to 2021-01-22 are named [End's committee]
+2021-01-18 to 2021-01-22 are colored in salmon 
+@endgantt

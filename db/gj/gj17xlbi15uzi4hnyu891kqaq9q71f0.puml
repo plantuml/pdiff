@@ -1,0 +1,18 @@
+{
+  "sha1": "gj17xlbi15uzi4hnyu891kqaq9q71f0",
+  "insertion": {
+    "when": "2024-11-19T12:22:17.369Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1984",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class A <<stereo1>> 
+class B <<stereo2>> 
+class C <<stereo1>> <<stereo2>> 
+class D <<stereo1>> <<stereo2>> <<stereo3>> 
+class E <<stereo1>> <<stereo3>> 
+
+hide <<stereo1>> stereotype
+hide <<stereo2>> stereotype
+@enduml
