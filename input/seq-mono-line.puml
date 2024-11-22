@@ -1,0 +1,8 @@
+https://forum.plantuml.net/6003/can-a-defined-constant-be-parsed-correctly-after-n
+@startuml
+!TEST=something
+a[#blue]->b: test:\nTEST
+note right: The test is correct:\nTEST
+a-[#green]>b: test:\n TEST
+note left: The test is correct:\n TEST
+@enduml
