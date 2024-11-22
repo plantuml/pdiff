@@ -1,0 +1,11 @@
+https://forum.plantuml.net/10597/preprocessorv2-multiline-function-invocation?show=10608#a10608
+@startuml
+!unquoted procedure $f($x)
+title $x
+!endfunction
+
+$f(xxxx\
+ddada\
+ok\
+)
+@enduml
