@@ -1,0 +1,23 @@
+https://forum.plantuml.net/19039/how-to-insert-newline-into-the-diagram-using-preprocessor
+@startuml
+!function $myfunc()
+  !$n = 4
+  !$row = 0
+  !$res = ""
+  !while $row < $n
+    !$column = 0
+    !while $column < $n
+      !$res = $res + "| "+ $row + "," + $column
+      !$column = $column + 1
+    !endwhile
+    !$res = $res + %newline()
+    !$row = $row + 1
+  !endwhile
+  !return $res
+!end function
+
+salt
+{#
+$myfunc()
+}
+@enduml
