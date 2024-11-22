@@ -1,0 +1,30 @@
+https://forum.plantuml.net/13071/newline-in-state-diagrams-is-inconsistent
+@startuml
+skinparam tabSize 2
+state s1
+s1 : line1
+s1 : \tline2
+s1 : \t\tline3
+@enduml
+
+https://forum.plantuml.net/13071/newline-in-state-diagrams-is-inconsistent
+@startuml
+state s1
+s1 : line1
+s1 : \nline2
+s1 : \n\nline3
+@enduml
+
+https://forum.plantuml.net/17579/how-to-add-a-snippet-of-code-inside-a-state-in-a-statechart
+@startuml
+[*] --> State1
+State1 --> [*]
+State1 : this is a string
+State1 : adding **some code**:\n\
+main() {\n\
+  printf("Hello world");\n\
+}
+
+State1 -> State2
+State2 --> [*]
+@enduml
