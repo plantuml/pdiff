@@ -1,0 +1,20 @@
+https://forum.plantuml.net/3055/support-l-and-r-in-additon-to-n?show=3058#a3058
+@startuml
+class cl1
+class cl2
+class cl3
+class cl4
+cl1 -- cl2 : this is\non several\nlines
+cl2 -- cl3 : this is\lon several\llines
+cl3 -- cl4 : this is\ron several\rlines
+@enduml
+
+https://forum.plantuml.net/14510/class-diagram-how-place-the-function-parameters-multiline
+@startuml
+class CImaging {
+    +void Init(const ToolConfig& config,\n\
+        PolarizedIllumSource& illum_src,\n\
+        C3DStructure& structure3d,\n\
+        CVectorialProjection& projection );
+}
+@enduml

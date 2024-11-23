@@ -1,0 +1,6 @@
+https://forum.plantuml.net/11343/activity-diagram-multi-line-and-n-management
+@startuml
+:Here is the line executed:
+a  \n fprintf("hello\n", %s);
+:Here is the line executed:a  \n fprintf("hello\n", %s);
+@enduml

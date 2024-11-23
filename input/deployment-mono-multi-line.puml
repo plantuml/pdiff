@@ -1,0 +1,17 @@
+https://forum.plantuml.net/12480/new-line-in-table-built-with-variables-broken-from-1-2020-20?show=12547#c12547
+@startuml
+!$var=" aaa \n bbb \n <u:blue>ccc \n <color:green>ddd <U+000A> eee"
+
+node "$var" as a
+
+node b [
+$var
+on multi-line context
+]
+
+node c [
+<code>
+$var
+</code>
+]
+@enduml

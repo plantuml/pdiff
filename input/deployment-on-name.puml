@@ -1,0 +1,6 @@
+https://github.com/plantuml/plantuml/issues/1474
+@startuml
+card "Foo\nx\n----\n* y" as Foo {
+  card Bar
+}
+@enduml
