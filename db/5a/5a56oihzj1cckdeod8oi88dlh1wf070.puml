@@ -1,0 +1,13 @@
+{
+  "sha1": "5a56oihzj1cckdeod8oi88dlh1wf070",
+  "insertion": {
+    "when": "2024-11-23T15:35:39.119Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1474",
+    "user": "The-Lum"
+  }
+}
+@startuml
+card "Foo\nx\n----\n* y" as Foo {
+  card Bar
+}
+@enduml

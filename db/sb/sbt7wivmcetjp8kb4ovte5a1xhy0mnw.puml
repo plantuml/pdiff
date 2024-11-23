@@ -1,0 +1,20 @@
+{
+  "sha1": "sbt7wivmcetjp8kb4ovte5a1xhy0mnw",
+  "insertion": {
+    "when": "2024-11-23T15:35:39.171Z",
+    "url": "https://forum.plantuml.net/17579/how-to-add-a-snippet-of-code-inside-a-state-in-a-statechart",
+    "user": "The-Lum"
+  }
+}
+@startuml
+[*] --> State1
+State1 --> [*]
+State1 : this is a string
+State1 : adding **some code**:\n\
+main() {\n\
+  printf("Hello world");\n\
+}
+
+State1 -> State2
+State2 --> [*]
+@enduml

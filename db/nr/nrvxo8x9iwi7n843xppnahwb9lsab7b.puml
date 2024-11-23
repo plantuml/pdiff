@@ -1,0 +1,13 @@
+{
+  "sha1": "nrvxo8x9iwi7n843xppnahwb9lsab7b",
+  "insertion": {
+    "when": "2024-11-23T15:35:39.151Z",
+    "user": "The-Lum"
+  }
+}
+@startuml
+---
+author: foo
+---
+Alice -> Bob : hello
+@enduml

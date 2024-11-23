@@ -1,0 +1,24 @@
+{
+  "sha1": "b06avwjdwkb6kyu242co0vbvbwc7tvp",
+  "insertion": {
+    "when": "2024-11-23T15:35:39.108Z",
+    "url": "https://forum.plantuml.net/12480/new-line-in-table-built-with-variables-broken-from-1-2020-20?show=12547#c12547",
+    "user": "The-Lum"
+  }
+}
+@startuml
+!$var=" aaa \n bbb \n <u:blue>ccc \n <color:green>ddd <U+000A> eee"
+
+node "$var" as a
+
+node b [
+$var
+on multi-line context
+]
+
+node c [
+<code>
+$var
+</code>
+]
+@enduml
