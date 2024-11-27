@@ -1,0 +1,15 @@
+{
+  "sha1": "2thptg50iknx4p36b1dybsa54ur6qwu",
+  "insertion": {
+    "when": "2024-11-27T18:06:12.690Z",
+    "url": "https://forum.plantuml.net/17893/wbs-link-to-from-multiline-elements",
+    "user": "The-Lum"
+  }
+}
+@startwbs
+* r
+** "Teamlead\nTeam A" as TLA
+**(TLB) Teamlead\nTeam B
+
+TLB -> TLA
+@endwbs

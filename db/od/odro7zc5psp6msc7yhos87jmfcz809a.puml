@@ -1,0 +1,12 @@
+{
+  "sha1": "odro7zc5psp6msc7yhos87jmfcz809a",
+  "insertion": {
+    "when": "2024-11-27T18:06:12.659Z",
+    "url": "https://forum.plantuml.net/19243/unicode-u-005c-backslash-in-tooltip-text-causes-error",
+    "user": "The-Lum"
+  }
+}
+@startwbs
++ raw string literals \
+ [["Example:\n\nconst char* msg1 = <U+0022>\<U+200B>nHello,world!<U+0022>;" TP]]
+@endwbs

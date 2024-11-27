@@ -1,0 +1,14 @@
+{
+  "sha1": "ccblxwiltqkxiukqo0jxt9ruky64nd5",
+  "insertion": {
+    "when": "2024-11-27T18:06:12.659Z",
+    "url": "https://forum.plantuml.net/17434/multiline-tootlip-in-table-not-supported",
+    "user": "The-Lum"
+  }
+}
+@startuml
+title
+<#lightblue,#red>|=  Step  |=  Date  |=  Name  |=  Status  |=  Link  |
+<#lightgreen>|  1.1  |  [[multiline.svg{multi line tooltip\\ntest} multiline label test]] | plantuml news |<#Navy><color:OrangeRed><b> Unknown  | [[https://plantuml.com/news{single line tooltip test} tooltip test]] |
+end title
+@enduml

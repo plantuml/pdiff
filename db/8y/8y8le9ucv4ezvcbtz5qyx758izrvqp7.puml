@@ -1,0 +1,14 @@
+{
+  "sha1": "8y8le9ucv4ezvcbtz5qyx758izrvqp7",
+  "insertion": {
+    "when": "2024-11-27T18:06:12.612Z",
+    "url": "https://forum.plantuml.net/8537/multiline-usecase-actor-name",
+    "user": "The-Lum"
+  }
+}
+@startuml
+' Adapted from https://forum.plantuml.net/8537/multiline-usecase-actor-name
+file n as "line1
+line2
+line3" 
+@enduml

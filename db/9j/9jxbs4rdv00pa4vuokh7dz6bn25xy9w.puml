@@ -1,0 +1,24 @@
+{
+  "sha1": "9jxbs4rdv00pa4vuokh7dz6bn25xy9w",
+  "insertion": {
+    "when": "2024-11-27T18:06:12.659Z",
+    "user": "The-Lum"
+  }
+}
+@startuml
+' Adapted from https://forum.plantuml.net/17434
+title minimal example
+file f [
+[[{a\nb} tooltip test ]]
+
+| [[{a\\nb} tooltip test on table ]] |
+
+[[{a\nb\nprint("abc\n");} tooltip test ]]
+[[{a\nb\n<code>print("abc\n");</code>} tooltip test ]]
+
+[[{a\nb\nprint("abc\\n");} tooltip test ]]
+[[{a\nb\n<code>print("abc\\n");</code>} tooltip test ]]
+
+| [[{a\\nb\\n<code>print("abc\\n");</code>} tooltip test on table ]] |
+]
+@enduml

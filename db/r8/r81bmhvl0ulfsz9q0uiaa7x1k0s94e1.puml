@@ -1,0 +1,16 @@
+{
+  "sha1": "r81bmhvl0ulfsz9q0uiaa7x1k0s94e1",
+  "insertion": {
+    "when": "2024-11-27T18:06:12.690Z",
+    "url": "https://forum.plantuml.net/18266/defining-a-theme-for-embedded-diagram-breaks-it",
+    "user": "The-Lum"
+  }
+}
+@startuml
+
+component a {
+}
+
+note top of a: \n==theme fail==\n{{\n!theme crt-amber\nUser->System: test\n}}\n
+
+@enduml
