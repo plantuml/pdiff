@@ -1,0 +1,15 @@
+https://forum.plantuml.net/18126/multi-line-creole-tables-broken-activity-diagrams-since-2023
+@startuml
+:|Creole Table Line1|\n|Line2|;
+@enduml
+
+@startuml
+' Adapted from https://forum.plantuml.net/18126/multi-line-creole-tables-broken-activity-diagrams-since-2023
+:| Creole Table \\n multi-line1| a |\n| Line2| b |;
+:
+| Creole Table \n multi-line1| a |
+| Line2| b |;
+:
+| Creole Table %newline() multi-line1| a |
+| Line2| b |;
+@enduml
