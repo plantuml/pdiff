@@ -1,0 +1,8 @@
+https://forum.plantuml.net/17893/wbs-link-to-from-multiline-elements
+@startwbs
+* r
+** "Teamlead\nTeam A" as TLA
+**(TLB) Teamlead\nTeam B
+
+TLB -> TLA
+@endwbs
