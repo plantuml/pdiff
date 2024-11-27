@@ -1,0 +1,9 @@
+https://forum.plantuml.net/19125/wbs-use-multiline-text-with-change-direction-feature
+@startwbs
+* Root
+**> Line 1A\nLine 1B
+***> Right R2A\nRight R2B
+****> Right R3A\nRight R3B
+***< Left L2A\nLeft L2B
+****< Left L3A\nLeft L3B
+@endwbs
