@@ -56,6 +56,10 @@ public class RunCommand {
 		if (version == null)
 			version = Introspection.versionString();
 
+		System.out.println("");
+		System.out.println("Running version " + version);
+		System.out.println("");
+
 		final ExecutorService executorService = Executors.newFixedThreadPool(slot, new NumberedThreadFactory());
 
 		this.magicOutput = new MagicOutput(slot + 1);

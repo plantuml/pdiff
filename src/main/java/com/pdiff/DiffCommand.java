@@ -42,13 +42,18 @@ public class DiffCommand {
 		final SortedMap<Path, Cmp> all = new TreeMap<>();
 		dbCollection.streamsAfterRun(run1).forEach(f -> {
 			Cmp cmp = new Cmp();
-			all.put(f.getPumlPath(), cmp);
+			synchronized (all) {
+				all.put(f.getPumlPath(), cmp);
+			}
 			cmp.setRun1(f);
 		});
 		dbCollection.streamsAfterRun(run2).forEach(f -> {
-			Cmp cmp = all.get(f.getPumlPath());
-			if (cmp == null)
-				cmp = new Cmp();
+			Cmp cmp;
+			synchronized (all) {
+				cmp = all.get(f.getPumlPath());
+				if (cmp == null)
+					cmp = new Cmp();
+			}
 			cmp.setRun2(f);
 		});
 

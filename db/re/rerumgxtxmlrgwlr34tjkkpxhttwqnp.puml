@@ -1,0 +1,18 @@
+{
+  "sha1": "rerumgxtxmlrgwlr34tjkkpxhttwqnp",
+  "insertion": {
+    "when": "2024-11-25T15:01:30.193Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1984",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+usecase A <<stereo1>> 
+usecase B <<stereo2>> 
+usecase C <<stereo1>> <<stereo2>> 
+usecase D <<stereo1>> <<stereo2>> <<stereo3>> 
+usecase E <<stereo1>> <<stereo3>> 
+
+hide <<stereo1>> stereotype
+hide <<stereo2>> stereotype
+@enduml
