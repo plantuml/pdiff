@@ -10,7 +10,7 @@ start
 if (Graphviz is
 installed?) then (yes on
 several line)
-  :process all\ndiagrams;
+  :process all%n()diagrams;
 else (no on
 several different
 lines)

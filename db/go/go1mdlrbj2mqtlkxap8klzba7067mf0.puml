@@ -76,7 +76,7 @@ destroy browser
 
 
 note left : testing all renegociation ?\
-     	    \ntesting all clean connexion ?
+     	    %n()testing all clean connexion ?
 
 == Cleanup ==
 

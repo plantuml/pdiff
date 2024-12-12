@@ -22,20 +22,20 @@
 }
 </style>
 
-<<test>>:multiple\nlines\nusing\nbackslash-n;
+<<test>>:multiple%n()lines%n()using%n()backslash-n;
 /'
 <<test>>:multiple
 lines
 using
 new lines;
 '/
-:multiple\nlines\nusing\nbackslash-n; <<test>>
+:multiple%n()lines%n()using%n()backslash-n; <<test>>
 :multiple
 lines
 using
 new lines; <<test>>
 
-:multiple\nlines\nusing\nbackslash-n; <<save>>
+:multiple%n()lines%n()using%n()backslash-n; <<save>>
 :multiple
 lines
 using

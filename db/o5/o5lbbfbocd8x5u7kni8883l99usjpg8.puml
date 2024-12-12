@@ -6,7 +6,7 @@
   }
 }
 @startuml
-Alice -> Bob : hello\non\nseveral\nlines
+Alice -> Bob : hello%n()on%n()several%n()lines
 note left
 	this note on one line
 endnote

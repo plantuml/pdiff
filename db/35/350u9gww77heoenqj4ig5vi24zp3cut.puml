@@ -8,22 +8,22 @@
 }
 @startuml
 fork
--> Have something that is long\nwritten here as an\nexample;
+-> Have something that is long%n()written here as an%n()example;
 fork
--> This is more\ntext that is\ntoo long for the arrow;
+-> This is more%n()text that is%n()too long for the arrow;
 :something;
 fork again
 :something else;
 endfork
--> showing more text that is\ntoo long once again\nin this\nparticular\nscenario\nwhere this happens;
-:final state of\nthis fork;
--> Have something that is long\nwritten here as an\nexample;
+-> showing more text that is%n()too long once again%n()in this%n()particular%n()scenario%n()where this happens;
+:final state of%n()this fork;
+-> Have something that is long%n()written here as an%n()example;
 fork
--> This is more\ntext that is\ntoo long for the arrow;
+-> This is more%n()text that is%n()too long for the arrow;
 :something;
 fork again
 :something else;
 endfork
--> This is more\nlong\ntext but notice\nhow it fits\nbecause it's after the\nendfork;
+-> This is more%n()long%n()text but notice%n()how it fits%n()because it's after the%n()endfork;
 endfork
 @enduml

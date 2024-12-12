@@ -55,9 +55,9 @@ Table(external_system_auth, "external_system_auth") {
 }
 
 ' relationships
-user_role --> user : "User role can be user\n by many users"
-customer -- user : "Customer - user \nis one to one relation"
-external_system_auth -- user : "External system - user \nis one to one relation"
+user_role --> user : "User role can be user%n() by many users"
+customer -- user : "Customer - user %n()is one to one relation"
+external_system_auth -- user : "External system - user %n()is one to one relation"
 
 
 @enduml

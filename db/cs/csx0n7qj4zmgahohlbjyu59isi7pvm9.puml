@@ -8,7 +8,7 @@
 @startuml
 start
 
-:A\non\nseveral\nlines;
+:A%n()on%n()several%n()lines;
 note left
 note
 end note

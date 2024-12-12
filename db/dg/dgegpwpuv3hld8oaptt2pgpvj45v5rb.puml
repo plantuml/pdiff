@@ -8,7 +8,7 @@
 @startuml
 'skin net.sourceforge.plantuml.skin.bluemodern.BlueModern
 opt toto
-Bob->Alice : coucou\nit\nme
+Bob->Alice : coucou%n()it%n()me
 activate Alice
 Alice->Alice: well
 else sinon

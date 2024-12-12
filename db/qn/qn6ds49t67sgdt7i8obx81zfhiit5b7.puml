@@ -11,11 +11,11 @@ skinparam backgroundcolor #AAAAAA
 
 participant "vodpull-nordiskfilm app" as vodpull
 
-participant "/local/iptv/vodpush/\nnordiskfilm/" as vodpush 
+participant "/local/iptv/vodpush/%n()nordiskfilm/" as vodpush 
 
-participant "/local/iptv/vodpull-nordiskfilm/\ndata/generate/2057/" as generate
+participant "/local/iptv/vodpull-nordiskfilm/%n()data/generate/2057/" as generate
 
-participant "/local/iptv/vodpull-nordiskfilm/\ndata/download/2057/" as download
+participant "/local/iptv/vodpull-nordiskfilm/%n()data/download/2057/" as download
 
 vodpull->vodpush: list movie files: found EG_2057_8500.H264
 
@@ -76,7 +76,7 @@ vodpull->download: look for download rejected flag file: 2057.download.rejected
 
 alt if download rejected flag file exists
 
-  note over vodpull: The last time we downloaded XML/Cover files\nfrom NordiskFilm they contained errors\nTip: the flag file contains the error message
+  note over vodpull: The last time we downloaded XML/Cover files%n()from NordiskFilm they contained errors%n()Tip: the flag file contains the error message
 
   vodpull->vodpull: get flag file lastModified date
 
@@ -101,7 +101,7 @@ vodpull->generate: look for generate rejected flag file: 2057.generate.rejected
 
 alt if generate rejected flag file exists
 
-  note over vodpull: The last time we processed this movie file\nwe could not create a valid SmartVision XML file\nTip: the flag file contains the error message
+  note over vodpull: The last time we processed this movie file%n()we could not create a valid SmartVision XML file%n()Tip: the flag file contains the error message
 
   vodpull->vodpull: get flag file lastModified date
 

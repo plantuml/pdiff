@@ -11,14 +11,14 @@ skinparam defaultFontName Monospaced
 skinparam defaultFontSize 30
 'skinparam footerFontSize 6
 
-center header: <font color=red>line 1\nline 2
+center header: <font color=red>line 1%n()line 2
 
 [*] --> A
 
-state "<font color=red>blah\nbleh</font>" as A
+state "<font color=red>blah%n()bleh</font>" as A
 
 footer
-<font color=red size=40>line 1\nnot line 1.5
+<font color=red size=40>line 1%n()not line 1.5
 line 2
 endfooter
 

@@ -8,19 +8,19 @@
 }
 @startuml
 !pragma teoz true
-Bob -> Alice : Sec\nret10
+Bob -> Alice : Sec%n()ret10
 & Alice -> Stacy : Rumors10
 
 Bob -> Alice : Secret11
-& Alice -> Stacy : Rum\nors11
+& Alice -> Stacy : Rum%n()ors11
 
 
 group friends20
-Bob -> Alice : Sec\nret20
-& Alice -> Stacy : Rum\nors20
+Bob -> Alice : Sec%n()ret20
+& Alice -> Stacy : Rum%n()ors20
 
-Bob -> Alice : Sec\nret21
-& Alice -> Stacy : Rum\nors22
+Bob -> Alice : Sec%n()ret21
+& Alice -> Stacy : Rum%n()ors22
 
 end
 

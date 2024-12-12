@@ -45,7 +45,7 @@ arrow {
 * Hi =)
 	* sometimes i have node in wich i want to write a long text
 		* this results in really huge diagram
-			* of course, i can explicit split with a\nnew line
+			* of course, i can explicit split with a%n()new line
 			* but it could be cool if PlantUML was able to split long lines, maybe with an option who specify the maximum width of a node
 
 @endwbs

@@ -21,6 +21,6 @@ note left of Bob
 456
 end note
 
-note right of Bob : 1\t2\t3\n\t4
+note right of Bob : 1%tab()2%tab()3%n()%tab()4
 
 @enduml  

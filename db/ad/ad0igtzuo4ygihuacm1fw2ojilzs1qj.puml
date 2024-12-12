@@ -8,7 +8,7 @@
 @startuml
 !pragma layout elk
 class foo1
-class foo2 as "This class\nhas a \nvery long name for test" {
+class foo2 as "This class%n()has a %n()very long name for test" {
 dummy1
 dummy2
 dummy3

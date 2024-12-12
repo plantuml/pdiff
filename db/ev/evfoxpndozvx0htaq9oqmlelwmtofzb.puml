@@ -12,7 +12,7 @@ very short note;
 note left: foo2
 :foo3;
 :foo4;
-note left: this\nis\non\nseveral\nlines
+note left: this%n()is%n()on%n()several%n()lines
 :foo5;
 note right
   this is also

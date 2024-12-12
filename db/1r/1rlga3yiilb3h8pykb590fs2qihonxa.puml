@@ -7,9 +7,9 @@
   }
 }
 @startuml
-[-> A ++ #ff0000 : No lifeline color with\n<b>!pragma teoz true</b>
+[-> A ++ #ff0000 : No lifeline color with%n()<b>!pragma teoz true</b>
 A -> B ++ #00ff00
 return
 return
-B ->] ++ #ff0000 : No lifeline color with\n<b>!pragma teoz true</b>
+B ->] ++ #ff0000 : No lifeline color with%n()<b>!pragma teoz true</b>
 @enduml

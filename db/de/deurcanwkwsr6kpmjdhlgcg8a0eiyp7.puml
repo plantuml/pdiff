@@ -12,7 +12,7 @@ title Interfaces - Component Diagram
 
 [Business Logic]
 [Data Access] as DA  
-component "Graphic User\nInterface" as GUI {
+component "Graphic User%n()Interface" as GUI {
   portout "Out" as out
 }
 skinparam component {

@@ -15,5 +15,5 @@ title Embedding for interface note fails
 	component "A" as A {		 
 	}
 
-	B <-[dashed]-> A: API\nDetails:\n{{\na->b:req\nb-->>a:resp\n}}\n
+	B <-[dashed]-> A: API%n()Details:%n(){{%n()a->b:req%n()b-->>a:resp%n()}}%n()
 @enduml

@@ -7,8 +7,8 @@
   }
 }
 @startuml
-!t="this is t1\nthis is t2\nthis is t3\n"
-!z="this is z1\nthis is z2\nthis is z3\n"
+!t="this is t1%n()this is t2%n()this is t3%n()"
+!z="this is z1%n()this is z2%n()this is z3%n()"
 
 :end;
 repeat

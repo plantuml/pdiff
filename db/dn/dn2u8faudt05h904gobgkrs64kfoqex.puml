@@ -7,7 +7,7 @@
 }
 @startuml
 
-participant "Bob on\nseveral lines" as Bob
+participant "Bob on%n()several lines" as Bob
 actor Alice
 
 Bob -> Alice : hello

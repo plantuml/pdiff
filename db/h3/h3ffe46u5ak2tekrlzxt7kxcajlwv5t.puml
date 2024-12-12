@@ -16,6 +16,6 @@ arrow {
 * New style
 ** New features
 ** Template Files
-*** They are \ngreat and \n should have them!
+*** They are %n()great and %n() should have them!
 
 @endmindmap

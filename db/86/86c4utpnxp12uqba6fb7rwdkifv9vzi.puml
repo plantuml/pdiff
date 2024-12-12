@@ -6,7 +6,7 @@
   }
 }
 @startuml
-title Simple <b>Usecase</b>\nwith one actor
+title Simple <b>Usecase</b>%n()with one actor
 
 "Use the application" as (Use)
 User -> (Use)

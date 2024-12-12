@@ -9,9 +9,9 @@
 @startuml
 !pragma teoz true
 A -> B++: Get data
-& B -> C++:a\n2
+& B -> C++:a%n()2
 & C -> D++:
-D -->> C--:a\n2
+D -->> C--:a%n()2
 & C -->> A--:
 &B -->> A--: Data
 @enduml

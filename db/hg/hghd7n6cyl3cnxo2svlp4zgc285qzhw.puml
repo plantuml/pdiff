@@ -16,7 +16,7 @@
 }
 </style>
 
-* Mqwerty\npoint
-** Qwerty\npoint <<s1>>
-** Dummy\npoint <<s2>>
+* Mqwerty%n()point
+** Qwerty%n()point <<s1>>
+** Dummy%n()point <<s2>>
 @endmindmap

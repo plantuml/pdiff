@@ -11,7 +11,7 @@
 rectangle "foo" {
 rectangle "Handle claim"  as HC
 rectangle "Capture Information"  as CI
-rectangle "Notify\nAdditional Stakeholders" as NAS
+rectangle "Notify%n()Additional Stakeholders" as NAS
 rectangle "Validate" as V
 rectangle "Investigate" as I
 rectangle "Pay" as P

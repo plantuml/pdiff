@@ -14,24 +14,24 @@
     if(inbound arrows are ok!)then(yes)
     else(no)
         -[#red;#green;#blue;#orange;#maroon]->
-        :inbound arrows are not centered\nand terminated inside the activity\n====\noutbound arrow terminations\nare not vertically aligned\nand terminate inside the diamond;       
+        :inbound arrows are not centered%n()and terminated inside the activity%n()====%n()outbound arrow terminations%n()are not vertically aligned%n()and terminate inside the diamond;       
         -[#red;#green;#blue;#orange;#maroon]->
     endif
 
     repeat
    
        
-    repeatwhile (end:\noutbound arrows start\nnot vertically aligned) -[#red;#green;#blue;#orange;#maroon]->
+    repeatwhile (end:%n()outbound arrows start%n()not vertically aligned) -[#red;#green;#blue;#orange;#maroon]->
 
        
         if(a)then(yes)
-            partition "NOTE: arrow after\nnot empty partition" {           
-                :arrow tip directed ok\nbut not vertically aligned and are inside the diamond;
+            partition "NOTE: arrow after%n()not empty partition" {           
+                :arrow tip directed ok%n()but not vertically aligned and are inside the diamond;
                         -[#red;#green;#blue;#orange;#maroon]->
             }
         else(no)
                 -[#red;#green;#blue;#orange;#maroon]->
-            partition "NOTE: arrow tips after\nempty partition wrongly directed\n and not vertially aligned" {
+            partition "NOTE: arrow tips after%n()empty partition wrongly directed%n() and not vertially aligned" {
                
             }
         endif

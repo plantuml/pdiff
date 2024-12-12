@@ -6,6 +6,6 @@
   }
 }
 @startuml
-class MyClass<S extends SomeClass,\nA extends AnotherClass,\nY YetAnotherClass> {
+class MyClass<S extends SomeClass,%n()A extends AnotherClass,%n()Y YetAnotherClass> {
 }
 @enduml

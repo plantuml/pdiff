@@ -7,6 +7,6 @@
   }
 }
 @startuml
-queue P1 as "<&wifi> MyTopic1\n\n[**key**: myKey1]" <<Kafka>>
-queue Q1 as "<&wifi> MyTopic2\n\n[**key**: myKey2]"
+queue P1 as "<&wifi> MyTopic1%n()%n()[**key**: myKey1]" <<Kafka>>
+queue Q1 as "<&wifi> MyTopic2%n()%n()[**key**: myKey2]"
 @enduml

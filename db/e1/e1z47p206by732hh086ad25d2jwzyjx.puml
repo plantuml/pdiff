@@ -58,5 +58,5 @@ sprite $cloudsql [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-rectangle "<$cloudsql>\nSQL" as cloudsql
+rectangle "<$cloudsql>%n()SQL" as cloudsql
 @enduml

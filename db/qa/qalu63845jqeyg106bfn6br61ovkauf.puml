@@ -9,7 +9,7 @@
 @startuml
 skinparam DefaultFontName "Hack", "DejaVu Sans Mono", "Courier New", "Nimbus Mono L", "Monospaced", Courier, monospace
 
-[Component\nABC]
+[Component%n()ABC]
 frame "Frame" {
   card Card
 }

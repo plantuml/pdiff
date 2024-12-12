@@ -19,13 +19,13 @@ RowMacroStage <|.. AbstractRow
 Abstract AbstractRowPart
 AbstractRow <|-- AbstractRowPart
 AbstractRowPart <|-- RowHybridMacroStage
-Note left of RowHybridMacroStage : Concatenation of a part\nand component line
+Note left of RowHybridMacroStage : Concatenation of a part%n()and component line
 Class RowHybridMacroStage
 
 RowHybridMacroStage <|-- RowHybridStage
 
 AbstractRow <|--- RowComponentMacroStage
-Note right of RowComponentMacroStage : One component on the line\nwithout a part
+Note right of RowComponentMacroStage : One component on the line%n()without a part
 Class RowComponentMacroStage
 RowComponentMacroStage <|-- RowComponentStage
 

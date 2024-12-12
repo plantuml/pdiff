@@ -8,6 +8,6 @@
 }
 @startuml
 class SomeClass {
-Something & something other with a \\ does not work
+Something & something other with a %backslash() does not work
 }
 @enduml

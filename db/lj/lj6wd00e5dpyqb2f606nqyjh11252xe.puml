@@ -19,7 +19,7 @@ end box
 opt
 client -> server : first hello //opt//
   opt
-    client -> server : second hello //opt//\nwith more green
+    client -> server : second hello //opt//%n()with more green
   end opt
 end opt
 opt

@@ -16,14 +16,14 @@ activate "actor 1" #Olive
 activate "actor 1" #OliveDrab
 "actor 1" -> "actor 1": actor1 sub-activity1
 deactivate "actor 1"
-"actor 1" -> "actor 1": actor1 activity2\nactor1 summary1
+"actor 1" -> "actor 1": actor1 activity2%n()actor1 summary1
 activate "actor 1" #OliveDrab
-"actor 1" -> "actor 1": actor1 sub-activity2\nactor1 sub-activity3
+"actor 1" -> "actor 1": actor1 sub-activity2%n()actor1 sub-activity3
 "actor 1" -> "actor 5" : 
 deactivate "actor 1"
 deactivate "actor 1"
 activate "actor 5" #Olive
-"actor 5" -> "actor 5": general func activity1\ngeneral func activity2
+"actor 5" -> "actor 5": general func activity1%n()general func activity2
 activate "actor 5" #OliveDrab
 "actor 5" -> "actor 5": general func sub-activity1
 "actor 5" -> "actor 1" : 
@@ -40,7 +40,7 @@ activate "actor 1" #OliveDrab
 deactivate "actor 1"
 deactivate "actor 1"
 activate "actor1_func1()" #Olive
-"actor1_func1()" -> "actor1_func1()": actor1 func1 activity1\nactor1 func1 activity2
+"actor1_func1()" -> "actor1_func1()": actor1 func1 activity1%n()actor1 func1 activity2
 "actor1_func1()" -> "actor2_func1()" : 
 deactivate "actor1_func1()"
 activate "actor2_func1()" #Olive

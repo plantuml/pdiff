@@ -8,9 +8,9 @@
 }
 @startwbs
 * Root
-**> Line 1A\nLine 1B
-***> Right R2A\nRight R2B
-****> Right R3A\nRight R3B
-***< Left L2A\nLeft L2B
-****< Left L3A\nLeft L3B
+**> Line 1A%n()Line 1B
+***> Right R2A%n()Right R2B
+****> Right R3A%n()Right R3B
+***< Left L2A%n()Left L2B
+****< Left L3A%n()Left L3B
 @endwbs

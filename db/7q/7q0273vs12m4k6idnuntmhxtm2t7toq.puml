@@ -8,6 +8,6 @@
 }
 @startuml
 Bob -> Alice : hello
-Alice <- Alice : hello I have a lot to say so let me start... \nBla Bla Bla Bla
-Bob -> Bob : Me too, I have a lot to say ... \nBla Bla Bla Bla
+Alice <- Alice : hello I have a lot to say so let me start... %n()Bla Bla Bla Bla
+Bob -> Bob : Me too, I have a lot to say ... %n()Bla Bla Bla Bla
 @enduml

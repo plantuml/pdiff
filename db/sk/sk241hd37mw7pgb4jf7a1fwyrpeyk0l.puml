@@ -8,7 +8,7 @@
 @startuml
 hide footbox
 
-participant "Bob on\nseveral lines" as Bob
+participant "Bob on%n()several lines" as Bob
 actor Alice
 
 Bob -> Alice : hello
@@ -16,7 +16,7 @@ note right of Alice
   this is a note
 end note
 
-Alice -> Bob : Is it ok\nwith a message that is\non several lines?
+Alice -> Bob : Is it ok%n()with a message that is%n()on several lines?
 
 note right
   This other note
@@ -28,7 +28,7 @@ end note
 
 Bob -> Last : Yes it works!
 Last -> Last : working in progress
-note right : this is\nanother note
+note right : this is%n()another note
 
 Last --> Last : working in progress
 Last --> Bob : done

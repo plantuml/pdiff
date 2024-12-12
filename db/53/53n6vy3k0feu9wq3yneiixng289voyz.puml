@@ -66,7 +66,7 @@ component V3ConsumerWebsite <<V3>> <<external>>
 component PortalWebsite <<external>>
 component "EME Event Bus" as BUS <<fn>> <<V3>>
 
-component "Protected API Gateway\n(Portal/Authenticated Users)" <<AWS>><<Protected>> as APIG
+component "Protected API Gateway%n()(Portal/Authenticated Users)" <<AWS>><<Protected>> as APIG
 () HTTPS as APIGHTTP <<Protected>>
 APIG -u- APIGHTTP <<Protected>>
 
@@ -94,9 +94,9 @@ component "CMS Service" <<package>> <<V3>> {
   port HTTPS as CMSH
   component "CMSService" as CCS <<fn>>
   component "TranslationService" as TLS <<fn>>
-  component "Microsoft\nTranslation\nService" <<external>><<api>> as MSTS
+  component "Microsoft%n()Translation%n()Service" <<external>><<api>> as MSTS
   component "Prismic CMS" <<external>><<api>> as CMS
-  database "Translation\nCache" as TLDB <<db>>
+  database "Translation%n()Cache" as TLDB <<db>>
 
   CCS - CMSH
   TLS - CMSH
@@ -110,7 +110,7 @@ component "Consumer Plan Service - Work In Progress" <<package>> <<V3>> {
   port HTTPS as CPSH
   component ConsumerPlanService as CPS <<fn>>
   component PostcodePlanService as PPS <<fn>>
-  database "Postcode\nPlans" as PPDB <<db>>
+  database "Postcode%n()Plans" as PPDB <<db>>
 
   CPS - CPSH
   CPS -down-> PPDB : reads
@@ -128,7 +128,7 @@ component "EPC" <<package>><<external>> #88ff88 {
   component Cognito <<AWS>> as EPC_COG
   EPC_COG -u- EPC_COGAPI
 
-  port "PM API\n(Protected)" as EPC_PMH
+  port "PM API%n()(Protected)" as EPC_PMH
   component "Plan Management Service" as EPC_PM
 
   EPC_PM -u- EPC_PMH
@@ -164,7 +164,7 @@ component "Meter Data Service" <<package>> <<V3>> {
 component "Notification Service" <<package>> {
   port Lambda as NSL
   component "NotificationService" as NS <<fn>>
-  component "Simple Email Service\n(AWS)" as SES <<AWS>>
+  component "Simple Email Service%n()(AWS)" as SES <<AWS>>
 
   NS - NSL
   NS -down-> SES
@@ -197,7 +197,7 @@ component "Plan Service (Retailer) - Work In Progress" <<package>> {
   () Stream as PSS <<db>>
   PDB -d- PSS
 
-  Port "PDF Generation\nSNS Topic" <<SNS>> as PGT
+  Port "PDF Generation%n()SNS Topic" <<SNS>> as PGT
   component PDFExporter <<fn>> as PDFEXP
   PDFEXP - PGT
 
@@ -230,7 +230,7 @@ component "Pricing Engine (AKA Comparator)" <<package>> {
   PCS - PEL
   PCS -> D61Int
   PCS -> D61Int
-  PCS -> D61Int : invoke\nmultiple\ninstances
+  PCS -> D61Int : invoke%n()multiple%n()instances
   D61Int -down- D61
 }
 
@@ -290,7 +290,7 @@ component "Reference Data Service" <<package>> {
   end note
 }
 
-component "SiteOps Service\n(formerly Deployment Service)" <<package>> <<V3>> {
+component "SiteOps Service%n()(formerly Deployment Service)" <<package>> <<V3>> {
   port Lambda as SIH
   component "SiteOps" as SI <<fn>>
 

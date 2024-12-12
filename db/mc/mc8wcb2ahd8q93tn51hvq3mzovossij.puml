@@ -7,6 +7,6 @@
 }
 @startuml
 skinparam componentStyle uml2
-node "System\nController\nbox"
-database "\nPostgreSQL\ndatabase\n" as DB
+node "System%n()Controller%n()box"
+database "%n()PostgreSQL%n()database%n()" as DB
 @enduml

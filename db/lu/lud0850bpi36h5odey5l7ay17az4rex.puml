@@ -11,11 +11,11 @@
 participant B
 == extra long text both sides, short vs edge ==
 opt#transparent OK
-   [o-> B : This text extends the arrow length\nright edge arrow
-& B <-o] : This text extends the arrow length\nright edge arrow
+   [o-> B : This text extends the arrow length%n()right edge arrow
+& B <-o] : This text extends the arrow length%n()right edge arrow
 end
 opt#transparent OK /'in teoz'/
-?o-> B : This text extends the arrow length\nshort arrow
-& B <-o? : This text extends the arrow length\nshort arrow
+?o-> B : This text extends the arrow length%n()short arrow
+& B <-o? : This text extends the arrow length%n()short arrow
 end
 @enduml

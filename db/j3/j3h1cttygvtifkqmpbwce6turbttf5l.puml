@@ -8,8 +8,8 @@
 @startuml 
 start 
 :AmSingleUserPrepayAction.prepay(request,response); 
-if (校验地区编号是否合法\n StringUtils.isBlank(regionId) \n || regionId.trim().equals("-1") \n|| regionId.trim().equals("000")) then (Y) 
-if(判断用户登录是否合法 \n UserInfoInterface user = SessionManager.getUser() \n user == null) then (Y) 
+if (校验地区编号是否合法%n() StringUtils.isBlank(regionId) %n() || regionId.trim().equals("-1") %n()|| regionId.trim().equals("000")) then (Y) 
+if(判断用户登录是否合法 %n() UserInfoInterface user = SessionManager.getUser() %n() user == null) then (Y) 
 
 else (N :登录不合法Return) 
 endif 

@@ -6,5 +6,5 @@
   }
 }
 @startuml
-alice -> bob : 123\n456
+alice -> bob : 123%n()456
 @enduml

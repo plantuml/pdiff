@@ -8,6 +8,6 @@
 @startuml
 participant QACT as A
 participant DIAG as B
-participant "Target\nDIAG" as C
+participant "Target%n()DIAG" as C
 A -> B : hello
 @enduml

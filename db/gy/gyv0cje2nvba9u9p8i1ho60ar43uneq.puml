@@ -22,11 +22,11 @@ User(user, "Trusted user", "")
 
 file policy <<policy>> [
 {
-\t"Action": [
-\t\t"sts:AssumeRole"
-\t],
-\t"Effect": "Allow",
-\t"Resource": <b>"arn:aws:iam::1:role/role"</b>
+%tab()"Action": [
+%tab()%tab()"sts:AssumeRole"
+%tab()],
+%tab()"Effect": "Allow",
+%tab()"Resource": <b>"arn:aws:iam::1:role/role"</b>
 }
 ]
 

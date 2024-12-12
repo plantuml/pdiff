@@ -23,10 +23,10 @@ manager : - minimising IAP
 manager : - needs funding
 manager : - ...
 
-manager -down[hidden]-> funder : motivates\nfor\nfunding '###
-funder -up[hidden]-> manager : provides\nfunding '###
-manager -down[hidden]-> status : spends funding\nto control IAP '###
-status -up[hidden]-> manager : monitors success\nof IAP control '###
+manager -down[hidden]-> funder : motivates%n()for%n()funding '###
+funder -up[hidden]-> manager : provides%n()funding '###
+manager -down[hidden]-> status : spends funding%n()to control IAP '###
+status -up[hidden]-> manager : monitors success%n()of IAP control '###
 
 state "Spread Model" as model <<hidden>>
 model : + state

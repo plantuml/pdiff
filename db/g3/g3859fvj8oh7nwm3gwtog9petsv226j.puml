@@ -10,7 +10,7 @@
 skinparam lengthAdjust spacingAndGlyphs
 autonumber "<b>[000]"
 participant BusFMS as "FMS CAN"
-participant FMSSrv as "FMStoIP\nserivce"
+participant FMSSrv as "FMStoIP%n()serivce"
 collections clients
 clients -> FMSSrv: C1 addpng(P1,ES)
 hnote over clients: dt max 1s
@@ -30,7 +30,7 @@ BusFMS -> FMSSrv: P1(V2)
 hnote over FMSSrv: rt=3150
 hnote over clients: dt 952ms
 FMSSrv -> clients: FMS<rt=3202, P1(V2, rt=3150)>
-note over clients: 3202 is timestamp of when FMS data sent on multicast\n3150 is timestamp of PGN P1 received by FMStoIP service
+note over clients: 3202 is timestamp of when FMS data sent on multicast%n()3150 is timestamp of PGN P1 received by FMStoIP service
 
 BusFMS -> FMSSrv: P1(V2)
 hnote over FMSSrv: rt=3350
@@ -49,6 +49,6 @@ BusFMS -> FMSSrv: P1(V3)
 hnote over FMSSrv: rt=4450
 hnote over clients: dt 958ms
 FMSSrv -> clients: FMS<rt=4498, P1(V3, rt=4450)>
-note right FMSSrv: ES update sent later (compared to above diagram) \nsince intermediate ES update sent.
+note right FMSSrv: ES update sent later (compared to above diagram) %n()since intermediate ES update sent.
 ...
 @enduml

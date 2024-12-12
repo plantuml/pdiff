@@ -20,7 +20,7 @@ uV7KGPNO2lya17gz1pMiD1VmFNH9IBLNe3xA3q07eNsMy_WdXESwU4jRmddEk-FUuPFjjthiqAEGVUz8
 
 
 !procedure $ffoo6($alias, $description="", $label="", $technology="", $scale=1, $colour="red")
-rectangle "<<//$alias//>>\n==$label\n<color:red><$Batch*$scale></color>\n//<size:12>[$technology]</size>//\n\n  $description 6 " as $alias
+rectangle "<<//$alias//>>%n()==$label%n()<color:red><$Batch*$scale></color>%n()//<size:12>[$technology]</size>//%n()%n()  $description 6 " as $alias
 !endprocedure
 
 !$mylabel="xx"

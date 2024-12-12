@@ -10,7 +10,7 @@
 start
 while (toujours)
 :Prise en compte des commandes reçus;
-note right: - Ecriture d'un bloc flash\n- Vérification d'un block flash\n- Effacement d'un block flash\n- Récupération de la version firmware\n- Reset du micro;
+note right: - Ecriture d'un bloc flash%n()- Vérification d'un block flash%n()- Effacement d'un block flash%n()- Récupération de la version firmware%n()- Reset du micro;
 end while
  
 stop

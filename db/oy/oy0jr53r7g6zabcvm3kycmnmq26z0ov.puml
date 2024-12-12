@@ -17,5 +17,5 @@ EN is high
 @60
 EN is low
 
-EN@50 <-> @70 : <color:red>Clock0\nis missing\nfrom 50 to 70
+EN@50 <-> @70 : <color:red>Clock0%n()is missing%n()from 50 to 70
 @enduml

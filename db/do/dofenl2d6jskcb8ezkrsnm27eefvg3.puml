@@ -8,12 +8,12 @@
 }
 @startuml
 fork
--> first arrow that is too long to show\na hortizontal spacing issue;
+-> first arrow that is too long to show%n()a hortizontal spacing issue;
 :state again;
 -> this is more text;
 fork again
 -> starting arrow;
-:state with overlapping text from \nthe first fork;
+:state with overlapping text from %n()the first fork;
 ->something else;
 :another state;
 -> ending arrow text;

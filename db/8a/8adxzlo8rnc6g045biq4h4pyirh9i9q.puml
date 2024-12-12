@@ -8,7 +8,7 @@
 @startuml
 autonumber
 
-Bob -> Alice : hello1\nthis\nmessage
+Bob -> Alice : hello1%n()this%n()message
 Bob -> Alice : hello2
 Bob -> Bob : hello3
 Bob -> Alice : hello4

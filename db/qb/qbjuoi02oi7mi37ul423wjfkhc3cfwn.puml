@@ -8,7 +8,7 @@
 @startuml
 !pragma svek_trace on
 node "V" {
-	[Win Domain\nMaster Controller] as DC1
+	[Win Domain%n()Master Controller] as DC1
 }
 frame "f" as tomcatJIRA {
 		[JIRA Core]

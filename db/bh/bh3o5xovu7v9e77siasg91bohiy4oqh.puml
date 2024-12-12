@@ -10,17 +10,17 @@
 !pragma teoz true
 
 
-actor "Sales\nCo-worker" as user
+actor "Sales%n()Co-worker" as user
 participant "Sales System" as som
 boundary "Endpoint" as endpointA
 participant "Controller" as controller
 
 participant "SignedUrlGenerator" as urlGen
 participant "ProjectDataTransformer" as projectDataTransformer
-control "apiClient\napi-client" as apiClient
+control "apiClient%n()api-client" as apiClient
 
 ' ---- FLOW  -----------
-user -[#navy]-> som: Selects a \nkitchen drawing\nfor import
+user -[#navy]-> som: Selects a %n()kitchen drawing%n()for import
 note right: e g //ProjectID//
 
 ' & note over controller works. & over two participants does not.
@@ -32,11 +32,11 @@ plannerUrl
 end note
 
 
-som -> endpointA: ProjectId, RetailUnit, \nLanguage, APIKey, \nSecret, MessageSignature
-& endpointA -> controller: exportProject( projectId, \nretU, language, ... )
-& controller -> apiClient: getProject(projectId),\ngetMetadata(projectId)
-apiClient --> controller: project data,\nproject metadata
-note left #LightCoral: **metadata**=bom, wallpanel, \nworktop, wallEdgeStrip
+som -> endpointA: ProjectId, RetailUnit, %n()Language, APIKey, %n()Secret, MessageSignature
+& endpointA -> controller: exportProject( projectId, %n()retU, language, ... )
+& controller -> apiClient: getProject(projectId),%n()getMetadata(projectId)
+apiClient --> controller: project data,%n()project metadata
+note left #LightCoral: **metadata**=bom, wallpanel, %n()worktop, wallEdgeStrip
 note over projectDataTransformer, apiClient
 both calls (getProject & getMetadata) are 
 asynchronous & parallel

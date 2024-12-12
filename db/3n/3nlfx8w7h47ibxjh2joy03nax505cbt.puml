@@ -49,11 +49,11 @@ skinparam collections {
   Shadowing false
 }
 
-participant "participant\n<size:30><&clock>" as participant
-actor "actor\n<size:30><&key>" as actor
-boundary "boundary\n<size:30><&beaker>" as boundary
-control "control\n<size:30><&bar-chart>" as control
-entity "entity\n<size:30><&circle-check>" as entity
-database "database\n<size:30><&envelope-closed>" as database
-collections "collection\n<size:30><&image>" as collections
+participant "participant%n()<size:30><&clock>" as participant
+actor "actor%n()<size:30><&key>" as actor
+boundary "boundary%n()<size:30><&beaker>" as boundary
+control "control%n()<size:30><&bar-chart>" as control
+entity "entity%n()<size:30><&circle-check>" as entity
+database "database%n()<size:30><&envelope-closed>" as database
+collections "collection%n()<size:30><&image>" as collections
 @enduml

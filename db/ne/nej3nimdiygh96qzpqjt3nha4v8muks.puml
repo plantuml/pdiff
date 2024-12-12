@@ -9,7 +9,7 @@
 start
 if (Graphviz installed?) then (yes on
 several line)
-  :process all\ndiagrams;
+  :process all%n()diagrams;
 else (no)
   :process only
   __sequence__ and __activity__ diagrams;

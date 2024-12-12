@@ -10,14 +10,14 @@
 
 start
 switch (AlternativeAlternativeAlternative ""GatewayID"" defined for...)
-	case (**SomeOne**\n2)
+	case (**SomeOne**%n()2)
 	:a;
-	case (**ANY**\n1\n2\n3)
+	case (**ANY**%n()1%n()2%n()3)
 	:b;
 	case (else)
 		:Get Main ""GatewayID"";
 	endswitch
-:Get **Alternative**\n""GatewayID"";
+:Get **Alternative**%n()""GatewayID"";
 
 
 stop

@@ -9,7 +9,7 @@
 @startuml
 <style>
 </style>
-ref over Alice, Bob : this is a reference\n(normal style)
+ref over Alice, Bob : this is a reference%n()(normal style)
 <style>
 sequenceDiagram {
   reference {
@@ -18,7 +18,7 @@ sequenceDiagram {
   }
 }
 </style>
-ref over Alice, Bob : this is a reference\n(RoundCorner + Shadowing)
+ref over Alice, Bob : this is a reference%n()(RoundCorner + Shadowing)
 <style>
 sequenceDiagram {
   reference {
@@ -27,5 +27,5 @@ sequenceDiagram {
   }
 }
 </style>
-ref over Alice, Bob : this is a reference\n(RoundCorner + No Shadowing)
+ref over Alice, Bob : this is a reference%n()(RoundCorner + No Shadowing)
 @enduml

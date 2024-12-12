@@ -20,6 +20,6 @@ delay {
   FontColor red
 }
 </style>
-...dummy\non\nseveral\nlines...
+...dummy%n()on%n()several%n()lines...
 Alice -> Bob : ok3
 @enduml

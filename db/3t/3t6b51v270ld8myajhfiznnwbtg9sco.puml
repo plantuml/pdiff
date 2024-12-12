@@ -72,10 +72,10 @@ node TPP  as tpp_node {
 
 }
 
-user =[#green]=> tapp : \rA.Interact with app
-tapp ==[#green]=> tapp : \rB. Authorization event
-tapp =[#green]=> tppbe : \rC. get Authorisation Server List
-tapp =[#green]=> mapp : \rD. Deeplink
+user =[#green]=> tapp : %right_align()A.Interact with app
+tapp ==[#green]=> tapp : %right_align()B. Authorization event
+tapp =[#green]=> tppbe : %right_align()C. get Authorisation Server List
+tapp =[#green]=> mapp : %right_align()D. Deeplink
 mapp  --> mapp : 1. launch <brand> app
 mapp ..> user : 2. present login screen
 user --> mapp : 3. login
@@ -95,7 +95,7 @@ user --> mwv : 16. Complete OB Journey
 mwv --> obp : 17. Submit (OB Journey Complete)
 obp ..> mwv : 18. Auth_Code
 
-tapp =[#green]=> obps : \rX. Make Payment
+tapp =[#green]=> obps : %right_align()X. Make Payment
 
 tpp_node <==> obie_node : MA TLS
 @enduml

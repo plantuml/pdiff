@@ -9,20 +9,20 @@
 @startuml
 !pragma teoz true
   A <[#red]-o? ++
-  A -> B -- : very long\nmulti-line
+  A -> B -- : very long%n()multi-line
 & B -> C ++ #red: single
 note over C: got it
 Deactivate C
 ====
   A <-o? ++ #green
-  A -> B -- : very long\nmulti-line
-& B -> C ++ #green : same\nheight
+  A -> B -- : very long%n()multi-line
+& B -> C ++ #green : same%n()height
 note over C: got it
 Deactivate C
 ====
   A <-o? ++ #red
   A -> B -- : single
-& B -> C ++ : very long\nmulti-line
+& B -> C ++ : very long%n()multi-line
 note over C: got it
 Deactivate C
 @enduml

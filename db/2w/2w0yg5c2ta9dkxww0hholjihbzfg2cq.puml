@@ -11,9 +11,9 @@ autonumber
 scale 0.8
 !pragma teoz true
 skinparam shadowing false
-participant "Function Group\nS_ABAP_TRACE_DATA" as 1
-participant "PROG\nZZZ_RECURSIVE" as 2
-participant "ObjectId:7 of Class LCL_CLASS\nZZZ_RECURSIVE" as 3
+participant "Function Group%n()S_ABAP_TRACE_DATA" as 1
+participant "PROG%n()ZZZ_RECURSIVE" as 2
+participant "ObjectId:7 of Class LCL_CLASS%n()ZZZ_RECURSIVE" as 3
 1 -> 1: 
 activate 1
 1 -> 2:  ZZZ_RECURSIVE

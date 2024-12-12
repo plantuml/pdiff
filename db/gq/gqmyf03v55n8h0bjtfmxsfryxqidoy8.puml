@@ -64,7 +64,7 @@ arrow {
 
 title padding/margin needs example:
  
-file "file\n" as package {
+file "file%n()" as package {
 () " " as acc1
 () " " as acc2
 }

@@ -7,7 +7,7 @@
   }
 }
 @startuml
-participant "=MyTitle\n----\nMySubTitle" as MyParticipant
+participant "=MyTitle%n()----%n()MySubTitle" as MyParticipant
 participant Bob
 
 MyParticipant -> Bob

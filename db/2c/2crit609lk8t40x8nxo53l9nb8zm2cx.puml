@@ -11,7 +11,7 @@
 switch (Long long long Long long <b><color:red>long condition?)
 case (Long long long long long long long long long case 1)
    :Action  1;
-case (<b><color:red>Arrow Error\nLong long long long long long long long long case 2)
+case (<b><color:red>Arrow Error%n()Long long long long long long long long long case 2)
    :Action  2;
 endswitch
 

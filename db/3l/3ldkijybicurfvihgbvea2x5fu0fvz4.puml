@@ -8,7 +8,7 @@
 @startuml
 start
 :foo;
-if (bar\ntoto\ndffd ksjdf sdfljsdflmsd sdfskhj sf sdf sdfjk) then (Yes)
+if (bar%n()toto%n()dffd ksjdf sdfljsdflmsd sdfskhj sf sdf sdfjk) then (Yes)
 :foobar;
 else (No)
 endif

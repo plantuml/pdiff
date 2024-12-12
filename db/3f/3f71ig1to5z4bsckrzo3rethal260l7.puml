@@ -12,12 +12,12 @@ legend
 Il y a **trois** images:
 |= ID |= Emplacement |= Commentaire |
 | im | Image sous le textarea | Cette image est toujours visible, et affiche toujours un diagramme correct |
-| secret |Image toujours cachée | Cette image n'est jamais visible\nelle sert juste de boite aux lettre entre l'application et le serveur |
+| secret |Image toujours cachée | Cette image n'est jamais visible%n()elle sert juste de boite aux lettre entre l'application et le serveur |
 | err | Image à droite du textarea (parfois cachée) | Cette image n'est rendue visible que lorsqu'un diagramme a une erreur de syntaxe |
 end legend
 
 repeat
-  :On calcule en\nJavascript une url /chk/XXXXX;
+  :On calcule en%n()Javascript une url /chk/XXXXX;
   :On affecte l'url /chk/XXXX à l'image **secret**;
   if (width de l'image **secret**?) is (=1) then
     :pas d'erreur de syntax;

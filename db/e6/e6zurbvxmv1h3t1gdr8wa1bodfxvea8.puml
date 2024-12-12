@@ -6,7 +6,7 @@
   }
 }
 @startuml
-Bob->Alice : coucou\nit\nme
+Bob->Alice : coucou%n()it%n()me
 activate Alice
 Alice->Alice: well
 Alice-->Bob: ok

@@ -7,6 +7,6 @@
   }
 }
 @startuml
-MC -> MC : Create\n[[http://www.google.com User\nentity]]
-MC -> MC : Create\n[[http://www.google.com User]]\nentity
+MC -> MC : Create%n()[[http://www.google.com User%n()entity]]
+MC -> MC : Create%n()[[http://www.google.com User]]%n()entity
 @enduml

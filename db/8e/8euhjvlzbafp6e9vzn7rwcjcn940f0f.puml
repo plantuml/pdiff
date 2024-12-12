@@ -18,10 +18,10 @@ skinparam database {
   }
 }
 
-package "<size:18>styled</size>\nshould be styled" <<Database>> {
+package "<size:18>styled</size>%n()should be styled" <<Database>> {
 }
 
-package "<size:18>styled2</size>\nshould be styled" <<Database>> {
+package "<size:18>styled2</size>%n()should be styled" <<Database>> {
 class foo
 }
 

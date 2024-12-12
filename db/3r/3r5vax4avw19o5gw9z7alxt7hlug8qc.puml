@@ -7,6 +7,6 @@
 }
 @startuml
 skinparam SequenceMessageAlign center
-Bob -> Alice : center\non two different lines
+Bob -> Alice : center%n()on two different lines
 Bob -> Alice : very very long message
 @enduml

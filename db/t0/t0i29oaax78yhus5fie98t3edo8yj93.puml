@@ -19,7 +19,7 @@
 
 !foreach $part in $data.participants
   !if $part.id == $id
-    :id=$part.id \nlabel=$part.label \ndesc=$part.desc; 
+    :id=$part.id %n()label=$part.label %n()desc=$part.desc; 
   !endif
 !endfor
 

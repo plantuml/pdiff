@@ -27,7 +27,7 @@ FFFFFFFFFFFFFFFF
 }
 
 
-rectangle " End to End\nbusiness process" <<$businessProcess*2>> {
+rectangle " End to End%n()business process" <<$businessProcess*2>> {
  rectangle "inner process 1" <<$businessProcess*2>> as src
  rectangle "inner process 2" <<$businessProcess*2>> as tgt
  src -> tgt

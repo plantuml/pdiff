@@ -9,7 +9,7 @@
 :inter sdfsdf sdf sd sd fs df ds sfqsdf;
 if (other test?) then (ok)
   :action2;
-else (not ok\nonseveral\nlines\na\nb\nc)
+else (not ok%n()onseveral%n()lines%n()a%n()b%n()c)
   :action3;
 endif
 @enduml

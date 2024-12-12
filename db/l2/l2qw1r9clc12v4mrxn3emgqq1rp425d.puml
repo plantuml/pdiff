@@ -58,5 +58,5 @@ sprite $cloudsql [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-database "<$cloudsql>\nSQL" as cloudsql
+database "<$cloudsql>%n()SQL" as cloudsql
 @enduml

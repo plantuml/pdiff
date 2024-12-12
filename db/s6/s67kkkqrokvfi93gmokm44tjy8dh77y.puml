@@ -6,7 +6,7 @@
   }
 }
 @startuml 
-title Where's the rest text of the note?\n
+title Where's the rest text of the note?%n()
  
 !definelong insertText1(foo)
 ok1 foo text

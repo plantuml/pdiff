@@ -14,6 +14,6 @@ state Check {
 
     [*] --> LookupRecord
     LookupRecord --> ex: [found_record()]
-    LookupRecord --> [*]: [default] /\nunregister()
+    LookupRecord --> [*]: [default] /%n()unregister()
 }
 @enduml    

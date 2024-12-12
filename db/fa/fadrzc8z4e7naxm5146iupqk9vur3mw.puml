@@ -15,6 +15,6 @@ node {
   MinimumWidth 250
 }
 </style>
-* Root\nThis text is centered\nbut not in the middle
-** Node\nThis text is centered\nbut not in the middle either
+* Root%n()This text is centered%n()but not in the middle
+** Node%n()This text is centered%n()but not in the middle either
 @endmindmap

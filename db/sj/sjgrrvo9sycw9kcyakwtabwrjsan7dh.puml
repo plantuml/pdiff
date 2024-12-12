@@ -15,16 +15,16 @@ end note
 !enddefinelong
 
 !definelong RAISE_ALARM2(part,alarmname,message)
-rnote over part : <b>ALARM:</b> <&flag> alarmname\nMSG = message
+rnote over part : <b>ALARM:</b> <&flag> alarmname%n()MSG = message
 !enddefinelong
 
 Bob->Alice : hello
-RAISE_ALARM(Bob,ShoudNotHappenError,What is <b>this</b>?\nNewlines are treated differently!)
+RAISE_ALARM(Bob,ShoudNotHappenError,What is <b>this</b>?%n()Newlines are treated differently!)
 rnote over Bob : example1
-rnote over Bob : example2\nline2
+rnote over Bob : example2%n()line2
 rnote over Bob
-example3\nline3
+example3%n()line3
 end note
-RAISE_ALARM2(Bob,ShoudNotHappenError,What is <b>this</b>?\nNewlines are treated differently!)
+RAISE_ALARM2(Bob,ShoudNotHappenError,What is <b>this</b>?%n()Newlines are treated differently!)
 
 @enduml

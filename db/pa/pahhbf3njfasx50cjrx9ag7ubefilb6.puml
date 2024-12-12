@@ -7,9 +7,9 @@
   }
 }
 @startuml
-actor "a\n====\ncan use b" as a
+actor "a%n()====%n()can use b" as a
 
-component "b\n====\ncan be used by a" as b {
+component "b%n()====%n()can be used by a" as b {
 }
 
 a->b: use

@@ -9,7 +9,7 @@
 autonumber
 hide footbox
 
-Bob -> Alice : hello1\nthis\nmessage
+Bob -> Alice : hello1%n()this%n()message
 Bob -> Alice : hello2
 autonumber 48
 Bob -> Bob : hello3 **in bold**

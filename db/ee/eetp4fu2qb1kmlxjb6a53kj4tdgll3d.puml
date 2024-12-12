@@ -58,7 +58,7 @@ state FLASH_DEVICES{
 
 SCREEN_PROGRAMMER_CHOICE-right->SCREEN_FLASHING_VALIDATION : when(progChoice==true)
 
-SCREEN_FLASHING_VALIDATION-down->SCREEN_FLASHING_REPORT : launchFlash()/\ndisplayScreen(screenFlashingReport)\nflashSomeDevices()
+SCREEN_FLASHING_VALIDATION-down->SCREEN_FLASHING_REPORT : launchFlash()/%n()displayScreen(screenFlashingReport)%n()flashSomeDevices()
 
 SCREEN_FLASHING_REPORT-->SCREEN_PROGRAMMER_CHOICE : when(endReport)
 

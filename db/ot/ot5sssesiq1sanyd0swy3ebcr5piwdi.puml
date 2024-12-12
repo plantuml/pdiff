@@ -10,6 +10,6 @@
 !pragma teoz true
 'Issue #656
 A -> B++: Get data
-& B -> C++:a\n2
-& C -> D++: a\n2\n3
+& B -> C++:a%n()2
+& C -> D++: a%n()2%n()3
 @enduml

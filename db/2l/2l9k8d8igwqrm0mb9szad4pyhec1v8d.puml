@@ -11,25 +11,25 @@
 start
 :Load settings;
 	switch (AlternativeAlternativeAlternative ""GatewayID"" defined for...)
-		case (**SomeOne**'s Country Code\nnd **Selected** Payment Method?)
+		case (**SomeOne**'s Country Code%n()nd **Selected** Payment Method?)
 		:a;
-		case (**ANY** Country Code and\n**Selected** Payment Method?)
+		case (**ANY** Country Code and%n()**Selected** Payment Method?)
 		:b;
 		case (else)
 			:Get Main ""GatewayID"";
 		endswitch
-	:Get **Alternative**\n""GatewayID"";
+	:Get **Alternative**%n()""GatewayID"";
 
 :Load settings;
 	switch (Alternative Alternative)
-		case (**SomeOne**'s Country\nCode nd **Selected** Payment Method?)
+		case (**SomeOne**'s Country%n()Code nd **Selected** Payment Method?)
 		:a;
-		case (**ANY** Country Code and\n**Selected** Payment Method?)
+		case (**ANY** Country Code and%n()**Selected** Payment Method?)
 		:b that is lon;
 		case (else)
 			:Get Main ""GatewayID"";
 		endswitch
-	:Get **Alternative**\n""GatewayID"";
+	:Get **Alternative**%n()""GatewayID"";
 
 stop
 

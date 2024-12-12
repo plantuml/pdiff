@@ -36,11 +36,11 @@ CONFIGSERVER -> RUE: TLS: ServerCertificate
 CONFIGSERVER -->> RUE: TLS: ServerKeyExchange if required for premaster secret handshake
 CONFIGSERVER -> RUE: TLS: ServerHelloDone
 RUE -> CONFIGSERVER: HTTP: GET https://config.providerdomain.com/v1
-CONFIGSERVER -> RUE: HTTP: 401 Unauthorized WWW-Authenticate Digest\nusername="X" realm="Y" qop="auth,auth-int" nonce=...
-RUE -> CONFIGSERVER: HTTP: https://config.providerdomain.com/v1 Authorization Digest\nusername="X" realm="Y" qop="auth" nonce=...
-CONFIGSERVER -> CRM: Find subscriber information\nfor username="X"
-CRM -> CONFIGSERVER: Subscriber specific\nconfiguration information
+CONFIGSERVER -> RUE: HTTP: 401 Unauthorized WWW-Authenticate Digest%n()username="X" realm="Y" qop="auth,auth-int" nonce=...
+RUE -> CONFIGSERVER: HTTP: https://config.providerdomain.com/v1 Authorization Digest%n()username="X" realm="Y" qop="auth" nonce=...
+CONFIGSERVER -> CRM: Find subscriber information%n()for username="X"
+CRM -> CONFIGSERVER: Subscriber specific%n()configuration information
 CONFIGSERVER -> PROVIDERSETTINGS: Retrieve provider specific settings
 PROVIDERSETTINGS -> CONFIGSERVER: Provider specific configuration information
-CONFIGSERVER -> RUE: 200 OK + JSON key/value hash merge of subscriber specific and\nprovider specific configurations
+CONFIGSERVER -> RUE: 200 OK + JSON key/value hash merge of subscriber specific and%n()provider specific configurations
 @enduml

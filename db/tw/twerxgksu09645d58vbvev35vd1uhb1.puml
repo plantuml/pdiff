@@ -12,6 +12,6 @@
 User -> (Start)
 User --> (Use) : A small label
 
-Admin ---> (Use) : This is\nyet another\nlabel
+Admin ---> (Use) : This is%n()yet another%n()label
 
 @enduml

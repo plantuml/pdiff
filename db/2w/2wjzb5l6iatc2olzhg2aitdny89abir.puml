@@ -17,5 +17,5 @@ note right
 ceci est encore une longue
 phrase
 end note
-Bob->Bob: encore un long\ncommentaire qui ne veut rien dire
+Bob->Bob: encore un long%n()commentaire qui ne veut rien dire
 @enduml

@@ -12,7 +12,7 @@
 actor "Purchase Officer" as po
 participant ":Order" as o
 participant "Budget" as b
-participant "«datastore»\nOrders" as d_o
+participant "«datastore»%n()Orders" as d_o
 actor "Supplier" as sup
 
 @enduml

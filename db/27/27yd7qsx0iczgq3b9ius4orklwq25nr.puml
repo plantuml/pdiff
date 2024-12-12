@@ -17,12 +17,12 @@ stateDiagram {
 }
 </style>
 
-state A : a\na a\na a a
+state A : a%n()a a%n()a a a
 state B {
 state C
 }
 
-state B : b\nb b\nb b b
+state B : b%n()b b%n()b b b
 A -> B : a2b
 header my hdr
 @enduml

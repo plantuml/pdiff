@@ -43,8 +43,8 @@ student "method" *--  correlations
 
 
 
-research .. correlations #Green : "Baird\lTools vs Goals"
+research .. correlations #Green : "Baird%left_align()Tools vs Goals"
 experiments . correlations #Green : Cronbach
-research . student #Green : Briggs:\lLearned vs learning
+research . student #Green : Briggs:%left_align()Learned vs learning
 (research, experiments) . (research, correlations)
 @enduml

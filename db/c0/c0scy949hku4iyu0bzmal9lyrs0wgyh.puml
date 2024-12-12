@@ -15,7 +15,7 @@ start
   :generate diagrams;
 endwhile
 #blue:if (graphviz installed?) then (yes)
-  :process all\ndiagrams;
+  :process all%n()diagrams;
 else (no)
   :process only
   __sequence__ and __activity__ diagrams;

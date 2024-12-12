@@ -20,8 +20,8 @@ hide stereotype
 }
 </style>
 
-rectangle "a\na a" as rect1 <<left>> <<green>>
-rectangle "b\nb b" as rect2 <<left>> <<red>>{
+rectangle "a%n()a a" as rect1 <<left>> <<green>>
+rectangle "b%n()b b" as rect2 <<left>> <<red>>{
   rectangle rec
 }
 @enduml

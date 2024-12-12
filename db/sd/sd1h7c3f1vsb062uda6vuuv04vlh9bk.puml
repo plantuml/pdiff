@@ -7,8 +7,8 @@
 }
 @startuml
 !define TEST something
-a->b: test:\nTEST
-note right: The test is:\nTEST
-a->b: test:\n TEST
-note left: The test is:\n TEST 
+a->b: test:%n()TEST
+note right: The test is:%n()TEST
+a->b: test:%n() TEST
+note left: The test is:%n() TEST 
 @enduml

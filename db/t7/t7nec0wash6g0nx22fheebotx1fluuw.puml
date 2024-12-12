@@ -16,7 +16,7 @@ nwdiag {
     }
 
     group Group_2 {
-        description = "Group 2\nMultiline\nDescription\n1\n2\n3";
+        description = "Group 2%n()Multiline%n()Description%n()1%n()2%n()3";
 
         Node3;
         Node4;

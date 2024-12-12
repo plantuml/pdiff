@@ -8,7 +8,7 @@
 }
 @startuml
 node "a"
-node "b\na b c"
+node "b%n()a b c"
 <style>
 node {
   FontColor green
@@ -16,12 +16,12 @@ node {
   LineColor blue
 }
 </style>
-node "c\na b c"
+node "c%n()a b c"
 <style>
 node {
   FontColor red
   LineColor red
 }
 </style>
-node "d\na b c"
+node "d%n()a b c"
 @enduml

@@ -9,5 +9,5 @@
 component component1
 database database1
 queue queue2
-queue "queue1\n----\ntoto" as queue3
+queue "queue1%n()----%n()toto" as queue3
 @enduml

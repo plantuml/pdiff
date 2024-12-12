@@ -7,5 +7,5 @@
 }
 @startuml
 skinparam defaultTextAlignment center
-[component title\n more component info] <<myStereotype>>
+[component title%n() more component info] <<myStereotype>>
 @enduml

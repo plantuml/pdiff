@@ -80,7 +80,7 @@ skinparam arrow<<withClose>> {
 
 rectangle "== all" <<system>> as all {
 rectangle "== test" <<component>> as test 
-rectangle "<$ma_close_circle>\n== test1" <<component>> as test1 
+rectangle "<$ma_close_circle>%n()== test1" <<component>> as test1 
 }
 test -->> test1 <<withClose>> : <$ma_close_circle> **sfef**
 test -->> test1 : <$ma_close_circle> **sfef**

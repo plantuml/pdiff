@@ -28,7 +28,7 @@ if ()
         if () then ( )
             #PaleGreen:dummy;
             end;
-        else ([dummy\ntext])
+        else ([dummy%n()text])
             #PaleGreen:dummy;
             end;    
         endif    

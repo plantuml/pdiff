@@ -12,6 +12,6 @@ arrow {
   HorizontalAlignment right
 }
 </style>
-Bob -> Alice : right\non two different lines
+Bob -> Alice : right%n()on two different lines
 Bob -> Alice : very very long message
 @enduml

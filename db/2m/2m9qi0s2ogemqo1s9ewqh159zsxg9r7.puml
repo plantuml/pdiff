@@ -18,7 +18,7 @@
 !unquoted function $lookup($id)
 !foreach $part in $data.participants
   !if $part.id == $id
-    !return "id=" + $part.id + " \nlabel=" + $part.label + " \ndesc=" + $part.desc + ";" 
+    !return "id=" + $part.id + " %n()label=" + $part.label + " %n()desc=" + $part.desc + ";" 
   !endif
 !endfor
 !return "not found"

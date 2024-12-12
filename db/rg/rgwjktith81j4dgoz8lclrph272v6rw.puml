@@ -12,6 +12,6 @@ skinparam StateBorderColor white
 skinparam StateBackgroundColor gray
 skinparam BackgroundColor gray
 state "Any Page" as s1 {
-   state "Using the text\nsearch input" as s2
+   state "Using the text%n()search input" as s2
 }
 @enduml

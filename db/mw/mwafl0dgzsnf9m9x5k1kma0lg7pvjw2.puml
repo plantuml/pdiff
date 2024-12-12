@@ -8,9 +8,9 @@
 }
 @startuml
 fork
--> 5showing more text that is\ntoo long once again\nin this\nparticular\nscenario\nwhere this happens;
-:6final state of\nthis fork;
--> 7Have something that is long\nwritten here as an\nexample;
+-> 5showing more text that is%n()too long once again%n()in this%n()particular%n()scenario%n()where this happens;
+:6final state of%n()this fork;
+-> 7Have something that is long%n()written here as an%n()example;
 endfork
 
 @enduml

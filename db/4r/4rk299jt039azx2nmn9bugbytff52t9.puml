@@ -11,7 +11,7 @@ legend
 {{
 
 !procedure $arrow($text)
-\n<font:monospaced.bold>$text</font> => \n{{\nleft to right direction\nlabel " " as A\nlabel " " as B\nA $text B\n}}\n
+%n()<font:monospaced.bold>$text</font> => %n(){{%n()left to right direction%n()label " " as A%n()label " " as B%n()A $text B%n()}}%n()
 !endprocedure
 
 map "Arrows legend " as arrows {

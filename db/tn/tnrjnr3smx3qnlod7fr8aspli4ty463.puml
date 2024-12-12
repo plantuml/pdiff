@@ -15,7 +15,7 @@
 hide footbox
 
 actor Developer as user
-participant "$LambdaSVG(2)\nLambda" as lambdaSVG2
+participant "$LambdaSVG(2)%n()Lambda" as lambdaSVG2
 
 user -> lambdaSVG2: SVG {scale=2}
 @enduml

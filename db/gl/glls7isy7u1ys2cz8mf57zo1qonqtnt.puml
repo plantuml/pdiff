@@ -9,5 +9,5 @@
 hide footbox
 participant Alice as alice
 participant Bob as bob
-alice ->> bob : <b> SIGNAL_1\n  next line
+alice ->> bob : <b> SIGNAL_1%n()  next line
 @enduml

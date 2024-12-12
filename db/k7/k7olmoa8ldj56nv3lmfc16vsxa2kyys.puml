@@ -16,9 +16,9 @@ skinparam participant {
   Backgroundcolor none
   Shadowing false
 }
-participant "<size:40><&monitor></size>\nCliente" as WKS
-participant "<size:40><&loop></size>\nSwitch" as SW
-participant "<size:40><&lock-locked></size>\nServidor de\nAutenticação\n(RADIUS)" as RADIUS
+participant "<size:40><&monitor></size>%n()Cliente" as WKS
+participant "<size:40><&loop></size>%n()Switch" as SW
+participant "<size:40><&lock-locked></size>%n()Servidor de%n()Autenticação%n()(RADIUS)" as RADIUS
 WKS->SW:EAPoL-Start
 SW->WKS:EAP-Request-Identity
 WKS->SW:EAP-Response-Identity

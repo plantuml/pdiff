@@ -6,7 +6,7 @@
   }
 }
 @startuml
-[<<component>>\nFoo] as toto
+[<<component>>%n()Foo] as toto
 
 package "p1 p1" as p1 {
 }

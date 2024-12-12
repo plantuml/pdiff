@@ -11,5 +11,5 @@ skinparam Shadowing false
 skinparam monochrome true
 !include <archimate/Archimate>
 
-archimate #LightGreen "Social Media\n Competency" as SMC <<strategy-resource>>
+archimate #LightGreen "Social Media%n() Competency" as SMC <<strategy-resource>>
 @enduml

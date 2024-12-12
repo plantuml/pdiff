@@ -7,12 +7,12 @@
 }
 @startuml
 :start1;
-partition #CadetBlue;header:red "go up the stairs in a way that is methodic \n----\n[[http://www.google.es link]]" {
+partition #CadetBlue;header:red "go up the stairs in a way that is methodic %n()----%n()[[http://www.google.es link]]" {
 
  :go up first step;
  :go up second step;
  if (tired) then(yes)
-   :stop a bit\n----\nnow;
+   :stop a bit%n()----%n()now;
  endif
  :go up last steps;
 }

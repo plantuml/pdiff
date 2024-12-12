@@ -17,7 +17,7 @@ state "NPATH Data Entered" as npathdata {
 state "Initial Fixation" as Initial {
    state "Initial Fixative" as InitialFixative{
    }
-   InitialFixative: Left/Right Hemi, Spinal Cord,\nBrainstem/Cerebellum
+   InitialFixative: Left/Right Hemi, Spinal Cord,%n()Brainstem/Cerebellum
 
    state "10/2 Cryo" as TenTwo{
    }
@@ -54,7 +54,7 @@ state "Tissue Distribution or Block Review" as TissueDistribution {
   state "20/2 Cryo" as TwentyTwoNonInitial{
    }  
    
-   Complete --> TenTwoMold : Ev:BagOpen\n(Mold) 
+   Complete --> TenTwoMold : Ev:BagOpen%n()(Mold) 
    TenTwoMold --> MoldFixative : Ev:Mold Fixative
     MoldFixative --> TenTwoNonInitial : Ev:10/2
     TenTwoNonInitial -->   TwentyTwoNonInitial : Ev:20/2
@@ -69,7 +69,7 @@ Complete: TissueTrackingLifeCycle COMPLETE
 state "Combined with Hemi" as CombinedHemi{
    state "Combine Hemi" as FindHemi{
    }
-   FindHemi: Find open tracking for Left \nor Right hemi and indicate\n it's combined with Brainstem/Cerebellum
+   FindHemi: Find open tracking for Left %n()or Right hemi and indicate%n() it's combined with Brainstem/Cerebellum
    state "Complete" as CompleteBCcycle{
    }
    CompleteBCcycle: Complete tracking for Brainstem/Cerebellum
@@ -80,7 +80,7 @@ CombinedHemi: ONLY for Brainstem/Cerebellum
 CombinedHemi: Available at any point in the cycle
 
 npathdata -right-> Initial : Add new TissueTracking
-Complete --> TissueDistribution : Ev:BagOpen\n(No Mold)
+Complete --> TissueDistribution : Ev:BagOpen%n()(No Mold)
 TissueDistribution --> Complete: Ev:BagClose
 CombinedHemi --> Complete
 @enduml

@@ -9,8 +9,8 @@
 @startuml
 !include <kubernetes/k8s-sprites-unlabeled-25pct>
 package "Infrastructure" {
-  component "<$master>\nmaster" as master
-  component "<$etcd>\netcd" as etcd
-  component "<$node>\nnode" as node
+  component "<$master>%n()master" as master
+  component "<$etcd>%n()etcd" as etcd
+  component "<$node>%n()node" as node
 }
 @enduml

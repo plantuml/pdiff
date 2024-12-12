@@ -7,5 +7,5 @@
   }
 }
 @startuml
-:a:-->(b\n - c)
+:a:-->(b%n() - c)
 @enduml

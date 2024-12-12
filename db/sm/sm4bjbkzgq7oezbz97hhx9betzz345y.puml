@@ -8,9 +8,9 @@
 }
 @startuml
 class CImaging {
-    +void Init(const ToolConfig& config,\n\
-        PolarizedIllumSource& illum_src,\n\
-        C3DStructure& structure3d,\n\
+    +void Init(const ToolConfig& config,%n()\
+        PolarizedIllumSource& illum_src,%n()\
+        C3DStructure& structure3d,%n()\
         CVectorialProjection& projection );
 }
 @enduml

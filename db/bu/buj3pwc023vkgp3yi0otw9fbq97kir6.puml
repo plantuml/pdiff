@@ -18,7 +18,7 @@ WB is Idle
 'WU is Waiting : THIS TEXT SHOULD SHOW IN A NOTE ABOVE THE MIDDLE of the < Waiting > - bar
 WU is Waiting
 WB is Processing
-note top of WU : first note\non\nlines
+note top of WU : first note%n()on%n()lines
 /'WU note THIS TEXT SHOULD SHOW ABOVE THE STATE CHANGE AT T=100 AND COULD EXPLAIN WHY THE STATE CHANGED'/
 
 @300

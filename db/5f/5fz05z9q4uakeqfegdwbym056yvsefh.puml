@@ -24,7 +24,7 @@ fork again
   :fork2;
   -> txt label;
 fork again
-  -> fork arrow with text\nmissing arrow label;
+  -> fork arrow with text%n()missing arrow label;
 end fork
 :foo5;
 @enduml

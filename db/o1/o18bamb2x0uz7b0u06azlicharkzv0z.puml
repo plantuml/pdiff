@@ -10,14 +10,14 @@
 (*top) --> "onCreate()"
 "onCreate()" --> "onStart()"
 "onStart()" --> if "In foreground?" then
---> [YES: Activity\nbecomes visible] "onResume()"
+--> [YES: Activity%n()becomes visible] "onResume()"
 else
---> [NO: Activity\nno longer visible] "onStop()"
+--> [NO: Activity%n()no longer visible] "onStop()"
 endif
 "onResume()" --> [Activity interacts with user] "onPause()"
 "onPause()" --> "onStop()"
 "onStop()" -*-> [Process is killed, user navigates back to activity] "onCreate()"
-"onStop()" -*-> [Activity comes\nto foreground] "onRestart()"
+"onStop()" -*-> [Activity comes%n()to foreground] "onRestart()"
 "onRestart()" -right-> "onStart()"
 "onStop()" --> "onDestroy"
 "onDestroy" --> (*)

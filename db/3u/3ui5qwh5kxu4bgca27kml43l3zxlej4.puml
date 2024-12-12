@@ -7,6 +7,6 @@
 }
 @startuml
 skinparam SequenceMessageAlignment left
-Bob -> Alice : left\non two different lines
+Bob -> Alice : left%n()on two different lines
 Bob -> Alice : very very long message
 @enduml

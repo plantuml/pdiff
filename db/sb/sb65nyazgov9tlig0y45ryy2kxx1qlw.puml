@@ -16,7 +16,7 @@ skinparam arrow<<dashed>> {
 }
 
 
-rectangle "<$person>\n==A" <<person>> as a
+rectangle "<$person>%n()==A" <<person>> as a
 rectangle "==S" <<system>> as s
 rectangle "==E" <<external_system>> as e
 

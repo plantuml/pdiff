@@ -11,7 +11,7 @@ start
 while (ITERATE consolidatedYears) is ([next <b>consolidatedYear</b>])
   if (revision code in year?) then ([no])
     :sort generalRegimePeriods by periodStart ASC;
-    if (<U+0028>highestQuality in current year not 'general regime'\nAND no 'general regime' working days in current year<U+0029>\n    OR\n<U+0028>highestQuality in prior year not 'general regime'\nAND no 'general regime' working days in prior year<U+0029>) then (yes)
+    if (<U+0028>highestQuality in current year not 'general regime'%n()AND no 'general regime' working days in current year<U+0029>%n()    OR%n()<U+0028>highestQuality in prior year not 'general regime'%n()AND no 'general regime' working days in prior year<U+0029>) then (yes)
     else
     endif
   else

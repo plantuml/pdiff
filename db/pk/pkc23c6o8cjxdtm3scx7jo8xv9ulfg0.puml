@@ -8,7 +8,7 @@
 @startuml
     skinparam colorArrowSeparationSpace 2
     start
-    -[#red;#blue;#green;#orange]-> Red:1\nBlue:\nGreen:3\nYellow:4;
+    -[#red;#blue;#green;#orange]-> Red:1%n()Blue:%n()Green:3%n()Yellow:4;
     :do a;
    -[#red;#blue;#green;#orange]-> label;    
     if (test) then

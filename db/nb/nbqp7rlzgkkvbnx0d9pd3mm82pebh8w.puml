@@ -6,8 +6,8 @@
   }
 }
 @startuml
-Alice -> "Bob\non 2 lines" : hello
-"Bob\non 2 lines" --> Alice : ok
+Alice -> "Bob%n()on 2 lines" : hello
+"Bob%n()on 2 lines" --> Alice : ok
 Alice -> "Castor doo()" as Castor : hello
 Castor --> Alice : ok
 Alice -> Castor2 as "Castor doo2()" : hello

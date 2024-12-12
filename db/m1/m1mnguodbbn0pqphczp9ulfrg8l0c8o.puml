@@ -27,7 +27,7 @@
                 -[#green]->
                 if(c?)then(yes)
                     -[#maroon,dashed]->
-                else(no:\n1. ONLY BLUE ARROW below\n**Should be 2 arrows**)
+                else(no:%n()1. ONLY BLUE ARROW below%n()**Should be 2 arrows**)
                     -[#green;#blue]->
                 if(d?)then(yes)
                     -[#maroon,dashed]->

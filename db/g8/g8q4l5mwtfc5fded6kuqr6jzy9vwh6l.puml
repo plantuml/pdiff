@@ -13,6 +13,6 @@ interface Map<K,V>
 class HashMap<Long,Customer>
 
 Map <|.. HashMap
-Shop [customerId: long] ---> "customer\n1" Customer
+Shop [customerId: long] ---> "customer%n()1" Customer
 HashMap [id: Long] -r-> "value" Customer
 @enduml

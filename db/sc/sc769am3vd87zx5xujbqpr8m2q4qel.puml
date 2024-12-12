@@ -7,8 +7,8 @@
   }
 }
 @startuml
-A -> B: Message\n\
-' |_ Content 1\n\
-' |_ Content 2\n\
+A -> B: Message%n()\
+' |_ Content 1%n()\
+' |_ Content 2%n()\
 |_ Content 3
 @enduml

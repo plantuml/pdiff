@@ -14,7 +14,7 @@ node temp2
 node temp3
 node temp4
 }
-temp1 -down-> temp2 : temp1 to temp2\nNote is out of sync
+temp1 -down-> temp2 : temp1 to temp2%n()Note is out of sync
 temp3 -down-> temp4
 temp1 -down-> temp4 : temp1 to temp4 Note is out of sync
 temp2 -right-> temp3

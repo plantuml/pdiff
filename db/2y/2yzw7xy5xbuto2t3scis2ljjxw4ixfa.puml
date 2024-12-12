@@ -7,5 +7,5 @@
 }
 @startuml
 class foo
-note top of foo : some\n\nnotes
+note top of foo : some%n()%n()notes
 @enduml

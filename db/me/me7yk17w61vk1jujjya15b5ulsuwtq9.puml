@@ -8,8 +8,8 @@
 }
 @startuml
 !TEST=something
-a[#blue]->b: test:\nTEST
-note right: The test is correct:\nTEST
-a-[#green]>b: test:\n TEST
-note left: The test is correct:\n TEST
+a[#blue]->b: test:%n()TEST
+note right: The test is correct:%n()TEST
+a-[#green]>b: test:%n() TEST
+note left: The test is correct:%n() TEST
 @enduml

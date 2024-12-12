@@ -6,10 +6,10 @@
   }
 }
 @startuml
-group foo\ndummy
+group foo%n()dummy
 Alice->Bob : hello
 end group
-== divi\nlines ==
+== divi%n()lines ==
 Alice->Bob : hello2
 
 @enduml

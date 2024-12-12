@@ -7,7 +7,7 @@
   }
 }
 @startuml
-!$var=" aaa \n bbb \n <u:blue>ccc \n <color:green>ddd <U+000A> eee"
+!$var=" aaa %n() bbb %n() <u:blue>ccc %n() <color:green>ddd <U+000A> eee"
 
 node "$var" as a
 

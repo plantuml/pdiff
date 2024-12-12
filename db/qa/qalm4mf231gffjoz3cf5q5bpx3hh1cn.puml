@@ -8,7 +8,7 @@
 @startuml
 :previous
  action}
-  while (repeat\nforever)
+  while (repeat%n()forever)
     :do it
     again;
   endwhile

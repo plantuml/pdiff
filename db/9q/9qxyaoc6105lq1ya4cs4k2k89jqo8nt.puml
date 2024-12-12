@@ -6,7 +6,7 @@
   }
 }
 @startuml
-title this <b>title</b> is <i>quite</i> <font size=20>long</font>\n and defined on several lines
+title this <b>title</b> is <i>quite</i> <font size=20>long</font>%n() and defined on several lines
 Bob -> Alice : hello
 
 @enduml

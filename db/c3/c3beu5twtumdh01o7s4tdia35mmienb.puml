@@ -9,7 +9,7 @@
 start
 if (foo1) then
 :Hello;
-if (dummy) then (when foo with a very long\nlabel on several lines);
+if (dummy) then (when foo with a very long%n()label on several lines);
 	:goto label20;
 endif
 :Other3;

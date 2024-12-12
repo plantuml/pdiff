@@ -24,13 +24,13 @@ ia_1000042 -up-> ia_124 : gvp:ia126_has_mother
 class _http___www_iconclass_org_94L_ as "<http://www.iconclass.org/94L>"
 ia_1000042 -right- _http___www_iconclass_org_94L_ : owl:sameAs
 class ia_term_123_la as "ia_term:123-la"
-ia_1000042 --> ia_term_123_la : xl:prefLabel\ncrm:P1_is_identified_by
+ia_1000042 --> ia_term_123_la : xl:prefLabel%n()crm:P1_is_identified_by
 class ia_126 as "ia:126"
 ia_1000042 --> ia_126 : gvp:ia128_event
 class cona_source_123 as "cona_source:123"
-ia_1000042 --> cona_source_123 : crm:P67i_is_referred_to_by\ndct:source
+ia_1000042 --> cona_source_123 : crm:P67i_is_referred_to_by%n()dct:source
 class cona_source_124_subject_1000042 as "cona_source:124-subject-1000042"
-ia_1000042 --> cona_source_124_subject_1000042 : crm:P67i_is_referred_to_by\ndct:source
+ia_1000042 --> cona_source_124_subject_1000042 : crm:P67i_is_referred_to_by%n()dct:source
 class tgn_7010720 as "tgn:7010720"
 ia_1000042 -left-> tgn_7010720 : gvp:ia123_place_birth
 class ia_129 as "ia:129"
@@ -45,9 +45,9 @@ class tgn_7029383 as "tgn:7029383"
 ia_1000042 -left-> tgn_7029383 : gvp:ia124_place
 class cona_700000166_creation as "cona:700000166-creation"
 ia_1000042 --> cona_700000166_creation : crm:P94i_was_created_by
-ia_1000042 : crm:P3_has_note "Probably based on an actual historical figure,\n  a king of ancient Argos.\n  The legendary figure was the son of Zeus and Alcmene ..."
-ia_1000042 : dc:description "Probably based on an actual historical figure,\n  a king of ancient Argos.\n  The legendary figure was the son of Zeus and Alcmene ..."
-ia_1000042 : rdfs:comment "Story developed in Argos,\n  but was taken over at early date by Thebes"
+ia_1000042 : crm:P3_has_note "Probably based on an actual historical figure,%n()  a king of ancient Argos.%n()  The legendary figure was the son of Zeus and Alcmene ..."
+ia_1000042 : dc:description "Probably based on an actual historical figure,%n()  a king of ancient Argos.%n()  The legendary figure was the son of Zeus and Alcmene ..."
+ia_1000042 : rdfs:comment "Story developed in Argos,%n()  but was taken over at early date by Thebes"
 ia_1000042 : gvp:estStart "-1000"^^xsd:gYear
 ia_1000042 : gvp:parentString "Classical Mythology> Greek heroic legends> Story of Hercules"
 ia_1000042 : gvp:ia127_role aat:123 # Greek hero
@@ -72,7 +72,7 @@ ia_124 : a crm:E28_Conceptual_Object
 ia_124 :  "Alcmena [Greek heroine]"
 ia_124 : dct:type ia:type/Religion_Mythology
 ia_term_123_la : a xl:Label, crm:E75_Conceptual_Object_Appellation
-ia_term_123_la --> cona_source_123 : dct:source\ncrm:P67i_is_referred_to_by
+ia_term_123_la --> cona_source_123 : dct:source%n()crm:P67i_is_referred_to_by
 ia_term_123_la : xl:literalForm "Hercules"@la
 ia_term_123_la : crm:P3_has_note "Hercules"@la
 ia_term_123_la : crm:P72_has_language gvp_lang:la
@@ -80,7 +80,7 @@ ia_term_123_la : dct:language gvp_lang:la
 ia_term_123_la : crmx:preferred <preferred/Preferred>
 cona_source_124_subject_1000042 : a crm:E31_Document, bibo:Document
 class cona_source_124 as "cona_source:124"
-cona_source_124_subject_1000042 --> cona_source_124 : dct:isPartOf\ncrm:P106i_forms_part_of
+cona_source_124_subject_1000042 --> cona_source_124 : dct:isPartOf%n()crm:P106i_forms_part_of
 cona_source_124_subject_1000042 : crm:P3_has_note "94L"
 cona_source_124_subject_1000042 : bibo:locator "94L"
 tgn_7010720 :  "Argos"
@@ -93,7 +93,7 @@ ia_1000042_record --> cona_700000166_recCreation : crm:P94i_was_created_by
 cona_700000166_creation : a crm:E65_Creation
 class cona_700000166_creation_date as "cona:700000166-creation-date"
 cona_700000166_creation --> cona_700000166_creation_date : crm:P4_has_time-span
-cona_700000166_creation : crm:P3_has_note "Story developed in Argos,\n  but was taken over at early date by Thebes"
+cona_700000166_creation : crm:P3_has_note "Story developed in Argos,%n()  but was taken over at early date by Thebes"
 tgn_7029383 :  "Thebes"
 cona_700000166_creation_date : a crm:E52_Time-Span
 cona_700000166_creation_date : crm:P82a_begin_of_the_begin "-1000"^^xsd:gYear

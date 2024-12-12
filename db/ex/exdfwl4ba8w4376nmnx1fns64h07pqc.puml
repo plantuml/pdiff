@@ -8,5 +8,5 @@
 @startuml
 skinparam defaultTextAlignment left
 [*] --> One
-One --> Two : Alpha {\n  Foo();\n   Bar();\n}
+One --> Two : Alpha {%n()  Foo();%n()   Bar();%n()}
 @enduml

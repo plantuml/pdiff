@@ -6,7 +6,7 @@
   }
 }
 @startuml
-Title This is the title\nOn several Lines
+Title This is the title%n()On several Lines
 Footer Footer
 User --> (Start the application)
 @enduml

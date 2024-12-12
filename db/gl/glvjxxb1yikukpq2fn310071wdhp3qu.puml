@@ -9,5 +9,5 @@
 @startuml
 skinparam tabSize 2
 
-Bob -> Alice: "a\n\tb"
+Bob -> Alice: "a%n()%tab()b"
 @enduml

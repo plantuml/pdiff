@@ -49,15 +49,15 @@ end
 == extra long text on right edge arrows ==
 opt#transparent OK
   A o-> B
-& B <-o] : This text extends the arrow length\n right edge arrow
+& B <-o] : This text extends the arrow length%n() right edge arrow
 end
   A o-> B
-& B <-o] : This text extends the arrow length\n right edge arrow
+& B <-o] : This text extends the arrow length%n() right edge arrow
 == extra long text on right short arrows ==
 opt#transparent OK /'in teoz'/
 ?o-> B : Pre
-& B <-o? : This text extends the arrow length\n short arrow
+& B <-o? : This text extends the arrow length%n() short arrow
 end
 ?o-> B : Pre
-& B <-o? : This text extends the arrow length\nshort arrow
+& B <-o? : This text extends the arrow length%n()short arrow
 @enduml

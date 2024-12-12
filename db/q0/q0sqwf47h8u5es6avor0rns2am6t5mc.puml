@@ -19,10 +19,10 @@
 hide footbox
 
 actor Developer as user
-participant "$LambdaPNG()\nLambda" as lambdaPNG
-participant "$LambdaSVG()\nLambda" as lambdaSVG
-participant "$LambdaPNG(2)\nLambda" as lambdaPNG2
-participant "$LambdaSVG(2)\nLambda" as lambdaSVG2
+participant "$LambdaPNG()%n()Lambda" as lambdaPNG
+participant "$LambdaSVG()%n()Lambda" as lambdaSVG
+participant "$LambdaPNG(2)%n()Lambda" as lambdaPNG2
+participant "$LambdaSVG(2)%n()Lambda" as lambdaSVG2
 
 user -> lambdaPNG: PNG
 user -> lambdaSVG: SVG

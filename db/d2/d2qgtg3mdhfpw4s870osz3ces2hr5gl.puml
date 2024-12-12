@@ -12,10 +12,10 @@ actor Kurier
 actor Empfanger
 package Kurierfahrt{
   Kurier -- (Erfassung der Daten)
-  Kurier -- (Transport der Sendung\n__foo1__\n--foo2--\n==foo3==\nEP: Quittung gewunscht)
+  Kurier -- (Transport der Sendung%n()__foo1__%n()--foo2--%n()==foo3==%n()EP: Quittung gewunscht)
   Empfanger -- (Personliche Ubergabe und Quittierung)
-(Transport der Sendung\n----\ndummy\n====\nEP: Quittung gewunscht) .> (Automatische Rechnungserstellung) : <include>
-note "condition: {Quittung gewunscht ist wahr}\nEP: Quittung gewunscht" as N
+(Transport der Sendung%n()----%n()dummy%n()====%n()EP: Quittung gewunscht) .> (Automatische Rechnungserstellung) : <include>
+note "condition: {Quittung gewunscht ist wahr}%n()EP: Quittung gewunscht" as N
 (Personliche Ubergabe und Quittierung) ... N
 N.> (Transport der Sendung) : <extend>
 }

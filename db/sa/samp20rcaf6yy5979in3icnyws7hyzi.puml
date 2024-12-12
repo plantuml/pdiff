@@ -15,6 +15,6 @@ Collection <|-- AbstractCollection
 enum TimeUnit
 
 rightfooter this is a footer
-right header this is a long\n<b>header</b>
+right header this is a long%n()<b>header</b>
 
 @enduml

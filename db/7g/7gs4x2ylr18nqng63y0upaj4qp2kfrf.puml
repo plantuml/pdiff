@@ -8,6 +8,6 @@
 }
 @startuml
 skinparam stateMessageAlignment left
-[*] --> State : This is a label\nover multiple lines
+[*] --> State : This is a label%n()over multiple lines
 
 @enduml

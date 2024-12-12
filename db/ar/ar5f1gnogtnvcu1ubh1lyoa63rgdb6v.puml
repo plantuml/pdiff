@@ -16,12 +16,12 @@ skinparam conditionStyle diamond
 title conditionallyMoveSalary
 start
 floating note: 
-:inputs: period, destPeriod, highestQuality\n'period' is the 'general regime' period\n'destPeriod' is the matching period of 'highestQuality';<<task>>
+:inputs: period, destPeriod, highestQuality%n()'period' is the 'general regime' period%n()'destPeriod' is the matching period of 'highestQuality';<<task>>
 if (highestQuality IN (PILOT, FLIGHT_ATTENDANT) ??) then ([yes])
 	if (period.quality == LABOURER ??) then ([no])
 		if () then ([year < 2012])
 			#7DC4FF:justify removal of period;
-			note: salary is ignored because\nit should be included in\nspecial contribution salary
+			note: salary is ignored because%n()it should be included in%n()special contribution salary
 		else ([year >= 2012])
 			:add salary from period to destPeriod;
 		endif
@@ -29,12 +29,12 @@ if (highestQuality IN (PILOT, FLIGHT_ATTENDANT) ??) then ([yes])
 	elseif () then ([period.salary > 0])
 	else ([period.salary == 0])
 		:remove period;
-		note: assimDays already moved\nto higher quality
+		note: assimDays already moved%n()to higher quality
 	endif
 else ([other highestQuality])
 	if (period.salary == 0 ??) then ([yes])
 		:remove period;
-		note: assimDays already moved\nto higher quality
+		note: assimDays already moved%n()to higher quality
 	else ([no])
 	endif
 endif

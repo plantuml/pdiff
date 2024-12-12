@@ -9,6 +9,6 @@
 @startuml
 state s1
 s1 : line1
-s1 : \nline2
-s1 : \n\nline3
+s1 : %n()line2
+s1 : %n()%n()line3
 @enduml

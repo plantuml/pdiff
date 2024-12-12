@@ -20,13 +20,13 @@ skinparam rectangle {
 
 hide stereotype
 
-rectangle "ICP Brasil\nAC-Raiz" as ACRaiz
-note left: Emite certificados ICP Brasil\nàs autoridades certificadoras de\nprimeiro nível.
+rectangle "ICP Brasil%n()AC-Raiz" as ACRaiz
+note left: Emite certificados ICP Brasil%n()às autoridades certificadoras de%n()primeiro nível.
 
 rectangle " " as SRFRet #EBE5D5;line:black;line.bold;text:blue {
-  rectangle "Sec. Rec.\nFederal" as SRF << white >>
-  rectangle "Autoridades\nCertificadoras\nSRF" as SRFCA << blue >>
-  rectangle "Autoridades\nde Registro\n(AR)" as SRFAR << orange >>
+  rectangle "Sec. Rec.%n()Federal" as SRF << white >>
+  rectangle "Autoridades%n()Certificadoras%n()SRF" as SRFCA << blue >>
+  rectangle "Autoridades%n()de Registro%n()(AR)" as SRFAR << orange >>
   rectangle "e-CPF" as SRFeCPF << green >>
   rectangle "e-CNPJ" as SRFeCNPJ << green >>
 }
@@ -45,37 +45,37 @@ end note
 rectangle "  " as ACRet #CCD4C9;line:black;line.bold;text:blue  {
   together {
     rectangle "Serasa" as Serasa << white >>
-    rectangle "Autoridades\nCertificadoras\nSerasa" as SerasaCA << blue >>
-    rectangle "Autoridades\nde Registro\n(AR)" as SerasaAR << orange >>
-    rectangle "Certificado\nDigital" as SerasaCert << green >>
+    rectangle "Autoridades%n()Certificadoras%n()Serasa" as SerasaCA << blue >>
+    rectangle "Autoridades%n()de Registro%n()(AR)" as SerasaAR << orange >>
+    rectangle "Certificado%n()Digital" as SerasaCert << green >>
   }
 
   together {
     rectangle "AC-Jus" as Jus << white >>
-    rectangle "Autoridades\nCertificadoras\nAC-Jus" as JusCA << blue >>
-    rectangle "Autoridades\nde Registro\n(AR)" as JusAR << orange >>
-    rectangle "Certificado\nDigital" as JusCert << green >>
+    rectangle "Autoridades%n()Certificadoras%n()AC-Jus" as JusCA << blue >>
+    rectangle "Autoridades%n()de Registro%n()(AR)" as JusAR << orange >>
+    rectangle "Certificado%n()Digital" as JusCert << green >>
   }
 
   together {
     rectangle "Serpro" as Serpro << white >>
-    rectangle "Autoridades\nCertificadoras\nAC-Serpro" as SerproCA << blue >>
-    rectangle "Autoridades\nde Registro\n(AR)" as SerproAR << orange >>
-    rectangle "Certificado\nDigital" as SerproCert << green >>
+    rectangle "Autoridades%n()Certificadoras%n()AC-Serpro" as SerproCA << blue >>
+    rectangle "Autoridades%n()de Registro%n()(AR)" as SerproAR << orange >>
+    rectangle "Certificado%n()Digital" as SerproCert << green >>
   }
 
   together {
     rectangle "CEF" as CEF << white >>
-    rectangle "Autoridades\nCertificadoras\nCEF" as CEFCA << blue >>
-    rectangle "Autoridades\nde Registro\n(AR)" as CEFAR << orange >>
-    rectangle "Certificado\nDigital" as CEFCert << green >>
+    rectangle "Autoridades%n()Certificadoras%n()CEF" as CEFCA << blue >>
+    rectangle "Autoridades%n()de Registro%n()(AR)" as CEFAR << orange >>
+    rectangle "Certificado%n()Digital" as CEFCert << green >>
   }
 
   together {
     rectangle "Certisign" as Certisign << white >>
-    rectangle "Autoridades\nCertificadoras\nCertisign" as CertisignCA << blue >>
-    rectangle "Autoridades\nde Registro\n(AR)" as CertisignAR << orange >>
-    rectangle "Certificado\nDigital" as CertisignCert << green >>
+    rectangle "Autoridades%n()Certificadoras%n()Certisign" as CertisignCA << blue >>
+    rectangle "Autoridades%n()de Registro%n()(AR)" as CertisignAR << orange >>
+    rectangle "Certificado%n()Digital" as CertisignCert << green >>
   }
 }
 note left of ACRet
@@ -99,15 +99,15 @@ end note
 
 rectangle "   " as PRRet #DBCE99;line:black;line.bold;text:blue {
   together {
-    rectangle "Presidência\nda\nRepública" as PR << white >>
-    rectangle "Autoridades\nde Registro\n(AR)" as PRAR << orange >>
-    rectangle "Certificado\nDigital" as PRCert << green >>
+    rectangle "Presidência%n()da%n()República" as PR << white >>
+    rectangle "Autoridades%n()de Registro%n()(AR)" as PRAR << orange >>
+    rectangle "Certificado%n()Digital" as PRCert << green >>
   }
 
   together {
     rectangle "Imesp" as IMESP << white >>
-    rectangle "Autoridades\nde Registro\n(AR)" as IMESPAR << orange >>
-    rectangle "Certificado\nDigital" as IMESPCert << green >>
+    rectangle "Autoridades%n()de Registro%n()(AR)" as IMESPAR << orange >>
+    rectangle "Certificado%n()Digital" as IMESPCert << green >>
   }
 }
 note left of PRRet

@@ -9,6 +9,6 @@
 @startuml
 !pragma teoz true
 a -> a ++: call
-a ->> b: an async message happens\nwithin the call
+a ->> b: an async message happens%n()within the call
 a -->> a --: return
 @enduml

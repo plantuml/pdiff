@@ -10,6 +10,6 @@
 skinparam tikzFont 0.8;4.5
 participant "I have a really" as A
 participant "long name" as B
-participant "I have a really\nlong name" as C
+participant "I have a really%n()long name" as C
 
 @enduml

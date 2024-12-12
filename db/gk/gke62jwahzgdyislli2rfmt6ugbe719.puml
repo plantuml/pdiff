@@ -34,12 +34,12 @@ class Object {
 !endprocedure
 
 component "C1" as C1 {
-        note "{{\nparticipant MyA as A\nA->>B: prepare\n}}\n" as detailsNote1  
+        note "{{%n()participant MyA as A%n()A->>B: prepare%n()}}%n()" as detailsNote1  
 }
 
    
 
-note "{{\nclass Object {\n name : token\n name : flag\n}\n}}\n" as detailsNote2
+note "{{%n()class Object {%n() name : token%n() name : flag%n()}%n()}}%n()" as detailsNote2
 $OBJ() 
 addNote(%retrieve_procedure("$OBJ"), note1)
 init_class("foo1")

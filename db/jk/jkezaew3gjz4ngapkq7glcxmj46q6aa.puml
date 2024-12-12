@@ -7,6 +7,6 @@
   }
 }
 @startuml
-A -> B: Message\n\
+A -> B: Message%n()\
 |_ Content 3
 @enduml

@@ -18,8 +18,8 @@ sprite $capability [16x16/4z] Ou03PZ10yC5CylZC280cHJ8V0w3Aayn71m
   }
 </style>
 
-rectangle "Standard\nrectangle" as R
+rectangle "Standard%n()rectangle" as R
 archimate #MOTIVATION "ArchiMate" as A <<motivation-driver>>
-rectangle #MOTIVATION "Custom\nrectangle #1" as P <<$archimate/driver>>
-rectangle #RED "Custom\nrectangle #2" as C <<$capability>> <<capability>>
+rectangle #MOTIVATION "Custom%n()rectangle #1" as P <<$archimate/driver>>
+rectangle #RED "Custom%n()rectangle #2" as C <<$capability>> <<capability>>
 @enduml

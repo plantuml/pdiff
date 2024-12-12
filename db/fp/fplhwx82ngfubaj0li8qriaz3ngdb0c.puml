@@ -7,12 +7,12 @@
 }
 @startuml
 start
-if(this\ntest\nis\nlong) then
+if(this%n()test%n()is%n()long) then
     :Activity1;
-elseif() then(I would like to write\na long text here\non several lines\nwithout getting over\nthe Activity box)
+elseif() then(I would like to write%n()a long text here%n()on several lines%n()without getting over%n()the Activity box)
     :Activity2;
     :Activity3;
-elseif() then(I would like to write\na long text here\non several lines\nwithout getting over\nthe Activity box)
+elseif() then(I would like to write%n()a long text here%n()on several lines%n()without getting over%n()the Activity box)
     :Activity4;
     :Activity5;
 else

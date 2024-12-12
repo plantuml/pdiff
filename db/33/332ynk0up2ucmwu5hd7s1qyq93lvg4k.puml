@@ -7,15 +7,15 @@
 }
 @startuml
 state STARTING {
-state "STARTING\nGAS" as sg
-state "STARTING\nTRAVEL" as st
-state "STARTING\nRAMP_UP" as sr
+state "STARTING%n()GAS" as sg
+state "STARTING%n()TRAVEL" as st
+state "STARTING%n()RAMP_UP" as sr
 }
 
 state STOPPING {
-state "STOPPING\nGAS" as xg
-state "STOPPING\nRAMP_DOWN" as xr
-state "STOPPING\nDONE" as xd
+state "STOPPING%n()GAS" as xg
+state "STOPPING%n()RAMP_DOWN" as xr
+state "STOPPING%n()DONE" as xd
 [*] -> xr
 }
 
@@ -31,7 +31,7 @@ sg -down[#blue]->sr
 st -right[#blue]->sg
 sr -down-> RUNNING
 RUNNING -down-> STOPPING
-RUNNING -> RUNNING : next\nsector
+RUNNING -> RUNNING : next%n()sector
 
 xd -up--> IDLE
 xr -down-> xg

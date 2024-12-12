@@ -17,7 +17,7 @@ tsgNKRfEFl2wkd_b1t-R3xpD_nPiDVdyA6GTpXXBTub_0G00
 }
 
 actor PlantUML
-usecase (map) as "You can click\n[[http://www.google.com]] <$maxime>"
-usecase (map2) as "You can click\n[[http://www.google.com <$maxime>]]"
+usecase (map) as "You can click%n()[[http://www.google.com]] <$maxime>"
+usecase (map2) as "You can click%n()[[http://www.google.com <$maxime>]]"
 PlantUML -> map : Thanks Maxime! <$maxime>
 @enduml

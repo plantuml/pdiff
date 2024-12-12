@@ -9,12 +9,12 @@
 @startuml
 skinparam defaultTextAlignment center
 start
-if (condition A \n or \n condition E) then (true)
+if (condition A %n() or %n() condition E) then (true)
 :do something;
 elseif (condition B)
 :do something else;
 endif
-if (condition C \n or \n condition F) then (true)
+if (condition C %n() or %n() condition F) then (true)
 :do something again;
 else (false)
 :do another thing;

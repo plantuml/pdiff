@@ -16,6 +16,6 @@ repeat
      split again
            :Something Else;
       end split
-repeat while(\nRepeat?\nYes=Down\nNo=Right\n)
+repeat while(%n()Repeat?%n()Yes=Down%n()No=Right%n())
 :something;
 @enduml

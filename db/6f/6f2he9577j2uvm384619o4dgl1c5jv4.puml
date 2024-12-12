@@ -8,10 +8,10 @@
 @startuml
 skinparam defaultTextAlignment center
 start
-if(long condition\nis\nlong) then
-  :Activity\nA;
+if(long condition%n()is%n()long) then
+  :Activity%n()A;
 else
-  :Activity\nB;
+  :Activity%n()B;
 endif
 stop
 @enduml

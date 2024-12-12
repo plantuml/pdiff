@@ -8,7 +8,7 @@
 }
 @startuml
 
-!t1="this is t1\nthis is t2\nthis is t3\n"
+!t1="this is t1%n()this is t2%n()this is t3%n()"
 
 while (data available?)
   :read data;

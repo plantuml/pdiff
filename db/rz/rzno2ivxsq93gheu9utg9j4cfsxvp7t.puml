@@ -8,7 +8,7 @@
 @startuml
 start
 :Hello;
-if (dummy\non\nseveral) then (foo)
+if (dummy%n()on%n()several) then (foo)
 stop
 endif
 :Other;

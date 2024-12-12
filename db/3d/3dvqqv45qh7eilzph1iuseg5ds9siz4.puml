@@ -8,7 +8,7 @@
 @startuml
 start
 partition CondCompile {
-if () then (SC_MSG_HOOK == 1\n&&SC_MSGRX_HOOK == 1)
+if () then (SC_MSG_HOOK == 1%n()&&SC_MSGRX_HOOK == 1)
   if () then (msgRxHook set )
     :call rxHook;
   endif

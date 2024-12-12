@@ -13,7 +13,7 @@ root {
 }
 </style>
 
-[Component\nABC]
+[Component%n()ABC]
 frame "Frame" {
   card Card
 }

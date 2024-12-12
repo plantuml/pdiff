@@ -12,7 +12,7 @@
 	and defined on several lines
 	that contains many <i>text</i>" as A1
 
--up-> "Another activity\n on several lines"
+-up-> "Another activity%n() on several lines"
 
 A1 --> "Short activity"
 

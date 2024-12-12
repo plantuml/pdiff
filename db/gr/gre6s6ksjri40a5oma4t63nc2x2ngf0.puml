@@ -16,23 +16,23 @@ skinparam shadowing false
 title adjustNormalRegimeToSpecialRegime
 start
 :sort consolidatedYears ASC;
-while (ITERATE consolidatedYears) is (\n[next <b>consolidatedYear</b>])
-  floating note right: iteration over sorted\nconsolidated years
+while (ITERATE consolidatedYears) is (%n()[next <b>consolidatedYear</b>])
+  floating note right: iteration over sorted%n()consolidated years
   :revision code in year?;
   if () then ([no])
-    :determine 'highestQuality' of\nall periods in consolidatedYear\n(also track 'general regime' working days);
-    :collect periods in consolidated year having quality\nIN (EMPLOYEE, LABOURER,  PENSION_INSURANCE)\nas generalRegimePeriods;
+    :determine 'highestQuality' of%n()all periods in consolidatedYear%n()(also track 'general regime' working days);
+    :collect periods in consolidated year having quality%n()IN (EMPLOYEE, LABOURER,  PENSION_INSURANCE)%n()as generalRegimePeriods;
     :sort generalRegimePeriods by periodStart ASC;
-    -> <U+0028>highestQuality in current year not 'general regime'\nAND no 'general regime' working days in current year<U+0029>\n    OR\n<U+0028>highestQuality in prior year not 'general regime'\nAND no 'general regime' working days in prior year<U+0029> ??;
+    -> <U+0028>highestQuality in current year not 'general regime'%n()AND no 'general regime' working days in current year<U+0029>%n()    OR%n()<U+0028>highestQuality in prior year not 'general regime'%n()AND no 'general regime' working days in prior year<U+0029> ??;
     if () then (yes)
-    while (ITERATE generalRegimePeriods) is (\n[next <b>generalPeriod</b>])
-      floating note right: iteration over\ngeneralRegimePeriods
-      while (ITERATE consolidatedYear periods) is (\n[next <b>period</b>])
-        floating note right: iteration over\nconsolidatedYear
-        :check if period/generalPeriod match on\n   <U+0028>periodStart, periodEnd, typeRegularisation<U+0029>\nAND period.qualityCode == highestQuality\nAND NOT period.militaryService;
+    while (ITERATE generalRegimePeriods) is (%n()[next <b>generalPeriod</b>])
+      floating note right: iteration over%n()generalRegimePeriods
+      while (ITERATE consolidatedYear periods) is (%n()[next <b>period</b>])
+        floating note right: iteration over%n()consolidatedYear
+        :check if period/generalPeriod match on%n()   <U+0028>periodStart, periodEnd, typeRegularisation<U+0029>%n()AND period.qualityCode == highestQuality%n()AND NOT period.militaryService;
         if () then (yes)
-          :copy <U+0028>nettoAssimilatedDays,\n   daysRightsPreservationNoBenefits,\n   daysRightsPreservationWithBenefits,\n   daysForAnticipation<U+0029>\nfrom generalPeriod to period\nthen zero on generalPeriod;
-          -> highestQuality IN <U+0028>SURFACE_MINER, DEEP_MINER<U+0029>\nOR <U+0028>highestQuality IN <U+0028>PILOT, FLIGHT_ATTENDANT<U+0029>\n       AND <U+0028>careerYear.year < 2012\n               OR birthYear < 1957<U+0029><U+0029> ??;
+          :copy <U+0028>nettoAssimilatedDays,%n()   daysRightsPreservationNoBenefits,%n()   daysRightsPreservationWithBenefits,%n()   daysForAnticipation<U+0029>%n()from generalPeriod to period%n()then zero on generalPeriod;
+          -> highestQuality IN <U+0028>SURFACE_MINER, DEEP_MINER<U+0029>%n()OR <U+0028>highestQuality IN <U+0028>PILOT, FLIGHT_ATTENDANT<U+0029>%n()       AND <U+0028>careerYear.year < 2012%n()               OR birthYear < 1957<U+0029><U+0029> ??;
           if () then ([false])
             :;
           else ([true])

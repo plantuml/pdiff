@@ -16,8 +16,8 @@ stateDiagram {
   }
 }
 </style>
-state "a\na a\na a a" as a
-state "b\nb b" as b {
+state "a%n()a a%n()a a a" as a
+state "b%n()b b" as b {
 state c
 }
 @enduml

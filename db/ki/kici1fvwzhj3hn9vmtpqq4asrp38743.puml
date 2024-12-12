@@ -69,7 +69,7 @@ if ( result) then (succeeded)
         else (no)
             :Set status to 2;
             |G|
-            :Set status\nfrom 1 to 2;
+            :Set status%n()from 1 to 2;
         endif
     }
     |O|
@@ -90,7 +90,7 @@ if ( result) then (succeeded)
         else (No)
         endif
     endif
-else (cancelled\ndenied)
+else (cancelled%n()denied)
     |P|
     :Set status to 3]
 endif

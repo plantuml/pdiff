@@ -9,5 +9,5 @@
 @startebnf
 title Test on comments
 
-(*a*) test_above_below_first (*b*) = (*this is a comment\nabove z*) z (*this is a comment\nbelow z*);
+(*a*) test_above_below_first (*b*) = (*this is a comment%n()above z*) z (*this is a comment%n()below z*);
 @endebnf

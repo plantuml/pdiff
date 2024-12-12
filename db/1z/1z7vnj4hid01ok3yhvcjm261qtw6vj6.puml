@@ -11,6 +11,6 @@ skinparam defaultTextAlignment center
 skinparam noteTextAlignment left
 start
 :Test;
-floating note left: Hello World!\nHow are you today and what are you doing?
+floating note left: Hello World!%n()How are you today and what are you doing?
 stop
 @enduml

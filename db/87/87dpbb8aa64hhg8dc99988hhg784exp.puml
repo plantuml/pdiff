@@ -10,7 +10,7 @@ database "DB 1 <&file>" as Db1
 database "DB 2" <<&file>> as Db2
 database "DB 3" << <&file> >> as Db3
 database "DB 4 <&file>" as Db4_valid
-database "<&file>\nDB 4" as Db4
+database "<&file>%n()DB 4" as Db4
 database "DB 5" <<$SpriteUsb>> as Db5
 
 sprite $SpriteUsb [32x32/16] {

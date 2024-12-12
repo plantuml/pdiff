@@ -8,16 +8,16 @@
 }
 @startwbs 
 + root
- + level 1\nright\nwrong upper link
-  + level 2\nright right
-   + level 3\nright right right
-   - level 3\nright right left
-  - level 2\nright left
-   + level 3\nright left right
-    + level 4\nright left right right
-    - level 4\nright left right left
-   - level 3\nright left left
-    + level 4\nright left right right
-    - level 4\nright left right left
- - level 1\nleft\nThis is missing
+ + level 1%n()right%n()wrong upper link
+  + level 2%n()right right
+   + level 3%n()right right right
+   - level 3%n()right right left
+  - level 2%n()right left
+   + level 3%n()right left right
+    + level 4%n()right left right right
+    - level 4%n()right left right left
+   - level 3%n()right left left
+    + level 4%n()right left right right
+    - level 4%n()right left right left
+ - level 1%n()left%n()This is missing
 @endwbs

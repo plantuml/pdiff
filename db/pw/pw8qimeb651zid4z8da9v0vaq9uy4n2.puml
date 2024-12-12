@@ -18,6 +18,6 @@ My.Namespace.Person : boolean IsBirthday()
 My.Namespace.Meeting : guid OID
 My.Namespace.Meeting : guid PersonID
 
-My.Namespace.Person "1" *-- "many" My.Namespace.Meeting : <b>Person-Meeting</b>\nMeetings/Person\nFk=Meeting.PersonID
+My.Namespace.Person "1" *-- "many" My.Namespace.Meeting : <b>Person-Meeting</b>%n()Meetings/Person%n()Fk=Meeting.PersonID
 
 @enduml

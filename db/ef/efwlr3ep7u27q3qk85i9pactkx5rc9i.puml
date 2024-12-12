@@ -48,5 +48,5 @@ end group
 Caroline->Bob: Some text about a message
 deactivate Bob
 
-center footer Confidential\n%date[HH:MM '-' dd.MM.yyyy]%\n%filename%
+center footer Confidential%n()%date[HH:MM '-' dd.MM.yyyy]%%n()%filename%
 @enduml

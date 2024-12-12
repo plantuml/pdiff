@@ -17,7 +17,7 @@ uV7KGPNO2lya17gz1pMiD1VmFNH9IBLNe3xA3q07eNsMy_WdXESwU4jRmddEk-FUuPFjjthiqAEGVUz8
 
 !unquoted procedure $ffoo5($alias, $description="", $label="", $technology="", $scale=1, $colour="red")
 
-rectangle "<<$alias>>\n==$label\n<color:$colour><$Batch*$scale></color>\n//<size:12>[$technology]</size>//\n\n  $description 5" as 5
+rectangle "<<$alias>>%n()==$label%n()<color:$colour><$Batch*$scale></color>%n()//<size:12>[$technology]</size>//%n()%n()  $description 5" as 5
 
 
 !endprocedure

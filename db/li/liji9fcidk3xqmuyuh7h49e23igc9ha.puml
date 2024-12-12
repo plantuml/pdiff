@@ -6,6 +6,6 @@
   }
 }
 @startuml
-Bob -> Alice : default\non two different lines
+Bob -> Alice : default%n()on two different lines
 Bob -> Alice : very very long message
 @enduml

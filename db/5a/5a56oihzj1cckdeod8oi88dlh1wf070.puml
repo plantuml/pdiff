@@ -7,7 +7,7 @@
   }
 }
 @startuml
-card "Foo\nx\n----\n* y" as Foo {
+card "Foo%n()x%n()----%n()* y" as Foo {
   card Bar
 }
 @enduml

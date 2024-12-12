@@ -27,5 +27,5 @@ F222222222222F00
 0000000000000000
 }
 !include <archimate/Archimate>
-archimate #LightGreen "                 <$strategy-resource>\n\nSocial Media\n Competency" as SMC <<strategy-resource>>
+archimate #LightGreen "                 <$strategy-resource>%n()%n()Social Media%n() Competency" as SMC <<strategy-resource>>
 @enduml

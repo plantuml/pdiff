@@ -7,5 +7,5 @@
   }
 }
 @startuml
-rectangle "p-name\n\n**Post Entry**\n""<div class="h-entry">..</div>"""
+rectangle "p-name%n()%n()**Post Entry**%n()""<div class="h-entry">..</div>"""
 @enduml

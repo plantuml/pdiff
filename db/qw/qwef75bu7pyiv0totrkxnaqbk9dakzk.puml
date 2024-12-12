@@ -13,7 +13,7 @@ usecase usecase
 person p1
 person "==P2" as p2
 person "==P3 with a long name" as p3
-person "==P4\na\nb\nc\nd\e" as p4
+person "==P4%n()a%n()b%n()c%n()d%backslash()e" as p4
 
 p1 --> usecase
 p2 --> usecase

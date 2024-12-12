@@ -16,7 +16,7 @@ activityDiagram {
   }
 }
 </style>
-if (a\na a\na a a?) is (red) then
+if (a%n()a a%n()a a a?) is (red) then
 :print red;
 else 
 :print not red;

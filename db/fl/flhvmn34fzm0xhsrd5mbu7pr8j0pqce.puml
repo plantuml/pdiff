@@ -13,6 +13,6 @@
 from -\ to [[ http:DOCUMENTATION_SERVER/public_protocols/protocol.DOC_EXTENSION ]] : protocol<b>:</b>message
 !enddefinelong
 
-SEND(Alice,Bob,LDAP,lookup(<b>aaaaaa</b>=3567;\n  bbbbb=42))
+SEND(Alice,Bob,LDAP,lookup(<b>aaaaaa</b>=3567;%n()  bbbbb=42))
 
 @enduml

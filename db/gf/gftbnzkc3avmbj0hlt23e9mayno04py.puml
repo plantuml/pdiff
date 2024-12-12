@@ -8,7 +8,7 @@
 }
 @startuml
 skinparam BackgroundColor transparent
-title Test **KO** BackgroundColor **transparent**\n and Shadowing for some empty group
+title Test **KO** BackgroundColor **transparent**%n() and Shadowing for some empty group
 database database1
 database database_ko {
 }

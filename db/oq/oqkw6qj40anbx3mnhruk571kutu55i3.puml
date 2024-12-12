@@ -15,5 +15,5 @@ a->b
     BackGroundColor green
   }
 </style>
-note over a: note\nover a
+note over a: note%n()over a
 @enduml

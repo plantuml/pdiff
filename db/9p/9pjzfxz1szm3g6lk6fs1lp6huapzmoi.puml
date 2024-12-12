@@ -51,7 +51,7 @@ else
     :Add Personal account to top of account list;
   endif
   repeat
-    if (Prompt user with account list) then (timeout\nor logout)
+    if (Prompt user with account list) then (timeout%n()or logout)
       stop
     elseif (User selects specific account) then
       :Note charging to specific account;
@@ -73,7 +73,7 @@ else
           stop
         endif
       repeat while (Match search string against account list) is (empty)
-      if (Count Search resuslt) then  (Only one matching\naccound found)
+      if (Count Search resuslt) then  (Only one matching%n()accound found)
         :Note charging to specific shared account;
         :continue;
         detach

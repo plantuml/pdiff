@@ -8,7 +8,7 @@
 @startuml
 autonumber "<font color=red>[000]</font>"
 
-Bob -> Alice : hello1\nthis\nmessage
+Bob -> Alice : hello1%n()this%n()message
 Bob -> Alice : hello2
 
 @enduml

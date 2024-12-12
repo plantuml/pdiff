@@ -9,6 +9,6 @@
 class A
 class B
 
-A --> B : ab >\ncd <\n< ef\n> gh
+A --> B : ab >%n()cd <%n()< ef%n()> gh
 
 @enduml

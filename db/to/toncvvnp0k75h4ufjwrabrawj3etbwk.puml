@@ -47,7 +47,7 @@ partition "Not always" {
 	switch (Test a variable)
 		case (case 1)
 		case (case 2)
-		case (case\n it \nbreaks)
+		case (case%n() it %n()breaks)
 			:What if this is wider?; <<load>>
 	endswitch
 	:Also on the right!;
@@ -59,7 +59,7 @@ partition "Not always" {
 	end note
 }
 
-partition "Comments\nhidden" {
+partition "Comments%n()hidden" {
     note
         I suppose this is something
         that happen by design, but
@@ -75,13 +75,13 @@ partition "Comments\nhidden" {
 	endswitch
 }
 
-partition "Miscalculated upper\nmargin or padding" {
+partition "Miscalculated upper%n()margin or padding" {
 	switch (Test a variable)
-		case (This is a multiple\nline and long text\narrow comment)
+		case (This is a multiple%n()line and long text%n()arrow comment)
 			:Option One; <<load>>
-		case (This is another multiple\nline and long text\narrow comment)
-			:Multiple\nline option Two; <<load>>
-		case (else\nwith \three \nlines)
+		case (This is another multiple%n()line and long text%n()arrow comment)
+			:Multiple%n()line option Two; <<load>>
+		case (else%n()with %tab()three %n()lines)
 			:In else case...; <<load>>
 	endswitch
 }

@@ -14,7 +14,7 @@ scale 1.2
 !define GENERATION_DATE %date[dd.MM.yyyy HH:mm]%
 header last-updated GENERATION_DATE 
 
-left footer \n\nauthored by USER_NAME
+left footer %n()%n()authored by USER_NAME
 
 skinparam sequenceMessageAlign reversedirection
 skinparam defaultTextAlignment center

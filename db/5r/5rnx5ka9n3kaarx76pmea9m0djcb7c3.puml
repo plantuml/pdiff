@@ -30,7 +30,7 @@ PCN#, GPA#, from Control Systems;
 end split
 |REL|
 split again
-:Send email Request\nCR# from Control Systems;
+:Send email Request%n()CR# from Control Systems;
 |#Tan|ControlSystemsEngineer|
 :Respond to email with CR#;
 end split

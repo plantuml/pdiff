@@ -6,10 +6,10 @@
   }
 }
 @startuml
-participant "Bob on\nseveral lines" as Bob
+participant "Bob on%n()several lines" as Bob
 actor Alice
 
 Bob -> Alice : hello
 
-Alice -> Bob : Is it ok\nwith a message that is\non several lines?
+Alice -> Bob : Is it ok%n()with a message that is%n()on several lines?
 @enduml

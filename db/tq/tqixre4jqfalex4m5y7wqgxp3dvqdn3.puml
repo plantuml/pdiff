@@ -19,7 +19,7 @@ activityDiagram {
 switch (Long long long long condition? )
 case (Long long long long long long long long long case 1)
    :Long long long long long long long long long  1;
-case (<b><color:red>Long long long\nlong long long long long long case 2)
+case (<b><color:red>Long long long%n()long long long long long long case 2)
    :Long long long long long long long long long  2;
 case (Long long long long long long long long long case 3)
    :Long long long long long long long long long  3;

@@ -17,6 +17,6 @@ start
 : bar
   bar
   bar; <<procedure>>
-: xox\nxox\nxox; <<procedure>>
+: xox%n()xox%n()xox; <<procedure>>
 stop
 @enduml

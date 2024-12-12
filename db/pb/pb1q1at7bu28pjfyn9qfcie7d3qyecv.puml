@@ -11,7 +11,7 @@ class foo1
 class foo2
 foo1 <--> foo2 : short label
 
-foo "1" --> "*" bar : this label is very\nlong and has an impact\non the layout
+foo "1" --> "*" bar : this label is very%n()long and has an impact%n()on the layout
 foo "foo" --> "bar" bar2 : hello
 
 @enduml

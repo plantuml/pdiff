@@ -29,20 +29,20 @@ package "Enterprise Package2" {
 comp2 -> iface4 : oldapi
 [Crashy Backref] -> iface4 : pretty stuff
 
-comp2 --> iface5 : stuff\nstuff\nstuff
+comp2 --> iface5 : stuff%n()stuff%n()stuff
 note right of comp2
 we do stuff
 end note
 note bottom of iface4
 stuff gets done OOB
 end note
-comp1 --> comp2 : <b>ALL</b> the\nstuff
+comp1 --> comp2 : <b>ALL</b> the%n()stuff
 comp2 --> JSON : phase 1
 comp2 --> iface1 : phase 4
 comp2 --> iface2 : phase 3
 comp2 --> iface3 : phase 2
 
-note bottom of JSON : initial call will return\n<b>MORE STUFF</b>
+note bottom of JSON : initial call will return%n()<b>MORE STUFF</b>
 
 [Crashy Backref] -> iface5 : lulz ensue
 }

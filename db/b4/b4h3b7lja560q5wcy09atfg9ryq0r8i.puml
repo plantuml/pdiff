@@ -7,5 +7,5 @@
 }
 @startuml
 scale 0.8
-class "LCL_ITERATOR\n(YAJ_UML_CLASS_DECOR_PLANT)" as LCL_ITERATOR
+class "LCL_ITERATOR%n()(YAJ_UML_CLASS_DECOR_PLANT)" as LCL_ITERATOR
 @enduml

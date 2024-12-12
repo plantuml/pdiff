@@ -37,6 +37,6 @@ class {
     class HashMap<Long,Customer>
 
     Map <|.. HashMap
-    Shop [customerId: long] ---> "customer\n1" Customer : foo1
+    Shop [customerId: long] ---> "customer%n()1" Customer : foo1
     HashMap [id] -r-> "value" Customer : foo2
 @enduml

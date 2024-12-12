@@ -15,5 +15,5 @@ sequenceDiagram {
   }
 }
 </style>
-ref over Alice, Bob : this is a reference\n(normal style)
+ref over Alice, Bob : this is a reference%n()(normal style)
 @enduml

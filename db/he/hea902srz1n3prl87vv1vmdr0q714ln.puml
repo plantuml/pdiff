@@ -8,5 +8,5 @@
 }
 @startuml
 [*] --> one
-one: \t<sup>1</sup>
+one: %tab()<sup>1</sup>
 @enduml

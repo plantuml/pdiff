@@ -12,6 +12,6 @@ participant Bob
 participant Alice
 Bob -> Alice : Hello
 activate Alice
-note over Alice : Decides not\nto answer
+note over Alice : Decides not%n()to answer
 deactivate Alice
 @enduml

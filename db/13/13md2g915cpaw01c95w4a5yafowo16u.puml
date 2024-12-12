@@ -14,8 +14,8 @@ skinparam {
 handwritten true 
 shadowing true
 }
-participant "\n" as 1
-participant "PROG\nZZ_HELLO_WORLD" as 2
+participant "%n()" as 1
+participant "PROG%n()ZZ_HELLO_WORLD" as 2
 1 -> 1: 
 activate 1
 1 -> 2:  ZZ_HELLO_WORLD

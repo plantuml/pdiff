@@ -10,19 +10,19 @@
 !pragma teoz true
 == Bad I ==
 A -> B ++		: ping   
-note right: Lifeline extends\n past message
+note right: Lifeline extends%n() past message
 B -->? : log
 & B -> A --		: pong
 == Bad II ==
 A -> B 			: ping   
 Activate B
-note right: equally broken\nwithout --/++ notation
+note right: equally broken%n()without --/++ notation
 B -->? : log
 & B -> A 		: pong
 Deactivate B
 == Good ==
 A -> B ++		: ping
-note right: but not perfect:\n"log" too close\n to lifeline  
+note right: but not perfect:%n()"log" too close%n() to lifeline  
 B -> A --		: pong
 & B -->? : log
 == Best ==

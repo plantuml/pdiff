@@ -8,16 +8,16 @@
 }
 @startuml
 start
--> Test 1\t\tTest tabulation 1;
-:Test 2\t\tTest tabulation 2;
+-> Test 1%tab()%tab()Test tabulation 1;
+:Test 2%tab()%tab()Test tabulation 2;
 -> Test 4;
 :Test 5;
 -> Test 6;
 :Test 7;
 legend right
 **Caption :**
-Test legend\t\tTest tabulation 3
-Test legend 2\t\tTest tabulation 4
+Test legend%tab()%tab()Test tabulation 3
+Test legend 2%tab()%tab()Test tabulation 4
 endlegend
 stop
 @enduml

@@ -10,7 +10,7 @@ set separator none
 state "NASREQ auth session" as nasreq_auth {
     nasreq_auth: exit / free_session()
 
-    nasreq_auth --> [*]: Rcv-STR / remove_session(),\nsnd_sta()
+    nasreq_auth --> [*]: Rcv-STR / remove_session(),%n()snd_sta()
 
     [*] --> AA: / set_request_types(both)
     State AA <<O-O>>
@@ -23,7 +23,7 @@ state "NASREQ auth session" as nasreq_auth {
     state Idle {
             Idle: entry / set_timeout(closest)
     }
-    Idle --> AA: Rcv-AAR {stay} /\nset_request_types(by_aar)
+    Idle --> AA: Rcv-AAR {stay} /%n()set_request_types(by_aar)
     Idle --> Reanimate: Timeout [may_continue()]
     Idle -left-> Closing: Timeout [default]
     state Reanimate {
@@ -50,7 +50,7 @@ state "NASREQ auth session" as nasreq_auth {
                     wait_asa: Rcv-AAR / snd_error_aaa()
                     wait_asa: Rcv-Any / defer
             }
-            wait_asa --> next_try: Rcv-ASA [UNABLE_TO_COMPLY], \nTimeout
+            wait_asa --> next_try: Rcv-ASA [UNABLE_TO_COMPLY], %n()Timeout
             wait_asa --> [*]: Rcv-ASA [default]
             state next_try {
                     next_try: entry / set_timeout()

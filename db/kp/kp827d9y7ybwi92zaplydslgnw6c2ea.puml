@@ -10,7 +10,7 @@
 skinparam lengthAdjust none
 autonumber "<b>[000]"
 participant BusFMS as "FMS CAN"
-participant FMSSrv as "FMStoIP\nserivce"
+participant FMSSrv as "FMStoIP%n()serivce"
 collections clients
 clients -> FMSSrv: C1 addpng(P1,ES)
 hnote over clients: dt max 1s

@@ -8,7 +8,7 @@
 }
 @startuml
 !pragma layout smetana
-state A as "A on several lines\nwith\na lot of text" {
+state A as "A on several lines%n()with%n()a lot of text" {
   X : aaa
 }
 state B {

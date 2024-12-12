@@ -17,7 +17,7 @@ uV7KGPNO2lya17gz1pMiD1VmFNH9IBLNe3xA3q07eNsMy_WdXESwU4jRmddEk-FUuPFjjthiqAEGVUz8
 }
 
 !procedure $SpritePass2($MySprite)
-rectangle "<$MySprite>\n2" as 2
+rectangle "<$MySprite>%n()2" as 2
 !endprocedure
 
 $SpritePass2("$Batch")

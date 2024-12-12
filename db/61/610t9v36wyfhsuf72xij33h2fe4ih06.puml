@@ -17,17 +17,17 @@ skinparam class {
 
 hide circle
 
-class "User\n(User in our system)" as user {
+class "User%n()(User in our system)" as user {
     <size:12><&key></size> id INTEGER
     username VARCHAR[32]
     password VARCHAR[64]
 }
 
-class "Session\n(session for user)" as session {
+class "Session%n()(session for user)" as session {
     <size:12><&key></size> id INTEGER
     user_id INTEGER
 }
 
-user ||--|{ session : "A user may have\n many sessions"
+user ||--|{ session : "A user may have%n() many sessions"
 
 @enduml

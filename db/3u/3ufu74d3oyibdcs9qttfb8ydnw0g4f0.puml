@@ -9,5 +9,5 @@
 skinparam style strictuml
 skinparam genericDisplay old
 hide empty members
-class "coursGroupe:\nArrayList<CoursGroupe>" as g 
+class "coursGroupe:%n()ArrayList<CoursGroupe>" as g 
 @enduml
