@@ -1,0 +1,14 @@
+{
+  "sha1": "ttlm1eca9ix8m11ip84rq60f9592wjs",
+  "insertion": {
+    "when": "2025-01-18T10:41:59.730Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2036",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+!option language de
+!option useDescriptiveNames true
+
+\b\B\d\D\w\W\s\S
+@endregex
