@@ -1,0 +1,13 @@
+{
+  "sha1": "93ivaw0lj7ame9f3xbft6bljtqz4ma6",
+  "insertion": {
+    "when": "2025-01-20T17:59:49.021Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2036",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startregex
+!option foo bar
+
+\b\B\d\D\w\W\s\S
+@endregex
