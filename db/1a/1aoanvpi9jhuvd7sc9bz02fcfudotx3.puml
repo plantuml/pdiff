@@ -1,0 +1,15 @@
+{
+  "sha1": "1aoanvpi9jhuvd7sc9bz02fcfudotx3",
+  "insertion": {
+    "when": "2025-01-23T23:13:50.705Z",
+    "url": "https://plantuml.com/newline",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+!pragma showDeprecation true
+
+Alice -> Bob : hello%n()you
+
+@enduml

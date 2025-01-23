@@ -1,0 +1,30 @@
+{
+  "sha1": "dfx3b2e13y8pazgrbpbh07u81dllgjj",
+  "insertion": {
+    "when": "2025-01-23T23:13:50.746Z",
+    "url": "https://plantuml.com/newline",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+Bob -> Alice : 1 "XXX + %newline() + XXX"
+
+!$mixed0 = "XXX + %newline() + XXX"
+Bob -> Alice : 2 $mixed0
+
+!$mixed1 = "XXX" + %newline() + "XXX"
+Bob -> Alice : 3 $mixed1
+
+!function combined0()
+  !return "XXX + %newline()+ XXX"
+!endfunction
+
+!function combined1()
+  !return "XXX" + %newline() + "XXX"
+!endfunction
+
+Bob -> Alice : 4 combined0()
+
+Bob -> Alice : 5 combined1()
+
+@enduml

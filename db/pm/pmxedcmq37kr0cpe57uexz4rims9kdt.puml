@@ -1,0 +1,35 @@
+{
+  "sha1": "pmxedcmq37kr0cpe57uexz4rims9kdt",
+  "insertion": {
+    "when": "2025-01-23T23:13:50.743Z",
+    "url": "https://plantuml.com/newline",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!function $multipleM()
+  !return "MMM"
+!endfunction
+
+
+Bob -> Alice : 1 "XXX + $multipleM() + XXX"
+
+!$mixed0 = "XXX + $multipleM() + XXX"
+Bob -> Alice : 2 $mixed0
+
+!$mixed1 = "XXX" + $multipleM() + "XXX"
+Bob -> Alice : 3 $mixed1
+
+!function combined0()
+  !return "XXX + $multipleM()+ XXX"
+!endfunction
+
+!function combined1()
+  !return "XXX" + $multipleM() + "XXX"
+!endfunction
+
+Bob -> Alice : 4 combined0()
+
+Bob -> Alice : 5 combined1()
+
+@enduml
