@@ -1,0 +1,15 @@
+{
+  "sha1": "cpvsnv4f1ujr1mwobyyo6i4jyikxrbi",
+  "insertion": {
+    "when": "2025-01-25T10:42:16.378Z",
+    "url": "https://forum.plantuml.net/15788/where-can-i-find-the-archimate-sprites?show=15788",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam Shadowing false
+skinparam monochrome true
+!include <archimate/Archimate>
+
+archimate #LightGreen "Social Media%n() Competency" as SMC <<strategy-resource>>
+@enduml

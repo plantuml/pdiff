@@ -1,0 +1,17 @@
+{
+  "sha1": "37cep03howtdxort1g14xtl3r6yk41i",
+  "insertion": {
+    "when": "2025-01-25T10:42:16.384Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+' Adapted from https://forum.plantuml.net/18126/multi-line-creole-tables-broken-activity-diagrams-since-2023
+:| Creole1 Table \\n multi-line1| a |\n| Line2| b |;
+:
+| Creole2 Table \n multi-line1| a |
+| Line2| b |;
+:
+| Creole3 Table %newline() multi-line1| a |
+| Line2| b |;
+@enduml
