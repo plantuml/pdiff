@@ -1,0 +1,20 @@
+{
+  "sha1": "ror186ea3hc5y5iq2g084ykyit6ko3c",
+  "insertion": {
+    "when": "2025-02-04T21:11:30.620Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2061#issuecomment-2631288140",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+boxless {
+  FontColor darkgreen
+  FontSize 30
+}
+</style>
+*_ root
+** a1
+***_ a22
+**_ b1
+@endwbs

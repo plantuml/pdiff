@@ -1,0 +1,22 @@
+{
+  "sha1": "4p4zh207nwspi4qt4fwk9guq51dzvt",
+  "insertion": {
+    "when": "2025-02-04T21:11:30.583Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2061#issuecomment-2631288140",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+<style>
+mindmapDiagram {
+    boxless {
+        FontColor darkgreen
+        FontSize 30
+    }
+}
+</style>
+*_ root
+** a1
+***_ a21
+**_ b1
+@endmindmap
