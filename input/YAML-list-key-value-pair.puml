@@ -1,0 +1,6 @@
+https://github.com/plantuml/plantuml/issues/708
+@startyaml
+- DATA
+- 
+  data: value
+@endyaml
