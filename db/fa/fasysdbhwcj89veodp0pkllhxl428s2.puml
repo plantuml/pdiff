@@ -1,0 +1,13 @@
+{
+  "sha1": "fasysdbhwcj89veodp0pkllhxl428s2",
+  "insertion": {
+    "when": "2025-02-19T21:27:27.454Z",
+    "url": "https://github.com/plantuml/plantuml/issues/708",
+    "user": "The-Lum"
+  }
+}
+@startyaml
+- DATA
+- 
+  data: value
+@endyaml

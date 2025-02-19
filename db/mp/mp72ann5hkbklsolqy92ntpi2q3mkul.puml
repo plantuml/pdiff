@@ -1,0 +1,16 @@
+{
+  "sha1": "mp72ann5hkbklsolqy92ntpi2q3mkul",
+  "insertion": {
+    "when": "2025-02-19T21:27:27.452Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1409",
+    "user": "The-Lum"
+  }
+}
+@startyaml
+top:
+- a: 1
+  b: 2
+  rest:
+    - c
+    - d: 4
+@endyaml

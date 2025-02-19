@@ -1,0 +1,14 @@
+{
+  "sha1": "70ffx5brdb4ncq7hqyzau4qs9y4sshd",
+  "insertion": {
+    "when": "2025-02-19T21:27:27.416Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1409",
+    "user": "The-Lum"
+  }
+}
+@startyaml
+- hosts: webservers
+  vars:
+    http_port: 80
+    max_clients: 200
+@endyaml
