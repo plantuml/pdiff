@@ -1,0 +1,17 @@
+https://github.com/plantuml/plantuml/issues/1409
+@startyaml
+- hosts: webservers
+  vars:
+    http_port: 80
+    max_clients: 200
+@endyaml
+
+https://github.com/plantuml/plantuml/issues/1409
+@startyaml
+top:
+- a: 1
+  b: 2
+  rest:
+    - c
+    - d: 4
+@endyaml
