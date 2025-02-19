@@ -1,0 +1,8 @@
+https://github.com/plantuml/plantuml/issues/1876
+@startyaml
+first: x
+second:
+- 1
+third:
+- name: x
+@endyaml
