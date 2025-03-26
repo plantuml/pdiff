@@ -1,0 +1,37 @@
+https://github.com/plantuml/plantuml/issues/340
+@startuml
+<style>
+rnote {
+  BackgroundColor #101010
+  FontColor #FAFAFA
+}
+hnote {
+  BackgroundColor #3333CC
+  FontColor #FAFAFA
+}
+</style>
+
+actor -> director
+
+rnote left of actor: "field1 = valA"
+hnote left of actor: "blue note"
+note right of actor: is it clear for everyone ?
+@enduml
+
+https://github.com/plantuml/plantuml/issues/340
+@startuml
+skinparam rnote {
+  BackgroundColor #101010
+  FontColor #FAFAFA
+}
+skinparam hnote {
+  BackgroundColor #3333CC
+  FontColor #FAFAFA
+}
+
+actor -> director
+
+rnote left of actor: "field1 = valA"
+hnote left of actor: "blue note"
+note right of actor: is it clear for everyone ?
+@enduml
