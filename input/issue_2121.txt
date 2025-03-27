@@ -1,0 +1,9 @@
+https://github.com/plantuml/plantuml/issues/2121
+
+@startgantt
+project starts 2020/02/01
+[Milestone] happens 2020/02/05
+note bottom
+    This is a description of "Milestone"
+end note
+@endgantt
