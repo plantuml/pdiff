@@ -1,0 +1,44 @@
+name: Build Java Project
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: List root directory (debug)
+        run: ls -l
+
+      - name: Make Gradle executable
+        run: chmod +x ./gradlew
+
+      - name: List project directory (debug)
+        run: ls -l .
+
+      - name: Build with Gradle
+        run: ./gradlew clean build
+
+      - name: List build/libs directory (debug)
+        run: ls -l build/libs || echo "No JAR built"
+
+      - name: Upload JAR Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdiff-jar
+          path: build/libs/*.jar
