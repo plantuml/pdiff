@@ -49,9 +49,10 @@ jobs:
 
       - name: Move input and run insert
         run: |
+          ACTOR="${{ github.actor }}"
           mv input raw
-          java -jar build/libs/pdiff-all.jar insert -u plantuml@gmail.com
-
+          java -jar build/libs/pdiff-all.jar insert -u "$ACTOR"
+          
       - name: Setup Git
         run: |
           git config user.name "github-actions"
@@ -64,8 +65,12 @@ jobs:
           BRANCH_NAME="auto-branch-$(date +'%Y%m%d%H%M%S')"
           git checkout -b "$BRANCH_NAME"
           git add db/
-          git commit -m "Add generated files in /db"
-          git push origin "$BRANCH_NAME"
+          if git diff --cached --quiet; then
+            echo "No changes to commit. Skipping push."
+          else
+            git commit -m "Add generated files in /db"
+            git push origin "$BRANCH_NAME"
+          fi
           
       - name: Upload JAR Artifact
         uses: actions/upload-artifact@v4
