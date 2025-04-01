@@ -22,6 +22,16 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
+      - name: Cache Gradle dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            gradle-${{ runner.os }}-
+
       - name: List root directory (debug)
         run: ls -l
 
@@ -32,13 +42,15 @@ jobs:
         run: ls -l .
 
       - name: Build with Gradle
-        run: ./gradlew clean build
+        run: ./gradlew build --parallel --build-cache
 
       - name: List build/libs directory (debug)
         run: ls -l build/libs || echo "No JAR built"
 
-      - name: Run insert command
-        run: java -jar build/libs/pdiff-all.jar insert -u plantuml@gmail.com
+      - name: Move input and run insert
+        run: |
+          mv input raw
+          java -jar build/libs/pdiff-all.jar insert -u plantuml@gmail.com
 
       - name: Upload JAR Artifact
         uses: actions/upload-artifact@v4
