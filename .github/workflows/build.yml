@@ -3,10 +3,10 @@ name: Build Java Project
 on:
   push:
     branches:
-      - main
+      - 'input*'
   pull_request:
     branches:
-      - main
+      - 'input*'
 
 jobs:
   build:
@@ -50,6 +50,9 @@ jobs:
       - name: Move input and run insert
         run: |
           ACTOR="${{ github.actor }}"
+          if [ "$ACTOR" = "arnaudroques" ]; then
+            ACTOR="plantuml@gmail.com"
+          fi
           mv input raw
           java -jar build/libs/pdiff-all.jar insert -u "$ACTOR"
           
