@@ -1,0 +1,26 @@
+{
+  "sha1": "me73dvnvp10ys5pay96nyp4b9hx1rk0",
+  "insertion": {
+    "when": "2025-04-02T07:59:40.439Z",
+    "url": "https://github.com/plantuml/plantuml/issues/340",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+rnote {
+  BackgroundColor #101010
+  FontColor #FAFAFA
+}
+hnote {
+  BackgroundColor #3333CC
+  FontColor #FAFAFA
+}
+</style>
+
+actor -> director
+
+rnote left of actor: "field1 = valA"
+hnote left of actor: "blue note"
+note right of actor: is it clear for everyone ?
+@enduml
