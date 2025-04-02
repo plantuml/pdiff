@@ -1,0 +1,18 @@
+https://github.com/plantuml/plantuml/pull/2036
+
+@startregex  
+language de
+useDescriptiveNames true
+
+\b\B  
+@endregex  
+
+
+
+@startuml
+
+alice->bob: 123\n456789\lleft\nfin
+alice->bob: 123\n456789\rright\nfin
+
+@enduml
+
