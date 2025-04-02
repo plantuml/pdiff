@@ -16,6 +16,21 @@ The primary objectives of the `pdiff` utility are:
 - **Maintain an official collection of diagrams**: Serve as a repository for diagrams used in PlantUML non-regression testing.
 - **Compare output changes**: Analyze and highlight differences in diagram outputs across various PlantUML versions.
 
+## 🚀 CI Workflow
+
+The project includes an automated GitHub Actions workflow designed to simplify the integration of new diagrams:
+
+- **Create a branch** whose name starts with `input`.
+- **Push diagram files** into the `/input` folder of your branch (this can be done directly via the GitHub website).
+- **Automated processing**: the CI will automatically process these files, generate updated diagram data in the `/db` directory, and push the results into a new branch.
+- **Submit a pull request**: Merge the generated `/db` files back into the `main` branch through a pull request.
+
+### Advantages:
+- Simplifies the contribution process for new diagrams.
+- Automatically maintains and updates the official collection, ensuring consistency and accuracy.
+- Streamlines review and integration workflows through clearly defined CI-driven procedures.
+
+  
 ## 🧰 Requirements
 
 To use this utility, you need:
