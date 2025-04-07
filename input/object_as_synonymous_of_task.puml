@@ -1,0 +1,6 @@
+https://github.com/plantuml/plantuml/pull/2139
+@startuml
+:begin;
+:object2; <<object>>
+:end;
+@enduml
