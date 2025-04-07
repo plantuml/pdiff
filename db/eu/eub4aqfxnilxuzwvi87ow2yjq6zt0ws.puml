@@ -1,0 +1,18 @@
+{
+  "sha1": "eub4aqfxnilxuzwvi87ow2yjq6zt0ws",
+  "insertion": {
+    "when": "2025-04-07T07:45:05.059Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2098",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+Stereotype {
+  FontColor Green
+}
+</style>
+usecase "Usecase"<<styleStereoType>> as usecase1
+process "Process"<<styleStereoType>> as process1
+rectangle "Rectangle"<<styleStereoType>> as rectangle1
+@enduml
