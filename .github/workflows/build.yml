@@ -3,9 +3,11 @@ name: Build Java Project
 on:
   push:
     branches:
+      - main
       - 'input*'
   pull_request:
     branches:
+      - main
       - 'input*'
 
 jobs:
