@@ -1,0 +1,29 @@
+https://github.com/plantuml/plantuml/pull/2136
+
+@startuml
+<style>
+note {
+  BackgroundColor #0000ff
+  FontColor #000077
+}
+rnote {
+  BackgroundColor #ff0000
+  FontColor #770000
+}
+hnote {
+  BackgroundColor #00ff00
+  FontColor #008800
+}
+.pink {
+  BackgroundColor #pink
+}
+</style>
+
+actor -> director
+
+rnote left of actor: red note
+hnote left of actor: green note
+note right of actor: blue note
+rnote left of actor #palegreen: "palegreen"
+hnote left of actor <<pink>>: "pink"
+@enduml
