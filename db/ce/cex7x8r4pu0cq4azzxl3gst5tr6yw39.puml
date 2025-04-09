@@ -1,0 +1,35 @@
+{
+  "sha1": "cex7x8r4pu0cq4azzxl3gst5tr6yw39",
+  "insertion": {
+    "when": "2025-04-09T10:50:24.939Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2136",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+note {
+  BackgroundColor #0000ff
+  FontColor #000077
+}
+rnote {
+  BackgroundColor #ff0000
+  FontColor #770000
+}
+hnote {
+  BackgroundColor #00ff00
+  FontColor #008800
+}
+.pink {
+  BackgroundColor #pink
+}
+</style>
+
+actor -> director
+
+rnote left of actor: red note
+hnote left of actor: green note
+note right of actor: blue note
+rnote left of actor #palegreen: "palegreen"
+hnote left of actor <<pink>>: "pink"
+@enduml
