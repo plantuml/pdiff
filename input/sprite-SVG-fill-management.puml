@@ -1,0 +1,105 @@
+https://github.com/plantuml/plantuml/issues/2174
+@startuml
+sprite bs1 <svg viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"/>
+</svg>
+title This is a title with SVG sprite: <$bs1>!
+footer A footer with <$bs1> !
+legend <$bs1>
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2174
+@startuml
+<style>
+document {title, footer {LineColor green}}
+</style>
+sprite bs1 <svg viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"/>
+</svg>
+title This is a title with SVG sprite: <$bs1>!
+footer A footer with <$bs1> !
+legend <$bs1>
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2174
+@startuml
+sprite bs1 <svg viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"/>
+</svg>
+legend <$bs1>
+:<$bs1>;
+-> sprite: <$bs1>;
+:a;
+-[#red]->sprite: <$bs1>;
+:b;
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2174
+@startuml
+sprite bs1 <svg viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"/>
+</svg>
+
+card "<$bs1>" as bs1
+card a
+card b
+bs1 --> a : sprite: <$bs1>
+a --> b #red: sprite: <$bs1>
+
+legend <$bs1>
+footer 1.2025.2 / %version()
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2174
+@startuml
+sprite bs1 <svg viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"/>
+</svg>
+
+legend
+<$bs1>
+
+' Similar to old monochrome sprite
+<$bs1{scale=2}>
+<$bs1{scale=1,color=red}>
+<$bs1,color=red>
+<$bs1,color=#f00>
+
+' Similar to Emoji
+<#red$bs1>
+<#f00$bs1>
+
+endlegend
+
+@enduml
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths
+@startuml
+title Test of filling with "fill" without outline
+sprite TEST_1 <svg width="190" height="160" >
+  <path
+    d="M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80"
+    fill="palegreen" />
+</svg>
+
+sprite TEST_2 <svg width="190" height="160" >
+  <path
+    d="M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80"
+    fill="palegreen" />
+</svg>
+
+sprite TEST_3 <svg width="190" height="160" >
+  <path d="M 10 80 Q 95 10 180 80" fill="palegreen" />
+</svg>
+
+sprite TEST_4 <svg width="190" height="160" >
+  <path
+    d="M 10 80 Q 52.5 10, 95 80 T 180 80"
+    fill="palegreen" />
+</svg>
+
+card "<$TEST_1>"
+card "<$TEST_2>"
+card "<$TEST_3>"
+card "<$TEST_4>"
+@enduml
