@@ -1,0 +1,19 @@
+{
+  "sha1": "gvsqh6f7foca1kg3jwyl2hjzz79lu2w",
+  "insertion": {
+    "when": "2025-05-06T12:36:58.448Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam UsecaseBackgroundColor white
+!include <bootstrap/bootstrap>
+
+usecase a as "<$bi-globe>\nbi-globe"
+usecase b as "<$bi-globe,scale=2.5>"
+usecase c as "<$bi-globe{scale=2.5,color=green}>" #line:red
+
+usecase d as "<$bi-bootstrap-fill>"
+usecase e as "<$bi-bootstrap-fill{scale=2.5,color=blue}>"
+usecase f as "<$bi-bootstrap-fill,scale=2.5,color=#00f>"
+@enduml
