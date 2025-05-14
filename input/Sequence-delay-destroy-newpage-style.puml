@@ -1,0 +1,103 @@
+
+https://github.com/plantuml/plantuml/pull/2177
+@startuml
+<style>
+sequenceDiagram {
+  LineColor blue
+  LineThickness 3
+}
+</style>
+
+X -> X
+X -> Y
+newpage 
+X -> X
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2177
+@startuml
+!pragma teoz true
+<style>
+sequenceDiagram {
+  LineColor blue
+  LineThickness 3
+}
+</style>
+
+X -> X
+X -> Y
+newpage 
+X -> X
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2173
+@startuml
+!pragma teoz true
+<style>
+sequenceDiagram {
+  LineColor blue
+  LineThickness 3
+    
+  destroy {
+    LineColor green
+  }
+}
+</style>
+
+participant X
+...
+X -> Y
+return
+destroy Y
+...
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2173
+@startuml
+<style>
+sequenceDiagram {
+  LineColor blue
+  LineThickness 3
+    
+  destroy {
+    LineColor green
+  }
+}
+</style>
+
+participant X
+...
+X -> Y
+return
+destroy Y
+...
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2159
+@startuml
+<style>
+sequenceDiagram {
+    LineColor blue
+    LineThickness 3
+}
+</style>
+
+participant X
+...
+X -> X
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2159
+@startuml
+!pragma teoz true
+<style>
+sequenceDiagram {
+    LineColor blue
+    LineThickness 3
+}
+</style>
+
+participant X
+...
+X -> X
+@enduml
