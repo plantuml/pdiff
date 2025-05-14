@@ -1,14 +1,14 @@
 {
-  "sha1": "djqfbvlhwj1crnxcbjxyzzd6ofd6o2n",
+  "sha1": "kbsr3vy3oljtlf6xav4h57pdol6epvt",
   "insertion": {
     "when": "2024-06-01T09:03:03.087Z",
     "user": "plantuml@gmail.com"
   }
 }
 @startuml
-!include <material/common>
+!include <material2.1.19/common>
 ' To import the sprite file you DON'T need to place a prefix!
-!include <material/folder_move>
+!include <material2.1.19/folder_move>
 
 MA_FOLDER_MOVE(Red, 1, dir, rectangle, "A label")
 @enduml

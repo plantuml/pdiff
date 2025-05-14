@@ -1,5 +1,5 @@
 {
-  "sha1": "lxhhxd2tt4kgrc6csk7ep27ktncdisn",
+  "sha1": "e3bkeel5lbtyhhvw8ufjgr3qk5ifjjt",
   "insertion": {
     "when": "2024-06-03T18:59:34.635Z",
     "user": "plantuml@gmail.com"
@@ -13,6 +13,6 @@
 !include <cloudinsight/kafka>
 !include <cloudinsight/java>
 !include <cloudinsight/cassandra>
-!include <material/common>
+!include <material2.1.19/common>
 listsprites
 @enduml
