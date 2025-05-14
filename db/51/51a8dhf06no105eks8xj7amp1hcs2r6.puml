@@ -1,0 +1,19 @@
+{
+  "sha1": "51a8dhf06no105eks8xj7amp1hcs2r6",
+  "insertion": {
+    "when": "2025-05-14T17:45:29.448Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2174",
+    "user": "The-Lum"
+  }
+}
+@startuml
+sprite bs1 <svg viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"/>
+</svg>
+legend <$bs1>
+:<$bs1>;
+-> sprite: <$bs1>;
+:a;
+-[#red]->sprite: <$bs1>;
+:b;
+@enduml

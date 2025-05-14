@@ -1,0 +1,13 @@
+{
+  "sha1": "ew8mwu2hpm3tkjtrmnmkn6he6qt1id6",
+  "insertion": {
+    "when": "2025-05-14T17:43:58.749Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1474",
+    "user": "The-Lum"
+  }
+}
+@startuml
+card "Foo%n()x%n()----%n()* y" as Foo {
+  card Bar
+}
+@enduml

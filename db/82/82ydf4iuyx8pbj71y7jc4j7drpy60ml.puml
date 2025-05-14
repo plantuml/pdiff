@@ -1,0 +1,11 @@
+{
+  "sha1": "82ydf4iuyx8pbj71y7jc4j7drpy60ml",
+  "insertion": {
+    "when": "2025-05-14T17:43:58.702Z",
+    "url": "https://forum.plantuml.net/11343/activity-diagram-multi-line-and-n-management",
+    "user": "The-Lum"
+  }
+}
+@startuml
+:1 %n() fprintf( hello%n() , %s);
+@enduml

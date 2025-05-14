@@ -1,0 +1,22 @@
+{
+  "sha1": "mx1falh23y4eqk9msagy320l6ew1hyg",
+  "insertion": {
+    "when": "2025-05-14T17:43:58.670Z",
+    "user": "The-Lum"
+  }
+}
+@startuml
+!function $multipleM()
+  !return "MMM"
+!endfunction
+
+
+Bob -> Alice : 1 XXX $multipleM()XXX
+
+Bob -> Alice : 2 XXX$multipleM()XXX
+
+Bob -> Alice : 3 XXX %newline()XXX
+
+Bob -> Alice : 4 XXX%newline()XXX
+
+@enduml

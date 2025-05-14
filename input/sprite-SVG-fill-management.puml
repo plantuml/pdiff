@@ -47,7 +47,6 @@ bs1 --> a : sprite: <$bs1>
 a --> b #red: sprite: <$bs1>
 
 legend <$bs1>
-footer 1.2025.2 / %version()
 @enduml
 
 https://github.com/plantuml/plantuml/issues/2174
