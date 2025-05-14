@@ -1,0 +1,27 @@
+{
+  "sha1": "gjsjfj2u0ixyyv99tfr973x2aylzc8j",
+  "insertion": {
+    "when": "2025-05-14T19:42:26.447Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2173",
+    "user": "The-Lum"
+  }
+}
+@startuml
+<style>
+sequenceDiagram {
+  LineColor blue
+  LineThickness 3
+    
+  destroy {
+    LineColor green
+  }
+}
+</style>
+
+participant X
+...
+X -> Y
+return
+destroy Y
+...
+@enduml

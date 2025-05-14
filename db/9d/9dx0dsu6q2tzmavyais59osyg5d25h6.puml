@@ -1,0 +1,21 @@
+{
+  "sha1": "9dx0dsu6q2tzmavyais59osyg5d25h6",
+  "insertion": {
+    "when": "2025-05-14T19:42:26.403Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2177",
+    "user": "The-Lum"
+  }
+}
+@startuml
+<style>
+sequenceDiagram {
+  LineColor blue
+  LineThickness 3
+}
+</style>
+
+X -> X
+X -> Y
+newpage 
+X -> X
+@enduml

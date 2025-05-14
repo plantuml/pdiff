@@ -1,0 +1,21 @@
+{
+  "sha1": "th0z0cfbpmi7mxsak6hwnb8z2x0rexy",
+  "insertion": {
+    "when": "2025-05-14T19:42:26.449Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2159",
+    "user": "The-Lum"
+  }
+}
+@startuml
+!pragma teoz true
+<style>
+sequenceDiagram {
+    LineColor blue
+    LineThickness 3
+}
+</style>
+
+participant X
+...
+X -> X
+@enduml
