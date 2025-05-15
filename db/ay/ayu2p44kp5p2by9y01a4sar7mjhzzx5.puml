@@ -1,0 +1,21 @@
+{
+  "sha1": "ayu2p44kp5p2by9y01a4sar7mjhzzx5",
+  "insertion": {
+    "when": "2025-05-15T16:42:01.241Z",
+    "url": "https://forum.plantuml.net/20036/change-starting-day-of-a-week",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+printscale weekly
+weeks starts on Sunday and must have at least 4 days
+saturday are closed
+friday are closed
+
+Project starts the 1st of january 2025
+[Prototype design end] as [TASK1] requires 19 days
+
+[Testing] requires 14 days
+[TASK1]->[Testing]
+
+@endgantt
