@@ -1,0 +1,36 @@
+{
+  "sha1": "etdcq0o2496b4blmzkc1wrnuwl5sstj",
+  "insertion": {
+    "when": "2025-05-24T14:42:51.288Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+sprite circle <svg viewBox="0 0 30 30">
+<circle cx="15" cy="15" r="10" />
+</svg>
+
+Alice -> Bob : circle <$circle>
+Alice -> Bob : rocket <:rocket:>
+Alice -> Bob : box <&box>
+
+== color:blue ==
+Alice -> Bob : <color:blue>circle <$circle>
+Alice -> Bob : <color:blue>rocket <:rocket:>
+Alice -> Bob : <color:blue>box <&box>
+
+
+== forced green for the sprite ==
+Alice -> Bob : circle <#green$circle>
+Alice -> Bob : rocket <#green:rocket:>
+Alice -> Bob : box <#green&box>
+
+
+== color:blue and forced green ==
+Alice -> Bob : <color:blue>circle <#green$circle>
+Alice -> Bob : <color:blue>rocket <#green:rocket:>
+Alice -> Bob : <color:blue>box <#green&box>
+
+
+@enduml
