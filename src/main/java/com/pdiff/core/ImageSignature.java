@@ -37,6 +37,15 @@ public class ImageSignature {
 		this.height = im.getHeight();
 		this.crc = crc.getValue();
 	}
+	
+	private void updateCRC(CRC32 crc, int c) {
+		final int r = (c & 0xFF0000) >> 16;
+		final int g = (c & 0x00FF00) >> 8;
+		final int b = (c & 0x0000FF);
+		crc.update(r);
+		crc.update(g);
+		crc.update(b);
+	}
 
 	public static ImageSignature fromImage(BufferedImage im) {
 		return new ImageSignature(im, false);
@@ -81,14 +90,7 @@ public class ImageSignature {
 //		return fromImage(im, ignoreFirstPoint);
 //	}
 
-	private void updateCRC(CRC32 crc, int c) {
-		final int r = (c & 0xFF0000) >> 16;
-		final int g = (c & 0x00FF00) >> 8;
-		final int b = (c & 0x0000FF);
-		crc.update(r);
-		crc.update(g);
-		crc.update(b);
-	}
+
 
 	public final long getCrc() {
 		return crc;

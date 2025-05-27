@@ -43,7 +43,7 @@ public class DbFileBeforeRun extends DbFile {
 		return res.get();
 	}
 
-	public void convertMe(int minimalPrefix) throws Exception {
+	public void convertMe(int minimalPrefix, boolean onlyPerf) throws Exception {
 		List<String> all = Files.readAllLines(getPumlPath());
 		all = all.subList(DbCollection.getStartingLine(all), all.size());
 
@@ -53,7 +53,7 @@ public class DbFileBeforeRun extends DbFile {
 		Files.createDirectories(outputPathPng.getParent());
 
 		final long start = System.currentTimeMillis();
-		final OutputRun outputRun = Introspection.outputImage(outputPathPng, text);
+		final OutputRun outputRun = Introspection.outputImage(outputPathPng, text, onlyPerf);
 
 		final long duration = System.currentTimeMillis() - start;
 

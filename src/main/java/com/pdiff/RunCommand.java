@@ -35,6 +35,10 @@ public class RunCommand {
 	@Parameter(names = { "-s", "--slot" }, description = "Specifies the number of parallel slots", required = false)
 	private int slot = Runtime.getRuntime().availableProcessors();
 
+	@Parameter(names = { "-p", "--perf" }, description = "Do not generate output files", required = false)
+	private boolean onlyPerf = false;
+
+
 	private AtomicInteger done = new AtomicInteger();
 
 	private int minimalPrefix;
@@ -49,7 +53,7 @@ public class RunCommand {
 	}
 
 	public void doit() throws IOException, InterruptedException {
-
+		
 		final DbCollection dbCollection = new DbCollection();
 		this.minimalPrefix = dbCollection.getMinimalPrefix();
 
@@ -110,7 +114,7 @@ public class RunCommand {
 		magicOutput.updateLivingPart(workerId, workerId + " " + dbFile.getFileName(minimalPrefix));
 		magicOutput.updateLivingPart(slot, remainingTime.updateCountAndGetStatus(done.incrementAndGet()));
 
-		dbFile.convertMe(this.minimalPrefix);
+		dbFile.convertMe(this.minimalPrefix, onlyPerf);
 		magicOutput.updateLivingPart(workerId, "");
 
 	}

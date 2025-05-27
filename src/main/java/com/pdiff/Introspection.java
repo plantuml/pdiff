@@ -19,17 +19,27 @@ public class Introspection {
 		}
 	}
 
-	public static OutputRun outputImage(final Path outputPathPng, final String text) throws Exception {
+	public static OutputRun outputImage(final Path outputPathPng, final String text, boolean onlyPerf)
+			throws Exception {
 
 		final Class<?> readerClass = Class.forName("net.sourceforge.plantuml.SourceStringReader");
+		final Class<?> fileFormatClass = Class.forName("net.sourceforge.plantuml.FileFormat");
+		final Class<?> fileFormatOptionClass = Class.forName("net.sourceforge.plantuml.FileFormatOption");
+
+		final Enum fileFormatPng = onlyPerf ? Enum.valueOf((Class<Enum>) fileFormatClass, "PNG_EMPTY")
+				: Enum.valueOf((Class<Enum>) fileFormatClass, "PNG");
+		final Constructor<?> fileFormatOptionConstructor = fileFormatOptionClass.getConstructor(fileFormatClass);
+		final Object fileFormatOptionInstance = fileFormatOptionConstructor.newInstance(fileFormatPng);
 
 		final Constructor<?> readerConstructor = readerClass.getConstructor(String.class);
 		final Object readerInstance = readerConstructor.newInstance(text);
 
-		final Method outputImageMethod = readerClass.getMethod("outputImage", OutputStream.class);
+		final Method outputImageMethod = readerClass.getMethod("outputImage", OutputStream.class, int.class,
+				fileFormatOptionClass);
 
 		try (OutputStream png = Files.newOutputStream(outputPathPng)) {
-			final Object result = outputImageMethod.invoke(readerInstance, png);
+			final Object result = outputImageMethod.invoke(readerInstance, png, 0, fileFormatOptionInstance);
+
 			final Method getDescriptionMethod = result.getClass().getMethod("getDescription");
 			final String description = (String) getDescriptionMethod.invoke(result);
 
