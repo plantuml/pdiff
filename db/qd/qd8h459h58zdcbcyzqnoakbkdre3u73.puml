@@ -1,0 +1,21 @@
+{
+  "sha1": "qd8h459h58zdcbcyzqnoakbkdre3u73",
+  "insertion": {
+    "when": "2025-06-11T17:14:52.791Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2171",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.a {BackGroundColor pink}
+</style>
+
+class c
+class red <<a>>
+
+<style>
+.a {BackGroundColor palegreen}
+</style>
+class green <<a>>
+@enduml
