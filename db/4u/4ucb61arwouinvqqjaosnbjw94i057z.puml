@@ -1,0 +1,17 @@
+{
+  "sha1": "4ucb61arwouinvqqjaosnbjw94i057z",
+  "insertion": {
+    "when": "2025-06-11T17:10:47.430Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2219",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!option debug true
+:\t\ta; <<time-event>>
+:b;
+:a; <<time-event>>
+:input; <<input>>
+:object signal;
+:object signal; <<object-signal>>
+@enduml

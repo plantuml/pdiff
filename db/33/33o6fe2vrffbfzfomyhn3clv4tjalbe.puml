@@ -1,0 +1,28 @@
+{
+  "sha1": "33o6fe2vrffbfzfomyhn3clv4tjalbe",
+  "insertion": {
+    "when": "2025-06-11T17:10:47.476Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2229",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+scale 5
+<style>
+start {
+    LineColor #red
+    LineThickness 5
+}
+stop {
+    LineColor #green
+    LineThickness 5
+}
+end {
+    LineColor #blue
+    LineThickness 5
+}
+</style>
+
+[*] -> [*]
+'(*)->(*)
+@enduml
