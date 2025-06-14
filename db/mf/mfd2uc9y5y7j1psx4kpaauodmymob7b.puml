@@ -1,0 +1,17 @@
+{
+  "sha1": "mfd2uc9y5y7j1psx4kpaauodmymob7b",
+  "insertion": {
+    "when": "2025-06-14T09:47:48.632Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2232",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+dataclass AngleData <<lombok>> {
+  - aimingPitch : double
+  - aimingYaw : double
+  - aimingFinished : boolean
+  - lastAimed : long
+  - timestampAimingMode : long
+}
+@enduml
