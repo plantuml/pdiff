@@ -1,0 +1,26 @@
+https://github.com/plantuml/plantuml/pull/2232
+
+@startuml
+record Key {
+  - namespace : String
+  - key : String
+  + {static} NAMESPACED_KEY_PATTERN : Pattern
+  + Key(namespace : String, key : String)
+  + full() : String
+  + toString() : String
+}
+
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2232
+
+
+@startuml
+dataclass AngleData <<lombok>> {
+  - aimingPitch : double
+  - aimingYaw : double
+  - aimingFinished : boolean
+  - lastAimed : long
+  - timestampAimingMode : long
+}
+@enduml
