@@ -1,0 +1,79 @@
+{
+  "sha1": "i4knh16immyenn13purzo4f9t5tcoh1",
+  "insertion": {
+    "when": "2025-07-17T18:50:11.373Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1109",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide stereotype
+<style>
+.alice, .charlie {
+    actor {
+        FontColor: Black;
+    }
+    participant {
+        FontColor: White;
+    }
+    BackGroundColor: #29284F;
+    lifeline {
+        LineColor: #29284F;
+    }
+    
+    activationBox {
+    	BackGroundColor: green;
+        LineColor: red;
+    }
+
+}
+
+.bob {
+    actor {
+        FontColor: Black;
+    }
+    participant {
+        FontColor: White;
+    }
+    BackGroundColor: #EE0351;
+    lifeline {
+        LineColor: #EE0351;
+    }
+    activationBox {
+    	BackGroundColor: yellow;
+        LineColor: red;
+    }
+}
+</style>
+
+participant Alice <<alice>>
+participant Bob <<bob>>
+participant Charlie <<charlie>>
+
+Alice -> Bob++: 100
+
+Alice -> Bob: 200
+
+<style>
+.bob {
+    activationBox {
+    	BackGroundColor: blue;
+        LineColor: red;
+    }
+}
+</style>
+
+
+Alice -> Bob++ : 300
+return ok300
+
+
+Alice -> Charlie++ : 350
+return ok350
+
+Alice -> Bob: 400
+
+
+Alice <- Bob--: 500
+
+@enduml
