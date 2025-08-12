@@ -59,7 +59,6 @@ public class DiffCommand {
 
 		System.out.println("Diff command executed " + all.size());
 		System.out.println("Reference result: " + run1);
-		System.out.println("Compared result: " + run2);
 
 //		for (Cmp cmp : all.values())
 //			if (cmp.bothPresent() && cmp.isSame() == false)
@@ -67,7 +66,8 @@ public class DiffCommand {
 
 		final Path outHtml = Paths.get(run1 + "-" + run2 + ".html");
 
-		new HtmlDiff(outHtml, dbCollection.getMinimalPrefix(), all.values());
+		final HtmlDiff htmlDiff = new HtmlDiff(outHtml, dbCollection.getMinimalPrefix(), all.values());
+		System.out.println("same=" + htmlDiff.getSame() + " diff=" + htmlDiff.getDiff());
 
 	}
 }

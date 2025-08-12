@@ -10,6 +10,9 @@ import com.pdiff.core.Cmp;
 import com.pdiff.core.DbFileAfterRun;
 
 public class HtmlDiff {
+	
+	private int same = 0;
+	private int diff = 0;
 
 	public HtmlDiff(Path outHtml, int minimalPrefix, Collection<Cmp> cmps) throws IOException {
 
@@ -163,8 +166,11 @@ public class HtmlDiff {
 			for (Cmp cmp : cmps) {
 				if (cmp.bothPresent() == false)
 					continue;
-				if (cmp.isSame())
+				if (cmp.isSame()) {
+					same++;
 					continue;
+				}
+				diff++;
 
 				final DbFileAfterRun run1 = cmp.getRun1();
 				final DbFileAfterRun run2 = cmp.getRun2();
@@ -223,6 +229,14 @@ public class HtmlDiff {
 					</html>
 					""");
 		}
+	}
+
+	public int getSame() {
+		return same;
+	}
+
+	public int getDiff() {
+		return diff;
 	}
 
 //	private void outSingleFile(PrintWriter pw, DbFileForRun file) throws IOException {
