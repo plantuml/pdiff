@@ -1,0 +1,28 @@
+{
+  "sha1": "lq6in33bki63vvu2igro70c966gm8y0",
+  "insertion": {
+    "when": "2025-08-19T16:20:33.034Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2285",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:Activity0;
+partition "Partition1" {
+<style>
+  activity {
+    BackgroundColor: blue;
+}
+</style>
+  :Activity1;
+  :Activity2;
+}
+
+<style>
+  activity {
+    BackgroundColor: red;
+}
+</style>
+:Activity3;
+@enduml
