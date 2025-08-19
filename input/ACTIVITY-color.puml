@@ -1,0 +1,22 @@
+https://github.com/plantuml/plantuml/issues/2285
+
+@startuml
+start
+:Activity0;
+partition "Partition1" {
+<style>
+  activity {
+    BackgroundColor: blue;
+}
+</style>
+  :Activity1;
+  :Activity2;
+}
+
+<style>
+  activity {
+    BackgroundColor: red;
+}
+</style>
+:Activity3;
+@enduml
