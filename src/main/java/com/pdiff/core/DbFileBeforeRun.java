@@ -43,7 +43,7 @@ public class DbFileBeforeRun extends DbFile {
 		return res.get();
 	}
 
-	public void convertMe(int minimalPrefix, boolean onlyPerf) throws Exception {
+	public long convertMe(int minimalPrefix, boolean onlyPerf) throws Exception {
 		List<String> all = Files.readAllLines(getPumlPath());
 		all = all.subList(DbCollection.getStartingLine(all), all.size());
 
@@ -54,6 +54,8 @@ public class DbFileBeforeRun extends DbFile {
 
 		final long start = System.currentTimeMillis();
 		final OutputRun outputRun = Introspection.outputImage(outputPathPng, text, onlyPerf);
+
+		final long sizeInBytes = Files.size(outputPathPng);
 
 		final long duration = System.currentTimeMillis() - start;
 
@@ -69,11 +71,14 @@ public class DbFileBeforeRun extends DbFile {
 		png.addProperty("width", bufferedImage.getWidth());
 		png.addProperty("height", bufferedImage.getHeight());
 		png.addProperty("crc", imageSignature.getCrc());
+		png.addProperty("sizeInBytes", sizeInBytes);
 
 		jsonObject.add("png", png);
 
 		final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		Files.write(outputPathJson, List.of(gson.toJson(jsonObject)));
+		
+		return sizeInBytes;
 
 	}
 
@@ -82,8 +87,10 @@ public class DbFileBeforeRun extends DbFile {
 		return "../" + name.substring(0, 2) + "/" + name;
 	}
 
-	public void createStandaloneHtml(int minimalPrefix, DbFileBeforeRun prev, DbFileBeforeRun next/*,
-			List<DbFileAfterRun> allAfterRuns*/) throws IOException {
+	public void createStandaloneHtml(int minimalPrefix, DbFileBeforeRun prev,
+			DbFileBeforeRun next/*
+								 * , List<DbFileAfterRun> allAfterRuns
+								 */) throws IOException {
 		final Path outputPathHtml = transformPath(getPumlPath(), ".html");
 
 		List<String> all = Files.readAllLines(getPumlPath());

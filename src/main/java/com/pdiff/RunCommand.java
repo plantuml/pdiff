@@ -10,6 +10,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicLong;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -38,13 +39,13 @@ public class RunCommand {
 	@Parameter(names = { "-p", "--perf" }, description = "Do not generate output files", required = false)
 	private boolean onlyPerf = false;
 
-
 	private AtomicInteger done = new AtomicInteger();
 
 	private int minimalPrefix;
 
 	private MagicOutput magicOutput;
 	private RemainingTime remainingTime;
+	private final AtomicLong totalSize = new AtomicLong();
 
 	private Predicate<? super DbFileBeforeRun> getFilter() {
 		if (filter == null)
@@ -53,7 +54,7 @@ public class RunCommand {
 	}
 
 	public void doit() throws IOException, InterruptedException {
-		
+
 		final DbCollection dbCollection = new DbCollection();
 		this.minimalPrefix = dbCollection.getMinimalPrefix();
 
@@ -104,7 +105,16 @@ public class RunCommand {
 		}
 		System.out.print(Ansi.ansi().eraseLine());
 		System.out.println("Done!");
+	}
 
+	public static String formatSize(long bytes) {
+		if (bytes < 1024) {
+			return bytes + " bytes";
+		} else if (bytes < 1024 * 1024) {
+			return String.format("%.1f K", bytes / 1024.0);
+		} else {
+			return String.format("%.1f M", bytes / (1024.0 * 1024));
+		}
 	}
 
 	private void processFile(DbFileBeforeRun dbFile) throws Exception {
@@ -112,9 +122,14 @@ public class RunCommand {
 		final int workerId = Integer.parseInt(threadName.split("-")[1]);
 
 		magicOutput.updateLivingPart(workerId, workerId + " " + dbFile.getFileName(minimalPrefix));
-		magicOutput.updateLivingPart(slot, remainingTime.updateCountAndGetStatus(done.incrementAndGet()));
+		final String status = remainingTime.updateCountAndGetStatus(done.incrementAndGet());
 
-		dbFile.convertMe(this.minimalPrefix, onlyPerf);
+		magicOutput.updateLivingPart(slot, "(" + formatSize(totalSize.get()) + ") " + status);
+
+		final long sizeInBytes = dbFile.convertMe(this.minimalPrefix, onlyPerf);
+		final long newSize = totalSize.addAndGet(sizeInBytes);
+		magicOutput.updateLivingPart(slot, "(" + formatSize(newSize) + ") " + status);
+
 		magicOutput.updateLivingPart(workerId, "");
 
 	}
