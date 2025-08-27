@@ -22,30 +22,40 @@ public class ImageSignature {
 	}
 
 	private ImageSignature(BufferedImage im, boolean ignoreFirstPoint) {
+		final int w = im.getWidth();
+		final int h = im.getHeight();
+
 		final CRC32 crc = new CRC32();
-		for (int x = 0; x < im.getWidth(); x++) {
-			for (int y = 0; y < im.getHeight(); y++) {
-				if (ignoreFirstPoint) {
-					ignoreFirstPoint = false;
-				} else {
-					final int c = im.getRGB(x, y);
-					updateCRC(crc, c);
-				}
+
+		final int[] line = new int[w];
+		final byte[] buf = new byte[w * 3];
+
+		for (int y = 0; y < h; y++) {
+			im.getRGB(0, y, w, 1, line, 0, w);
+
+			int startX = 0;
+			if (ignoreFirstPoint) {
+				startX = 1;
+				ignoreFirstPoint = false;
 			}
+
+			int bi = 0;
+			for (int x = startX; x < w; x++) {
+				final int c = line[x];
+				buf[bi++] = (byte) (c >>> 16); // R
+				buf[bi++] = (byte) (c >>> 8); // G
+				buf[bi++] = (byte) c; // B
+			}
+
+			crc.update(buf, 0, bi);
+
 		}
-		this.width = im.getWidth();
-		this.height = im.getHeight();
+
+		this.width = w;
+		this.height = h;
 		this.crc = crc.getValue();
 	}
-	
-	private void updateCRC(CRC32 crc, int c) {
-		final int r = (c & 0xFF0000) >> 16;
-		final int g = (c & 0x00FF00) >> 8;
-		final int b = (c & 0x0000FF);
-		crc.update(r);
-		crc.update(g);
-		crc.update(b);
-	}
+
 
 	public static ImageSignature fromImage(BufferedImage im) {
 		return new ImageSignature(im, false);
@@ -89,8 +99,6 @@ public class ImageSignature {
 //		final BufferedImage im = ImageIO.read(f);
 //		return fromImage(im, ignoreFirstPoint);
 //	}
-
-
 
 	public final long getCrc() {
 		return crc;
