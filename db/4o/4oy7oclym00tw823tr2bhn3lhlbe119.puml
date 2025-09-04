@@ -1,0 +1,20 @@
+{
+  "sha1": "4oy7oclym00tw823tr2bhn3lhlbe119",
+  "insertion": {
+    "when": "2025-09-04T20:37:09.012Z",
+    "url": "https://github.com/plantuml/plantuml-server/issues/386",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+hide empty members
+
+class X {
+    a : int
+}
+note left of X::a
+    no "--" may be used here
+    --
+    to draw horizontal line
+end note
+@enduml
