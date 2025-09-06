@@ -1,0 +1,24 @@
+{
+  "sha1": "p27t4lpgmxvzw2p2c95irbn9fhpuenq",
+  "insertion": {
+    "when": "2025-09-06T18:51:59.067Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2319",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class WInstallationRecord {
+    +reportedVersion: String
+    +reported: RFC3339
+}
+
+note left of WInstallationRecord::reportedVersion
+A
+end note
+
+note left of WInstallationRecord::reported
+B
+end note
+
+
+@enduml
