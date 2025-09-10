@@ -1,0 +1,12 @@
+{
+  "sha1": "jr68wn00agi4wrdd6nsn0prhfh28j1o",
+  "insertion": {
+    "when": "2025-09-10T13:50:17.770Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2330",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+** A
+* B
+@endwbs

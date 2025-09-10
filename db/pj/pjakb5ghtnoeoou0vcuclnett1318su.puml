@@ -1,0 +1,16 @@
+{
+  "sha1": "pjakb5ghtnoeoou0vcuclnett1318su",
+  "insertion": {
+    "when": "2025-09-10T13:50:17.774Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2324",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+map CapitalCity {
+ UK => London
+}
+map CapitalCity {
+ UK => London
+}
+@enduml

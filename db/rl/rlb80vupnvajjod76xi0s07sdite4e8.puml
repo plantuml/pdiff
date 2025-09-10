@@ -1,0 +1,16 @@
+{
+  "sha1": "rlb80vupnvajjod76xi0s07sdite4e8",
+  "insertion": {
+    "when": "2025-09-10T13:50:17.772Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2324",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+json J {
+	"a":42
+}
+json J {
+	"a":43
+}
+@enduml
