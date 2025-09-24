@@ -1,0 +1,24 @@
+{
+  "sha1": "24luz07mteu9kmpy4muhs574edf3dac",
+  "insertion": {
+    "when": "2025-09-24T16:42:04.560Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2346",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* groclis
+**[#limegreen] Research
+***> Connect to database
+***> Execute SQL script
+***> Insert item to list
+****[#red]> Barcode
+*****> Scan
+*****> Manual input
+***> C++ Test library
+***> Search item
+** Design
+***> Database
+****> Create database
+** Implementation
+@endwbs
