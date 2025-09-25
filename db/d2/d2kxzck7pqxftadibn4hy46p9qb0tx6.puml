@@ -1,0 +1,17 @@
+{
+  "sha1": "d2kxzck7pqxftadibn4hy46p9qb0tx6",
+  "insertion": {
+    "when": "2025-09-25T19:50:52.749Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***(z)[#green]_< L21
+***(l2)[#pink]< L22
+
+l2 -> l1
+@endwbs

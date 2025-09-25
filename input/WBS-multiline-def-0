@@ -1,0 +1,21 @@
+
+https://forum.plantuml.net/17893/wbs-link-to-from-multiline-elements
+@startwbs
+* r
+**(TLA):Teamlead
+Team A;
+**(TLB):Teamlead
+Team B;
+
+TLB -> TLA
+@endwbs
+
+https://forum.plantuml.net/19125/wbs-use-multiline-text-with-change-direction-feature
+@startwbs
+* Root
+**<:Line 1
+Line 2;
+**>:Line 3
+Line 4;
+@endwbs
+

@@ -1,0 +1,15 @@
+{
+  "sha1": "aykywaedszpkjzo1bbd0q07gchhcuhw",
+  "insertion": {
+    "when": "2025-09-25T19:50:52.759Z",
+    "url": "https://forum.plantuml.net/19125/wbs-use-multiline-text-with-change-direction-feature",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* Root
+**<:Line 1
+Line 2;
+**>:Line 3
+Line 4;
+@endwbs
