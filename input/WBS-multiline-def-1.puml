@@ -1,0 +1,266 @@
+@startwbs
+* R
+** Line 1
+*** L11
+*** L12
+** Line 2
+***:L21 a
+L21 b;
+***:L22 a
+L22 b;
+@endwbs
+
+@startwbs
+* R
+** Line 1
+*** L11
+** Line 2
+***<:L21 a
+L21 b;
+***:L22 a
+L22 b;
+@endwbs
+
+@startwbs
+* R
+** Line 1
+*** L11
+** Line 2
+***_<:L21 a
+L21 b;
+***_:L22 a
+L22 b;
+@endwbs
+
+@startwbs
+* R
+** Line 1
+*** L11
+** Line 2
+***<_:L21 a
+L21 b;
+***_:L22 a
+L22 b;
+@endwbs
+
+@startwbs
+* R
+** Line 1
+*** L11
+** Line 2
+***[#green]:L21 a
+L21 b;
+***:L22 a
+L22 b;
+@endwbs
+
+@startwbs
+* R
+** Line 1
+*** L11
+** Line 2
+***<[#green]:L21 a
+L21 b;
+***:L22 a
+L22 b;
+@endwbs
+
+@startwbs
+* R
+** Line 1
+*** L11
+** Line 2
+***[#green]<:L21 a
+L21 b;
+***:L22 a
+L22 b;
+@endwbs
+
+@startwbs
+* R
+** Line 1
+*** L11
+** Line 2
+***[#green]_<:L21 a
+L21 b;
+***:L22 a
+L22 b;
+@endwbs
+
+@startwbs
+* R
+** Line 1
+*** L11
+** Line 2
+***<_[#green]:L21 a
+L21 b;
+***:L22 a
+L22 b;
+@endwbs
+
+@startwbs
+* R
+** Line 1
+*** L11
+** Line 2
+***_<[#green]:L21 a
+L21 b;
+***:L22 a
+L22 b;
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***[#green]:L21 a
+L21 b;
+***(l2):L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***[#green]:L21 a
+L21 b;
+***(l2)<:L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***<[#green]:L21 a
+L21 b;
+***<(l2):L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***[#green]_<:L21 a
+L21 b;
+***(l2)_<:L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***[#green]<_:L21 a
+L21 b;
+***(l2)<_:L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***<_[#green]:L21 a
+L21 b;
+***<_(l2):L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***[#green](z)_<:L21 a
+L21 b;
+***[#pink](l2)<:L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***(z)[#green]_<:L21 a
+L21 b;
+***(l2)[#pink]<:L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***(z)[#green]_<:L21 a
+L21 b;
+***(l2)[#pink]<:L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***_<(z)[#green]:L21 a
+L21 b;
+***<(l2)[#pink]:L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***_<[#green](z):L21 a
+L21 b;
+***<[#pink](l2):L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
+
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***<_[#green](z):L21 a
+L21 b;
+***<[#pink](l2):L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
