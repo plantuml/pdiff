@@ -1,0 +1,12 @@
+{
+  "sha1": "48phtcwbjdzugfvmf3c600hri0xfhpo",
+  "insertion": {
+    "when": "2025-10-01T18:22:05.812Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+**** Presumed root (I am happy)
+** children 1
+** children 2
+@endwbs
