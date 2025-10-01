@@ -1,0 +1,23 @@
+@startwbs
+** Presumed root (I am happy)
+** children 1
+** children 2
+@endwbs
+
+@startwbs
+**** Presumed root (I am happy)
+** children 1
+** children 2
+@endwbs
+
+@startmindmap
+** Presumed root (I am happy)
+** children 1
+** children 2
+@endmindmap
+
+@startmindmap
+**** Presumed root (I am happy)
+** children 1
+** children 2
+@endmindmap

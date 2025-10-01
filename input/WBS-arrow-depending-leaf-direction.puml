@@ -1,0 +1,76 @@
+https://github.com/plantuml/plantuml/issues/2363
+@startwbs
+* Root
+** C1
+**(c2) C2
+***(c22) C22
+
+c22 -> c2 #green
+@endwbs
+
+https://github.com/plantuml/plantuml/issues/2363
+@startwbs
+* Root
+** C1
+**(c2) C2
+***(c22)< C22
+
+c22 -> c2 #red
+@endwbs
+
+https://github.com/plantuml/plantuml/issues/2363
+@startwbs
+* Root
+** C1
+**(c2) C2
+***< C21
+***(c22) C22
+
+c22 -> c2 #red
+@endwbs
+
+https://github.com/plantuml/plantuml/issues/2363
+@startwbs
+* Root
+** C1
+**(c2) C2
+*** C21
+***(c22) C22
+
+c22 -> c2 #green
+@endwbs
+
+https://github.com/plantuml/plantuml/issues/2363
+@startwbs
+* Root
+** C1
+**(c2) C2
+*** C21
+***(c22)< C22
+
+c22 -> c2 #red
+@endwbs
+
+https://github.com/plantuml/plantuml/issues/2363
+@startwbs
+* Root
+** C1
+**(c2) C2
+***< C21
+*** Cxx
+***(c22) C22
+
+c22 -> c2 #red
+@endwbs
+
+https://github.com/plantuml/plantuml/issues/2363
+@startwbs
+* Root
+** C1
+**(c2) C2
+***< C21
+*** C23
+***(c22)< C22
+
+c22 -> c2 #red
+@endwbs
