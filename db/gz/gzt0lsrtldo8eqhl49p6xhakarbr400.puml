@@ -1,0 +1,17 @@
+{
+  "sha1": "gzt0lsrtldo8eqhl49p6xhakarbr400",
+  "insertion": {
+    "when": "2025-10-01T18:22:56.769Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2363",
+    "user": "The-Lum"
+  }
+}
+@startwbs
+* Root
+** C1
+**(c2) C2
+*** C21
+***(c22)< C22
+
+c22 -> c2 #red
+@endwbs

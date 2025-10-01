@@ -1,0 +1,19 @@
+{
+  "sha1": "3rxfne3sjd3rn7xv4p4k5pvh5eoevio",
+  "insertion": {
+    "when": "2025-10-01T18:22:58.412Z",
+    "user": "The-Lum"
+  }
+}
+@startwbs
+* R
+** Line 1
+***(l1) L11
+** Line 2
+***[#green]_<:L21 a
+L21 b;
+***(l2)_<:L22 a
+L22 b;
+
+l2 -> l1
+@endwbs
