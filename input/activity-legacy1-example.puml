@@ -1,0 +1,42 @@
+https://github.com/plantuml/plantuml/pull/2376
+@startuml
+- A
+- B
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2376
+@startuml
+-A
+-B
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2376
+@startuml
+* A
+* B
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2376
+@startuml
+*A
+*B
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2376
+@startuml
+* A
+** B
+*** C
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2376
+@startuml
+* A
+** a1
+*** a11
+**** a111
+*** a12
+**** a121
+** a2
+** a3
+@enduml
