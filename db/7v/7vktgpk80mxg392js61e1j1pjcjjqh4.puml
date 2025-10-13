@@ -1,0 +1,12 @@
+{
+  "sha1": "7vktgpk80mxg392js61e1j1pjcjjqh4",
+  "insertion": {
+    "when": "2025-10-13T18:09:46.530Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2376",
+    "user": "The-Lum"
+  }
+}
+@startuml
+- A
+- B
+@enduml
