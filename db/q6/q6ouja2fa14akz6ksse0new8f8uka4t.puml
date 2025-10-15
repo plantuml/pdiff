@@ -1,0 +1,21 @@
+{
+  "sha1": "q6ouja2fa14akz6ksse0new8f8uka4t",
+  "insertion": {
+    "when": "2025-10-15T17:00:59.985Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2382",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml timing_test
+title Between min-max
+analog "Analog" between 350 and 450 as A
+
+@0
+A is 350
+
+@100
+A is 450
+
+@300
+A is 350
+@enduml

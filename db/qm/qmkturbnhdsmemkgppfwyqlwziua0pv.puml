@@ -1,0 +1,20 @@
+{
+  "sha1": "qmkturbnhdsmemkgppfwyqlwziua0pv",
+  "insertion": {
+    "when": "2025-10-15T17:00:59.945Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml timing_test
+title Between min-max
+analog "Analog" between 350.0 and 450.0 as A
+
+@0
+A is 350
+
+@100
+A is 450
+
+@300
+A is 350
+@enduml
