@@ -1,0 +1,16 @@
+{
+  "sha1": "tvqsc600byaqwkqde5fn4g21gwxl0qe",
+  "insertion": {
+    "when": "2025-10-16T19:14:53.880Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant ParticipantNumber1
+participant ParticipantNumber2
+participant ParticipantNumber3
+
+ParticipantNumber1 -> ParticipantNumber2 : foo1 
+ParticipantNumber2 -> ParticipantNumber3 : foo2
+
+@enduml

@@ -1,0 +1,19 @@
+{
+  "sha1": "j778qysiimlgk61atq54s92bcnwkoxc",
+  "insertion": {
+    "when": "2025-10-16T19:18:49.868Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2386",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+!pragma sequenceMessageSpan true
+participant ParticipantNumber1
+participant ParticipantNumber2
+participant ParticipantNumber3
+
+ParticipantNumber1 -> ParticipantNumber1 : this is a very long message that is very long 
+ParticipantNumber2 -> ParticipantNumber3 : foo2
+
+@enduml
