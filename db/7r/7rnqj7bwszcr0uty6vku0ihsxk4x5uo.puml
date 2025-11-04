@@ -1,0 +1,30 @@
+{
+  "sha1": "7rnqj7bwszcr0uty6vku0ihsxk4x5uo",
+  "insertion": {
+    "when": "2025-11-04T15:44:23.302Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2409",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+timingDiagram {
+  .bluecolor {
+    BackGroundColor blue
+  }
+}
+</style>
+rectangle "LR" as LR <<bluecolor>> #red
+rectangle "ST" as ST
+
+LR is AtPlace
+ST is AtLoad
+
+@LR
+0 is Lowering
+100 is Lowered
+350 is Releasing
+ 
+@ST
+200 is Moving
+@enduml
