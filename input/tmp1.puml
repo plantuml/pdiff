@@ -1,0 +1,122 @@
+https://github.com/plantuml/plantuml/pull/2405
+
+@startuml
+skinparam defaultTextAlignment center
+
+start
+
+:«foreach»
+Network interface controllers (NIC)
+{{
+skinparam backgroundColor #f1f1f1
+
+start
+
+:«foreach»
+NIC ports
+{{
+start
+
+if (Port is failure?) then (yes)
+:Prepare notification;
+
+:«json»
+{{json
+#highlight "message"
+{
+   "NIC": "$name",
+   "port": "$i",
+   "message": "$error",
+   "time": "$time",
+   "date": "$date"
+}
+}}
+;
+
+:Send notification;
+else (no)
+endif
+
+stop
+}}
+;
+
+stop
+}}
+;
+
+stop
+@enduml
+
+
+
+
+
+https://github.com/plantuml/plantuml/issues/2409
+
+@startuml
+rectangle "A" as A
+rectangle "B" as B
+
+A is ""
+B is ""
+
+@A
+0 is ""
+
+@B
+25 is "" : drawStatesLabels
+
+@0
+A -> B@+5 : msg
+
+@40
+@enduml
+
+
+
+https://github.com/plantuml/plantuml/issues/2409
+
+@startuml
+robust "Web Browser" as WB
+rectangle "Web User" as WU
+
+@0
+WU is Idle
+WB is Idle
+
+@100
+WU is Waiting
+WB is Processing
+
+@300
+WB is Waiting
+@enduml
+
+
+https://github.com/plantuml/plantuml/issues/2409
+
+@startuml
+<style>
+timingDiagram {
+  .bluecolor {
+    BackGroundColor blue
+  }
+}
+</style>
+rectangle "LR" as LR <<bluecolor>> #red
+rectangle "ST" as ST
+
+LR is AtPlace
+ST is AtLoad
+
+@LR
+0 is Lowering
+100 is Lowered
+350 is Releasing
+ 
+@ST
+200 is Moving
+@enduml
+
+
