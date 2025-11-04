@@ -1,0 +1,55 @@
+{
+  "sha1": "k9su79w2176kysj0833qnul7kp4enow",
+  "insertion": {
+    "when": "2025-11-04T15:44:23.246Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2405",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam defaultTextAlignment center
+
+start
+
+:«foreach»
+Network interface controllers (NIC)
+{{
+skinparam backgroundColor #f1f1f1
+
+start
+
+:«foreach»
+NIC ports
+{{
+start
+
+if (Port is failure?) then (yes)
+:Prepare notification;
+
+:«json»
+{{json
+#highlight "message"
+{
+   "NIC": "$name",
+   "port": "$i",
+   "message": "$error",
+   "time": "$time",
+   "date": "$date"
+}
+}}
+;
+
+:Send notification;
+else (no)
+endif
+
+stop
+}}
+;
+
+stop
+}}
+;
+
+stop
+@enduml

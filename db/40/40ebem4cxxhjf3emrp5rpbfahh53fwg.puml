@@ -1,0 +1,23 @@
+{
+  "sha1": "40ebem4cxxhjf3emrp5rpbfahh53fwg",
+  "insertion": {
+    "when": "2025-11-04T15:44:23.300Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2409",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust "Web Browser" as WB
+rectangle "Web User" as WU
+
+@0
+WU is Idle
+WB is Idle
+
+@100
+WU is Waiting
+WB is Processing
+
+@300
+WB is Waiting
+@enduml

@@ -1,0 +1,26 @@
+{
+  "sha1": "42hoxv5zkmigauyy92cekx7isfin8l5",
+  "insertion": {
+    "when": "2025-11-04T15:44:23.299Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2409",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+rectangle "A" as A
+rectangle "B" as B
+
+A is ""
+B is ""
+
+@A
+0 is ""
+
+@B
+25 is "" : drawStatesLabels
+
+@0
+A -> B@+5 : msg
+
+@40
+@enduml
