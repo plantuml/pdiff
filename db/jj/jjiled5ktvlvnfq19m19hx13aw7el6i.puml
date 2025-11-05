@@ -1,0 +1,14 @@
+{
+  "sha1": "jjiled5ktvlvnfq19m19hx13aw7el6i",
+  "insertion": {
+    "when": "2025-11-05T08:52:15.497Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2416",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$var = 5
+!if $var > -1
+: var is $var ;
+!endif
+@enduml

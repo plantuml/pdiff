@@ -1,0 +1,15 @@
+{
+  "sha1": "i19g6g2zrxikw0539nqvknf75lf2o8",
+  "insertion": {
+    "when": "2025-11-05T08:52:15.459Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2416",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!$var=5
+!$var=$var-1
+
+participant a
+a --> b : $var
+@enduml
