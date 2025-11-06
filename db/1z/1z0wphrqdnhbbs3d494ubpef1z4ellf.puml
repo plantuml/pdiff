@@ -1,0 +1,21 @@
+{
+  "sha1": "1z0wphrqdnhbbs3d494ubpef1z4ellf",
+  "insertion": {
+    "when": "2025-11-06T19:16:14.654Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2418",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+state SM {
+  state V {
+    config: foo
+  }
+
+  state data
+}
+
+config --> data
+
+@enduml
