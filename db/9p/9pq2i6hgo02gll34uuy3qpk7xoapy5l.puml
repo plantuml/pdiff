@@ -1,0 +1,15 @@
+{
+  "sha1": "9pq2i6hgo02gll34uuy3qpk7xoapy5l",
+  "insertion": {
+    "when": "2025-11-08T13:51:47.360Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2380",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam ConditionStyle InsideDiamond
+
+repeat :SET INITIAL VALUES
+repeat while (Start?) is (N) not (Y)
+:Done;
+@enduml
