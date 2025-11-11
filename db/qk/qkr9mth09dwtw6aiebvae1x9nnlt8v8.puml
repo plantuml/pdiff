@@ -1,0 +1,24 @@
+{
+  "sha1": "qkr9mth09dwtw6aiebvae1x9nnlt8v8",
+  "insertion": {
+    "when": "2025-11-11T10:24:12.064Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2423",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|S1|
+|S2|
+
+|S2|
+:preAct;
+switch (Test)
+case (!S2)
+:ActprS3;
+case (Aba1)
+|S1|
+:ActPrS1;
+endswitch
+|S2|
+:postAct;
+@enduml

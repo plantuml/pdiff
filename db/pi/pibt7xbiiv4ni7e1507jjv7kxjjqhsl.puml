@@ -1,0 +1,26 @@
+{
+  "sha1": "pibt7xbiiv4ni7e1507jjv7kxjjqhsl",
+  "insertion": {
+    "when": "2025-11-11T10:24:11.967Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2343",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|S1|
+|S2|
+
+|S2|
+  :preAct;
+  switch (Test)
+  case (S1!)
+    :ActPre;
+    |S1|
+    :Act;
+  case (S2!)
+    |S2|
+    :Act;
+  endswitch
+  |S2|
+  :postAct;
+@enduml
