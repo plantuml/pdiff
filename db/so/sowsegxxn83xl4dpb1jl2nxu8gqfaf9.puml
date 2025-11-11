@@ -1,0 +1,22 @@
+{
+  "sha1": "sowsegxxn83xl4dpb1jl2nxu8gqfaf9",
+  "insertion": {
+    "when": "2025-11-11T11:50:45.427Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2055",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+object Test {
+    + line 1
+    + line 2
+    + line 3
+    + line 4
+    - line 5
+    - line 6
+    - line 7
+    - line 8
+}
+
+@enduml
