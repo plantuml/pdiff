@@ -1,0 +1,37 @@
+https://github.com/plantuml/plantuml/issues/2343
+
+@startuml
+|S1|
+|S2|
+
+|S2|
+  :preAct;
+  switch (Test)
+  case (S1!)
+    :ActPre;
+    |S1|
+    :Act;
+  case (S2!)
+    |S2|
+    :Act;
+  endswitch
+  |S2|
+  :postAct;
+@enduml
+
+
+https://github.com/plantuml/plantuml/issues/2343
+
+@startuml
+  :preAct;
+  if (Test) then (S1!)
+    :ActPre;
+    |S1|
+    :Act;
+  else (S2!)
+    |S2|
+    :Act;
+  end if
+  |S2|
+  :postAct;
+@enduml
