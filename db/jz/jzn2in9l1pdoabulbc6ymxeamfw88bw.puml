@@ -1,0 +1,21 @@
+{
+  "sha1": "jzn2in9l1pdoabulbc6ymxeamfw88bw",
+  "insertion": {
+    "when": "2025-11-12T09:46:45.080Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2343",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+  :preAct;
+  if (Test) then (S1!)
+    :ActPre;
+    |S1|
+    :Act;
+  else (S2!)
+    |S2|
+    :Act;
+  end if
+  |S2|
+  :postAct;
+@enduml
