@@ -1,0 +1,58 @@
+https://forum.plantuml.net/20265/allow-empty-branch-in-mindmap
+@startmindmap
+* Root
+** Not empty
+** 
+@endmindmap
+
+https://forum.plantuml.net/20265/allow-empty-branch-in-mindmap
+@startmindmap
+* Root
+**_ Not empty
+**_ 
+@endmindmap
+
+https://forum.plantuml.net/20265/allow-empty-branch-in-mindmap
+@startmindmap
+* Root
+** Not empty
+**
+'No space after -> Normal Error
+@endmindmap
+
+https://forum.plantuml.net/20265/allow-empty-branch-in-mindmap
+@startmindmap
+* Root
+**_ Not empty
+**_
+'No space after -> Normal Error
+@endmindmap
+
+https://forum.plantuml.net/20265/allow-empty-branch-in-mindmap
+@startmindmap
++ Root
+++ Not empty
+++ 
+@endmindmap
+
+https://forum.plantuml.net/20265/allow-empty-branch-in-mindmap
+@startmindmap
++ Root
+++_ Not empty
+++_ 
+@endmindmap
+
+https://forum.plantuml.net/20265/allow-empty-branch-in-mindmap
+@startmindmap
++ Root
+++_ Not empty
+++_
+'No space after -> Normal Error
+@endmindmap
+
+https://forum.plantuml.net/20265/allow-empty-branch-in-mindmap
+@startmindmap
+- Root
+-- Not empty
+-- 
+@endmindmap
