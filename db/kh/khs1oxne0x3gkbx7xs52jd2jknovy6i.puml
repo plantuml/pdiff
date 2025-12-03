@@ -1,0 +1,15 @@
+{
+  "sha1": "khs1oxne0x3gkbx7xs52jd2jknovy6i",
+  "insertion": {
+    "when": "2025-12-03T21:36:47.136Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2436",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:bug;
+:<:tada:*1> <size:30>Where to put the txt? ; <<icon>>
+:<:tada:*3> Where to put the txt? ; <<icon>>
+:<:tada:>; <<icon>>
+@enduml
