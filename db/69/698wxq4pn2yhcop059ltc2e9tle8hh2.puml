@@ -1,0 +1,13 @@
+{
+  "sha1": "698wxq4pn2yhcop059ltc2e9tle8hh2",
+  "insertion": {
+    "when": "2025-12-03T21:33:23.576Z",
+    "url": "https://forum.plantuml.net/20265/allow-empty-branch-in-mindmap",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startmindmap
+* Root
+**_ Not empty
+**_ 
+@endmindmap
