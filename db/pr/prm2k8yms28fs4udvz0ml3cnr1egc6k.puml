@@ -1,0 +1,23 @@
+{
+  "sha1": "prm2k8yms28fs4udvz0ml3cnr1egc6k",
+  "insertion": {
+    "when": "2025-12-05T20:00:34.990Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2436",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+state ParentMode {
+  state ChildMode1 {
+    A :
+  }
+
+  state ChildMode2 {
+    C --> ChildMode1.A
+
+    D --> ChildMode1
+  }
+}
+
+@enduml
