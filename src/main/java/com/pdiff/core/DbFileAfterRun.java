@@ -1,18 +1,29 @@
 package com.pdiff.core;
 
 import java.io.IOException;
+import java.io.Reader;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Map;
 import java.util.Optional;
+import java.util.concurrent.ConcurrentHashMap;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.google.gson.stream.JsonReader;
 
 public class DbFileAfterRun extends DbFile {
 
 	private final String runcode;
 	private final JsonObject jsonFromRun;
+
+	private final static Map<Path, JsonObject> cache = new ConcurrentHashMap<>();
+
+	public static void cache(Path outputPathJson, JsonObject jsonObject) {
+		cache.put(outputPathJson.toAbsolutePath(), jsonObject);
+	}
 
 	public static Optional<DbFileAfterRun> load(Path pumlPath, String runcode) {
 		try {
@@ -22,10 +33,15 @@ public class DbFileAfterRun extends DbFile {
 			Path jsonPath = pumlPath.subpath(1, pumlPath.getNameCount()).resolveSibling(jsonFileName);
 			jsonPath = Paths.get("runs", runcode).resolve(jsonPath);
 
-			final String content = new String(Files.readAllBytes(jsonPath));
+			JsonObject jsonFromRun = cache.get(jsonPath.toAbsolutePath());
+			if (jsonFromRun != null)
+				return Optional.of(new DbFileAfterRun(pumlPath, runcode, jsonFromRun));
 
-			final JsonObject jsonFromRun = JsonParser.parseString(content).getAsJsonObject();
-			return Optional.of(new DbFileAfterRun(pumlPath, runcode, jsonFromRun));
+			try (Reader reader = Files.newBufferedReader(jsonPath, StandardCharsets.UTF_8)) {
+				final JsonReader jsonReader = new JsonReader(reader);
+				jsonFromRun = JsonParser.parseReader(jsonReader).getAsJsonObject();
+				return Optional.of(new DbFileAfterRun(pumlPath, runcode, jsonFromRun));
+			}
 		} catch (Exception e) {
 			return Optional.empty();
 

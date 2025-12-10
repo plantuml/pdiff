@@ -39,7 +39,7 @@ public class DbFileBeforeRun extends DbFile {
 	private DbFileAfterRun getDbFileAfterRun() {
 		final Optional<DbFileAfterRun> res = DbFileAfterRun.load(getPumlPath(), runcode);
 		if (res.isEmpty())
-			throw new IllegalStateException();
+			return null;
 		return res.get();
 	}
 
@@ -78,6 +78,9 @@ public class DbFileBeforeRun extends DbFile {
 		final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		Files.write(outputPathJson, List.of(gson.toJson(jsonObject)));
 		
+		DbFileAfterRun.cache(outputPathJson, jsonObject);
+		
+
 		return sizeInBytes;
 
 	}
@@ -87,18 +90,16 @@ public class DbFileBeforeRun extends DbFile {
 		return "../" + name.substring(0, 2) + "/" + name;
 	}
 
-	public void createStandaloneHtml(int minimalPrefix, DbFileBeforeRun prev,
-			DbFileBeforeRun next/*
-								 * , List<DbFileAfterRun> allAfterRuns
-								 */) throws IOException {
+	public void createStandaloneHtml(int minimalPrefix, DbFileBeforeRun prev, DbFileBeforeRun next) throws IOException {
 		final Path outputPathHtml = transformPath(getPumlPath(), ".html");
 
 		List<String> all = Files.readAllLines(getPumlPath());
 		all = all.subList(DbCollection.getStartingLine(all), all.size());
 
 		try (PrintWriter pw = new PrintWriter(Files.newBufferedWriter(outputPathHtml))) {
-			pw.println("<html><head><title>" + getFileName(minimalPrefix) + " - " + this.runcode + "</title>");
-			pw.println(
+			final StringBuilder sb = new StringBuilder();
+			println(sb, "<html><head><title>" + getFileName(minimalPrefix) + " - " + this.runcode + "</title>");
+			println(sb,
 					"""
 									    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.min.js"></script>
 							<style>
@@ -146,28 +147,18 @@ public class DbFileBeforeRun extends DbFile {
 							    }
 							</style>
 								""");
-			pw.println("</head>");
-			pw.println("<body onload='brython()'>");
+			println(sb, "</head>");
+			println(sb, "<body onload='brython()'>");
 
-			pw.println("""
+			println(sb, """
 					<script type="text/python">
 					from browser import document, html, window
 					full = dict()
 					desc = dict()
 										""");
+			println(sb, "runcode='" + runcode + "'");
 
-//			allAfterRuns.stream().forEach(file -> {
-//				final String key = file.getFileName(minimalPrefix).replace(".puml", "");
-//				final String name = file.getFileName().replace(".puml", "");
-//				final JsonObject json = file.getJsonObject();
-//				final String description = json.get("description").getAsString();
-//				pw.println("full['" + key + "']='" + name + "'");
-//				pw.println("desc['" + key + "']='" + description + "'");
-//			});
-
-			pw.println("runcode='" + runcode + "'");
-
-			pw.println("""
+			println(sb, """
 					def create_dropdown():
 					    dropdown.clear()
 					    if input_field.value:
@@ -206,40 +197,53 @@ public class DbFileBeforeRun extends DbFile {
 					    </script>					""");
 
 			final String home = "../../../" + runcode + ".html";
-			pw.println("<a href='" + home + "'>Home</a>");
+			println(sb, "<a href='" + home + "'>Home</a>");
 
 			if (prev != null)
-				pw.println("<a href='" + getOtherLink(prev) + "'>Previous</a>");
+				println(sb, "<a href='" + getOtherLink(prev) + "'>Previous</a>");
 			if (next != null)
-				pw.println("<a href='" + getOtherLink(next) + "'>Next</a>");
+				println(sb, "<a href='" + getOtherLink(next) + "'>Next</a>");
 
-			pw.println("""
+			println(sb, """
 					<hr>
 					   <input type="text" id="input-field" class="input-field" placeholder="Type an id here...">
 					   <ul id="dropdown" class="dropdown"></ul>
 					   <div id="result"></div>
 					<hr>
 					""");
-			pw.println("<h2>" + getFileName(minimalPrefix) + "</h2>");
+			println(sb, "<h2>" + getFileName(minimalPrefix) + "</h2>");
 
-			final String url = getDbFileAfterRun().getUrl();
-			if (url != null)
-				pw.println("<a href='" + url + "'>" + url + "</a>");
+			final DbFileAfterRun dbFileAfterRun = getDbFileAfterRun();
+			if (dbFileAfterRun != null) {
+				final String url = dbFileAfterRun.getUrl();
+				if (url != null)
+					println(sb, "<a href='" + url + "'>" + url + "</a>");
+			}
 
-			pw.println("<hr>");
+			println(sb, "<hr>");
 			final String src_image = getFileName().replace(".puml", ".png");
-			pw.println("<img src='" + src_image + "'>");
-			pw.println("<hr>");
-			pw.println("<div class='code-container'>");
-			pw.print("<pre><code>");
+			println(sb, "<img src='" + src_image + "'>");
+			println(sb, "<hr>");
+			println(sb, "<div class='code-container'>");
+			print(sb, "<pre><code>");
 			for (String s : all)
-				pw.println(StringEscapeUtils.escapeHtml4(s));
-			pw.println("</code></pre>");
-			pw.println("</div>");
-			pw.println("</body>");
-			pw.println("</html>");
+				println(sb, StringEscapeUtils.escapeHtml4(s));
+			println(sb, "</code></pre>");
+			println(sb, "</div>");
+			println(sb, "</body>");
+			println(sb, "</html>");
 
+			pw.print(sb);
 		}
+	}
+
+	private void println(StringBuilder sb, String data) {
+		sb.append(data);
+		sb.append("\n");
+	}
+
+	private void print(StringBuilder sb, String data) {
+		sb.append(data);
 	}
 
 }

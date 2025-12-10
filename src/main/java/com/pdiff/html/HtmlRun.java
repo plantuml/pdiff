@@ -18,8 +18,9 @@ public class HtmlRun {
 		final String runcode = outHtml.getFileName().toString().replace(".html", "");
 
 		try (PrintWriter pw = new PrintWriter(Files.newBufferedWriter(outHtml))) {
-			pw.println("<html><head><title>" + runcode + "</title>");
-			pw.println(
+			final StringBuilder sb = new StringBuilder();
+			println(sb, "<html><head><title>" + runcode + "</title>");
+			println(sb, 
 					"""
 							    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.min.js"></script>
 							    <style>
@@ -61,7 +62,7 @@ public class HtmlRun {
 							from browser import document, html, window
 									 """);
 
-			pw.println("""
+			println(sb, """
 					def on_input(event):
 					    if input_field.value:
 						    for tr in document.select('tr'):
@@ -79,70 +80,88 @@ public class HtmlRun {
 
 					    </script>					""");
 
-			pw.println("<p>");
-			pw.println("<p>");
+			println(sb, "<p>");
+			println(sb, "<p>");
 
-			pw.println("<p>");
-			pw.println("<p>");
+			println(sb, "<p>");
+			println(sb, "<p>");
 
-			pw.println("<table>");
+			println(sb, "<table>");
 
-			pw.println("<tr id=0h>");
-			pw.println("<th>Name</th>");
-			pw.println("<th>Duration</th>");
-			pw.println("<th>Width</th>");
-			pw.println("<th>Height</th>");
-			pw.println("<th>Implementation</th>");
-			pw.println("<th>Description</th>");
-			pw.println("<th>URL</th>");
-			pw.println("</tr>");
+			println(sb, "<tr id=0h>");
+			println(sb, "<th>Name</th>");
+			println(sb, "<th>Duration</th>");
+			println(sb, "<th>Width</th>");
+			println(sb, "<th>Height</th>");
+			println(sb, "<th>Implementation</th>");
+			println(sb, "<th>Description</th>");
+			println(sb, "<th>URL</th>");
+			println(sb, "</tr>");
 
 			for (int i = 0; i < runOk.size(); i++) {
-				System.out.println("Writing main HTML file " + i + "/" + runOk.size());
+				System.out.println("Writing2 main HTML file " + i + "/" + runOk.size());
 				System.out.print(Ansi.ansi().cursorUpLine());
 				final Optional<DbFileAfterRun> tmp = DbFileAfterRun.load(runOk.get(i).getPumlPath(), runcode);
 				if (tmp.isPresent()) {
 					final DbFileAfterRun file = tmp.get();
 					final String name = file.getFileName(minimalPrefix).replace(".puml", "");
-					pw.println("<tr id=" + name + ">");
-					pw.println("<td>");
+					println(sb, "<tr id=" + name + ">");
+					println(sb, "<td>");
 					final String link = runcode + "/" + file.getFileName().substring(0, 2) + "/"
 							+ file.getFileName().replace(".puml", ".html");
-					pw.print("<a href='runs/" + link + "'>" + name + "</a>");
-					pw.println("</td>");
-					pw.println("<td>");
-					pw.print(file.getDuration());
-					pw.println("</td>");
-					pw.println("<td>");
-					pw.print(file.getWidth());
-					pw.println("</td>");
-					pw.println("<td>");
-					pw.print(file.getHeight());
-					pw.println("</td>");
-					pw.println("<td>");
-					pw.print(file.getImplementation());
-					pw.println("</td>");
-					pw.println("<td>");
-					pw.print(file.getDescription());
-					pw.println("</td>");
-					pw.println("<td>");
+					print(sb, "<a href='runs/" + link + "'>" + name + "</a>");
+					println(sb, "</td>");
+					println(sb, "<td>");
+					print(sb, file.getDuration());
+					println(sb, "</td>");
+					println(sb, "<td>");
+					print(sb, file.getWidth());
+					println(sb, "</td>");
+					println(sb, "<td>");
+					print(sb, file.getHeight());
+					println(sb, "</td>");
+					println(sb, "<td>");
+					print(sb, file.getImplementation());
+					println(sb, "</td>");
+					println(sb, "<td>");
+					print(sb, file.getDescription());
+					println(sb, "</td>");
+					println(sb, "<td>");
 					final String url = file.getUrl();
 					if (url != null)
-						pw.print("<a href='" + url + "'>" + url + "</a>");
+						print(sb, "<a href='" + url + "'>" + url + "</a>");
 
-					pw.println("</td>");
-					pw.println("</tr>");
+					println(sb, "</td>");
+					println(sb, "</tr>");
 				}
 			}
 
 			System.out.print(Ansi.ansi().eraseLine());
 
-			pw.println("</table>");
+			println(sb, "</table>");
 
-			pw.println("""
+			println(sb, """
 					</html>
 					""");
+			
+			pw.print(sb);
+
 		}
 	}
+	
+	private void println(StringBuilder sb, String data) {
+		sb.append(data);
+		sb.append("\n");
+	}
+
+	private void print(StringBuilder sb, String data) {
+		sb.append(data);
+	}
+
+
+	private void print(StringBuilder sb, int data) {
+		sb.append(data);
+	}
+
 
 }
