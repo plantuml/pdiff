@@ -1,0 +1,23 @@
+{
+  "sha1": "neyvwa19w41onn0nz5d13ubix98h2kf",
+  "insertion": {
+    "when": "2025-12-14T17:50:02.994Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2350",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+document {
+  BackGroundColor darkblue
+}
+root {
+  FontColor #?black:white
+  LineColor white
+}
+</style>
+
+actor "|table|" as alice
+
+alice -> bob : hello
+@enduml
