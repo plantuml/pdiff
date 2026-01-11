@@ -1,0 +1,18 @@
+{
+  "sha1": "309r3jdmyvxe1vel2p3x0bz41eeupfv",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.419Z",
+    "url": "https://forum.plantuml.net/5782/gantt-diagram-variant-without-natural-language?show=10851#c10851",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2026-01-19
+[task1] lasts 10 days
+[task2A] starts at [task1]'s end
+[task2B] starts after [task1]'s end
+
+[task3A] starts at [task1]'s start
+[task3B] starts with [task1]'s start
+
+@endgantt

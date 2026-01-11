@@ -1,0 +1,32 @@
+{
+  "sha1": "cbe3v9unvebg0ozhkl5efduvcsnfhlo",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.555Z",
+    "url": "https://forum.plantuml.net/11528/gantt-diagram-add-memos-or-explanations-to-tasks",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2026-01-19
+
+[task01] lasts 15 days
+note bottom
+'note left
+memo1 ...
+memo2 ...
+explanations1 ...
+explanations2 ...
+end note
+
+then [task02] lasts 3 days
+note bottom
+foo1
+end note
+
+-- test02 --
+
+[task03] lasts 16 days
+note bottom
+foo2
+end note
+@endgantt

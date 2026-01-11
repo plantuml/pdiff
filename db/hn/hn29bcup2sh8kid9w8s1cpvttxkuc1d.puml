@@ -1,0 +1,23 @@
+{
+  "sha1": "hn29bcup2sh8kid9w8s1cpvttxkuc1d",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.653Z",
+    "url": "https://forum.plantuml.net/10835/add-style-style-in-gantt?show=12005#a12005",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2026-01-19
+<style>
+ganttDiagram {
+	task {
+		RoundCorder 0
+        Margin 5
+        Padding 3 0 0 0
+	}
+	
+}
+</style>
+[Task1] lasts 20 days
+[<size:16>Task2] lasts 20 days
+@endgantt

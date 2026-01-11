@@ -1,0 +1,21 @@
+{
+  "sha1": "3db6fn4ns7sehnr8f5ry9vsyx1vxzpr",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.038Z",
+    "url": "https://forum.plantuml.net/11877/how-to-change-color-or-thickness-style-arrows-gantt-diagram?show=11877#q11877",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2026-01-19
+<style>
+arrow {
+  LineColor blue
+}
+</style>
+[Prototype design] lasts 14 days
+[Build prototype] lasts 4 days
+[Prepare test] lasts 6 days
+[Prototype design] -[#012]-> [Build prototype]
+[Prototype design] -[dotted]-> [Prepare test]
+@endgantt

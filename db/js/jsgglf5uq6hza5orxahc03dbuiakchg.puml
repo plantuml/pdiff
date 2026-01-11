@@ -1,0 +1,14 @@
+{
+  "sha1": "jsgglf5uq6hza5orxahc03dbuiakchg",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.527Z",
+    "url": "https://forum.plantuml.net/10679/feature-gantt-progress",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2026-01-19
+[foo] lasts 21 days
+[foo] is 0% completed
+[bar] lasts 30 days and is 100% complete
+@endgantt

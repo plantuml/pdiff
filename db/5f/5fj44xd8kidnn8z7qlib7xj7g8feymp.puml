@@ -1,0 +1,20 @@
+{
+  "sha1": "5fj44xd8kidnn8z7qlib7xj7g8feymp",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.518Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2026-01-19
+[Design phase/Prototype design] lasts 25 days
+[Design phase/Test prototype] starts at [Design phase/Prototype design]'s end
+[Design phase/Test prototype] lasts 20 days
+[Design phase/Prototype completed] happens at [Design phase/Test prototype]'s end
+[Production phase/Setup assembly line] lasts 15 days
+[Production phase/Setup assembly line] starts at [Design phase/Prototype completed]'s end
+[Production phase/Hire assemblers] lasts 10 days
+[Production phase/Hire assemblers] ends at [Design phase/Prototype completed]'s end
+[Production phase/Assemble first batch] lasts 3 days
+[Production phase/Assemble first batch] starts at [Production phase/Hire assemblers]'s end
+@endgantt

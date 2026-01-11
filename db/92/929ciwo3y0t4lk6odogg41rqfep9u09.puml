@@ -1,0 +1,15 @@
+{
+  "sha1": "929ciwo3y0t4lk6odogg41rqfep9u09",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.690Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2026-01-19
+[Prototype design] lasts 13 days
+[Test prototype] lasts 4 days
+[Test prototype] starts 3 days after [Prototype design]'s end
+[Prototype design] is colored in Chocolate 
+[Test prototype] is colored in Coral/Green 
+@endgantt

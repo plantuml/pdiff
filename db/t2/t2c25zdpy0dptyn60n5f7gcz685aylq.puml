@@ -1,13 +1,13 @@
 {
-  "sha1": "i4ydk8z7nvslp8hjqqt2t7piqf8qbrg",
+  "sha1": "t2c25zdpy0dptyn60n5f7gcz685aylq",
   "insertion": {
-    "when": "2024-06-04T17:28:39.784Z",
+    "when": "2024-06-03T18:59:31.464Z",
     "url": "https://forum.plantuml.net/15577/gantt-with-weekly-scale-bugs",
     "user": "plantuml@gmail.com"
   }
 }
 @startgantt
-ganttscale weekly
+'ganttscale weekly
 Project starts the 2022/05/02
 [Task1] on {Alice} lasts 10 days
 [Task2] on {Bob:50%} lasts 20 days

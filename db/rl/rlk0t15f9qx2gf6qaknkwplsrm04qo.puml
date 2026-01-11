@@ -1,0 +1,19 @@
+{
+  "sha1": "rlk0t15f9qx2gf6qaknkwplsrm04qo",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.442Z",
+    "url": "http://forum.plantuml.net/6959/ability-to-set-scale-2-for-gantt-charts",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2026-01-19
+scale 1.5
+[My task1] as [TASK1] lasts 4 days
+[My task2] as [TASK2] lasts 6 days
+[My task3] as [TASK3] lasts 8 days
+
+' This means that TASK3 starts after TASK1's end
+[TASK3] starts at [TASK1]'s end
+[TASK3] starts at [TASK2]'s end
+@endgantt
