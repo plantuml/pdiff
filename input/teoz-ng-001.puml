@@ -1,0 +1,297 @@
+https://forum.plantuml.net/10148/padding-between-two-actors-in-a-sequence-diagram
+@startuml
+skinparam BoxPadding 200
+
+Actor toto
+box  #transparent
+ Actor Alice
+ Actor Bob
+end box
+Actor Charlie
+
+Alice -> Bob: so close
+Bob -> Charlie: so distant
+@enduml
+
+https://forum.plantuml.net/19033/teoz-mainframe-overlaping-box
+@startuml
+mainframe **sd** Test
+
+participant A
+
+box
+    participant B
+    participant C
+end box
+
+activate A
+A -> B ++:M1
+B -> C ++:M2
+C -> C ++--:A1
+B <-- C --:R2
+A <<-- B --:R1
+@enduml
+
+https://forum.plantuml.net/18832/teoz-grouping-does-not-embrace-all-signals
+@startuml
+participant A
+participant B
+participant C
+participant D
+participant E
+group
+A->? : M1
+?->E : M2
+end
+@enduml
+
+https://forum.plantuml.net/18644/style-lifeline-colors-fails-when-teoz-is-added
+@startuml
+<STYLE>
+sequenceDiagram {
+  .bob_style {
+    ShowStereotype false
+    Lifeline {
+      linecolor red
+      linestyle solid
+      lineThickness 3
+    }
+  }
+  .alice_style {
+    ShowStereotype false
+    Lifeline {
+      linecolor green
+      linestyle 2
+      lineThickness 10
+    }
+  }
+}
+</STYLE>
+participant Bob <<bob_style>>
+participant Alice <<alice_style>>
+Bob -> Alice : hello
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2162
+@startuml
+X -> X
+destroy Y
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2104
+@startuml
+activate Alice
+Alice -> Bob ++: message 1
+Alice -> Bob ++: message 2
+
+Bob -> Alice --: answer 2
+Bob -> Alice --: answer 1
+
+newpage
+
+{start} Alice -> Bob ++: start doing things during duration
+Bob -> Max ++: something
+Max -> Bob --: something else
+{end} Bob -> Alice --: finish
+
+{start} <-> {end} : some time
+
+
+Alice -> Bob ++: message 3
+Alice -> Bob ++: message 4
+
+Bob -> Alice --: answer 4
+Bob -> Alice --: answer 3
+
+deactivate Alice
+@enduml
+
+https://forum.plantuml.net/19127/stereotype-lifeline-styles-are-not-working-with-teoz-engine
+@startuml
+<STYLE>
+sequenceDiagram {
+    FontColor blue
+    LineColor blue
+    LineThickness 2
+    LineStyle 1-1
+    Lifeline {
+      linecolor red
+      linestyle solid
+      lineThickness 3
+    }
+  .alice_style {
+    FontColor green
+    LineColor green
+    LineStyle 1-4
+    lineThickness 10
+    Lifeline {
+      linecolor green
+      linestyle 2
+      lineThickness 10
+    }
+  }
+}
+</STYLE>
+participant Bob
+entity Alice <<alice_style>>
+Bob -> Alice : hello
+@enduml
+
+
+https://forum.plantuml.net/5072/space-in-a-group-extends-group-to-left
+@startuml
+A->B
+opt
+  B->C: test
+  |||
+end
+@enduml
+
+https://forum.plantuml.net/6356/teoz-wont-colour-an-activate-unless-a-message-is-sent-to-it
+@startuml
+participant A
+participant C
+participant B
+
+activate A #FireBrick
+activate B #FireBrick
+
+A -> B
+activate B #Yellow
+
+activate C #FireBrick
+
+A -> C
+C --> A
+
+deactivate B
+deactivate C
+A -> C
+
+activate A #LightBlue
+activate C #Green
+C ->> B
+C --> A
+deactivate C
+
+A -> C : need to send\nmessage otherwise\nerror
+activate C #Green
+C ->> B
+C --> A
+deactivate C
+
+@enduml
+
+https://github.com/plantuml/plantuml/issues/1969
+@startuml
+{start1} a -> b++
+{end1} return
+{start1}<->{end1} : 10 seconds
+@enduml
+
+https://github.com/plantuml/plantuml/issues/589
+@startuml
+partition
+a->b
+end
+
+group
+a->c
+end group
+@enduml
+
+https://github.com/plantuml/plantuml/issues/279
+@startuml
+A -> C
+create B
+A -> B
+A <- B
+A <- B
+destroy B
+A -> C
+A -> B **
+B --> A
+A -> B !!
+A -> C
+@enduml
+
+https://github.com/plantuml/plantuml/issues/1492
+@startuml
+Bob -> Alice : hello
+note left Bob : left
+& note right Bob : right
+@enduml
+
+https://github.com/plantuml/plantuml/issues/1492
+@startuml
+Bob -> Alice : hello
+note left Bob : left
+/ note right Bob : right
+@enduml
+
+https://github.com/plantuml/plantuml/issues/1789
+@startuml
+group #ffa Group 1
+    Particpant_A -> Particpant_B
+    Particpant_A <- Particpant_B
+end
+
+group #ffa Group 2
+    Particpant_A -> Particpant_B++
+    Particpant_A <- Particpant_B--
+end
+@enduml
+
+https://github.com/plantuml/plantuml/issues/1789
+@startuml
+group #ffa Group 1
+    Particpant_A -> Particpant_B
+    activate Particpant_A
+    Particpant_A <- Particpant_B
+    deactivate Particpant_A
+end
+
+group #ffa Group 2
+    Particpant_A -> Particpant_B++
+    Particpant_A <- Particpant_B--
+end
+
+group #ffa Group 3
+    Particpant_A -> Particpant_B++
+    activate Particpant_A
+    Particpant_A <- Particpant_B--
+    deactivate Particpant_A
+end
+
+group #ffa Group 3b
+    Particpant_A -> Particpant_B++
+    activate Particpant_A
+        Particpant_A -> Particpant_B++
+                Particpant_A -> Particpant_B++
+                        Particpant_A -> Particpant_B++
+                        Particpant_A <- Particpant_B--
+                Particpant_A <- Particpant_B--
+        Particpant_A <- Particpant_B--
+    Particpant_A <- Particpant_B--
+    deactivate Particpant_A
+end
+
+group #ffa Group 3c
+    Particpant_A -> Particpant_B++
+    activate Particpant_A
+        Particpant_B -> Particpant_A++
+                Particpant_B -> Particpant_A++
+                                Particpant_B -> Particpant_A++
+                                Particpant_B <- Particpant_A--
+                Particpant_B <- Particpant_A--
+        Particpant_B <- Particpant_A--
+    Particpant_A <- Particpant_B--
+    deactivate Particpant_A
+end
+
+
+group #ffa Group 4
+    Particpant_A -> Particpant_B
+    Particpant_A <- Particpant_B
+end
+@enduml
