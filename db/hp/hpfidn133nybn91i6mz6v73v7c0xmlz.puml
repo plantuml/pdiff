@@ -1,0 +1,24 @@
+{
+  "sha1": "hpfidn133nybn91i6mz6v73v7c0xmlz",
+  "insertion": {
+    "when": "2026-01-16T18:16:52.095Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2345",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.r {
+  BackgroundColor red
+}
+.b {
+  BackgroundColor blue
+}
+</style>
+start 
+repeat <<r>>
+:Enter data;
+backward :Warning; 
+repeat while (Valid?) is (No) not (Yes)  <<b>>
+stop
+@enduml

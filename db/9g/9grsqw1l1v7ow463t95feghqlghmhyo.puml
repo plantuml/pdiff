@@ -1,0 +1,12 @@
+{
+  "sha1": "9grsqw1l1v7ow463t95feghqlghmhyo",
+  "insertion": {
+    "when": "2026-01-16T18:16:52.065Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2463",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+- link [[https://plantuml.com/1]]
+- <:link:><<icon>>[[https://plantuml.com/2]]
+@enduml

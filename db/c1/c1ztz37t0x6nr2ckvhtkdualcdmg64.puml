@@ -1,0 +1,14 @@
+{
+  "sha1": "c1ztz37t0x6nr2ckvhtkdualcdmg64",
+  "insertion": {
+    "when": "2026-01-16T18:16:52.094Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:A;
+#red:repeat :foo;
+:D;
+#blue:repeat while (C)
+:D;
+@enduml
