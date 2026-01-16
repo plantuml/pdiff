@@ -1,0 +1,13 @@
+{
+  "sha1": "aqoir7uuvwnmcyli2lwz4g347rlx7w3",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.934Z",
+    "url": "https://forum.plantuml.net/9616/how-to-add-milestone-at-specific-day",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+[Sprint X] lasts 21 days
+then [Sprint X UAT] lasts 7 days
+[Sprint X Checkpoint] happens 7 days after [Sprint X]'s start
+@endgantt

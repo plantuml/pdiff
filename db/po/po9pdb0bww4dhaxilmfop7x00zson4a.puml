@@ -1,0 +1,39 @@
+{
+  "sha1": "po9pdb0bww4dhaxilmfop7x00zson4a",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.507Z",
+    "url": "https://forum.plantuml.net/11895/embed-sub-diagrams-all-type-especially-mindmap-type-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+:A;
+: sub-dia
+{{wbs
+* root
+** level1
+** level1
+}}
+{{mindmap
+* root
+** level1
+** level1
+}}
+{{
+salt
+{
+  Login    | "MyName   "
+  Password | "****     "
+  [Cancel] | [  OK   ]
+}
+}}
+{{gantt
+[Prototype design] lasts 3 days
+[Test prototype] starts at [Prototype design]'s end
+[Test prototype] lasts 4 days
+}}
+;
+:B;
+end
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "hr0z3i3nj2pbdzanwb7ony3uzz902if",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.894Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+[Development 0.1] lasts 9 days
+[Production 0.1] starts at [Development 0.1]'s end
+[Production 0.1] starts at [Development 0.1]'s end and ends at [Production 0.2]'s start
+[Development 0.2] starts at [Development 0.1]'s end and lasts 6 days
+[Production 0.2] starts at [Development 0.2]'s end 
+@endgantt

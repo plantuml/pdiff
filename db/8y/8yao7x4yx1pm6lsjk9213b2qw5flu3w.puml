@@ -1,0 +1,16 @@
+{
+  "sha1": "8yao7x4yx1pm6lsjk9213b2qw5flu3w",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.554Z",
+    "url": "https://github.com/plantuml/plantuml/issues/52",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+[1] lasts 3 days
+[2] lasts 8 days
+[3] lasts 5 days
+
+[3] starts at [2]'s end
+[3] starts at [1]'s end
+@endgantt

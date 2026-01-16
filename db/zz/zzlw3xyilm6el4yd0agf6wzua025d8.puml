@@ -1,7 +1,7 @@
 {
-  "sha1": "ceombfwgtw52ckufkao9j3b4z3xjxt7",
+  "sha1": "zzlw3xyilm6el4yd0agf6wzua025d8",
   "insertion": {
-    "when": "2024-11-08T10:07:54.462Z",
+    "when": "2024-11-08T10:07:54.463Z",
     "url": "https://github.com/plantuml/plantuml/issues/1973",
     "user": "The-Lum"
   }
@@ -9,7 +9,7 @@
 @startgantt
 projectscale monthly zoom 3
 
-Project starts the 2024/11/07 
+'Project starts the 2024/11/07 
 [Task1] on {Alice} requires 100 days
 [Task2] on {Bob:50%} requires 20 days
 then [Task3] on {Alice:25%} requires 10 days

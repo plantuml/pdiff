@@ -1,0 +1,12 @@
+{
+  "sha1": "lv5bn2fxa2eos70tm1a4qf6y9ulb9hg",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.572Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+[Prototype design] lasts 3 days
+[Test prototype] starts at [Prototype design]'s end
+[Test prototype] lasts 4 days
+@endgantt

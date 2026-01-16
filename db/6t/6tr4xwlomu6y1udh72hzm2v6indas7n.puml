@@ -1,0 +1,25 @@
+{
+  "sha1": "6tr4xwlomu6y1udh72hzm2v6indas7n",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.046Z",
+    "url": "https://forum.plantuml.net/14494/is-it-possible-to-color-the-days-in-the-default-gantt-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+D+13 to D+15 are colored in blue
+
+[Var. A] as [A] lasts 9 days
+[Var. B] as [B] lasts 5 days
+[C] lasts 10 days
+[B] starts at [A]'s end
+[A] is colored in Fuchsia/FireBrick
+[B] is colored in GreenYellow/Green
+[C] starts at D+16
+
+
+D+10 is colored in gold
+D+11 is colored in orange
+D+8 is colored in red
+-- note --
+@endgantt

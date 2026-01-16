@@ -1,0 +1,15 @@
+{
+  "sha1": "kazs4nserilw9moyhihkrohotsiqvc9",
+  "insertion": {
+    "when": "2025-11-29T11:55:56.741Z",
+    "url": "https://forum.plantuml.net/14494/is-it-possible-to-color-the-days-in-the-default-gantt-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+
+[A] lasts 2 days
+[B] lasts 2 weeks
+[C] lasts 2 months
+
+@endgantt

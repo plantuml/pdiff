@@ -1,0 +1,30 @@
+{
+  "sha1": "lgr38b2i8791n81785imqvgyesqusz2",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.112Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+<style>
+ganttDiagram {
+	task {
+		FontName Helvetica
+		FontColor red
+		FontSize 18
+		FontStyle bold
+		BackGroundColor blue
+		LineColor yellow
+	}
+	milestone {
+		FontColor blue
+		FontSize 25
+		FontStyle italic
+		BackGroundColor yellow
+		LineColor red
+	}
+}
+</style>
+[Task] lasts 20 days
+[M1] happens on 5 days after [Task]'s end
+@endgantt

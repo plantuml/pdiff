@@ -1,0 +1,14 @@
+{
+  "sha1": "4t1f261vgcx1qntd8wbpnfw5qxiv2ah",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.566Z",
+    "url": "https://forum.plantuml.net/15211/question-related-working-with-resources-feature-gantt-charts",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+hide ressources footbox
+[Task1] on {Alice} lasts 10 days
+[Task2] on {Bob:50%} lasts 2 days
+then [Task3] on {Alice:25%} lasts 1 days
+@endgantt
