@@ -1,0 +1,15 @@
+{
+  "sha1": "tm48m7oq02tvxjpt6an9xwvzrm798y5",
+  "insertion": {
+    "when": "2026-01-24T15:25:22.723Z",
+    "url": "https://forum.plantuml.net/5072/space-in-a-group-extends-group-to-left",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A->B
+opt
+  B->C: test
+  |||
+end
+@enduml
