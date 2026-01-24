@@ -10,8 +10,8 @@
 start
 repeat :foo as starting label;
   :read data;
-  :generate diagrams>
-  backward :This is backward>
+  :generate diagrams; <<ouput>>
+  backward :This is backward; <<ouput>>
 repeat while (more data?)
 end
 @enduml

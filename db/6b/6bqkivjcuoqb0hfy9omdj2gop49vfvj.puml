@@ -16,7 +16,7 @@ skinparam conditionStyle diamond
 title conditionallyMoveSalary
 start
 floating note: 
-:inputs: period, destPeriod, highestQuality\n'period' is the 'general regime' period\n'destPeriod' is the matching period of 'highestQuality']
+:inputs: period, destPeriod, highestQuality\n'period' is the 'general regime' period\n'destPeriod' is the matching period of 'highestQuality'; <<task>>
 if (highestQuality IN (PILOT, FLIGHT_ATTENDANT) ??) then ([yes])
 	if (period.quality == LABOURER ??) then ([no])
 		if () then ([year < 2012])

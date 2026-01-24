@@ -16,7 +16,7 @@ endwhile
 
 #FF8080:Confusing layout
 The arrows look
-to cross each other>
+to cross each other; <<output>>
 
 while(a)is(b)
    :do something;
@@ -24,5 +24,5 @@ while(a)is(b)
 endwhile
 
 #80FF80:Correct
-arrow layout>
+arrow layout; <<output>>
 @enduml

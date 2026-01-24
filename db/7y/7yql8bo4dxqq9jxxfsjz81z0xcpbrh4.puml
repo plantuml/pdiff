@@ -7,14 +7,14 @@
 }
 @startuml
 split
-:CONTINUE<
+:CONTINUE; <<input>>
 
 split again
-:ABORT<
+:ABORT; <<input>>
 if (x) then (doit)
-:doA>
+:doA; <<ouput>>
 else
-:doB>
+:doB; <<output>>
 endif
 detach
 

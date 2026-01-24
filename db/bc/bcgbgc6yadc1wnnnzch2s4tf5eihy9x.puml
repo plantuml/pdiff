@@ -48,7 +48,7 @@
                     -[#maroon,dashed]->
                 else(no)
                     -[#green]->
-                    :do something}                                       
+                    :do something; <<continuous>>                                      
                     -[#green]->
                 endif
                 -[#green;#maroon,dashed]->
@@ -61,7 +61,7 @@
            
             elseif(f?)then(yes)
                 -[#orange]->
-                :activity}
+                :activity; <<continuous>>
                 -[#orange]->
             else(no)
                 -[#orange]->

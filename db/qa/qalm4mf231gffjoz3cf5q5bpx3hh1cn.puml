@@ -7,7 +7,7 @@
 }
 @startuml
 :previous
- action}
+ action; <<continuous>>
   while (repeat\nforever)
     :do it
     again;

@@ -16,10 +16,10 @@
   FontColor blue
 }
 </style>
-<<continuous>>:action1; 
+:action1; <<continuous>>
 :action2; <<continuous>>
-:action3}
-<<input>>:foo1;
+:action3; <<continuous>>
+:foo1; <<input>>
 :foo2; <<input>>
-:foo3<
+:foo3; <<ouput>>
 @enduml

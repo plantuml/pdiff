@@ -18,7 +18,7 @@ partition "**process** HelloWorld" {
 	 A1
 	end note
 	:Ready;
-	:HelloWorld(i)>
+	:HelloWorld(i); <<output>>
 	:Hello-Sent;
 }
 partition "**process** HelloWorld2" {
@@ -30,7 +30,7 @@ partition "**process** HelloWorld2" {
 	 A1
 	end note
 	:Ready;
-	:HelloWorld(i)>
+	:HelloWorld(i); <<output>>
 	:Hello-Sent;
 }
 @enduml

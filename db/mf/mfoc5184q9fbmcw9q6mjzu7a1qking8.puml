@@ -26,10 +26,10 @@ if (If Text) then (yes)
 else (No)
 endif
 if (Option A) then 
-:A Thing>
+:A Thing; <<output>>
 elseif (Option B)
-:B Thing>
+:B Thing; <<output>>
 elseif (Option C)
-:C thing>
+:C thing; <<output>>
 endif
 @enduml

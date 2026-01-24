@@ -10,9 +10,9 @@
 skinparam Backgroundcolor transparent
 start
   repeat
-    :Listen user<
+    :Listen user; <<input>>
     :Prepare
-    answer/
-    :Reply user>
+    answer; <<save>>
+    :Reply user; <<output>>
   repeat while (forever)
 @enduml

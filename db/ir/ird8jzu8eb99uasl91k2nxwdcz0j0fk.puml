@@ -7,5 +7,5 @@
 }
 @startuml
 start
-:foo[1024] ]
+:foo[1024] ; <<task>>
 @enduml

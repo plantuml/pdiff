@@ -17,6 +17,6 @@
 :test;
 <<continuous>>:action1; 
 :action2; <<continuous>>
-:action3}
+:action3; <<continuous>>
 
 @enduml

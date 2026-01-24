@@ -11,6 +11,6 @@
 @pause
 @append start
 @append :===initialization
-@append #create fileServer ]
+@append #create fileServer; <<task>>
 @append end
 @enduml

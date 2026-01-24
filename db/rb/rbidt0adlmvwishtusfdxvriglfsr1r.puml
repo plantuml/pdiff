@@ -16,7 +16,7 @@ if (condition A ? ) then (yes)
 elseif (condition B ? ) then (yes)
   break
 else
- :Text7
+ :Text7;
 endif
 repeat while (condition C ? )is (yes) not (no)
 ->

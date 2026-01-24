@@ -8,7 +8,7 @@
 @startuml
 start
 partition "Empty partition" {
-#FBFB77:Can the partition be centered\nand the note be over the activity arrow]
+#FBFB77:Can the partition be centered\nand the note be over the activity arrow; <<task>>
 }
 stop
 @enduml

@@ -8,7 +8,7 @@
 @startuml
 sta\
 rt
-:foo/
-:bar\\
+:foo; <<save>>
+:bar; <<load>>
 end
 @enduml

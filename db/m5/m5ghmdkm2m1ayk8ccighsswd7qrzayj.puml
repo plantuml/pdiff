@@ -8,6 +8,6 @@
 }
 @startuml
 :Ready;
-: <latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex>]
+: <latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex>; <<task>>
 :finish;
 @enduml

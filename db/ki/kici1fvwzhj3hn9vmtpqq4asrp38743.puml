@@ -27,7 +27,7 @@ if ( exists) then (yes)
         detach
         else (no)
             |PP|
-            :Verify <
+            :Verify ; <<input>>
             |P|
             if ( result) then (is yes)
                 (A)
@@ -41,22 +41,22 @@ if ( exists) then (yes)
     endif
 else (no)
     :Create;
-    :Set status to 1]
+    :Set status to 1; <<task>>
     :Select option;
    
     |P|
     :Create ;
-    :Set status to 1]
+    :Set status to 1; <<task>>
 endif
 
 /'#78C383|'/
 |PP|
-: attempt<
-:Verify <
+: attempt; <<input>>
+:Verify ; <<input>>
 
 |P|
 if ( result) then (succeeded)
-    :Set status to 2]
+    :Set status to 2; <<task>>
     (A)
     detach
 
@@ -92,6 +92,6 @@ if ( result) then (succeeded)
     endif
 else (cancelled\ndenied)
     |P|
-    :Set status to 3]
+    :Set status to 3; <<task>>
 endif
 @enduml

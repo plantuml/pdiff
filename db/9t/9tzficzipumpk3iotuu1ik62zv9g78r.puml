@@ -9,9 +9,9 @@
 @startuml
 
 repeat  
-#LightGreen :Review Activity]
+#LightGreen :Review Activity; <<task>>
 
-backward  :Rework]
+backward  :Rework; <<task>>
 
 repeat while (active Remarks) is (Yes) not (No)
 

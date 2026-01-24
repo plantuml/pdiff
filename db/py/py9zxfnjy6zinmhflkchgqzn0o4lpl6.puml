@@ -7,7 +7,7 @@
 }
 @startuml
 start
-:er>
+:er; <<output>>
 :<< Automobile >>
 Pinto;
 stop

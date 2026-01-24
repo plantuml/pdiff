@@ -7,24 +7,24 @@
 }
 @startuml
 :Ready;
-:next(o)|
+:next(o); <<procedure>>
 :Receiving;
 split
- :nak(i)<
- :ack(o)>
+ :nak(i); <<input>>
+ :ack(o); <<output>>
 split again
- :ack(i)<
+ :ack(i); <<input>>
  :next(o)
- on several line|
- :i := i + 1]
- :ack(o)>
+ on several line; <<procedure>>
+ :i := i + 1; <<task>>
+ :ack(o); <<input>>
 split again
- :err(i)<
- :nak(o)>
+ :err(i); <<output>>
+ :nak(o); <<input>>
 split again
- :foo/
+ :foo; <<save>>
 split again
- :i > 5}
+ :i > 5; <<continuous>>
 stop
 end split
 :-;

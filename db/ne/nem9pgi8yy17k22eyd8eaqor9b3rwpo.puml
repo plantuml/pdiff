@@ -16,9 +16,9 @@
 |EIG|
 |Oracle GL|
 |Channels|
-:Customer Transaction]
+:Customer Transaction; <<task>>
 |ODS|
-:Transaction Types/
+:Transaction Types; <<save>>
 |CHS|
 split
 :Update Customer Accounts;

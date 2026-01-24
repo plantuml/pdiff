@@ -10,14 +10,14 @@ start
 :Bind;
 fork
   repeat
-    :Listen admin<
+    :Listen admin; <<input>>
     :Execute;
-    :Reply admin>
+    :Reply admin; <<output>>
   repeat while (shutdown>) is (no)
 fork again
   repeat
-    :Listen user<;
-    :Reply user>
+    :Listen user; <<input>>
+    :Reply user; <<output>>
   repeat while (forever)
   detach
 endfork

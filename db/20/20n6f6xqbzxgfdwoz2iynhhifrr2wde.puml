@@ -10,8 +10,8 @@ title Some_Title_Here
 start
 
 if ( #####)
-	:**EVENT1**}
-	#lightblue: #####|
+	:**EVENT1**; <<continuous>>
+	#lightblue: #####; <<procedure>>
 	-[#blue]-> callback received;
 	if ( #####) then ( #####)
 		: #####;
@@ -20,7 +20,7 @@ if ( #####)
 		if ( #####) then ( #####)
 			: #####;
 			if ( #####) then ( #####)
-				#lightblue: #####|
+				#lightblue: #####; <<procedure>>
 				-[#blue]-> callback received;
 				if ( #####) then ( #####)
 					stop
@@ -36,10 +36,10 @@ if ( #####)
 					repeat
 						if ( #####) then ( #####)
 							: ##### = +1;
-							: #####|
+							: #####; <<procedure>>
 							: #####;
 						else ( #####)
-							#lightpink: #####]
+							#lightpink: #####; <<task>>
 							stop
 						endif
 					repeat while ( #####?) 
@@ -52,7 +52,7 @@ if ( #####)
 					: #####;
 					if ( #####) then ( #####)
 						: #####;
-						#lightblue: #####|
+						#lightblue: #####; <<procedure>>
 						-[#blue]-> callback received;
 						if ( #####) then ( #####)
 							: #####;
@@ -66,22 +66,22 @@ if ( #####)
 						if ( #####) then ( #####)
 						else ( #####)
 							if ( #####) then ( #####)
-								#lightblue: #####|
+								#lightblue: #####; <<procedure>>
 								-[#blue]-> callback received;
 								if ( #####) then ( #####)
 								else ( #####)
 									if ( #####) then ( #####)
-										#lightblue: #####|
+										#lightblue: #####; <<procedure>>
 										-[#blue]-> callback received;
-										#lightblue: #####|
+										#lightblue: #####; <<procedure>>
 										-[#blue]-> callback received;
 										if ( #####) then ( #####)
-											#lightpink: #####]
+											#lightpink: #####; <<task>>
 											stop
 										else ( #####)
 										endif
 									else ( #####)
-										#lightpink: #####]
+										#lightpink: #####; <<continuous>>
 										stop
 									endif
 								endif
@@ -89,16 +89,16 @@ if ( #####)
 							else ( #####)
 								if ( #####) then ( #####)
 								else ( #####)
-									#lightblue: #####|
+									#lightblue: #####; <<procedure>>
 									-[#blue]-> callback received;
 									if ( #####) then ( #####)
-										#lightpink: #####]
+										#lightpink: #####; <<task>>
 										stop
 									else ( #####)
 										: #####;
 										: #####;
 										: #####;
-										#lightgreen: #####]
+										#lightgreen: #####; <<continuous>>
 										stop
 									endif
 								endif
@@ -114,46 +114,46 @@ if ( #####)
 			stop
 		endif
 	endif
-	#lightgreen: #####]
+	#lightgreen: #####; <<task>>
 	stop
 else
-	:**EVENT2**}
-	#lightblue: #####|
+	:**EVENT2**; <<continuous>>
+	#lightblue: #####; <<procedure>>
 	-[#blue]-> callback received;
 	: #####;
-	#lightblue: #####|
+	#lightblue: #####; <<procedure>>
 	-[#blue]-> callback received;
 	if ( #####) then ( #####)
-		#lightpink: #####]
+		#lightpink: #####; <<task>>
 		stop
 	endif
 
 	if ( #####) then ( #####)
 		if ( #####) then ( #####)
-			#lightblue: #####|
+			#lightblue: #####; <<procedure>>
 			-[#blue]-> callback received;
 			if ( #####) then ( #####)
-				#lightpink: #####]
+				#lightpink: #####; <<task>>
 				stop
 			else ( #####)
 				: #####;
 			endif
 		else ( #####)
-			#lightpink: #####]
+			#lightpink: #####; <<task>>
 			stop
 		endif
 	else ( #####)
 		if ( #####) then ( #####)
 			: #####;
 			if ( #####) then ( #####)
-				#lightpink: #####]
+				#lightpink: #####; <<task>>
 				stop
 			else ( #####)
 			endif
 		else ( #####)
 			: #####;
 			if ( #####) then ( #####)
-				#lightpink: #####]
+				#lightpink: #####; <<task>>
 				stop
 			else ( #####)
 				: #####;
@@ -161,15 +161,15 @@ else
 		endif
 	endif
 	: #####;
-	#lightblue: #####|
+	#lightblue: #####; <<procedure>>
 	-[#blue]-> callback received;
 	if ( #####) then ( #####)
-		#lightpink: #####]
+		#lightpink: #####; <<task>>
 		stop
 	else ( #####)
 	endif
 	: #####;
-	#lightgreen: #####]
+	#lightgreen: #####; <<task>>
 	stop
 endif
 

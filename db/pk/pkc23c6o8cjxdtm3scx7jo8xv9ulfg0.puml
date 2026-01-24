@@ -23,7 +23,7 @@
     -[#red;#blue,dashed]->
     while(a)
        -[#red;#blue,dashed]->
-       :something}
+       :something; <<continuous>>
        -[#red;#blue,dashed]->   
     endwhile
   
@@ -31,7 +31,7 @@
 
    repeat
         -[#red;#blue,dashed]->
-       :something}
+       :something; <<continuous>>
        -[#red;#blue,dashed]->
    repeat while(a)is(b)
 @enduml

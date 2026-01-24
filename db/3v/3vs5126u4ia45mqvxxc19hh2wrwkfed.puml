@@ -8,13 +8,13 @@
 @startuml
 start
 :Registration in the system;
-:Entering your username<
-repeat:Entering a password<
-:Re-entering your password<
+:Entering your username; <<input>>
+repeat:Entering a password; <<input>>
+:Re-entering your password; <<input>>
 backward:Passwords don't match;
 note right:Error
 repeat while (Passwords match?) is (No) not (Yes)
-:Sending data to the server>
+:Sending data to the server; <<output>>
 :Waiting for a response from the server for a certain amount of time;
 if(The server responds?) then (No)
 :Displaying the message: server is not responding;

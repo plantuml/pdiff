@@ -8,7 +8,7 @@
 }
 @startuml
 :A;
-repeat:B]
+repeat:B; <<task>>
 repeat while (C)
-:D]
+:D; <<task>>
 @enduml

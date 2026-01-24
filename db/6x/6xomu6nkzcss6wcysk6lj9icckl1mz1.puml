@@ -48,7 +48,7 @@ partition "Not always" {
 		case (case 1)
 		case (case 2)
 		case (case\n it \nbreaks)
-			:What if this is wider?/
+			:What if this is wider?; <<save>>
 	endswitch
 	:Also on the right!;
 	note
@@ -71,22 +71,22 @@ partition "Comments\nhidden" {
 		case (case 1)
 		case (case 2)
 		case (case 3)
-			:Select 3/
+			:Select 3; <<save>>
 	endswitch
 }
 
 partition "Miscalculated upper\nmargin or padding" {
 	switch (Test a variable)
 		case (This is a multiple\nline and long text\narrow comment)
-			:Option One/
+			:Option One; <<save>>
 		case (This is another multiple\nline and long text\narrow comment)
-			:Multiple\nline option Two/
+			:Multiple\nline option Two; <<save>>
 		case (else\nwith \three \nlines)
-			:In else case.../
+			:In else case...; <<save>>
 	endswitch
 }
 
-:Let's go}
+:Let's go; <<continuous>>
 
 stop
 
