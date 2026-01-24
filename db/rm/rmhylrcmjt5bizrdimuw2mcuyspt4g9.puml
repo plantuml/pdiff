@@ -1,25 +1,22 @@
 {
-  "sha1": "gl934a9dp2bnqerjsh5vhowpn3851pd",
+  "sha1": "rmhylrcmjt5bizrdimuw2mcuyspt4g9",
   "insertion": {
-    "when": "2024-06-01T09:03:07.960Z",
+    "when": "2024-05-30T20:48:21.710Z",
     "url": "https://github.com/plantuml/plantuml/issues/1423",
     "user": "plantuml@gmail.com"
   }
 }
 @startuml
-'!theme cerulean
+!theme cerulean
 <style>
 .continuous {
   FontColor red
 }
-.input {
-  FontColor blue
-}
 </style>
-:action1; <<continuous>>
+
+:test;
+<<continuous>>:action1; 
 :action2; <<continuous>>
 :action3; <<continuous>>
-:foo1; <<input>>
-:foo2; <<input>>
-:foo3; <<ouput>>
+
 @enduml
