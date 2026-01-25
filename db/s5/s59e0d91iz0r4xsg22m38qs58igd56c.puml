@@ -1,0 +1,25 @@
+{
+  "sha1": "s59e0d91iz0r4xsg22m38qs58igd56c",
+  "insertion": {
+    "when": "2026-01-25T11:58:44.060Z",
+    "url": "https://forum.plantuml.net/19033/teoz-mainframe-overlaping-box",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+mainframe **sd** Test
+
+participant A
+
+box
+    participant B
+    participant C
+end box
+
+activate A
+A -> B ++:M1
+B -> C ++:M2
+C -> C ++--:A1
+B <-- C --:R2
+A <<-- B --:R1
+@enduml
