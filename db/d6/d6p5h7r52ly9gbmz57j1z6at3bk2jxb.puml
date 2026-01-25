@@ -1,5 +1,5 @@
 {
-  "sha1": "59p324r23rmiswjo95j2e6lq0qtray0",
+  "sha1": "d6p5h7r52ly9gbmz57j1z6at3bk2jxb",
   "insertion": {
     "when": "2024-05-30T20:48:20.694Z",
     "url": "https://forum.plantuml.net/10676/repeat-plus-colour?show=10746#c10746",
@@ -11,6 +11,6 @@ skinparam activity {
   BackgroundColor<<MyGreen>> LightGreen
 }
 :A;
-<<MyGreen>>repeat:B;
+repeat:B; <<MyGreen>>
 repeat while (C) 
 @enduml
