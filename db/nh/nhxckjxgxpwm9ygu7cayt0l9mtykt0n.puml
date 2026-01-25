@@ -1,5 +1,5 @@
 {
-  "sha1": "htz41txfz8sdwolumf6i5igk1t6sc9h",
+  "sha1": "nhxckjxgxpwm9ygu7cayt0l9mtykt0n",
   "insertion": {
     "when": "2024-06-03T18:59:30.022Z",
     "url": "https://github.com/plantuml/plantuml/issues/1422",
@@ -20,6 +20,6 @@
 }
 </style>
 :a;
-<<test>>:b (OK);
+:b (OK); <<test>>
 :c (Not yet); <<test>>
 @enduml

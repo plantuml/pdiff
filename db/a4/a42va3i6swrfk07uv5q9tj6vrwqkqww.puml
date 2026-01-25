@@ -1,5 +1,5 @@
 {
-  "sha1": "rmhylrcmjt5bizrdimuw2mcuyspt4g9",
+  "sha1": "a42va3i6swrfk07uv5q9tj6vrwqkqww",
   "insertion": {
     "when": "2024-05-30T20:48:21.710Z",
     "url": "https://github.com/plantuml/plantuml/issues/1423",
@@ -15,7 +15,7 @@
 </style>
 
 :test;
-<<continuous>>:action1; 
+:action1; <<continuous>>
 :action2; <<continuous>>
 :action3; <<continuous>>
 
