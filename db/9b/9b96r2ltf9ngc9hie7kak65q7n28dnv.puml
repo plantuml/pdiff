@@ -1,0 +1,12 @@
+{
+  "sha1": "9b96r2ltf9ngc9hie7kak65q7n28dnv",
+  "insertion": {
+    "when": "2026-01-26T20:37:11.269Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2162",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+X -> X
+destroy Y
+@enduml

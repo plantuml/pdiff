@@ -1,0 +1,17 @@
+{
+  "sha1": "4rgeaq9lpig374q0pvyjs7di2qf4629",
+  "insertion": {
+    "when": "2026-01-26T20:37:11.274Z",
+    "url": "https://github.com/plantuml/plantuml/issues/589",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+partition p
+a->b
+end
+
+group
+a->c
+end group
+@enduml
