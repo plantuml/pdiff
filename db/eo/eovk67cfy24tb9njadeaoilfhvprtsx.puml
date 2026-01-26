@@ -8,8 +8,8 @@
 @startuml
 |Lampiris|
 start
-#01DF01:initiate switch() ;
-#01DF01:VerifierRecevabiliteCHF();
+:initiate switch() ; <<#01DF01>>
+:VerifierRecevabiliteCHF(); <<#01DF01>>
 |Web Service|
 if (PCE connu) then (non)
 |Lampiris|

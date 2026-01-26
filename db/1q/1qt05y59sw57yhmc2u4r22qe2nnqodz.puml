@@ -9,7 +9,7 @@
 @startuml
 :A;
 repeat
-#RED:B;
+:B; <<#RED>>
 repeat while (C)
 :D;
 @enduml

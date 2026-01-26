@@ -9,32 +9,32 @@
 skinparam shadowing false
 start
 if ()
-    #PaleGreen:dummy;
+    :dummy; <<#PaleGreen>>
         note left
             dummy text
         end note
-    #PaleGreen:dummy;
+    :dummy; <<#PaleGreen>>
         note left
             dummy text
         end note
     if () then ([dummy text])
-    #PaleGreen:dummy;
+    :dummy; <<#PaleGreen>>
         note:dummy text
-    #PaleGreen:dummy;
+    :dummy; <<#PaleGreen>>
     else ([dummy text])
         note right
              dummy text
         end note
         if () then ( )
-            #PaleGreen:dummy;
+            :dummy; <<#PaleGreen>>
             end;
         else ([dummy\ntext])
-            #PaleGreen:dummy;
+            :dummy; <<#PaleGreen>>
             end;    
         endif    
     endif
 else ([dummy text])
-    #PaleGreen:dummy;
+    :dummy; <<#PaleGreen>>
 endif
 stop
 @enduml

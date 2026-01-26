@@ -9,12 +9,12 @@
 
 :start1 on
 several line;
-#AAAAAA:start2 on
-several line;
+:start2 on
+several line; <<#AAAAAA>>
 if (some test) then (yes)
   :do this;
 else (no)
   :do other thing;
 endif
-#red:end of process;
+:end of process; <<#red>>
 @enduml

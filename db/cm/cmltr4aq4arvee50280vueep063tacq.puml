@@ -11,7 +11,7 @@ start
 
 if ( #####)
 	:**EVENT1**; <<continuous>>
-	#lightblue: #####; <<procedure>>
+	: #####; <<procedure>> <<#lightblue>>
 	-[#blue]-> callback received;
 	if ( #####) then ( #####)
 		: #####;
@@ -20,7 +20,7 @@ if ( #####)
 		if ( #####) then ( #####)
 			: #####;
 			if ( #####) then ( #####)
-				#lightblue: #####; <<procedure>>
+				: #####; <<procedure>><<#lightblue>>
 				-[#blue]-> callback received;
 				if ( #####) then ( #####)
 					stop
@@ -39,7 +39,7 @@ if ( #####)
 							: #####; <<procedure>>
 							: #####;
 						else ( #####)
-							#lightpink: #####; <<task>>
+							: #####; <<task>><<#lightpink>>
 							stop
 						endif
 					repeat while ( #####?) 
@@ -52,7 +52,7 @@ if ( #####)
 					: #####;
 					if ( #####) then ( #####)
 						: #####;
-						#lightblue: #####; <<procedure>>
+						: #####; <<procedure>> <<#lightblue>>
 						-[#blue]-> callback received;
 						if ( #####) then ( #####)
 							: #####;
@@ -66,22 +66,22 @@ if ( #####)
 						if ( #####) then ( #####)
 						else ( #####)
 							if ( #####) then ( #####)
-								#lightblue: #####; <<procedure>>
+								: #####; <<procedure>><<#lightblue>>
 								-[#blue]-> callback received;
 								if ( #####) then ( #####)
 								else ( #####)
 									if ( #####) then ( #####)
-										#lightblue: #####; <<procedure>>
+										: #####; <<procedure>><<#lightblue>>
 										-[#blue]-> callback received;
-										#lightblue: #####; <<procedure>>
+										: #####; <<procedure>><<#lightblue>>
 										-[#blue]-> callback received;
 										if ( #####) then ( #####)
-											#lightpink: #####; <<task>>
+											: #####; <<task>><<#lightpink>>
 											stop
 										else ( #####)
 										endif
 									else ( #####)
-										#lightpink: #####; <<continuous>>
+										: #####; <<continuous>><<#lightpink>>
 										stop
 									endif
 								endif
@@ -89,16 +89,16 @@ if ( #####)
 							else ( #####)
 								if ( #####) then ( #####)
 								else ( #####)
-									#lightblue: #####; <<procedure>>
+									: #####; <<procedure>><<#lightblue>>
 									-[#blue]-> callback received;
 									if ( #####) then ( #####)
-										#lightpink: #####; <<task>>
+										: #####; <<task>><<#lightpink>>
 										stop
 									else ( #####)
 										: #####;
 										: #####;
 										: #####;
-										#lightgreen: #####; <<continuous>>
+										: #####; <<continuous>><<#lightgreen>>
 										stop
 									endif
 								endif
@@ -114,46 +114,46 @@ if ( #####)
 			stop
 		endif
 	endif
-	#lightgreen: #####; <<task>>
+	: #####; <<task>><<#lightgreen>>
 	stop
 else
 	:**EVENT2**; <<continuous>>
-	#lightblue: #####; <<procedure>>
+	: #####; <<procedure>><<#lightblue>>
 	-[#blue]-> callback received;
 	: #####;
-	#lightblue: #####; <<procedure>>
+	: #####; <<procedure>><<#lightblue>>
 	-[#blue]-> callback received;
 	if ( #####) then ( #####)
-		#lightpink: #####; <<task>>
+		: #####; <<task>><<#lightpink>>
 		stop
 	endif
 
 	if ( #####) then ( #####)
 		if ( #####) then ( #####)
-			#lightblue: #####; <<procedure>>
+			: #####; <<procedure>><<#lightblue>>
 			-[#blue]-> callback received;
 			if ( #####) then ( #####)
-				#lightpink: #####; <<task>>
+				: #####; <<task>><<#lightpink>>
 				stop
 			else ( #####)
 				: #####;
 			endif
 		else ( #####)
-			#lightpink: #####; <<task>>
+			: #####; <<task>><<#lightpink>>
 			stop
 		endif
 	else ( #####)
 		if ( #####) then ( #####)
 			: #####;
 			if ( #####) then ( #####)
-				#lightpink: #####; <<task>>
+				: #####; <<task>><<#lightpink>>
 				stop
 			else ( #####)
 			endif
 		else ( #####)
 			: #####;
 			if ( #####) then ( #####)
-				#lightpink: #####; <<task>>
+				: #####; <<task>><<#lightpink>>
 				stop
 			else ( #####)
 				: #####;
@@ -161,15 +161,15 @@ else
 		endif
 	endif
 	: #####;
-	#lightblue: #####; <<procedure>>
+	: #####; <<procedure>><<#lightblue>>
 	-[#blue]-> callback received;
 	if ( #####) then ( #####)
-		#lightpink: #####; <<task>>
+		: #####; <<task>><<#lightpink>>
 		stop
 	else ( #####)
 	endif
 	: #####;
-	#lightgreen: #####; <<task>>
+	: #####; <<task>><<#lightgreen>>
 	stop
 endif
 

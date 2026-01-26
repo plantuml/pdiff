@@ -20,7 +20,7 @@ floating note:
 if (highestQuality IN (PILOT, FLIGHT_ATTENDANT) ??) then ([yes])
 	if (period.quality == LABOURER ??) then ([no])
 		if () then ([year < 2012])
-			#7DC4FF:justify removal of period;
+			:justify removal of period; <<#7DC4FF>>
 			note: salary is ignored because\nit should be included in\nspecial contribution salary
 		else ([year >= 2012])
 			:add salary from period to destPeriod;

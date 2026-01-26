@@ -7,6 +7,6 @@
   }
 }
 @startuml
-#green:repeat
+repeat <<#green>>
 repeat while (ok)
 @enduml

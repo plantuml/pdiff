@@ -7,5 +7,5 @@
 }
 @startuml
 start
-#zzblue:toto;
+:toto; <<#zzblue>>
 @enduml

@@ -14,15 +14,15 @@ while(a)is(b)
    backward:test;
 endwhile
 
-#FF8080:Confusing layout
+:Confusing layout
 The arrows look
-to cross each other; <<output>>
+to cross each other; <<output>> <<#FF8080>>
 
 while(a)is(b)
    :do something;
    :test;
 endwhile
 
-#80FF80:Correct
-arrow layout; <<output>>
+:Correct
+arrow layout; <<output>> <<#80FF80>>
 @enduml

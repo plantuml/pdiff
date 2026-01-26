@@ -7,7 +7,7 @@
 }
 @startuml
 start;
-#red\white:foo1;
+:foo1; <<#red\white>>
 :hello <back:#FF9999/white>there1</back>;
 :hello <back:yellow>there2</back>;
 @enduml

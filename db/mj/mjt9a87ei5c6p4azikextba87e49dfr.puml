@@ -7,9 +7,9 @@
 }
 @startuml
     start
-    #green:if(foo)
+    if(foo) <<#green>>
     :...;
-    #red:elseif(bar)
+    elseif(bar) <<#red>>
     :...;
     else
     :..;
@@ -19,7 +19,7 @@
     start
     if(foo)
     :...;
-    #red:elseif(bar)
+    elseif(bar) <<#red>>
     :...;
     else
     :..;

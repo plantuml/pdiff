@@ -7,8 +7,8 @@
 }
 @startuml
 start
-#01DF01:initiate switch() ;
-#01DF01:VerifierRecevabiliteCHF();
+:initiate switch() ; <<#01DF01>>
+:VerifierRecevabiliteCHF(); <<#01DF01>>
 if (PCE connu) then (non)
 :statut 022;
 stop
@@ -23,7 +23,7 @@ while (Besoin RdV)
 if (Date disponible) then (oui)
 :envoi heures du creneau;
 if (Confirmation) then (oui)
-#01DF01:AccepterRdV();
+:AccepterRdV(); <<#01DF01>>
 :Statut 063;
 Stop
 else (non)
@@ -31,11 +31,11 @@ endif
 else (non)
 :envoi de liste de disponibilites;
 while (changement de liste)
-#01DF01:demanderPrecSuiv();
+:demanderPrecSuiv(); <<#01DF01>>
 :recuper nouvelle liste;
 endwhile (liste OK)
 endif
-#01DF01:ProposerDatePlage();
+:ProposerDatePlage(); <<#01DF01>>
 endwhile (Pas de RdV)
 :Statut 050;
 stop

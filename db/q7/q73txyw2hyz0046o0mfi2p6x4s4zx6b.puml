@@ -6,7 +6,7 @@
   }
 }
 @startuml
-!define WM_Pub(data) #aaffcc:Publish data;
+!define WM_Pub(data) :Publish data;<<#aaffcc>>
 
 start
 WM_Pub("Doc:signalForPendingSignature,aaa")

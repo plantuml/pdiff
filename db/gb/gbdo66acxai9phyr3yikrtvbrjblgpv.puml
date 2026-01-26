@@ -8,8 +8,8 @@
 @startuml
 |Fournisseur|
 start
-#01DF01:initiate switch() ;
-#01DF01:VerifierRecevabiliteCHF();
+:initiate switch() ; <<#01DF01>>
+:VerifierRecevabiliteCHF(); <<#01DF01>>
 |Web Service|
 if (PCE connu) then (non)
 |Fournisseur|
@@ -32,7 +32,7 @@ if (Date disponible) then (oui)
 :envoi heures du creneau;
 |Fournisseur|
 if (Confirmation) then (oui)
-#01DF01:AccepterRdV();
+:AccepterRdV(); <<#01DF01>>
 :Statut 063;
 Stop
 else (non)
@@ -42,13 +42,13 @@ else (non)
 :envoi de liste de disponibilites;
 |Fournisseur|
 while (changement de liste)
-#01DF01:demanderPrecSuiv();
+:demanderPrecSuiv(); <<#01DF01>>
 |Web Service|
 :recuper nouvelle liste;
 endwhile (liste OK)
 endif
 |Fournisseur|
-#01DF01:ProposerDatePlage();
+:ProposerDatePlage(); <<#01DF01>>
 endwhile (Pas de RdV)
 :Statut 050;
 stop

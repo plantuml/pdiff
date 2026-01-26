@@ -7,5 +7,5 @@
 }
 @startuml
 start
-#blue:<color:zzyellow>toto;
+:<color:zzyellow>toto; <<#blue>>
 @enduml

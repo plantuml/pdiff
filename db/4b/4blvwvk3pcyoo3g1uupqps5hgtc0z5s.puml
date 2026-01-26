@@ -7,5 +7,5 @@
 }
 @startuml
 start
-#AAAAAA;line:blue;text:red :start2 on;
+:start2 on; <<#AAAAAA;line:blue;text:red>>
 @enduml

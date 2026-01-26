@@ -18,7 +18,7 @@ if (Is there a Space?) then (yes)
 :"this is NOT added to the item above";
 else (no)
 :"No space, incorrect parsing:";
-#pink:<latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex>;<<output>>
+:<latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex>;<<output>><<#pink>>
 :<color:red>"this IS added to the item above";
 endif
 @enduml

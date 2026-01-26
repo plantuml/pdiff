@@ -7,17 +7,17 @@
 }
 @startuml
 start
-#lightblue:Action; <<procedure>>
+:Action; <<procedure>> <<#lightblue>>
 -[#blue]-> callback;
 if () then (OK)
 -[#black]->
 else if () then (ERROR)
   -[#red]->
-   #lightpink:ERROR; <<task>>
+   :ERROR; <<#lightpink>> <<task>>
    stop
 else (timeout)
   -[#green]->
-   #lightpink:TIMEOUT; <<task>>
+   :TIMEOUT; <<task>> <<#lightpink>> 
    stop
 endif
 -[#yellow]->

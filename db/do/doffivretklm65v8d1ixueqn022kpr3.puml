@@ -9,7 +9,7 @@
 @startuml
 
 repeat  
-#LightGreen :Review Activity; <<task>>
+:Review Activity; <<task>> <<#LightGreen>>
 
 backward  :Rework; <<task>>
 

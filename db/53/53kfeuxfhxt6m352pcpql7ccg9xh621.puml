@@ -10,7 +10,7 @@ start
 if (?) then (1)
     :Something;
 else (2)
-	[[http://plantuml.com/sequence]]#ff8822:if (?) then (x)
+	[[http://plantuml.com/sequence]] if (?) then (x) <<#ff8822>>
         stop
     else (y)
         stop

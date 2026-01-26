@@ -8,8 +8,8 @@
 }
 @startuml
 :A;
-#red:repeat :foo;
-#blue:D;
+repeat :foo; <<#red>>
+:D; <<#blue>>
 repeat while (C)
 :D;
 @enduml

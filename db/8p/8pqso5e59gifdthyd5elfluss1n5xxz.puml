@@ -8,6 +8,6 @@
 }
 @startuml
 :2ex;<<output>>
-#pink:3ex;<<output>>
+:3ex;<<output>> <<#pink>>
 :4end;
 @enduml

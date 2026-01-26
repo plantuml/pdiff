@@ -24,7 +24,7 @@ if (decision) then (yes)
     :C1; <<foo>>
 else (no)
 endif
-if<<foo>> (decision) then (yes)
+if (decision) then (yes) <<foo>>
     :C2;
 else (no)
 endif
