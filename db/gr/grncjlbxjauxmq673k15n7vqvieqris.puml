@@ -1,0 +1,33 @@
+{
+  "sha1": "grncjlbxjauxmq673k15n7vqvieqris",
+  "insertion": {
+    "when": "2026-01-30T18:21:25.551Z",
+    "url": "https://forum.plantuml.net/18644/style-lifeline-colors-fails-when-teoz-is-added",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<STYLE>
+sequenceDiagram {
+  .bob_style {
+    ShowStereotype false
+    Lifeline {
+      linecolor red
+      linestyle solid
+      lineThickness 3
+    }
+  }
+  .alice_style {
+    ShowStereotype false
+    Lifeline {
+      linecolor green
+      linestyle 2
+      lineThickness 10
+    }
+  }
+}
+</STYLE>
+participant Bob <<bob_style>>
+participant Alice <<alice_style>>
+Bob -> Alice : hello
+@enduml

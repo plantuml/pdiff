@@ -1,0 +1,34 @@
+{
+  "sha1": "c99lspq5omi5yrmyy3aw8sup3rvymz7",
+  "insertion": {
+    "when": "2026-01-30T18:21:25.552Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2104",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+activate Alice
+Alice -> Bob ++: message 1
+Alice -> Bob ++: message 2
+
+Bob -> Alice --: answer 2
+Bob -> Alice --: answer 1
+
+newpage
+
+{start} Alice -> Bob ++: start doing things during duration
+Bob -> Max ++: something
+Max -> Bob --: something else
+{end} Bob -> Alice --: finish
+
+{start} <-> {end} : some time
+
+
+Alice -> Bob ++: message 3
+Alice -> Bob ++: message 4
+
+Bob -> Alice --: answer 4
+Bob -> Alice --: answer 3
+
+deactivate Alice
+@enduml
