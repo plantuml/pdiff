@@ -1,7 +1,7 @@
 {
-  "sha1": "4yoa19bu4pj017v3v0jet5t421xo43a",
+  "sha1": "nn24ol8rzkmoqvlkc7m7hbch8n5aook",
   "insertion": {
-    "when": "2024-05-30T20:48:20.926Z",
+    "when": "2024-05-30T20:48:21.938Z",
     "user": "plantuml@gmail.com"
   }
 }
@@ -16,7 +16,7 @@ skinparam conditionStyle diamond
 title conditionallyMoveSalary
 start
 floating note: 
-:inputs: period, destPeriod, highestQuality\n'period' is the 'general regime' period\n'destPeriod' is the matching period of 'highestQuality'; <<task>>
+:inputs: period, destPeriod, highestQuality\n'period' is the 'general regime' period\n'destPeriod' is the matching period of 'highestQuality';<<task>>
 if (highestQuality IN (PILOT, FLIGHT_ATTENDANT) ??) then ([yes])
 	if (period.quality == LABOURER ??) then ([no])
 		if () then ([year < 2012])

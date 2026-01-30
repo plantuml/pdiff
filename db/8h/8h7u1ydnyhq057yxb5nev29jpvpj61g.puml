@@ -1,7 +1,7 @@
 {
-  "sha1": "ofj1swotwql8dsi2dtllx2zwezigzrm",
+  "sha1": "8h7u1ydnyhq057yxb5nev29jpvpj61g",
   "insertion": {
-    "when": "2024-06-04T17:28:39.817Z",
+    "when": "2024-05-30T20:48:21.766Z",
     "url": "https://forum.plantuml.net/16912/backward-in-repeat-loop-not-possible-to-set-color",
     "user": "plantuml@gmail.com"
   }
@@ -9,9 +9,9 @@
 @startuml
 
 repeat  
-:Review Activity;<<task>><<#LightGreen>>
+:Review Activity; <<task>> <<#LightGreen>>
 
-backward  :Rework;<<task>>
+backward  :Rework; <<task>>
 
 repeat while (active Remarks) is (Yes) not (No)
 
