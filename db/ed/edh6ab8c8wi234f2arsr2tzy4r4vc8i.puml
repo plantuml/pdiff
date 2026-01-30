@@ -1,0 +1,23 @@
+{
+  "sha1": "edh6ab8c8wi234f2arsr2tzy4r4vc8i",
+  "insertion": {
+    "when": "2026-01-30T17:39:08.584Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+switch (test?) <<#red>>
+case ( condition A )
+  :Text 1;
+case ( condition B ) 
+  :Text 2;
+case ( condition C )
+  :Text 3;
+case ( condition D )
+  :Text 4;
+case ( condition E )
+  :Text 5;
+endswitch
+stop
+@enduml

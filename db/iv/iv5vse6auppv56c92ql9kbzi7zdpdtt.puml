@@ -1,0 +1,16 @@
+{
+  "sha1": "iv5vse6auppv56c92ql9kbzi7zdpdtt",
+  "insertion": {
+    "when": "2026-01-30T17:39:08.587Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+start
+fork <<#red>>
+  :action 1;
+fork again
+  :action 2;
+end fork
+stop
+@enduml
