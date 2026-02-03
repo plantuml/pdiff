@@ -1,0 +1,155 @@
+https://github.com/plantuml/plantuml/pull/2499
+@startuml
+clock "Clock" as clk with period 1
+binary "Enable" as EN
+
+@0
+EN is low
+
+@2
+EN is high
+
+@3
+EN is low
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2499
+@startuml
+clock clk with period 1
+binary "Enable" as EN
+
+@0
+EN is low
+
+@2
+EN is high
+
+@3
+EN is low
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2499
+@startuml
+clock clk with period 1
+binary EN
+
+@0
+EN is low
+
+@2
+EN is high
+
+@3
+EN is low
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2499
+@startuml
+robust "Web Browser" as WB
+concise "Web User" as WU
+rectangle "Rect. Web User" as RWU
+
+@0
+WU is Idle
+RWU is Idle
+WB is Idle
+
+@100
+WU is Waiting
+RWU is Waiting
+WB is Processing
+
+@300
+WB is Waiting
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2499
+@startuml
+robust WB
+concise WU
+rectangle RWU
+
+@0
+WU is Idle
+RWU is Idle
+WB is Idle
+
+@100
+WU is Waiting
+RWU is Waiting
+WB is Processing
+
+@300
+WB is Waiting
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2499
+@startuml
+analog "Analog" between 350 and 450 as A
+
+@0
+A is 350
+
+@100
+A is 450
+
+@300
+A is 350
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2499
+@startuml
+analog "Analog" as A
+
+@0
+A is 350
+
+@100
+A is 450
+
+@300
+A is 350
+@enduml
+
+
+https://github.com/plantuml/plantuml/pull/2499
+@startuml
+analog A
+
+@0
+A is 350
+
+@100
+A is 450
+
+@300
+A is 350
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2499
+@startuml
+analog "Analog" as A between 350 and 450
+
+@0
+A is 350
+
+@100
+A is 450
+
+@300
+A is 350
+@enduml
+
+https://github.com/plantuml/plantuml/pull/2499
+@startuml
+analog A between 350 and 450
+
+@0
+A is 350
+
+@100
+A is 450
+
+@300
+A is 350
+@enduml
