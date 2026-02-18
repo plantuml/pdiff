@@ -1,0 +1,16 @@
+{
+  "sha1": "op8arf04te38wr1hv1594d425iblxwq",
+  "insertion": {
+    "when": "2026-02-18T18:13:14.115Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2541",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class Test {
+    +normalMethod(): void
+    +--deprecatedMethod--(): void
+    {static} +staticMethod(): void
+    {static} +--deprecatedStaticMethod--(): void
+}
+@enduml
