@@ -1,0 +1,13 @@
+{
+  "sha1": "ch8k1zapvy9125sxzc334gzz8di45jd",
+  "insertion": {
+    "when": "2026-02-18T22:28:42.428Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2536",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class User
+class Item
+User "owner"/"1" -- "0..n"/"items" Item
+@enduml
