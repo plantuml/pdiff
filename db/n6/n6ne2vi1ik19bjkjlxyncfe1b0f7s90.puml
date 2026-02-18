@@ -1,0 +1,19 @@
+{
+  "sha1": "n6ne2vi1ik19bjkjlxyncfe1b0f7s90",
+  "insertion": {
+    "when": "2026-02-18T22:29:18.137Z",
+    "url": "https://forum.plantuml.net/18832/teoz-grouping-does-not-embrace-all-signals",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant A
+participant B
+participant C
+participant D
+participant E
+group
+A->? : M1
+?->E : M2
+end
+@enduml
