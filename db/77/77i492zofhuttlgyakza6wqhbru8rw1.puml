@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   network Sample_front {
     address = "192.168.10.0/24";
@@ -31,4 +31,4 @@ nwdiag {
     }
   }
 }
-@enduml
+@endnwdiag

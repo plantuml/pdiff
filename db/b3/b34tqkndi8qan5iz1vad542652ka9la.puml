@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   group {
     color = "#FF7777";
@@ -29,4 +29,4 @@ nwdiag {
       db02 ;
   }
 }
-@enduml
+@endnwdiag

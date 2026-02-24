@@ -5,7 +5,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
     network dmz {
         address = "Public IP"
@@ -52,4 +52,4 @@ nwdiag {
     users -- proxy01 [label = "Web traffic"];
     users -- proxy02 [label = "Web traffic"];
 }
-@enduml
+@endnwdiag

@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
 
   network {
@@ -16,4 +16,4 @@ nwdiag {
 
   backend -- db;
 }
-@enduml
+@endnwdiag

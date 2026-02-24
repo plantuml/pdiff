@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
     internet [ shape = cloud];
     internet -- ingress;
@@ -27,4 +27,4 @@ nwdiag {
     }
   }
 }
-@enduml
+@endnwdiag

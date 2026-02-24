@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 <style>
 nwdiagDiagram {
   group {
@@ -27,4 +27,4 @@ nwdiag {
 	  a  [color = "Red", description="desc"]
 	}
 }
-@enduml
+@endnwdiag

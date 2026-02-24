@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   network dc {
     server;
@@ -15,4 +15,4 @@ nwdiag {
   internet [shape = cloud];
 }
 
-@enduml
+@endnwdiag

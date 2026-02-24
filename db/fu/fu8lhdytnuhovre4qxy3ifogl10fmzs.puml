@@ -5,7 +5,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
 <style>
 root {
@@ -31,4 +31,4 @@ root {
     db01;
   }
 }
-@enduml
+@endnwdiag

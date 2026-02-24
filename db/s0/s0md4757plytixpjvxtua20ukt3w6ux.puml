@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 <style>
 nwdiagDiagram {
   network {
@@ -55,4 +55,4 @@ nwdiag {
     db01;
   }
 }
-@enduml
+@endnwdiag

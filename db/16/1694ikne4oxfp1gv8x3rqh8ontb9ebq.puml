@@ -6,11 +6,11 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 hide footbox
 nwdiag {
   network Test {
     Server
   }
 }
-@enduml
+@endnwdiag

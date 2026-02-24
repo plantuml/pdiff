@@ -6,9 +6,9 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   a
   b
 }
-@enduml
+@endnwdiag

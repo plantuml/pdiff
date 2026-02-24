@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 
 nwdiag {
 	group {
@@ -33,4 +33,4 @@ nwdiag {
 
 }
 
-@enduml
+@endnwdiag

@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   network network2 {
     address = "192.0.2.0/16"
@@ -16,4 +16,4 @@ nwdiag {
     node3 [address="192.0.2.3"];
   }
 }
-@enduml
+@endnwdiag

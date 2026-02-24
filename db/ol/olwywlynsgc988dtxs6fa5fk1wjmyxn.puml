@@ -6,8 +6,8 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   a -- b [shape = cloud, address="USB"];
 }
-@enduml
+@endnwdiag

@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   network LAN2 {
      switch;
@@ -14,4 +14,4 @@ nwdiag {
   switch -- equip;
   equip [address = "e3"];
 }
-@enduml
+@endnwdiag

@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   inet [shape = cloud];
   inet -- router;
@@ -17,4 +17,4 @@ nwdiag {
     web02;
   }
 }
-@enduml
+@endnwdiag

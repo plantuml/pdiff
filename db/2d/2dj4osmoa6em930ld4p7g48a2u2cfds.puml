@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 !include <cloudinsight/tomcat.puml>
 nwdiag {
       network {
@@ -14,4 +14,4 @@ nwdiag {
         B [address = 192.168.0.2, description = "web server02"];
       }
 }
-@enduml
+@endnwdiag

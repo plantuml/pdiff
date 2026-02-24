@@ -5,7 +5,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
     nwdiag {
         group {
             description = "A";
@@ -37,4 +37,4 @@
         userB -- searchB;
         searchB;
     }
-@enduml
+@endnwdiag

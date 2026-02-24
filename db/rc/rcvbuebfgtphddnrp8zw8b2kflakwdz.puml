@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
     network dmz {
         address = "Public IP"
@@ -46,4 +46,4 @@ nwdiag {
     }
 
 }
-@enduml
+@endnwdiag

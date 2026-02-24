@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   // define group at outside network definitions
   group {
@@ -29,4 +29,4 @@ nwdiag {
     db01 [address = ".101", shape = database];
   }
 }
-@enduml
+@endnwdiag

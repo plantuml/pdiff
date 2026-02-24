@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   network NETWORK_BASE {
 
@@ -26,4 +26,4 @@ nwdiag {
 
  }
 }
-@enduml
+@endnwdiag

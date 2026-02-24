@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
 
     network proxy {
@@ -25,4 +25,4 @@ nwdiag {
     }
 
 }
-@enduml
+@endnwdiag

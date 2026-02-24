@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 
 nwdiag {
 network net1 {
@@ -21,4 +21,4 @@ group uniqueNode {
 
 }
 
-@enduml
+@endnwdiag

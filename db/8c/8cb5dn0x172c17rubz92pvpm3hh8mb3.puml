@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 <style>
 root {
   BackGroundColor palegreen
@@ -27,4 +27,4 @@ nwdiag {
     w2;
   }
 }
-@enduml
+@endnwdiag

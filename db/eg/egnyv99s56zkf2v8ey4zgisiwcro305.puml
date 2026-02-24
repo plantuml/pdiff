@@ -6,11 +6,11 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   network LAN2 {
      switch;
   }
   switch -- equip;
 }
-@enduml
+@endnwdiag

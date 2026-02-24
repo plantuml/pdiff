@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 <style>
 root {
  shadowing 0
@@ -20,4 +20,4 @@ nwdiag {
   internet [shape = cloud];
 }
 
-@enduml
+@endnwdiag

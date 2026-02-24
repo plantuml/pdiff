@@ -5,7 +5,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 header some header
 footer some footer
 title My title
@@ -17,4 +17,4 @@ nwdiag {
 legend
 The legend
 end legend
-@enduml
+@endnwdiag

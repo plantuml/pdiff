@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
     ISP_A [ shape = cloud];
     ISP_A -- routerA;
@@ -43,4 +43,4 @@ nwdiag {
     }
 
 }
-@enduml
+@endnwdiag

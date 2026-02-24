@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
 
 c1 [ shape = cloud];
@@ -25,4 +25,4 @@ network nwx {
 }
 
 }
-@enduml
+@endnwdiag

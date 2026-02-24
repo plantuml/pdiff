@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
 network 5012-VM6S.W {
 width = full
@@ -14,4 +14,4 @@ width = full
    dev_B [address = "dev_B" ]
 }
 }
-@enduml
+@endnwdiag

@@ -6,7 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 nwdiag {
   network LAN1 {
       a [address = "a1"];
@@ -19,4 +19,4 @@ nwdiag {
   equip -- printer;
 }
 
-@enduml
+@endnwdiag

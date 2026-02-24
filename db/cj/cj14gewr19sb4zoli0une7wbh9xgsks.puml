@@ -6,11 +6,11 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startnwdiag
 title only x2
 nwdiag {
 	dev1
 	dev2[address = "x2"]
 	dev1 -- dev2
 }
-@enduml
+@endnwdiag
