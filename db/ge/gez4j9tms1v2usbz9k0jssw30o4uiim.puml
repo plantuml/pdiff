@@ -1,0 +1,37 @@
+{
+  "sha1": "gez4j9tms1v2usbz9k0jssw30o4uiim",
+  "insertion": {
+    "when": "2026-02-24T15:52:50.948Z",
+    "url": "https://forum.plantuml.net/19127/stereotype-lifeline-styles-are-not-working-with-teoz-engine",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<STYLE>
+sequenceDiagram {
+    FontColor blue
+    LineColor blue
+    LineThickness 2
+    LineStyle 1-1
+    Lifeline {
+      linecolor red
+      linestyle solid
+      lineThickness 3
+    }
+  .alice_style {
+    FontColor green
+    LineColor green
+    LineStyle 1-4
+    lineThickness 10
+    Lifeline {
+      linecolor green
+      linestyle 2
+      lineThickness 10
+    }
+  }
+}
+</STYLE>
+participant Bob
+entity Alice <<alice_style>>
+Bob -> Alice : hello
+@enduml

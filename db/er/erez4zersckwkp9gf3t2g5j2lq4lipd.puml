@@ -1,0 +1,20 @@
+{
+  "sha1": "erez4zersckwkp9gf3t2g5j2lq4lipd",
+  "insertion": {
+    "when": "2026-02-24T15:52:50.907Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2499",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+analog "Analog" as A
+
+@0
+A is 350
+
+@100
+A is 450
+
+@300
+A is 350
+@enduml
