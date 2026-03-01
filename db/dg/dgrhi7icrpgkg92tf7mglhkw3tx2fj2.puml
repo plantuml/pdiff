@@ -1,0 +1,28 @@
+{
+  "sha1": "dgrhi7icrpgkg92tf7mglhkw3tx2fj2",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.756Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+<style>
+.primary {
+BackGroundColor #3498db
+LineColor #2980b9
+}
+    .success {
+BackGroundColor #2ecc71
+LineColor #27ae60
+}
+    .danger {
+BackGroundColor #e74c3c
+LineColor #c0392b
+}
+</style>
+    h-axis [Q1, Q2, Q3, Q4]
+v-axis 0 --> 100 grid
+bar <<primary>> "Revenue" [45, 62, 58, 70]
+bar <<success>> "Profit" [35, 48, 52, 61]
+bar <<danger>> "Costs" [25, 30, 28, 32]
+@endchart

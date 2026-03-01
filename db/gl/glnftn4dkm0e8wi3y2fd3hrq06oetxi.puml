@@ -1,0 +1,13 @@
+{
+  "sha1": "glnftn4dkm0e8wi3y2fd3hrq06oetxi",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.744Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+title Performance
+h-axis [Q1, Q2, Q3, Q4]
+v-axis 0 --> 100 ticks [0:"Poor", 50:"Average", 100:"Excellent"]
+bar [30, 60, 85, 95] #3498db
+@endchart

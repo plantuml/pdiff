@@ -1,0 +1,16 @@
+{
+  "sha1": "nbrfjwjyk18v7lja89y09n9rd5s0ufr",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.753Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+title Revenue vs Market Share
+    h-axis "Quarters" [Q1, Q2, Q3, Q4]
+v-axis "Revenue ($M)" 0 --> 100
+v2-axis "Market Share %" 0 --> 50
+    bar "Revenue" [45, 62, 58, 70] #3498db
+line "Market Share" [15, 20, 18, 25] #2ecc71 v2
+    legend right
+@endchart

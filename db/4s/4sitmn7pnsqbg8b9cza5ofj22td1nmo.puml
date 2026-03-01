@@ -1,0 +1,13 @@
+{
+  "sha1": "4sitmn7pnsqbg8b9cza5ofj22td1nmo",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.742Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+orientation horizontal
+v-axis [Product A, Product B, Product C]
+h-axis "Revenue" 0 --> 100
+bar [45, 62, 58] #3498db
+@endchart

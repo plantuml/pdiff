@@ -1,0 +1,12 @@
+{
+  "sha1": "t5x2ixtd56t301kqsg1r9mm5420drf3",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.752Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+h-axis [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct] grid
+v-axis 0 --> 100 grid
+line [45, 62, 58, 70, 83, 78, 65, 72, 80, 85] #3498db
+@endchart

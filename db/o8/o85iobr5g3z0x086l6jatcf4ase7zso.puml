@@ -1,0 +1,14 @@
+{
+  "sha1": "o85iobr5g3z0x086l6jatcf4ase7zso",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.751Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+h-axis [Q1, Q2, Q3, Q4]
+v-axis 0 --> 100
+bar "Sales" [45, 62, 58, 70] #3498db labels
+line "Target" [70, 75, 80, 85] #ff7f0e labels
+legend right
+@endchart

@@ -1,0 +1,12 @@
+{
+  "sha1": "di4jw332hj7dx4yor817jdooyahjd9i",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.741Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+h-axis "Quarters" [Q1, Q2, Q3, Q4]
+v-axis 0 --> 100
+bar [45, 62, 58, 70] #3498db
+@endchart

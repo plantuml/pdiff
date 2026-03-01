@@ -1,0 +1,14 @@
+{
+  "sha1": "sn8krzv1rmt7r2o8tcrwebuf9b0gq6c",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.746Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+h-axis [Q1, Q2, Q3, Q4]
+v-axis "Revenue" 0 --> 100
+v2-axis "Market Share %" 0 --> 50
+bar "Sales" [45, 62, 58, 70]
+line "Market Share" [15, 20, 18, 25] v2
+@endchart

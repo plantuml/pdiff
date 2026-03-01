@@ -1,0 +1,16 @@
+{
+  "sha1": "ly54a9dvoogi5li7aoexpro1q27opjj",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.753Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+h-axis [Q1, Q2, Q3, Q4, Q5]
+v-axis 0 --> 100
+bar "Sales" [45, 62, 58, 70, 83] #3498db
+line "Target" [50, 55, 60, 65, 70] #ff7f0e
+annotation "Peak sales" at (Q5, 83) <<arrow>>
+annotation "Target line" at (Q3, 60)
+legend right
+@endchart

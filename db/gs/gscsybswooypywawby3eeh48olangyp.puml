@@ -1,0 +1,15 @@
+{
+  "sha1": "gscsybswooypywawby3eeh48olangyp",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.753Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+h-axis [Q1, Q2, Q3, Q4]
+v-axis "Value" 0 --> 100
+    bar "Actuals" [45, 62, 58, 70] #3498db
+line "Forecast" [50, 65, 68, 75] #e74c3c
+scatter "Key Events" [48, 63, 65, 72] #9b59b6 <<circle>>
+    legend right
+@endchart

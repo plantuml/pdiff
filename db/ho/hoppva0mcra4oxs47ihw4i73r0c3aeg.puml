@@ -1,0 +1,13 @@
+{
+  "sha1": "hoppva0mcra4oxs47ihw4i73r0c3aeg",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.732Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+h-axis [Jan, Feb, Mar, Apr]
+v-axis 0 --> 100
+bar "Revenue" [45, 62, 58, 70] #1f77b4
+legend right
+@endchart

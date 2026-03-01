@@ -1,0 +1,14 @@
+{
+  "sha1": "ogc2w69n0pwybliuat0ox1blzrr1kis",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.737Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+h-axis [Q1, Q2, Q3, Q4, Q5, Q6]
+v-axis "Performance" 0 --> 100 spacing 20
+line "Sales" [45, 62, 58, 70, 83, 78] #1f77b4
+line "Target" [50, 55, 60, 65, 70, 75] #ff7f0e
+legend right
+@endchart

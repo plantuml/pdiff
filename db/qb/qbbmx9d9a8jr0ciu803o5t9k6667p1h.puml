@@ -1,0 +1,14 @@
+{
+  "sha1": "qbbmx9d9a8jr0ciu803o5t9k6667p1h",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.751Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+h-axis [Q1, Q2, Q3, Q4]
+v-axis 0 --> 100
+bar "Revenue" [45, 62, 58, 70] #3498db
+bar "Profit" [35, 48, 52, 61] #2ecc71
+legend right
+@endchart

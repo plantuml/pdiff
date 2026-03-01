@@ -1,0 +1,12 @@
+{
+  "sha1": "nqpn1s6bqa628ztfolzt5mtj7ihdhui",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.743Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startchart
+h-axis [Jan, Feb, Mar, Apr, May, Jun] spacing 2
+v-axis 0 --> 100
+bar [45, 62, 58, 70, 83, 78] #3498db
+@endchart
