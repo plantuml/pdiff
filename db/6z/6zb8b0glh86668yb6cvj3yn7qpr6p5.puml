@@ -1,0 +1,26 @@
+{
+  "sha1": "6zb8b0glh86668yb6cvj3yn7qpr6p5",
+  "insertion": {
+    "when": "2026-03-01T21:49:11.510Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2499",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+robust WB
+concise WU
+rectangle RWU
+
+@0
+WU is Idle
+RWU is Idle
+WB is Idle
+
+@100
+WU is Waiting
+RWU is Waiting
+WB is Processing
+
+@300
+WB is Waiting
+@enduml

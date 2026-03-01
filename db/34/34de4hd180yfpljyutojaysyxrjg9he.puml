@@ -1,0 +1,21 @@
+{
+  "sha1": "34de4hd180yfpljyutojaysyxrjg9he",
+  "insertion": {
+    "when": "2026-03-01T21:49:11.488Z",
+    "url": "https://github.com/plantuml/plantuml/issues/279",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A -> C
+create B
+A -> B
+A <- B
+A <- B
+destroy B
+A -> C
+A -> B **
+B --> A
+A -> B !!
+A -> C
+@enduml
