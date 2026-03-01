@@ -1,0 +1,21 @@
+{
+  "sha1": "owiq1slfubl0cxhxi67wqi4muek2297",
+  "insertion": {
+    "when": "2026-03-01T18:18:07.515Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2499",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+clock clk with period 1
+binary EN
+
+@0
+EN is low
+
+@2
+EN is high
+
+@3
+EN is low
+@enduml

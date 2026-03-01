@@ -1,0 +1,13 @@
+{
+  "sha1": "ryck15sp56omt9czofzjbrmqu3ssvrv",
+  "insertion": {
+    "when": "2026-03-01T18:18:07.494Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1969",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+{start1} a -> b++
+{end1} return
+{start1}<->{end1} : 10 seconds
+@enduml
