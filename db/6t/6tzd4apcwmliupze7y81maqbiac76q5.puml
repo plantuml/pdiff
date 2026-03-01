@@ -10,8 +10,7 @@
 rectangle r as "
 Text as top
 ==
-{{
-salt
+{{salt
 {{T
 + <&folder>Folder1
 }
@@ -21,8 +20,7 @@ salt
 note left of r
 Text as top
 ==
-{{
-salt
+{{salt
 {{T
 + <&folder>Folder1
 }

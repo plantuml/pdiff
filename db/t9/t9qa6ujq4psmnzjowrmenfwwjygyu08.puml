@@ -6,8 +6,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
-salt
+@startsalt
 {#
 |Addr| Data                
 
@@ -17,4 +16,4 @@ salt
 }
 
 caption Table 1.
-@enduml
+@endsalt

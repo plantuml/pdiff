@@ -6,9 +6,8 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startsalt
 skinparam Handwritten  true
-salt
 {^
 My Label | ^Dropdown item    ^ 
 [My Button] | *
@@ -16,4 +15,4 @@ My Label | ^Dropdown item    ^
 . | . 
 . | . 
 }
-@enduml
+@endsalt

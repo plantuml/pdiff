@@ -5,9 +5,7 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
- 
-salt
+@startsalt
   {+
   Random Walk segmentation
   ~~
@@ -17,4 +15,4 @@ salt
   Open seed:   |  ^Seed image     ^
   }
   }
-@enduml
+@endsalt

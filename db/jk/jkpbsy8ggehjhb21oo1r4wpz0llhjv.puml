@@ -6,9 +6,8 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
-   salt
+@startsalt
 {
   Just plain text
 }
-@enduml
+@endsalt

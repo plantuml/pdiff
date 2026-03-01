@@ -10,8 +10,7 @@ skinparam shadowing false
 skinparam activityBorderColor white
 skinparam activityBackgroundColor white
 !definelong SALT(x)
-"{{
-salt
+"{{salt
 !if x=='choose'
 _choose()
 !elseif x=='wait'

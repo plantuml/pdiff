@@ -8,8 +8,7 @@
 @startuml
 start
 :Choose
-{{
-salt
+{{salt
 {+
 <b>an example
 choose one option
@@ -20,8 +19,7 @@ choose one option
 }}
 ;
 :Wait
-{{
-salt
+{{salt
 {+
 <b>please wait
 operation in progress
@@ -33,8 +31,7 @@ operation in progress
 
 note right
 You can **also** use it in notes
-{{
-salt
+{{salt
 {+
   [X] Uml
   [X] Salt
@@ -50,8 +47,7 @@ end note
 if () then
 
 	:Success
-	{{
-	salt
+	{{salt
 	{+
 	<b>success
 	congratulations!
@@ -63,8 +59,7 @@ if () then
 
 else
 	:Fail
-	{{
-	salt
+	{{salt
 	{+
 	<b>error
 	failed, sorry
