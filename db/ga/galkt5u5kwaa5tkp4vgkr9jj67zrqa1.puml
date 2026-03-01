@@ -1,0 +1,41 @@
+{
+  "sha1": "galkt5u5kwaa5tkp4vgkr9jj67zrqa1",
+  "insertion": {
+    "when": "2026-03-01T18:01:02.281Z",
+    "url": "https://forum.plantuml.net/6356/teoz-wont-colour-an-activate-unless-a-message-is-sent-to-it",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant A
+participant C
+participant B
+
+activate A #FireBrick
+activate B #FireBrick
+
+A -> B
+activate B #Yellow
+
+activate C #FireBrick
+
+A -> C
+C --> A
+
+deactivate B
+deactivate C
+A -> C
+
+activate A #LightBlue
+activate C #Green
+C ->> B
+C --> A
+deactivate C
+
+A -> C : need to send\nmessage otherwise\nerror
+activate C #Green
+C ->> B
+C --> A
+deactivate C
+
+@enduml

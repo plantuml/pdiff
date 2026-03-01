@@ -1,0 +1,21 @@
+{
+  "sha1": "tk6menvnvb6uhsbnxwamyf0f8n7dyaf",
+  "insertion": {
+    "when": "2026-03-01T18:01:02.235Z",
+    "url": "https://forum.plantuml.net/10148/padding-between-two-actors-in-a-sequence-diagram",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+skinparam BoxPadding 200
+
+Actor toto
+box  #transparent
+ Actor Alice
+ Actor Bob
+end box
+Actor Charlie
+
+Alice -> Bob: so close
+Bob -> Charlie: so distant
+@enduml
