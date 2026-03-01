@@ -8,8 +8,7 @@
 }
 @startuml
 !definelong SALT(x)
-"{{
-salt
+"{{salt
 %invoke_procedure("_"+x)
 }}
 " as x

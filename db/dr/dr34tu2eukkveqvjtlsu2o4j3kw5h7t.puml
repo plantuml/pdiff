@@ -8,9 +8,8 @@
 }
 @startuml
 (*) --> "
-{{
+{{salt
 skinparam BackgroundColor blue
-salt
 {+
 <b>an example
 choose one option

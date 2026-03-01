@@ -6,9 +6,8 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
+@startsalt
 skinparam fixCircleLabelOverlapping true
-salt
 {
 Just plain text
 [This is my button]
@@ -19,4 +18,4 @@ Just plain text
 "Enter text here "
 ^This is a droplist^
 }
-@enduml
+@endsalt

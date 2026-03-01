@@ -9,8 +9,7 @@
 '!preprocessorV2
 
 !unquoted procedure SALT($x)
-{{
-salt
+{{salt
 %invoke_procedure("_"+$x)
 }}
 !endprocedure

@@ -22,8 +22,7 @@ legend
 ** level1
 ** level1
 }}
-{{
-salt
+{{salt
 {
   Login    | "MyName   "
   Password | "****     "

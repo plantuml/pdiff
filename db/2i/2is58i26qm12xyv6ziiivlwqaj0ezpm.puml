@@ -7,8 +7,7 @@
 }
 @startuml
 (*) --> "
-{{
-salt
+{{salt
 {+
 <b>an example
 choose one option
@@ -20,8 +19,7 @@ choose one option
 " as choose
 
 choose -right-> "
-{{
-salt
+{{salt
 {+
 <b>please wait
 operation in progress
@@ -31,8 +29,7 @@ operation in progress
 }}
 " as wait
 wait -right-> "
-{{
-salt
+{{salt
 {+
 <b>success
 congratulations!
@@ -42,8 +39,7 @@ congratulations!
 " as success
 
 wait -down-> "
-{{
-salt
+{{salt
 {+
 <b>error
 failed, sorry

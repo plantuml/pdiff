@@ -6,12 +6,11 @@
     "user": "plantuml@gmail.com"
   }
 }
-@startuml
-salt
+@startsalt
 {
 {*
 A | B
 C | *
 }
 }
-@enduml
+@endsalt

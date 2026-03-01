@@ -6,7 +6,7 @@
     "user": "The-Lum"
   }
 }
-@startuml
+@startsalt
 !function $myfunc()
   !$n = 4
   !$row = 0
@@ -23,8 +23,7 @@
   !return $res
 !end function
 
-salt
 {#
 $myfunc()
 }
-@enduml
+@endsalt
