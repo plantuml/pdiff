@@ -1,0 +1,16 @@
+{
+  "sha1": "1yyueku9dzup1sh3gyuwa4hnkq2bizk",
+  "insertion": {
+    "when": "2026-03-06T18:17:02.346Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma svgparser sax
+sprite redline <svg viewBox="0 0 100 4" xmlns="http://www.w3.org/2000/svg">
+  <!-- simple horizontal line using <line> -->
+  <line x1="0" y1="2" x2="100" y2="2" stroke="#FF0000" stroke-width="4" stroke-linecap="butt" />
+</svg>
+
+Alice -> Bob : hello <$redline> there
+@enduml
