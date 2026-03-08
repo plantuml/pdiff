@@ -1,0 +1,20 @@
+{
+  "sha1": "m8cf8q0nggtufkt3c0xqrt6hv1m7oir",
+  "insertion": {
+    "when": "2026-03-08T21:21:03.328Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2586",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.mystyle {
+  linecolor: blue
+  linethickness: 3
+}
+</style>
+
+object n0
+object n1
+n0 -> n1 <<mystyle>> : label
+@enduml
