@@ -1,0 +1,12 @@
+{
+  "sha1": "88tkv8d5ulrguq45mepzgyohnkke1as",
+  "insertion": {
+    "when": "2026-03-08T21:21:39.586Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2518",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
++ class A {
+}
+@enduml
