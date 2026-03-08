@@ -111,3 +111,20 @@ map n1 {
 }
 n0 -> n1 <<mystyle>> : label
 @enduml
+
+
+https://github.com/plantuml/plantuml/issues/2586
+@startuml
+<style>
+.mystyle {
+  linecolor: blue
+  linethickness: 3
+}
+</style>
+
+participant n0
+participant n1
+n0 -> n1 <<mystyle>> : label
+
+legend [[https://forum.plantuml.net/15614]]
+@enduml
