@@ -1,0 +1,113 @@
+https://github.com/plantuml/plantuml/issues/2586
+@startuml
+<style>
+.mystyle {
+  linecolor: blue
+  linethickness: 3
+}
+</style>
+
+usecase n0
+usecase n1
+n0 -> n1 <<mystyle>> : label
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2586
+@startuml
+<style>
+.mystyle {
+  linecolor: blue
+  linethickness: 3
+}
+</style>
+
+component n0
+component n1
+n0 -> n1 <<mystyle>> : label
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2586
+@startuml
+<style>
+.mystyle {
+  linecolor: blue
+  linethickness: 3
+}
+</style>
+
+card n0
+card n1
+n0 -> n1 <<mystyle>> : label
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2586
+@startuml
+<style>
+.mystyle {
+  linecolor: blue
+  linethickness: 3
+}
+</style>
+
+object n0
+object n1
+n0 -> n1 <<mystyle>> : label
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2586
+@startuml
+<style>
+.mystyle {
+  linecolor: blue
+  linethickness: 3
+}
+</style>
+
+class n0
+class n1
+n0 -> n1 <<mystyle>> : label
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2586
+@startuml
+<style>
+.mystyle {
+  linecolor: blue
+  linethickness: 3
+}
+</style>
+
+state n0
+state n1
+n0 -> n1 <<mystyle>> : label
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2586
+@startuml
+<style>
+.mystyle {
+  linecolor: blue
+  linethickness: 3
+}
+</style>
+
+json n0 42
+json n1 true
+n0 -> n1 <<mystyle>> : label
+@enduml
+
+https://github.com/plantuml/plantuml/issues/2586
+@startuml
+<style>
+.mystyle {
+  linecolor: blue
+  linethickness: 3
+}
+</style>
+
+map n0 {
+}
+map n1 {
+}
+n0 -> n1 <<mystyle>> : label
+@enduml
