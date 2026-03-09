@@ -1,0 +1,20 @@
+{
+  "sha1": "idtgj2p0k8s84g1uqu8h8td4gdd0jni",
+  "insertion": {
+    "when": "2026-03-09T18:42:52.600Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2586",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+.mystyle {
+  linecolor: blue
+  linethickness: 3
+}
+</style>
+
+usecase n0
+usecase n1
+n0 -> n1 <<mystyle>> : label
+@enduml
