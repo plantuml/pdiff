@@ -1,0 +1,29 @@
+{
+  "sha1": "gxmtw9wqs3a8qwt5uba3bkvni944ksy",
+  "insertion": {
+    "when": "2026-03-09T18:42:01.929Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2561",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!define S(x) | S x |
+' activate to suppress swimlanes
+'!define S(x) 
+
+
+S(1)
+S(2)
+
+S(1)
+start
+switch (condition)
+case (condition S1 ?)
+  :activity S1-1;
+  stop
+S(2)
+case (condition S2 ?)
+  :activity S2-1;
+  stop
+endswitch
+@enduml
