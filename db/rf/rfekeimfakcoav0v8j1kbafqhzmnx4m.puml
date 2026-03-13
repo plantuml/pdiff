@@ -1,0 +1,13 @@
+{
+  "sha1": "rfekeimfakcoav0v8j1kbafqhzmnx4m",
+  "insertion": {
+    "when": "2026-03-13T19:45:24.376Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2593",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+map map0
+map map1 {
+}
+@enduml
