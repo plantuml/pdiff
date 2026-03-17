@@ -15,7 +15,8 @@ state Somp {
   entry1 --> sin
   entry2 -> sin
   sin -> sin2
-  sin2 --> exitA <<expansionOutput>>
+  state exitA <<expansionOutput>>
+  sin2 --> exitA
 }
 
 [*] --> Somp.entry1

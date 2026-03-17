@@ -12,14 +12,20 @@ BackgroundColor<<comp>> Blue
 BorderColor<<simple>> Black
 BackgroundColor<<simple>> Green
 }
-c<<simple>> --> d<<simple>> : event
+state c<<simple>>
+state d<<simple>>
+c --> d : event
  
-state "a_1" as a<<comp>>{
-x<<simple>> --> y<<simple>> : ev
+state "a_1" as a<<comp>> {
+state x<<simple>>
+state y<<simple>>
+x --> y : ev
 }
  
 state "a_2" as b<<comp>> {
-w<<simple>> --> z<<simple>> : ev2
+state w<<simple>>
+state z<<simple>>
+w --> z : ev2
 }
  
 a --> b : ev3

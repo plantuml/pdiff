@@ -11,7 +11,8 @@ skinparam stateBackgroundColor<<Midge>> red
 skinparam stateBackgroundColor<<Weavil>> orange
 
   state "midgeAdult" as ma <<Midge>> {
-    [*] --> midgeAdult <<Acacia>>: releaseMidge
+    state midgeAdult <<Acacia>>
+    [*] --> midgeAdult : releaseMidge
       midgeAdult : releaseMidge$date
       midgeAdult : releaseMidge$adult
       midgeAdult : -----
@@ -23,7 +24,8 @@ skinparam stateBackgroundColor<<Weavil>> orange
     parFlower --> gall : stateAgingDeterministic
       parFlower : meanEggsPerFemale
       parFlower : maxEggsPerFlower
-    gall <<Weavil>> --> [*]
+    state gall <<Weavil>>
+    gall --> [*]
   }
 
 @enduml

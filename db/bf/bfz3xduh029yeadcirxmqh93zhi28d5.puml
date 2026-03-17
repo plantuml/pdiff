@@ -9,7 +9,8 @@
 @startuml
    state Foo {
       state Bar {
-         qux1 --> xuq3 <<exitPoint>>
+	     state xuq3 <<exitPoint>>
+         qux1 --> xuq3
          ||
          quux2 --> xuuq4
       }
