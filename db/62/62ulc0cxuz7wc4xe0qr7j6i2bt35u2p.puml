@@ -1,0 +1,16 @@
+{
+  "sha1": "62ulc0cxuz7wc4xe0qr7j6i2bt35u2p",
+  "insertion": {
+    "when": "2026-03-17T20:16:47.761Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2591",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+- package foo {
+- class alice
+}
++ package Dummy {
++ class Bob
+}
+@enduml
