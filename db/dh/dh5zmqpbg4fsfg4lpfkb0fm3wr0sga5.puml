@@ -1,0 +1,18 @@
+{
+  "sha1": "dh5zmqpbg4fsfg4lpfkb0fm3wr0sga5",
+  "insertion": {
+    "when": "2026-03-27T18:41:43.961Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* Root
+**_
+*** Child A
+*** Child B
+**_
+*** Child C
+*** Child D
+** Normal Node
+*** Child E
+@endwbs

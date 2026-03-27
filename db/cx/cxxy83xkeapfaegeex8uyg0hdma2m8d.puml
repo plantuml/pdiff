@@ -1,0 +1,17 @@
+{
+  "sha1": "cxxy83xkeapfaegeex8uyg0hdma2m8d",
+  "insertion": {
+    "when": "2026-03-27T18:41:43.962Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+* Project
+**_
+*** Task A
+*** Task B long name
+*** Task C
+** Planning
+*** Define scope
+*** Set milestones
+@endwbs
