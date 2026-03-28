@@ -9,7 +9,7 @@
 <style>
 wbsDiagram {
   node {
-    AutoWidth true
+    width auto
   }
 }
 </style>
