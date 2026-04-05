@@ -1,0 +1,30 @@
+{
+  "sha1": "4dsj8z72k4yiv0eolzsenvpt9f8gpb1",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.203Z",
+    "url": "https://github.com/plantuml/plantuml/issues/408",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startnwdiag
+nwdiag {
+    internet [ shape = cloud];
+    internet -- ingress;
+
+    group {
+      app;
+      db;
+    }
+
+    network proxy {
+    	app;
+        ingress;
+    }
+
+    network default {
+    	app;
+        db;
+    }
+  }
+}
+@endnwdiag

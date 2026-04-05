@@ -1,0 +1,23 @@
+{
+  "sha1": "set32ww0d68mabttd71to3gd8rvgdak",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.226Z",
+    "url": "https://forum.plantuml.net/14458/nwdiag-issue-other-internal-networks-with-the-layout-engine",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startnwdiag
+nwdiag {
+  network LAN1 {
+     a [address = "a1"];
+  }
+  network LAN2 {
+     a [address = "a2"];
+     switch [address = "s2"];
+  }
+  switch -- equip;
+  equip [address = "e3"];
+  equip -- printer;
+  printer [address = "USB"];
+}
+@endnwdiag
