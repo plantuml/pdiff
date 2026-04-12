@@ -44,7 +44,7 @@ public class DbCollection {
 	}
 
 	private Path getHumPath(String humhash) throws IOException {
-		final Path tmp = rootHum.resolve(humhash.substring(0, 3));
+		final Path tmp = rootHum.resolve(humhash.substring(0, 3) + "_");
 		Files.createDirectories(tmp);
 		return tmp.resolve(humhash + ".puml");
 	}
