@@ -17,9 +17,13 @@ public class DbCollection {
 
 	private final Path root;
 
+	private final Path rootHum;
+
 	public DbCollection() throws IOException {
 		this.root = Path.of("db");
+		this.rootHum = Path.of("dbhum");
 		Files.createDirectories(this.root);
+		Files.createDirectories(this.rootHum);
 	}
 
 	private Path getActualPath(String sha1) throws IOException {
@@ -39,18 +43,26 @@ public class DbCollection {
 
 	}
 
+	private Path getHumPath(String humhash) throws IOException {
+		final Path tmp = rootHum.resolve(humhash.substring(0, 3));
+		Files.createDirectories(tmp);
+		return tmp.resolve(humhash + ".puml");
+	}
+
 	public String rewriteMe(DbFile file) throws IOException {
 		final String sha1 = file.getContentSha1();
 		final Path actualPath = getActualPath(sha1);
+		final String humhash = file.getHumHash().toValue();
 		final JsonObject jsonFromDb = file.getJsonFromDbClone();
 		jsonFromDb.addProperty("sha1", sha1);
-		jsonFromDb.addProperty("humhash", file.getHumHash().toValue());
+		jsonFromDb.addProperty("humhash", humhash);
 
 		final Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
 		final List<String> list2 = List.of(gson.toJson(jsonFromDb));
-		final Stream<String> combinedStream = Stream.concat(list2.stream(), file.getContent().stream());
+		final List<String> allLines = Stream.concat(list2.stream(), file.getContent().stream()).collect(Collectors.toList());
 
-		Files.write(actualPath, combinedStream.collect(Collectors.toList()));
+		Files.write(actualPath, allLines);
+		Files.write(getHumPath(humhash), allLines);
 		return sha1;
 
 	}
