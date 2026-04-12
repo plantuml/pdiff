@@ -44,6 +44,7 @@ public class DbCollection {
 		final Path actualPath = getActualPath(sha1);
 		final JsonObject jsonFromDb = file.getJsonFromDbClone();
 		jsonFromDb.addProperty("sha1", sha1);
+		jsonFromDb.addProperty("humhash", file.getHumHash().toValue());
 
 		final Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
 		final List<String> list2 = List.of(gson.toJson(jsonFromDb));
