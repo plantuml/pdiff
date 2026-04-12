@@ -8,7 +8,7 @@ The JSON header before @startgantt is replaced by a fixed YAML header.
 import os
 import re
 
-DB_DIR = r"C:\github\pdiff\db"
+DB_DIR = r"C:\github\pdiff\dbhum"
 OUTPUT_DIR = r"C:\github\pdiff\python\output"
 
 YAML_HEADER = """\
