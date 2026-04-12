@@ -1,0 +1,18 @@
+{
+  "sha1": "h2sh6hj4pwanx2nzx0zzqx9neqdo0bd",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.962Z",
+    "url": "https://forum.plantuml.net/11862/nwdiag-beautifier",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "laxozo-638-padobo"
+}
+@startnwdiag
+!include <cloudinsight/tomcat.puml>
+nwdiag {
+      network {
+        A [address = 192.168.0.1, description = "web server01 <$tomcat*0.5>"];
+        B [address = 192.168.0.2, description = "web server02"];
+      }
+}
+@endnwdiag

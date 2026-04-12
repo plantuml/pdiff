@@ -1,0 +1,14 @@
+{
+  "sha1": "tul6wgpzjn34s8doognhtxhsnh4jpzy",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.792Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "linosu-654-vuveza"
+}
+@startuml
+package my_package{
+    together {
+    }
+}
+@enduml

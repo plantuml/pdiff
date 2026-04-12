@@ -1,0 +1,18 @@
+{
+  "sha1": "f98rx2gu0aaaokyv3fskal3s71kpjsy",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.788Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "gubuje-337-duguji"
+}
+@startuml
+Bob->Alice: coucou2
+opt cas1
+Alice -> Bob:okl
+alt cas2 long expres
+Alice -> Bob:okl
+end
+end
+Bob->Alice: coucou3
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "8w5cck5vmg55ltrncugg7uid73zw84l",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.538Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "fopexo-082-nizeti"
+}
+@startuml
+state X
+note right of X #FFF
+|= header 1 |= header 2 |= header 3 |
+| //A// | abc | def |
+| //B// | qwe | |
+end note
+@enduml

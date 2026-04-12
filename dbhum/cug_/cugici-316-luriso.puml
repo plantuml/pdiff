@@ -1,0 +1,15 @@
+{
+  "sha1": "4jfoubj19n29dl9f20ez8p52gxevm03",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.506Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "cugici-316-luriso"
+}
+@startuml
+|A|
+start
+:a;
+|BBBBBBBBBBBBBBBBBBBBBBBBB|
+:b;
+@enduml

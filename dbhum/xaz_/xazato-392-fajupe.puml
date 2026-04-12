@@ -1,0 +1,12 @@
+{
+  "sha1": "gsy0xyulchp6npgsu6siirfkm7j3p5",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.310Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "xazato-392-fajupe"
+}
+@startuml
+participant dummy
+participant dummy
+@enduml

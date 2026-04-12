@@ -1,0 +1,37 @@
+{
+  "sha1": "cyprqm24rae06phfbhwcng82r2s4ual",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.492Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "solibi-622-suvoka"
+}
+@startuml
+'!preprocessorV2
+
+!unquoted procedure SALT($x)
+{{salt
+%invoke_procedure("_"+$x)
+}}
+!endprocedure
+
+!procedure _choose()
+{+
+<b>an example
+choose one option
+()one
+()two
+[ok]
+}
+!endprocedure
+
+
+
+class foo
+
+legend
+SALT(choose)
+endlegend
+
+
+@enduml

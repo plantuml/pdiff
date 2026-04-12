@@ -1,0 +1,12 @@
+{
+  "sha1": "e6q837828x5kgwj61a9ivs2xbgl4qt",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.082Z",
+    "url": "https://forum.plantuml.net/16694/ebnf-add-notes",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "puzugi-704-tenave"
+}
+@startebnf
+test =  a (**);
+@endebnf

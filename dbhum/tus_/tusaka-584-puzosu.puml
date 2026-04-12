@@ -1,0 +1,31 @@
+{
+  "sha1": "k3o7yhkr8w5foizf7ktx5u1xh4wkllz",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.176Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1301",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "tusaka-584-puzosu"
+}
+@startnwdiag
+<style>
+nwdiagDiagram {
+  group {
+    BackGroundColor cadetblue
+    FontStyle bold
+  }
+}
+</style>
+
+nwdiag {
+	network net1 {
+	  a
+	}
+	network net2 {
+	  b
+	}
+	group uniqueNode {
+	  a  [color = "Red", description="desc"]
+	}
+}
+@endnwdiag

@@ -1,0 +1,13 @@
+{
+  "sha1": "lkzc6yv8eyiuhh244ymw8nqy4tsl2mp",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.250Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "besoze-369-nemuku"
+}
+@startdot
+digraph toto {
+azerty;
+}
+@enddot

@@ -1,0 +1,16 @@
+{
+  "sha1": "bime5j8m41euqhlbo6b9vmy6nw7kw7y",
+  "insertion": {
+    "when": "2025-11-08T13:51:47.360Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2380",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "silogi-500-jeziki"
+}
+@startuml
+skinparam ConditionStyle InsideDiamond
+
+repeat :SET INITIAL VALUES;
+repeat while (Start?) is (N) not (Y)
+:Done;
+@enduml

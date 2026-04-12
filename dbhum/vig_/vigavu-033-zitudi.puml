@@ -1,0 +1,15 @@
+{
+  "sha1": "kd06bbave2xrsjyfovhm0pto3l49xzy",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.869Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "vigavu-033-zitudi"
+}
+@startuml
+start
+:er; <<output>>
+:<< Automobile >>
+Pinto;
+stop
+@enduml

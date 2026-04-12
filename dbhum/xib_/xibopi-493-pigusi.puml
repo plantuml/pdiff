@@ -1,0 +1,12 @@
+{
+  "sha1": "k77lrh9rac5skqje5a15ww82ukxxpu9",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.684Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "xibopi-493-pigusi"
+}
+@startuml
+!pragma svek_trace on
+state myExit <<exitpoint>>
+@enduml

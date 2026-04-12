@@ -1,0 +1,31 @@
+{
+  "sha1": "3ifakxgjlmw4cgmejuhv7adzzgdes6s",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.010Z",
+    "url": "http://alphadoc.plantuml.com/doc/dokuwiki/en/nwdiag",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "munuma-471-kukilo"
+}
+@startnwdiag
+nwdiag {
+    internet [ shape = cloud];
+    internet -- router;
+
+    network proxy {
+        router;
+        app;
+    }
+
+    group {
+      color = "pink";
+      app;
+      db;
+    }
+
+    network default {
+    	app;
+        db;
+    }
+}
+@endnwdiag

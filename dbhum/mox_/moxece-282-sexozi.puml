@@ -1,0 +1,13 @@
+{
+  "sha1": "qt4wzjcstvr6rf8enrayz82eqzf6rpi",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.880Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "moxece-282-sexozi"
+}
+@startuml
+Bob -> Alice : hello
+Bob <- Alice : hello
+Bob X-- Tom : hello
+@enduml

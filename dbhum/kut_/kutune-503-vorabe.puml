@@ -1,0 +1,32 @@
+{
+  "sha1": "fgdhuwlg916n60r6am8citnjqy96b7q",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.678Z",
+    "url": "http://alphadoc.plantuml.com/doc/dokuwiki/en/nwdiag",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "kutune-503-vorabe"
+}
+@startnwdiag
+nwdiag {
+
+    group {
+      color = "pink";
+      app;
+      db;
+    }
+    
+    network aa {
+        router;
+        app;
+    }
+
+
+    network bb {
+    	app;
+        db;
+    }
+    
+
+}
+@endnwdiag

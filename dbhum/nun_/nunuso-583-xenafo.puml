@@ -1,0 +1,12 @@
+{
+  "sha1": "lrg3fwtzm7jlktzoaoha6mfys1kiemx",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.464Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "nunuso-583-xenafo"
+}
+@startuml
+usecase sameid
+rectangle sameid
+@enduml

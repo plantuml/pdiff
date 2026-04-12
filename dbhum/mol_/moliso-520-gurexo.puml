@@ -1,0 +1,27 @@
+{
+  "sha1": "t7ket18b5d5embj9k9kv92ascu5bz4l",
+  "insertion": {
+    "when": "2024-06-04T17:28:45.849Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "moliso-520-gurexo"
+}
+@startuml
+<style>
+document {
+  BackGroundColor Linen
+}
+root {
+  FontColor #?black:white
+}
+classDiagram {
+  class {
+    BackGroundColor black
+  }
+}
+</style>
+title
+my title
+endtitle
+class foo1
+@enduml

@@ -1,0 +1,15 @@
+{
+  "sha1": "ks9t32lrtt8rjtgl7ggzt1ssn3f3x2s",
+  "insertion": {
+    "when": "2024-06-03T18:59:33.304Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "bovuge-618-jifice"
+}
+@startsalt
+{
+"aaaa" | "bbbbb" | "ccccc"
+-- | * | *
+"ddd"
+}
+@endsalt

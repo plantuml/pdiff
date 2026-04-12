@@ -1,0 +1,12 @@
+{
+  "sha1": "r0niuzmn12rtbk3x336qwvhbdahdw3u",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.205Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "jenume-686-bocemo"
+}
+@startuml
+package packagé {
+Classé *-- çlasse : évidement
+@enduml

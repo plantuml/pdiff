@@ -1,0 +1,14 @@
+{
+  "sha1": "lexsskg6dqsl2lpr623ohwu1qatohwi",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.037Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "xixuna-712-jataro"
+}
+@startuml
+class1 ^- class2
+class1 ^.. class3
+
+ab1 --^ ab2
+@enduml 

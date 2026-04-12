@@ -1,0 +1,19 @@
+{
+  "sha1": "mcs3rnki2d3d8dn3504dxxffz4s4kfv",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.086Z",
+    "url": "https://github.com/plantuml/plantuml/issues/565",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "dufuma-484-velivu"
+}
+@startuml
+   state Foo {
+      state Bar {
+	     state xuq3 <<exitPoint>>
+         qux1 --> xuq3
+         ||
+         quux2 --> xuuq4
+      }
+   }
+@enduml

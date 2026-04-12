@@ -1,0 +1,41 @@
+{
+  "sha1": "dif89tl8x0mkvhofxavbndbxhiprt00",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.814Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "zipedi-079-nadefu"
+}
+@startuml
+skinparam shadowing false
+start
+if ()
+    :dummy; <<#PaleGreen>>
+        note left
+            dummy text
+        end note
+    :dummy; <<#PaleGreen>>
+        note left
+            dummy text
+        end note
+    if () then ([dummy text])
+    :dummy; <<#PaleGreen>>
+        note:dummy text
+    :dummy; <<#PaleGreen>>
+    else ([dummy text])
+        note right
+             dummy text
+        end note
+        if () then ( )
+            :dummy; <<#PaleGreen>>
+            end;
+        else ([dummy\ntext])
+            :dummy; <<#PaleGreen>>
+            end;    
+        endif    
+    endif
+else ([dummy text])
+    :dummy; <<#PaleGreen>>
+endif
+stop
+@enduml

@@ -1,0 +1,12 @@
+{
+  "sha1": "cpfdsfzjgb6zc5c57rjr0fmvuym92m5",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.829Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "zosira-683-fuposo"
+}
+@startuml
+Bob -> Alice : hello
+foo
+@enduml

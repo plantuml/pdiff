@@ -1,0 +1,14 @@
+{
+  "sha1": "aockru78rj7btlaifo4wbonyde53k8f",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.914Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "dacolo-397-furepo"
+}
+@startuml
+[-> Bob : m
+opt toto
+[-> Bob : message2
+end
+@enduml

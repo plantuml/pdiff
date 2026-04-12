@@ -1,0 +1,14 @@
+{
+  "sha1": "59cz1nxoqcnbqehq1jvghdr7zyul77v",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.424Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "mifoso-256-cinubu"
+}
+@startuml
+start;
+:foo1; <<#red\white>>
+:hello <back:#FF9999/white>there1</back>;
+:hello <back:yellow>there2</back>;
+@enduml

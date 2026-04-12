@@ -1,0 +1,15 @@
+{
+  "sha1": "rvhuze2lne0ohodxu9qjedslsub97bj",
+  "insertion": {
+    "when": "2024-11-08T10:07:54.467Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1952",
+    "user": "The-Lum"
+  },
+  "humhash": "nixofe-619-zimino"
+}
+@startuml
+state 1.2
+state a.b
+
+1 -> b
+@enduml

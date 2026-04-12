@@ -1,0 +1,13 @@
+{
+  "sha1": "jjwlk0drlcxv23nq0y3rn1xoj34zqb",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.978Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "jujizu-390-nuselu"
+}
+@startuml
+Allowmixing
+Actor "fg" as fr
+class foo
+@enduml

@@ -1,0 +1,13 @@
+{
+  "sha1": "fajku8clnv599lw60vpb2r4jk6d4x5d",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.848Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "zumegi-896-somica"
+}
+@startuml
+Bob -> Alice : hello
+create Dog
+Alice -> Dog : create
+@enduml

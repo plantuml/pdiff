@@ -1,0 +1,19 @@
+{
+  "sha1": "e3bkeel5lbtyhhvw8ufjgr3qk5ifjjt",
+  "insertion": {
+    "when": "2024-06-03T18:59:34.635Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "peseve-199-jecofa"
+}
+@startuml
+!include <tupadr3/common>
+!include <tupadr3/font-awesome/server>
+!include <tupadr3/font-awesome/database>
+!include <cloudinsight/tomcat>
+!include <cloudinsight/kafka>
+!include <cloudinsight/java>
+!include <cloudinsight/cassandra>
+!include <material2.1.19/common>
+listsprites
+@enduml

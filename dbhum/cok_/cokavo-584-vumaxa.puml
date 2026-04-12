@@ -1,0 +1,21 @@
+{
+  "sha1": "mudrjvoro56qnwejt2p9d9pszu3cp1",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.055Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "cokavo-584-vumaxa"
+}
+@startnwdiag
+header some header
+footer some footer
+title My title
+nwdiag {
+  network inet {
+	  web01 [shape = cloud]
+  }
+}
+legend
+The legend
+end legend
+@endnwdiag

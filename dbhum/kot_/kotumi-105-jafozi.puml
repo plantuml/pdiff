@@ -1,0 +1,12 @@
+{
+  "sha1": "8eejfyu6e51qqab1z1o2fsv8v54wunv",
+  "insertion": {
+    "when": "2024-06-01T09:03:06.088Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "kotumi-105-jafozi"
+}
+@startuml
+ :GET(ressource, version, host)
+ FROM host VIA connection1; <<output>>
+@enduml

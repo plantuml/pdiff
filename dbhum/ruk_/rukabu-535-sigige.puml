@@ -1,0 +1,26 @@
+{
+  "sha1": "8d6hi1n6ms2izcew84kn9kdjzhr4ayb",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.281Z",
+    "url": "https://forum.plantuml.net/14717/nwdiag-peer-network-with-multiple-groups-bug",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "rukabu-535-sigige"
+}
+@startnwdiag
+nwdiag {
+  group group01 {
+    a01;
+  }
+  group group02 {
+    a02;
+  }
+  network net01 {
+    a01;
+  }
+  a01 -- a02;
+  network net02 {
+    a02;
+  }
+}
+@endnwdiag
