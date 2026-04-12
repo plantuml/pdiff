@@ -12,6 +12,7 @@ repositories {
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.1")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.1")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     implementation("com.beust:jcommander:1.81")
     implementation("org.fusesource.jansi:jansi:2.4.2")
     implementation("com.google.code.gson:gson:2.8.8") 
