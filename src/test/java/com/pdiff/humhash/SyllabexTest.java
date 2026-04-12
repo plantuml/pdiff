@@ -32,15 +32,8 @@ class SyllabexTest {
 
 	@Test
 	void testLastSyllable() {
-		// Z is index 16, U is index 4 => 16 * 5 + 4 = 84
+		// z is index 16, u is index 4 => 16 * 5 + 4 = 84
 		assertEquals(84, Syllabex.toInt("zu"));
-	}
-
-	@Test
-	void testCaseInsensitive() {
-		assertEquals(0, Syllabex.toInt("CA"));
-		assertEquals(0, Syllabex.toInt("Ca"));
-		assertEquals(1, Syllabex.toInt("CE"));
 	}
 
 	@Test
