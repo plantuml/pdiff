@@ -65,6 +65,10 @@ public class DbFile implements Comparable<DbFile> {
 		return getContentSha1().equals(getJsonSha1());
 	}
 
+	final public boolean hasHumHash() {
+		return jsonFromDb.has("humhash");
+	}
+
 	final public String getContentSha1() throws IOException {
 		return SHA1.calculateSHA1(getContent());
 	}
