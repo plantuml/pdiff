@@ -18,3 +18,4 @@ svek.*
 *.html
 /pages
 *.patch
+python/output
