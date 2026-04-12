@@ -15,16 +15,17 @@ public class HumHash {
 
 	public static HumHash fromValue(String value) {
 		final String[] parts = value.split("-");
-		if (parts.length != 4)
+		if (parts.length != 3)
 			throw new IllegalArgumentException("Invalid format: " + value);
 
 		final String part1 = parts[0];
 		final int number1 = Integer.parseInt(parts[1]);
 		final String part2 = parts[2];
-		final int number2 = Integer.parseInt(parts[3]);
 
-		if (part1.length() != 6 || parts[1].length() != 3 || part2.length() != 4 || parts[3].length() != 2)
+		if (part1.length() != 6 || parts[1].length() != 3 || part2.length() != 6)
 			throw new IllegalArgumentException("Invalid format: " + value);
+
+		final int number2 = Integer.parseInt(part2.substring(4, 6));
 
 		long result = 0;
 		result = result * 85 + Syllabex.toInt(part1.substring(0, 2));
@@ -82,6 +83,6 @@ public class HumHash {
 		remaining /= 85;
 		final String s1 = Syllabex.toSyllable((int) (remaining % 85));
 
-		return s1 + s2 + s3 + "-" + String.format("%03d", number1) + "-" + s4 + s5 + "-" + String.format("%02d", number2);
+		return s1 + s2 + s3 + "-" + String.format("%03d", number1) + "-" + s4 + s5 + String.format("%02d", number2);
 	}
 }
