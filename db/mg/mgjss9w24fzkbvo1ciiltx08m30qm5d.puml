@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.227Z",
     "url": "https://github.com/plantuml/plantuml/issues/975",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sarobo-340-defili"
 }
 @startuml
 <style>

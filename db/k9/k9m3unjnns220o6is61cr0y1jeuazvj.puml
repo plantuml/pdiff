@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.761Z",
     "url": "https://forum.plantuml.net/16412/attribute-visibility-association-classattributeiconsize",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pezaga-919-zegabu"
 }
 @startuml
 'skinparam classAttributeIconSize 0

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.704Z",
     "url": "https://forum.plantuml.net/11806/dashed-arrow-also-the-close-comment-blocks-html-xml-markdown",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lizusu-678-lidilo"
 }
 @startuml
 class Alice

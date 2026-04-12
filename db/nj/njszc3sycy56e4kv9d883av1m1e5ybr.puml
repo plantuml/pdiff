@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:38.742Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mopicu-901-dovepa"
 }
 @startuml
 A "0" -- "1" B : "a" is "b"

@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:01.266Z",
     "url": "https://forum.plantuml.net/14901/number-of-elements-in-list-during-json-preprocessing",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jocaga-200-nojami"
 }
 @startmindmap
 !$foo = { "company": "Skynet", "employees" : [

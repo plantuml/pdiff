@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.244Z",
     "url": "https://forum.plantuml.net/15473/rectangles-corners-package-rectangles-supported-anymore",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zejala-776-jisexo"
 }
 @startuml
 skinparam rectangle {

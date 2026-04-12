@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:06.333Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gafano-753-kobuse"
 }
 @startuml
 !define DOCUMENTATION_SERVER //my.server.com/path/

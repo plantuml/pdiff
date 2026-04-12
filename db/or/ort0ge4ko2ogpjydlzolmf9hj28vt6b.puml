@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:40.178Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cuxepu-067-rojeke"
 }
 @startuml
 [*] --> state1

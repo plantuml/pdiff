@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.304Z",
     "url": "https://forum.plantuml.net/15159/wbs-missing-link-and-missing-box",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rofume-822-kujene"
 }
 @startwbs 
 + root

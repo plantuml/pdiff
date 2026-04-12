@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.174Z",
     "url": "http://forum.plantuml.net/9160/two-or-more-break-statement-doew-not-work-correctly",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tuxeto-149-patafo"
 }
 @startuml
 while ( a==b ) is (yes)

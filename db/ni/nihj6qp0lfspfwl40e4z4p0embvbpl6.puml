@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.644Z",
     "url": "http://forum.plantuml.net/8025/elseif-skinparam-doesnt-seem-to-use-the-activitydiamond?show=8868#c8868",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gabago-775-vefipa"
 }
 @startuml
 skinparam linetype polyline

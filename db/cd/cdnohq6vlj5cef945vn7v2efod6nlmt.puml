@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:01.291Z",
     "url": "https://github.com/plantuml/plantuml/issues/1216#issuecomment-1355336618",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "namavu-269-linexu"
 }
 @startuml
 skinparam component {

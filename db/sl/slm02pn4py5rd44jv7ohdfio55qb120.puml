@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.228Z",
     "url": "https://github.com/plantuml/plantuml/issues/337",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zoleve-516-pipura"
 }
 @startuml
     namespace f1 {

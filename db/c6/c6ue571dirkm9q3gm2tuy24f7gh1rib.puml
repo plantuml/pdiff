@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:00.953Z",
     "url": "http://forum.plantuml.net/8159/class-method-cannot-be-hidden",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kunatu-617-comefa"
 }
 @startuml
 class Method {

@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:04.356Z",
     "url": "http://forum.plantuml.net/7172/componentbordercolor-does-not-work-for-all-notations",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "refota-404-tesuco"
 }
 @startuml
 skinparam backgroundColor lightBlue

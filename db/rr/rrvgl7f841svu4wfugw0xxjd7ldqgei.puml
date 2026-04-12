@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.209Z",
     "url": "https://plantuml.com/en/stdlib",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kudecu-279-cukeri"
 }
 @startuml
 !include <archimate/Archimate>

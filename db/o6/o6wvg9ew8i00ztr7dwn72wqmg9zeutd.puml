@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.451Z",
     "url": "http://forum.plantuml.net/7485/diagonal-corner",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tazuri-082-solumi"
 }
 @startuml
 skinparam rectangle {

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.321Z",
     "url": "http://forum.plantuml.net/4986/package-style-is-confused-by-several-stereotypes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "coruri-413-kikoru"
 }
 @startuml
 package foo1 <<Node>> {

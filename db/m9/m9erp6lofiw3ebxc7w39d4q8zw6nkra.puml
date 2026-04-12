@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:35.011Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sebatu-071-jatoje"
 }
 @startuml
 A -> B

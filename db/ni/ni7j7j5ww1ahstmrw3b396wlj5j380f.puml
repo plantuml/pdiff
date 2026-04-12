@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.626Z",
     "url": "http://forum.plantuml.net/7000/shadowing-false-doesnt-work-with-all-elements",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "seduna-867-cozifo"
 }
 @startuml
 skinparam ActorShadowing   false /' This         work '/

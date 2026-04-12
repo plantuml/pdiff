@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.293Z",
     "url": "https://forum.plantuml.net/15340/add-capability-to-nest-state-diagrams-in-package-or-frame",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vejake-680-vocoku"
 }
 @startuml
 frame state_machine {

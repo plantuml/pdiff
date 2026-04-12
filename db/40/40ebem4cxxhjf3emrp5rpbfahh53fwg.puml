@@ -4,7 +4,8 @@
     "when": "2025-11-04T15:44:23.300Z",
     "url": "https://github.com/plantuml/plantuml/issues/2409",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mimomu-931-gofifu"
 }
 @startuml
 robust "Web Browser" as WB

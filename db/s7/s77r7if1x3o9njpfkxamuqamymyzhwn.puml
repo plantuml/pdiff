@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.737Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "muzeve-921-gimote"
 }
 @startuml
 namespace net.sourceforge.plantuml {

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.271Z",
     "url": "https://forum.plantuml.net/12187/jdot-smetana-random-associations-in-class-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "falozu-628-juliba"
 }
 @startuml
 !pragma layout smetana

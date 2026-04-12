@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.896Z",
     "url": "https://github.com/michiel/plantuml-kubernetes-sprites",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kegavi-444-macexa"
 }
 @startuml
 !include <kubernetes/k8s-sprites-unlabeled-25pct>

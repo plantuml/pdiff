@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:06.783Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zukuze-108-jineru"
 }
 @startuml
 class dummy

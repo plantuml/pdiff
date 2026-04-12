@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.194Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "subota-975-lotopa"
 }
 @startuml
 class javax.sound.sampled.AudioFormat.Encoding

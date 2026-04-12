@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:46.573Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=5112/skinparam-boundary-control-database-entity-sequence-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xaliji-360-xoxago"
 }
 @startuml
 skinparam {

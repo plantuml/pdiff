@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.231Z",
     "url": "http://forum.plantuml.net/9481/preprocessor-include-guards-with-preprocessorv2",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "refaje-429-vonate"
 }
 @startuml
 !procedure set()

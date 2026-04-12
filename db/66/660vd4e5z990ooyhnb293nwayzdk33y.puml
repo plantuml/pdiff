@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.886Z",
     "url": "https://forum.plantuml.net/11205/ghost-links-between-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dululi-678-geciji"
 }
 @startuml
 object o1

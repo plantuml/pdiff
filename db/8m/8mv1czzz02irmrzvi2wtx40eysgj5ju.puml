@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.466Z",
     "url": "https://forum.plantuml.net/13843/missing-arrowheads-in-sequence-diagram?show=13846#c13846",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lunisa-192-rojixo"
 }
 @startuml
 Alice <-> Alice : text

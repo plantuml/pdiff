@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.471Z",
     "url": "http://forum.plantuml.net/8378/encoding-seems-to-be-lost-after-export-to-png-and-extract-back",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jumibe-376-foguse"
 }
 @startuml
 title Diagram title

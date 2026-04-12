@@ -4,7 +4,8 @@
     "when": "2024-11-27T18:06:12.612Z",
     "url": "https://forum.plantuml.net/8537/multiline-usecase-actor-name",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "runosa-305-niveca"
 }
 @startuml
 ' Adapted from https://forum.plantuml.net/8537/multiline-usecase-actor-name

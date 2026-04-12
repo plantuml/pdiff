@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:05.262Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vuxuku-860-rizali"
 }
 @startregex
 ((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?

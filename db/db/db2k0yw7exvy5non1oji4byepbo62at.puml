@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.754Z",
     "url": "https://github.com/plantuml/plantuml/issues/1309#issuecomment-1459021728",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "favidu-344-gefita"
 }
 @startuml
 set separator .

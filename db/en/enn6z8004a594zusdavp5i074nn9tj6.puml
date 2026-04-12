@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:04.777Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "memofo-583-gixalo"
 }
 @startuml
 concise Bob

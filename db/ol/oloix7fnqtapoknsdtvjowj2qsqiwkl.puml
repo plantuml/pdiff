@@ -4,7 +4,8 @@
     "when": "2026-03-17T20:16:47.733Z",
     "url": "https://github.com/plantuml/plantuml/issues/2586",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "buzafi-572-radoki"
 }
 @startuml
 <style>

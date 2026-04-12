@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:00.790Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "picoso-141-zomivo"
 }
 @startuml
 class Object

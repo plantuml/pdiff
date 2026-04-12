@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.076Z",
     "url": "http://forum.plantuml.net/7287/change-classfontcolor-dynamically-between-class-boxes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "demomu-041-nesive"
 }
 @startuml
 class classA {

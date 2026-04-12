@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.202Z",
     "url": "https://forum.plantuml.net/12609/json-diagrams-accept-json-diagram-diagram-embedded-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sivapu-728-digata"
 }
 @startuml
 file n [

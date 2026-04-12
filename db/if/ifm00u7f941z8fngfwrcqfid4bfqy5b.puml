@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.681Z",
     "url": "http://forum.plantuml.net/7801/version-1-2018-07-dpi-handling",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tolije-929-zedosa"
 }
 @startuml
 skinparam dpi 300

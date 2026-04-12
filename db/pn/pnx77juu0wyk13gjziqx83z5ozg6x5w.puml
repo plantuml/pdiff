@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:41.486Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zumano-306-buminu"
 }
 @startuml
 Customer |o--o{ AccountParty

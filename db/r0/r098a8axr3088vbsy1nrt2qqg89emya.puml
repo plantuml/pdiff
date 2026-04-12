@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.161Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cakisi-186-kobuxu"
 }
 @startuml
 class R1

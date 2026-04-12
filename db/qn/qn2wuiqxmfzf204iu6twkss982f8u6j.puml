@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.597Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "secola-368-tasibo"
 }
 @startuml
 activate bob

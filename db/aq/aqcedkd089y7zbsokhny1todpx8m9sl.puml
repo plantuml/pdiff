@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.930Z",
     "url": "https://forum.plantuml.net/15873/style-timing-allow-stereotype-on-timing-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vunice-878-lanale"
 }
 @startuml
 <style>

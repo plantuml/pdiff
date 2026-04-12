@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.410Z",
     "url": "https://github.com/plantuml/plantuml/issues/1436",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tibojo-399-zedafo"
 }
 @startuml
 <style>

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.499Z",
     "url": "https://github.com/plantuml/plantuml/issues/1058#issuecomment-1385261883",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "betocu-993-cinoco"
 }
 @startuml
 !pragma svek_trace on

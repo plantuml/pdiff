@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.522Z",
     "url": "https://github.com/plantuml/plantuml/issues/1538",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "guzabo-012-retoxi"
 }
 @startuml
 <style>

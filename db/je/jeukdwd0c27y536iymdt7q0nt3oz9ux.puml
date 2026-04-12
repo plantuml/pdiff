@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.803Z",
     "url": "http://forum.plantuml.net/7334/disable-style-heigth-attributes-exported-scaling-browsers",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gosovi-520-mezisi"
 }
 @startuml
 skinparam svgDimensionStyle false

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.929Z",
     "url": "https://forum.plantuml.net/10378/c4-standard-library-usage-broken-since-1-2019-5",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cotone-820-kuzalo"
 }
 @startuml
 !include <c4/C4_Container>

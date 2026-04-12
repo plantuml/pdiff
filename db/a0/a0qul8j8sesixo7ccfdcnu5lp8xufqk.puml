@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.798Z",
     "url": "https://forum.plantuml.net/16261/error-when-using-map-and-portin-portout-in-a-component",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "losamo-875-dopupa"
 }
 @startuml
 'allowmixing

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.129Z",
     "url": "https://forum.plantuml.net/11130/is-there-a-compact-timing-diagram?show=11287#c11287",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cucetu-043-kaguku"
 }
 @startuml
 clock clk with period 50

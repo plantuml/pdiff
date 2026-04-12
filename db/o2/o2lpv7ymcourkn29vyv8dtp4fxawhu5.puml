@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:39.275Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dumara-234-dibufi"
 }
 @startuml
 cl1 -left-> cl1Left 

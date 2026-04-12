@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.948Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "filuxo-268-xifepe"
 }
 @startuml
 namespace Dummy [[http://www.google.com {this is a tooltip on Dummy}]] #DDDDDD {

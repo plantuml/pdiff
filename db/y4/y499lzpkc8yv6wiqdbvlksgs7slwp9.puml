@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:46.981Z",
     "url": "http://forum.plantuml.net/7081/defining-folder-entities-generate-illegalargumentexception",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sodose-009-fipafa"
 }
 @startuml
 folder test2 [

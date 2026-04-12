@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.162Z",
     "url": "https://forum.plantuml.net/14179/style-manage-style-dashed-dotted-nested-element-deployment",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kicefo-922-moxage"
 }
 @startuml
 <style>

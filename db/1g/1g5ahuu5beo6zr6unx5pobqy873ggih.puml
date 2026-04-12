@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:19.670Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bigedi-383-bexusa"
 }
 @startuml
 participant "Class A" as a

@@ -4,7 +4,8 @@
     "when": "2024-11-23T15:35:39.171Z",
     "url": "https://forum.plantuml.net/17579/how-to-add-a-snippet-of-code-inside-a-state-in-a-statechart",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "jacuxi-094-nevocu"
 }
 @startuml
 [*] --> State1

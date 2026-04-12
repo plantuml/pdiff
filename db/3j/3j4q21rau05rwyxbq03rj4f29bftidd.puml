@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.278Z",
     "url": "https://github.com/plantuml/plantuml/issues/180",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vodudi-942-conadi"
 }
 @startuml
 start

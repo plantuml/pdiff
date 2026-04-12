@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.178Z",
     "url": "https://forum.plantuml.net/12278/o-sets-wrong-arrow-direction",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "someta-062-nuzota"
 }
 @startuml
 center1 -right- right1

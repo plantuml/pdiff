@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.416Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=5432/svg-monospace-output-has-wrong-font-family",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gemagi-977-racako"
 }
 @startuml
 class foo {

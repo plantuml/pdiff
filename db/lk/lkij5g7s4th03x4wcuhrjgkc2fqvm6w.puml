@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:34.236Z",
     "url": "http://forum.plantuml.net/8159/class-method-cannot-be-hidden",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xiviro-177-rexega"
 }
 @startuml
 class Method {

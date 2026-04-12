@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.439Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "niguro-993-dojoge"
 }
 @startuml
 class A

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.246Z",
     "url": "https://github.com/plantuml/plantuml/issues/841",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zirepu-493-kizonu"
 }
 @startuml
 B1 -() A1

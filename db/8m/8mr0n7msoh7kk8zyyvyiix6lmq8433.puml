@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.462Z",
     "url": "https://forum.plantuml.net/10017/split-fork-if-swimlane-bug",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tobata-200-kimere"
 }
 @startuml
 title split?fork?if?swimlane? Bug

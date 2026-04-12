@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:46.785Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gocafu-151-jusapi"
 }
 @startjcckit(400,300)
 data/curves = curve2 errors2 curve1 errors1

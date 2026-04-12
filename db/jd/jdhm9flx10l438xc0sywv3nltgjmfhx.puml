@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.761Z",
     "url": "https://www.mytechiebits.com/PlantUMLSpriteLibraries",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rokero-761-kaguve"
 }
 @startuml
 sprite $Batch [64x64/16z] {

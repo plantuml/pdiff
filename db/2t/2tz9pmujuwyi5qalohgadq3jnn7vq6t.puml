@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.106Z",
     "url": "https://github.com/plantuml/plantuml/issues/416",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "conoge-371-rocege"
 }
 @startuml
 autonumber "0"

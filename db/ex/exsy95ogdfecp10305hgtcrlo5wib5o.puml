@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.240Z",
     "url": "https://forum.plantuml.net/12288/lifelinebordercolor-stereotype-not-working",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "majavi-281-vafate"
 }
 @startuml
 !pragma teoz true

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:31.305Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xinapa-124-tizuzi"
 }
 @startuml
 class foo {

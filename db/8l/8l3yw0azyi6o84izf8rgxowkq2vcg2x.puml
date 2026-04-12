@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.442Z",
     "url": "http://forum.plantuml.net/6959/ability-to-set-scale-2-for-gantt-charts",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "macoma-263-noripa"
 }
 @startgantt
 scale 1.5

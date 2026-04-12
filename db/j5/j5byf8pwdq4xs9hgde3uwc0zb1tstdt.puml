@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.499Z",
     "url": "http://forum.plantuml.net/8317/do-digraphs-not-work-with-entities",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tacixe-523-narixo"
 }
 @startuml
 entity   Student {

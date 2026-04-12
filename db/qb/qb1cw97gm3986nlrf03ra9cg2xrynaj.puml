@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.206Z",
     "url": "https://forum.plantuml.net/14830/something-planed-that-chinese-text-supports-word-wraps-too?show=14914#c14914",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "talopu-819-culuka"
 }
 @startuml
 skinparam wrapWidth 200

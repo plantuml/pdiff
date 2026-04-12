@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.569Z",
     "url": "https://github.com/plantuml/plantuml/issues/1007",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gigecu-892-golora"
 }
 @startuml
 !pragma useVerticalIf on

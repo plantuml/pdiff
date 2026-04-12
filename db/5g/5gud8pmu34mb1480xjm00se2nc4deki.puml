@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.738Z",
     "url": "https://forum.plantuml.net/12398/strange-stereotypes-grouping",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lipixi-224-fenepa"
 }
 @startuml
 component 3 <<1>> <<2>> <<3>>

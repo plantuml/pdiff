@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:46.404Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=6481/exceptions-during-export-with-color-gradients",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "baguri-742-nocufu"
 }
 @startuml
 skinparam class {

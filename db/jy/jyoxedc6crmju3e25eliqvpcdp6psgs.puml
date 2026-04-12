@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:32.370Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jupaco-848-cobono"
 }
 @startuml
 :ac: --> (uc)

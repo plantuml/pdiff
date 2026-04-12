@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:21.326Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cepale-028-tesuci"
 }
 @startuml
 !startsub FOO1

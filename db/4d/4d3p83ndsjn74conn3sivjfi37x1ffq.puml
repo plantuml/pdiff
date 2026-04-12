@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.474Z",
     "url": "https://forum.plantuml.net/11052/remove-unlinked-components",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "calibo-751-dalabe"
 }
 @startuml
 component foo1

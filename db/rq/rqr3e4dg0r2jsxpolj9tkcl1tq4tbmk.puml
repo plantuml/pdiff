@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.169Z",
     "url": "https://github.com/plantuml/plantuml/issues/140",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bosido-793-docaxa"
 }
 @startuml
 skinparam componentStyle uml2

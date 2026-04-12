@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.928Z",
     "url": "https://github.com/plantuml/plantuml/issues/337",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kufamu-966-dimidi"
 }
 @startuml
     namespace java.util {

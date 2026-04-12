@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.241Z",
     "url": "http://forum.plantuml.net/8429/is-it-possible-to-write-inside-of-a-diamond",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pemora-348-lunebi"
 }
 @startuml
 entity   Student {

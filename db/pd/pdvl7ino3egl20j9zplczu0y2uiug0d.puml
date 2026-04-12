@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.058Z",
     "url": "https://github.com/plantuml/plantuml/issues/134",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tucibi-346-pocori"
 }
 @startuml
 skinparam noteTextAlignment left

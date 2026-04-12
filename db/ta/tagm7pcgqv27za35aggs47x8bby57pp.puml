@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:46.003Z",
     "url": "https://forum.plantuml.net/9880/changed-behaviour-from-vers-2019-5-to-vers-2019-6",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jedipu-963-boceci"
 }
 @startuml
 skinparam reversecolor dark

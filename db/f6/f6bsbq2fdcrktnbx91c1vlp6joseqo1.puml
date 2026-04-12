@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:05.590Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kenomo-182-topiru"
 }
 @startuml
 :foo1;

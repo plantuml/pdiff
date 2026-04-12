@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.539Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=5136/can-the-hotspot-areas-of-tooltips-be-controlled",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "moxola-212-jijapu"
 }
 @startuml
 class MyTestClass [[{Tooltip of class, MyTestClass}]] {

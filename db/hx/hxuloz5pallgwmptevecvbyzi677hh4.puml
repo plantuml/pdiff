@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:30.120Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vicibo-694-segusa"
 }
 @startuml
 skinparam titleFontSize 17

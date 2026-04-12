@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.219Z",
     "url": "https://github.com/plantuml/plantuml/issues/855",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vizoso-359-cugebo"
 }
 @startuml
 start

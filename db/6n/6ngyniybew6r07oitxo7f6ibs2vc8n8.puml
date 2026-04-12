@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.986Z",
     "url": "https://forum.plantuml.net/10903/state-labels-overlap-with-participants-names",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pitone-454-rugula"
 }
 @startuml
 concise "CDAS_FETCH_EVENT" as CDAS_FETCH_EVENT

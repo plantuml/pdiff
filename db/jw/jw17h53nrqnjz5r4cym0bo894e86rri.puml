@@ -4,7 +4,8 @@
     "when": "2024-06-23T08:53:29.555Z",
     "url": "https://github.com/plantuml/plantuml/pull/1833",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vitefa-904-xibamu"
 }
 @startuml
 !theme C4_united from <C4/themes>

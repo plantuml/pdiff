@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.038Z",
     "url": "https://forum.plantuml.net/10702/sequence-diagrams-do-not-work-with-frame",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jazime-847-fenoti"
 }
 @startuml
 

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.243Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kocifi-512-giciga"
 }
 @startuml
 Bob ->] : hello

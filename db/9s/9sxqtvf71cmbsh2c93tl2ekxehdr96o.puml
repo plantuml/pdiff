@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.766Z",
     "url": "https://github.com/plantuml/plantuml/issues/1442",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dogile-830-nobose"
 }
 @startuml
 title Engine Test

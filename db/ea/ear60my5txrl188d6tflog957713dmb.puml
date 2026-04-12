@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:04.162Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mikofe-300-dakelo"
 }
 @startuml
 (uc1) <-left- :ac1 right: 

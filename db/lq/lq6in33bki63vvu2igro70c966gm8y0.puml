@@ -4,7 +4,8 @@
     "when": "2025-08-19T16:20:33.034Z",
     "url": "https://github.com/plantuml/plantuml/issues/2285",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jutasa-083-lisizi"
 }
 @startuml
 start

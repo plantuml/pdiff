@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:46.909Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sovoja-047-nekuki"
 }
 @startuml
 title Conformance

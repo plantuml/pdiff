@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.803Z",
     "url": "https://forum.plantuml.net/9722/repeat-condition-in-wrong-swimline",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lirove-619-rimena"
 }
 @startuml
 |actorA|

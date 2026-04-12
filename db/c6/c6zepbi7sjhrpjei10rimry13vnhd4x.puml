@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:00.981Z",
     "url": "http://forum.plantuml.net/8359/group-components-cant-be-set-transparent",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "likika-282-coleta"
 }
 @startuml
 skinparam backgroundColor red

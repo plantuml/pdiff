@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.366Z",
     "url": "http://wiki.plantuml.net/site/preprocessing-json",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dimolu-862-jipitu"
 }
 @startuml
 !$foo = { "company": "Skynet", "employees" : [

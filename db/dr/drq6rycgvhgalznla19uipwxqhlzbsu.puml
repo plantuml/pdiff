@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:03.391Z",
     "url": "http://forum.plantuml.net/8798/change-color-of-sprite",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jesixo-997-tulenu"
 }
 @startuml
 !include <tupadr3/common>

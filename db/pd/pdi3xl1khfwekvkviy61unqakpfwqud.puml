@@ -4,7 +4,8 @@
     "when": "2024-06-06T17:24:18.709Z",
     "url": "https://github.com/plantuml/plantuml/issues/1683",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tixofi-300-diruji"
 }
 @startuml
 Test -> Test : 1st self message, no activation

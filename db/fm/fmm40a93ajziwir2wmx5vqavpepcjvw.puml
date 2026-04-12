@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.373Z",
     "url": "http://forum.plantuml.net/6438/teoz-doesnt-work-in-a-group-or-alt",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ficexe-922-jexago"
 }
 @startuml
 !pragma teoz true

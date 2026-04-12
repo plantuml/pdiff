@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.555Z",
     "url": "https://forum.plantuml.net/10864/fontcolor-for-enteties-in-class-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vegopa-380-bemagi"
 }
 @startuml
 	skinparam class{

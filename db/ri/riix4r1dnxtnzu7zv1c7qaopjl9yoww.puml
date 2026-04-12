@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.857Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "patazu-988-jugosa"
 }
 @startregex
 \[\[[%s]*([^%s%g\[\]]+?)(?:[%s]*\{([^{}]*)\})?(?:[%s]([^%s\{\}\[\]][^\[\]]*))?[%s]*\]\]

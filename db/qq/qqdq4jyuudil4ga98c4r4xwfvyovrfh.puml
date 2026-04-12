@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.763Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=6496/beautiful-c-in-classes-after-latex-export",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cocexu-514-gijega"
 }
 @startuml
 skinparam tikzFont 2.3;4.5

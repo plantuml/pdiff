@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.782Z",
     "url": "http://forum.plantuml.net/8598/skinparam-rectangle-not-working-in-activity-beta",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xitagi-132-zanifi"
 }
 @startuml
 <style>

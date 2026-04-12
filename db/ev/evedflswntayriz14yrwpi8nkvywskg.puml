@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.153Z",
     "url": "https://forum.plantuml.net/11729/new-css-styling-is-not-recognized-in-class-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mijoli-928-nogina"
 }
 @startuml
 title title

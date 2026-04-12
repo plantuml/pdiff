@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.574Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=5438/plantuml-crashes-with-this-example",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gucoja-095-forecu"
 }
 @startuml
 skinparam monochrome true

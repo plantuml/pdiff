@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:04.042Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xanubo-797-nisode"
 }
 @startmath
 sum_(i=1)^n i^3=((n(n+1))/2)^2

@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.485Z",
     "url": "https://forum.plantuml.net/17196/activity-diagram-using-if-is-syntax-in-elseif",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nokude-826-lakatu"
 }
 @startuml
 start

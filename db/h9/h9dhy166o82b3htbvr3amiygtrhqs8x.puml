@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.320Z",
     "url": "https://forum.plantuml.net/12426/styles-css-method-are-not-applied-correctly-usecase-diagram?show=12426#q12426",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "livudi-854-kigigi"
 }
 @startuml
 <style> 

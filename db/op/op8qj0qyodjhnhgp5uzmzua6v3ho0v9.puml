@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:40.071Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pupapo-233-fadeto"
 }
 @startuml
 participant Bob

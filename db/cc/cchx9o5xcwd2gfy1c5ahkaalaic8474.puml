@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:01.243Z",
     "url": "http://forum.plantuml.net/6702/add-to-%26-in-latex-export",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "muniki-512-sefomu"
 }
 @startuml
 class SomeClass {

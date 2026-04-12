@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.134Z",
     "url": "https://forum.plantuml.net/11219/multiple-function-calls-in-text-only-one-processed",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vekipu-253-tozago"
 }
 @startuml
 !function txthighlight($text)

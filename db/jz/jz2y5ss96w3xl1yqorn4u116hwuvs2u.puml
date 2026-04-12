@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:32.388Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "galeka-715-mifuxo"
 }
 @startuml
 Room o- Studient

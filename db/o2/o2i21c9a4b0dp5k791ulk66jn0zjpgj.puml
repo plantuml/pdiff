@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.269Z",
     "url": "https://forum.plantuml.net/9684/split-while-bug-with-a-couple-of-workarounds",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jopimi-075-ginaso"
 }
 @startuml
 title Split Bug (not working)

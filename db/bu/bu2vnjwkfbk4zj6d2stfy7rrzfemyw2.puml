@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.158Z",
     "url": "http://forum.plantuml.net/9525/archimate-using-a-node-for-technology-device",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sasebi-067-mofega"
 }
 @startuml
 skinparam StereotypeAlignment right

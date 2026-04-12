@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:07.703Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vinaje-058-dapozi"
 }
 @startuml
 skinparam shadowing false

@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.883Z",
     "url": "https://github.com/plantuml/plantuml/issues/1020",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "korori-010-kupufe"
 }
 @startuml
 scale 31536000 as 50 pixels

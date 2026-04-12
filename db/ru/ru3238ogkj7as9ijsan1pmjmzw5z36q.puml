@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.256Z",
     "url": "http://forum.plantuml.net/7411/support-for-multiple-label-arrows-in-use-case-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dizuru-115-bogova"
 }
 @startuml
 usecase A

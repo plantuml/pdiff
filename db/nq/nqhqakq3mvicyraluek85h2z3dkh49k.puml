@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.945Z",
     "url": "https://forum.plantuml.net/10798/is-it-possible-to-hide-the-component-icon?show=11696#c11696",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "darace-938-surebi"
 }
 @startuml
 skinparam componentStyle rectangle

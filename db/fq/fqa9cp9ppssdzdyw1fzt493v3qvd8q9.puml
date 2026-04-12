@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.513Z",
     "url": "https://forum.plantuml.net/12957/component-regression-with-version-1-2021-01beta7?show=12959#c12959",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nakovi-987-cebizo"
 }
 @startuml
 <style>

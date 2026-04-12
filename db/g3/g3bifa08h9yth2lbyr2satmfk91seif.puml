@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.100Z",
     "url": "https://forum.plantuml.net/11535/png-export-to-300-dpi-no-longer-works-correctly",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bebipe-828-poveru"
 }
 @startuml
 skinparam {

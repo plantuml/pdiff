@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:08.082Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nifemo-952-cerija"
 }
 @startuml
 !pragma teoz true

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.632Z",
     "url": "https://github.com/plantuml/plantuml/issues/105",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zilaxi-848-gorazi"
 }
 @startuml
   skinparam defaultFontName Consolas

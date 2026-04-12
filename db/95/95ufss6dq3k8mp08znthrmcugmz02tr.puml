@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.618Z",
     "url": "https://forum.plantuml.net/10157/sequence-diagrams-with-diagrams-in-note-and-functions",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lefale-019-januta"
 }
 @startuml
 Alice -> Bob : hello1

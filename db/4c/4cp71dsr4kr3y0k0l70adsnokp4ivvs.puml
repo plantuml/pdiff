@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.474Z",
     "url": "http://forum.plantuml.net/9509/how-style-archimate-elements-individually-using-skinparams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "detino-411-ketoru"
 }
 @startuml
 skinparam archimate {

@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.186Z",
     "url": "http://forum.plantuml.net/8572/svglinktarget-not-working",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gamecu-412-jajaga"
 }
 @startuml
 skinparam hyperlinkUnderline false

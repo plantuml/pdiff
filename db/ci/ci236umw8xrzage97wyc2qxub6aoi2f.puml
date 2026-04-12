@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:01.450Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=6423/can-i-set-arrow-thickness-on-a-component-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xanare-821-liseto"
 }
 @startuml
 component a

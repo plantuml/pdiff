@@ -4,7 +4,8 @@
     "when": "2024-11-23T15:35:39.159Z",
     "url": "https://forum.plantuml.net/6003/can-a-defined-constant-be-parsed-correctly-after-n",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "volita-812-rudoko"
 }
 @startuml
 !TEST=something

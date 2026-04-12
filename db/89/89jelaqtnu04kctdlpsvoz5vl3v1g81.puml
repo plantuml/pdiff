@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.370Z",
     "url": "http://forum.plantuml.net/9131/teoz-crash-with-arrow-to-self",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jopigi-026-cefexe"
 }
 @startuml
 !pragma teoz true

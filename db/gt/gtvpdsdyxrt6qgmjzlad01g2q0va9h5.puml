@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:08.350Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zumaja-388-jipati"
 }
 @startuml
 package "entities" #DDDDDD {

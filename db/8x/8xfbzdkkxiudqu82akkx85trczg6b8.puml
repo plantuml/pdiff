@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.546Z",
     "url": "https://forum.plantuml.net/5261/please-allow-adding-edges-class-members-methods-complex-names",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "milofi-904-mokeka"
 }
 @startuml
 left to right direction

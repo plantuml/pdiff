@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.924Z",
     "url": "https://forum.plantuml.net/10493/how-can-i-customize-the-actor-icon-in-svg-output",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xosuvu-797-mesovu"
 }
 @startuml
 skinparam actorStyle awesome

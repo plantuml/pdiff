@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:41.998Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "givumi-837-kexixe"
 }
 @startuml
 A -> B

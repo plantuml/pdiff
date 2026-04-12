@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.404Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sexavu-982-zojuxu"
 }
 @startuml
 package Afoo1 #red-green {

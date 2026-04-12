@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.761Z",
     "url": "http://forum.plantuml.net/8317/do-digraphs-not-work-with-entities",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sobatu-152-vexava"
 }
 @startuml
 skinparam backgroundColor LightYellow

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.626Z",
     "url": "https://forum.plantuml.net/14104/sequence-diagram-incoming-outgoing-some-arrows-are-inverted",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tivozi-681-gazosu"
 }
 @startuml
 participant Alice as a

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.550Z",
     "url": "https://github.com/plantuml/plantuml-stdlib/issues/63#issuecomment-1314774419",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xubila-983-larotu"
 }
 @startuml
 !include <awslib14/AWSCommon>

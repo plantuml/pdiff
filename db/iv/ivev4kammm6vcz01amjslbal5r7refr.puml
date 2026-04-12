@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.248Z",
     "url": "https://forum.plantuml.net/9653/backgroundcolor-of-swimlane-title",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "juvexe-975-sizifa"
 }
 @startuml
 skinparam SwimlaneTitleFontColor red

@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.289Z",
     "url": "https://github.com/plantuml/plantuml/issues/1467",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gamipi-006-napade"
 }
 @startuml
 !pragma svek_trace on

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.898Z",
     "url": "https://forum.plantuml.net/17043/transparent-background-colours-on-alt-else-elements",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gosoci-117-nozape"
 }
 @startuml
 !pragma teoz true

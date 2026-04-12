@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.670Z",
     "url": "https://forum.plantuml.net/16516/usecase-business-usecase-with-multiline-description",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tadadi-269-bojone"
 }
 @startuml
 usecase/ test15 #cccccc as "

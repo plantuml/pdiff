@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:32.670Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "buxoli-570-dolufe"
 }
 @startuml
 participant Bob

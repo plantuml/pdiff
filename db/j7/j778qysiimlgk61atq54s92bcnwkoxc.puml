@@ -4,7 +4,8 @@
     "when": "2025-10-16T19:18:49.868Z",
     "url": "https://github.com/plantuml/plantuml/issues/2386",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sefodo-514-xifoji"
 }
 @startuml
 !pragma teoz true

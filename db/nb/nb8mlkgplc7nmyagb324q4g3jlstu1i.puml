@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.369Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=3938/clipping-in-activity-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ludomi-161-zajica"
 }
 @startuml
 (*) --> "ClickServlet.handleRequest()"

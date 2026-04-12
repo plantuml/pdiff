@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.450Z",
     "url": "http://forum.plantuml.net/8158/improve-text-on-arrows-in-activity-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "meliva-314-duxope"
 }
 @startuml
 start

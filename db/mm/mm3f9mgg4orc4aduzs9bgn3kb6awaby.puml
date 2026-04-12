@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:35.389Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ruloju-244-bobovu"
 }
 @startuml
 Class1 <|-- ClassBase : sample association name not exported via txmi:star

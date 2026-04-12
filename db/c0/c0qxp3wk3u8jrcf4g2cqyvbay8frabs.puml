@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:00.743Z",
     "url": "https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xozaso-494-zozivo"
 }
 @startebnf
 title EBNF by EBNF

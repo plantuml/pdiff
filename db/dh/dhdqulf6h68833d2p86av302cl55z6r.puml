@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:03.002Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "baxipo-751-mesati"
 }
 @startuml
 stdlib azure

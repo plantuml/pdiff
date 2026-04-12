@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:39.617Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fenefu-084-rucira"
 }
 @startuml
 state Radio_Root {

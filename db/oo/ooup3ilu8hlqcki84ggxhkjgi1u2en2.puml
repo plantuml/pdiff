@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:40.056Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rufuda-984-nebune"
 }
 @startuml
 class  AvailabilityCheckRequestor << Singleton >>  << Startup >>  << Stateless Session Bean >>

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.220Z",
     "url": "https://forum.plantuml.net/13824/getting-unsupportedoperation-when-adding-stop-and-end-case",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jusise-522-totabu"
 }
 @startuml
 start

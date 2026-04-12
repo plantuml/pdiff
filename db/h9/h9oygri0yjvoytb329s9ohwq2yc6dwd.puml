@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.334Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zefitu-831-losixa"
 }
 @startuml
 class Foo

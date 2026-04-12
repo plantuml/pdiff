@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.305Z",
     "url": "https://github.com/plantuml/plantuml/issues/635#issuecomment-907144157",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rezobu-674-nedusa"
 }
 @startuml
 title test of link on ref

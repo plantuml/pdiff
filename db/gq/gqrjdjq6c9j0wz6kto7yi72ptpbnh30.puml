@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.189Z",
     "url": "https://forum.plantuml.net/14976/style-deployment-diagram-cant-get-style-to-work",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xicepi-849-zilasa"
 }
 @startuml
 hide stereotype

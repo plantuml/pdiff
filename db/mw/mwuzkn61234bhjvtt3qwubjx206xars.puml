@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:35.854Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nogidi-741-firaxe"
 }
 @startuml
 database db1  as "My Database1" {

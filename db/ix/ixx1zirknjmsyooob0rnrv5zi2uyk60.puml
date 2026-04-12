@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:31.319Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "micala-463-peliga"
 }
 @startuml	 
 package Bus_Tx {

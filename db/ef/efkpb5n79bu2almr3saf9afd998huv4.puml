@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:04.348Z",
     "url": "https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sakago-133-zevepa"
 }
 @startjson
 [1, 2, true, false, 3]

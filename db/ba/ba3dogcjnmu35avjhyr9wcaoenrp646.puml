@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.050Z",
     "url": "https://forum.plantuml.net/11130/is-there-a-compact-timing-diagram?show=11287#c11287",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "luzina-161-gefusa"
 }
 @startuml
 compact robust "Web Browser" as WB

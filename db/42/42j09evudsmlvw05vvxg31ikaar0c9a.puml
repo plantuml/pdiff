@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.410Z",
     "url": "http://forum.plantuml.net/7348/how-do-i-change-the-spot-letter-by-stereotype",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tenage-945-golige"
 }
 @startuml
 class foo1 << (P)artyPlaceThing >>

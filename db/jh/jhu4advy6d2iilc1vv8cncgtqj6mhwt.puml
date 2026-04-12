@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.901Z",
     "url": "https://forum.plantuml.net/14173/switch-arrow-doesnt-get-drawn-with-end-in-activity-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pugepo-578-pozobi"
 }
 @startuml
 switch (test?)

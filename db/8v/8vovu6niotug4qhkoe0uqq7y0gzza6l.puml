@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.534Z",
     "url": "https://forum.plantuml.net/16928/unicode-inside-sub-diagram-is-not-show-ok",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xukudu-207-diroxo"
 }
 @startuml
 rectangle A [

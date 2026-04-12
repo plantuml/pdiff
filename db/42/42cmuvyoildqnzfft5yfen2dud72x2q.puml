@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.406Z",
     "url": "http://forum.plantuml.net/8942/maxasciimessagelength-dosnt-work",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "femura-045-coroci"
 }
 @startuml
 skinparam maxMessageSize 50

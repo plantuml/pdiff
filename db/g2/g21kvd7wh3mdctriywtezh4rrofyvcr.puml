@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.032Z",
     "url": "http://forum.plantuml.net/8801/color-sprite-not-working-with-archimate-and-sprite-from-file",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pinija-851-fatisa"
 }
 @startuml
 sprite Netw jar:archimate/network

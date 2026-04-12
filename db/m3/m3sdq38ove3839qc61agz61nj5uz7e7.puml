@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:34.852Z",
     "url": "https://forum.plantuml.net/16197/timing-diagram-adding-double-arrows-to-analog-signal-type",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "semovi-522-fosipa"
 }
 @startuml
 analog "Vcore" as VDD

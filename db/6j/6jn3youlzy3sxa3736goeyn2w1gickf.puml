@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.970Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=5437/start-and-node-are-not-center",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "katibi-360-lutuze"
 }
 @startuml
 |Bob|

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.902Z",
     "url": "http://www.eclipse.org/legal/epl-v10.html",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kifexa-442-bubive"
 }
 @startuml
 package "entities" {

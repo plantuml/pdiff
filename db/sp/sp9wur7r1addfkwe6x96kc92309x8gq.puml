@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.312Z",
     "url": "https://github.com/plantuml/plantuml/issues/1000",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fodifi-275-cimeja"
 }
 @startuml
 <style>

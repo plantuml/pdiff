@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.488Z",
     "url": "https://forum.plantuml.net/12317/transparence-management-with-monochrome-reverse",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nisamo-678-cobepe"
 }
 @startuml
 skinparam monochrome reverse

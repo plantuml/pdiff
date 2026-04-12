@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:39.022Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xareli-210-muvuto"
 }
 @startuml
 class R1

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.023Z",
     "url": "http://forum.plantuml.net/7817/how-to-use-boxpadding-with-teoz",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zugeve-107-sipepo"
 }
 @startuml
 !pragma teoz true

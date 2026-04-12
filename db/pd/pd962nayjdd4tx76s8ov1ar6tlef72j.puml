@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.032Z",
     "url": "https://forum.plantuml.net/11365/creole-trees-do-not-respect-indent-levels-component-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nataba-700-pucako"
 }
 @startuml
 [Component A] as A

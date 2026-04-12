@@ -4,7 +4,8 @@
     "when": "2024-08-30T14:53:37.836Z",
     "url": "https://forum.plantuml.net/13135/remove-elements-package-namespace-restore-specific-doesnt",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "girusu-005-refadi"
 }
 @startuml
 package P {

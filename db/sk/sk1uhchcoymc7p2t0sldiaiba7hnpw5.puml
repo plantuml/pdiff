@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:45.171Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "loxebe-548-xaniba"
 }
 @startuml
 Dummy -> Alice : foo1

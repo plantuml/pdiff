@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:06.998Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cimazo-573-gukero"
 }
 @startuml
 Alice <|-- Bob

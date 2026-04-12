@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.699Z",
     "url": "https://forum.plantuml.net/14554/style-state-allow-fontcolor-style-on-state",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nabazu-166-tomati"
 }
 @startuml
 <style>

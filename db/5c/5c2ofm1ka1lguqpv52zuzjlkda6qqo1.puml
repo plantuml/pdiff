@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.706Z",
     "url": "https://forum.plantuml.net/10612/sequence-diagram-shortcut-deact-incoming-outgoing-messages",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rinoja-540-kubene"
 }
 @startuml
 [-> B ++

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:31.234Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xufuna-372-sitari"
 }
 @startuml
 A->B : My Message from A to B

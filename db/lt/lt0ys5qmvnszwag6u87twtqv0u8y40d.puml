@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:34.530Z",
     "url": "https://forum.plantuml.net/9706/background-hyperlink-attributes-activity-activity-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "visomi-970-nexini"
 }
 @startuml
 skinparam HyperlinkColor #White

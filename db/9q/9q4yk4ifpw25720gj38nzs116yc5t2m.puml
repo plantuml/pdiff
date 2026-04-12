@@ -4,7 +4,8 @@
     "when": "2025-05-14T17:45:29.449Z",
     "url": "https://github.com/plantuml/plantuml/issues/2174",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "nilati-839-luciso"
 }
 @startuml
 sprite bs1 <svg viewBox="0 0 16 16">

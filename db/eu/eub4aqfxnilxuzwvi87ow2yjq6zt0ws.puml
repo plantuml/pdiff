@@ -4,7 +4,8 @@
     "when": "2025-04-07T07:45:05.059Z",
     "url": "https://github.com/plantuml/plantuml/issues/2098",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zenafi-461-nazira"
 }
 @startuml
 <style>

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.135Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pobota-875-zigoka"
 }
 @startuml
 listfont ceci est un essai de fonte de caractères

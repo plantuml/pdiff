@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.992Z",
     "url": "http://forum.plantuml.net/7503/formatting-bug-in-component-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mugimu-201-rokuxi"
 }
 @startuml
 !pragma svek_trace on

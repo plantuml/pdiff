@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.980Z",
     "url": "http://www.yamllint.com/",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xafuli-899-nirudo"
 }
 @startyaml
 apiVersion: v1

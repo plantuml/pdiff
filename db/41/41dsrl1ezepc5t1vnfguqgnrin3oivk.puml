@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.402Z",
     "url": "https://forum.plantuml.net/12823/accept-hexagon-content-without-overflow-deployment-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sogasa-550-suzono"
 }
 @startuml
 hexagon r1 {

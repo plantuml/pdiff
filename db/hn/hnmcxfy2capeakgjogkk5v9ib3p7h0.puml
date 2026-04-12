@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.781Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kuxaze-998-zupisa"
 }
 @startuml
 sprite $printer8 [15x15/8] {

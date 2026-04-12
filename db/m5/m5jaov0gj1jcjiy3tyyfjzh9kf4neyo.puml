@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:34.922Z",
     "url": "https://forum.plantuml.net/1021/need-to-allow-dashes-in-entity-names?show=16794#c16794",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jexefu-278-relima"
 }
 @startuml
 interface i

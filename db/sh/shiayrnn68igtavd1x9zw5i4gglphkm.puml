@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:45.111Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pocadi-100-duzono"
 }
 @startuml
 !include <tupadr3/common>

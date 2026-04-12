@@ -4,7 +4,8 @@
     "when": "2025-01-23T23:13:50.746Z",
     "url": "https://plantuml.com/newline",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bopuxi-762-tugapi"
 }
 @startuml
 Bob -> Alice : 1 "XXX + %newline() + XXX"

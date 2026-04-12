@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.354Z",
     "url": "https://forum.plantuml.net/15983/element-line-style-not-applied-in-usecase-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jikake-163-kazera"
 }
 @startuml
 usecase c #palegreen;line:red;line.dashed;text:yellow

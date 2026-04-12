@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.322Z",
     "url": "https://github.com/plantuml/plantuml/issues/1608",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "colecu-026-fititu"
 }
 @startuml
 <style>

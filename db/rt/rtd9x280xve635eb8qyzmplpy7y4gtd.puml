@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.235Z",
     "url": "http://forum.plantuml.net/8383/how-to-hide-unused-states",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "civeze-108-natunu"
 }
 @startuml
 hide empty description

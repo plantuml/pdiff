@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:06.835Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fuvazu-990-gebide"
 }
 @startuml
 namespace User {

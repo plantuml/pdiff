@@ -4,7 +4,8 @@
     "when": "2024-06-11T19:48:28.963Z",
     "url": "https://github.com/plantuml/plantuml/issues/1809",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tejaro-163-gukibi"
 }
 @startgantt
 [Prototype design] as [D] requires 15 days

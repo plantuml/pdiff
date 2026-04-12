@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.616Z",
     "url": "https://forum.plantuml.net/12278/o-sets-wrong-arrow-direction",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lerino-307-jogape"
 }
 @startuml
 center1 -left- left1

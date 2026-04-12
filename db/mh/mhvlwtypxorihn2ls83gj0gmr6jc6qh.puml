@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.277Z",
     "url": "https://github.com/plantuml/plantuml/issues/1096",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "timute-501-zeceji"
 }
 @startuml
 !pragma teoz true

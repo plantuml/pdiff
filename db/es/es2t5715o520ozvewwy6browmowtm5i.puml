@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.016Z",
     "url": "https://forum.plantuml.net/14118/class-diagram-with-different-round-corners?show=14119#c14119",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tovumo-773-vegeso"
 }
 @startuml
 'skinparam RoundCorner 35

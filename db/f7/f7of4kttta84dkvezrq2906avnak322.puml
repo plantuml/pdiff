@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.670Z",
     "url": "https://forum.plantuml.net/10838/there-better-way-implement-while-loop-perprocess-function",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cigori-412-pudodo"
 }
 @startuml
 /' test

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.285Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nifaci-678-kapudi"
 }
 @startuml
 partition "**process** HelloWorld" {

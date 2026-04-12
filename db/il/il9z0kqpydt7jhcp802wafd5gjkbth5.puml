@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.870Z",
     "url": "http://forum.plantuml.net/7184/set-legendborderthickness-to-0",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "noseno-665-jivosi"
 }
 @startuml
 skinparam LegendBorderThickness 0

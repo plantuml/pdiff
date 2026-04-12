@@ -4,7 +4,8 @@
     "when": "2024-10-13T12:24:41.616Z",
     "url": "https://github.com/plantuml/plantuml/issues/1854",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "renebo-996-xaravu"
 }
 @startuml
 hide empty members

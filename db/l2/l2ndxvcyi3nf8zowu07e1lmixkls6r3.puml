@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.618Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=3931/is-it-possible-to-draw-if-elseif-else-structure-vertically",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bevale-917-vimofa"
 }
 @startuml
 title lot_of_elsif

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.652Z",
     "url": "https://forum.plantuml.net/15497/error-when-using-as-double-arrow-for-styles",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jegopi-165-xatati"
 }
 @startuml
 skinparam rectangle {

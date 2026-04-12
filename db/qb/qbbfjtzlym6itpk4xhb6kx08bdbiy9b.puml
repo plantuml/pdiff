@@ -4,7 +4,8 @@
     "when": "2024-06-06T17:24:18.653Z",
     "url": "https://github.com/plantuml/plantuml/pull/1802",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cazomu-086-debaru"
 }
 @startuml
 !pragma teoz true

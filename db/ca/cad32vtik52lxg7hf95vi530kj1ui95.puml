@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:01.135Z",
     "url": "https://forum.plantuml.net/10481/associations-and-realizations-of-elements-with-namespaces",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xosoti-054-gemelu"
 }
 @startuml
 namespace A {

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.282Z",
     "url": "https://forum.plantuml.net/11645/style-for-note-on-component-and-deployement-diagram-class",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rifoju-172-jusufe"
 }
 @startuml
 skinparam useBetaStyle true

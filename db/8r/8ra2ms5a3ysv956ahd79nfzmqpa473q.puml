@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.646Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kicira-692-vopimi"
 }
 @startuml
 package p1 {

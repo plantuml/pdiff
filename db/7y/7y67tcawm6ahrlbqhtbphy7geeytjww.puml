@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:21.306Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vokuka-109-govita"
 }
 @startuml
 class cl1 extends cl2

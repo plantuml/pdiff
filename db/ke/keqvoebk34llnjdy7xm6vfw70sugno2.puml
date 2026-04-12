@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.922Z",
     "url": "https://github.com/plantuml/plantuml/issues/1467",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nivipe-046-sicama"
 }
 @startuml
 class HashMap<K,V>

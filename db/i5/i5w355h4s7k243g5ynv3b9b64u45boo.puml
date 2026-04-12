@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:30.359Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fubefo-051-loxaro"
 }
 @startuml
     class_1 -> class_2

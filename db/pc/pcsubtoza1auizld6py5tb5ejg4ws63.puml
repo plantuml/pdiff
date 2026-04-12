@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.012Z",
     "url": "https://forum.plantuml.net/13879/report-automatic-text-color-will-crash-participant-includes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tisogu-489-sugazi"
 }
 @startuml
 skinparam ParticipantFontColor automatic

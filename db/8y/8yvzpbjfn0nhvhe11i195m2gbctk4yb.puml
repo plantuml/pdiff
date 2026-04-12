@@ -4,7 +4,8 @@
     "when": "2024-11-27T18:06:12.487Z",
     "url": "https://forum.plantuml.net/18126/multi-line-creole-tables-broken-activity-diagrams-since-2023",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "batoji-157-zevaje"
 }
 @startuml
 :|Creole Table Line1|\n|Line2|;

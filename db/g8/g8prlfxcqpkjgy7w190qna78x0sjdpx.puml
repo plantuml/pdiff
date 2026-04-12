@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:07.387Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nuburo-642-zeduda"
 }
 @startjcckit(800,600)
 data/curves = c1 c2 c3

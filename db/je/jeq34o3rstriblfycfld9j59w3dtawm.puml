@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.796Z",
     "url": "http://forum.plantuml.net/6773/skinparam-partitionbordercolor-does-not-work",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "doruku-586-japeva"
 }
 @startuml
 skinparam PartitionBorderColor blue

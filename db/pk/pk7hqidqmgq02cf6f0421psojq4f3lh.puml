@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-11-18T15:41:29.456Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "suriro-628-saluve"
 }
 @startuml
 alice -> bob : 123%newline()456

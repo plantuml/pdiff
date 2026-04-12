@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.337Z",
     "url": "https://forum.plantuml.net/11052/remove-unlinked-components",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tisetu-972-sulelo"
 }
 @startuml
 component foo1 $tag1

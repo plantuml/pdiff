@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.060Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "medepu-629-xusura"
 }
 @startuml
 class foo1 $tag1 {

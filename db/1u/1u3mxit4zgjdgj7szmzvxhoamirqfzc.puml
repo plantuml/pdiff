@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.794Z",
     "url": "http://forum.plantuml.net/8749/wrapwidth-causes-bullet-number-lists-behave-inconsistently",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pocide-767-colanu"
 }
 @startuml
 skinparam WrapWidth 300

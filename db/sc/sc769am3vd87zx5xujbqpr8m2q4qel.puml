@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.953Z",
     "url": "https://forum.plantuml.net/11617/multi-line-message-comment-handling-changed",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "susisa-745-vinimu"
 }
 @startuml
 A -> B: Message\n\

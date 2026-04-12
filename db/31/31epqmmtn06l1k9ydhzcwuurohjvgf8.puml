@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.154Z",
     "url": "https://forum.plantuml.net/16657/hide-%40unlinked-fails-in-case-of-component-notation",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nuxode-893-vojuvo"
 }
 @startuml
 component C1 {

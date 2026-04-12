@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.226Z",
     "url": "https://forum.plantuml.net/18480/teoz-produces-odd-legend-for-sequence-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zajiti-809-rizesu"
 }
 @startuml
 participant A

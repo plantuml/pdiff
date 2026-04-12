@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:08.218Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gonavi-861-jokido"
 }
 @startuml
 java.lang.Object <|-- classic.collections.ArrayList

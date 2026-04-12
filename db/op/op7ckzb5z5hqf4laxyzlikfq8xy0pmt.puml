@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.064Z",
     "url": "http://forum.plantuml.net/9048/img-tag-for-sequence-diagram-participants-does-always-render",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vutadu-365-cagaxu"
 }
 @startuml
 !define logo(x) "x <img:https://wiki.agilicus.com/media/wiki/favicon.png>" as x

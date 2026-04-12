@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:07.547Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gidebe-103-masila"
 }
 @startuml
 |Fournisseur|

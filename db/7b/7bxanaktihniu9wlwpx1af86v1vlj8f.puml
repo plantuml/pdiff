@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:21.166Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mirave-598-befemu"
 }
 @startuml
 A <|-B

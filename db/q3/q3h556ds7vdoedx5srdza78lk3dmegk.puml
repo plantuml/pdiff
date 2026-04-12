@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.024Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jozoro-230-tatazo"
 }
 @startuml
 !pragma teoz true

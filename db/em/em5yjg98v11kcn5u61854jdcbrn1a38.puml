@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:04.683Z",
     "url": "https://forum.plantuml.net/15762/annotate-binary-waveforms",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "biloxu-280-muguje"
 }
 @startuml
 binary "Binary Serial Data" as D

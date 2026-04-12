@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.474Z",
     "url": "https://github.com/plantuml/plantuml/issues/1175",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "saxova-160-poveto"
 }
 @startuml
 namespace common {

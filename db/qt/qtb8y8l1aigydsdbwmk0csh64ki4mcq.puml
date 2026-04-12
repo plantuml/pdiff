@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.886Z",
     "url": "https://github.com/plantuml/plantuml/issues/1357",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pifike-991-binivu"
 }
 @startuml
 state S.I {

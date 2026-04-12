@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:01.845Z",
     "url": "https://github.com/plantuml/plantuml/issues/1241",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xuzilo-191-nuxobo"
 }
 @startuml
 <style>

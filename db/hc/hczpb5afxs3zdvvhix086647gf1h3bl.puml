@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.474Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pecojo-863-bubuki"
 }
 @startuml
 !unquoted procedure Z($code)

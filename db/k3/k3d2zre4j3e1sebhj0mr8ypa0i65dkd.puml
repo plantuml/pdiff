@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:32.565Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fijecu-697-rasube"
 }
 @startuml
 sprite SVG_NO_BEZIER <svg width="12cm" height="6cm" viewBox="0 0 1200 600"

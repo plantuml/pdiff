@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:43.963Z",
     "url": "https://forum.plantuml.net/11109/preprocessor-vlookup-macro?show=11132#c11132",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xafabi-315-tesuva"
 }
 @startuml
 !unquoted function $vlookup($id, $range, $offset)

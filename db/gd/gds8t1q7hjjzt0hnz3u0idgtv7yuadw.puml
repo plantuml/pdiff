@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.655Z",
     "url": "https://forum.plantuml.net/10128/diagram-in-a-note-function",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "potani-422-tumopu"
 }
 @startuml
 '!definelong OBJ { class Object {

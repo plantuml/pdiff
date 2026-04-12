@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.415Z",
     "url": "http://forum.plantuml.net/8575/add-option-to-hide-alias-on-folder-top-part",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fibivo-557-xodixu"
 }
 @startuml
 skinparam defaultTextAlignment center

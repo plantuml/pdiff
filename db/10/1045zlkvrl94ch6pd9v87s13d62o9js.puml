@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.518Z",
     "url": "https://forum.plantuml.net/11052/remove-unlinked-components",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tamozu-588-gulune"
 }
 @startuml
 component foo1 $tag1

@@ -4,7 +4,8 @@
     "when": "2024-11-12T13:12:10.232Z",
     "url": "https://github.com/plantuml/plantuml/issues/1640",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vogale-586-rusafi"
 }
 @startuml
 <style>

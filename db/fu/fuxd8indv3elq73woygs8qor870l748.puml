@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.749Z",
     "url": "https://forum.plantuml.net/13655/hide-empty-descriptions-removes-inline-style-state-diagram?show=16487#c16487",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kipavi-524-kijuca"
 }
 @startuml
 hide empty description

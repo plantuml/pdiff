@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:04.373Z",
     "url": "http://forum.plantuml.net/8750/footer-text-on-sequence-diagrams-appears-over-sequences",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cujore-164-cadogo"
 }
 @startuml
 title An example

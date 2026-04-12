@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.919Z",
     "url": "https://forum.plantuml.net/16930/timing-diagram-invalid-display-with-only-on-state-in-concise",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sazoco-503-jufura"
 }
 @startuml
 concise "AAAA" as ConsiseA

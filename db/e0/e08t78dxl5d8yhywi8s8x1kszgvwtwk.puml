@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:03.691Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "senasa-268-lajuka"
 }
 @startuml
 [A1] --> [A2] : X

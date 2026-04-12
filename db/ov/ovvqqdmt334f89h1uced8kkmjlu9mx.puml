@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:40.359Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mozosa-003-docoja"
 }
 @startuml
 hide class

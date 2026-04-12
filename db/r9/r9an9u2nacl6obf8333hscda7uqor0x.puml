@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.489Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mazoco-467-zakadu"
 }
 @startuml
 skinparam sequenceGroupHeaderFontName Impact

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.131Z",
     "url": "https://forum.plantuml.net/15983/element-line-style-not-applied-in-usecase-diagram?show=16048#c16048",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rovuma-437-xonavi"
 }
 @startuml
 state s1 : s1 description

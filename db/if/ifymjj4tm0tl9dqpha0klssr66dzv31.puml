@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:30.702Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dopexe-266-vevepi"
 }
 @startuml
 Bob->Alice : hello

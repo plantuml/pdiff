@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.892Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tosatu-385-menoru"
 }
 @startuml
 skinparam stereotypePosition bottom

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:34.983Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jevome-072-gasobo"
 }
 @startuml
 :<math>int_0^1f(x)dx</math>;

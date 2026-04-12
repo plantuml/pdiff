@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.046Z",
     "url": "https://forum.plantuml.net/17031/boolean-builtin-functions?show=17045#c17045",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xijuve-083-nufini"
 }
 @startuml
 alice -> bob: hello

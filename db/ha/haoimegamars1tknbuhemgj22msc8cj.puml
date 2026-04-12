@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.369Z",
     "url": "http://forum.plantuml.net/8706/improved-legend-support",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xojiza-195-zabani"
 }
 @startuml
 class foo1

@@ -4,7 +4,8 @@
     "when": "2026-02-18T22:28:42.428Z",
     "url": "https://github.com/plantuml/plantuml/issues/2536",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jutadu-834-varufo"
 }
 @startuml
 class User

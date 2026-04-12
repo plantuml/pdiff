@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.199Z",
     "url": "http://forum.plantuml.net/6933/macro-arguments-cascading-into-calls-to-other-macros",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zejamu-755-najidi"
 }
 @startuml
 !define FOO(c, i) <color:c>i</color>

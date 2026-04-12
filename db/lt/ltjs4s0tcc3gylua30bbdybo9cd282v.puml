@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:34.537Z",
     "url": "http://forum.plantuml.net/8975/dependency-between-packages-containing-classes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nopexe-932-bosajo"
 }
 @startuml
 package Application [

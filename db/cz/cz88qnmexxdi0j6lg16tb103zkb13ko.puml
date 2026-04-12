@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.285Z",
     "url": "https://github.com/cloudogu/plantuml-cloudogu-sprites",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "toveka-144-miluci"
 }
 @startuml
 !include <cloudogu/common>

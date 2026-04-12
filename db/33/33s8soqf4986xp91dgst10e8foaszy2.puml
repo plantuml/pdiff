@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.178Z",
     "url": "http://forum.plantuml.net/8954/links-not-workling",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lafabu-374-kebipe"
 }
 @startuml
 package " XY " as XXY [[/text/web/test/abc/92:2]] {

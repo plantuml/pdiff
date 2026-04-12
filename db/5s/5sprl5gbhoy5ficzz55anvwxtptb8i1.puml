@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.798Z",
     "url": "http://forum.plantuml.net/9333/why-queue-a-as-a-notation-fails",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "befozi-211-mudizi"
 }
 @startuml
 queue "name" as code {

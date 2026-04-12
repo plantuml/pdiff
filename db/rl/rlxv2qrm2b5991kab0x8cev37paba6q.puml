@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.982Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lepuga-178-cimogi"
 }
 @startuml
 actor "person" as p

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.500Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lililo-577-levuxo"
 }
 @startuml
 Flight : flightNumber : Integer

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.278Z",
     "url": "https://forum.plantuml.net/10964/sequence-queuebordercolor-not-respected",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "budigi-014-vexoku"
 }
 @startuml
 skinparam QueueBorderColor #f00

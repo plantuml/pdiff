@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.302Z",
     "url": "https://forum.plantuml.net/10379/style-rendering-in-mindmaps-broken",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "radili-010-nilogo"
 }
 @startmindmap
 skinparam shadowing false

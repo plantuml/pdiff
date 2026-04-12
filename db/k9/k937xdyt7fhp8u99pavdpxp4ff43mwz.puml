@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.740Z",
     "url": "http://forum.plantuml.net/8614/autonumber-problem-with-note-right-of",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bopijo-339-feliji"
 }
 @startuml
 autonumber

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.323Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=6290/specifying-default-values-in-macro-result-in-failure",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dagala-457-lifuto"
 }
 @startuml
 !define my_test(a="def a",b="def b") note right: a, b 

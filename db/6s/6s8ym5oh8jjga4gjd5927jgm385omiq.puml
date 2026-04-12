@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.034Z",
     "url": "https://forum.plantuml.net/10877/roundcorner-diagonalcorner-participant-stereotypes-sequence?show=10917#c10917",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cuxuto-763-vipiri"
 }
 @startuml
 skinparam useBetaStyle true

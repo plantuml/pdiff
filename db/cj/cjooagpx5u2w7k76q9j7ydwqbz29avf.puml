@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:01.549Z",
     "url": "http://forum.plantuml.net/9421/arrow-inversion-with-skinparam-linetype-ortho-missing-arrow?show=9421#q9421",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rusago-578-lurixe"
 }
 @startuml
 !pragma svek_trace on

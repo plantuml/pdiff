@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.793Z",
     "url": "https://github.com/plantuml/plantuml/pull/475",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fomugo-945-konomu"
 }
 @startuml
 :Main Admin: as Admin

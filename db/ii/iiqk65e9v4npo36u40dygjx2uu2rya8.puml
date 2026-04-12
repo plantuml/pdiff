@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:30.772Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cepebu-756-fipeno"
 }
 @startuml
 !define some_macro(x, y = "some default" , z = 'another default' ) x and y and z

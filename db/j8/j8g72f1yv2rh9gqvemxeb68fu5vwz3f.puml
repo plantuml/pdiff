@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:31.600Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zuzozo-224-menudo"
 }
 @startuml
 skinparam defaultFontName Elephant

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.344Z",
     "url": "https://forum.plantuml.net/12437/wrapwidth-wraps-punctuation-when-a-font-size-is-set?show=12437",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gevini-737-zadeki"
 }
 @startuml
 skinparam wrapWidth 267

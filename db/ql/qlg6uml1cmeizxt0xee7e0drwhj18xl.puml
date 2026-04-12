@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.570Z",
     "url": "https://github.com/plantuml/plantuml/issues/1137",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kuvuku-651-dobebi"
 }
 @startuml
 node ServA

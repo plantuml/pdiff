@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.768Z",
     "url": "https://forum.plantuml.net/12550/differences-between-png-and-outputs-unicode-char-with-size",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "voduva-234-luxeko"
 }
 @startuml
 !pragma svgSize 😐 XX

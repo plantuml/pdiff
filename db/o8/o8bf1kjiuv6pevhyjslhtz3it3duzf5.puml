@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.502Z",
     "url": "https://forum.plantuml.net/14819/the-combination-while-note-break-statements-does-draw-figure",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "barilu-124-sepexu"
 }
 @startuml
    if ( conf ) then (true)

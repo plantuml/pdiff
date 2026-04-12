@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.938Z",
     "url": "https://forum.plantuml.net/16373/how-to-use-textcolor-for-rectangle",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "celofa-122-pireka"
 }
 @startuml
 rectangle "My first Box" as box1 #text:red;line:red {

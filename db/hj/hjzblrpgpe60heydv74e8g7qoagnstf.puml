@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.681Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xaziba-041-debuko"
 }
 @startuml
 (*) -left->[text] "activity1"

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.854Z",
     "url": "http://forum.plantuml.net/8649/use-of-%23%23-in-define-macro-stops-macro-replacement",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pilosi-826-remotu"
 }
 @startuml
 

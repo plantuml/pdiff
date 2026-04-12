@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:05.802Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zaseto-152-pafopi"
 }
 @startuml
 class C1

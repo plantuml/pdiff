@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:04.832Z",
     "url": "https://forum.plantuml.net/15817/bug-with-archimate-shapes?show=15830#c15830",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "digobi-812-sufivo"
 }
 @startuml
 skinparam archimate {

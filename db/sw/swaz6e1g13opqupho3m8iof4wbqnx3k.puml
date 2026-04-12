@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.548Z",
     "url": "https://forum.plantuml.net/12277/add-an-eval-function-on-preprocessing-builtin-functions",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cukini-945-vekapa"
 }
 @startuml
 :%eval("1 + 2");

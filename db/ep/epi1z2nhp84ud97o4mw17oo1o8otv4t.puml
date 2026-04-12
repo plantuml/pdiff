@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:04.888Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sigisu-740-xejeki"
 }
 @startuml
 title this is a title

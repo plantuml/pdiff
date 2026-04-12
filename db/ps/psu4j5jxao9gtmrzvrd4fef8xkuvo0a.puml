@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.660Z",
     "url": "https://forum.plantuml.net/14131/allow-scale-or-dpi-for-json-or-yaml-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dulucu-336-dututo"
 }
 @startyaml
 skinparam handwritten true

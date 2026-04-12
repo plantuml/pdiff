@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:03.924Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kalako-606-tevulo"
 }
 @startuml
 class A {

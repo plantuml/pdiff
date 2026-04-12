@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.681Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "juvefo-085-tuseru"
 }
 @startuml
 package org.jgrapes [[jgrapes]] {

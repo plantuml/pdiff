@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.929Z",
     "url": "https://forum.plantuml.net/11731/packagestyle-doesnt-seem-to-always-work",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fajego-905-gatovi"
 }
 @startuml
 skinparam packageStyle rectangle

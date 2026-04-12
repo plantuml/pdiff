@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:21.250Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vakudo-514-pelavo"
 }
 @startuml
 actor Lead as "Vedouci"

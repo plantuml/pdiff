@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.446Z",
     "url": "https://forum.plantuml.net/10600/sequence-diagram-missing-polygon-object-handwritten-create",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zuculu-138-nogabo"
 }
 @startuml
 skinparam handwritten true

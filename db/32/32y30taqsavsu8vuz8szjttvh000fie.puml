@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.166Z",
     "url": "https://forum.plantuml.net/9845/adding-dashed-style-fails-diagram-generation",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rusuke-262-dezabe"
 }
 @startuml
 skinparam shadowing false

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.168Z",
     "url": "https://forum.plantuml.net/16711/style-allow-all-style-for-stereotype-on-activity-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pubisa-111-comela"
 }
 @startuml
 <style>

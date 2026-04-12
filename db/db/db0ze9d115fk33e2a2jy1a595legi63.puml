@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.744Z",
     "url": "https://forum.plantuml.net/16694/ebnf-add-notes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kedire-050-gozano"
 }
 @startebnf
 digit1 = ["0", "1"] (* note below *);

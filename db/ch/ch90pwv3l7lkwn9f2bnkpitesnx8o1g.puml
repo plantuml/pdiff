@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:01.424Z",
     "url": "https://forum.plantuml.net/10565/how-to-join-two-if-paths-in-activity-diagram-beta-syntax",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kisofe-370-dofoki"
 }
 @startuml
 start

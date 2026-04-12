@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.721Z",
     "url": "https://forum.plantuml.net/17019/prevent-wrap-for-comma-dot-etc?show=17025#c17025",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nizugi-574-lulosa"
 }
 @startuml
 set separator none

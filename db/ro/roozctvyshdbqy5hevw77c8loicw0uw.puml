@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.092Z",
     "url": "https://forum.plantuml.net/17903/plantuml-generates-duplicate-ids-on-groups-in-svg",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kufina-425-vebila"
 }
 @startuml
 sdfThing --> "0+" sdfObject : hasObject

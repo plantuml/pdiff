@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.368Z",
     "url": "https://forum.plantuml.net/16783/stereotype-formatting",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kelica-788-xijibu"
 }
 @startuml
 ' interface's title is marked italic - that's fine

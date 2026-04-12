@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.189Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lejeza-993-mujaki"
 }
 @startregex
 \b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{1,2}\b

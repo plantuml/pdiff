@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2026-03-06T18:17:02.342Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lotapi-036-digide"
 }
 @startuml
 !pragma svgparser sax

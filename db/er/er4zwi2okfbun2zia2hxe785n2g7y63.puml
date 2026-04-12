@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:04.983Z",
     "url": "https://the-lum.github.io/puml-themes-gallery/#aws-orange",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kecoke-761-figidi"
 }
 @startuml
 actor actor

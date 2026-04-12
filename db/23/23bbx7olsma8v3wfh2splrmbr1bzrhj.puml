@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.894Z",
     "url": "https://forum.plantuml.net/11189/deployment-diagram-creole-does-not-work-on-card",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ragumi-155-zarubi"
 }
 @startuml
 card card2 [

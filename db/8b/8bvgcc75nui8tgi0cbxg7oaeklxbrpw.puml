@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:21.382Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kucari-501-najeto"
 }
 @startuml
 sprite foo1 <svg viewBox="0 0 36 36">

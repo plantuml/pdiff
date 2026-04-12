@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.440Z",
     "url": "https://github.com/plantuml/plantuml/issues/1007#issuecomment-1385230328",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "posogu-673-fulamu"
 }
 @startuml
 '!pragma useVerticalIf on

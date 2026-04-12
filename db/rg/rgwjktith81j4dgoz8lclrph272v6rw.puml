@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.819Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mimozu-988-fusipe"
 }
 @startuml
 skinparam shadowing false

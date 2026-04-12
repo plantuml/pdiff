@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.170Z",
     "url": "http://forum.plantuml.net/8350/why-dont-sprites-scale-properly",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kuripi-414-lolusi"
 }
 @startuml
 scale 0.5

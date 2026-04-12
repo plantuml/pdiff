@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.153Z",
     "url": "https://forum.plantuml.net/13560/gantt-issue-with-yearly-print-when-project-begin-beginning",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zapeko-716-kovafi"
 }
 @startgantt
 projectscale yearly zoom 2

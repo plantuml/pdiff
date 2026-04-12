@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:46.659Z",
     "url": "https://avono-support.atlassian.net/browse/PUML-434",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "baceju-593-riboki"
 }
 @startuml
 skinparam defaultFontSize 30

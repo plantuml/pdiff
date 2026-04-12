@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.838Z",
     "url": "https://github.com/plantuml/plantuml/issues/434",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kilevi-830-xorare"
 }
 @startyaml
 # here is a full test for the library!

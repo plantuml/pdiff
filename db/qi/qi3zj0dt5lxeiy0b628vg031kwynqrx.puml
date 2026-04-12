@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:34.333Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pobexu-694-fexupi"
 }
 @startuml
 Bob -> Alice : ok1

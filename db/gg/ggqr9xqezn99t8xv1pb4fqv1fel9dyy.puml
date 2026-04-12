@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.744Z",
     "url": "http://forum.plantuml.net/9341/embedding-in-interface-note-fails",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xajeku-982-lurelo"
 }
 @startuml
 title Embedding for interface note fails

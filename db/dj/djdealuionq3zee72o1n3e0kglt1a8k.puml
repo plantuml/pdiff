@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:03.061Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tajepe-333-gejupe"
 }
 @startuml
 class MARKETING_INDICATOR <<(?, red)>>  {

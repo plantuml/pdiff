@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:34.278Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "capimi-417-miboce"
 }
 @startuml
 start

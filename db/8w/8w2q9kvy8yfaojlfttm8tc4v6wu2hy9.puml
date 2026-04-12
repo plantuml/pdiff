@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.534Z",
     "url": "http://forum.plantuml.net/5366/please-provide-skinparam-shadowing-elements-individually?show=9154#c9154",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mokiri-073-fexisa"
 }
 @startuml
 skinparam participant {

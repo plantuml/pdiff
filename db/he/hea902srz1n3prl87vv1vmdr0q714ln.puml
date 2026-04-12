@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.503Z",
     "url": "https://github.com/plantuml/plantuml/issues/1016",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mabiro-625-nerasi"
 }
 @startuml
 [*] --> one

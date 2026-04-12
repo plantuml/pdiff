@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.536Z",
     "url": "http://forum.plantuml.net/7675/teoz-box-around-participants",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zimuma-838-sixike"
 }
 @startuml
 !pragma teoz true

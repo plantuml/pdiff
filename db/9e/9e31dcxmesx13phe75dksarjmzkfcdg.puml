@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.666Z",
     "url": "https://forum.plantuml.net/13000/style-style-management-global-deployment-diagram-mindmap",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jecebe-680-ruviti"
 }
 @startuml
 node "a"

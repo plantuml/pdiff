@@ -4,7 +4,8 @@
     "when": "2024-06-06T17:24:18.590Z",
     "url": "https://github.com/plantuml/plantuml/issues/1723",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rajezu-694-ducane"
 }
 @startuml
 !pragma teoz true

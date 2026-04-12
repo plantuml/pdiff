@@ -4,7 +4,8 @@
     "when": "2025-01-20T17:59:49.021Z",
     "url": "https://github.com/plantuml/plantuml/pull/2036",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bejedo-623-magice"
 }
 @startregex
 !option foo bar

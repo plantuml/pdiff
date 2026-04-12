@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.838Z",
     "url": "https://forum.plantuml.net/14729/consistency-arrow-syntax-between-state-deployment-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gesuga-262-jaziji"
 }
 @startuml
 state a

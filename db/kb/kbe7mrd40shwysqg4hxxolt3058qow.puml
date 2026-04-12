@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.803Z",
     "url": "https://forum.plantuml.net/10600/sequence-diagram-missing-polygon-object-handwritten-create",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lajaje-949-rufuse"
 }
 @startuml
 title modifier of B ("*") is not seen 

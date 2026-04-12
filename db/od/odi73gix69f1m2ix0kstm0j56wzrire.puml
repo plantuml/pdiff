@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:39.725Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cisofu-466-fijoda"
 }
 @startuml
 Interface RowMacroStage

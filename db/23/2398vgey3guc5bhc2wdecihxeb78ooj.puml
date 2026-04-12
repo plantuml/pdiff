@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:19.894Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pikuzu-965-zunotu"
 }
 @startuml
 'create equivalent of icons shown here https://github.com/awslabs/aws-icons-for-plantuml

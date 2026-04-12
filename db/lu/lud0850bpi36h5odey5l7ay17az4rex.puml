@@ -4,7 +4,8 @@
     "when": "2024-06-28T15:36:27.762Z",
     "url": "https://github.com/plantuml/plantuml/pull/1842",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lugopu-198-lotozi"
 }
 @startuml
 !pragma teoz true

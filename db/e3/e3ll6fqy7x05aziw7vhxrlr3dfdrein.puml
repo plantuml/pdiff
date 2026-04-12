@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:03.845Z",
     "url": "https://github.com/plantuml/plantuml-server/issues/231",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tusesu-712-rasuro"
 }
 @startuml
 usecase "<:nosuch:> Implement the changes" as Implement

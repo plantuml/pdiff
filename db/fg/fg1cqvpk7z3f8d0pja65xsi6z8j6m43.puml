@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.111Z",
     "url": "https://forum.plantuml.net/15194/class-diagram-cant-extends-inner-class?show=15194#q15194",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zujegi-810-lomela"
 }
 @startuml
 class ReferenceInstructionVisitor extends Instruction$Visitor {

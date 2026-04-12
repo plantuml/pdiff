@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.938Z",
     "url": "https://forum.plantuml.net/16320/error-when-mixed-use-of-class-card-and-portin-portout",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pumoje-669-petaba"
 }
 @startuml
 hide members

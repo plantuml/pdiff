@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.425Z",
     "url": "https://forum.plantuml.net/15423/functions-check-exists-default-value-get_variable_value",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zasegu-908-pureto"
 }
 @startuml
 !$myjson = {

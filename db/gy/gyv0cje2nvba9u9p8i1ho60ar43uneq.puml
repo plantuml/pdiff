@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.568Z",
     "url": "https://forum.plantuml.net/16284/how-to-left-align-when-the-aws-lib-is-also-used",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "joliba-975-nodogi"
 }
 @startuml
 !include <awslib/AWSCommon>

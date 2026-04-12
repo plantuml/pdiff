@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:34.436Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dikusi-827-parila"
 }
 @startgantt
 [My task1] as [TASK1] lasts 4 days

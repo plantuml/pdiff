@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:34.443Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "degati-601-topaja"
 }
 @startuml
 class foo1 $tag1 {

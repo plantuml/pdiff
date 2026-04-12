@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:07.336Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bivemo-229-bugito"
 }
 @startuml
 skinparam swimlane true

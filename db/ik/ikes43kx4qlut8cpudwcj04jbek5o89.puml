@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:30.828Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "viriji-133-dutigo"
 }
 @startuml
 clock clk with period 50

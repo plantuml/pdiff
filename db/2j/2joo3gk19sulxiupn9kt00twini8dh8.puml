@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.022Z",
     "url": "https://forum.plantuml.net/15788/where-can-i-find-the-archimate-sprites?show=15788",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "necutu-738-lukibu"
 }
 @startuml
 skinparam Shadowing false

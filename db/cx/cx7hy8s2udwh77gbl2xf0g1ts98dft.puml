@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:02.198Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xarebe-025-vuluvi"
 }
 @startdef(id=macro)
 Alice -> Bob : hello1

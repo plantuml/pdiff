@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.118Z",
     "url": "https://forum.plantuml.net/12045/add-style-for-gantt-separator-and-arrow-v1-2020-16",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cetido-449-jakule"
 }
 @startgantt
 <style>

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.798Z",
     "url": "http://wiki.plantuml.net/site/plantumlshell",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rosuju-318-zamise"
 }
 @startuml
 '!preprocessorV2

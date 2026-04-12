@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:05.201Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ruxoxe-338-vunuxe"
 }
 @startuml
 partition accentué

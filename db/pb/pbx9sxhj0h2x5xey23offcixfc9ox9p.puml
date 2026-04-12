@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:40.962Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pamuca-279-focuma"
 }
 @startuml
 [*] --> State1 : hello

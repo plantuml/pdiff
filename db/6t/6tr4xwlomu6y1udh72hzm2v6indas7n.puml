@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.046Z",
     "url": "https://forum.plantuml.net/14494/is-it-possible-to-color-the-days-in-the-default-gantt-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jujute-861-jesica"
 }
 @startgantt
 D+13 to D+15 are colored in blue

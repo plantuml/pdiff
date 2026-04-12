@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.565Z",
     "url": "https://forum.plantuml.net/12374/add-support-of-node-colors-to-wbs-for-single-nodes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kaxogi-378-vasupe"
 }
 @startwbs
 *[#blue] this is the partner workpackage

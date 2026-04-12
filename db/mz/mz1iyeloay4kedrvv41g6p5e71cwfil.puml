@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.917Z",
     "url": "https://forum.plantuml.net/9939/conditional-application-of-styles",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "borogo-231-kivuze"
 }
 @startuml
 skinparam useBetaStyle true

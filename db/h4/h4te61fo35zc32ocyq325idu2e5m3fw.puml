@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.151Z",
     "url": "http://forum.plantuml.net/7708/formatting-options-inside-%40startmath-%40endmath",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nubaki-469-bifena"
 }
 @startmath
 f(t)=(a_0)/2 + sum_(n=1)^ooa_ncos((npit)/L)+sum_(n=1)^oo b_n\ sin((npit)/L)

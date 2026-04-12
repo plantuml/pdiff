@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:03.309Z",
     "url": "https://forum.plantuml.net/9981/skinparam-working-partition-with-activity-syntax-embedded",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tipade-012-merame"
 }
 @startuml
 skinparam  partition {

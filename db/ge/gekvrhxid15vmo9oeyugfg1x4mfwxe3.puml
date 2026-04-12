@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.663Z",
     "url": "https://github.com/plantuml/plantuml/issues/134",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fibuke-462-lelije"
 }
 @startuml
 note as N1

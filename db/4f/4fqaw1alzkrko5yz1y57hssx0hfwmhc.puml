@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.482Z",
     "url": "https://redfin.engineering/visualize-merge-history-with-git-log-graph-first-parent-and-no-merges-c6a9b5ff109c",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rogage-485-becele"
 }
 @startgit
 *-.---------------.   2d2a6c2 (HEAD -> master) merge

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:31.343Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mikunu-479-ramaku"
 }
 @startuml
 class Foo1 #red ##00FFFF {

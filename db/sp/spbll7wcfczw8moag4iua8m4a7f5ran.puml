@@ -4,7 +4,8 @@
     "when": "2024-10-24T17:58:48.250Z",
     "url": "https://forum.plantuml.net/8234/state-diagram-history-pseudo-states",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "cekani-934-telufe"
 }
 @startuml
 state example {

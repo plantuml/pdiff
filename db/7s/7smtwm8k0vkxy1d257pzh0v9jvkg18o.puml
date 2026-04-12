@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.270Z",
     "url": "https://forum.plantuml.net/15473/rectangles-corners-package-rectangles-supported-anymore",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jifiba-273-duvidi"
 }
 @startuml
 !procedure Group($name)

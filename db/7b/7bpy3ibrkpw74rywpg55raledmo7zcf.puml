@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:21.162Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gixije-796-cijira"
 }
 @startuml
 class "Class1" as node1 <<Bar>> <<Foo>>

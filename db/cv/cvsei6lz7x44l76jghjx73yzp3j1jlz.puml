@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:02.121Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zuxucu-904-zanuto"
 }
 @startuml
 [*] --> IDLE

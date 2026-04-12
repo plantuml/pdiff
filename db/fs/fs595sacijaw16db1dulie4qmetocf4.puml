@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.584Z",
     "url": "https://forum.plantuml.net/15497/error-when-using-as-double-arrow-for-styles",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mizaci-353-gixamo"
 }
 @startuml
 <style>

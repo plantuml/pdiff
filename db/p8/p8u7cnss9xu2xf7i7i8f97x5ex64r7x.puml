@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:40.790Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ritafe-700-lapopu"
 }
 @startuml
 package foo1 [

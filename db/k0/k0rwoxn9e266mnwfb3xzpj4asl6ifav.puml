@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:32.467Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tudodi-885-fusafe"
 }
 @startuml
 Bob -> Alice

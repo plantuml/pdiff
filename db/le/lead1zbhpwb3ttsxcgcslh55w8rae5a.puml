@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:34.022Z",
     "url": "https://forum.plantuml.net/14810/additional-text-for-elseif-missing-when-using-useverticalif",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mezibo-753-nupigo"
 }
 @startuml
 '!pragma useVerticalIf on

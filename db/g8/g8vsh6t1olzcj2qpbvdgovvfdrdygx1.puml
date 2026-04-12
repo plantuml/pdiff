@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.402Z",
     "url": "http://forum.plantuml.net/9333/why-queue-a-as-a-notation-fails",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tuveji-011-nomeze"
 }
 @startuml
 queue "a" as a <<toto>> {

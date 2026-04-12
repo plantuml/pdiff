@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:46.943Z",
     "url": "https://github.com/plantuml/plantuml/issues/134",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xidefu-430-xomumu"
 }
 @startuml
 skinparam useBetaStyle true

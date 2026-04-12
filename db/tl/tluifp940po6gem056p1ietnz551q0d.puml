@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:46.437Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vifeku-815-natisa"
 }
 @startuml
 class CopierTXTEnCSV <<(F, zzgrey)>>

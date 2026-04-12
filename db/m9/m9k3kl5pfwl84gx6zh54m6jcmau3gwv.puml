@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.011Z",
     "url": "https://forum.plantuml.net/14692/user-defined-style-applied-on-class-also-becomes-stereotype",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mogali-645-gufobi"
 }
 @startuml
 <style>

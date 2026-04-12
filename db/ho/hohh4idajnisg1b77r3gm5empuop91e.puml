@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.803Z",
     "url": "https://forum.plantuml.net/8359/group-components-cant-be-set-transparent?show=8359#q8359",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xuxava-586-nitave"
 }
 @startuml
 skinparam backgroundColor silver

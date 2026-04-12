@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.153Z",
     "url": "https://forum.plantuml.net/12238/space-between-arrows-in-activity-diagram?show=12275#c12275",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nivoce-871-bevudo"
 }
 @startuml
 !pragma useVerticalIf on

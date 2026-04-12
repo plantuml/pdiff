@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:06.696Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "juneka-493-cimudo"
 }
 @startuml
 participant Alice

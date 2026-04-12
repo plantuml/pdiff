@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:00.926Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lajosa-101-liruvo"
 }
 @startuml
 !unquoted procedure SALT($x)

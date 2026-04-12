@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:34.408Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lisome-031-cikeza"
 }
 @startuml
 Bob -> Alice [[http://www.google.com foo]]

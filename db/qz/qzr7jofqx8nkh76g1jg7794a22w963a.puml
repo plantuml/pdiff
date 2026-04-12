@@ -4,7 +4,8 @@
     "when": "2024-11-23T15:35:39.081Z",
     "url": "https://forum.plantuml.net/19039/how-to-insert-newline-into-the-diagram-using-preprocessor",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "gofade-193-vetecu"
 }
 @startsalt
 !function $myfunc()

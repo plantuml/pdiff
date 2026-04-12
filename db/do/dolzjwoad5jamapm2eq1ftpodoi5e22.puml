@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:03.274Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zufupu-785-xonite"
 }
 @startuml
 Alice ->Bob: Hello

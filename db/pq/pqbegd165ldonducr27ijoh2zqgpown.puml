@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.575Z",
     "url": "https://forum.plantuml.net/11803/improve-shape-of-node-element-deployement-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nokobe-900-pifaja"
 }
 @startuml
 scale 10

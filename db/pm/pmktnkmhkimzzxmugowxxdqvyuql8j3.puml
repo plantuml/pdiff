@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:41.426Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sufoso-424-rikuta"
 }
 @startuml
 object "~#1: Person" as p1

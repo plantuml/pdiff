@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.586Z",
     "url": "https://forum.plantuml.net/12997/regression-line-break-in-state-actions-ignored",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tevalo-438-pumora"
 }
 @startuml
 state Pause : entry / lock screen,\n start coffee machine

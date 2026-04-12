@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:21.590Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kiseku-880-lisose"
 }
 @startuml
 class Toto

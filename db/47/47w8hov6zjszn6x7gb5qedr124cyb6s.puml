@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.442Z",
     "url": "https://forum.plantuml.net/16408/is-it-possible-to-include-json-as-an-external-source?show=16427#c16427",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pezojo-689-xajeze"
 }
 @startuml
 !$remote_json={"participants" :[ 

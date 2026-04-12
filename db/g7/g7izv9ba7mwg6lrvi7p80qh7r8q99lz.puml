@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.314Z",
     "url": "https://forum.plantuml.net/11524/allow-duplicates-for-wbs",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zefona-523-benolu"
 }
 @startwbs
 * Root

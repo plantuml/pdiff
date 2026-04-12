@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.266Z",
     "url": "http://alphadoc.plantuml.com/doc/asciidoc/en/style-evolution",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xufiju-599-vovada"
 }
 @startuml
 skinparam useBetaStyle true

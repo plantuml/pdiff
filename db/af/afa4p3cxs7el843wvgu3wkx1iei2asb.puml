@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.866Z",
     "url": "http://forum.plantuml.net/6915/can-i-do-round-corners-of-elements-in-component-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bipuxa-365-sanoti"
 }
 @startuml
 skinparam componentRoundCorner 10

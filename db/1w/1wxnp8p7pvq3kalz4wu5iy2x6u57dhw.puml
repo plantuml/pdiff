@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.818Z",
     "url": "https://forum.plantuml.net/16119/sample-values-in-timing-diagrams?show=16159#c16159",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zafogo-994-finefa"
 }
 @startuml
 robust "microloan simulation example" as T1

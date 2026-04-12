@@ -4,7 +4,8 @@
     "when": "2024-06-06T17:24:18.634Z",
     "url": "https://github.com/plantuml/plantuml/issues/1723",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jupire-147-poluve"
 }
 @startuml
 !pragma teoz true

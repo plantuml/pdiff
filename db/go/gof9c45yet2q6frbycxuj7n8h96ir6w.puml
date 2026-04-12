@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.730Z",
     "url": "https://forum.plantuml.net/12320/observations-preprocessing-test-boolean-expression-2020",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fefisa-389-cavifi"
 }
 @startuml
 !$a=1 || 0

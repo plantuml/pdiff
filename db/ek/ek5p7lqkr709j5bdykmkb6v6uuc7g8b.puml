@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:04.558Z",
     "url": "https://forum.plantuml.net/13570/can-you-style-the-days-and-months-of-a-gantt-chart",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kiriji-271-conene"
 }
 @startgantt
 <style>

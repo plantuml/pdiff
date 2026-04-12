@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.481Z",
     "url": "https://forum.plantuml.net/15609/crash-when-note-on-object-member",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fuliga-631-fovogo"
 }
 @startuml
 object Obj {

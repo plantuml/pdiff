@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.110Z",
     "url": "http://forum.plantuml.net/8612/teoz-wrong-note-position-after-array?show=9115#c9115",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gizezo-231-jifuto"
 }
 @startuml
 !pragma teoz true

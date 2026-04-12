@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.800Z",
     "url": "https://github.com/plantuml/plantuml/issues/951#issuecomment-1339828969",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "locufe-974-gedaxa"
 }
 @startuml
 class Foo {

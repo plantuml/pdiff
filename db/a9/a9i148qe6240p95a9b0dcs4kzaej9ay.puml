@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.358Z",
     "url": "https://forum.plantuml.net/17811/theme-supports-no-calculated-from-path-and-stdlib-from-path",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bubuku-527-lemode"
 }
 @startuml
 !include <C4/themes/puml-theme-C4_united.puml>

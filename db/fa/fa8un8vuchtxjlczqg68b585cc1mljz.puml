@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.827Z",
     "url": "https://discord.com/channels/1083727021328306236/1084966845100072980",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zisuza-667-ledasi"
 }
 @startuml
 class pack.ClassA {

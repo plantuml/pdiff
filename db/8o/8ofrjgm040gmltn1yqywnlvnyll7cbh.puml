@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.474Z",
     "url": "https://forum.plantuml.net/16694/ebnf-add-notes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lenaxa-097-jicuki"
 }
 @startebnf
 digit1 = {"0", "1"};

@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.413Z",
     "url": "https://github.com/plantuml/plantuml/issues/104",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jajoxe-609-jamubu"
 }
 @startuml
 skinparam wrapWidth 100

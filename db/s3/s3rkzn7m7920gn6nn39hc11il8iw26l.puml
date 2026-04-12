@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.639Z",
     "url": "https://forum.plantuml.net/13616/how-can-i-define-note-with-stereotype",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jaxuce-447-zugole"
 }
 @startuml
 skinparam shadowing<<legendnote>> false

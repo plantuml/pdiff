@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:01.061Z",
     "url": "https://github.com/plantuml/plantuml/issues/1382",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bicofi-174-tisumi"
 }
 @startuml
 participant Alice

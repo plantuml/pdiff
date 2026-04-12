@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.842Z",
     "url": "https://forum.plantuml.net/16980/%25substr-%24variable-does-not-work-strings-are-added-same-line",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "monubi-802-vemeko"
 }
 @startuml
 legend

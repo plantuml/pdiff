@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:04.873Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lalado-165-savumu"
 }
 @startuml
 footer toto

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:21.706Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "balasi-473-nojuve"
 }
 @startuml
 (*) --> activity1

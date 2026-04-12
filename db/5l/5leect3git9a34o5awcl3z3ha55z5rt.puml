@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.766Z",
     "url": "https://forum.plantuml.net/14515/activity-beta-broken-switch-case-arrows-when-using-kill-detach",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "forefo-086-zocazu"
 }
 @startuml
 switch (test?)

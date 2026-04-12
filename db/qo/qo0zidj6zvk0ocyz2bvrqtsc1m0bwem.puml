@@ -4,7 +4,8 @@
     "when": "2024-11-19T12:22:17.322Z",
     "url": "https://github.com/plantuml/plantuml/issues/1984",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lefusu-016-fefubu"
 }
 @startuml
 card A <<stereo1>> 

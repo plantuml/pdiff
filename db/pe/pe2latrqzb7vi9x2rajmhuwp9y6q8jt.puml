@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.068Z",
     "url": "https://forum.plantuml.net/14247/ensure-that-plantuml-crash-embeddeddiagram-meets-wrap_width",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vepizo-194-xecali"
 }
 @startuml
 set namespaceSeparator none

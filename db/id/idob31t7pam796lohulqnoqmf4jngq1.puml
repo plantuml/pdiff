@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.346Z",
     "url": "https://forum.plantuml.net/12396/user-defined-style-targets-in-activity-diagram-beta",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "licipa-995-taneta"
 }
 @startuml
 <style>

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.207Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lomosa-869-pukulo"
 }
 @startuml
 (*) -down-> === T2D ===

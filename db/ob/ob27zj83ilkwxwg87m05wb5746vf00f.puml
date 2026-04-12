@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.645Z",
     "url": "https://forum.plantuml.net/15544/stereotype-priorities-changed-compared-implementations",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "beleba-011-lavuvu"
 }
 @startuml
     skinparam rectangle<<RedContainer>> {

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:39.880Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vidozi-626-tapabo"
 }
 @startuml
 class Dummy1 {

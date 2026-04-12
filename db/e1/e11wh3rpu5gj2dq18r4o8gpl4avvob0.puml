@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:03.718Z",
     "url": "http://wiki.plantuml.net/site/style-evolution",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ludodi-516-zidijo"
 }
 @startuml
 skinparam usebetastyle true

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:46.444Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gusiga-626-comabe"
 }
 @startuml
 Bob -> Alice : test

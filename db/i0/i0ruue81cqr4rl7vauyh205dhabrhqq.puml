@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.226Z",
     "url": "https://forum.plantuml.net/11109/preprocessor-vlookup-macro?show=11132#c11132",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mumaja-337-fegumo"
 }
 @startuml
 !$data={"partlen": "2", "game": "GamePlantuml", "participants": [

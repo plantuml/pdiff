@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.590Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=6282/timing-diagram-bugs",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vasici-761-leneke"
 }
 @startuml
 robust "Power switch" as PowerSwitch

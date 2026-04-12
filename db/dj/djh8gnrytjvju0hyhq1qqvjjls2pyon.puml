@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:03.068Z",
     "url": "https://forum.plantuml.net/11629/gantt-dependency-arrows-drawn-incorrectly-using-weekscale",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rulubo-346-kovero"
 }
 @startgantt
 printscale weekly

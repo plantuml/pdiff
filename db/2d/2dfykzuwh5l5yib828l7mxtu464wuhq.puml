@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:19.962Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bunesu-800-sagema"
 }
 @startuml
 digraph toto {

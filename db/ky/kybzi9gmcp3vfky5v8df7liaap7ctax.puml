@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.471Z",
     "url": "https://github.com/plantuml/plantuml/issues/1783",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rulozo-499-madija"
 }
 @startuml
 title Why $a and $b are modified?

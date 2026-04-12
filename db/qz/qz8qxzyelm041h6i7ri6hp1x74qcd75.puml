@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.130Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tugora-908-suroka"
 }
 @startuml
 class bar #text:yellow;line:green;back:lightblue

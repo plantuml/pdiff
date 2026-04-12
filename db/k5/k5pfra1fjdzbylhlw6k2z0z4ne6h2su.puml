@@ -4,7 +4,8 @@
     "when": "2024-10-11T09:30:57.819Z",
     "url": "https://github.com/plantuml/plantuml/issues/1896",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zukime-935-mumeni"
 }
 @startuml
 <style>

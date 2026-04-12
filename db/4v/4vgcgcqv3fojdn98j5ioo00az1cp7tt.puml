@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.590Z",
     "url": "https://forum.plantuml.net/16694/ebnf-add-notes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "budedi-165-pevemu"
 }
 @startebnf
 title Test on comments

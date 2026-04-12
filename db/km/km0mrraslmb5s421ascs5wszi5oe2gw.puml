@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.146Z",
     "url": "http://forum.plantuml.net/9031/do-you-plan-for-conditional-code-in-macros?show=9167#a9167",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fevira-478-fatoka"
 }
 @startuml
 '!preprocessorV2

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.189Z",
     "url": "http://forum.plantuml.net/8025/elseif-skinparam-doesnt-seem-to-use-the-activitydiamond",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "baliro-612-nixebo"
 }
 @startuml
 skinparam activity {

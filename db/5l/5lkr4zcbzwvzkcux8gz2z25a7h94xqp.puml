@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.770Z",
     "url": "https://forum.plantuml.net/13243/inline-manage-dashed-dotted-package-usecase-deployment-usecase?show=13263#c13263",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zumabu-477-pubupe"
 }
 @startuml
 folder folder_bold     #palegreen;line:green;line.bold;text:green

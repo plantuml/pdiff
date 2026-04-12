@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.499Z",
     "url": "https://forum.plantuml.net/11682/beta-style-cropped-output-images-when-style-functionality",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cevafo-534-didoko"
 }
 @startuml
 <style>

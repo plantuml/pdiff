@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.570Z",
     "url": "https://forum.plantuml.net/14247/ensure-that-plantuml-crash-embeddeddiagram-meets-wrap_width",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rutola-725-modijo"
 }
 @startuml
 skinparam wrap_width 150

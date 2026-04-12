@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:41.191Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "doxifu-867-cimufu"
 }
 @startuml
 !pragma layout smetana

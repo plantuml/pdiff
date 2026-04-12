@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.737Z",
     "url": "https://forum.plantuml.net/11726/possible-hide-component-icon-component-bracketed-component",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "revupa-406-xifomi"
 }
 @startuml
 skinparam BackgroundColor transparent

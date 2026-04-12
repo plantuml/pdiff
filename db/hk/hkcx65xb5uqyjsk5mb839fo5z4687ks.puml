@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.702Z",
     "url": "https://github.com/plantuml/plantuml/issues/104",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pegifi-161-benope"
 }
 @startuml
 skinparam wrapWidth 150

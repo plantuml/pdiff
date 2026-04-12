@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.432Z",
     "url": "http://forum.plantuml.net/8294/support-visibility-on-compositions-and-aggregations",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nenonu-062-tucozu"
 }
 @startuml
 class Aaa {

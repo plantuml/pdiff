@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:46.105Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gikovu-521-tiretu"
 }
 @startuml
 skinparam model FOO

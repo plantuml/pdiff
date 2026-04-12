@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.737Z",
     "url": "https://github.com/plantuml/plantuml/issues/1123",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zobulu-306-kolelu"
 }
 @startuml
 !pragma layout smetana

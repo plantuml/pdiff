@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.395Z",
     "url": "https://forum.plantuml.net/16039/error-when-using-indented-elements-as-ports",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gafina-767-dozela"
 }
 @startuml
 class FlatWorks {

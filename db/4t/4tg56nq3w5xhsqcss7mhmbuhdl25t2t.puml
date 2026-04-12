@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.566Z",
     "url": "https://github.com/plantuml/plantuml/issues/1326",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sekenu-871-napima"
 }
 @startuml
 object "Kannada : bambu" as ಬಮ

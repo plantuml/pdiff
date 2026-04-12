@@ -4,7 +4,8 @@
     "when": "2024-06-09T19:32:20.363Z",
     "url": "https://github.com/plantuml/plantuml/issues/1795",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xixemo-764-dolivi"
 }
 @startuml
 folder a {

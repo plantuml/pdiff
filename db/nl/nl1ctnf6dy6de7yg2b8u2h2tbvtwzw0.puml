@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.793Z",
     "url": "https://the-lum.github.io/puml-themes-gallery/#aws-orange",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pibuti-472-tebicu"
 }
 @startuml
 !theme aws-orange

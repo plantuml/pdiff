@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.312Z",
     "url": "https://forum.plantuml.net/11214/background-color-partial-transparency-opacity-support",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nulole-554-xonexi"
 }
 @startuml
 skinparam shadowing false

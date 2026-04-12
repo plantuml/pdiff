@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.078Z",
     "url": "https://forum.plantuml.net/11675/beta-style-how-to-disable-shadowing",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rejejo-334-xurada"
 }
 @startuml
 <style>

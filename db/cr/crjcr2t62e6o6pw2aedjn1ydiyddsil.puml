@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:01.963Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vojoje-051-cuneju"
 }
 @startuml
 skinparam svek true

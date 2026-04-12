@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.418Z",
     "url": "https://forum.plantuml.net/15605/activity-missing-arrow-label-on-end-merge",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "loxosi-870-rimiso"
 }
 @startuml
 fork

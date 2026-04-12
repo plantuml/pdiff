@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.130Z",
     "url": "https://forum.plantuml.net/12179/add-support-to-business-use-case",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "samogu-862-duzava"
 }
 @startuml
 (First Business usecase)/

@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:03.585Z",
     "url": "http://forum.plantuml.net/7770/stereotyped-multi-line-notes-on-messages",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sobodi-723-tareva"
 }
 @startuml
 Alice -> Bob: message()

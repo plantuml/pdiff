@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.933Z",
     "url": "https://forum.plantuml.net/17600/note-and-position-not-rendering-correctly-on-cheerpj",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bonise-006-nebunu"
 }
 @startuml
 skinparam defaultTextAlignment center

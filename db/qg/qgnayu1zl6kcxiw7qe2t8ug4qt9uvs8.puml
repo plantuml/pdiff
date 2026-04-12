@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.417Z",
     "url": "https://forum.plantuml.net/16307/is-there-a-way-to-have-more-than-one-character-in-connectors",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rokeke-068-gupari"
 }
 @startuml
 start

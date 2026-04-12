@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:46.828Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pufoga-419-nigudo"
 }
 @startuml
 "Main Admin" as Admin

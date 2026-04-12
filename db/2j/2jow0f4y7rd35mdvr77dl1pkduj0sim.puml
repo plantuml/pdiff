@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.026Z",
     "url": "https://forum.plantuml.net/12277/add-an-eval-function-on-preprocessing-builtin-functions",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pukixu-393-jixajo"
 }
 @startuml
 :%eval("nota;number");

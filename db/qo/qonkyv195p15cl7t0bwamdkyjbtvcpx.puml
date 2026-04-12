@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.722Z",
     "url": "http://forum.plantuml.net/8179/allow-turn-on-off-shadowing-for-elements-with-stereotypes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nudaca-527-dacumu"
 }
 @startuml
 skinparam rectangle<<boundary>> {

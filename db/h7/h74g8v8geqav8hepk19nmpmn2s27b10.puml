@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.239Z",
     "url": "http://forum.plantuml.net/6865/define-without-arguments-interferes-with-define-arguments",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zoruxa-973-xuxesu"
 }
 @startuml
 !define foo() called_foo1

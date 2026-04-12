@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.342Z",
     "url": "https://forum.plantuml.net/16985/center-aligned-text-not-in-the-middle-of-a-node",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lijavu-323-licaco"
 }
 @startwbs
 skinparam DefaultTextAlignment center

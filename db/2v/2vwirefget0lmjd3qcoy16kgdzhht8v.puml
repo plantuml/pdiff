@@ -4,7 +4,8 @@
     "when": "2024-06-06T17:24:18.641Z",
     "url": "https://github.com/plantuml/plantuml/issues/1097",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dukade-130-fovelu"
 }
 @startuml
 !pragma teoz true

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:31.057Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "roxipo-928-lumiva"
 }
 @startuml
 :foo1;

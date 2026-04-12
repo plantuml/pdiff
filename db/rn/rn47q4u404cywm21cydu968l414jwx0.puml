@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.019Z",
     "url": "http://forum.plantuml.net/7024/simplier-way-to-deactivate-lifeline-without-return-message",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tazodo-618-vopozi"
 }
 @startuml
 autoactivate on

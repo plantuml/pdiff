@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.966Z",
     "url": "https://forum.plantuml.net/2585/broadcast-or-a-multicast-message-in-a-sequence-diagram?show=13008#c13008",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sufilu-105-tenusi"
 }
 @startuml
 !pragma teoz true

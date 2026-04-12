@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.215Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ladesi-935-lokata"
 }
 @startuml
 skinparam packagestyle node

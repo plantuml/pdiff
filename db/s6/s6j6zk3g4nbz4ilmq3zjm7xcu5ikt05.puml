@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.723Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jagidu-698-nunica"
 }
 @startuml
 Bob -> Alice ++ : hello

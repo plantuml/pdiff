@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.187Z",
     "url": "https://forum.plantuml.net/17215/allow-maximumwidth-and-minimumwidth-all-styles-for-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dixara-815-riceci"
 }
 @startuml
 <style>

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:34.126Z",
     "url": "http://wiki.plantuml.net/site/preprocessing-json",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cufite-400-xuzume"
 }
 @startuml
 !$partlen=2

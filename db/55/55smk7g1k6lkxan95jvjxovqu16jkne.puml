@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.386Z",
     "url": "https://forum.plantuml.net/9741/define-%40append-broken",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pufeco-812-comudo"
 }
 @startuml
 !define fileServer <color:green><&folder>ho-itd-pbrcs05</color>

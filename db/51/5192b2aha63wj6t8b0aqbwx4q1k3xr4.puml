@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.630Z",
     "url": "https://forum.plantuml.net/11283/lines-without-arrows?show=11302#c11302",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fexofa-168-xaface"
 }
 @startuml
 skinparam ArrowColor blue

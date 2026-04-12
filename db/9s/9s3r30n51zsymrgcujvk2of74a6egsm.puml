@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.758Z",
     "url": "http://forum.plantuml.net/8945/skinparam-wrapwidth-brake-line-incorrectly",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "safoku-841-laboju"
 }
 @startuml
 skinparam wrapWidth 300

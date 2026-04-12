@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:02.542Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vizero-005-kuziri"
 }
 @startuml
  title TOPdesk Nazza Integration - Asset Rights [Reservation Spots]

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.684Z",
     "url": "http://forum.plantuml.net/8667/variable-substitution",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "roxovi-561-tecula"
 }
 @startuml
 !define i j

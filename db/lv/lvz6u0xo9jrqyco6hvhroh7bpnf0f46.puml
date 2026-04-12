@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:34.593Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pujice-027-muropu"
 }
 @startuml
 skinparam maxMessageSize 50

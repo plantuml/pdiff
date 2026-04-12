@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.116Z",
     "url": "https://forum.plantuml.net/9880/changed-behaviour-from-vers-2019-5-to-vers-2019-6",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nacasu-807-rapefu"
 }
 @startuml
 !define Extension(id, name, type = "Extension")  class   "<b>TYP: name</b>" as id << (E,White) type >>

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.334Z",
     "url": "http://forum.plantuml.net/9228/slanted-crossing-arrows-in-sequence-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pegise-185-tadevu"
 }
 @startuml
 !pragma teoz true

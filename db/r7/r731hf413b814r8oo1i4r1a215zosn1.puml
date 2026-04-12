@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:43.380Z",
     "url": "https://github.com/plantuml/plantuml/issues/1515",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "futuza-558-dederi"
 }
 @startuml
 namespace Foo {

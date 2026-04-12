@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.218Z",
     "url": "http://www-igm.univ-mlv.fr/~dr/XPOSE2010/SCXML/scxml_intro.html",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "riniza-976-fanilo"
 }
 @startuml
 state s1

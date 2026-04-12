@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:45.258Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fuveve-755-vopide"
 }
 @startuml
 class foo {

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.226Z",
     "url": "https://forum.plantuml.net/12856/indented-creole-tree-treated-as-seperate-trees",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lutenu-036-kolevu"
 }
 @startuml
 class "SomeClass A"

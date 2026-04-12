@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.474Z",
     "url": "https://forum.plantuml.net/11788/is-it-possible-to-add-a-note-to-backward-activity",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kimape-958-vinulu"
 }
 @startuml
 start

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.884Z",
     "url": "http://forum.plantuml.net/7000/shadowing-false-doesnt-work-with-all-elements",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zoxiza-826-jobiku"
 }
 @startuml
 skinparam shadowing   false

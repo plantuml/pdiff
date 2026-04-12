@@ -4,7 +4,8 @@
     "when": "2024-06-06T17:24:18.685Z",
     "url": "https://github.com/plantuml/plantuml/issues/1099",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cocale-769-domodu"
 }
 @startuml
 !pragma teoz true

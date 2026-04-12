@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.569Z",
     "url": "http://forum.plantuml.net/7287/change-classfontcolor-dynamically-between-class-boxes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "defaza-131-najivu"
 }
 @startuml
 skinparam classFontColor automatic

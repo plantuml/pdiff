@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:43.716Z",
     "url": "https://forum.plantuml.net/14647/timing-diagrams-can-we-get-an-offset-for-clocks",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "butuke-893-fidoko"
 }
 @startuml
 clock clk with period 100 pulse 25

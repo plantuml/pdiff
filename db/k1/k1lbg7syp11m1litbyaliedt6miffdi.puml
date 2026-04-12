@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.481Z",
     "url": "http://forum.plantuml.net/8690/hide-the-activities-in-activity-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ruxiko-677-fufagu"
 }
 @startuml
 Plan -right-> Collect

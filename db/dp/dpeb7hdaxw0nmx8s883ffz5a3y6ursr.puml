@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:03.317Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "selogo-102-gifalo"
 }
 @startuml
 [*] --> NotShooting

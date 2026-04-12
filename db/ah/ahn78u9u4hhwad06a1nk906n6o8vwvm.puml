@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.878Z",
     "url": "http://forum.plantuml.net/7533/how-to-have-monospace-font-in-a-rectange",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "regulu-590-geduxa"
 }
 @startuml
 rectangle "**h-entry**\n\nPost Entry\n""<div class="h-entry">..</div>""" as he #white {

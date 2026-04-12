@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.874Z",
     "url": "http://forum.plantuml.net/6837/definelong-requires-extra-charater",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "loseju-006-xajuno"
 }
 @startuml
 !definelong TABLE(name)

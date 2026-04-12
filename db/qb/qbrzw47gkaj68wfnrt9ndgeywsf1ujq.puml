@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:43.969Z",
     "url": "https://github.com/plantuml/plantuml/issues/1259",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kejeru-882-kubogu"
 }
 @startuml
 skinparam Backgroundcolor transparent

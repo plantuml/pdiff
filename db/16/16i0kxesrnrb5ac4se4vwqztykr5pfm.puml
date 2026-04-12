@@ -4,7 +4,8 @@
     "when": "2024-11-18T15:35:35.744Z",
     "url": "https://github.com/plantuml/plantuml/issues/1045",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jarixu-877-salufe"
 }
 @startuml
 !theme plain

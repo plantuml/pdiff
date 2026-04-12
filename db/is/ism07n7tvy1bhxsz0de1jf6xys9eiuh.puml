@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.181Z",
     "url": "http://forum.plantuml.net/9405/stereotype-note-over-multiple-participants-is-crashing",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jacijo-884-jibefu"
 }
 @startuml
 skinparam useBetaStyle true

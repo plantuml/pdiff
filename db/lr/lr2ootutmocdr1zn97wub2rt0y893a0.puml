@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:34.450Z",
     "url": "https://forum.plantuml.net/16505/style-partition-group-package-rectangle-activity-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pasado-086-tofape"
 }
 @startuml
 <style>

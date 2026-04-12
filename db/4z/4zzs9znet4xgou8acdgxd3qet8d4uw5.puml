@@ -4,7 +4,8 @@
     "when": "2024-06-06T17:24:18.698Z",
     "url": "https://github.com/plantuml/plantuml/issues/739",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cigevo-186-lifuba"
 }
 @startuml
 !pragma teoz true

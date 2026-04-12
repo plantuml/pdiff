@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.880Z",
     "url": "http://forum.plantuml.net/6728/whether-possible-sequenceboxbackgroundcolor-transparent",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pisasu-402-kizumu"
 }
 @startuml
 skinparam BackgroundColor transparent

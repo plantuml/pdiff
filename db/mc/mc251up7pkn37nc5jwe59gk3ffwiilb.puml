@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.067Z",
     "url": "https://github.com/plantuml/plantuml/issues/1286",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "facidu-364-zecipe"
 }
 @startuml
 skinparam style strictuml

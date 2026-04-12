@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.828Z",
     "url": "https://github.com/plantuml/plantuml/issues/1320",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rezuxe-211-pogezi"
 }
 @startuml
 :joe:/ <<xxx>> #green

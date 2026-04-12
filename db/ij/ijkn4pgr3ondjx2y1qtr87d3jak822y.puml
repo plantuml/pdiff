@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.807Z",
     "url": "http://forum.plantuml.net/9018/why-no-gradient-support-for-sequence-diagram-boxes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vodusa-127-lunila"
 }
 @startuml
 box BoxOfAlice #yellow/blue

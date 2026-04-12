@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.698Z",
     "url": "https://forum.plantuml.net/10119/unable-to-refer-to-groups-with-spaces-using-square-brackets",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zusumo-370-pogeni"
 }
 @startuml
 node GroupA

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:05.834Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ricaca-177-limeza"
 }
 @startregex
 AB[[:digit:]]C

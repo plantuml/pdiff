@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.474Z",
     "url": "https://forum.plantuml.net/12177/change-color-of-salt-button-to-represent-disabled-status",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jukuta-370-dolepu"
 }
 @startsalt
 skinparam Handwritten  true

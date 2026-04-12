@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.775Z",
     "url": "https://forum.plantuml.net/13042/yaml-sequence-of-mappings-doesnt-work-at-top-level?show=13042#q13042",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vumido-379-fizefu"
 }
 @startyaml
   - name: Mark McGwire

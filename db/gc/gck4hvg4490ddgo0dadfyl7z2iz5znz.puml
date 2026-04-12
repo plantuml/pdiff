@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:07.610Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "moketa-417-cegike"
 }
 @startuml
 'create equivalent of icons shown here https://github.com/awslabs/aws-icons-for-plantuml

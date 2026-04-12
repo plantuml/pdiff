@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.222Z",
     "url": "http://forum.plantuml.net/8612/teoz-wrong-note-position-after-array",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vapira-310-nademu"
 }
 @startuml
 !pragma teoz true

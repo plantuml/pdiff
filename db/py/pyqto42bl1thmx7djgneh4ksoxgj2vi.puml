@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.885Z",
     "url": "https://forum.plantuml.net/10903/state-labels-overlap-with-participants-names",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rokefa-773-lujufe"
 }
 @startuml
 robust "Web Browser" as WB

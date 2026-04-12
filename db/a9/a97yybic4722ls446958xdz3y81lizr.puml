@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.838Z",
     "url": "https://forum.plantuml.net/17600/note-and-position-not-rendering-correctly-on-cheerpj",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vabota-597-sodola"
 }
 @startuml
 !pragma svek_trace on

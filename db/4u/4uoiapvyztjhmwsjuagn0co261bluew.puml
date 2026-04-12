@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.586Z",
     "url": "http://forum.plantuml.net/8242/set-background-color-of-latex-math-entries",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cafica-963-topiji"
 }
 @startuml
 skinparam monochrome true

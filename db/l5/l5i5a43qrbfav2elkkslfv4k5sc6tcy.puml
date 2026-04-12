@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.737Z",
     "url": "https://forum.plantuml.net/9730/should-boundary-control-interface-usecase-support-notation",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zabico-641-cepocu"
 }
 @startuml
 stack a as a {

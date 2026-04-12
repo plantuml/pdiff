@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.637Z",
     "url": "http://forum.plantuml.net/8827/arrow-cardinality-thickness-changed-skinparam-class-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sidavu-064-pocelo"
 }
 @startuml
 Bob |o--|{ Alice : hello

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.174Z",
     "url": "https://forum.plantuml.net/17507/dotted-arrow-also-the-close-comment-blocks-html-xml-markdown",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sefoxe-330-jolera"
 }
 @startuml
 entity B

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.774Z",
     "url": "https://forum.plantuml.net/10082/new-preprocessor-returning-elements-from-functions",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "misaxa-422-dulaga"
 }
 @startuml
 !procedure $BIN2($sn)

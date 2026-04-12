@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:03.408Z",
     "url": "http://wiki.plantuml.net/site/plantumlshell",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "josami-612-karece"
 }
 @startuml
 '!preprocessorV2

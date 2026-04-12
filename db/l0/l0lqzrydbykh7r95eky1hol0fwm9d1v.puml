@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.534Z",
     "url": "https://forum.plantuml.net/10089/fontcolor-not-applied-in-sequence-participant",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pomosu-436-naruvi"
 }
 @startuml
 skinparam {

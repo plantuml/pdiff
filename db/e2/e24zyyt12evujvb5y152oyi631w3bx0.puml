@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:03.777Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jofogi-089-supera"
 }
 @startuml
 [comp1] ^- [comp2]

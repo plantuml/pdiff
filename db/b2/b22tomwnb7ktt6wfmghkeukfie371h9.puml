@@ -4,7 +4,8 @@
     "when": "2024-10-24T17:58:48.254Z",
     "url": "https://forum.plantuml.net/1665/history-pseudostate",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "kapudo-915-jajufe"
 }
 @startuml
 state Comp {

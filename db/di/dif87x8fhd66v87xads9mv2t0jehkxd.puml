@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:03.028Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zotalu-636-mekaxo"
 }
 @startuml
 Alice -> Bob : Bok3

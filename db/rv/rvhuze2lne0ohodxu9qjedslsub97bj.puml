@@ -4,7 +4,8 @@
     "when": "2024-11-08T10:07:54.467Z",
     "url": "https://github.com/plantuml/plantuml/issues/1952",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "nixofe-619-zimino"
 }
 @startuml
 state 1.2

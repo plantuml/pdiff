@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.042Z",
     "url": "https://forum.plantuml.net/10266/error-if-not-at-least-a-newline-in-class-namespace-package",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gumere-294-legade"
 }
 @startuml
 package foo {}

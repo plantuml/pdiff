@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.601Z",
     "url": "https://github.com/dcasati/kubernetes-PlantUML",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zusuje-214-futafu"
 }
 @startuml
 'create equivalent of icons shown here https://github.com/awslabs/aws-icons-for-plantuml

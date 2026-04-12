@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.469Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zajeza-176-ruduja"
 }
 @startuml
 allow_mixing

@@ -4,7 +4,8 @@
     "when": "2025-04-07T15:00:17.556Z",
     "url": "https://github.com/plantuml/plantuml/issues/2148",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kiraso-388-bavedu"
 }
 @startuml
 class Observation  {

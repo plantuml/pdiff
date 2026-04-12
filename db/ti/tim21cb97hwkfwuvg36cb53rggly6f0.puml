@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:46.269Z",
     "url": "http://forum.plantuml.net/8434/sprites-are-not-interpreted-in-byperlink-display-text",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zaruxa-877-fexobo"
 }
 @startuml
 set separator none

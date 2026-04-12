@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.638Z",
     "url": "https://forum.plantuml.net/11571/possibility-to-scale-properly-an-equation-math-or-latex",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lumepo-277-tepucu"
 }
 @startuml
 scale 100 as 100 pixels

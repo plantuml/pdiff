@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.310Z",
     "url": "https://forum.plantuml.net/15577/gantt-with-weekly-scale-bugs",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ginazu-550-kebadu"
 }
 @startgantt
 ganttscale weekly

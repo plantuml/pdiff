@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.610Z",
     "url": "http://forum.plantuml.net/8701/skinparam-defaulttextalignment-center-does-elseif-boxes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "meseso-385-dorude"
 }
 @startuml
 !include <C4/C4_Container>

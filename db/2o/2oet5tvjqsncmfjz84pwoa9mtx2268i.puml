@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:20.058Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kuxine-843-noleno"
 }
 @startuml
 class "long1" as ID1

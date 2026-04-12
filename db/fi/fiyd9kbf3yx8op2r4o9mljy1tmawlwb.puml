@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.224Z",
     "url": "https://github.com/plantuml/plantuml/pull/976",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zopebe-062-recocu"
 }
 @startuml
 ref over A : [[link]]

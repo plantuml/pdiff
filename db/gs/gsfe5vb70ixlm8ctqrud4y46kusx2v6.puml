@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:08.289Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lasaxa-189-xapoti"
 }
 @startuml
 cl3 <|-left- cl3Left

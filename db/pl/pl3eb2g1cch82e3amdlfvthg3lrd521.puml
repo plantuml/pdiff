@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.352Z",
     "url": "http://forum.plantuml.net/8333/use-long-description-with-archimate-elements",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nibulu-256-sivore"
 }
 @startuml
 archimate #Technology VPN <<technology-device>> [

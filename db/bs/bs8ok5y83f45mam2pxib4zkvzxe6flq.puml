@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:22.150Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gomepu-253-bomoxi"
 }
 @startuml
 skinparam ClassStereotypeFontSize 7

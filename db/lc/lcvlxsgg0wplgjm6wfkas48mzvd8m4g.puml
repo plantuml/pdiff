@@ -4,7 +4,8 @@
     "when": "2024-06-06T17:24:18.661Z",
     "url": "https://github.com/plantuml/plantuml/issues/269",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bunovu-440-doxedi"
 }
 @startuml
 !pragma teoz true

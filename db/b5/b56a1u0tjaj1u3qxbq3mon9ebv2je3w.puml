@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.018Z",
     "url": "https://forum.plantuml.net/11479/preprocessing-jason",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jatube-273-xocaju"
 }
 @startuml
 !unquoted function DRAW($x) return %set_variable_value($x, 1)

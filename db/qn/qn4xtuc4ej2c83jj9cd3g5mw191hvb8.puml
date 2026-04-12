@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.605Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lidoxe-704-gageke"
 }
 @startuml
 class foo1

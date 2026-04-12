@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:05.479Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vufibe-097-vezama"
 }
 @startuml
 !pragma teoz true

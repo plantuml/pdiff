@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:05.339Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "risapo-771-vomuxe"
 }
 @startuml
 Bob -> Alice : hello

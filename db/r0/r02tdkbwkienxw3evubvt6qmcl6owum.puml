@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.142Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kusumi-197-xunoru"
 }
 @startuml
 class R1

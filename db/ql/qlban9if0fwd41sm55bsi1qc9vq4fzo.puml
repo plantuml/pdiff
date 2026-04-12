@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.563Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dadeni-899-zoxeki"
 }
 @startuml
 component C1 {

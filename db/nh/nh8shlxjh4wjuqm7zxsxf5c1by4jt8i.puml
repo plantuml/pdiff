@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.579Z",
     "url": "https://github.com/Roemer/plantuml-office",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fobide-511-sujeje"
 }
 @startuml
 stdlib

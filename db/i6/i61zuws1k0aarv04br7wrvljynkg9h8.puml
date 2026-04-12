@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:30.380Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tekoja-823-zaziku"
 }
 @startuml
 sprite $strategy-value-stream jar:archimate/strategy-value-stream

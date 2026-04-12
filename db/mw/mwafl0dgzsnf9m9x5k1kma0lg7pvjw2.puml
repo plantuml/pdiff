@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.805Z",
     "url": "https://forum.plantuml.net/11344/no-text-spacing-with-fork-activity-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kogape-424-bizegu"
 }
 @startuml
 fork

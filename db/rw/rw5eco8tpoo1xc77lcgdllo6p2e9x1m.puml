@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.329Z",
     "url": "http://forum.plantuml.net/7591/entityfont-skinparams-dont-appear-to-work-sequence-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "temati-361-muvamo"
 }
 @startuml
 skinparam Actor {

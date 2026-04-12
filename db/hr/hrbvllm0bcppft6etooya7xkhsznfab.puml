@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.917Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "loxoku-815-duluta"
 }
 @startuml
 (Alice) -> Bob : ok1

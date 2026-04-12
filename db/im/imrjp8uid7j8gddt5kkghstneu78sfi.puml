@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.961Z",
     "url": "https://forum.plantuml.net/16694/ebnf-add-notes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lofuni-638-nemexi"
 }
 @startebnf
 title Test on comments

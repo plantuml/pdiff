@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.728Z",
     "url": "http://forum.plantuml.net/8527/fontcolor-for-timing-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pisole-078-sobazo"
 }
 @startuml
 skinparam TimingFontSize 22

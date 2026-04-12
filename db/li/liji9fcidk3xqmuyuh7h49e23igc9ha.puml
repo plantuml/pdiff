@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:34.180Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pepuza-413-dicuci"
 }
 @startuml
 Bob -> Alice : default\non two different lines

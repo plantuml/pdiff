@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.313Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dejobu-782-vovija"
 }
 @startuml
 Flight : flightNumber : Integer

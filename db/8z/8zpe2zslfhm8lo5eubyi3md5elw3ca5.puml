@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.566Z",
     "url": "http://forum.plantuml.net/6336/wrong-arrow-generation-in-simple-component-diagram?show=6336#q6336",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "moralo-865-doveti"
 }
 @startuml
 !pragma svek_trace on

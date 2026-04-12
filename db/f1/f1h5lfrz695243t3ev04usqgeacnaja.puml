@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.407Z",
     "url": "https://forum.plantuml.net/11288/mixed-signal-timing-diagram?show=11369#c11369",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "muxati-726-kekaxi"
 }
 @startuml
 analog "Vcore" as VDD

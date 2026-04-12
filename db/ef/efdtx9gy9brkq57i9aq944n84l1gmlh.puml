@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:04.341Z",
     "url": "http://forum.plantuml.net/6704/plantuml-asked-me-to-report-exception-for-package-foo1-foo2",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nedaru-028-fufaka"
 }
 @startuml
 package foo1 {

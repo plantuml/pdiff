@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:03.132Z",
     "url": "https://github.com/plantuml/plantuml/issues/1142",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "senuva-354-fetazi"
 }
 @startuml
 hide circle

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.062Z",
     "url": "http://wiki.plantuml.net/site/style-evolution",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bakasa-564-nofode"
 }
 @startuml
 !pragma teoz true

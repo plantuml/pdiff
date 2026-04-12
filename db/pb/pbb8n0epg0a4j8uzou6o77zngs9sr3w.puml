@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.941Z",
     "url": "https://forum.plantuml.net/9705/skinparam-monochrome-does-inherited-within-embedded-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "covipa-196-picemu"
 }
 @startuml
 skinparam monochrome true

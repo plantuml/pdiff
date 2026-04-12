@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.699Z",
     "url": "https://forum.plantuml.net/10325/could-you-detail-namespace-declaration-management",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lubupe-649-vekuli"
 }
 @startuml
 set namespaceSeparator .

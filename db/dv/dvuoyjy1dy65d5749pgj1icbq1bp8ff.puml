@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:03.499Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "datapu-257-kuloto"
 }
 @startuml
 participant Alice as a

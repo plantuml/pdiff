@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.770Z",
     "url": "https://forum.plantuml.net/14973/sequence-lifeline-color-missing-on-in-out-messages-with-teoz",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "silaru-556-lupenu"
 }
 @startuml
 [-> A ++ #ff0000 : No lifeline color with\n<b>!pragma teoz true</b>

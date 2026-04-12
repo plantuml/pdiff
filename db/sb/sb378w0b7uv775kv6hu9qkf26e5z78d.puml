@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.878Z",
     "url": "https://forum.plantuml.net/9998/macros-in-macro-parameters-does-not-work",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "socozi-047-lorasu"
 }
 @startuml
 !definelong CALL(from,to,funcname)

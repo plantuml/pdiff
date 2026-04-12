@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.050Z",
     "url": "https://forum.plantuml.net/14563/style-object-allow-style-on-object-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "doxobi-503-gimuti"
 }
 @startuml
 <style>

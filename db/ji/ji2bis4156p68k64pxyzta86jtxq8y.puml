@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.915Z",
     "url": "http://forum.plantuml.net/9216/color-on-partition-note-gets-ignored-and-note-the-wrong-side",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kikivo-433-lusiki"
 }
 @startuml
 if (a) then (yes)

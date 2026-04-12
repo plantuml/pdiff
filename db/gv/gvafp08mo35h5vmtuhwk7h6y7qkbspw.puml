@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.380Z",
     "url": "https://forum.plantuml.net/16886/deployment-diagram-shall-support-coloring-orientation-order",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "savabu-565-lerabe"
 }
 @startuml
 (*) -up-> "First Activity"

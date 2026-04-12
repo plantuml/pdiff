@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.138Z",
     "url": "https://forum.plantuml.net/11075/add-anchor-points-or-events-to-timing-diagrams?show=11128#c11128",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vapitu-000-penaga"
 }
 @startuml
 clock clk with period 1

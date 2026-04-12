@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.822Z",
     "url": "https://forum.plantuml.net/11330/please-allow-to-set-notes-skimparams-stereotypes-all-notes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fumelu-421-murole"
 }
 @startuml
 skinparam note {

@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.527Z",
     "url": "https://forum.plantuml.net/10679/feature-gantt-progress",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "popasi-537-caruga"
 }
 @startgantt
 [foo] lasts 21 days

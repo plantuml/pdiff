@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:46.532Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cacufa-955-tenamo"
 }
 @startuml
 [*] --> State1

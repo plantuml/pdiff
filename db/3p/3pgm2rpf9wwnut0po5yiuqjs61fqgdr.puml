@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.322Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=5105/notes-in-activity-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "feleve-190-jadoja"
 }
 @startuml
 start

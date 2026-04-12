@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:39.227Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zozupa-757-piroti"
 }
 @startuml
 'skinparam linetype ortho

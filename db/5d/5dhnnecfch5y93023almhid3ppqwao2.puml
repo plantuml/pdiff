@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:04.491Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dojevi-982-vibevo"
 }
 @startuml
 	(*) --> "Datensendung stornieren"

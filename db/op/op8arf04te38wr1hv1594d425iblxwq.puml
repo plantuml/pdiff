@@ -4,7 +4,8 @@
     "when": "2026-02-18T18:13:14.115Z",
     "url": "https://github.com/plantuml/plantuml/issues/2541",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pumaku-089-xocoki"
 }
 @startuml
 class Test {

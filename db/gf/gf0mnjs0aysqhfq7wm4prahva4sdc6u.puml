@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:07.696Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fipibe-699-micimu"
 }
 @startuml
 participant SomeName as SN

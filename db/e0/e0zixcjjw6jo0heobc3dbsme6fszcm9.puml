@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:03.706Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ledosu-613-futera"
 }
 @startuml
 autonumber 1.1.1

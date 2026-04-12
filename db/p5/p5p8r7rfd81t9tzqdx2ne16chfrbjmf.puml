@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:40.714Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zimuca-547-nojofe"
 }
 @startuml
 Foo ..> IBar: <<delegate>>

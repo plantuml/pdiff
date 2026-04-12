@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.530Z",
     "url": "http://forum.plantuml.net/6728/whether-possible-sequenceboxbackgroundcolor-transparent",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "getele-833-lujugo"
 }
 @startuml
 ' PlantUML stdlib now includes Icon-Font Sprites! See https://github.com/tupadr3/plantuml-icon-font-sprites

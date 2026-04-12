@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.742Z",
     "url": "https://forum.plantuml.net/4037/association-node-breaks-link-direction?show=10175#c10175",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vicime-619-xakebi"
 }
 @startuml
 hide empty methods

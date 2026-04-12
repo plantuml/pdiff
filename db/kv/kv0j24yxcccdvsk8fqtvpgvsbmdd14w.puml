@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:33.392Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fipuva-332-ticexo"
 }
 @startuml
 state foo1

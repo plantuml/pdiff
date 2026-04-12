@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:46.159Z",
     "url": "https://github.com/Roemer/plantuml-office",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lijube-630-licero"
 }
 @startuml
 !include <tupadr3/common>

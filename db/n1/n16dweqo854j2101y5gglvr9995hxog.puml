@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:38.091Z",
     "url": "https://forum.plantuml.net/15232/declare-participants-similar-to-components",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "juzonu-539-gutuxe"
 }
 @startuml
 participant "=MyTitle\n----\nMySubTitle" as MyParticipant

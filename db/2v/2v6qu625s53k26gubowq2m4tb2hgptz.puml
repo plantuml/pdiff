@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.110Z",
     "url": "https://forum.plantuml.net/17926/sprite-transparent-only-jar-defined-sprites-are-working",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cixoxu-841-fafila"
 }
 @startuml
 sprite $ma_close_circle [48x48/16] {

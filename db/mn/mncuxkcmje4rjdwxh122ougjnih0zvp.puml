@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.445Z",
     "url": "https://gist.github.com/rxaviers/7360908",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fenone-387-kiviju"
 }
 @startuml
 Alice -> Bob : <#0:2630:><#F00:2630:>

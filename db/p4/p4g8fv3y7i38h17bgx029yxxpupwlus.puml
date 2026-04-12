@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.680Z",
     "url": "https://github.com/plantuml/plantuml/issues/727",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mamimo-768-zocefi"
 }
 @startuml
 repeat :Text 1;

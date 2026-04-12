@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.905Z",
     "url": "https://github.com/plantuml/plantuml/issues/134",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "niziba-695-rivogu"
 }
 @startuml
 !pragma teoz true

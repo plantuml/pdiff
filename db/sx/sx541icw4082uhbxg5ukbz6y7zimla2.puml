@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.583Z",
     "url": "https://forum.plantuml.net/4834/activation-shorthand-for-sequence-diagrams?show=12981#c12981",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gukuxe-524-mevali"
 }
 @startuml
 alice -> bob ++ : hello1

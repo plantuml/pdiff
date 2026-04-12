@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.362Z",
     "url": "https://forum.plantuml.net/16694/ebnf-add-notes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fopidi-164-rotata"
 }
 @startebnf
 digit1 = (* note a *) {"0"} (* note b *);

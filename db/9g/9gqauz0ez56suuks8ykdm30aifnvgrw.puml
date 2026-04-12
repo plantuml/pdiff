@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.686Z",
     "url": "http://forum.plantuml.net/6389/alias-of-interfaces-in-component-diagrams?show=6390#a6390",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lomedu-864-muxubu"
 }
 @startuml
     database "DB" as DB {

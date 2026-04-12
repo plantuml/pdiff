@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.226Z",
     "url": "https://github.com/plantuml/plantuml/issues/1609",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dazene-005-derifi"
 }
 @startuml
 -> A

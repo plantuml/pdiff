@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:32.076Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zadivi-100-doluna"
 }
 @startuml
 state "Some State" as A_State {

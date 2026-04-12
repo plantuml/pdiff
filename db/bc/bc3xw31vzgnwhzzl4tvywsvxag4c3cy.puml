@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.058Z",
     "url": "http://forum.plantuml.net/7222/sequence-diagram-inline-setting-arrow-thickness-disappear",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jacilu-249-begopo"
 }
 @startuml
 a -[thickness=5]> b

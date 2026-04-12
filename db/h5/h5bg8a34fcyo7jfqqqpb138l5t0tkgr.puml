@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.158Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tobedu-686-pedivu"
 }
 @startuml
 Alice -> Bob : hello

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:21.678Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vufezi-236-nicodo"
 }
 @startuml
 class A

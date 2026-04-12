@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.894Z",
     "url": "http://forum.plantuml.net/6495/wrong-class-widths-after-latex-export",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fapoma-703-ralula"
 }
 @startuml
 skinparam tikzFont 0.8;4.5

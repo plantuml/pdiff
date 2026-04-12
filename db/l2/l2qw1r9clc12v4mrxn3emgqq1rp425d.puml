@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.632Z",
     "url": "https://forum.plantuml.net/14779/sprite-w-database-causes-an-issue",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kutixi-191-situcu"
 }
 @startuml
 sprite $cloudsql [48x48/16] {

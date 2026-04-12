@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.122Z",
     "url": "http://forum.plantuml.net/8356/white-backgrounds-are-rendered-transparent-in-svg",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zitire-215-jobopu"
 }
 @startuml
 skinparam backgroundColor white

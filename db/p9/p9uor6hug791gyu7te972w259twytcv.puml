@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:40.825Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dosapu-028-gopexu"
 }
 @startuml
 interface toto1

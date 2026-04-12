@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:43.273Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=5096/caption-disapear-with-teoz",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xijiko-968-loxevo"
 }
 @startuml
 !pragma teoz true

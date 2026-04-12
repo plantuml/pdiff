@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.106Z",
     "url": "https://github.com/Crashedmind/PlantUML-opensecurityarchitecture-icons/blob/master/example.png",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nuneno-505-titeke"
 }
 @startuml
 !include <osa/user/audit/audit>

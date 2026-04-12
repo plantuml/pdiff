@@ -4,7 +4,8 @@
     "when": "2026-02-18T22:25:27.063Z",
     "url": "https://github.com/plantuml/plantuml/issues/2536",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nibibo-931-puvago"
 }
 @startuml
 class User

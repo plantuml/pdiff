@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:46.366Z",
     "url": "http://bob.com]]",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zoxiza-954-bivudu"
 }
 @startuml
 Bob -> Alice : [[http://a.com]] hello

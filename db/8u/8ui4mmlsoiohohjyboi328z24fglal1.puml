@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.530Z",
     "url": "https://forum.plantuml.net/10128/diagram-in-a-note-function",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gunore-574-cigani"
 }
 @startuml
 !unquoted procedure OBJ($someName) 

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.278Z",
     "url": "https://forum.plantuml.net/14713/style-state-allow-roundcorner-or-rectangle-style-on-state",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "micelo-100-vecavi"
 }
 @startuml
 <style>

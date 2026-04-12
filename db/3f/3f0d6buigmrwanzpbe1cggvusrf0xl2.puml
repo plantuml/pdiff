@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.246Z",
     "url": "https://forum.plantuml.net/10265/new-line-in-table-built-with-variables-is-ignored",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "viteji-325-jajoco"
 }
 @startuml
 !global $table = "|= Field1 |= Field 2 |"

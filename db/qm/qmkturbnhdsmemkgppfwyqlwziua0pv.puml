@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2025-10-15T17:00:59.945Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xolugo-979-bobafa"
 }
 @startuml timing_test
 title Between min-max

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.002Z",
     "url": "https://forum.plantuml.net/14996/style-tag-breaks-rendering-in-deployment-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xenago-067-naxedo"
 }
 @startuml
 rectangle r3 as RThree #line.dotted {

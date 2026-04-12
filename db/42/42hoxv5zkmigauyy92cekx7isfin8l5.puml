@@ -4,7 +4,8 @@
     "when": "2025-11-04T15:44:23.299Z",
     "url": "https://github.com/plantuml/plantuml/issues/2409",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vusugo-787-dezoga"
 }
 @startuml
 rectangle "A" as A

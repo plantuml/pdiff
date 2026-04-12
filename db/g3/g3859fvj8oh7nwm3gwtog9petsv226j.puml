@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.092Z",
     "url": "https://github.com/plantuml/plantuml-server/issues/167#issuecomment-754719353",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nafipi-414-vojija"
 }
 @startuml
 skinparam lengthAdjust spacingAndGlyphs

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:02.904Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vovifa-461-mugufi"
 }
 @startuml
 class MyClass<S extends SomeClass,\nA extends AnotherClass,\nY YetAnotherClass> {

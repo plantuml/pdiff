@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.126Z",
     "url": "https://forum.plantuml.net/10912/active-lifeline-not-shown-with-parallel-loop",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vitebu-583-democi"
 }
 @startuml
 !pragma teoz true

@@ -4,7 +4,8 @@
     "when": "2025-05-14T17:43:58.752Z",
     "url": "https://forum.plantuml.net/15172/is-it-possible-to-hide-the-name-of-an-element?show=15178#c15178",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "sepada-736-pimupa"
 }
 @startuml
 !procedure $arrow($text)

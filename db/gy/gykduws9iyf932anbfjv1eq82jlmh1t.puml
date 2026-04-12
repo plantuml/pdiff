@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:08.552Z",
     "url": "https://github.com/plantuml/plantuml/issues/337",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bisaci-261-xijapa"
 }
 @startuml
 !pragma useNewPackage

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.972Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "neviti-958-vefiri"
 }
 @startuml
 class __Test1__

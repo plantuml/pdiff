@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.992Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zanude-660-locugo"
 }
 @startuml
 !define TEST something

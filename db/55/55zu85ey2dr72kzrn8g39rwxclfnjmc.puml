@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.658Z",
     "url": "https://github.com/plantuml/plantuml/issues/1335",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vogisa-834-nobebu"
 }
 @startuml
 title Class title should be size 14 and bold, attributes and methods should be size 18 and italic.

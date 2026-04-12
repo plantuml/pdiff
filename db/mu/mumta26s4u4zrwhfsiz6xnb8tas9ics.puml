@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.700Z",
     "url": "http://forum.plantuml.net/9498/sequence-diagram-message-arrows",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rerigi-036-mojine"
 }
 @startuml
 Bob x-> Alice : 0-4 x->

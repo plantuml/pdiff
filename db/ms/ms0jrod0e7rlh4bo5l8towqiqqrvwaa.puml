@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.581Z",
     "url": "http://forum.plantuml.net/8359/group-components-cant-be-set-transparent",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "napicu-432-jovito"
 }
 @startuml
 skinparam backgroundColor red

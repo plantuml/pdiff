@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.854Z",
     "url": "https://forum.plantuml.net/10486/and-should-be-handled-for-actor-too",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gacaga-601-tevefe"
 }
 @startuml
 actor "a\n====\ncan use b" as a

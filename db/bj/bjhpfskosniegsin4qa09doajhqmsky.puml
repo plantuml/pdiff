@@ -4,7 +4,8 @@
     "when": "2024-11-23T15:35:39.141Z",
     "url": "https://forum.plantuml.net/10597/preprocessorv2-multiline-function-invocation?show=10608#a10608",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "matuda-175-gagugo"
 }
 @startuml
 !unquoted procedure $f($x)

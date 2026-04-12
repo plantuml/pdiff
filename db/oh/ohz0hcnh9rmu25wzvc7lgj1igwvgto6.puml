@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.901Z",
     "url": "https://forum.plantuml.net/11084/javascript-hyperlinks-in-svg",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fuzaci-697-digebu"
 }
 @startuml
 Bob -> Alice : [[javascript:alert('test') hello]]

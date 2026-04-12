@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.478Z",
     "url": "https://github.com/plantuml/plantuml-server/issues/167#issuecomment-754719353",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tiface-214-vadopo"
 }
 @startuml
 skinparam lengthAdjust none

@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.270Z",
     "url": "https://forum.plantuml.net/12321/improve-activity-diagram-last-label-position-when-break-loop",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sofume-466-boteli"
 }
 @startuml
 start

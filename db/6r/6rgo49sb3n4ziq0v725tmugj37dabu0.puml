@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.030Z",
     "url": "http://forum.plantuml.net/7821/crash-with-teoz",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "totife-414-dodano"
 }
 @startuml
 !pragma teoz true

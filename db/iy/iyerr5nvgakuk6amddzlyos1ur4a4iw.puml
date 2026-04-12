@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:31.329Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bakadi-009-gemenu"
 }
 @startuml
 Alice -> Bob: Authentication Request

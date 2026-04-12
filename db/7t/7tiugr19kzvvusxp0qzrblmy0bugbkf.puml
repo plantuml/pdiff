@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:21.278Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bojini-326-libibu"
 }
 @startuml
 Alice -> Bob : hello there <&yen> for me!

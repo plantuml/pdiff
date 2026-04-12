@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.270Z",
     "url": "https://forum.plantuml.net/10800/font-style-not-working-on-title",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xiguku-555-xomice"
 }
 @startuml
 !include <logos/centos>

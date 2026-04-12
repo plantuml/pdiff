@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.839Z",
     "url": "https://forum.plantuml.net/11399/borderstyle-ignored-creating-bracketless-package-components",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "juleso-652-kadabu"
 }
 @startuml
     namespace f1 {

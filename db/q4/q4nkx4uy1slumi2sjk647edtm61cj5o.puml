@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.041Z",
     "url": "http://forum.plantuml.net/8534/skinparam-roundcorners-individual-background-stereotype",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pugiso-056-foluse"
 }
 @startuml
 skinparam RoundCorner 25

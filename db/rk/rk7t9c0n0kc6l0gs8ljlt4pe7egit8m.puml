@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:43.919Z",
     "url": "http://forum.plantuml.net/8458/how-to-conditionally-connect-components",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "toluma-927-xaxemo"
 }
 @startuml
 !definelong connect(CALLER)

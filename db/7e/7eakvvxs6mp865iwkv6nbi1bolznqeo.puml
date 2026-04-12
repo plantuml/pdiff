@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.178Z",
     "url": "https://github.com/plantuml/plantuml/issues/1300",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "voguto-329-texezo"
 }
 @startuml
 participant Alice as a

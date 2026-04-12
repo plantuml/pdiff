@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.944Z",
     "url": "http://forum.plantuml.net/4267/scaling-of-the-sprites-or-images",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gixojo-783-fotasi"
 }
 @startuml
 !include <tupadr3/font-awesome-5/amazon>

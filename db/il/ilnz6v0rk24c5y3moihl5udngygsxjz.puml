@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.898Z",
     "url": "https://forum.plantuml.net/11735/beta-style-backgroundcolor-doesnt-group-components-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xikuma-974-jiricu"
 }
 @startuml
 <style>

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:05.332Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "danuge-594-vogede"
 }
 @startuml
 frame "Plant [[www.plantuml.com Uml]]" as test {

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.650Z",
     "url": "https://forum.plantuml.net/15458/default-line-colors-are-not-supported-anymore",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "varifu-386-golico"
 }
 @startuml
 skinparam arrow {

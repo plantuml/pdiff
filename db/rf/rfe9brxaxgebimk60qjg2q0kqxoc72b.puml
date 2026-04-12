@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.730Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gilefe-438-zonozi"
 }
 @startuml
 SWMAG ->  SwmagHandler: evDownloadSWReq

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.574Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "comoji-824-konufo"
 }
 @startuml
 a->b: test

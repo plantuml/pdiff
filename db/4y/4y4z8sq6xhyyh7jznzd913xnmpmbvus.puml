@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.610Z",
     "url": "https://forum.plantuml.net/16588/style-allow-all-style-for-mainframe",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "povuge-215-kelivi"
 }
 @startuml
 <style>

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.538Z",
     "url": "https://forum.plantuml.net/15386/allow-new-styling-for-nested-package",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gurixo-166-copepe"
 }
 @startuml
 <style>

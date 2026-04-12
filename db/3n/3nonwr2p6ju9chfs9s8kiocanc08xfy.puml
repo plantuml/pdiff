@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.306Z",
     "url": "https://forum.plantuml.net/16505/style-partition-group-package-rectangle-activity-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "medala-690-gifuso"
 }
 @startuml
 :a;

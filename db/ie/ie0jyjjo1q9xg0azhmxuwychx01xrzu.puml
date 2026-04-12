@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.611Z",
     "url": "http://forum.plantuml.net/7516/swimlanes-and-simple-repeat-loop-produce-wrong-result",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sagide-486-rarefe"
 }
 @startuml
 |swimlane 1|

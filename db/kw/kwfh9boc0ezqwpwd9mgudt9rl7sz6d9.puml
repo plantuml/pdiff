@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.427Z",
     "url": "https://forum.plantuml.net/12062/misintepretation-of-tooltip-as-operation",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bifago-143-penubo"
 }
 @startuml
 class Event_or << Entity >> {

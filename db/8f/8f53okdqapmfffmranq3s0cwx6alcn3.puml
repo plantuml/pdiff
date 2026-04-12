@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.402Z",
     "url": "https://forum.plantuml.net/11109/preprocessor-vlookup-macro?show=11132#c11132",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cunota-213-kififi"
 }
 @startuml
 !$data={"partlen": "2", "game": "GamePlantuml", "participants": [

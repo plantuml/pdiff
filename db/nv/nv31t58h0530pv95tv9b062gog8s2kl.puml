@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.089Z",
     "url": "https://forum.plantuml.net/16750/ebnf-allow-full-repetition-management-with-repetition-symbol",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tutonu-922-xoretu"
 }
 @startebnf
 Fortran_77_continuation_line = 5 * " ",  '[...]', 66 * [character];

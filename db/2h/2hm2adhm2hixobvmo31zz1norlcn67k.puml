@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:20.002Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jutapi-298-bamelu"
 }
 @startuml
 sprite $disk16 {

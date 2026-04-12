@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.406Z",
     "url": "https://forum.plantuml.net/13245/skinparam-arrowcolor-cannot-combined-multiple-stereotypes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vofexi-608-xenivi"
 }
 @startuml
 <style>

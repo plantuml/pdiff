@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:35.248Z",
     "url": "https://github.com/plantuml/plantuml/issues/72",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dilipa-793-nipexa"
 }
 @startuml
 hide empty members

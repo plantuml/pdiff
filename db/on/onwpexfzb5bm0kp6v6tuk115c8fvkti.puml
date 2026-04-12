@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.049Z",
     "url": "https://forum.plantuml.net/10495/can-an-img-be-supported-as-a-thumbnail-to-the-original",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vepabo-967-lesoco"
 }
 @startuml
 component "compA" as compA {

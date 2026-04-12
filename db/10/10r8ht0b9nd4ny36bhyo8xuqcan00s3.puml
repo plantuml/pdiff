@@ -4,7 +4,8 @@
     "when": "2025-05-14T17:45:29.492Z",
     "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "cozuju-298-zusepe"
 }
 @startuml
 title Test of filling with "fill" & outline with "stroke"

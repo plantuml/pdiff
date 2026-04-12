@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.826Z",
     "url": "https://github.com/plantuml/plantuml/issues/1326",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kerofu-219-xuvufu"
 }
 @startuml
 object "Kannada : bambu" as ಬಬ

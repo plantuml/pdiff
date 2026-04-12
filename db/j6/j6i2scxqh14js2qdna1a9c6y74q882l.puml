@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:31.537Z",
     "url": "https://forum.plantuml.net/12302/extra-direction-nesting-structural-relationships-archimate",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "merona-440-nekire"
 }
 @startuml
 skinparam <<verb>> {

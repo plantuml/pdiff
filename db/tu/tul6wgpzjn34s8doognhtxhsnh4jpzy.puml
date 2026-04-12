@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:46.792Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "linosu-654-vuveza"
 }
 @startuml
 package my_package{

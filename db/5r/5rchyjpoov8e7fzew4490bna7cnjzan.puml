@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.790Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=5242/miss-formed-arrows-in-class-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jenuze-708-rivapa"
 }
 @startuml
  title  class diagram

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:46.463Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cafebe-460-gegugi"
 }
 @startuml
 class toto1

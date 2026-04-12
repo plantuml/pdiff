@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-25T10:56:04.192Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fedapa-303-dotuka"
 }
 @startuml
 !pragma layout smetana

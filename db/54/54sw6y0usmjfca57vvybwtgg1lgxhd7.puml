@@ -4,7 +4,8 @@
     "when": "2025-04-07T07:55:21.742Z",
     "url": "https://github.com/plantuml/plantuml/issues/2144",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "petege-969-tosivu"
 }
 @startuml
 binary "sample" as sample

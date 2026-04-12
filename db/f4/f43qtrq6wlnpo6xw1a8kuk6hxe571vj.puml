@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:05.496Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lumuka-988-minevo"
 }
 @startuml
 skinparam sequenceGroupBorderColor magenta

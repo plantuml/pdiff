@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.306Z",
     "url": "http://forum.plantuml.net/7424/tool-tip-doesnt-work-on-down-arrow",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "karofu-249-vesena"
 }
 @startuml
 Task1 <-down- func2[[{V1}]]: V2

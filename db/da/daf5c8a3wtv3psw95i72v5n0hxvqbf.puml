@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.721Z",
     "url": "https://forum.plantuml.net/1343/how-to-implement-new-graphviz-attribute?show=12613#c12613",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lazijo-417-cijulu"
 }
 @startuml
 !pragma svek_trace on

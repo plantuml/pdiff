@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.153Z",
     "url": "http://forum.plantuml.net/9227/customize-stereotype-display",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "daxebi-478-sixigu"
 }
 @startuml
 skinparam guillemet none

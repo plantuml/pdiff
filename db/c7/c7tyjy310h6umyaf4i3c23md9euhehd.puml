@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:01.031Z",
     "url": "https://forum.plantuml.net/6604/is-there-a-way-to-indent-text-inside-a-shape?show=12453#c12453",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tofika-887-pemixo"
 }
 @startuml
 skinparam tabSize 20

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.320Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kukeri-185-xanape"
 }
 @startuml
 (*) --> "Получение uid на вход"

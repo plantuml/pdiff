@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:40.635Z",
     "url": "http://forum.plantuml.net/9053/timing-diagrams-for-binary-signal-and-data-buses?show=9061#c9061",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jomalu-090-jimize"
 }
 @startuml
 clock clk with period 50 pulse 10

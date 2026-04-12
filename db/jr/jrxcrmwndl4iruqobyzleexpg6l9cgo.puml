@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:32.164Z",
     "url": "https://forum.plantuml.net/16822/remove-restore-%24tag-issue",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sapune-643-camavu"
 }
 @startuml
 component C1 $tag1 {

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:46.518Z",
     "url": "http://forum.plantuml.net/6249/how-do-i-change-the-border-style-of-a-rectangle?show=6813#c6813",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "feluda-603-zudesi"
 }
 @startuml
 skinparam rectangle {

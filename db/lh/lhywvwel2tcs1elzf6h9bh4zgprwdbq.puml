@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:34.173Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pofepa-425-gunofa"
 }
 @startuml
 participant Bob

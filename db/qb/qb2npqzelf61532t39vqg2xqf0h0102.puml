@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.212Z",
     "url": "http://forum.plantuml.net/9017/colored-return-lines-in-sequence-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jukoti-814-jofoba"
 }
 @startuml
 skinparam sequencearrowcolor #black

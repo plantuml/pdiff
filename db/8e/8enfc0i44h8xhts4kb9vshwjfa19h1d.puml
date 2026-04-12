@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.402Z",
     "url": "http://forum.plantuml.net/8688/bug-on-class-diagram-relations-with-an-header-class",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bekuge-914-comule"
 }
 @startuml
 class Header

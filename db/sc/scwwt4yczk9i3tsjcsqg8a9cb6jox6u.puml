@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.985Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gasima-872-zacuzu"
 }
 @startuml
 (*) --> "toto"

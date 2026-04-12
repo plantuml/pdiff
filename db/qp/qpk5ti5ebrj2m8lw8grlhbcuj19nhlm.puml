@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.742Z",
     "url": "https://github.com/plantuml/plantuml/issues/1158",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fazenu-152-pekudo"
 }
 @startuml
 file test_bullet_list_creole [

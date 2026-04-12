@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.858Z",
     "url": "https://forum.plantuml.net/1762/namespace-label-formating",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rulani-168-xegago"
 }
 @startuml
 set separator none

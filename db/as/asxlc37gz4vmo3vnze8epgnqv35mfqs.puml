@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.946Z",
     "url": "https://forum.plantuml.net/13886/plantuml-generating-invalid-example-plantuml-written-beside",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kifovo-941-suruki"
 }
 @startuml
 Bob -> Alice : hello

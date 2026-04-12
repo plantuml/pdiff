@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.955Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tamado-792-rojipa"
 }
 @startuml
 rectangle "business process" <<$archimate/business-process>>

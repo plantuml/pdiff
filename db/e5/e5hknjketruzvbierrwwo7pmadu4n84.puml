@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:04.025Z",
     "url": "http://forum.plantuml.net/7463/cards-and-rectangles-have-the-same-formatting",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sosipi-600-duxagi"
 }
 @startuml
 skinparam rectangle {

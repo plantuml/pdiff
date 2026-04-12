@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:03.536Z",
     "url": "http://forum.plantuml.net/6830/syntax-breaking-in-component-diagram",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "todale-345-fefobi"
 }
 @startuml
 !pragma svek_trace on

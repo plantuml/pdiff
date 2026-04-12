@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.359Z",
     "url": "https://forum.plantuml.net/15352/private-public-indicators-are-always-present-state-diagramm",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bediki-968-dasedo"
 }
 @startuml
 [*] --> test

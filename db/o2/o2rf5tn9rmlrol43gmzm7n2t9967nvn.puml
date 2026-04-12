@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.297Z",
     "url": "https://github.com/plantuml/plantuml-server/issues/94",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lijapa-956-tasevo"
 }
 @startuml
 foo --(( bar

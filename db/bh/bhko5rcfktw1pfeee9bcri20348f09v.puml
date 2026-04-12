@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.094Z",
     "url": "https://forum.plantuml.net/16797/change-state-diagram-arrowhead-color",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sopipi-602-modixu"
 }
 @startuml
 <style>

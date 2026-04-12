@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.783Z",
     "url": "https://forum.plantuml.net/13298/allow-style-on-wbs-boxless-node",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lubizi-520-sedevu"
 }
 @startwbs
 <style>

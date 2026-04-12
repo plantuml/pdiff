@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.718Z",
     "url": "https://forum.plantuml.net/16397/add-qualified-associations-to-class-diagrams?show=16642#c16642",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "faluka-659-dotice"
 }
 @startuml
 !pragma svek_trace on

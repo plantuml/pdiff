@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.043Z",
     "url": "https://github.com/plantuml/plantuml/issues/307",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vonutu-576-sobeje"
 }
 @startuml
 map CapitalCityWithAVeryLongName {

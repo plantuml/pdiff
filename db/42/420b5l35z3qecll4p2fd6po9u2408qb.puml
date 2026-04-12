@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.406Z",
     "url": "https://forum.plantuml.net/16588/style-allow-all-style-for-mainframe",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "babapi-345-namuzu"
 }
 @startuml
 mainframe This is a **mainframe**

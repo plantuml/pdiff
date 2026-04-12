@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.148Z",
     "url": "https://forum.plantuml.net/14104/sequence-diagram-incoming-outgoing-some-arrows-are-inverted",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mukita-579-parune"
 }
 @startuml
 title Long title to see cropped arrow

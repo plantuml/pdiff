@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.855Z",
     "url": "https://github.com/plantuml/plantuml/issues/1255",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "togixi-756-sobazo"
 }
 @startuml
 namespace N1 {

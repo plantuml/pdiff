@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.758Z",
     "url": "https://forum.plantuml.net/15360/ideas-for-2-new-json-builtins",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tisija-727-zimece"
 }
 @startuml
 !$myjson = {

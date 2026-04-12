@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.746Z",
     "url": "https://forum.plantuml.net/16822/remove-restore-%24tag-issue",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rujela-218-begoci"
 }
 @startuml
 component C1 $tag1 {

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.471Z",
     "url": "http://forum.plantuml.net/5124/skinparam-and-hidden-stereotypes?show=7746#c7746",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "selepi-332-posinu"
 }
 @startuml
 hide stereotype 

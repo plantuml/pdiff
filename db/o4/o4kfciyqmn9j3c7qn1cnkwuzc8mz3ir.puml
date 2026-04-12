@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.356Z",
     "url": "https://forum.plantuml.net/17070/ebnf-special-border-enhancement",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vukeno-627-mipojo"
 }
 @startebnf
 foo = "literal" | ?special? | rule;

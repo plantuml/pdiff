@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.065Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "roture-758-veciza"
 }
 @startuml
 class a

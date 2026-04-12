@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.782Z",
     "url": "https://forum.plantuml.net/10868/highlighted-periods-in-timing-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kafise-135-xekenu"
 }
 @startuml
 concise "Web Browser" as WB

@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.729Z",
     "url": "https://forum.plantuml.net/15584/stereotypes-cannot-be-overwritten-anymore",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "finete-134-vunonu"
 }
 @startuml
 skinparam rectangle {

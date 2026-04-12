@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:43.520Z",
     "url": "http://www.plantuml.com/plantuml/umla/bOxBYWCX44NtzHL5xxFenwoAXFp7C0nLhIHDR2VuW371VvysPZ44Dr6AYqVkqQCFx49S3QZbvFXwncYNNxm3-2WLp2Rwe5t_pUPwvktAi6YpxvwyuevQ3T6XKIYq8xYZOtlP-v_ePat8XBdbEF6wDYG55mlYYqTwae5a99b8FeeKSSRT0HM1ui3_Aukz4AQUqa1ff3HXEUqEQTXct6RAKFPhuuQVpz-ezrRtXPIXF74ZI4EDiSRq283ycAEsAgxc3m00",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "voruje-821-ropodi"
 }
 @startuml
 digraph unix {

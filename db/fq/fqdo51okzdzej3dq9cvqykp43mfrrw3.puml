@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.529Z",
     "url": "https://forum.plantuml.net/14938/custom-themes-dont-require-from-folder-if-theme-search-path",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ledofa-724-bebome"
 }
 @startuml
 !theme foo

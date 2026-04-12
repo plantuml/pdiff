@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.776Z",
     "url": "https://github.com/plantuml/plantuml/issues/1085#issuecomment-1383135590",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rafogu-282-nefifi"
 }
 @startuml
 title **Hessian 字节码映射**

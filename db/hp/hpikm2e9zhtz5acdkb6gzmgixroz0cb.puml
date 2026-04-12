@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.845Z",
     "url": "https://gist.github.com/rxaviers/7360908",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tokeci-539-dufegi"
 }
 @startuml
 Alice -> Bob : innocent<:1F607:>is<#0:1F607:><color:green>is<#000:1F607:>

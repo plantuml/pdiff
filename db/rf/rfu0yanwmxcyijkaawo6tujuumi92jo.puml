@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:43.751Z",
     "url": "https://forum.plantuml.net/10964/sequence-queuebordercolor-not-respected",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bufexo-432-zogoju"
 }
 @startuml
 skinparam actorBorderColor #00f

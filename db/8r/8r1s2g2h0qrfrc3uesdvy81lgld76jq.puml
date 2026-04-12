@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.498Z",
     "url": "http://forum.plantuml.net/7876/possible-wrap-swimlane-headings-automatically-rather-using",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kipugu-381-zaxuge"
 }
 @startuml
 skinparam swimlaneWidth same

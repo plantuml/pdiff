@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.393Z",
     "url": "http://wiki.plantuml.net/site/style-evolution",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tafopa-928-gudeve"
 }
 @startuml
 skinparam usebetastyle true

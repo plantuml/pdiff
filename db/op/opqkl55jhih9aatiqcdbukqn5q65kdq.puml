@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:40.092Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "razunu-408-damoko"
 }
 @startuml
 sprite $motivation-value jar:archimate/value

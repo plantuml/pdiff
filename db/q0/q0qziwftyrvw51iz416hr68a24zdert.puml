@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:41.933Z",
     "url": "http://forum.plantuml.net/7688/text-rendered-in-math-is-not-scaled-by-scale-command",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ragaca-488-jaseru"
 }
 @startuml
 scale 5

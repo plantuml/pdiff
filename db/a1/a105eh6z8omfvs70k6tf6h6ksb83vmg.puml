@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.802Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=5354/sequence-participant-color-missing",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sibene-411-temuda"
 }
 @startuml
 participant Foo0 #Pink

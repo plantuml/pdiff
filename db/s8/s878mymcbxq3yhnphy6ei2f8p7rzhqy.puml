@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.765Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=5072/space-in-a-group-extends-group-to-left",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lexosu-001-fosesa"
 }
 @startuml
 !pragma teoz true

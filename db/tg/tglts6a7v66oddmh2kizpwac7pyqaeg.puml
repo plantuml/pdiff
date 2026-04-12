@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:46.208Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cabifa-050-xicubu"
 }
 @startuml
 skinparam useBetaStyle true

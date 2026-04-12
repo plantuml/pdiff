@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.166Z",
     "url": "https://forum.plantuml.net/16397/add-qualified-associations-to-class-diagrams?show=16642#c16642",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "puneje-797-zigipa"
 }
 @startuml
 !pragma svek_trace on

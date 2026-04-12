@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.198Z",
     "url": "https://forum.plantuml.net/15473/rectangles-corners-package-rectangles-supported-anymore",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "segaxo-945-dijevu"
 }
 @startuml
 skinparam rectangle<<RedContainer>> {

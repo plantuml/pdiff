@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:02.341Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "picosi-989-nugina"
 }
 @startuml
 class foo1 $tag1 {

@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:43.008Z",
     "url": "https://twitter.com/simonbrown/status/1377927953170976771",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cirole-802-zerimo"
 }
 @startuml
 skinparam actorStyle awesome

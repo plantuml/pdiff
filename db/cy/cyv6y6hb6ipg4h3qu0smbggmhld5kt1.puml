@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.259Z",
     "url": "https://forum.plantuml.net/16397/add-qualified-associations-to-class-diagrams?show=16642#c16642",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sapuxu-416-nobumi"
 }
 @startuml
 !pragma svek_trace on

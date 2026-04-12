@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.910Z",
     "url": "http://forum.plantuml.net/7265/how-can-i-hide-members-in-ascii-art-class-diagram?show=7273#a7273",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zapike-619-nezefe"
 }
 @startuml
 class A

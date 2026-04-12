@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.198Z",
     "url": "https://forum.plantuml.net/10509/senderless-create-message-object-lifeline-rather-create-object",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "racafo-711-medexi"
 }
 @startuml
 create a

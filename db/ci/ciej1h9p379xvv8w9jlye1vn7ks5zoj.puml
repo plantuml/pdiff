@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:01.470Z",
     "url": "https://github.com/plantuml/plantuml/issues/1269",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zoxida-302-ramoti"
 }
 @startuml
 skinparam {

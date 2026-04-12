@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:42.200Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cikuli-340-xarizu"
 }
 @startuml
 (*) --> "Something" as A1

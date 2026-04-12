@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:07.242Z",
     "url": "http://forum.plantuml.net/7618/component-diagram-labels-overlapping-with-nodes-sides",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "betejo-373-tigumu"
 }
 @startuml
 !pragma svek_trace on

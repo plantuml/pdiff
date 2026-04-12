@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.678Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rakico-934-letoba"
 }
 @startjcckit(800,600)
 data/curves = curve1 curve2 curve3

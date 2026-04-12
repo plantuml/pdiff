@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:07.350Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ticogi-784-mugari"
 }
 @startuml
 object toto1

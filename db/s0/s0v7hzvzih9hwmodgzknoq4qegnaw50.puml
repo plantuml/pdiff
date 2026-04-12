@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.531Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=6441/component-diagram-shifted-and-rounded-arrows",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cemaso-522-petoxo"
 }
 @startuml
 !pragma svek_trace on

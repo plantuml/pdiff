@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:01.110Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pecice-630-nusuxi"
 }
 @startuml
 title this <b>title</b> is <i>quite</i> <font size=20>long</font>\n and defined on several lines

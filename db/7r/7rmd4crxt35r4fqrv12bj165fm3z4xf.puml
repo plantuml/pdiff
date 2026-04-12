@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.266Z",
     "url": "https://forum.plantuml.net/9873/adding-notes-to-links-in-use-case-diagrams?show=12319#a12319",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kemeka-262-bezopa"
 }
 @startuml
 usecase uU1 as " "

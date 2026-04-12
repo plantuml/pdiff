@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.786Z",
     "url": "https://forum.plantuml.net/9774/conditional-drawing-of-box-participants-sequence-diagram?show=9802#c9802",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "delone-798-xixogi"
 }
 @startuml
 !$foo = { "company": "Skynet", "employees" : [

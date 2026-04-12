@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:40.391Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zegoco-246-lafafe"
 }
 @startuml
 state one {

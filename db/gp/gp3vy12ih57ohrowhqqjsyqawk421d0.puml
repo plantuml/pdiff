@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:08.125Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bizobo-440-cevixe"
 }
 @startuml
 class Alice [[http://www.google.fr{My Link}]]

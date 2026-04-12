@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.698Z",
     "url": "http://forum.plantuml.net/7329/state-diagrams-concurrent-color-customization-not-honored",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jijine-545-bododi"
 }
 @startuml
 skinparam StateBorderColor<<meblue>> blue

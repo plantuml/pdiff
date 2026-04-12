@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:34.690Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=5084/preprocessing-problem-with-overloaded-macors&show=5085#a5085",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bofuzo-889-tijebo"
 }
 @startuml
 skinparam class {

@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:29.306Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "modune-003-mazeso"
 }
 @startuml
 class foo1

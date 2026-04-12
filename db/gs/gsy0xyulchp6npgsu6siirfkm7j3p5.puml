@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:08.310Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xazato-392-fajupe"
 }
 @startuml
 participant dummy

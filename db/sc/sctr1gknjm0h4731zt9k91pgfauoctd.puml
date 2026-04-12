@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.978Z",
     "url": "http://forum.plantuml.net/8751/inconsistent-placements-legend-title-across-diagram-types",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dadana-399-cejive"
 }
 @startuml
 title my title

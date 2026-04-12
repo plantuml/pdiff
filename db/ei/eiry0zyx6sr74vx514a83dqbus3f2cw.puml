@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:04.517Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vapita-110-panibe"
 }
 @startuml
 class Object << general >>

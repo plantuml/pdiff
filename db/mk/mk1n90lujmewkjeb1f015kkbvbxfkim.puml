@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:35.347Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "goxobo-044-dapete"
 }
 @startuml
 Item001 "1" ..> "1" Type001 : has a

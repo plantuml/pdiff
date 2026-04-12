@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:42.365Z",
     "url": "http://forum.plantuml.net/6950/skinparam-collections-bordercolor-participantbordercolor",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nonexi-612-tetoba"
 }
 @startuml
 skinparam {

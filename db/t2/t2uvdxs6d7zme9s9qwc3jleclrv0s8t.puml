@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.718Z",
     "url": "https://forum.plantuml.net/6699/please-provide-macros-insert-current-number-total-number-pages?show=10976#c10976",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pajevu-611-firolo"
 }
 @startuml
 footer This is %page% of %lastpage%

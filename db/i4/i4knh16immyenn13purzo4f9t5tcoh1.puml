@@ -4,7 +4,8 @@
     "when": "2025-07-17T18:50:11.373Z",
     "url": "https://github.com/plantuml/plantuml/issues/1109",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kucoge-445-rijoli"
 }
 @startuml
 hide stereotype

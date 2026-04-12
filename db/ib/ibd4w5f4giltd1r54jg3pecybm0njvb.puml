@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:30.520Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mipaxe-230-moriku"
 }
 @startuml
 !define SHOW_TYPE(x) my##x

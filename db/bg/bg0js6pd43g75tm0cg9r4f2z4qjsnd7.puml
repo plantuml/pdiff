@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.086Z",
     "url": "https://github.com/plantuml/plantuml/issues/1397#issuecomment-1519847197",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vudede-952-bigiti"
 }
 @startuml
 class c0

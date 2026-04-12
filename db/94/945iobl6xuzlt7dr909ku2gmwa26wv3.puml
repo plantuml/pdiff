@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.598Z",
     "url": "https://github.com/plantuml/plantuml-stdlib/pull/18",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lelome-018-mepeji"
 }
 @startuml
     !include <elastic/common>

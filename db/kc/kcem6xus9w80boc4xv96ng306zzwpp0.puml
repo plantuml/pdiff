@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:32.852Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "secesi-669-cemoke"
 }
 @startuml
 package "test" {

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:22.154Z",
     "url": "https://forum.plantuml.net/14092/broken-diagram-with-nested-rectangles-and-remove-%40unlinked?show=14094#c14094",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mocago-298-cudose"
 }
 @startuml
 rectangle "==Outer 1" as o1 {

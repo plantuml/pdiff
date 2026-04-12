@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:22.090Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "goroxe-108-dicovi"
 }
 @startuml
 Dummy -> Alice : foo1

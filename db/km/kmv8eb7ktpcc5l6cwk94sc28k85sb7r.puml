@@ -4,7 +4,8 @@
     "when": "2025-11-24T19:24:25.541Z",
     "url": "https://github.com/plantuml/plantuml/issues/2418",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vufuki-279-peruco"
 }
 @startuml
 scale 1800 width

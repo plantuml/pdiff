@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:41.307Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "rodolu-866-figalu"
 }
 @startuml
     skinparam colorArrowSeparationSpace 2

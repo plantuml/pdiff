@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.398Z",
     "url": "https://forum.plantuml.net/10596/creole-in-sequence-diagram-participants",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "boriri-380-ropubi"
 }
 @startuml
 queue P1 as "<&wifi> MyTopic1\n\n[**key**: myKey1]" <<Kafka>>

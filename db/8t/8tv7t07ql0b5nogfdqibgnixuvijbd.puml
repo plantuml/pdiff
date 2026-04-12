@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.522Z",
     "url": "https://forum.plantuml.net/12469/package-background-transparent-package-default-background?show=12487#c12487",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zilaje-209-deteru"
 }
 @startuml
 skinparam backgroundcolor transparent

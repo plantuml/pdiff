@@ -4,7 +4,8 @@
     "when": "2024-08-28T16:43:33.549Z",
     "url": "https://github.com/plantuml/plantuml/issues/1550",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lamaxe-488-tejibi"
 }
 @startuml
 set separator .

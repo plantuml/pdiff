@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.029Z",
     "url": "https://forum.plantuml.net/11725/shadowing-issues-empty-stack-transparent-backgroundcolor",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nuxuxo-336-didovi"
 }
 @startuml
 skinparam BackgroundColor transparent

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.286Z",
     "url": "https://forum.plantuml.net/16397/add-qualified-associations-to-class-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "xipato-053-mugiso"
 }
 @startuml
 class top

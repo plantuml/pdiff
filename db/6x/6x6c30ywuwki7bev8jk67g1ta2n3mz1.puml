@@ -4,7 +4,8 @@
     "when": "2025-11-03T18:33:05.170Z",
     "url": "https://github.com/plantuml/plantuml/pull/2404",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fotomi-645-mafofa"
 }
 @startuml test
 start

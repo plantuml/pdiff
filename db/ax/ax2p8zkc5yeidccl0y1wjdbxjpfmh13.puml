@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.978Z",
     "url": "https://forum.plantuml.net/9972/component-diagrams-please-direction-token-corresponding",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "damube-622-luboma"
 }
 @startuml
     component a as a {

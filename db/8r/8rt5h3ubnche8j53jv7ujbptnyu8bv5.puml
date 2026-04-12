@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.510Z",
     "url": "https://forum.plantuml.net/16644/style-allow-all-style-for-json-object",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "modipe-580-midivi"
 }
 @startuml
 <style>

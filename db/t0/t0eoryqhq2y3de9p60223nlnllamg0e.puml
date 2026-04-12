@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.660Z",
     "url": "https://github.com/plantuml/plantuml/issues/1465#issuecomment-1597648143",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "ripose-762-nezifi"
 }
 @startuml
 binary "A" as a

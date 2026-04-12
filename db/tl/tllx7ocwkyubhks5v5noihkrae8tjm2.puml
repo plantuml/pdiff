@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:46.417Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jepuni-632-conuva"
 }
 @startuml
 rectangle "empty rectangle" <<foobar>> {

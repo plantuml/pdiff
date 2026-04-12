@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.434Z",
     "url": "https://forum.plantuml.net/11144/backward-for-while-endwhile",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tidelo-161-pimano"
 }
 @startuml
 while(a)is(b)

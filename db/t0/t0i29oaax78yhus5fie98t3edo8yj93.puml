@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.671Z",
     "url": "https://forum.plantuml.net/11192/json-structures-inside-a-function",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bicole-496-pokuxu"
 }
 @startuml
 !unquoted procedure $lookup($id)

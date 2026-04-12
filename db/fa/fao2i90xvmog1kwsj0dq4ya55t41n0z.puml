@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:05.864Z",
     "url": "https://forum.plantuml.net/18157/last-label-on-last-elseif-branch-does-not-get-rendered",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kopifi-968-todalu"
 }
 @startuml
 start

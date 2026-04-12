@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:05.780Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zukoza-805-kolaze"
 }
 @startuml
 hide empty members

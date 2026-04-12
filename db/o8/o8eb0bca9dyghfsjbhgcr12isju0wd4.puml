@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.510Z",
     "url": "https://forum.plantuml.net/17898/activity-diagrama-skinparam-conditionstyle-insidediamond?show=17900#a17900",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "nebaxi-210-foratu"
 }
 @startuml
 skinparam style strictuml

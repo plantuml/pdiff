@@ -4,7 +4,8 @@
     "when": "2025-05-14T17:43:58.749Z",
     "url": "https://github.com/plantuml/plantuml/issues/1474",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "tocojo-855-laletu"
 }
 @startuml
 card "Foo%n()x%n()----%n()* y" as Foo {

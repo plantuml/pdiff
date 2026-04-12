@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.974Z",
     "url": "http://forum.plantuml.net/8491/skinparam-from-command-line-breaks-salt-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "baboxu-045-dekiko"
 }
 @startsalt
 skinparam fixCircleLabelOverlapping true

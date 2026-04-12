@@ -4,7 +4,8 @@
     "when": "2025-04-07T15:00:17.509Z",
     "url": "https://github.com/plantuml/plantuml/pull/2139",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "befefa-789-nujuci"
 }
 @startuml
 :begin;

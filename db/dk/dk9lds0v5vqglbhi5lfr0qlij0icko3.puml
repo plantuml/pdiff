@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:03.117Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vorede-897-jopibo"
 }
 @startuml
 participant Bob

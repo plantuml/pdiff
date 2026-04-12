@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:31.950Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "karuje-753-poxene"
 }
 @startuml
 participant "foo\nbar1" as foobar1

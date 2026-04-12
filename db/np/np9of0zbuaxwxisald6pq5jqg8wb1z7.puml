@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:38.895Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "benime-905-makemu"
 }
 @startuml
 A *--> B : yes

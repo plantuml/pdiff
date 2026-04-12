@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.170Z",
     "url": "https://github.com/plantuml/plantuml/issues/337",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jucedu-187-zocene"
 }
 @startuml
     namespace issues {

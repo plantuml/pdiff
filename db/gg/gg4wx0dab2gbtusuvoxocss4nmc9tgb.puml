@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:07.727Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bebima-232-datoxe"
 }
 @startuml
 [*] --> Main_Libre : print ("aaaaaa")

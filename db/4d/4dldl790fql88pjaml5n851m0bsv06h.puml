@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.478Z",
     "url": "https://forum.plantuml.net/16797/change-state-diagram-arrowhead-color",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "munixo-575-pitesu"
 }
 @startuml
 <style>

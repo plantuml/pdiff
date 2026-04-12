@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:39.968Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zimaso-905-gefazo"
 }
 @startuml
 (*)  --> "check input"

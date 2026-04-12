@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.578Z",
     "url": "https://forum.plantuml.net/10195/cannot-combine-skinparam-wrapwidth-with-icons",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jekaze-652-cukote"
 }
 @startuml
 skinparam wrapWidth 200

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:33.954Z",
     "url": "http://plantuml.sourceforge.net/qa/?qa=6493/missing-background-color-of-databases-after-latex-export",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gozibo-366-gocapi"
 }
 @startuml
 database foo1 #blue

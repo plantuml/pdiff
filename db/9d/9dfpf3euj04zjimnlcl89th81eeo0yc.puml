@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.658Z",
     "url": "https://forum.plantuml.net/1361/message-to-itself-on-left-side?show=13828#a13828",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "dilodu-460-zasoru"
 }
 @startuml
 Bob -> Alice : hello

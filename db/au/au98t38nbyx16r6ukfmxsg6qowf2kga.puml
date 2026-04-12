@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.962Z",
     "url": "http://forum.plantuml.net/6782/openiconic-icons-inside-labeled-hyperlinks-sequence-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bexano-056-bujore"
 }
 @startuml
 Actor --> Participant: Message1 [[http://www.google.com this <&link-intact> is]]

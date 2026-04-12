@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.156Z",
     "url": "http://forum.plantuml.net/9525/archimate-using-a-node-for-technology-device",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tezape-164-mocolo"
 }
 @startuml
 skinparam rectangle {

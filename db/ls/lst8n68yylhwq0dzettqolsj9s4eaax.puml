@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:34.516Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mavika-930-dupice"
 }
 @startuml
 usecase foo #orange;line:blue

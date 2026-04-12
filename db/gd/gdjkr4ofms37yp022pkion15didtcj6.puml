@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:07.644Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "jeceto-851-fijeca"
 }
 @startuml
 class dummy

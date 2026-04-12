@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.126Z",
     "url": "https://forum.plantuml.net/11606/full-opacity-alpha-compositing-support-for-svg-and-png",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vacuxu-934-faraje"
 }
 @startuml
 skinparam BackgroundColor transparent

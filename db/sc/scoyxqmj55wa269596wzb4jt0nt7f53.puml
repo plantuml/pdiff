@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:44.965Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "tofase-352-fejeli"
 }
 @startuml
 skinparam CircledCharacterFontSize 18

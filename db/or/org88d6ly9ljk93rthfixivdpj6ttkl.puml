@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:40.136Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vubofa-697-posije"
 }
 @startuml
 Bob -> Alice : hello

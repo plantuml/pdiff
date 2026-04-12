@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.494Z",
     "url": "https://forum.plantuml.net/16303/why-does-plus-change-from-name-of-map-key-to-comment",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "sofuvo-593-pizoza"
 }
 @startuml
 map User {

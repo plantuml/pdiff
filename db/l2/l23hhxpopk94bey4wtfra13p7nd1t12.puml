@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:33.590Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kisubi-231-jecotu"
 }
 @startregex
 (A[B])(C)

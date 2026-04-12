@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:01.186Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "bokiru-943-dabupa"
 }
 @startuml
 cl3 o-left-> cl3Left 

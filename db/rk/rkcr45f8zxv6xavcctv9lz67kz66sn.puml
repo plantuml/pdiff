@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:43.941Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "naxose-940-zapili"
 }
 @startuml
 package foo1 <<Node>> {

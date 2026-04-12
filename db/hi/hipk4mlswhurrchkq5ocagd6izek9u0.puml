@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.630Z",
     "url": "https://forum.plantuml.net/10660/request-collections-type-in-deployment-diagrams",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pagimo-647-lupexu"
 }
 @startuml
 database data

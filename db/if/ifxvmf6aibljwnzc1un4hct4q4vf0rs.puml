@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:30.695Z",
     "url": "http://wiki.plantuml.net/site/plantumlshell",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cafizo-022-toziti"
 }
 @startuml
 '!preprocessorV2

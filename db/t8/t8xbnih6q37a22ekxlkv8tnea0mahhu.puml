@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:45.938Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zupese-497-risujo"
 }
 @startuml
 Bob -> Test1 : Test1

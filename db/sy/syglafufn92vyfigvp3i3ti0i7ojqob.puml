@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:45.610Z",
     "url": "http://forum.plantuml.net/7831/rendering-plantuml-legends-as-svg-drops-colors",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "pasuli-083-dugilu"
 }
 @startuml
 Bob -> Alice : hello

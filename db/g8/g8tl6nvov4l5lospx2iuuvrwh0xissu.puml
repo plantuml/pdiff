@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:07.395Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "macugu-233-pusude"
 }
 @startuml
 artifact foo1 <<Foo>>

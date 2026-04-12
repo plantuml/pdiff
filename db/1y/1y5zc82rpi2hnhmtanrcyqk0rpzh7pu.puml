@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:19.842Z",
     "url": "https://github.com/plantuml/plantuml/issues/368",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vojazo-573-biroka"
 }
 @startuml
 class "Packstaftion" as PackSt

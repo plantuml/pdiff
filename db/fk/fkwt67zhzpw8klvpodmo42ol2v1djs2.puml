@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:06.310Z",
     "url": "https://forum.plantuml.net/13424/simple-default-value-for-undefined-variables?show=13426#c13426",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "mumiza-061-lomele"
 }
 @startuml
 Alice -> Bob : 1. $name should be empty

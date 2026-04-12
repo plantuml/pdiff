@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-05-30T20:48:19.590Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "doneri-696-xopuva"
 }
 @startuml
 Bob->Bob: coucou2

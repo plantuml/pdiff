@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:43.665Z",
     "url": "https://github.com/plantuml/plantuml/issues/1575",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gajaku-103-tudage"
 }
 @startuml
 !pragma teoz true

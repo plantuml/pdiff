@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:39.593Z",
     "url": "http://forum.plantuml.net/7675/teoz-box-around-participants",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zofiru-517-mugeku"
 }
 @startuml
 !pragma teoz true

@@ -4,7 +4,8 @@
     "when": "2024-10-25T11:14:05.567Z",
     "url": "https://github.com/plantuml/plantuml/issues/1484",
     "user": "The-Lum"
-  }
+  },
+  "humhash": "linipu-276-nijiro"
 }
 @startuml
 state S {

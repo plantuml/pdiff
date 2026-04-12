@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:21.430Z",
     "url": "https://forum.plantuml.net/16398/structs-do-not-function-properly-within-a-namespace?show=17286#c17286",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zavera-359-zerili"
 }
 @startuml
 namespace Namespace {

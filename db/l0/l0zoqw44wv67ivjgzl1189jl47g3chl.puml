@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-03T18:59:33.562Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "zorago-513-zoxaru"
 }
 @startuml
 title Test State Machine

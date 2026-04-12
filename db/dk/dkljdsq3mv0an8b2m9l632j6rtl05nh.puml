@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:03.147Z",
     "url": "https://github.com/plantuml/plantuml/issues/434",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "lafuki-422-jokase"
 }
 @startyaml
 # hash is a named-tuple structure

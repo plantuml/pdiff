@@ -4,7 +4,8 @@
     "when": "2024-06-01T09:03:02.489Z",
     "url": "https://forum.plantuml.net/16899/how-to-change-font-size-of-package-name",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "vanido-730-taxuda"
 }
 @startuml
 skinparam classFontSize 20

@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.165Z",
     "url": "http://forum.plantuml.net/8652/cutting-off-component-diagram-interfaces",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "cidare-986-bujuxu"
 }
 @startuml
 DataAccess - [First Component] 

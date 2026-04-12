@@ -4,7 +4,8 @@
     "when": "2024-06-04T17:28:44.830Z",
     "url": "https://forum.plantuml.net/16781/allow-special-sequence-management-special-sequence-symbol",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gukocu-165-zoveni"
 }
 @startebnf
 (* Example from §8.1 ISO-EBNF *)

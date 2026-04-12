@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.962Z",
     "url": "https://forum.plantuml.net/9638/incoming-message-bug-in-txt",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kufopo-969-zukata"
 }
 @startuml
 [-> Bob : hello

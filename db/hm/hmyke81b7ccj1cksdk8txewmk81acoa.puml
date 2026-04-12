@@ -4,7 +4,8 @@
     "when": "2024-06-03T18:59:29.754Z",
     "url": "https://forum.plantuml.net/14554/style-state-allow-fontcolor-style-on-state",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "fakonu-974-voluke"
 }
 @startuml
 <style>

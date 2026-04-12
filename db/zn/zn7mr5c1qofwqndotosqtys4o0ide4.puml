@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-04T17:28:47.066Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "gadipa-517-nujoso"
 }
 @startuml
 'all sprites in a category would be included in an all.puml file for that category

@@ -4,7 +4,8 @@
     "when": "2024-05-30T20:48:20.654Z",
     "url": "https://forum.plantuml.net/13945/extend-wbs-syntax-to-allow-multiline-nodes",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "kubozi-659-loviki"
 }
 @startwbs
 * <&flag>Debian

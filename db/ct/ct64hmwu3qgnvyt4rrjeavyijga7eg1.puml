@@ -3,7 +3,8 @@
   "insertion": {
     "when": "2024-06-01T09:03:02.047Z",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "muneno-314-sejeco"
 }
 @startuml
 (*) -->"GoogleNode [[http://google.com]]"

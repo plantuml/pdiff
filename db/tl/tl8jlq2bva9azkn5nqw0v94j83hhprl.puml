@@ -4,7 +4,8 @@
     "when": "2025-06-11T17:10:47.480Z",
     "url": "https://github.com/plantuml/plantuml/pull/2229",
     "user": "plantuml@gmail.com"
-  }
+  },
+  "humhash": "medabu-633-pufeve"
 }
 @startuml
 scale 5
