@@ -67,4 +67,29 @@ class HumHashTest {
 		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("havicu-123-terazo"));
 	}
 
+	@Test
+	void testToValueAllZeros() {
+		final HumHash humHash = HumHash.fromValue("cacaca-000-cacaca");
+		assertEquals("cacaca-000-cacaca", humHash.toValue());
+	}
+
+	@Test
+	void testToValueMaxValue() {
+		final HumHash humHash = HumHash.fromValue("zuzuzu-999-zuzuzu");
+		assertEquals("zuzuzu-999-zuzuzu", humHash.toValue());
+	}
+
+	@Test
+	void testRoundTrip() {
+		final String value = "bavicu-123-terazo";
+		assertEquals(value, HumHash.fromValue(value).toValue());
+	}
+
+	@Test
+	void testRoundTripVariousValues() {
+		final String[] values = { "cacace-001-cabace", "zubeda-500-kidofu", "lusami-042-novexu" };
+		for (final String value : values)
+			assertEquals(value, HumHash.fromValue(value).toValue());
+	}
+
 }

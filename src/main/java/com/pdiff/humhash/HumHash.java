@@ -35,4 +35,26 @@ public class HumHash {
 	public long getHash() {
 		return hash;
 	}
+
+	public String toValue() {
+		long remaining = hash;
+
+		final String s6 = Syllabex.toSyllable((int) (remaining % 85));
+		remaining /= 85;
+		final String s5 = Syllabex.toSyllable((int) (remaining % 85));
+		remaining /= 85;
+		final String s4 = Syllabex.toSyllable((int) (remaining % 85));
+		remaining /= 85;
+
+		final int number = (int) (remaining % 1000);
+		remaining /= 1000;
+
+		final String s3 = Syllabex.toSyllable((int) (remaining % 85));
+		remaining /= 85;
+		final String s2 = Syllabex.toSyllable((int) (remaining % 85));
+		remaining /= 85;
+		final String s1 = Syllabex.toSyllable((int) (remaining % 85));
+
+		return s1 + s2 + s3 + "-" + String.format("%03d", number) + "-" + s4 + s5 + s6;
+	}
 }
