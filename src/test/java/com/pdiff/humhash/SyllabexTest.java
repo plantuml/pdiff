@@ -46,4 +46,40 @@ class SyllabexTest {
 		assertThrows(IllegalArgumentException.class, () -> Syllabex.toInt("cy"));
 	}
 
+	@Test
+	void testToSyllableFirst() {
+		assertEquals("ca", Syllabex.toSyllable(0));
+	}
+
+	@Test
+	void testToSyllableSecond() {
+		assertEquals("ce", Syllabex.toSyllable(1));
+	}
+
+	@Test
+	void testToSyllableLast() {
+		assertEquals("zu", Syllabex.toSyllable(84));
+	}
+
+	@Test
+	void testToSyllableSecondConsonant() {
+		assertEquals("ba", Syllabex.toSyllable(5));
+	}
+
+	@Test
+	void testToSyllableNegative() {
+		assertThrows(IllegalArgumentException.class, () -> Syllabex.toSyllable(-1));
+	}
+
+	@Test
+	void testToSyllableTooLarge() {
+		assertThrows(IllegalArgumentException.class, () -> Syllabex.toSyllable(85));
+	}
+
+	@Test
+	void testRoundTrip() {
+		for (int i = 0; i < 85; i++)
+			assertEquals(i, Syllabex.toInt(Syllabex.toSyllable(i)));
+	}
+
 }

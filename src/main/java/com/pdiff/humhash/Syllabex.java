@@ -2,9 +2,6 @@ package com.pdiff.humhash;
 
 public class Syllabex {
 	
-	// Consonant = c, b, d, f, g, j, k, l, m, n, p, r, s, t, v, x, z
-	// Vowel = a, e, i, o, u
-
 	private static final String CONSONANTS = "cbdfgjklmnprstvxz";
 	private static final String VOWELS = "aeiou";
 
@@ -16,5 +13,12 @@ public class Syllabex {
 		return consonant * VOWELS.length() + vowel;
 	}
 
+	public static String toSyllable(int value) {
+		if (value < 0 || value >= CONSONANTS.length() * VOWELS.length())
+			throw new IllegalArgumentException("Invalid value: " + value);
+		final char consonant = CONSONANTS.charAt(value / VOWELS.length());
+		final char vowel = VOWELS.charAt(value % VOWELS.length());
+		return "" + consonant + vowel;
+	}
 
 }
