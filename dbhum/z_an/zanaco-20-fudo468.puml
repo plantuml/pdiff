@@ -1,0 +1,31 @@
+{
+  "sha1": "bot7o69nkoi52nko70ifgjjbsus2yq3",
+  "insertion": {
+    "when": "2024-11-19T12:22:17.382Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1226",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "zanaco-20-fudo468"
+}
+@startnwdiag
+<style>
+root {
+  BackGroundColor palegreen
+  LineThickness 5
+  LineColor red
+}
+</style>
+
+nwdiag {
+  network N {
+      w1;
+      w2;
+  }
+
+    group {
+    description = "long group label";
+    w1;
+    w2;
+  }
+}
+@endnwdiag

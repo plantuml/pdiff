@@ -1,0 +1,12 @@
+{
+  "sha1": "qaoy6bhfub7h090ujwfxa6qtzhhd168",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.194Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "fegafi-82-xiri255"
+}
+@startuml
+class javax.sound.sampled.AudioFormat.Encoding
+class javax.sound.sampled.AudioFormat
+@enduml

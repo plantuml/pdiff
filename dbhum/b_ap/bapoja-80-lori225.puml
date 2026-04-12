@@ -1,0 +1,14 @@
+{
+  "sha1": "jbd9cd8ceaxovnl5u6g49r687axrm62",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.691Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "bapoja-80-lori225"
+}
+@startuml
+'(*) --> ===B1===
+[*] --> ===B1===
+===B1=== --> Independant
+===B1=== --> Etudiant
+@enduml

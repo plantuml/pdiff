@@ -1,0 +1,13 @@
+{
+  "sha1": "q9jxwm01yt58b2kgxzo0phx1ekk9mob",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.168Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "mepaxe-79-lima141"
+}
+@startuml
+!pragma teoz true
+Alice -> Bob : hello
+& Bob -> Charlie : hi
+@enduml

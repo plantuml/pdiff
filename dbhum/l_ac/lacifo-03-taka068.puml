@@ -1,0 +1,13 @@
+{
+  "sha1": "tro1hw1q8fstgu8s0mrfshmxq9rue1e",
+  "insertion": {
+    "when": "2026-01-16T18:16:52.090Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2387",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "lacifo-03-taka068"
+}
+@startuml
+repeat <<#green>>
+repeat while (ok)
+@enduml

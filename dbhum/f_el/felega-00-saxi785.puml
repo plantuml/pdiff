@@ -1,0 +1,18 @@
+{
+  "sha1": "f1z3sapzi00bxwp596s5kfhx7pjx3hp",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.431Z",
+    "url": "https://forum.plantuml.net/12153/cant-use-repeat-with-swimlanes",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "felega-00-saxi785"
+}
+@startuml
+|SW1|
+start
+repeat :R1;
+repeat while (R1?)
+:R2;
+|SW2|
+:R3;
+@enduml

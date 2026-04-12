@@ -87,7 +87,7 @@ public class DbFileBeforeRun extends DbFile {
 
 	private static String getOtherLink(DbFileBeforeRun other) {
 		final String name = other.getFileName().replace(".puml", ".html");
-		return "../" + name.substring(0, 2) + "/" + name;
+		return "../" + other.getSubDirName() + "/" + name;
 	}
 
 	public void createStandaloneHtml(int minimalPrefix, DbFileBeforeRun prev, DbFileBeforeRun next) throws IOException {

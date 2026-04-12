@@ -1,0 +1,19 @@
+{
+  "sha1": "m9ap55e0con9nd37dwkdtfgjpb2zbv8",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.746Z",
+    "url": "https://forum.plantuml.net/11522/activity-diagram-beta-increase-space-between-shape-arrows",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "bacosa-90-tovo155"
+}
+@startuml
+skinparam Backgroundcolor transparent
+start
+  repeat
+    :Listen user; <<input>>
+    :Prepare
+    answer; <<save>>
+    :Reply user; <<output>>
+  repeat while (forever)
+@enduml

@@ -1,0 +1,33 @@
+{
+  "sha1": "nscf6e3m8wt0o3xqiet56n3pykrrvix",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.686Z",
+    "url": "https://forum.plantuml.net/12056/ability-to-add-a-label-to-a-group-in-nwdiag",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "cagufu-48-kori236"
+}
+@startnwdiag
+nwdiag {
+  // define group at outside network definitions
+  group {
+    color = "#FF7777";
+    description = "long group label";
+    'shape = node;
+
+    web01;
+    web02;
+    db01;
+  }
+
+  network dmz {
+    web01;
+    web02;
+  }
+  network internal {
+    web01;
+    web02;
+    db01 [address = ".101", shape = database];
+  }
+}
+@endnwdiag

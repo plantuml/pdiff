@@ -1,0 +1,21 @@
+{
+  "sha1": "dkc2van0jw9yasqeq8d6d32w37ri3of",
+  "insertion": {
+    "when": "2024-06-01T09:03:03.124Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "noleko-05-maju508"
+}
+@startmindmap
+
+<style>
+node {
+    HorizontalAlignment right
+}
+</style>
+* Hi
+** some
+** short but nice
+** ideas
+
+@endmindmap

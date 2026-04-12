@@ -19,3 +19,4 @@ svek.*
 /pages
 *.patch
 python/output
+runs.old

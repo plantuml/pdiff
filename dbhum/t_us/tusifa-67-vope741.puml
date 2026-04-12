@@ -1,0 +1,16 @@
+{
+  "sha1": "qews0thcuajjhwxxl4uei0yjh3fnmgv",
+  "insertion": {
+    "when": "2025-01-23T23:13:50.749Z",
+    "url": "https://plantuml.com/newline",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "tusifa-67-vope741"
+}
+@startuml
+!function $message()
+  !return "Alice -> Bob : Hello" + %breakline() + "Bob -> Alice : Hi!"
+!endfunction
+
+$message()
+@enduml

@@ -1,0 +1,35 @@
+{
+  "sha1": "a93qnvyqmsv5zyt01kc2mg6ilwsabve",
+  "insertion": {
+    "when": "2024-06-01T09:03:08.522Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1538",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "bufice-81-cemu957"
+}
+@startuml
+<style>
+.color {
+  FontColor red
+}
+</style>
+
+
+title <<save>> SDL + <<color>>
+:other action1; <<save>>
+:other action2; <<save>>
+:other action3; <<save>> <<color>>
+while (check filesize ?) is (not empty)
+  :read file1; <<save>> <<color>>
+  backward:log context2; <<save>> <<color>>
+endwhile (empty)
+:close file;
+
+
+while (check filesize ?) is (not empty)
+  :read file3; <<save>> <<color>>
+  backward:log
+context4; <<save>> <<color>>
+endwhile (empty)
+:close file;
+@enduml

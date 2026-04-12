@@ -1,0 +1,19 @@
+{
+  "sha1": "mswbn4wnypdf1vkd3otxoesfzwt0bvd",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.644Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "vamore-38-gaca939"
+}
+@startuml
+  [*] --> NewValueSelection
+  NewValueSelection --> NewValuePreview : EvNewValue
+  NewValuePreview --> NewValueSelection : EvNewValueRejected
+  NewValuePreview --> NewValueSelection : EvNewValueSaved
+  
+  state NewValuePreview {
+     State1 -> State2
+  }
+
+@enduml

@@ -1,0 +1,21 @@
+{
+  "sha1": "9ocknrwfvwrh4yojcu7prymsked8g16",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.734Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "gijagu-06-juba750"
+}
+@startuml
+start
+    repeat
+        :bonjour;
+    repeat while() is (True)
+    -> False;
+    fork
+        :activity;
+    fork again
+        :act;
+    end fork
+stop
+@enduml

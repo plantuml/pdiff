@@ -1,0 +1,11 @@
+{
+  "sha1": "31lia2u1c0np1kdbx2h5h0ggv7bpss1",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.158Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "dobujo-29-rifo090"
+}
+@startuml
+stdlib aws
+@enduml

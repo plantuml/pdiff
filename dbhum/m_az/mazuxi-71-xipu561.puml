@@ -1,0 +1,29 @@
+{
+  "sha1": "mhqdl535eu472pa1azazlmmn91w0u21",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.333Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "mazuxi-71-xipu561"
+}
+@startuml
+    start
+    if(foo) <<#green>>
+    :...;
+    elseif(bar) <<#red>>
+    :...;
+    else
+    :..;
+    endif
+    stop
+
+    start
+    if(foo)
+    :...;
+    elseif(bar) <<#red>>
+    :...;
+    else
+    :..;
+    endif
+    stop
+@enduml

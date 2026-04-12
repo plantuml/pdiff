@@ -15,55 +15,57 @@ import com.google.gson.JsonObject;
 
 public class DbCollection {
 
-	private final Path root;
+	private final Path rootHum;
 
 	public DbCollection() throws IOException {
-		this.root = Path.of("db");
-		Files.createDirectories(this.root);
-	}
-
-	private Path getActualPath(String sha1) throws IOException {
-		final Path tmp = root.resolve(sha1.substring(0, 2));
-		Files.createDirectories(tmp);
-		final Path out = tmp.resolve(sha1 + ".puml");
-		return out;
-
+		this.rootHum = Path.of("dbhum");
+		Files.createDirectories(this.rootHum);
 	}
 
 	public void insertSingleFile(String user, DbFileInsert dbFile) throws IOException {
-		final String sha1 = dbFile.getSha1();
-		final Path actualPath = getActualPath(sha1);
+		final String humhash = dbFile.getHumHash().toValue();
+		final Path actualPath = getHumPath(humhash);
 
 		if (Files.exists(actualPath) == false)
 			dbFile.exportTo(user, actualPath);
 
 	}
 
+	private Path getHumPath(String humhash) throws IOException {
+		// Legacy from the past... Remember August 1981 and MS-DOS 1.0 ?
+		// That's why we add an underscore here: to avoid colliding with 
+		// reserved device names like CON, PRN, or NUL.
+		final Path tmp = rootHum.resolve(humhash.substring(0, 1) + "_" + humhash.substring(1, 3));
+		Files.createDirectories(tmp);
+		return tmp.resolve(humhash + ".puml");
+	}
+
 	public String rewriteMe(DbFile file) throws IOException {
 		final String sha1 = file.getContentSha1();
-		final Path actualPath = getActualPath(sha1);
+		final String humhash = file.getHumHash().toValue();
 		final JsonObject jsonFromDb = file.getJsonFromDbClone();
 		jsonFromDb.addProperty("sha1", sha1);
+		jsonFromDb.addProperty("humhash", humhash);
 
 		final Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
 		final List<String> list2 = List.of(gson.toJson(jsonFromDb));
-		final Stream<String> combinedStream = Stream.concat(list2.stream(), file.getContent().stream());
+		final List<String> allLines = Stream.concat(list2.stream(), file.getContent().stream()).collect(Collectors.toList());
 
-		Files.write(actualPath, combinedStream.collect(Collectors.toList()));
-		return sha1;
+		Files.write(getHumPath(humhash), allLines);
+		return humhash;
 
 	}
 
 	public int count() throws IOException {
 		final AtomicInteger count = new AtomicInteger();
-		try (Stream<Path> paths = Files.walk(root)) {
+		try (Stream<Path> paths = Files.walk(rootHum)) {
 			paths.filter(Files::isRegularFile).forEach(p -> count.incrementAndGet());
 		}
 		return count.get();
 	}
 
 	public Stream<Path> pathStreams() throws IOException {
-		return Files.walk(root) //
+		return Files.walk(rootHum) //
 				.parallel() //
 				.filter(Files::isRegularFile) //
 				.filter(p -> p.toString().endsWith(".puml")) //

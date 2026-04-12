@@ -1,0 +1,16 @@
+{
+  "sha1": "1bju6hz6527nav3n0qhwbex1qomgz0t",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.626Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "gimopu-56-rete904"
+}
+@startuml
+
+!pragma layout smetana
+state Alice
+Alice -> Bob
+Bob --> Alice
+
+@enduml

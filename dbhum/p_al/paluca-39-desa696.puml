@@ -1,0 +1,13 @@
+{
+  "sha1": "hsk0cvj695q0uuwhqfahidgwjzye82c",
+  "insertion": {
+    "when": "2024-06-03T18:59:29.980Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "paluca-39-desa696"
+}
+@startuml
+skinparam dpi 300
+class foo
+test ()- foo
+@enduml

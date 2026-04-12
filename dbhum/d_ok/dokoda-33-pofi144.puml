@@ -1,0 +1,24 @@
+{
+  "sha1": "e8p6kct79g9tn2jdfhfuhy8no45hbo2",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.306Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "dokoda-33-pofi144"
+}
+@startuml
+split
+:CONTINUE; <<input>>
+
+split again
+:ABORT; <<input>>
+if (x) then (doit)
+:doA; <<ouput>>
+else
+:doB; <<output>>
+endif
+detach
+
+end split
+stop
+@enduml

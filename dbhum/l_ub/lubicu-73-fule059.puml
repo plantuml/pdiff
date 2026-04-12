@@ -1,0 +1,31 @@
+{
+  "sha1": "ccfo1h0cje7j03w7hrmfxzojm06ikau",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.046Z",
+    "url": "https://forum.plantuml.net/12124/order-mismatch-embedded-diagram-creole-deployment-diagram",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "lubicu-73-fule059"
+}
+@startuml
+rectangle r as "
+Text as top
+==
+{{salt
+{{T
++ <&folder>Folder1
+}
+}
+}}
+"
+note left of r
+Text as top
+==
+{{salt
+{{T
++ <&folder>Folder1
+}
+}
+}}
+end note
+@enduml

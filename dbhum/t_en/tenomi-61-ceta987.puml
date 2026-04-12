@@ -1,0 +1,12 @@
+{
+  "sha1": "c9a6iiq8h1ylef2c9jk9ofraxq12m4u",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.094Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "tenomi-61-ceta987"
+}
+@startuml
+class jenkins
+jenkins <-[#green]-> redmine : "" "dokumentacija"
+@enduml

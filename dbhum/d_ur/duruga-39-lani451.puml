@@ -1,0 +1,13 @@
+{
+  "sha1": "rysrga3mjs5qwfmkzdbs187fv8z8tjq",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.439Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "duruga-39-lani451"
+}
+@startuml
+class A
+A<-B
+C<-B
+@enduml

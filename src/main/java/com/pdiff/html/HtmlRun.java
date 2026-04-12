@@ -107,7 +107,7 @@ public class HtmlRun {
 					final String name = file.getFileName(minimalPrefix).replace(".puml", "");
 					println(sb, "<tr id=" + name + ">");
 					println(sb, "<td>");
-					final String link = runcode + "/" + file.getFileName().substring(0, 2) + "/"
+					final String link = runcode + "/" + file.getSubDirName() + "/"
 							+ file.getFileName().replace(".puml", ".html");
 					print(sb, "<a href='runs/" + link + "'>" + name + "</a>");
 					println(sb, "</td>");

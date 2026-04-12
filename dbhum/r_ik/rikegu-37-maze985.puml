@@ -1,0 +1,14 @@
+{
+  "sha1": "9x3d5n3kf5409bjzlup86rch24b6hbs",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.778Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "rikegu-37-maze985"
+}
+@startuml
+fork
+-> Comment for the line after the fork;
+:Empty;
+forkend
+@enduml

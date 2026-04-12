@@ -1,0 +1,13 @@
+{
+  "sha1": "creb7v4elocgeadsf0cbxm7gt391x58",
+  "insertion": {
+    "when": "2026-03-01T21:48:16.753Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "dijuma-39-pole760"
+}
+@startchart
+h-axis [Q1, Q2, Q3, Q4]
+v-axis 0 --> 100 grid
+bar [45, 62, 58, 70] #3498db
+@endchart

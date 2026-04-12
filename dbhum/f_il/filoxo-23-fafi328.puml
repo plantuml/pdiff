@@ -1,0 +1,34 @@
+{
+  "sha1": "bvwveqzpqb2v2uhp5q90a7xbxqb0qjs",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.170Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "filoxo-23-fafi328"
+}
+@startuml
+
+skin rose
+
+<style>
+visibilityIcon {
+  protected {
+    LineColor DarkGoldenRod
+    BackgroundColor DarkGoldenRod
+  }
+}
+</style>
+
+
+class  Doer    {
+--
+{method} + execute
+{method} # execute_for_all_children
+}
+class  MetaDataScanner {
+--
+{method} # execute_Class
+{method} # execute_Footer
+}
+Doer <|-- MetaDataScanner
+@enduml

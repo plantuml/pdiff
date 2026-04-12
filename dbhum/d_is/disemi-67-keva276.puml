@@ -1,0 +1,14 @@
+{
+  "sha1": "vr7xi1imuo3eoafxqclsqzv24ubbhr",
+  "insertion": {
+    "when": "2024-06-04T17:28:46.901Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "disemi-67-keva276"
+}
+@startuml
+skinparam ActivityFontColor yellow
+skinparam ActivityBackgroundColor lightGreen
+start
+:too;
+@enduml

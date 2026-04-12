@@ -1,0 +1,18 @@
+{
+  "sha1": "7xzt19ww3rvnpl3kag7rg6og8s9nyl4",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.206Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "jiliba-03-lapi286"
+}
+@startuml
+IT++
+
+IT->IT1 : coucou1 
+IT1++
+IT1->IT1 : ok
+IT1->IT : fin
+IT1--
+
+@enduml

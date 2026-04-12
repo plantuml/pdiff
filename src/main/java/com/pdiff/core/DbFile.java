@@ -7,6 +7,7 @@ import java.util.List;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.pdiff.humhash.HumHash;
 
 public class DbFile implements Comparable<DbFile> {
 
@@ -33,6 +34,10 @@ public class DbFile implements Comparable<DbFile> {
 
 	final public String getFileName() {
 		return pumlPath.getFileName().toString();
+	}
+
+	final public String getSubDirName() {
+		return pumlPath.getParent().getFileName().toString();
 	}
 
 	final public String getJavaScriptPngPath() {
@@ -64,8 +69,16 @@ public class DbFile implements Comparable<DbFile> {
 		return getContentSha1().equals(getJsonSha1());
 	}
 
+	final public boolean hasHumHash() {
+		return jsonFromDb.has("humhash");
+	}
+
 	final public String getContentSha1() throws IOException {
 		return SHA1.calculateSHA1(getContent());
+	}
+
+	final public HumHash getHumHash() throws IOException {
+		return HumHash.fromContent(getContent());
 	}
 
 	final public List<String> getContent() throws IOException {

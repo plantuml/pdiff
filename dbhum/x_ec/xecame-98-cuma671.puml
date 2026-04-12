@@ -1,0 +1,16 @@
+{
+  "sha1": "msrelwh48cdecs2kkt9rd81pzndxmoe",
+  "insertion": {
+    "when": "2024-06-03T18:59:35.616Z",
+    "url": "https://github.com/plantuml/plantuml/issues/58",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "xecame-98-cuma671"
+}
+@startuml
+participant Bob <<Male>>
+participant Alice <<Female>>
+Bob -> Alice : hello
+
+hide stereotype
+@enduml

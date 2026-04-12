@@ -1,0 +1,16 @@
+{
+  "sha1": "mxha5vbveg2weym9dqp7hv2wasyuw70",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.762Z",
+    "url": "https://forum.plantuml.net/10676/repeat-plus-colour",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "zuzogi-83-cipe968"
+}
+@startuml
+:A;
+repeat
+:B; <<#RED>>
+repeat while (C)
+:D;
+@enduml

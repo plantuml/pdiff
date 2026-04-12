@@ -1,0 +1,16 @@
+{
+  "sha1": "bvwfl4s6gqgrphfizdsco4xb33ps1sb",
+  "insertion": {
+    "when": "2024-05-30T20:48:22.170Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "zujuge-00-sida366"
+}
+@startuml
+activate C
+A -> B
+deactivate C
+activate C
+A -> B
+deactivate C
+@enduml

@@ -1,0 +1,11 @@
+{
+  "sha1": "gap6d1c6b8mvzk0awe38bo7ne1967ob",
+  "insertion": {
+    "when": "2024-06-01T09:03:07.508Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "rubeku-92-vefi942"
+}
+@startuml
+emoji 1f9
+@enduml

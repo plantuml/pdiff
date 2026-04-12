@@ -1,0 +1,20 @@
+{
+  "sha1": "tf9l3ll3nlvfo39qdplg1qj1pterjp7",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.366Z",
+    "url": "https://forum.plantuml.net/14589/possible-bug-in-nwdiag",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "zopebe-86-xusi460"
+}
+@startnwdiag
+nwdiag {
+
+  network {
+    web;
+    backend;
+  }
+
+  backend -- db;
+}
+@endnwdiag

@@ -1,0 +1,12 @@
+{
+  "sha1": "5j1fo86oarg5rvbmirzsyjnhzklhhxk",
+  "insertion": {
+    "when": "2024-05-30T20:48:20.750Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "rivake-42-lole723"
+}
+@startuml
+skinparam flashcode 1
+class Foo
+@enduml

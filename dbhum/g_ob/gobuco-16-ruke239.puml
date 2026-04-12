@@ -1,0 +1,15 @@
+{
+  "sha1": "etpqzj3es5vo2wqk8ivdqtsvthhi5mi",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.085Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "gobuco-16-ruke239"
+}
+@startuml
+class A
+class B
+
+A -> B : ab >\ncd <\n< ef\n> gh
+
+@enduml

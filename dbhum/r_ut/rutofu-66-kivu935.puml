@@ -1,0 +1,12 @@
+{
+  "sha1": "efkpb5n79bu2almr3saf9afd998huv4",
+  "insertion": {
+    "when": "2024-06-01T09:03:04.348Z",
+    "url": "https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "rutofu-66-kivu935"
+}
+@startjson
+[1, 2, true, false, 3]
+@endjson

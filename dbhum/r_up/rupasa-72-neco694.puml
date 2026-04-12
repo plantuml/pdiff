@@ -1,0 +1,12 @@
+{
+  "sha1": "1a408uafnmgmnp8dlum1c6awnf72w16",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.614Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "rupasa-72-neco694"
+}
+@startuml
+skinparam minClassWidth 400
+Alice -> Bob : hello
+@enduml

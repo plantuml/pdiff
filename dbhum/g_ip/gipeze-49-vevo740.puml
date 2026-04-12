@@ -1,0 +1,14 @@
+{
+  "sha1": "csop9tfsh98oabqusck8uezncsjchr5",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.996Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "gipeze-49-vevo740"
+}
+@startuml
+skinparam classFontName Impact
+'skinparam classFontName Wide Latin
+
+Alice <|-- Bob
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "hyqm01b0ac8k416q2eqmc1cfmonqw6v",
+  "insertion": {
+    "when": "2024-06-03T18:59:30.159Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "jedado-35-lobi482"
+}
+@startuml
+    alt
+    A2->A1
+    else
+    A2->A1
+@enduml

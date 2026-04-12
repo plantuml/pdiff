@@ -1,0 +1,15 @@
+{
+  "sha1": "kd06bbave2xrsjyfovhm0pto3l49xzy",
+  "insertion": {
+    "when": "2024-06-04T17:28:41.869Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "madome-67-xalu452"
+}
+@startuml
+start
+:er; <<output>>
+:<< Automobile >>
+Pinto;
+stop
+@enduml

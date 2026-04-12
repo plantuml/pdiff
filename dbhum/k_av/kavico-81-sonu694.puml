@@ -1,0 +1,11 @@
+{
+  "sha1": "97ohffsmukv1srkn63ee13ah7ozj30e",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.630Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "kavico-81-sonu694"
+}
+@startuml
+[A] –d-> [B]
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "j6p0avvi4635g7xtpl608dtntuxgppi",
+  "insertion": {
+    "when": "2024-06-03T18:59:31.544Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "foxobi-84-kuka636"
+}
+@startuml
+start
+while(15s timeout?) is (no)
+    -[#green]->
+endwhile (yes)
+@enduml

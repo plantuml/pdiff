@@ -1,0 +1,13 @@
+{
+  "sha1": "9c6egyi56bi1tgo8qv3npg8ryswdbv2",
+  "insertion": {
+    "when": "2024-05-30T20:48:21.650Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "lalizo-85-paxe277"
+}
+@startuml
+object job {
+status = |FAILED
+}
+@enduml 

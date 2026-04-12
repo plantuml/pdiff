@@ -1,0 +1,13 @@
+{
+  "sha1": "fvwbgl9kmd6qgprmxpdgp0wcvck831u",
+  "insertion": {
+    "when": "2024-06-01T09:03:01.681Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1436",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "jadamo-76-xabi141"
+}
+@startuml
+skinparam DefaultFontName "NotExistingFont", "jlm_cmmi10"
+Title Test: "NotExistingFont", "jlm_cmmi10"
+@enduml

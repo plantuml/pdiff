@@ -1,0 +1,12 @@
+{
+  "sha1": "jz2y5ss96w3xl1yqorn4u116hwuvs2u",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.388Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "kacura-85-tulu518"
+}
+@startuml
+Room o- Studient
+Room *-- Chair
+@enduml

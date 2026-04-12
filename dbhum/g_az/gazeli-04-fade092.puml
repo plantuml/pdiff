@@ -1,0 +1,15 @@
+{
+  "sha1": "8f6rf40jz6aizid5f8zgam46oviorg6",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.183Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "gazeli-04-fade092"
+}
+@startuml
+start
+:AIS a; <<input>>
+note left : foo
+note right : bar
+stop 
+@enduml

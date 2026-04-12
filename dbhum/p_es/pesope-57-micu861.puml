@@ -1,0 +1,21 @@
+{
+  "sha1": "s4ge7fdk47vmgxe3a2bb1dsnerqe9bj",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.645Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "pesope-57-micu861"
+}
+@startmindmap
+
+<style>
+node {
+    MinimumWidth 300
+}
+</style>
+* Hi
+** some
+** short but nice
+** ideas
+
+@endmindmap

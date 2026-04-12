@@ -1,0 +1,18 @@
+{
+  "sha1": "hoarsnhd9k8futvd66oalqhmmva3p4q",
+  "insertion": {
+    "when": "2024-08-30T14:53:37.831Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1428",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "pijode-83-tiba954"
+}
+@startuml
+class C1 $tag13 $tag1
+enum E1
+interface I1 $tag13
+C1 -- I1
+
+remove *
+restore $tag1
+@enduml

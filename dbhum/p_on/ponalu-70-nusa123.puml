@@ -1,0 +1,13 @@
+{
+  "sha1": "osdyzx82n875l1c0yo50idejt5dicvm",
+  "insertion": {
+    "when": "2024-06-04T17:28:40.224Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "ponalu-70-nusa123"
+}
+@startuml
+Bob -> Alice : hello
+create Dog
+Alice --> Dog : create
+@enduml

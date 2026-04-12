@@ -1,0 +1,11 @@
+{
+  "sha1": "1d1931njvxqz1d7ahohwp60mo046ali",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.646Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "savotu-93-feda836"
+}
+@startregex
+(\{([^{}]*))
+@endregex

@@ -1,0 +1,12 @@
+{
+  "sha1": "eunvsslpdicu72249nhzwyy9zvoaji5",
+  "insertion": {
+    "when": "2024-06-01T09:03:05.119Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "zirori-93-jefo337"
+}
+@startuml
+skinparam mode dark
+class foo
+@enduml

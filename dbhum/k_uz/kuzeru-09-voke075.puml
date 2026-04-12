@@ -1,0 +1,23 @@
+{
+  "sha1": "1c7m374efx7c6tlup9prd4awgryn8zz",
+  "insertion": {
+    "when": "2024-05-30T20:48:19.634Z",
+    "url": "https://forum.plantuml.net/10838/there-better-way-implement-while-loop-perprocess-function",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "kuzeru-09-voke075"
+}
+@startuml
+!procedure $foo($arg)
+:start;
+!while $arg==1
+  :foo1;
+  !$arg = $arg - 1
+!endwhile
+:end;
+!endprocedure
+
+:a;
+$foo(0)
+$foo(1)
+@enduml

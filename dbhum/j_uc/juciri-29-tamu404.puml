@@ -1,0 +1,16 @@
+{
+  "sha1": "qnsc0i5xi4cxunbb9ktatr3bmlonh64",
+  "insertion": {
+    "when": "2024-06-04T17:28:42.693Z",
+    "url": "https://github.com/plantuml/plantuml/issues/307",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "juciri-29-tamu404"
+}
+@startuml
+map CapitalCity {
+ UK => London
+ USA => Washington
+ Germany => Berlin
+}
+@enduml

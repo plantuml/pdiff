@@ -1,0 +1,13 @@
+{
+  "sha1": "k39u8424kclxdqk6ahls2670sbk1qa9",
+  "insertion": {
+    "when": "2024-06-03T18:59:32.558Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "fozoxu-26-fibu076"
+}
+@startuml
+(*) --> {
+  "toto1" --> "toto2"
+
+@enduml

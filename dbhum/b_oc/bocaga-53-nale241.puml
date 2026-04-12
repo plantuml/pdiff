@@ -1,0 +1,18 @@
+{
+  "sha1": "rcsn8xxziwakktjwi84kjqrzhd6o9i4",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.602Z",
+    "url": "https://github.com/plantuml/plantuml/issues/166",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "bocaga-53-nale241"
+}
+@startuml
+if(somecheck) then
+    end
+else
+endif
+:moreSomething;
+:moreStuff;
+stop
+@enduml

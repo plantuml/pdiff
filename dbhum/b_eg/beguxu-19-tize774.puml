@@ -1,0 +1,33 @@
+{
+  "sha1": "1x2hr2h0e2csq1lyuxkez3t2aijnm43",
+  "insertion": {
+    "when": "2024-06-04T17:28:43.722Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "beguxu-19-tize774"
+}
+@startuml
+skinparam state {
+BorderColor<<comp>> Black
+BackgroundColor<<comp>> Blue
+BorderColor<<simple>> Black
+BackgroundColor<<simple>> Green
+}
+state c<<simple>>
+state d<<simple>>
+c --> d : event
+ 
+state "a_1" as a<<comp>> {
+state x<<simple>>
+state y<<simple>>
+x --> y : ev
+}
+ 
+state "a_2" as b<<comp>> {
+state w<<simple>>
+state z<<simple>>
+w --> z : ev2
+}
+ 
+a --> b : ev3
+@enduml

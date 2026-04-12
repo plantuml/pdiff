@@ -1,0 +1,15 @@
+{
+  "sha1": "s64lrkjgjbv5f6195h9jtw3ajd47br0",
+  "insertion": {
+    "when": "2024-06-04T17:28:44.691Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "japeku-46-kulo799"
+}
+@startuml
+floating note
+      a,b,c
+end note
+:foo;
+
+@enduml

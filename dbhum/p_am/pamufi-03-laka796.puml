@@ -1,0 +1,25 @@
+{
+  "sha1": "c6hx7997753ilt2j85lw5jfby4miz2u",
+  "insertion": {
+    "when": "2024-06-01T09:03:00.935Z",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "pamufi-03-laka796"
+}
+@startuml
+skin plantuml
+start
+fork
+	:foo1;
+fork again
+	end
+endfork
+:this is on
+several <b>lines
+and very interesting;
+
+:on two
+lines;
+
+stop
+@enduml
