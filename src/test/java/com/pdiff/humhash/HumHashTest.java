@@ -12,92 +12,96 @@ class HumHashTest {
 
 	@Test
 	void testAllZeros() {
-		// "cacaca-000-cacaca" => all syllables are 0, number is 0
-		final HumHash humHash = HumHash.fromValue("cacaca-000-cacaca");
+		final HumHash humHash = HumHash.fromValue("cacaca-000-caca-00");
 		assertEquals(0L, humHash.getHash());
 	}
 
 	@Test
 	void testSameValueGivesSameHash() {
-		final HumHash h1 = HumHash.fromValue("bavicu-123-terazo");
-		final HumHash h2 = HumHash.fromValue("bavicu-123-terazo");
+		final HumHash h1 = HumHash.fromValue("bavicu-123-tera-45");
+		final HumHash h2 = HumHash.fromValue("bavicu-123-tera-45");
 		assertEquals(h1.getHash(), h2.getHash());
 	}
 
 	@Test
 	void testDifferentValuesGiveDifferentHash() {
-		final HumHash h1 = HumHash.fromValue("bavicu-123-terazo");
-		final HumHash h2 = HumHash.fromValue("bavicu-124-terazo");
+		final HumHash h1 = HumHash.fromValue("bavicu-123-tera-45");
+		final HumHash h2 = HumHash.fromValue("bavicu-124-tera-45");
 		assertNotEquals(h1.getHash(), h2.getHash());
 	}
 
 	@Test
 	void testHashIsPositive() {
-		final HumHash humHash = HumHash.fromValue("bavicu-123-terazo");
+		final HumHash humHash = HumHash.fromValue("bavicu-123-tera-45");
 		assertEquals(true, humHash.getHash() > 0);
 	}
 
 	@Test
 	void testMaxValue() {
-		// "zuzuzu-999-zuzuzu" => all syllables are 84, number is 999
-		final HumHash humHash = HumHash.fromValue("zuzuzu-999-zuzuzu");
+		final HumHash humHash = HumHash.fromValue("zuzuzu-999-zuzu-99");
 		assertEquals(true, humHash.getHash() > 0);
 	}
 
 	@Test
 	void testInvalidFormatNoDash() {
-		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("bavicu123terazo"));
+		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("bavicu123tera45"));
 	}
 
 	@Test
-	void testInvalidFormatTooShortLeft() {
-		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("bavi-123-terazo"));
+	void testInvalidFormatTooShortPart1() {
+		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("bavi-123-tera-45"));
 	}
 
 	@Test
-	void testInvalidFormatTooShortRight() {
-		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("bavicu-123-tera"));
+	void testInvalidFormatTooShortPart2() {
+		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("bavicu-123-te-45"));
 	}
 
 	@Test
-	void testInvalidFormatNumberTooShort() {
-		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("bavicu-12-terazo"));
+	void testInvalidFormatNumber1TooShort() {
+		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("bavicu-12-tera-45"));
+	}
+
+	@Test
+	void testInvalidFormatNumber2TooShort() {
+		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("bavicu-123-tera-4"));
 	}
 
 	@Test
 	void testInvalidSyllable() {
-		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("havicu-123-terazo"));
+		assertThrows(IllegalArgumentException.class, () -> HumHash.fromValue("havicu-123-tera-45"));
 	}
 
 	@Test
 	void testToValueAllZeros() {
-		final HumHash humHash = HumHash.fromValue("cacaca-000-cacaca");
-		assertEquals("cacaca-000-cacaca", humHash.toValue());
+		final HumHash humHash = HumHash.fromValue("cacaca-000-caca-00");
+		assertEquals("cacaca-000-caca-00", humHash.toValue());
 	}
 
 	@Test
 	void testToValueMaxValue() {
-		final HumHash humHash = HumHash.fromValue("zuzuzu-999-zuzuzu");
-		assertEquals("zuzuzu-999-zuzuzu", humHash.toValue());
+		final HumHash humHash = HumHash.fromValue("zuzuzu-999-zuzu-99");
+		assertEquals("zuzuzu-999-zuzu-99", humHash.toValue());
 	}
 
 	@Test
 	void testRoundTrip() {
-		final String value = "bavicu-123-terazo";
+		final String value = "bavicu-123-tera-45";
 		assertEquals(value, HumHash.fromValue(value).toValue());
 	}
 
 	@Test
 	void testRoundTripVariousValues() {
-		final String[] values = { "cacace-001-cabace", "zubeda-500-kidofu", "lusami-042-novexu" };
+		final String[] values = { "cacace-001-caba-07", "zubeda-500-kido-42", "lusami-042-nove-99" };
 		for (final String value : values)
 			assertEquals(value, HumHash.fromValue(value).toValue());
 	}
-
+	
 	@Test
 	void test1() {
 		final HumHash humHash = HumHash.fromContent(Arrays.asList("this is", "some data"));
-		assertEquals("nuzagi-459-gojavi", humHash.toValue());
+		assertEquals("jaloma-340-kini-47", humHash.toValue());
 	}
+
 
 }
