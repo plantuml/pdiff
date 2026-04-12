@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import java.util.Arrays;
+
 import org.junit.jupiter.api.Test;
 
 class HumHashTest {
@@ -90,6 +92,12 @@ class HumHashTest {
 		final String[] values = { "cacace-001-cabace", "zubeda-500-kidofu", "lusami-042-novexu" };
 		for (final String value : values)
 			assertEquals(value, HumHash.fromValue(value).toValue());
+	}
+
+	@Test
+	void test1() {
+		final HumHash humHash = HumHash.fromContent(Arrays.asList("this is", "some data"));
+		assertEquals("nuzagi-459-gojavi", humHash.toValue());
 	}
 
 }

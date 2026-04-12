@@ -1,5 +1,10 @@
 package com.pdiff.humhash;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class HumHash {
 
 	private final long hash;
@@ -31,6 +36,27 @@ public class HumHash {
 
 		return new HumHash(result);
 	}
+	
+	
+	public static HumHash fromContent(List<String> content) {
+		try {
+			MessageDigest digest = MessageDigest.getInstance("SHA-256");
+			final String contentString = content.stream().collect(Collectors.joining("\n"));
+			final byte[] hash = digest.digest(contentString.getBytes());
+			// Take the first 8 bytes as a positive long
+			long value = 0;
+			for (int i = 0; i < 8; i++)
+				value = (value << 8) | (hash[i] & 0xFF);
+			// Ensure positive and fit within the format range (85^6 * 1000)
+			value = Long.remainderUnsigned(value, 85L * 85 * 85 * 1000 * 85 * 85 * 85);
+			return new HumHash(value);
+		} catch (NoSuchAlgorithmException e) {
+			e.printStackTrace();
+			throw new RuntimeException(e);
+		}
+
+	}
+
 
 	public long getHash() {
 		return hash;
