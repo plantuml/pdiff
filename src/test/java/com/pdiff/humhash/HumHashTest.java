@@ -12,7 +12,7 @@ class HumHashTest {
 
 	@Test
 	void testAllZeros() {
-		final HumHash humHash = HumHash.fromValue("cacaca-00-caca000");
+		final HumHash humHash = HumHash.fromValue("bababa-00-baba000");
 		assertEquals(0L, humHash.getHash());
 	}
 
@@ -95,7 +95,7 @@ class HumHashTest {
 	@Test
 	void test1() {
 		final HumHash humHash = HumHash.fromContent(Arrays.asList("this is", "some data"));
-		assertEquals("jaloma-34-coge747", humHash.toValue());
+		assertEquals("jaloma-34-boge747", humHash.toValue());
 	}
 
 

@@ -9,25 +9,25 @@ class SyllabexTest {
 
 	@Test
 	void testFirstSyllable() {
-		assertEquals(0, Syllabex.toInt("ca"));
+		assertEquals(0, Syllabex.toInt("ba"));
 	}
 
 	@Test
 	void testSecondSyllable() {
-		assertEquals(1, Syllabex.toInt("ce"));
+		assertEquals(1, Syllabex.toInt("be"));
 	}
 
 	@Test
-	void testCiCocu() {
-		assertEquals(2, Syllabex.toInt("ci"));
-		assertEquals(3, Syllabex.toInt("co"));
-		assertEquals(4, Syllabex.toInt("cu"));
+	void testBibobu() {
+		assertEquals(2, Syllabex.toInt("bi"));
+		assertEquals(3, Syllabex.toInt("bo"));
+		assertEquals(4, Syllabex.toInt("bu"));
 	}
 
 	@Test
 	void testSecondConsonant() {
-		assertEquals(5, Syllabex.toInt("ba"));
-		assertEquals(6, Syllabex.toInt("be"));
+		assertEquals(5, Syllabex.toInt("ca"));
+		assertEquals(6, Syllabex.toInt("ce"));
 	}
 
 	@Test
@@ -48,12 +48,12 @@ class SyllabexTest {
 
 	@Test
 	void testToSyllableFirst() {
-		assertEquals("ca", Syllabex.toSyllable(0));
+		assertEquals("ba", Syllabex.toSyllable(0));
 	}
 
 	@Test
 	void testToSyllableSecond() {
-		assertEquals("ce", Syllabex.toSyllable(1));
+		assertEquals("be", Syllabex.toSyllable(1));
 	}
 
 	@Test
@@ -63,7 +63,7 @@ class SyllabexTest {
 
 	@Test
 	void testToSyllableSecondConsonant() {
-		assertEquals("ba", Syllabex.toSyllable(5));
+		assertEquals("ca", Syllabex.toSyllable(5));
 	}
 
 	@Test

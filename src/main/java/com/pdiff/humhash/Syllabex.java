@@ -2,7 +2,7 @@ package com.pdiff.humhash;
 
 public class Syllabex {
 	
-	private static final String CONSONANTS = "cbdfgjklmnprstvxz";
+	private static final String CONSONANTS = "bcdfgjklmnprstvxz";
 	private static final String VOWELS = "aeiou";
 
 	public static int toInt(String s) {
