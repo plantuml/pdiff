@@ -1,0 +1,26 @@
+{
+  "sha1": "922u71rdemb4l17duqmfdjz539eaicj",
+  "insertion": {
+    "when": "2026-04-16T14:44:08.636Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+wbsDiagram {
+  node {
+    AutoWidth true
+  }
+}
+</style>
+* Project
+** Planning
+*** Define scope
+*** Set milestones
+*** Allocate resources
+** Implementation
+*** Code
+*** Test
+*** Deploy to production environment
+** Review
+@endwbs

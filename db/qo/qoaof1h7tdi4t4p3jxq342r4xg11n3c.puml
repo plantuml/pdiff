@@ -1,0 +1,24 @@
+{
+  "sha1": "qoaof1h7tdi4t4p3jxq342r4xg11n3c",
+  "insertion": {
+    "when": "2026-04-16T14:44:08.634Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2661",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+arrow {
+  fontcolor red
+  MaximumWidth 150
+}
+</style>
+
+class OrderService
+class PaymentGateway
+class InventoryManager
+
+OrderService -> PaymentGateway : processes payment through external gateway service with validation
+PaymentGateway -> InventoryManager : updates stock levels after successful payment confirmation
+InventoryManager -> OrderService : returns availability status and reservation confirmation
+@enduml

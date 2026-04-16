@@ -1,8 +1,22 @@
 @echo off
 
 REM Define versions in variables
-set "version_old=1.2025.10"
-set "version_new=1.2025.11beta5"
+set "version_old=1.2026.2beta4"
+set "version_old=1.2026.1"
+set "version_new=1.2026.2beta5"
+
+set "version_old=1.2026.2"
+set "version_new=1.2026.3beta1"
+
+set "version_old=1.2026.3beta1"
+set "version_new=1.2026.3beta50"
+
+set "version_old=1.2026.3beta51"
+set "version_new=1.2026.3beta52"
+
+set "version_old=1.2026.3beta6"
+set "version_new=1.2026.3beta7"
+
 
 REM Display versions for verification
 echo Old version: %version_old%
@@ -11,7 +25,7 @@ echo New version: %version_new%
 REM Change directory and run Gradle to build the JAR
 cd ../plantuml
 echo Running Gradle task to build the JAR...
-call ./gradlew jar
+call ./gradlew clean jar
 
 REM Check if the Gradle command succeeded
 IF %ERRORLEVEL% NEQ 0 (
