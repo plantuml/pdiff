@@ -1,8 +1,8 @@
 @echo off
 
 REM Define versions in variables
-set "version_old=1.2025.10"
-set "version_new=1.2025.11beta5"
+set "version_old=1.2026.3beta7"
+set "version_new=1.2026.3beta8"
 
 REM Display versions for verification
 echo Old version: %version_old%
