@@ -15,28 +15,16 @@ import com.google.gson.JsonObject;
 
 public class DbCollection {
 
-	private final Path root;
-
 	private final Path rootHum;
 
 	public DbCollection() throws IOException {
-		this.root = Path.of("db");
 		this.rootHum = Path.of("dbhum");
-		Files.createDirectories(this.root);
 		Files.createDirectories(this.rootHum);
 	}
 
-	private Path getActualPath(String sha1) throws IOException {
-		final Path tmp = root.resolve(sha1.substring(0, 2));
-		Files.createDirectories(tmp);
-		final Path out = tmp.resolve(sha1 + ".puml");
-		return out;
-
-	}
-
 	public void insertSingleFile(String user, DbFileInsert dbFile) throws IOException {
-		final String sha1 = dbFile.getSha1();
-		final Path actualPath = getActualPath(sha1);
+		final String humhash = dbFile.getHumHash().toValue();
+		final Path actualPath = getHumPath(humhash);
 
 		if (Files.exists(actualPath) == false)
 			dbFile.exportTo(user, actualPath);
@@ -51,11 +39,9 @@ public class DbCollection {
 		Files.createDirectories(tmp);
 		return tmp.resolve(humhash + ".puml");
 	}
-	
-	
+
 	public String rewriteMe(DbFile file) throws IOException {
 		final String sha1 = file.getContentSha1();
-		final Path actualPath = getActualPath(sha1);
 		final String humhash = file.getHumHash().toValue();
 		final JsonObject jsonFromDb = file.getJsonFromDbClone();
 		jsonFromDb.addProperty("sha1", sha1);
@@ -65,22 +51,21 @@ public class DbCollection {
 		final List<String> list2 = List.of(gson.toJson(jsonFromDb));
 		final List<String> allLines = Stream.concat(list2.stream(), file.getContent().stream()).collect(Collectors.toList());
 
-		Files.write(actualPath, allLines);
 		Files.write(getHumPath(humhash), allLines);
-		return sha1;
+		return humhash;
 
 	}
 
 	public int count() throws IOException {
 		final AtomicInteger count = new AtomicInteger();
-		try (Stream<Path> paths = Files.walk(root)) {
+		try (Stream<Path> paths = Files.walk(rootHum)) {
 			paths.filter(Files::isRegularFile).forEach(p -> count.incrementAndGet());
 		}
 		return count.get();
 	}
 
 	public Stream<Path> pathStreams() throws IOException {
-		return Files.walk(root) //
+		return Files.walk(rootHum) //
 				.parallel() //
 				.filter(Files::isRegularFile) //
 				.filter(p -> p.toString().endsWith(".puml")) //

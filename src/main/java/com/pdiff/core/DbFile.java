@@ -36,6 +36,10 @@ public class DbFile implements Comparable<DbFile> {
 		return pumlPath.getFileName().toString();
 	}
 
+	final public String getSubDirName() {
+		return pumlPath.getParent().getFileName().toString();
+	}
+
 	final public String getJavaScriptPngPath() {
 		final Path newPath = pumlPath.subpath(1, pumlPath.getNameCount());
 		return newPath.toString().replace(".puml", ".png").replace('\\', '/');

@@ -14,6 +14,7 @@ import java.util.stream.Stream;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
+import com.pdiff.humhash.HumHash;
 
 public class DbFileInsert {
 
@@ -31,6 +32,10 @@ public class DbFileInsert {
 		return SHA1.calculateSHA1(content);
 	}
 
+	public HumHash getHumHash() {
+		return HumHash.fromContent(content);
+	}
+
 	public List<String> getContent() {
 		return Collections.unmodifiableList(content);
 	}
@@ -38,6 +43,7 @@ public class DbFileInsert {
 	public void exportTo(String user, Path path) throws IOException {
 		final JsonObject jsonObject = new JsonObject();
 		jsonObject.addProperty("sha1", getSha1());
+		jsonObject.addProperty("humhash", getHumHash().toValue());
 
 		final JsonObject insertion = new JsonObject();
 		final Instant instant = Instant.ofEpochMilli(System.currentTimeMillis());
