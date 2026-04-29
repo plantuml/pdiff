@@ -1,0 +1,27 @@
+{
+  "sha1": "922u71rdemb4l17duqmfdjz539eaicj",
+  "humhash": "migeju-58-zisi446",
+  "insertion": {
+    "when": "2026-04-29T09:31:08.479Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startwbs
+<style>
+wbsDiagram {
+  node {
+    AutoWidth true
+  }
+}
+</style>
+* Project
+** Planning
+*** Define scope
+*** Set milestones
+*** Allocate resources
+** Implementation
+*** Code
+*** Test
+*** Deploy to production environment
+** Review
+@endwbs

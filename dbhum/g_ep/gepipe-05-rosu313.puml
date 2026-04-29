@@ -1,0 +1,20 @@
+{
+  "sha1": "o5z4n0kya4f587trrvn0rlfwpmfmkry",
+  "humhash": "gepipe-05-rosu313",
+  "insertion": {
+    "when": "2026-04-29T09:31:08.441Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2622",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+
+<style>
+  participant {
+     Padding: 2 20
+     Margin: 0 50
+ }
+</style>
+
+Bob -> Alice : hello
+@enduml

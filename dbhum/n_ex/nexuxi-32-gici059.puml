@@ -1,0 +1,22 @@
+{
+  "sha1": "8fcwqw3acd6kqzxkp83vvu6d49qu6rc",
+  "humhash": "nexuxi-32-gici059",
+  "insertion": {
+    "when": "2026-04-29T09:31:08.469Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2661",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+arrow {
+  fontcolor red
+  MaximumWidth 150
+}
+</style>
+
+Alice -> Bob : sends a request with authentication credentials and session context
+Bob -> Charlie : forwards the validated request to the downstream processing service
+Charlie -> Alice : returns the aggregated response with pagination metadata
+Alice -> Alice : logs the complete request-response cycle for audit trail
+@enduml
