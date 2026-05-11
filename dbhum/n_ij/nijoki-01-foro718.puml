@@ -1,0 +1,14 @@
+{
+  "sha1": "hhtaa9641hzubl2d2qxwj35uyjmxrkr",
+  "humhash": "nijoki-01-foro718",
+  "insertion": {
+    "when": "2026-05-11T18:31:29.079Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2685",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator !
+class X
+Foo-bar --> X
+@enduml

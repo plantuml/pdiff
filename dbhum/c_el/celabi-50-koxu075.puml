@@ -1,0 +1,14 @@
+{
+  "sha1": "97mln2j6x5l8jp89kavgqbdtm41h586",
+  "humhash": "celabi-50-koxu075",
+  "insertion": {
+    "when": "2026-05-11T18:31:29.105Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2685",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator !
+class X
+Foo!bar --> X
+@enduml

@@ -1,0 +1,14 @@
+{
+  "sha1": "knsqglv4iq3w4v2h7u2nlkxfxbn0b4x",
+  "humhash": "jikuki-75-zeca397",
+  "insertion": {
+    "when": "2026-05-11T18:30:54.623Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2685",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator -
+class X
+Foo-bar-->X
+@enduml

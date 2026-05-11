@@ -1,0 +1,14 @@
+{
+  "sha1": "kik9hm36e0qa57vad0hl0mn4dni9gal",
+  "humhash": "noxotu-42-nemo882",
+  "insertion": {
+    "when": "2026-05-11T18:30:54.625Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2685",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator \\
+class X
+Foo\\bar --> X
+@enduml

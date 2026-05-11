@@ -1,0 +1,13 @@
+{
+  "sha1": "9qcmd0u59exthn3rjl8ta6tftp0lprn",
+  "humhash": "kinexa-49-koju220",
+  "insertion": {
+    "when": "2026-05-11T18:30:54.592Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2685",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+class X
+Foo-bar --> X
+@enduml

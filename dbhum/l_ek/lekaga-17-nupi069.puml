@@ -1,0 +1,14 @@
+{
+  "sha1": "45esz3eg1uzl4q0q7yf13cchiaaj0pb",
+  "humhash": "lekaga-17-nupi069",
+  "insertion": {
+    "when": "2026-05-11T18:30:54.621Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2685",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+set separator -
+class X
+Foo-bar --> X
+@enduml
