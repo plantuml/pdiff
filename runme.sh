@@ -13,7 +13,9 @@ echo "New version: $version_new"
 # Change directory and run Gradle to build the JAR
 cd ../plantuml || { echo "Cannot cd to ../plantuml"; exit 1; }
 echo "Running Gradle task to build the JAR..."
-./gradlew jar
+./gradlew patchCompilationInfo
+./gradlew clean jar
+git restore src/main/java/net/sourceforge/plantuml/version/CompilationInfo.java
 
 # Check if Gradle succeeded
 if [ $? -ne 0 ]; then
