@@ -1,0 +1,35 @@
+{
+  "sha1": "rerou7lf1j2xczb1jdffnqtbjo5mqvs",
+  "humhash": "zojoja-28-geta515",
+  "insertion": {
+    "when": "2026-05-15T21:03:26.242Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2681",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+stateDiagram {
+    BackGroundColor: lightblue;
+    name { FontColor: red; BackGroundColor: yellow;  }
+    description { FontColor: yellow; BackGroundColor: purple;  }
+    body { BackGroundColor: green; }
+}
+</style>
+state MainState1 {
+  MainState:this is description main
+  
+  state SubA
+  state SubA: this is description A
+  state SubB
+}
+
+state MainState2 {
+  
+  state SubC
+}
+
+state D
+
+SubC -->D 
+@enduml
