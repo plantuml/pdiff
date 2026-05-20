@@ -1,0 +1,14 @@
+{
+  "sha1": "8o7efddewuy6ev5cw4ixwdmq57oetp4",
+  "humhash": "nunagi-25-bemo527",
+  "insertion": {
+    "when": "2026-05-20T19:20:43.563Z",
+    "url": "https://github.com/plantuml/plantuml/pull/2713",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>element {BackgroundColor palegreen;  FontColor blue}</style>
+class Alice
+interface Bob
+@enduml
