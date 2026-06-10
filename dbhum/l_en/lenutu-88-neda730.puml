@@ -1,0 +1,15 @@
+{
+  "sha1": "cqp3jgn28qoogul5tjlz1e5shwfkw7z",
+  "humhash": "lenutu-88-neda730",
+  "insertion": {
+    "when": "2026-06-10T16:38:15.465Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2345",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+repeat :foo; <<#red>>
+:D;
+repeat while (C) <<#blue>>
+:D;
+@enduml
