@@ -1,0 +1,23 @@
+{
+  "sha1": "1vv7qoumj66qnfjydv0385xh7q6nh4e",
+  "humhash": "perame-17-cegu610",
+  "insertion": {
+    "when": "2026-06-10T18:55:19.743Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2681",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+stateDiagram {
+   .demo1 {
+      BackGroundColor: lightblue;
+      FontColor: red;
+   }
+}
+</style>
+
+state Foo1 <<demo1>>
+state Foo2 <<BackGroundColor: lightblue; FontColor: red;>>
+
+@enduml

@@ -1,0 +1,38 @@
+{
+  "sha1": "3yqmiym1qualncfzfrwi1puvedhi4kg",
+  "humhash": "jabelo-91-gazu657",
+  "insertion": {
+    "when": "2026-06-10T18:55:19.741Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2681",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+stateDiagram {
+Linecolor violet
+  name {
+    BackGroundColor aliceblue
+    Fontcolor red
+    FontSize 15
+    FontStyle bold
+    FontName Sansserif
+  }
+  description {
+    Fontcolor blue
+    FontStyle italic
+    FontName Serif
+    BackGroundColor palegreen
+  }
+  start {BackGroundColor silver}
+  end {BackGroundColor gold}
+}
+</style>
+
+state A : a a a\na
+state B : b b b\nb
+
+[*] -> A  : start
+A -> B : a2b
+B -> [*] : end
+@enduml

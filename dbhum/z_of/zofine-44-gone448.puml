@@ -1,0 +1,36 @@
+{
+  "sha1": "j6ttj7x4gjcid894jlj3z8d36racbuv",
+  "humhash": "zofine-44-gone448",
+  "insertion": {
+    "when": "2026-06-10T18:55:19.713Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2681",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+stateDiagram {
+   .demo1 {
+      BackGroundColor: lightblue;
+      FontColor: red;
+   }
+}
+</style>
+
+state blue <<#blue>>
+
+state Foo1 <<demo1>> <<##[dotted]blue>> {
+}
+
+state Foo2 <<##[dotted]green>> <<#purple>> {
+  state inner1 <<##[dotted]yellow>>
+}
+
+state out <<##[dotted]gold>> <<###green>>
+
+state Foo3 <<##[bold]green>> {
+  state inner2 <<##[dotted]yellow>>
+}
+
+out --> Foo3.inner2
+@enduml
