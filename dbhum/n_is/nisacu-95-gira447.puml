@@ -1,0 +1,19 @@
+{
+  "sha1": "2xw2dgo1gzz5ros8g27vr02qam8v537",
+  "humhash": "nisacu-95-gira447",
+  "insertion": {
+    "when": "2026-06-11T14:03:39.304Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1973",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+projectscale quarterly zoom 7
+
+Project starts the 2024/11/07 
+[Task1] on {Alice} requires 100 days
+[Task2] on {Bob:50%} requires 20 days
+then [Task3] on {Alice:25%} requires 10 days
+then [Task4] on {Alice:25%} {Bob} requires 10 days
+
+@endgantt
