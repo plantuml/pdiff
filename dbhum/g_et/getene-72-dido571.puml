@@ -1,0 +1,24 @@
+{
+  "sha1": "bsi6fqkvjwcdv5ccg9gc0depp2k5zmw",
+  "humhash": "getene-72-dido571",
+  "insertion": {
+    "when": "2026-06-26T15:57:00.659Z",
+    "url": "https://forum.plantuml.net/7516",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|swimlane 1|
+start
+
+repeat
+label dummylab
+|swimlane 2|
+  :read data;
+|swimlane 1|
+  :generate diagrams;
+repeat while (more data?)
+
+stop
+
+@enduml
