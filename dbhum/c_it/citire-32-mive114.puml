@@ -1,0 +1,20 @@
+{
+  "sha1": "o0xrsmw2jtnb748hdgny5sdm4l05p74",
+  "humhash": "citire-32-mive114",
+  "insertion": {
+    "when": "2026-06-26T15:37:46.722Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2739",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+|A1|
+|A2|
+repeat
+:action 3;
+|A1|
+backward:action 4;
+|A2|
+repeat while (All checks pass?) is (no) not (yes)
+:next action;
+@enduml

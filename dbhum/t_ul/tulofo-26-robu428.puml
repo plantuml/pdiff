@@ -1,0 +1,22 @@
+{
+  "sha1": "ox0bwk5425g6p5awast4a5j8v62wmfp",
+  "humhash": "tulofo-26-robu428",
+  "insertion": {
+    "when": "2026-06-26T15:37:46.749Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+<style>
+activityDiagram {
+   .demo1 {
+      BackGroundColor: lightblue;
+      FontColor: red;
+   }
+}
+</style>
+
+- Foo1 <<demo1>>
+- Foo2 <<BackGroundColor: lightblue; FontColor: red;>>
+
+@enduml
