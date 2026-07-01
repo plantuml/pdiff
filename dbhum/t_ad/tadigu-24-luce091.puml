@@ -1,0 +1,18 @@
+{
+  "sha1": "5t2xv03v3ealrfp3778mlgai65289r2",
+  "humhash": "tadigu-24-luce091",
+  "insertion": {
+    "when": "2026-07-01T21:04:03.575Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1887",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startgantt
+Project starts 2024-09-19
+saturday are closed
+sunday are closed
+
+From 8:00 to 12:00 are working hours
+From 14:00 to 18:00 are working hours
+[Task 1] starts 2024-09-19 10:30:46 and lasts 5 days 1 minute
+@endgantt
