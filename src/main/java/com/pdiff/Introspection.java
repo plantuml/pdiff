@@ -55,4 +55,24 @@ public class Introspection {
 		}
 	}
 
+	public static Class<?> getType(final Path outputPathPng, final String text) throws Exception {
+
+		final Class<?> readerClass = Class.forName("net.sourceforge.plantuml.SourceStringReader");
+
+		final Constructor<?> readerConstructor = readerClass.getConstructor(String.class);
+		final Object readerInstance = readerConstructor.newInstance(text);
+
+		try (OutputStream png = Files.newOutputStream(outputPathPng)) {
+			// Introspection on getBlocks()
+			final Method getBlocksMethod = readerClass.getMethod("getBlocks");
+			final List<?> blocks = (List<?>) getBlocksMethod.invoke(readerInstance);
+			final Object firstBlock = blocks.get(0);
+			final Method getDiagramMethod = firstBlock.getClass().getMethod("getDiagram");
+			final Object diagram = getDiagramMethod.invoke(firstBlock);
+			final Class<?> diagramClass = diagram.getClass();
+			return diagramClass;
+
+		}
+	}
+
 }

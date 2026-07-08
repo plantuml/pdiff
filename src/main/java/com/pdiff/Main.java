@@ -1,26 +1,25 @@
 package com.pdiff;
 
-import java.io.IOException;
-
 import org.fusesource.jansi.AnsiConsole;
 
 import com.beust.jcommander.JCommander;
 
 public class Main {
 
-	public static void main(String[] args) throws IOException, InterruptedException {
-		// Initialiser la console Jansi
+	public static void main(String[] args) throws Exception {
 		AnsiConsole.systemInstall();
 
 		final InsertCommand insertCommand = new InsertCommand();
 		final RunCommand runCommand = new RunCommand();
 		final DiffCommand diffCommand = new DiffCommand();
 		final RenumberCommand renumberCommand = new RenumberCommand();
+		final VegaCommand vegaCommand = new VegaCommand();
 
 		final JCommander commander = JCommander.newBuilder() //
 				.addCommand("insert", insertCommand) //
 				.addCommand("run", runCommand) //
 				.addCommand("diff", diffCommand) //
+				.addCommand("vega", vegaCommand) //
 				.addCommand("renumber", renumberCommand).build();
 
 		commander.parse(args);
@@ -34,6 +33,8 @@ public class Main {
 			diffCommand.doit();
 		} else if ("renumber".equals(parsedCommand)) {
 			renumberCommand.doit();
+		} else if ("vega".equals(parsedCommand)) {
+			vegaCommand.doit();
 		} else {
 			commander.usage();
 		}

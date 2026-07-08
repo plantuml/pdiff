@@ -43,9 +43,26 @@ public class DbFileBeforeRun extends DbFile {
 		return res.get();
 	}
 
-	public long convertMe(int minimalPrefix, boolean onlyPerf) throws Exception {
+	public String getType() throws Exception {
+		List<String> all = getAllLines();
+
+		final String text = String.join("\n", all);
+		final Path outputPathPng = transformPath(getPumlPath(), ".png");
+		Files.createDirectories(outputPathPng.getParent());
+
+		final Class<?> outputRun = Introspection.getType(outputPathPng, text);
+		return outputRun.getSimpleName();
+
+	}
+
+	public List<String> getAllLines() throws IOException {
 		List<String> all = Files.readAllLines(getPumlPath());
 		all = all.subList(DbCollection.getStartingLine(all), all.size());
+		return all;
+	}
+
+	public long convertMe(int minimalPrefix, boolean onlyPerf) throws Exception {
+		List<String> all = getAllLines();
 
 		final String text = String.join("\n", all);
 		final Path outputPathPng = transformPath(getPumlPath(), ".png");
@@ -77,9 +94,8 @@ public class DbFileBeforeRun extends DbFile {
 
 		final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		Files.write(outputPathJson, List.of(gson.toJson(jsonObject)));
-		
+
 		DbFileAfterRun.cache(outputPathJson, jsonObject);
-		
 
 		return sizeInBytes;
 

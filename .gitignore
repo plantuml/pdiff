@@ -20,3 +20,4 @@ svek.*
 *.patch
 python/output
 runs.old
+vega
