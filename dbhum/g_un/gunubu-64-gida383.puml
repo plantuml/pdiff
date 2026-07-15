@@ -1,0 +1,21 @@
+{
+  "sha1": "gud9u2bl3bcp3pneep1crhogayyrp9b",
+  "humhash": "gunubu-64-gida383",
+  "insertion": {
+    "when": "2026-07-15T19:00:44.540Z",
+    "url": "https://github.com/plantuml/plantuml/issues/293",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma teoz true
+!pragma sequenceMessageSpan true
+skinparam ParticipantPadding 40
+participant a
+participant b
+participant c
+participant d
+c -> a  : Send(GetPublisherPortRequest<topic>, Comm Mgt port)
+a -> d  : send GetPublisherPortRequest<topic>
+d --> a : receive GetPublisherPortREsponse<pubPort>
+@enduml

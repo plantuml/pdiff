@@ -1,0 +1,16 @@
+{
+  "sha1": "2ppivah50j4u2aqysxop3tkl39e1ayt",
+  "humhash": "cibeni-93-fepo549",
+  "insertion": {
+    "when": "2026-07-15T19:00:44.507Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2776",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+alice -> bob ++ : hello
+return
+
+alice -> bob: destroy bob
+destroy bob
+@enduml

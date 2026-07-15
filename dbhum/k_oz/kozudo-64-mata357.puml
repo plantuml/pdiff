@@ -1,0 +1,13 @@
+{
+  "sha1": "9b96r2ltf9ngc9hie7kak65q7n28dnv",
+  "humhash": "kozudo-64-mata357",
+  "insertion": {
+    "when": "2026-07-15T19:00:44.539Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2162",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+X -> X
+destroy Y
+@enduml

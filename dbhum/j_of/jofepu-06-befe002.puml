@@ -1,0 +1,15 @@
+{
+  "sha1": "sczwu3b91620msq2m0xz4p3ff04qfx8",
+  "humhash": "jofepu-06-befe002",
+  "insertion": {
+    "when": "2026-07-15T19:00:44.535Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2754",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+:a2; [[http://plantuml.com]]
+:l1
+l2
+l3; [[http://plantuml.com]]
+@enduml

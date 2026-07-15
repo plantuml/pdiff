@@ -1,0 +1,54 @@
+{
+  "sha1": "oo84v08fr0oay12xzk7d8xng3uafnsc",
+  "humhash": "cafiju-51-beke224",
+  "insertion": {
+    "when": "2026-07-15T19:00:44.536Z",
+    "url": "https://github.com/plantuml/plantuml/issues/863",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+
+skinparam state {
+  BackgroundColor<<Reduced>> #BBD7B7
+  BorderColor<<Reduced>> Green
+  BackgroundColor<<Synthetic>> PowderBlue
+  BorderColor<<Synthetic>> DodgerBlue
+  BackgroundColor<<ToReduce>> Orange
+  BorderColor<<ToReduce>> #FF740E
+}
+skinparam BackgroundColor #2B2B2B
+skinparam state {
+  StartColor #999999
+  BackgroundColor #D6BF55
+  BorderColor #F6DF57
+}
+skinparam sequence {
+  ArrowColor #999999
+  ArrowFontColor #AAAAAA
+}
+state "STATEMENTS : 1" as state_1<<Reduced>>
+state_1 : predecessors = [0]
+state "RETURN : 6" as state_6<<Reduced>>
+state_6 : predecessors = [7]
+state "LOOP : 7" as state_7 {
+[*] --> state_2
+state "CONDITION : 8" as state_8<<Reduced>>
+state "STATEMENTS : 3" as state_3<<Reduced>>
+state_3 : predecessors = [2]
+state "IF : 2" as state_2<<Reduced>>
+state "LOOP_START" as start_loop_state_3
+state_3 --> start_loop_state_3 : next
+state_2 --> state_8 : condition
+state "LOOP_END" as end_loop_state_2
+state_2 --> end_loop_state_2 : next
+state_2 --> state_3 : then
+}
+state_7 : fromOffset = 7
+state_7 : toOffset = 28
+state_7 : predecessors = [1]
+[*] --> state_1
+state_1 --> state_7 : next
+state_7 --> state_6 : next
+@enduml
