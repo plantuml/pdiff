@@ -1,0 +1,15 @@
+{
+  "sha1": "d1rsls1jh67r4sm8z53dll1rne2836a",
+  "humhash": "tekede-18-nebi202",
+  "insertion": {
+    "when": "2026-07-25T21:52:22.337Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2795",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+card a
+card b
+a --> b
+@enduml

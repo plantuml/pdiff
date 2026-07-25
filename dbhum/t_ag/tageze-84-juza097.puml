@@ -1,0 +1,15 @@
+{
+  "sha1": "be9jgkgykwwxuk3u8t0sr8t5l76d7ej",
+  "humhash": "tageze-84-juza097",
+  "insertion": {
+    "when": "2026-07-25T21:52:22.350Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2795",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+class A
+class B
+A --{ B
+@enduml

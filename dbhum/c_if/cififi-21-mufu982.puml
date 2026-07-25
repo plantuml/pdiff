@@ -1,0 +1,22 @@
+{
+  "sha1": "bfzlci69rzqfdlni2dw4pcqngib2gwg",
+  "humhash": "cififi-21-mufu982",
+  "insertion": {
+    "when": "2026-07-25T21:52:22.351Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2795",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+class A
+class B
+class C
+class D
+A -->> B
+A --> C
+A *-- D
+A --{ B
+A --|> C
+A --o D
+@enduml

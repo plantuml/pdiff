@@ -1,0 +1,15 @@
+{
+  "sha1": "3l9747btj1ime6ce1prp2es4h79a6q",
+  "humhash": "sazuki-33-fuja464",
+  "insertion": {
+    "when": "2026-07-25T21:52:22.320Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2795",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+card a
+card b
+a -->> b
+@enduml
