@@ -1,0 +1,18 @@
+{
+  "sha1": "j721wf1cqt2p1eyjwgkdpa55wxil6e4",
+  "humhash": "vokuni-37-zemu597",
+  "insertion": {
+    "when": "2026-07-25T16:32:32.629Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2791",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+box "Box A"
+  participant a
+endbox
+
+a->a : msg
+a<-a : long long long long long msg
+
+@enduml

@@ -1,0 +1,35 @@
+{
+  "sha1": "g8xz62z1pnh6ss88wcw0qy6p2vrpukj",
+  "humhash": "bukevi-88-seta912",
+  "insertion": {
+    "when": "2026-07-25T16:32:32.603Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2062",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+!pragma layout smetana
+package  a {
+	class b
+}
+package  a1 {
+	class b1
+}
+package  c {
+package  d {
+	class e
+	class f
+	class g
+}
+package  d2 {
+	class e2
+	class f2
+	class g2
+}
+}
+
+a --> a1
+a1 -[#red]-> c
+c --> z
+
+@enduml

@@ -1,0 +1,16 @@
+{
+  "sha1": "675nz0sekaicfxhlsox0mxd7uhs26ec",
+  "humhash": "jikuka-95-taki027",
+  "insertion": {
+    "when": "2026-07-25T16:32:32.632Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2789",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A->B
+opt
+  B->C: test
+  B->C: test
+end
+@enduml

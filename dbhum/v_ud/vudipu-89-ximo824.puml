@@ -1,0 +1,17 @@
+{
+  "sha1": "p6th94qex3b27kvz2tsel4k05y96ni2",
+  "humhash": "vudipu-89-ximo824",
+  "insertion": {
+    "when": "2026-07-25T16:32:32.632Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2788",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+x -> x: start
+group test
+a -> b: 1
+b -> c: 2
+end
+d -> d: next
+@enduml

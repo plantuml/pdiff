@@ -1,0 +1,17 @@
+{
+  "sha1": "rfunbuockt6ji0eluopzq4iqiu69oih",
+  "humhash": "bodazo-47-febi085",
+  "insertion": {
+    "when": "2026-07-25T16:32:32.631Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2789",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+A->B
+opt
+  B->C: test
+  ...
+  B->C: test
+end
+@enduml

@@ -1,0 +1,20 @@
+{
+  "sha1": "l8r1pzgwr3z8t4mtmgr34yrx76m043f",
+  "humhash": "mecofu-74-rita871",
+  "insertion": {
+    "when": "2026-07-25T16:32:32.561Z",
+    "url": "https://github.com/plantuml/plantuml/issues/1443",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+  alt
+    Axxx ->Axxx2 : message1 which is long
+    Axxx ->Axxx2 : message1 which is long
+    Axxx ->Axxx2 : message1 which is long
+  else
+	  Bxxx ->Cxxx : message2
+  end
+
+Cxxx -> Dxxx : message4
+@enduml

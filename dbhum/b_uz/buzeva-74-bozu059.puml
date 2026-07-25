@@ -1,0 +1,15 @@
+{
+  "sha1": "1qifgts4d3tps2ebfcg9xnt6crogtb8",
+  "humhash": "buzeva-74-bozu059",
+  "insertion": {
+    "when": "2026-07-25T16:32:32.636Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2787",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+x -> x: start
+& group test
+a -> b: 1
+end
+@enduml

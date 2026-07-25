@@ -1,0 +1,23 @@
+{
+  "sha1": "hikulqrjca7ujiwdsy1vcbldone20t1",
+  "humhash": "bimimo-07-fego854",
+  "insertion": {
+    "when": "2026-07-25T16:32:32.634Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2787",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+autoactivate on
+loop 1 to n
+a-> b: hi
+end
+
+loop 1 to n
+b->c : broken
+end
+
+& loop 1 to n
+e->f : broken
+end
+@enduml
