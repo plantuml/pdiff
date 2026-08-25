@@ -1,0 +1,22 @@
+{
+  "sha1": "7yzowz38ivq5946xsflo5eeqypwt7kt",
+  "humhash": "tolemo-31-guro077",
+  "insertion": {
+    "when": "2026-08-25T17:32:07.180Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2791",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+box "component"
+  box "sub1"
+    participant a
+  endbox
+  box "sub2"
+    participant b
+  endbox
+end box
+a->b : msg
+a->a : 
+b<-b
+@enduml
