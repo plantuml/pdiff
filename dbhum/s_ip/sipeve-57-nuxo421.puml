@@ -1,0 +1,19 @@
+{
+  "sha1": "7lge3appn4d7exfccpcfuhan2ct3o6u",
+  "humhash": "sipeve-57-nuxo421",
+  "insertion": {
+    "when": "2026-08-25T16:40:28.019Z",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant User as user
+participant WF as wf
+participant I as i
+
+alt
+note across: note1
+wf -> user: msg1
+end
+
+@enduml
