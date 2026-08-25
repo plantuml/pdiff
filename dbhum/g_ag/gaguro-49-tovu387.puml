@@ -1,0 +1,18 @@
+{
+  "sha1": "kitseyuhibt9j2ti3jh5ykhm43f12j7",
+  "humhash": "gaguro-49-tovu387",
+  "insertion": {
+    "when": "2026-08-25T17:27:54.996Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2788",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+x -> x: start
+group test
+a -> b: 1
+a <- a
+c -> c: 2
+end
+d -> d: next
+@enduml

@@ -1,0 +1,18 @@
+{
+  "sha1": "f912uaomawasi34ykcw6yak1ota632w",
+  "humhash": "fukudi-68-movo060",
+  "insertion": {
+    "when": "2026-08-25T17:27:55.022Z",
+    "url": "https://github.com/plantuml/plantuml/issues/2788",
+    "user": "plantuml@gmail.com"
+  }
+}
+@startuml
+participant x
+group test
+a -> b: 1
+a <- a
+c -> c: 2
+end
+d -> d: next
+@enduml
