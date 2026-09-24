@@ -1,0 +1,54 @@
+{
+  "sha1": "jbs7gyrd1o6b1ph4enhcgv7eeg5srrt",
+  "insertion": {
+    "when": "2024-06-04T17:28:39.645Z",
+    "url": "https://forum.plantuml.net/15544/stereotype-priorities-changed-compared-implementations",
+    "user": "plantuml@gmail.com"
+  },
+  "humhash": "sogito-29-vilu841"
+}
+@startuml
+    ' The last declared stereotype style wins, whatever the order of the
+    ' stereotypes on the element: <<Default>> is declared first so that
+    ' <<RedContainer>> wins over it, and <<GreenContainer>> wins over
+    ' <<RedContainer>>.
+    skinparam rectangle<<Default>> {
+        StereotypeFontColor blue
+        FontColor blue
+    }
+
+    skinparam rectangle<<RedContainer>> {
+        StereotypeFontColor red
+        FontColor red
+        BackgroundColor lightred
+        BorderColor darkred
+        RoundCorner 0
+        DiagonalCorner 18
+    }
+
+    skinparam rectangle<<GreenContainer>> {
+        StereotypeFontColor green
+        FontColor green
+        BackgroundColor lightgreen
+        BorderColor darkgreen
+        RoundCorner 15
+        DiagonalCorner 0
+    }
+
+    ' "red again container" has the same stereotypes as "green container":
+    ' a hidden <<RedFirst>> stereotype, declared last, makes it red.
+    skinparam rectangle<<RedFirst>> {
+        StereotypeFontColor red
+        FontColor red
+        BackgroundColor lightred
+        BorderColor darkred
+        RoundCorner 0
+        DiagonalCorner 18
+    }
+    hide <<RedFirst>> stereotype
+
+    rectangle "==red container" <<RedContainer>><<Default>> as rC
+    rectangle "==default container" <<container>><<Default>> as r
+    rectangle "==green container" <<GreenContainer>><<RedContainer>> as gC
+    rectangle "==red again container" <<RedContainer>><<GreenContainer>><<RedFirst>> as rC2
+@enduml

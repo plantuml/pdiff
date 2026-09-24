@@ -1,11 +1,11 @@
 {
-  "sha1": "3azlbfnqmh27f1s828gqnyinqo6go8p",
+  "sha1": "m3lvu44ldvyszs4bt7utak8km421mzs",
   "insertion": {
     "when": "2024-05-30T20:48:20.222Z",
     "url": "http://forum.plantuml.net/8612/teoz-wrong-note-position-after-array",
     "user": "plantuml@gmail.com"
   },
-  "humhash": "loteba-26-konu854"
+  "humhash": "vubuno-80-muku518"
 }
 @startuml
 !pragma teoz true
@@ -16,7 +16,7 @@ note right of Alice: NOTE1
 & Bob -> Alice : Hello1
 
 Bob -> Alice : Hello2
-/ note right of Alice: NOTE2
+& note right of Alice: NOTE2
 
 
 Bob -> Alice ++ #red: hello3
